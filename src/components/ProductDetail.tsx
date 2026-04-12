@@ -48,11 +48,11 @@ export function ProductDetail({ product: p }: ProductDetailProps) {
           {/* Grid info */}
           <div className="grid grid-cols-2 gap-3 bg-background border border-border rounded-lg p-3">
             {Object.entries(d.grid).map(([key, val]) => (
-              <div key={key} className="min-w-0">
+              <div key={key} className="min-w-0 overflow-hidden">
                 <p className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">
                   {key}
                 </p>
-                <p className="text-xs mt-0.5 break-words">{val}</p>
+                <p className="text-xs mt-0.5 [overflow-wrap:anywhere]">{val}</p>
               </div>
             ))}
           </div>
