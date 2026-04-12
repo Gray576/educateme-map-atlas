@@ -46,13 +46,13 @@ export function ProductDetail({ product: p }: ProductDetailProps) {
         {/* Right column */}
         <div className="space-y-4">
           {/* Grid info */}
-          <div className="grid grid-cols-2 gap-3 bg-background border border-border rounded-lg p-3">
+          <div className="grid grid-cols-1 gap-y-3 bg-background border border-border rounded-lg p-3">
             {Object.entries(d.grid).map(([key, val]) => (
-              <div key={key} className="min-w-0">
+              <div key={key}>
                 <p className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">
                   {key}
                 </p>
-                <p className="text-xs mt-0.5 break-all">{val}</p>
+                <p className="text-xs mt-0.5">{val}</p>
               </div>
             ))}
           </div>
