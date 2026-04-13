@@ -7,9 +7,6 @@ import { Button } from "@/components/ui/button";
 import { InfoHint } from "@/components/ui/info-hint";
 import {
   COMPOSITE_METRICS,
-  getArchetypeGuide,
-  getOperatorDifficultyLabel,
-  getOperatorDifficultyTone,
   getPresetLabel,
   RAW_LOAD_FACTORS,
 } from "@/lib/research-metadata";
@@ -112,7 +109,6 @@ export function ExplainabilityDrawer({
 
   const reasoning = buildDrawerReasoning(product, preset);
   const topConflicts = product.sourceCard.claim_conflicts.slice(0, 3);
-  const archetypeGuide = getArchetypeGuide(product.archetype.id);
 
   return (
     <div className="fixed inset-0 z-50 flex justify-end">
@@ -145,18 +141,6 @@ export function ExplainabilityDrawer({
                     {product.subsidyStateBadge}
                   </Badge>
                 ) : null}
-                <Badge variant="outline" className="rounded-lg px-2.5 py-1 text-xs" title={product.archetype.label}>
-                  {product.archetype.shortLabel}
-                </Badge>
-                <span
-                  title={`Operator guide: ${product.archetype.operatorDifficultySourceLabel}`}
-                  className={cn(
-                    "inline-flex rounded-lg px-2.5 py-1 text-xs font-semibold",
-                    getOperatorDifficultyTone(product.archetype.operatorDifficulty)
-                  )}
-                >
-                  {getOperatorDifficultyLabel(product.archetype.operatorDifficulty)}
-                </span>
                 <span className={cn("inline-flex rounded-lg px-2.5 py-1 text-xs font-semibold", scoreTone(product.scores.founderRank))}>
                   Founder {formatScore(product.scores.founderRank)}
                 </span>
@@ -247,75 +231,6 @@ export function ExplainabilityDrawer({
                   </div>
                 </div>
               </section>
-            </div>
-          </section>
-
-          <section className="rounded-md border border-border bg-card p-3">
-            <h3 className="text-sm font-semibold">Archetype layer</h3>
-            <div className="mt-2 grid gap-2.5 md:grid-cols-2">
-              <DetailCard
-                label="Archetype"
-                value={product.archetype.label}
-                hint="Derived taxonomy layer used for filtering, grouping and explainability only."
-              />
-              <DetailCard
-                label="Pilot operating complexity"
-                value={getOperatorDifficultyLabel(product.archetype.operatorDifficulty)}
-                hint="Easy / Medium / Hard bucket from the archetype operator guide."
-              />
-              <DetailCard
-                label="Operator difficulty basis"
-                value={`${getOperatorDifficultyLabel(product.archetype.operatorDifficulty)} (${product.archetype.operatorDifficultySourceLabel})`}
-                hint="Color bucket from the operator guide. This does not affect ranking in v1."
-              />
-              <DetailCard
-                label="Assignment confidence"
-                value={`${Math.round(product.archetype.confidence * 100)}%`}
-                hint={product.archetype.ruleApplied}
-              />
-              <DetailCard
-                label="Matched keywords"
-                value={product.archetype.matchedKeywords.length > 0 ? product.archetype.matchedKeywords.slice(0, 4).join(", ") : "No direct keywords stored"}
-                hint="Keyword hits are a supporting trace, not source truth."
-              />
-            </div>
-
-            <div className="mt-3">
-              <p className="text-xs font-medium">Source signals used</p>
-              <div className="mt-2 space-y-2">
-                {product.archetype.sourceSignals.length > 0 ? (
-                  product.archetype.sourceSignals.slice(0, 4).map((signal, index) => (
-                    <div key={`${signal.field}-${index}`} className="rounded-xl border border-border bg-background px-3 py-2.5">
-                      <p className="text-[11px] uppercase tracking-[0.08em] text-muted-foreground">{signal.field}</p>
-                      <p className="mt-1 text-xs leading-5 text-foreground">{signal.value}</p>
-                    </div>
-                  ))
-                ) : (
-                  <p className="text-xs text-muted-foreground">No source signals bundled for this derived assignment.</p>
-                )}
-              </div>
-            </div>
-          </section>
-
-          <section className="rounded-md border border-border bg-card p-3">
-            <h3 className="text-sm font-semibold">Archetype guide</h3>
-            <div className="mt-2 grid gap-2.5 md:grid-cols-2">
-              <DetailCard
-                label="Что это такое"
-                value={archetypeGuide.whatItIs}
-              />
-              <DetailCard
-                label="Типовая воронка"
-                value={archetypeGuide.typicalFunnel}
-              />
-              <DetailCard
-                label="Как выглядит ранний успех"
-                value={archetypeGuide.earlySuccess.join(", ")}
-              />
-              <DetailCard
-                label="Ключевые метрики"
-                value={archetypeGuide.keyMetrics.join(", ")}
-              />
             </div>
           </section>
 
