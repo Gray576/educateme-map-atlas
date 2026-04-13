@@ -1,15 +1,11 @@
 "use client";
 
+import type { ReactNode } from "react";
 import { Fragment, useMemo, useState } from "react";
 import { ChevronDown, ChevronRight, ChevronsUpDown, Lock } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
 import { InfoHint } from "@/components/ui/info-hint";
 import { ProductDetail } from "@/components/ProductDetail";
-import {
-  formatCurrency,
-  formatHalfLife,
-  formatScore,
-} from "@/lib/decision";
+import { formatCurrency, formatHalfLife, formatScore } from "@/lib/decision";
 import { cn } from "@/lib/utils";
 import type { EnrichedProduct, Preset, SortState } from "@/types";
 
@@ -20,26 +16,34 @@ interface ProductTableProps {
   onSortChange: (state: SortState) => void;
 }
 
-const MODEL_CLASS = {
-  B2B: "border-border bg-muted text-muted-foreground",
-  B2C: "border-border bg-muted text-muted-foreground",
-  B2B2C: "border-border bg-muted text-muted-foreground",
-} as const;
-
-const MARKET_CLASS = {
-  LUX: "border-border bg-muted text-muted-foreground",
-  EU: "border-border bg-muted text-muted-foreground",
-  GCC: "border-border bg-muted text-muted-foreground",
-} as const;
-
 const STAGE_CLASS = {
-  hypothesis: "border border-border bg-muted text-muted-foreground",
-  ready: "border border-blue-300 bg-blue-50 text-blue-600",
-  piloting: "border border-border bg-muted text-muted-foreground",
-  live: "border border-green-300 bg-green-50 text-green-700",
+  hypothesis: "border-zinc-200 bg-zinc-50 text-zinc-600",
+  ready: "border-blue-200 bg-blue-50 text-blue-600",
+  piloting: "border-amber-200 bg-amber-50 text-amber-700",
+  live: "border-green-200 bg-green-50 text-green-700",
 } as const;
 
-function SortButton({
+function MetaPill({
+  children,
+  tone = "default",
+}: {
+  children: ReactNode;
+  tone?: "default" | "exclusive";
+}) {
+  return (
+    <span
+      className={cn(
+        "inline-flex h-7 items-center rounded-[10px] border px-3 text-[12px] font-medium",
+        tone === "default" && "border-border bg-muted text-muted-foreground",
+        tone === "exclusive" && "border-blue-200 bg-blue-50 text-blue-600"
+      )}
+    >
+      {children}
+    </span>
+  );
+}
+
+function SortLabel({
   label,
   description,
   column,
@@ -57,23 +61,13 @@ function SortButton({
   hintSide?: "left" | "right";
 }) {
   const active = sortState.column === column;
-  const icon = active ? (
-    <ChevronDown
-      className={cn(
-        "h-3.5 w-3.5 transition-transform",
-        sortState.direction === "asc" && "rotate-180"
-      )}
-    />
-  ) : (
-    <ChevronsUpDown className="h-3.5 w-3.5 opacity-50" />
-  );
 
   return (
     <button
       type="button"
       onClick={() => onSort(column)}
       className={cn(
-        "flex w-full items-center gap-1.5 text-[11px] font-medium uppercase tracking-[0.04em] text-muted-foreground",
+        "flex w-full items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[0.04em] text-muted-foreground",
         active && "text-foreground",
         align === "right" && "justify-end"
       )}
@@ -83,30 +77,10 @@ function SortButton({
         label={label}
         description={description}
         side={hintSide ?? (align === "right" ? "right" : "left")}
-        widthClassName="w-56"
+        widthClassName="w-52"
       />
-      {icon}
+      <ChevronsUpDown className="h-3.5 w-3.5 opacity-55" />
     </button>
-  );
-}
-
-function ScoreCell({ value }: { value: number }) {
-  return <span className="font-mono text-[18px] font-medium">{formatScore(value)}</span>;
-}
-
-function DeltaCell({ value }: { value: number }) {
-  return (
-    <span
-      className={cn(
-        "font-mono text-[18px] font-medium",
-        value > 0.2 && "text-green-600",
-        value < -0.2 && "text-red-500",
-        value >= -0.2 && value <= 0.2 && "text-foreground"
-      )}
-    >
-      {value > 0 ? "+" : ""}
-      {formatScore(value)}
-    </span>
   );
 }
 
@@ -130,13 +104,14 @@ export function ProductTable({
 
     onSortChange({
       column,
-      direction: column === "delta" || column === "bottleneck" || column === "halfLife" ? "asc" : "desc",
+      direction:
+        column === "delta" || column === "bottleneck" || column === "halfLife" ? "asc" : "desc",
     });
   };
 
   const emptyState = useMemo(
     () => (
-      <div className="rounded-[28px] border border-dashed border-border bg-card px-6 py-16 text-center">
+      <div className="rounded-[14px] border border-dashed border-border bg-card px-6 py-16 text-center">
         <p className="text-sm font-medium">No products match this decision view.</p>
         <p className="mt-1 text-sm text-muted-foreground">
           Relax one filter or switch the preset to widen the opportunity set.
@@ -152,90 +127,90 @@ export function ProductTable({
     <div className="overflow-hidden rounded-[14px] border border-border bg-card">
       <div className="overflow-x-auto">
         <table className="min-w-full border-separate border-spacing-0">
-          <thead className="sticky top-0 z-10 bg-[#f3f3f3]">
-            <tr className="border-b border-border">
-              <th className="w-8 px-3 py-3" />
-              <th className="px-2 py-3 text-left">
-                <SortButton
-                  label="Code"
+          <thead className="bg-[#f4f4f4]">
+            <tr>
+              <th className="w-8 px-3 py-4" />
+              <th className="px-3 py-4 text-left">
+                <SortLabel
+                  label="CODE"
                   description="Stable SKU code for scanning and cross-referencing products."
                   column="code"
                   sortState={sortState}
                   onSort={handleSort}
                 />
               </th>
-              <th className="px-2 py-3 text-left">
-                <SortButton
-                  label="Product"
-                  description="Product name with Market and Model moved into pills to save decision space."
+              <th className="px-3 py-4 text-left">
+                <SortLabel
+                  label="PRODUCT"
+                  description="Product name with Market and Model inside the row, not in separate columns."
                   column="product"
                   sortState={sortState}
                   onSort={handleSort}
                 />
               </th>
-              <th className="px-2 py-3 text-left">
-                <SortButton
-                  label="Stage"
-                  description="Single lifecycle axis replacing the old overlapping status labels: Hypothesis → Ready → Piloting → Live."
+              <th className="px-3 py-4 text-left">
+                <SortLabel
+                  label="STAGE"
+                  description="Single lifecycle axis replacing overlapping old status labels."
                   column="stage"
                   sortState={sortState}
                   onSort={handleSort}
                 />
               </th>
-              <th className="px-2 py-3 text-right">
-                <SortButton
+              <th className="px-3 py-4 text-right">
+                <SortLabel
                   label="TTS"
-                  description="Weeks to first paying customer. Reframed from Readiness into a sortable shipping timeline."
+                  description="Weeks to first paying customer."
                   column="timeToShip"
                   sortState={sortState}
                   onSort={handleSort}
                   align="right"
                 />
               </th>
-              <th className="px-2 py-3 text-right">
-                <SortButton
+              <th className="px-3 py-4 text-right">
+                <SortLabel
                   label="VENT"
-                  description="Σ(axis × venture-weight) × confidence. Measures how much this SKU can become a platform or strategic wedge."
+                  description="Venture score: strategic/platform upside weighted by confidence."
                   column="venture"
                   sortState={sortState}
                   onSort={handleSort}
                   align="right"
                 />
               </th>
-              <th className="px-2 py-3 text-right">
-                <SortButton
+              <th className="px-3 py-4 text-right">
+                <SortLabel
                   label="CASH"
-                  description="Σ(axis × cashflow-weight) × confidence. Measures likelihood of putting money in the bank within roughly six months."
+                  description="Cashflow score: near-term money potential weighted by confidence."
                   column="cashflow"
                   sortState={sortState}
                   onSort={handleSort}
                   align="right"
                 />
               </th>
-              <th className="px-2 py-3 text-right">
-                <SortButton
+              <th className="px-3 py-4 text-right">
+                <SortLabel
                   label="Δ"
-                  description="Difference between Venture and Cashflow scores. Positive means venture-only bet, negative means cashflow-first, near zero means universal winner."
+                  description="Difference between Venture and Cashflow. Near zero means universal winner."
                   column="delta"
                   sortState={sortState}
                   onSort={handleSort}
                   align="right"
                 />
               </th>
-              <th className="px-2 py-3 text-right">
-                <SortButton
+              <th className="px-3 py-4 text-right">
+                <SortLabel
                   label="Y1"
-                  description="Year-one revenue adjusted by gross margin. Higher-quality cash beats a bigger but low-margin top line."
+                  description="Year-one contribution after applying gross margin."
                   column="y1Contribution"
                   sortState={sortState}
                   onSort={handleSort}
                   align="right"
                 />
               </th>
-              <th className="px-2 py-3 text-left">
-                <SortButton
-                  label="Bottleneck"
-                  description="Lowest blocking axis at a glance, like Distribution 1 or Team fit 2. Shows what limits progress right now."
+              <th className="px-3 py-4 text-left">
+                <SortLabel
+                  label="BOTTLENECK"
+                  description="The currently lowest blocking axis."
                   column="bottleneck"
                   sortState={sortState}
                   onSort={handleSort}
@@ -252,108 +227,94 @@ export function ProductTable({
                 <Fragment key={product.shortCode}>
                   <tr
                     className={cn(
-                      "cursor-pointer border-t border-border/80 bg-card transition-colors hover:bg-[#fafafa]",
+                      "cursor-pointer border-t border-border bg-card transition-colors hover:bg-[#fafafa]",
                       isOpen && "bg-[#fafafa]"
                     )}
                     onClick={() => setOpenCode(isOpen ? null : product.shortCode)}
                   >
-                    <td className="px-3 py-5">
+                    <td className="px-3 py-5 align-top">
                       {isOpen ? (
-                        <ChevronDown className="h-4 w-4 text-muted-foreground" />
+                        <ChevronDown className="mt-1 h-4 w-4 text-muted-foreground" />
                       ) : (
-                        <ChevronRight className="h-4 w-4 text-muted-foreground" />
+                        <ChevronRight className="mt-1 h-4 w-4 text-muted-foreground" />
                       )}
                     </td>
-                    <td className="px-2 py-5 align-top font-mono text-[12px] font-medium uppercase tracking-[0.02em] text-muted-foreground">
+                    <td className="px-3 py-5 align-top font-mono text-[12px] font-medium text-muted-foreground">
                       {product.shortCode}
                     </td>
-                    <td className="min-w-[380px] px-2 py-5 align-top">
-                      <div className="space-y-1.5">
+                    <td className="min-w-[420px] px-3 py-5 align-top">
+                      <div className="space-y-2">
                         <div>
-                          <div className="flex flex-wrap items-center gap-2">
-                            <p className="text-[28px] font-medium leading-none tracking-tight">{product.title}</p>
-                            {!product.dependenciesResolved && (
-                              <Badge
-                                variant="outline"
-                                className="gap-1 border-border bg-muted text-[11px] text-muted-foreground"
-                              >
-                                <Lock className="h-3 w-3" />
-                                Blocked by {product.dependencies.join(", ")}
-                              </Badge>
-                            )}
-                          </div>
+                          <p className="text-[20px] font-semibold leading-6 tracking-tight">
+                            {product.title}
+                          </p>
+                          {!product.dependenciesResolved && (
+                            <div className="mt-2">
+                              <MetaPill>
+                                <span className="inline-flex items-center gap-1">
+                                  <Lock className="h-3 w-3" />
+                                  Blocked by {product.dependencies.join(", ")}
+                                </span>
+                              </MetaPill>
+                            </div>
+                          )}
                         </div>
 
                         <div className="flex flex-wrap gap-2">
-                          <Badge
-                            variant="outline"
-                            className={cn("h-8 rounded-[10px] border px-3 text-[16px] font-medium", MARKET_CLASS[product.market])}
-                          >
-                            {product.market}
-                          </Badge>
+                          <MetaPill>{product.market}</MetaPill>
                           {product.modelList.map((model) => (
-                            <Badge
-                              key={`${product.shortCode}-${model}`}
-                              variant="outline"
-                              className={cn("h-8 rounded-[10px] border px-3 text-[16px] font-medium", MODEL_CLASS[model])}
-                            >
-                              {model}
-                            </Badge>
+                            <MetaPill key={`${product.shortCode}-${model}`}>{model}</MetaPill>
                           ))}
                           {product.cannibalizationCluster && (
-                            <Badge
-                              variant="outline"
-                              className="h-8 rounded-[10px] border-blue-300 bg-blue-50 px-3 text-[16px] font-medium text-blue-600"
-                            >
-                              Mutually exclusive
-                            </Badge>
+                            <MetaPill tone="exclusive">Mutually exclusive</MetaPill>
                           )}
                         </div>
                       </div>
                     </td>
-                    <td className="px-2 py-5 align-top">
+                    <td className="px-3 py-5 align-top">
                       <span
                         className={cn(
-                          "inline-flex rounded-[10px] px-4 py-1.5 text-[16px] font-medium",
+                          "inline-flex h-9 items-center rounded-[12px] border px-4 text-[14px] font-medium",
                           STAGE_CLASS[product.stage]
                         )}
                       >
                         {product.stageLabel}
                       </span>
                     </td>
-                    <td className="px-2 py-5 text-right align-top">
-                      <span className="font-mono text-[18px] font-medium">
-                        {product.axes.timeToShip}w
-                      </span>
+                    <td className="px-3 py-5 text-right align-top font-mono text-[16px] font-medium">
+                      {product.axes.timeToShip}w
                     </td>
-                    <td className="px-2 py-5 text-right align-top">
-                      <ScoreCell value={product.ventureScore} />
+                    <td className="px-3 py-5 text-right align-top font-mono text-[16px] font-medium">
+                      {formatScore(product.ventureScore)}
                     </td>
-                    <td className="px-2 py-5 text-right align-top">
-                      <ScoreCell value={product.cashflowScore} />
+                    <td className="px-3 py-5 text-right align-top font-mono text-[16px] font-medium">
+                      {formatScore(product.cashflowScore)}
                     </td>
-                    <td className="px-2 py-5 text-right align-top">
-                      <DeltaCell value={product.delta} />
+                    <td
+                      className={cn(
+                        "px-3 py-5 text-right align-top font-mono text-[16px] font-medium",
+                        product.delta > 0.2 && "text-green-600",
+                        product.delta < -0.2 && "text-red-500"
+                      )}
+                    >
+                      {product.delta > 0 ? "+" : ""}
+                      {formatScore(product.delta)}
                     </td>
-                    <td className="px-2 py-5 text-right align-top">
-                      <span className="text-[18px] font-medium">
-                        {formatCurrency(product.y1Contribution)}
-                      </span>
+                    <td className="px-3 py-5 text-right align-top text-[16px] font-semibold">
+                      {formatCurrency(product.y1Contribution)}
                     </td>
-                    <td className="min-w-[200px] px-2 py-5 align-top">
-                      <div className="space-y-0.5">
-                        <p className="text-[18px] font-medium leading-tight">
-                          {product.bottleneck.label} {product.bottleneck.value}
-                        </p>
-                        <p className="text-[14px] text-muted-foreground">
-                          {formatHalfLife(product)}
-                        </p>
-                      </div>
+                    <td className="min-w-[190px] px-3 py-5 align-top">
+                      <p className="text-[16px] font-semibold leading-5">
+                        {product.bottleneck.label} {product.bottleneck.value}
+                      </p>
+                      <p className="mt-1 text-[12px] text-muted-foreground">
+                        {formatHalfLife(product)}
+                      </p>
                     </td>
                   </tr>
 
                   {isOpen && (
-                    <tr className="bg-muted/20">
+                    <tr className="bg-[#fafafa]">
                       <td colSpan={10} className="px-0 py-0">
                         <ProductDetail product={product} preset={preset} />
                       </td>
