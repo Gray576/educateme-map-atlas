@@ -14,55 +14,65 @@ interface ProductDetailProps {
   preset: Preset;
 }
 
-const PRIMARY_AXES: (keyof EnrichedProduct["axes"])[] = [
-  "timeToShip",
-  "studioLeverage",
-  "distribution",
-  "tamCeiling",
-  "painMandate",
-  "halfLife",
-];
-
-const EXPAND_AXES: (keyof EnrichedProduct["axes"])[] = [
-  "teamFit",
-  "manualEffort",
-  "wedge",
-  "grossMargin",
-  "cacLtv",
-  "moatBuild",
-];
-
-function AxisCard({
-  label,
-  description,
-  value,
-  suffix = "",
-  accent = false,
-}: {
-  label: string;
+const AXIS_DETAILS: Array<{
+  key: keyof EnrichedProduct["axes"];
   description: string;
-  value: number;
   suffix?: string;
-  accent?: boolean;
-}) {
-  return (
-    <div
-      className={cn(
-        "min-w-[148px] rounded-xl border border-border bg-card px-3 py-2",
-        accent && "border-primary/20 bg-blue-50/40"
-      )}
-    >
-      <p className="flex items-center gap-1 text-[10px] font-medium uppercase tracking-[0.08em] text-muted-foreground">
-        <span>{label}</span>
-        <InfoHint label={label} description={description} />
-      </p>
-      <p className="mt-1 text-sm font-semibold text-foreground">
-        {value}
-        {suffix}
-      </p>
-    </div>
-  );
-}
+}> = [
+  {
+    key: "timeToShip",
+    description:
+      "Weeks to first paying customer. This is the sortable replacement for the old readiness badge.",
+    suffix: "w",
+  },
+  {
+    key: "studioLeverage",
+    description:
+      "How much this product reuses existing studio assets, curriculum, audience, or delivery machinery.",
+  },
+  {
+    key: "distribution",
+    description: "Whether there is already a reliable channel to reach the buyer.",
+  },
+  {
+    key: "tamCeiling",
+    description: "Annual revenue ceiling if this SKU works.",
+  },
+  {
+    key: "painMandate",
+    description: "How hard the buyer is pushed by pain, regulation, or market pressure.",
+  },
+  {
+    key: "halfLife",
+    description: "How many months remain before the mandate or tailwind collapses.",
+    suffix: " mo",
+  },
+  {
+    key: "teamFit",
+    description: "How well the current team can credibly build and deliver this.",
+  },
+  {
+    key: "manualEffort",
+    description: "Delivery scalability. Higher means less painful manual work.",
+  },
+  {
+    key: "wedge",
+    description: "Whether this SKU opens larger follow-on opportunities.",
+  },
+  {
+    key: "grossMargin",
+    description: "Gross margin percentage used to convert Y1 revenue into Y1 contribution.",
+    suffix: "%",
+  },
+  {
+    key: "cacLtv",
+    description: "Attractiveness of acquisition cost relative to lifetime value.",
+  },
+  {
+    key: "moatBuild",
+    description: "Ability of this SKU to build a moat rather than just win one sale.",
+  },
+];
 
 function SectionShell({
   title,
@@ -99,13 +109,13 @@ function SectionShell({
 function PairList({
   items,
 }: {
-  items: Array<{ label: string; value: ReactNode }>;
+  items: Array<{ label: ReactNode; value: ReactNode }>;
 }) {
   return (
     <div className="grid gap-1.5">
-      {items.map((item) => (
+      {items.map((item, index) => (
         <div
-          key={item.label}
+          key={index}
           className="grid gap-1 border-b border-border/60 pb-1.5 last:border-b-0 last:pb-0 md:grid-cols-[136px_minmax(0,1fr)]"
         >
           <div className="text-[11px] font-medium uppercase tracking-[0.08em] text-muted-foreground">
@@ -126,56 +136,23 @@ export function ProductDetail({ product, preset }: ProductDetailProps) {
       <div className="space-y-3">
         <SectionShell
           title="Decision axes"
-          subtitle="Synthetic scoring layer. Horizontal on purpose to save height."
+          subtitle="Synthetic scoring layer, shown as one compact list so the layout stays stable."
           tone="derived"
         >
-          <div className="-mx-1 overflow-x-auto pb-1">
-            <div className="flex min-w-max gap-2 px-1">
-              {PRIMARY_AXES.map((axis) => (
-                <AxisCard
-                  key={axis}
-                  label={getAxisLabel(axis)}
-                  description={
-                    axis === "timeToShip"
-                      ? "Weeks to first paying customer. This is the sortable replacement for the old readiness badge."
-                      : axis === "studioLeverage"
-                      ? "How much this product reuses existing studio assets, curriculum, audience, or delivery machinery."
-                      : axis === "distribution"
-                      ? "Whether there is already a reliable channel to reach the buyer."
-                      : axis === "tamCeiling"
-                      ? "Annual revenue ceiling if this SKU works."
-                      : axis === "painMandate"
-                      ? "How hard the buyer is pushed by pain, regulation, or market pressure."
-                      : "How many months remain before the mandate or tailwind collapses."
-                  }
-                  value={product.axes[axis]}
-                  suffix={axis === "timeToShip" ? "w" : axis === "halfLife" ? " mo" : ""}
-                  accent={axis === "timeToShip" || axis === "painMandate"}
-                />
-              ))}
-              {EXPAND_AXES.map((axis) => (
-                <AxisCard
-                  key={axis}
-                  label={getAxisLabel(axis)}
-                  description={
-                    axis === "teamFit"
-                      ? "How well the current team can credibly build and deliver this."
-                      : axis === "manualEffort"
-                      ? "Delivery scalability. Higher means less painful manual work."
-                      : axis === "wedge"
-                      ? "Whether this SKU opens larger follow-on opportunities."
-                      : axis === "grossMargin"
-                      ? "Gross margin percentage used to convert Y1 revenue into Y1 contribution."
-                      : axis === "cacLtv"
-                      ? "Attractiveness of acquisition cost relative to lifetime value."
-                      : "Ability of this SKU to build a moat rather than just win one sale."
-                  }
-                  value={product.axes[axis]}
-                  suffix={axis === "grossMargin" ? "%" : ""}
-                />
-              ))}
-            </div>
-          </div>
+          <PairList
+            items={AXIS_DETAILS.map((axis) => ({
+              label: (
+                <span className="inline-flex items-center gap-1">
+                  <span>{getAxisLabel(axis.key)}</span>
+                  <InfoHint
+                    label={getAxisLabel(axis.key)}
+                    description={axis.description}
+                  />
+                </span>
+              ) as unknown as string,
+              value: `${product.axes[axis.key]}${axis.suffix ?? ""}`,
+            }))}
+          />
         </SectionShell>
 
         <div className="grid gap-3 xl:grid-cols-[1.05fr_1.1fr]">
