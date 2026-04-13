@@ -1,6 +1,5 @@
 "use client";
 
-import type { ReactNode } from "react";
 import { Search } from "lucide-react";
 import { InfoHint } from "@/components/ui/info-hint";
 import { cn } from "@/lib/utils";
@@ -50,39 +49,80 @@ const BOTTLENECKS: [BottleneckAxis | "all", string][] = [
 ];
 
 const PRESETS: [Preset, string, string][] = [
-  ["venture", "Venture", "Platform upside first"],
-  ["cashflow", "Cashflow", "Cash in 6 months"],
-  ["balanced", "Balanced", "Universal winners"],
+  ["venture", "Venture", "View products by venture score"],
+  ["cashflow", "Cashflow", "View products by cashflow score"],
+  ["balanced", "Balanced", "View products by balanced score"],
 ];
 
 const SORT_PRESETS: [Exclude<SortPreset, null>, string, string][] = [
   ["ship60", "Ship next 60 days", "Time-to-ship ≤ 8 weeks, ranked for cash"],
   ["venture", "Venture bets", "Positive delta, venture-first sort"],
-  ["quickwins", "Quick wins", "High leverage, low shipping friction"],
+  ["quickwins", "Quick wins", "High leverage with low shipping friction"],
   ["dyingmandates", "Dying mandates", "Shortest half-life first"],
 ];
 
-function ToolbarButton({
+function CompactTab({
   active,
-  children,
   onClick,
+  label,
+  hint,
 }: {
-  active?: boolean;
-  children: ReactNode;
+  active: boolean;
   onClick: () => void;
+  label: string;
+  hint: string;
 }) {
   return (
     <button
       type="button"
       onClick={onClick}
       className={cn(
-        "inline-flex h-11 items-center rounded-full border px-5 text-[15px] font-medium transition-colors",
+        "flex items-center gap-1 rounded px-2.5 py-1 text-xs font-medium transition-all",
         active
-          ? "border-black bg-black text-white"
-          : "border-border bg-card text-foreground hover:bg-muted"
+          ? "bg-foreground text-background shadow-sm"
+          : "text-muted-foreground hover:text-foreground"
       )}
     >
-      {children}
+      {label}
+      <InfoHint
+        label={label}
+        description={hint}
+        className={active ? "text-background/70" : ""}
+        widthClassName="w-44"
+      />
+    </button>
+  );
+}
+
+function PillButton({
+  active,
+  onClick,
+  label,
+  hint,
+}: {
+  active: boolean;
+  onClick: () => void;
+  label: string;
+  hint: string;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={cn(
+        "flex items-center gap-1 rounded-full border px-2.5 py-1 text-xs transition-all",
+        active
+          ? "border-[hsl(var(--accent))] bg-[hsl(var(--accent)/0.1)] font-medium text-[hsl(var(--accent))]"
+          : "border-border text-muted-foreground hover:border-foreground/30 hover:text-foreground"
+      )}
+    >
+      {label}
+      <InfoHint label={label} description={hint} widthClassName="w-52" />
+      {active && (
+        <span className="flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[hsl(var(--accent))] text-[9px] text-[hsl(var(--accent-foreground))]">
+          ✓
+        </span>
+      )}
     </button>
   );
 }
@@ -100,7 +140,7 @@ function CompactSelect({
     <select
       value={value}
       onChange={(event) => onChange(event.target.value)}
-      className="h-12 rounded-xl border border-border bg-card px-4 text-[15px] text-foreground outline-none transition focus-visible:border-ring focus-visible:ring-2 focus-visible:ring-ring/30"
+      className="h-8 rounded-md border border-border bg-secondary px-2.5 text-xs text-foreground outline-none transition focus-visible:border-ring focus-visible:ring-2 focus-visible:ring-ring/30"
     >
       {options.map(([optionValue, label]) => (
         <option key={optionValue} value={optionValue}>
@@ -122,43 +162,42 @@ export function FilterBar({
   const set = (patch: Partial<Filters>) => onChange({ ...filters, ...patch });
 
   return (
-    <section className="space-y-3">
-      <div className="flex flex-wrap gap-2">
-        {PRESETS.map(([value, label, hint]) => (
-          <ToolbarButton key={value} active={preset === value} onClick={() => onPresetChange(value)}>
-            <span className="flex items-center gap-2">
-              {label}
-              <InfoHint
-                label={label}
-                description={hint}
-                className={preset === value ? "text-white/75" : ""}
-                widthClassName="w-52"
-              />
-            </span>
-          </ToolbarButton>
-        ))}
+    <section className="space-y-2.5">
+      <div className="flex flex-wrap items-center gap-4">
+        <div className="flex items-center gap-0.5 rounded-md bg-secondary p-0.5">
+          {PRESETS.map(([value, label, hint]) => (
+            <CompactTab
+              key={value}
+              active={preset === value}
+              onClick={() => onPresetChange(value)}
+              label={label}
+              hint={hint}
+            />
+          ))}
+        </div>
+
+        <div className="flex flex-wrap items-center gap-1.5">
+          {SORT_PRESETS.map(([value, label, hint]) => (
+            <PillButton
+              key={value}
+              active={sortPreset === value}
+              onClick={() => onSortPreset(value)}
+              label={label}
+              hint={hint}
+            />
+          ))}
+        </div>
       </div>
 
-      <div className="flex flex-wrap gap-2">
-        {SORT_PRESETS.map(([value, label, hint]) => (
-          <ToolbarButton key={value} active={sortPreset === value} onClick={() => onSortPreset(value)}>
-            <span className="flex items-center gap-2">
-              {label}
-              <InfoHint label={label} description={hint} widthClassName="w-56" />
-            </span>
-          </ToolbarButton>
-        ))}
-      </div>
-
-      <div className="grid gap-2 md:grid-cols-2 xl:grid-cols-[minmax(260px,1.45fr)_repeat(5,minmax(150px,1fr))]">
-        <label className="flex h-12 items-center gap-3 rounded-xl border border-border bg-card px-4">
-          <Search className="h-4 w-4 text-muted-foreground" />
+      <div className="flex flex-wrap items-center gap-2">
+        <label className="relative w-64">
+          <Search className="absolute left-2.5 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-muted-foreground" />
           <input
             type="search"
             placeholder="Search code, product, blocker..."
             value={filters.search}
             onChange={(event) => set({ search: event.target.value })}
-            className="w-full bg-transparent text-[15px] outline-none placeholder:text-muted-foreground"
+            className="h-8 w-full rounded-md border border-border bg-secondary pl-8 pr-2.5 text-xs outline-none placeholder:text-muted-foreground"
           />
         </label>
 
@@ -200,60 +239,65 @@ export function FilterBar({
         />
       </div>
 
-      <div className="grid gap-2 md:grid-cols-[minmax(0,1fr)_auto] xl:grid-cols-[minmax(360px,1fr)_auto_auto] xl:items-center">
-        <div className="flex items-center gap-4 rounded-xl px-1 py-1">
-          <div className="flex min-w-[180px] items-center gap-2 text-[13px] text-muted-foreground">
+      <div className="flex flex-wrap items-center gap-4">
+        <div className="flex flex-1 items-center gap-3">
+          <div className="flex items-center gap-1.5 whitespace-nowrap text-xs text-muted-foreground">
             <span>Min. {filters.scoreMetric}</span>
             <InfoHint
               label="Minimum score"
-              description="Use the slider to hide lower-quality options for the selected score."
-              widthClassName="w-52"
+              description="Filter products by minimum score."
+              widthClassName="w-44"
             />
           </div>
-          <input
-            type="range"
-            min="0"
-            max="5"
-            step="0.1"
-            value={filters.scoreMin}
-            onChange={(event) => set({ scoreMin: Number(event.target.value) })}
-            className="w-full accent-black"
-          />
-          <span className="w-12 text-right text-[15px] font-medium">{filters.scoreMin.toFixed(1)}</span>
+          <div className="flex max-w-md flex-1 items-center gap-3">
+            <input
+              type="range"
+              min="0"
+              max="5"
+              step="0.1"
+              value={filters.scoreMin}
+              onChange={(event) => set({ scoreMin: Number(event.target.value) })}
+              className="w-full accent-black"
+            />
+            <span className="w-8 text-right font-mono text-xs text-foreground">
+              {filters.scoreMin.toFixed(1)}
+            </span>
+          </div>
         </div>
 
-        <button
-          type="button"
-          onClick={() => set({ urgentOnly: !filters.urgentOnly })}
-          className={cn(
-            "h-12 rounded-xl border px-4 text-[15px] font-medium transition-colors",
-            filters.urgentOnly
-              ? "border-black bg-muted text-foreground"
-              : "border-border bg-card text-foreground hover:bg-muted"
-          )}
-        >
-          Half-life &lt; 18 mo
-        </button>
-
-        <button
-          type="button"
-          onClick={() =>
-            onChange({
-              ...filters,
-              search: "",
-              market: "all",
-              model: "all",
-              scoreMetric: "cashflow",
-              scoreMin: 0,
-              bottleneckType: "all",
-              urgentOnly: false,
-              dependenciesResolved: "all",
-            })
-          }
-          className="h-12 rounded-xl border border-border bg-card px-4 text-[15px] font-medium text-foreground transition-colors hover:bg-muted"
-        >
-          Reset
-        </button>
+        <div className="flex items-center gap-1.5">
+          <button
+            type="button"
+            onClick={() => set({ urgentOnly: !filters.urgentOnly })}
+            className={cn(
+              "h-7 rounded-md border px-2.5 text-xs transition-colors",
+              filters.urgentOnly
+                ? "border-border bg-muted text-foreground"
+                : "border-border bg-card text-muted-foreground hover:bg-muted"
+            )}
+          >
+            Half-life &lt; 18 mo
+          </button>
+          <button
+            type="button"
+            onClick={() =>
+              onChange({
+                ...filters,
+                search: "",
+                market: "all",
+                model: "all",
+                scoreMetric: "cashflow",
+                scoreMin: 0,
+                bottleneckType: "all",
+                urgentOnly: false,
+                dependenciesResolved: "all",
+              })
+            }
+            className="h-7 rounded-md px-2 text-xs text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+          >
+            Reset
+          </button>
+        </div>
       </div>
     </section>
   );

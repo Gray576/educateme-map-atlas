@@ -2,7 +2,7 @@
 
 import type { ReactNode } from "react";
 import { Fragment, useMemo, useState } from "react";
-import { ChevronDown, ChevronRight, ChevronsUpDown, Lock } from "lucide-react";
+import { ChevronDown, ChevronRight, ArrowUpDown, Lock } from "lucide-react";
 import { InfoHint } from "@/components/ui/info-hint";
 import { ProductDetail } from "@/components/ProductDetail";
 import { formatCurrency, formatHalfLife, formatScore } from "@/lib/decision";
@@ -77,9 +77,9 @@ function SortLabel({
         label={label}
         description={description}
         side={hintSide ?? (align === "right" ? "right" : "left")}
-        widthClassName="w-52"
+        widthClassName="w-44"
       />
-      <ChevronsUpDown className="h-3.5 w-3.5 opacity-55" />
+      <ArrowUpDown className="h-2.5 w-2.5 opacity-55" />
     </button>
   );
 }
@@ -124,13 +124,13 @@ export function ProductTable({
   if (products.length === 0) return emptyState;
 
   return (
-    <div className="overflow-hidden rounded-[14px] border border-border bg-card">
+    <div className="overflow-hidden rounded-md border border-border bg-card">
       <div className="overflow-x-auto">
-        <table className="min-w-full border-separate border-spacing-0">
-          <thead className="bg-[#f4f4f4]">
+        <table className="min-w-full text-sm">
+          <thead className="bg-muted/50">
             <tr>
-              <th className="w-8 px-3 py-4" />
-              <th className="px-3 py-4 text-left">
+              <th className="w-8 px-2 py-2" />
+              <th className="px-3 py-2 text-left">
                 <SortLabel
                   label="CODE"
                   description="Stable SKU code for scanning and cross-referencing products."
@@ -139,7 +139,7 @@ export function ProductTable({
                   onSort={handleSort}
                 />
               </th>
-              <th className="px-3 py-4 text-left">
+              <th className="px-3 py-2 text-left">
                 <SortLabel
                   label="PRODUCT"
                   description="Product name with Market and Model inside the row, not in separate columns."
@@ -148,7 +148,7 @@ export function ProductTable({
                   onSort={handleSort}
                 />
               </th>
-              <th className="px-3 py-4 text-left">
+              <th className="px-3 py-2 text-left">
                 <SortLabel
                   label="STAGE"
                   description="Single lifecycle axis replacing overlapping old status labels."
@@ -157,7 +157,7 @@ export function ProductTable({
                   onSort={handleSort}
                 />
               </th>
-              <th className="px-3 py-4 text-right">
+              <th className="px-3 py-2 text-right">
                 <SortLabel
                   label="TTS"
                   description="Weeks to first paying customer."
@@ -167,7 +167,7 @@ export function ProductTable({
                   align="right"
                 />
               </th>
-              <th className="px-3 py-4 text-right">
+              <th className="px-3 py-2 text-right">
                 <SortLabel
                   label="VENT"
                   description="Venture score: strategic/platform upside weighted by confidence."
@@ -177,7 +177,7 @@ export function ProductTable({
                   align="right"
                 />
               </th>
-              <th className="px-3 py-4 text-right">
+              <th className="px-3 py-2 text-right">
                 <SortLabel
                   label="CASH"
                   description="Cashflow score: near-term money potential weighted by confidence."
@@ -187,7 +187,7 @@ export function ProductTable({
                   align="right"
                 />
               </th>
-              <th className="px-3 py-4 text-right">
+              <th className="px-3 py-2 text-right">
                 <SortLabel
                   label="Δ"
                   description="Difference between Venture and Cashflow. Near zero means universal winner."
@@ -197,7 +197,7 @@ export function ProductTable({
                   align="right"
                 />
               </th>
-              <th className="px-3 py-4 text-right">
+              <th className="px-3 py-2 text-right">
                 <SortLabel
                   label="Y1"
                   description="Year-one contribution after applying gross margin."
@@ -207,7 +207,7 @@ export function ProductTable({
                   align="right"
                 />
               </th>
-              <th className="px-3 py-4 text-left">
+              <th className="px-3 py-2 text-left">
                 <SortLabel
                   label="BOTTLENECK"
                   description="The currently lowest blocking axis."
@@ -227,29 +227,29 @@ export function ProductTable({
                 <Fragment key={product.shortCode}>
                   <tr
                     className={cn(
-                      "cursor-pointer border-t border-border bg-card transition-colors hover:bg-[#fafafa]",
-                      isOpen && "bg-[#fafafa]"
+                      "cursor-pointer border-t border-border transition-colors hover:bg-muted/30 group",
+                      isOpen && "bg-muted/20"
                     )}
                     onClick={() => setOpenCode(isOpen ? null : product.shortCode)}
                   >
-                    <td className="px-3 py-5 align-top">
+                    <td className="px-2 py-2 align-top">
                       {isOpen ? (
-                        <ChevronDown className="mt-1 h-4 w-4 text-muted-foreground" />
+                        <ChevronDown className="h-3.5 w-3.5 text-muted-foreground" />
                       ) : (
-                        <ChevronRight className="mt-1 h-4 w-4 text-muted-foreground" />
+                        <ChevronRight className="h-3.5 w-3.5 text-muted-foreground" />
                       )}
                     </td>
-                    <td className="px-3 py-5 align-top font-mono text-[12px] font-medium text-muted-foreground">
+                    <td className="px-3 py-2 align-top font-mono text-xs text-muted-foreground">
                       {product.shortCode}
                     </td>
-                    <td className="min-w-[420px] px-3 py-5 align-top">
-                      <div className="space-y-2">
+                    <td className="min-w-[320px] px-3 py-2 align-top">
+                      <div className="space-y-1">
                         <div>
-                          <p className="text-[20px] font-semibold leading-6 tracking-tight">
+                          <p className="text-sm font-medium text-foreground">
                             {product.title}
                           </p>
                           {!product.dependenciesResolved && (
-                            <div className="mt-2">
+                            <div className="mt-1">
                               <MetaPill>
                                 <span className="inline-flex items-center gap-1">
                                   <Lock className="h-3 w-3" />
@@ -260,7 +260,7 @@ export function ProductTable({
                           )}
                         </div>
 
-                        <div className="flex flex-wrap gap-2">
+                        <div className="flex flex-wrap gap-1">
                           <MetaPill>{product.market}</MetaPill>
                           {product.modelList.map((model) => (
                             <MetaPill key={`${product.shortCode}-${model}`}>{model}</MetaPill>
@@ -271,28 +271,28 @@ export function ProductTable({
                         </div>
                       </div>
                     </td>
-                    <td className="px-3 py-5 align-top">
+                    <td className="px-3 py-2 align-top text-center">
                       <span
                         className={cn(
-                          "inline-flex h-9 items-center rounded-[12px] border px-4 text-[14px] font-medium",
+                          "inline-flex h-5 items-center rounded border px-1.5 text-[10px] font-medium",
                           STAGE_CLASS[product.stage]
                         )}
                       >
                         {product.stageLabel}
                       </span>
                     </td>
-                    <td className="px-3 py-5 text-right align-top font-mono text-[16px] font-medium">
+                    <td className="px-3 py-2 text-right align-top font-mono text-xs">
                       {product.axes.timeToShip}w
                     </td>
-                    <td className="px-3 py-5 text-right align-top font-mono text-[16px] font-medium">
+                    <td className="px-3 py-2 text-right align-top font-mono text-xs text-foreground">
                       {formatScore(product.ventureScore)}
                     </td>
-                    <td className="px-3 py-5 text-right align-top font-mono text-[16px] font-medium">
+                    <td className="px-3 py-2 text-right align-top font-mono text-xs text-foreground">
                       {formatScore(product.cashflowScore)}
                     </td>
                     <td
                       className={cn(
-                        "px-3 py-5 text-right align-top font-mono text-[16px] font-medium",
+                        "px-3 py-2 text-right align-top font-mono text-xs font-medium",
                         product.delta > 0.2 && "text-green-600",
                         product.delta < -0.2 && "text-red-500"
                       )}
@@ -300,21 +300,21 @@ export function ProductTable({
                       {product.delta > 0 ? "+" : ""}
                       {formatScore(product.delta)}
                     </td>
-                    <td className="px-3 py-5 text-right align-top text-[16px] font-semibold">
+                    <td className="px-3 py-2 text-right align-top font-mono text-xs font-medium text-foreground">
                       {formatCurrency(product.y1Contribution)}
                     </td>
-                    <td className="min-w-[190px] px-3 py-5 align-top">
-                      <p className="text-[16px] font-semibold leading-5">
+                    <td className="min-w-[150px] px-3 py-2 align-top">
+                      <p className="text-xs text-foreground">
                         {product.bottleneck.label} {product.bottleneck.value}
                       </p>
-                      <p className="mt-1 text-[12px] text-muted-foreground">
+                      <p className="text-[10px] text-muted-foreground">
                         {formatHalfLife(product)}
                       </p>
                     </td>
                   </tr>
 
                   {isOpen && (
-                    <tr className="bg-[#fafafa]">
+                    <tr className="bg-muted/20">
                       <td colSpan={10} className="px-0 py-0">
                         <ProductDetail product={product} preset={preset} />
                       </td>
