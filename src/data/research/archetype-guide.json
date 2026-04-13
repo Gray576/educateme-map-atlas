@@ -1,0 +1,109 @@
+{
+  "core_language_programs": {
+    "whatItIs": "Понятные языковые продукты с относительно ясным покупателем, оффером и delivery logic.",
+    "typicalFunnel": "ICP -> outreach / inbound -> call / diagnostic -> pilot или cohort sale -> delivery -> repeat / upsell",
+    "earlySuccess": [
+      "есть положительные ответы",
+      "появляются квалифицированные разговоры",
+      "бронируются диагностики",
+      "есть enrollment в пилот / когорту",
+      "появляется повторный интерес от того же buyer cluster"
+    ],
+    "keyMetrics": [
+      "qualified lead rate",
+      "meeting booked rate",
+      "diagnostic-to-proposal rate",
+      "proposal-to-pilot rate",
+      "enrollment rate",
+      "repeat purchase / upsell rate"
+    ]
+  },
+  "compliance_ai_training": {
+    "whatItIs": "Обучающие продукты, где ценность завязана не только на learning, но и на governance, safe use, policy pressure, audit-readiness или менеджерскую легитимность.",
+    "typicalFunnel": "ICP -> authority-building outreach -> stakeholder conversation -> scoped pilot / workshop -> proof -> expansion",
+    "earlySuccess": [
+      "интерес от правильного decision-maker",
+      "внутри клиента тема уходит дальше в compliance / HR / management",
+      "есть готовность к paid pilot",
+      "обсуждение идёт уже вокруг внедрения, а не просто любопытства"
+    ],
+    "keyMetrics": [
+      "decision-maker response rate",
+      "stakeholder conversion rate",
+      "meeting-to-pilot rate",
+      "paid pilot rate",
+      "expansion into team / department",
+      "time from first meeting to pilot approval"
+    ]
+  },
+  "integration_onboarding": {
+    "whatItIs": "Продукты, которые помогают людям или работодателям снижать трение во время onboarding, адаптации, релокации или workplace integration.",
+    "typicalFunnel": "ICP -> pain discovery -> packaged offer -> pilot -> feedback loop -> bundle / upsell",
+    "earlySuccess": [
+      "buyer чётко признаёт onboarding friction",
+      "продукт воспринимается как packaged solution, а не как \"ещё один курс\"",
+      "пилотные клиенты сами просят bundled delivery",
+      "есть cross-sell в соседние продукты"
+    ],
+    "keyMetrics": [
+      "pain acknowledgment rate",
+      "qualified meeting rate",
+      "pilot conversion rate",
+      "bundle attach rate",
+      "upsell rate в language / corporate tracks",
+      "time to activation after sale"
+    ]
+  },
+  "diagnostics_capability_audit": {
+    "whatItIs": "Диагностические офферы, которые продают не столько learning hours, сколько ясность, assessment, benchmarking и клин в более широкую продажу.",
+    "typicalFunnel": "ICP -> diagnostic hook -> audit / assessment -> readout -> recommendation -> upsell into delivery",
+    "earlySuccess": [
+      "высокий acceptance entry diagnostic offer",
+      "stakeholder'ы видят ценность в самом output",
+      "сильная конверсия из audit в implementation sale"
+    ],
+    "keyMetrics": [
+      "diagnostic acceptance rate",
+      "audit completion rate",
+      "audit-to-proposal conversion",
+      "audit-to-upsell conversion",
+      "sales cycle compression против прямой продажи обучения"
+    ]
+  },
+  "regulated_workforce_pathways_exam_prep": {
+    "whatItIs": "Продукты, завязанные на формальные маршруты прогрессии: экзамены, лицензирование, миграцию рабочей силы, признание квалификации, regulated transitions или credential-linked language readiness.",
+    "typicalFunnel": "ICP -> trust + route clarity -> consultative qualification -> enrollment -> sustained support -> proof of downstream result",
+    "earlySuccess": [
+      "кандидаты доверяют маршруту и считают его реальным",
+      "есть переход от интереса к серьёзной квалификации",
+      "мало путаницы по route steps",
+      "студенты удерживаются в длинном цикле"
+    ],
+    "keyMetrics": [
+      "qualified applicant rate",
+      "consult-to-enrollment rate",
+      "dropout rate внутри воронки",
+      "progression milestone completion",
+      "exam / route continuation rate",
+      "student retention through the pathway"
+    ]
+  },
+  "channel_licensing_placement": {
+    "whatItIs": "Продукты, где рост сильно зависит от партнёров, distribution channels, white-label structures, staffing partners или институциональных связей.",
+    "typicalFunnel": "Partner ICP -> partner outreach -> capability fit -> commercial alignment -> pilot distribution -> partner expansion",
+    "earlySuccess": [
+      "есть credible partner conversations",
+      "есть готовность вместе тестировать distribution",
+      "экономика выровнена",
+      "партнёр реально может дать объём или доступ"
+    ],
+    "keyMetrics": [
+      "partner reply rate",
+      "qualified partner rate",
+      "meeting-to-pilot rate",
+      "pilot distribution activity",
+      "partner-sourced lead volume",
+      "partner expansion / renewal rate"
+    ]
+  }
+}

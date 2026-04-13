@@ -1,4 +1,12 @@
-import type { ArchetypeId, OperatorDifficulty, PresetKey, ProductRecord, ProductScores } from "@/types";
+import archetypeGuide from "@/data/research/archetype-guide.json";
+import type {
+  ArchetypeGuideEntry,
+  ArchetypeId,
+  OperatorDifficulty,
+  PresetKey,
+  ProductRecord,
+  ProductScores,
+} from "@/types";
 
 export const PRESET_OPTIONS: Array<{ key: PresetKey; label: string; description: string }> = [
   {
@@ -34,6 +42,7 @@ export const ARCHETYPE_OPTIONS: Array<{
   legendLines: [string, string];
   fill: string;
   text: string;
+  guide: ArchetypeGuideEntry;
 }> = [
   {
     id: "core_language_programs",
@@ -41,6 +50,7 @@ export const ARCHETYPE_OPTIONS: Array<{
     legendLines: ["Core Language", "Programs"],
     fill: "#d9efe4",
     text: "#16624f",
+    guide: archetypeGuide.core_language_programs,
   },
   {
     id: "compliance_ai_training",
@@ -48,6 +58,7 @@ export const ARCHETYPE_OPTIONS: Array<{
     legendLines: ["Compliance & AI", "Training"],
     fill: "#dbe9fb",
     text: "#295d9d",
+    guide: archetypeGuide.compliance_ai_training,
   },
   {
     id: "integration_onboarding",
@@ -55,6 +66,7 @@ export const ARCHETYPE_OPTIONS: Array<{
     legendLines: ["Integration &", "Onboarding"],
     fill: "#ede2fb",
     text: "#6f46a5",
+    guide: archetypeGuide.integration_onboarding,
   },
   {
     id: "diagnostics_capability_audit",
@@ -62,6 +74,7 @@ export const ARCHETYPE_OPTIONS: Array<{
     legendLines: ["Diagnostics &", "Capability Audit"],
     fill: "#fce6cf",
     text: "#9b5f0b",
+    guide: archetypeGuide.diagnostics_capability_audit,
   },
   {
     id: "regulated_workforce_pathways_exam_prep",
@@ -69,6 +82,7 @@ export const ARCHETYPE_OPTIONS: Array<{
     legendLines: ["Regulated", "Pathways"],
     fill: "#fde0e6",
     text: "#a34b63",
+    guide: archetypeGuide.regulated_workforce_pathways_exam_prep,
   },
   {
     id: "channel_licensing_placement",
@@ -76,6 +90,7 @@ export const ARCHETYPE_OPTIONS: Array<{
     legendLines: ["Channel /", "Placement"],
     fill: "#e2f1ee",
     text: "#2e7066",
+    guide: archetypeGuide.channel_licensing_placement,
   },
 ];
 
@@ -85,6 +100,10 @@ export function getPresetLabel(preset: PresetKey) {
 
 export function getArchetypeVisual(archetypeId: ArchetypeId) {
   return ARCHETYPE_OPTIONS.find((item) => item.id === archetypeId) ?? ARCHETYPE_OPTIONS[0]!;
+}
+
+export function getArchetypeGuide(archetypeId: ArchetypeId) {
+  return getArchetypeVisual(archetypeId).guide;
 }
 
 export function getOperatorDifficultyLabel(level: OperatorDifficulty) {

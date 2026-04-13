@@ -56,6 +56,65 @@ function formatScore(value: number) {
   return value.toFixed(0);
 }
 
+function ArchetypeLegendCard({
+  item,
+}: {
+  item: (typeof ARCHETYPE_OPTIONS)[number];
+}) {
+  return (
+    <div
+      className="group relative flex min-w-[112px] items-center gap-2 rounded-md px-2 py-1.5"
+      style={{ backgroundColor: item.fill }}
+      title={item.label}
+      tabIndex={0}
+    >
+      <span
+        className="h-2.5 w-2.5 rounded-full"
+        style={{ backgroundColor: item.text }}
+      />
+      <span className="text-[11px] font-semibold leading-4" style={{ color: item.text }}>
+        {item.legendLines[0]}
+        <br />
+        {item.legendLines[1]}
+      </span>
+
+      <div className="pointer-events-none absolute left-0 top-full z-30 mt-2 w-[340px] rounded-lg border border-border bg-popover p-3 opacity-0 shadow-xl transition-opacity duration-150 group-hover:opacity-100 group-focus-visible:opacity-100">
+        <p className="text-sm font-semibold text-foreground">{item.label}</p>
+
+        <div className="mt-3 space-y-3 text-xs leading-5 text-muted-foreground">
+          <div>
+            <p className="font-semibold text-foreground">Что это такое</p>
+            <p className="mt-1">{item.guide.whatItIs}</p>
+          </div>
+
+          <div>
+            <p className="font-semibold text-foreground">Типовая воронка</p>
+            <p className="mt-1">{item.guide.typicalFunnel}</p>
+          </div>
+
+          <div>
+            <p className="font-semibold text-foreground">Как выглядит ранний успех</p>
+            <ul className="mt-1 space-y-1">
+              {item.guide.earlySuccess.map((entry) => (
+                <li key={entry}>• {entry}</li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <p className="font-semibold text-foreground">Ключевые метрики</p>
+            <ul className="mt-1 space-y-1">
+              {item.guide.keyMetrics.map((entry) => (
+                <li key={entry}>• {entry}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export function MapDashboard({ products }: { products: ScoredProductRecord[] }) {
   const { preset, setPreset, filters, setFilters, selectedCode, setSelectedCode, buildHref } =
     useResearchUrlState();
@@ -164,22 +223,7 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
 
           <div className="mt-3 flex flex-wrap gap-2 rounded-md border border-border bg-background px-3 py-3">
             {ARCHETYPE_OPTIONS.map((item) => (
-              <div
-                key={item.id}
-                className="flex min-w-[112px] items-center gap-2 rounded-md px-2 py-1.5"
-                style={{ backgroundColor: item.fill }}
-                title={item.label}
-              >
-                <span
-                  className="h-2.5 w-2.5 rounded-full"
-                  style={{ backgroundColor: item.text }}
-                />
-                <span className="text-[11px] font-semibold leading-4" style={{ color: item.text }}>
-                  {item.legendLines[0]}
-                  <br />
-                  {item.legendLines[1]}
-                </span>
-              </div>
+              <ArchetypeLegendCard key={item.id} item={item} />
             ))}
           </div>
 

@@ -63,6 +63,13 @@ export interface OperatorMatrixEntry {
   rationale: string;
 }
 
+export interface ArchetypeGuideEntry {
+  whatItIs: string;
+  typicalFunnel: string;
+  earlySuccess: string[];
+  keyMetrics: string[];
+}
+
 export interface ProductRecord {
   code: string;
   title: string;

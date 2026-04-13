@@ -5,7 +5,14 @@ import { X } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { InfoHint } from "@/components/ui/info-hint";
-import { COMPOSITE_METRICS, getOperatorDifficultyLabel, getOperatorDifficultyTone, getPresetLabel, RAW_LOAD_FACTORS } from "@/lib/research-metadata";
+import {
+  COMPOSITE_METRICS,
+  getArchetypeGuide,
+  getOperatorDifficultyLabel,
+  getOperatorDifficultyTone,
+  getPresetLabel,
+  RAW_LOAD_FACTORS,
+} from "@/lib/research-metadata";
 import { buildDrawerReasoning, type FounderRowRecord } from "@/lib/research-view";
 import { cn } from "@/lib/utils";
 import type { PresetKey } from "@/types";
@@ -105,6 +112,7 @@ export function ExplainabilityDrawer({
 
   const reasoning = buildDrawerReasoning(product, preset);
   const topConflicts = product.sourceCard.claim_conflicts.slice(0, 3);
+  const archetypeGuide = getArchetypeGuide(product.archetype.id);
 
   return (
     <div className="fixed inset-0 z-50 flex justify-end">
@@ -251,7 +259,12 @@ export function ExplainabilityDrawer({
                 hint="Derived taxonomy layer used for filtering, grouping and explainability only."
               />
               <DetailCard
-                label="Operator difficulty"
+                label="Pilot operating complexity"
+                value={getOperatorDifficultyLabel(product.archetype.operatorDifficulty)}
+                hint="Easy / Medium / Hard bucket from the archetype operator guide."
+              />
+              <DetailCard
+                label="Operator difficulty basis"
                 value={`${getOperatorDifficultyLabel(product.archetype.operatorDifficulty)} (${product.archetype.operatorDifficultySourceLabel})`}
                 hint="Color bucket from the operator guide. This does not affect ranking in v1."
               />
@@ -281,6 +294,28 @@ export function ExplainabilityDrawer({
                   <p className="text-xs text-muted-foreground">No source signals bundled for this derived assignment.</p>
                 )}
               </div>
+            </div>
+          </section>
+
+          <section className="rounded-md border border-border bg-card p-3">
+            <h3 className="text-sm font-semibold">Archetype guide</h3>
+            <div className="mt-2 grid gap-2.5 md:grid-cols-2">
+              <DetailCard
+                label="Что это такое"
+                value={archetypeGuide.whatItIs}
+              />
+              <DetailCard
+                label="Типовая воронка"
+                value={archetypeGuide.typicalFunnel}
+              />
+              <DetailCard
+                label="Как выглядит ранний успех"
+                value={archetypeGuide.earlySuccess.join(", ")}
+              />
+              <DetailCard
+                label="Ключевые метрики"
+                value={archetypeGuide.keyMetrics.join(", ")}
+              />
             </div>
           </section>
 
