@@ -1,224 +1,355 @@
 "use client";
 
-import { useState } from "react";
+import { Fragment, useMemo, useState } from "react";
+import { ChevronDown, ChevronRight, ChevronsUpDown, Lock } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from "@/components/ui/table";
 import { ProductDetail } from "@/components/ProductDetail";
-import { ChevronRight } from "lucide-react";
+import {
+  formatCurrency,
+  formatHalfLife,
+  formatScore,
+  getScoreForPreset,
+} from "@/lib/decision";
 import { cn } from "@/lib/utils";
-import type { Product } from "@/types";
+import type { EnrichedProduct, Preset, SortState } from "@/types";
 
 interface ProductTableProps {
-  products: Product[];
+  products: EnrichedProduct[];
+  preset: Preset;
+  sortState: SortState;
+  onSortChange: (state: SortState) => void;
 }
 
-const MARKET_CLASS: Record<string, string> = {
-  LUX: "bg-blue-500/10 text-blue-600 dark:text-blue-400 border-blue-500/20",
-  EU: "bg-violet-500/10 text-violet-600 dark:text-violet-400 border-violet-500/20",
-  GCC: "bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border-emerald-500/20",
-};
+const MODEL_CLASS = {
+  B2B: "border-sky-200 bg-sky-50 text-sky-700",
+  B2C: "border-emerald-200 bg-emerald-50 text-emerald-700",
+  B2B2C: "border-amber-200 bg-amber-50 text-amber-700",
+} as const;
 
-const READINESS_CLASS: Record<string, string> = {
-  green: "bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border-emerald-500/20",
-  yellow: "bg-yellow-500/10 text-yellow-600 dark:text-yellow-400 border-yellow-500/20",
-  red: "bg-red-500/10 text-red-500 border-red-500/20",
-};
+const MARKET_CLASS = {
+  LUX: "border-slate-200 bg-slate-50 text-slate-700",
+  EU: "border-indigo-200 bg-indigo-50 text-indigo-700",
+  GCC: "border-teal-200 bg-teal-50 text-teal-700",
+} as const;
 
-const READINESS_LABEL: Record<string, string> = {
-  green: "🟢 Ready",
-  yellow: "🟡 2–4 wk",
-  red: "🔴 2+ mo",
-};
+const STAGE_CLASS = {
+  hypothesis: "bg-zinc-100 text-zinc-700",
+  ready: "bg-blue-100 text-blue-700",
+  piloting: "bg-amber-100 text-amber-700",
+  live: "bg-emerald-100 text-emerald-700",
+} as const;
 
-const MODEL_CLASS: Record<string, string> = {
-  B2B: "bg-blue-500/10 text-blue-600 dark:text-blue-400 border-blue-500/20",
-  B2C: "bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border-emerald-500/20",
-  B2B2C: "bg-yellow-500/10 text-yellow-600 dark:text-yellow-400 border-yellow-500/20",
-};
+function SortButton({
+  label,
+  column,
+  sortState,
+  onSort,
+  align = "left",
+}: {
+  label: string;
+  column: SortState["column"];
+  sortState: SortState;
+  onSort: (column: SortState["column"]) => void;
+  align?: "left" | "right";
+}) {
+  const active = sortState.column === column;
+  const icon = active ? (
+    <ChevronDown
+      className={cn(
+        "h-3.5 w-3.5 transition-transform",
+        sortState.direction === "asc" && "rotate-180"
+      )}
+    />
+  ) : (
+    <ChevronsUpDown className="h-3.5 w-3.5 opacity-50" />
+  );
 
-function ConfidenceBar({ value }: { value: number }) {
-  const color =
-    value >= 75
-      ? "bg-emerald-500"
-      : value >= 60
-      ? "bg-yellow-500"
-      : "bg-red-500";
   return (
-    <div className="flex flex-col gap-1 min-w-[72px]">
-      <span className="text-xs font-semibold">{value}%</span>
-      <div className="h-1 w-full bg-muted rounded-full overflow-hidden">
-        <div className={cn("h-full rounded-full", color)} style={{ width: `${value}%` }} />
-      </div>
-    </div>
+    <button
+      type="button"
+      onClick={() => onSort(column)}
+      className={cn(
+        "flex w-full items-center gap-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-muted-foreground",
+        align === "right" && "justify-end"
+      )}
+    >
+      <span>{label}</span>
+      {icon}
+    </button>
   );
 }
 
-export function ProductTable({ products }: ProductTableProps) {
-  const [openCode, setOpenCode] = useState<string | null>(null);
+function ScoreCell({ value }: { value: number }) {
+  return <span className="font-mono text-sm font-semibold">{formatScore(value)}</span>;
+}
 
-  if (products.length === 0) {
-    return (
-      <div className="text-center py-16 text-muted-foreground text-sm border border-border rounded-xl">
-        No products match the current filters.
-      </div>
-    );
-  }
+function DeltaCell({ value }: { value: number }) {
+  return (
+    <span
+      className={cn(
+        "font-mono text-sm font-semibold",
+        value > 0.2 && "text-indigo-700",
+        value < -0.2 && "text-emerald-700",
+        value >= -0.2 && value <= 0.2 && "text-foreground"
+      )}
+    >
+      {value > 0 ? "+" : ""}
+      {formatScore(value)}
+    </span>
+  );
+}
+
+function ColumnHint({ preset, product }: { preset: Preset; product: EnrichedProduct }) {
+  const label =
+    preset === "venture"
+      ? "Venture-led"
+      : preset === "cashflow"
+      ? "Cash-led"
+      : "Balanced view";
 
   return (
-    <div className="border border-border rounded-xl overflow-hidden">
-      <Table>
-        <TableHeader>
-          <TableRow className="bg-muted/50 hover:bg-muted/50">
-            <TableHead className="w-8" />
-            <TableHead className="text-[10px] font-bold uppercase tracking-wider w-28">
-              Code
-            </TableHead>
-            <TableHead className="text-[10px] font-bold uppercase tracking-wider">
-              Product
-            </TableHead>
-            <TableHead className="text-[10px] font-bold uppercase tracking-wider w-16">
-              Market
-            </TableHead>
-            <TableHead className="text-[10px] font-bold uppercase tracking-wider w-24">
-              Readiness
-            </TableHead>
-            <TableHead className="text-[10px] font-bold uppercase tracking-wider hidden md:table-cell">
-              Status
-            </TableHead>
-            <TableHead className="text-[10px] font-bold uppercase tracking-wider hidden md:table-cell w-24">
-              Model
-            </TableHead>
-            <TableHead className="text-[10px] font-bold uppercase tracking-wider">
-              Price
-            </TableHead>
-            <TableHead className="text-[10px] font-bold uppercase tracking-wider hidden lg:table-cell">
-              Revenue Y1
-            </TableHead>
-            <TableHead className="text-[10px] font-bold uppercase tracking-wider w-20">
-              Conf.
-            </TableHead>
-          </TableRow>
-        </TableHeader>
-        <TableBody>
-          {products.map((product) => {
-            const isOpen = openCode === product.code;
-            return (
-              <>
-                <TableRow
-                  key={product.code}
-                  className={cn(
-                    "cursor-pointer transition-colors",
-                    isOpen && "bg-primary/5"
-                  )}
-                  onClick={() => setOpenCode(isOpen ? null : product.code)}
-                >
-                  <TableCell className="pl-4 pr-0">
-                    <ChevronRight
-                      className={cn(
-                        "h-3.5 w-3.5 text-muted-foreground transition-transform duration-200",
-                        isOpen && "rotate-90"
+    <span className="text-[11px] text-muted-foreground">
+      {label} · active score {formatScore(getScoreForPreset(product, preset))}
+    </span>
+  );
+}
+
+export function ProductTable({
+  products,
+  preset,
+  sortState,
+  onSortChange,
+}: ProductTableProps) {
+  const [openCode, setOpenCode] = useState<string | null>(null);
+
+  const handleSort = (column: SortState["column"]) => {
+    if (!column) return;
+    if (sortState.column === column) {
+      onSortChange({
+        column,
+        direction: sortState.direction === "desc" ? "asc" : "desc",
+      });
+      return;
+    }
+
+    onSortChange({
+      column,
+      direction: column === "delta" || column === "bottleneck" || column === "halfLife" ? "asc" : "desc",
+    });
+  };
+
+  const emptyState = useMemo(
+    () => (
+      <div className="rounded-[28px] border border-dashed border-border bg-card px-6 py-16 text-center">
+        <p className="text-sm font-medium">No products match this decision view.</p>
+        <p className="mt-1 text-sm text-muted-foreground">
+          Relax one filter or switch the preset to widen the opportunity set.
+        </p>
+      </div>
+    ),
+    []
+  );
+
+  if (products.length === 0) return emptyState;
+
+  return (
+    <div className="overflow-hidden rounded-[28px] border border-border bg-card shadow-sm">
+      <div className="overflow-x-auto">
+        <table className="min-w-full border-separate border-spacing-0">
+          <thead className="sticky top-0 z-10 bg-card">
+            <tr className="border-b border-border">
+              <th className="w-10 px-4 py-4" />
+              <th className="px-3 py-4 text-left">
+                <SortButton label="Code" column="code" sortState={sortState} onSort={handleSort} />
+              </th>
+              <th className="px-3 py-4 text-left">
+                <SortButton
+                  label="Product"
+                  column="product"
+                  sortState={sortState}
+                  onSort={handleSort}
+                />
+              </th>
+              <th className="px-3 py-4 text-left">
+                <SortButton label="Stage" column="stage" sortState={sortState} onSort={handleSort} />
+              </th>
+              <th className="px-3 py-4 text-right">
+                <SortButton
+                  label="Time-to-ship"
+                  column="timeToShip"
+                  sortState={sortState}
+                  onSort={handleSort}
+                  align="right"
+                />
+              </th>
+              <th className="px-3 py-4 text-right">
+                <SortButton
+                  label="Venture"
+                  column="venture"
+                  sortState={sortState}
+                  onSort={handleSort}
+                  align="right"
+                />
+              </th>
+              <th className="px-3 py-4 text-right">
+                <SortButton
+                  label="Cashflow"
+                  column="cashflow"
+                  sortState={sortState}
+                  onSort={handleSort}
+                  align="right"
+                />
+              </th>
+              <th className="px-3 py-4 text-right">
+                <SortButton
+                  label="Δ"
+                  column="delta"
+                  sortState={sortState}
+                  onSort={handleSort}
+                  align="right"
+                />
+              </th>
+              <th className="px-3 py-4 text-right">
+                <SortButton
+                  label="Y1 Contribution"
+                  column="y1Contribution"
+                  sortState={sortState}
+                  onSort={handleSort}
+                  align="right"
+                />
+              </th>
+              <th className="px-3 py-4 text-left">
+                <SortButton
+                  label="Bottleneck"
+                  column="bottleneck"
+                  sortState={sortState}
+                  onSort={handleSort}
+                />
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {products.map((product) => {
+              const isOpen = openCode === product.shortCode;
+
+              return (
+                <Fragment key={product.shortCode}>
+                  <tr
+                    className={cn(
+                      "cursor-pointer border-t border-border/70 transition-colors hover:bg-muted/30",
+                      isOpen && "bg-muted/40"
+                    )}
+                    onClick={() => setOpenCode(isOpen ? null : product.shortCode)}
+                  >
+                    <td className="px-4 py-4">
+                      {isOpen ? (
+                        <ChevronDown className="h-4 w-4 text-muted-foreground" />
+                      ) : (
+                        <ChevronRight className="h-4 w-4 text-muted-foreground" />
                       )}
-                    />
-                  </TableCell>
-
-                  <TableCell className="font-mono text-[11px] font-semibold text-primary uppercase tracking-wide">
-                    {product.code}
-                  </TableCell>
-
-                  <TableCell>
-                    <p className="font-semibold text-sm">{product.title}</p>
-                    <div className="flex gap-1 mt-1 flex-wrap">
-                      {product.tags.map((tag) => (
-                        <span
-                          key={tag}
-                          className="text-[10px] bg-muted text-muted-foreground border border-border px-1.5 py-0.5 rounded"
-                        >
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-                  </TableCell>
-
-                  <TableCell>
-                    <Badge
-                      variant="outline"
-                      className={cn(
-                        "text-[10px] font-bold uppercase tracking-wide rounded-full px-2",
-                        MARKET_CLASS[product.market]
-                      )}
-                    >
-                      {product.market}
-                    </Badge>
-                  </TableCell>
-
-                  <TableCell>
-                    <Badge
-                      variant="outline"
-                      className={cn(
-                        "text-[10px] font-bold rounded-full px-2 whitespace-nowrap",
-                        READINESS_CLASS[product.readiness]
-                      )}
-                    >
-                      {READINESS_LABEL[product.readiness]}
-                    </Badge>
-                  </TableCell>
-
-                  <TableCell className="hidden md:table-cell text-xs text-muted-foreground whitespace-nowrap">
-                    {product.discoveryStatus}
-                  </TableCell>
-
-                  <TableCell className="hidden md:table-cell">
-                    <div className="flex gap-1 flex-wrap">
-                      {product.model.split(",").map((m) => {
-                        const key = m.trim();
-                        return (
-                          <Badge
-                            key={key}
-                            variant="outline"
-                            className={cn(
-                              "text-[10px] font-semibold rounded px-1.5",
-                              MODEL_CLASS[key]
+                    </td>
+                    <td className="px-3 py-4 align-top font-mono text-xs font-semibold uppercase tracking-[0.22em] text-muted-foreground">
+                      {product.shortCode}
+                    </td>
+                    <td className="min-w-[320px] px-3 py-4 align-top">
+                      <div className="space-y-2">
+                        <div>
+                          <div className="flex flex-wrap items-center gap-2">
+                            <p className="text-sm font-semibold">{product.title}</p>
+                            {!product.dependenciesResolved && (
+                              <Badge
+                                variant="outline"
+                                className="gap-1 border-amber-200 bg-amber-50 text-amber-700"
+                              >
+                                <Lock className="h-3 w-3" />
+                                Blocked by {product.dependencies.join(", ")}
+                              </Badge>
                             )}
+                          </div>
+                          <ColumnHint preset={preset} product={product} />
+                        </div>
+
+                        <div className="flex flex-wrap gap-1.5">
+                          <Badge
+                            variant="outline"
+                            className={cn("border", MARKET_CLASS[product.market])}
                           >
-                            {key}
+                            {product.market}
                           </Badge>
-                        );
-                      })}
-                    </div>
-                  </TableCell>
+                          {product.modelList.map((model) => (
+                            <Badge
+                              key={`${product.shortCode}-${model}`}
+                              variant="outline"
+                              className={cn("border", MODEL_CLASS[model])}
+                            >
+                              {model}
+                            </Badge>
+                          ))}
+                          {product.cannibalizationCluster && (
+                            <Badge
+                              variant="outline"
+                              className="border-rose-200 bg-rose-50 text-rose-700"
+                            >
+                              Mutually exclusive
+                            </Badge>
+                          )}
+                        </div>
+                      </div>
+                    </td>
+                    <td className="px-3 py-4 align-top">
+                      <span
+                        className={cn(
+                          "inline-flex rounded-full px-2.5 py-1 text-xs font-semibold",
+                          STAGE_CLASS[product.stage]
+                        )}
+                      >
+                        {product.stageLabel}
+                      </span>
+                    </td>
+                    <td className="px-3 py-4 text-right align-top">
+                      <span className="font-mono text-sm font-semibold">
+                        {product.axes.timeToShip}w
+                      </span>
+                    </td>
+                    <td className="px-3 py-4 text-right align-top">
+                      <ScoreCell value={product.ventureScore} />
+                    </td>
+                    <td className="px-3 py-4 text-right align-top">
+                      <ScoreCell value={product.cashflowScore} />
+                    </td>
+                    <td className="px-3 py-4 text-right align-top">
+                      <DeltaCell value={product.delta} />
+                    </td>
+                    <td className="px-3 py-4 text-right align-top">
+                      <span className="text-sm font-semibold">
+                        {formatCurrency(product.y1Contribution)}
+                      </span>
+                    </td>
+                    <td className="min-w-[210px] px-3 py-4 align-top">
+                      <div className="space-y-1">
+                        <p className="text-sm font-semibold">
+                          {product.bottleneck.label} {product.bottleneck.value}
+                        </p>
+                        <p className="text-[11px] text-muted-foreground">
+                          {formatHalfLife(product)}
+                        </p>
+                      </div>
+                    </td>
+                  </tr>
 
-                  <TableCell className="text-primary font-medium text-xs whitespace-nowrap">
-                    {product.price}
-                  </TableCell>
-
-                  <TableCell className="hidden lg:table-cell text-emerald-600 dark:text-emerald-400 text-xs whitespace-nowrap">
-                    {product.revenue}
-                  </TableCell>
-
-                  <TableCell>
-                    <ConfidenceBar value={product.confidence} />
-                  </TableCell>
-                </TableRow>
-
-                {isOpen && (
-                  <TableRow key={`${product.code}-detail`} className="hover:bg-transparent">
-                    <TableCell colSpan={10} className="p-0">
-                      <ProductDetail product={product} />
-                    </TableCell>
-                  </TableRow>
-                )}
-              </>
-            );
-          })}
-        </TableBody>
-      </Table>
+                  {isOpen && (
+                    <tr className="bg-muted/20">
+                      <td colSpan={10} className="px-0 py-0">
+                        <ProductDetail product={product} preset={preset} />
+                      </td>
+                    </tr>
+                  )}
+                </Fragment>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }

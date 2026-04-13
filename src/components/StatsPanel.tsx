@@ -1,91 +1,98 @@
-import type { Product } from "@/types";
+import { formatCurrency, formatScore, getScoreForPreset } from "@/lib/decision";
+import type { EnrichedProduct, Preset } from "@/types";
 
 interface StatsPanelProps {
-  products: Product[];
+  products: EnrichedProduct[];
+  preset: Preset;
   total: number;
 }
 
-function Bar({ value, max, color }: { value: number; max: number; color: string }) {
-  const pct = max > 0 ? Math.round((value / max) * 100) : 0;
-  return (
-    <div className="flex-1 h-1.5 bg-muted rounded-full overflow-hidden">
-      <div className={`h-full rounded-full ${color}`} style={{ width: `${pct}%` }} />
-    </div>
-  );
-}
-
-function StatRow({
+function Metric({
   label,
-  count,
-  total,
-  color,
+  value,
+  hint,
 }: {
   label: string;
-  count: number;
-  total: number;
-  color: string;
+  value: string;
+  hint: string;
 }) {
   return (
-    <div className="flex items-center gap-2 mb-2">
-      <span className="text-xs text-muted-foreground min-w-[80px]">{label}</span>
-      <Bar value={count} max={total} color={color} />
-      <span className={`text-xs font-semibold min-w-[16px] text-right ${color.replace("bg-", "text-")}`}>
-        {count}
-      </span>
+    <div className="rounded-2xl border border-border bg-background px-4 py-3">
+      <p className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">{label}</p>
+      <p className="mt-1 text-xl font-semibold">{value}</p>
+      <p className="text-sm text-muted-foreground">{hint}</p>
     </div>
   );
 }
 
-export function StatsPanel({ products, total }: StatsPanelProps) {
-  const n = products.length;
-
-  const byMarket = { LUX: 0, EU: 0, GCC: 0 } as Record<string, number>;
-  const byReadiness = { green: 0, yellow: 0, red: 0 } as Record<string, number>;
-  const byBp = { live: 0, piloting: 0, ready: 0, hypothesis: 0 } as Record<string, number>;
-
-  for (const p of products) {
-    byMarket[p.market] = (byMarket[p.market] ?? 0) + 1;
-    byReadiness[p.readiness]++;
-    byBp[p.bp]++;
-  }
+export function StatsPanel({ products, preset, total }: StatsPanelProps) {
+  const topProduct = [...products].sort(
+    (a, b) => getScoreForPreset(b, preset) - getScoreForPreset(a, preset)
+  )[0];
+  const urgent = products.filter((product) => product.halfLifeCountdownMonths < 18).length;
+  const blocked = products.filter((product) => !product.dependenciesResolved).length;
+  const venturePositive = products.filter((product) => product.delta > 0.2).length;
+  const universal = products.filter((product) => Math.abs(product.delta) <= 0.2).length;
 
   return (
-    <aside className="sticky top-6 bg-card border border-border rounded-xl p-5 text-sm">
-      <p className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground mb-3">
-        Overview
-      </p>
-      <p className="text-3xl font-bold leading-none">{n}</p>
-      <p className="text-xs text-muted-foreground mt-0.5 mb-4">
-        products shown of {total}
-      </p>
+    <aside className="sticky top-6 space-y-4 rounded-[28px] border border-border bg-card p-4 shadow-sm">
+      <div>
+        <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-muted-foreground">
+          Decision snapshot
+        </p>
+        <p className="mt-2 text-3xl font-semibold">{products.length}</p>
+        <p className="text-sm text-muted-foreground">in view out of {total} total products</p>
+      </div>
 
-      <hr className="border-border mb-4" />
+      <Metric
+        label="Urgent"
+        value={String(urgent)}
+        hint="Half-life below 18 months"
+      />
+      <Metric
+        label="Blocked"
+        value={String(blocked)}
+        hint="Waiting on dependencies"
+      />
+      <Metric
+        label="Venture-only"
+        value={String(venturePositive)}
+        hint="Positive delta against cashflow"
+      />
+      <Metric
+        label="Universal winners"
+        value={String(universal)}
+        hint="Delta roughly near zero"
+      />
 
-      <p className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground mb-3">
-        By Market
-      </p>
-      <StatRow label="🇱🇺 LUX" count={byMarket.LUX ?? 0} total={n} color="bg-blue-500" />
-      <StatRow label="🇪🇺 EU" count={byMarket.EU ?? 0} total={n} color="bg-violet-500" />
-      <StatRow label="🌍 GCC" count={byMarket.GCC ?? 0} total={n} color="bg-emerald-500" />
+      {topProduct && (
+        <div className="rounded-3xl border border-border bg-background p-4">
+          <p className="text-[11px] uppercase tracking-[0.24em] text-muted-foreground">
+            Top in preset
+          </p>
+          <p className="mt-2 text-lg font-semibold">{topProduct.title}</p>
+          <p className="text-sm text-muted-foreground">{topProduct.shortCode}</p>
 
-      <hr className="border-border my-4" />
-
-      <p className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground mb-3">
-        By Readiness
-      </p>
-      <StatRow label="🟢 Ready" count={byReadiness.green ?? 0} total={n} color="bg-emerald-500" />
-      <StatRow label="🟡 2–4 wk" count={byReadiness.yellow ?? 0} total={n} color="bg-yellow-500" />
-      <StatRow label="🔴 2+ mo" count={byReadiness.red ?? 0} total={n} color="bg-red-500" />
-
-      <hr className="border-border my-4" />
-
-      <p className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground mb-3">
-        By Status
-      </p>
-      <StatRow label="✅ Live" count={byBp.live ?? 0} total={n} color="bg-emerald-500" />
-      <StatRow label="🔄 Piloting" count={byBp.piloting ?? 0} total={n} color="bg-blue-500" />
-      <StatRow label="📋 Ready" count={byBp.ready ?? 0} total={n} color="bg-violet-500" />
-      <StatRow label="💡 Hyp." count={byBp.hypothesis ?? 0} total={n} color="bg-yellow-500" />
+          <div className="mt-4 grid gap-3">
+            <div>
+              <p className="text-sm text-muted-foreground">Score</p>
+              <p className="text-lg font-semibold">
+                {formatScore(getScoreForPreset(topProduct, preset))}
+              </p>
+            </div>
+            <div>
+              <p className="text-sm text-muted-foreground">Y1 contribution</p>
+              <p className="text-lg font-semibold">
+                {formatCurrency(topProduct.y1Contribution)}
+              </p>
+            </div>
+            <div>
+              <p className="text-sm text-muted-foreground">Next action</p>
+              <p className="text-sm leading-6">{topProduct.nextAction}</p>
+            </div>
+          </div>
+        </div>
+      )}
     </aside>
   );
 }
