@@ -108,11 +108,13 @@ function SectionShell({
 
 function PairList({
   items,
+  columns = 1,
 }: {
   items: Array<{ label: ReactNode; value: ReactNode }>;
+  columns?: 1 | 2;
 }) {
   return (
-    <div className="grid gap-1.5">
+    <div className={cn("grid gap-1.5", columns === 2 && "xl:grid-cols-2 xl:gap-x-4")}>
       {items.map((item, index) => (
         <div
           key={index}
@@ -210,6 +212,7 @@ export function ProductDetail({ product, preset }: ProductDetailProps) {
             tone="source"
           >
             <PairList
+              columns={2}
               items={[
                 {
                   label: "Discovery status",
