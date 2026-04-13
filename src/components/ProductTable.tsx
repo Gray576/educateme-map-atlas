@@ -3,12 +3,12 @@
 import { Fragment, useMemo, useState } from "react";
 import { ChevronDown, ChevronRight, ChevronsUpDown, Lock } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { InfoHint } from "@/components/ui/info-hint";
 import { ProductDetail } from "@/components/ProductDetail";
 import {
   formatCurrency,
   formatHalfLife,
   formatScore,
-  getScoreForPreset,
 } from "@/lib/decision";
 import { cn } from "@/lib/utils";
 import type { EnrichedProduct, Preset, SortState } from "@/types";
@@ -70,14 +70,13 @@ function SortButton({
     <button
       type="button"
       onClick={() => onSort(column)}
-      title={description}
-      aria-label={`${label}: ${description}`}
       className={cn(
-        "flex w-full items-center gap-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-muted-foreground",
+        "flex w-full items-center gap-1.5 text-[10px] font-semibold uppercase tracking-[0.18em] text-muted-foreground",
         align === "right" && "justify-end"
       )}
     >
       <span>{label}</span>
+      <InfoHint label={label} description={description} side={align === "right" ? "right" : "left"} />
       {icon}
     </button>
   );
@@ -99,21 +98,6 @@ function DeltaCell({ value }: { value: number }) {
     >
       {value > 0 ? "+" : ""}
       {formatScore(value)}
-    </span>
-  );
-}
-
-function ColumnHint({ preset, product }: { preset: Preset; product: EnrichedProduct }) {
-  const label =
-    preset === "venture"
-      ? "Venture-led"
-      : preset === "cashflow"
-      ? "Cash-led"
-      : "Balanced view";
-
-  return (
-    <span className="text-[11px] text-muted-foreground">
-      {label} · active score {formatScore(getScoreForPreset(product, preset))}
     </span>
   );
 }
@@ -157,13 +141,13 @@ export function ProductTable({
   if (products.length === 0) return emptyState;
 
   return (
-    <div className="overflow-hidden rounded-[28px] border border-border bg-card shadow-sm">
+    <div className="overflow-hidden rounded-[24px] border border-border/70 bg-card/90 shadow-[0_12px_32px_-24px_rgba(14,37,33,0.35)] backdrop-blur">
       <div className="overflow-x-auto">
         <table className="min-w-full border-separate border-spacing-0">
           <thead className="sticky top-0 z-10 bg-card">
             <tr className="border-b border-border">
-              <th className="w-10 px-4 py-4" />
-              <th className="px-3 py-4 text-left">
+              <th className="w-8 px-3 py-3" />
+              <th className="px-2 py-3 text-left">
                 <SortButton
                   label="Code"
                   description="Stable SKU code for scanning and cross-referencing products."
@@ -172,7 +156,7 @@ export function ProductTable({
                   onSort={handleSort}
                 />
               </th>
-              <th className="px-3 py-4 text-left">
+              <th className="px-2 py-3 text-left">
                 <SortButton
                   label="Product"
                   description="Product name with Market and Model moved into pills to save decision space."
@@ -181,7 +165,7 @@ export function ProductTable({
                   onSort={handleSort}
                 />
               </th>
-              <th className="px-3 py-4 text-left">
+              <th className="px-2 py-3 text-left">
                 <SortButton
                   label="Stage"
                   description="Single lifecycle axis replacing the old overlapping status labels: Hypothesis → Ready → Piloting → Live."
@@ -190,7 +174,7 @@ export function ProductTable({
                   onSort={handleSort}
                 />
               </th>
-              <th className="px-3 py-4 text-right">
+              <th className="px-2 py-3 text-right">
                 <SortButton
                   label="Time-to-ship"
                   description="Weeks to first paying customer. Reframed from Readiness into a sortable shipping timeline."
@@ -200,7 +184,7 @@ export function ProductTable({
                   align="right"
                 />
               </th>
-              <th className="px-3 py-4 text-right">
+              <th className="px-2 py-3 text-right">
                 <SortButton
                   label="Venture"
                   description="Σ(axis × venture-weight) × confidence. Measures how much this SKU can become a platform or strategic wedge."
@@ -210,7 +194,7 @@ export function ProductTable({
                   align="right"
                 />
               </th>
-              <th className="px-3 py-4 text-right">
+              <th className="px-2 py-3 text-right">
                 <SortButton
                   label="Cashflow"
                   description="Σ(axis × cashflow-weight) × confidence. Measures likelihood of putting money in the bank within roughly six months."
@@ -220,7 +204,7 @@ export function ProductTable({
                   align="right"
                 />
               </th>
-              <th className="px-3 py-4 text-right">
+              <th className="px-2 py-3 text-right">
                 <SortButton
                   label="Δ"
                   description="Difference between Venture and Cashflow scores. Positive means venture-only bet, negative means cashflow-first, near zero means universal winner."
@@ -230,7 +214,7 @@ export function ProductTable({
                   align="right"
                 />
               </th>
-              <th className="px-3 py-4 text-right">
+              <th className="px-2 py-3 text-right">
                 <SortButton
                   label="Y1 Contribution"
                   description="Year-one revenue adjusted by gross margin. Higher-quality cash beats a bigger but low-margin top line."
@@ -240,7 +224,7 @@ export function ProductTable({
                   align="right"
                 />
               </th>
-              <th className="px-3 py-4 text-left">
+              <th className="px-2 py-3 text-left">
                 <SortButton
                   label="Bottleneck"
                   description="Lowest blocking axis at a glance, like Distribution 1 or Team fit 2. Shows what limits progress right now."
@@ -259,43 +243,42 @@ export function ProductTable({
                 <Fragment key={product.shortCode}>
                   <tr
                     className={cn(
-                      "cursor-pointer border-t border-border/70 transition-colors hover:bg-muted/30",
+                      "cursor-pointer border-t border-border/60 transition-colors hover:bg-muted/20",
                       isOpen && "bg-muted/40"
                     )}
                     onClick={() => setOpenCode(isOpen ? null : product.shortCode)}
                   >
-                    <td className="px-4 py-4">
+                    <td className="px-3 py-3.5">
                       {isOpen ? (
                         <ChevronDown className="h-4 w-4 text-muted-foreground" />
                       ) : (
                         <ChevronRight className="h-4 w-4 text-muted-foreground" />
                       )}
                     </td>
-                    <td className="px-3 py-4 align-top font-mono text-xs font-semibold uppercase tracking-[0.22em] text-muted-foreground">
+                    <td className="px-2 py-3.5 align-top font-mono text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
                       {product.shortCode}
                     </td>
-                    <td className="min-w-[320px] px-3 py-4 align-top">
-                      <div className="space-y-2">
+                    <td className="min-w-[260px] px-2 py-3.5 align-top">
+                      <div className="space-y-1.5">
                         <div>
                           <div className="flex flex-wrap items-center gap-2">
-                            <p className="text-sm font-semibold">{product.title}</p>
+                            <p className="text-sm font-semibold leading-5">{product.title}</p>
                             {!product.dependenciesResolved && (
                               <Badge
                                 variant="outline"
-                                className="gap-1 border-amber-200 bg-amber-50 text-amber-700"
+                                className="gap-1 border-amber-200 bg-amber-50 text-[10px] text-amber-700"
                               >
                                 <Lock className="h-3 w-3" />
                                 Blocked by {product.dependencies.join(", ")}
                               </Badge>
                             )}
                           </div>
-                          <ColumnHint preset={preset} product={product} />
                         </div>
 
-                        <div className="flex flex-wrap gap-1.5">
+                        <div className="flex flex-wrap gap-1">
                           <Badge
                             variant="outline"
-                            className={cn("border", MARKET_CLASS[product.market])}
+                            className={cn("h-4 border px-1.5 text-[10px]", MARKET_CLASS[product.market])}
                           >
                             {product.market}
                           </Badge>
@@ -303,7 +286,7 @@ export function ProductTable({
                             <Badge
                               key={`${product.shortCode}-${model}`}
                               variant="outline"
-                              className={cn("border", MODEL_CLASS[model])}
+                              className={cn("h-4 border px-1.5 text-[10px]", MODEL_CLASS[model])}
                             >
                               {model}
                             </Badge>
@@ -311,7 +294,7 @@ export function ProductTable({
                           {product.cannibalizationCluster && (
                             <Badge
                               variant="outline"
-                              className="border-rose-200 bg-rose-50 text-rose-700"
+                              className="h-4 border-rose-200 bg-rose-50 px-1.5 text-[10px] text-rose-700"
                             >
                               Mutually exclusive
                             </Badge>
@@ -319,41 +302,41 @@ export function ProductTable({
                         </div>
                       </div>
                     </td>
-                    <td className="px-3 py-4 align-top">
+                    <td className="px-2 py-3.5 align-top">
                       <span
                         className={cn(
-                          "inline-flex rounded-full px-2.5 py-1 text-xs font-semibold",
+                          "inline-flex rounded-full px-2 py-0.5 text-[11px] font-semibold",
                           STAGE_CLASS[product.stage]
                         )}
                       >
                         {product.stageLabel}
                       </span>
                     </td>
-                    <td className="px-3 py-4 text-right align-top">
-                      <span className="font-mono text-sm font-semibold">
+                    <td className="px-2 py-3.5 text-right align-top">
+                      <span className="font-mono text-[13px] font-semibold">
                         {product.axes.timeToShip}w
                       </span>
                     </td>
-                    <td className="px-3 py-4 text-right align-top">
+                    <td className="px-2 py-3.5 text-right align-top">
                       <ScoreCell value={product.ventureScore} />
                     </td>
-                    <td className="px-3 py-4 text-right align-top">
+                    <td className="px-2 py-3.5 text-right align-top">
                       <ScoreCell value={product.cashflowScore} />
                     </td>
-                    <td className="px-3 py-4 text-right align-top">
+                    <td className="px-2 py-3.5 text-right align-top">
                       <DeltaCell value={product.delta} />
                     </td>
-                    <td className="px-3 py-4 text-right align-top">
-                      <span className="text-sm font-semibold">
+                    <td className="px-2 py-3.5 text-right align-top">
+                      <span className="text-[13px] font-semibold">
                         {formatCurrency(product.y1Contribution)}
                       </span>
                     </td>
-                    <td className="min-w-[210px] px-3 py-4 align-top">
-                      <div className="space-y-1">
-                        <p className="text-sm font-semibold">
+                    <td className="min-w-[180px] px-2 py-3.5 align-top">
+                      <div className="space-y-0.5">
+                        <p className="text-[13px] font-semibold leading-5">
                           {product.bottleneck.label} {product.bottleneck.value}
                         </p>
-                        <p className="text-[11px] text-muted-foreground">
+                        <p className="text-[10px] text-muted-foreground">
                           {formatHalfLife(product)}
                         </p>
                       </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import { InfoHint } from "@/components/ui/info-hint";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
 import type {
@@ -102,69 +103,61 @@ export function FilterBar({
   const set = (patch: Partial<Filters>) => onChange({ ...filters, ...patch });
 
   return (
-    <section className="rounded-[28px] border border-border bg-card p-4 shadow-sm">
-      <div className="flex flex-col gap-4">
-        <div className="flex flex-wrap items-center gap-2">
+    <section className="rounded-[24px] border border-border/70 bg-card/85 p-3 shadow-[0_12px_30px_-24px_rgba(14,37,33,0.34)] backdrop-blur">
+      <div className="flex flex-col gap-3">
+        <div className="flex flex-wrap items-center gap-1.5">
           {PRESETS.map(([value, label, hint]) => (
             <button
               key={value}
               type="button"
               onClick={() => onPresetChange(value)}
-              title={hint}
-              aria-label={`${label}: ${hint}`}
               className={cn(
-                "rounded-full border px-4 py-2 text-left transition",
+                "rounded-full border px-3 py-1.5 text-left transition",
                 preset === value
-                  ? "border-primary bg-primary text-primary-foreground shadow-sm"
-                  : "border-border bg-background text-foreground hover:bg-muted"
+                  ? "border-primary/70 bg-primary text-primary-foreground shadow-sm"
+                  : "border-border/80 bg-background/80 text-foreground hover:bg-muted"
               )}
             >
-              <span className="block text-sm font-semibold">{label}</span>
-              <span
-                className={cn(
-                  "block text-xs",
-                  preset === value ? "text-primary-foreground/80" : "text-muted-foreground"
-                )}
-              >
-                {hint}
+              <span className="flex items-center gap-1 text-sm font-semibold">
+                {label}
+                <InfoHint
+                  label={label}
+                  description={hint}
+                  className={preset === value ? "text-primary-foreground/80" : ""}
+                />
               </span>
             </button>
           ))}
         </div>
 
-        <div className="flex flex-wrap items-center gap-2">
+        <div className="flex flex-wrap items-center gap-1.5">
           {SORT_PRESETS.map(([value, label, hint]) => (
             <Button
               key={value}
               size="sm"
               variant={sortPreset === value ? "default" : "outline"}
-              className="h-auto rounded-full px-3 py-2 text-left"
+              className="h-auto rounded-full px-2.5 py-1.5 text-left"
               onClick={() => onSortPreset(value)}
-              title={hint}
-              aria-label={`${label}: ${hint}`}
             >
-              <span className="block text-xs font-semibold">{label}</span>
-              <span
-                className={cn(
-                  "block text-[11px]",
-                  sortPreset === value ? "text-primary-foreground/80" : "text-muted-foreground"
-                )}
-              >
-                {hint}
+              <span className="flex items-center gap-1 text-[11px] font-semibold">
+                {label}
+                <InfoHint
+                  label={label}
+                  description={hint}
+                  className={sortPreset === value ? "text-primary-foreground/80" : ""}
+                />
               </span>
             </Button>
           ))}
         </div>
 
-        <div className="grid gap-3 lg:grid-cols-[minmax(0,1.4fr)_repeat(5,minmax(0,1fr))]">
+        <div className="grid gap-2 lg:grid-cols-[minmax(0,1.2fr)_repeat(5,minmax(0,0.86fr))]">
           <Input
             type="search"
             placeholder="Search code, product, blocker, action…"
             value={filters.search}
             onChange={(event) => set({ search: event.target.value })}
-            title="Search across code, product name, market, blocker, next action, and dependencies."
-            aria-label="Search across code, product name, market, blocker, next action, and dependencies."
-            className="h-9 rounded-full"
+            className="h-8 rounded-full bg-background/80 text-sm"
           />
 
           <Select
@@ -222,10 +215,16 @@ export function FilterBar({
           />
         </div>
 
-        <div className="grid gap-3 lg:grid-cols-[minmax(0,1.3fr)_auto_auto] lg:items-center">
-          <div className="rounded-3xl border border-border bg-background px-4 py-3">
+        <div className="grid gap-2 lg:grid-cols-[minmax(0,1fr)_auto_auto] lg:items-center">
+          <div className="rounded-3xl border border-border/80 bg-background/80 px-3 py-2.5">
             <div className="flex items-center justify-between text-xs text-muted-foreground">
-              <span>Minimum {filters.scoreMetric} score</span>
+              <span className="flex items-center gap-1">
+                Minimum {filters.scoreMetric} score
+                <InfoHint
+                  label="Minimum score"
+                  description="Score range slider for Venture or Cashflow. Use it to cut noise below your minimum bar."
+                />
+              </span>
               <span className="font-semibold text-foreground">{filters.scoreMin.toFixed(1)}</span>
             </div>
             <input
@@ -235,8 +234,6 @@ export function FilterBar({
               step="0.1"
               value={filters.scoreMin}
               onChange={(event) => set({ scoreMin: Number(event.target.value) })}
-              title="Minimum score threshold for the selected metric."
-              aria-label="Minimum score threshold for the selected metric."
               className="mt-2 w-full accent-foreground"
             />
           </div>
@@ -246,8 +243,6 @@ export function FilterBar({
             variant={filters.urgentOnly ? "default" : "outline"}
             className="rounded-full px-4"
             onClick={() => set({ urgentOnly: !filters.urgentOnly })}
-            title="Urgent means half-life below 18 months, so the tailwind may disappear if we wait."
-            aria-label="Urgent means half-life below 18 months, so the tailwind may disappear if we wait."
           >
             Half-life &lt; 18 mo
           </Button>

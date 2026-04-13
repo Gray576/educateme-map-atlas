@@ -53,50 +53,50 @@ export default function Home() {
   };
 
   return (
-    <div className="mx-auto max-w-[1600px] px-4 pb-12 sm:px-6 lg:px-8">
-      <header className="flex flex-col gap-4 py-8 lg:flex-row lg:items-end lg:justify-between">
-        <div className="max-w-4xl">
-          <p className="text-[11px] font-semibold uppercase tracking-[0.32em] text-muted-foreground">
-            Educateme Decision Dashboard
-          </p>
-          <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">
-            Ship the right product, not the loudest one.
-          </h1>
-          <p className="mt-3 max-w-3xl text-sm leading-6 text-muted-foreground">
-            One table for venture bets, cashflow winners, urgent mandates, and blockers.
-            Each row answers what to launch, what is blocked, and what to do next.
-          </p>
+    <div className="mx-auto max-w-[1520px] px-4 pb-8 pt-4 sm:px-5 lg:px-6">
+      <header className="mb-3 flex flex-col gap-3 rounded-[26px] border border-border/70 bg-card/80 px-4 py-3 shadow-[0_14px_36px_-28px_rgba(14,37,33,0.45)] backdrop-blur sm:px-5">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div className="min-w-0">
+            <p className="text-[10px] font-semibold uppercase tracking-[0.28em] text-muted-foreground">
+              Educateme Decision Dashboard
+            </p>
+            <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1">
+              <h1 className="text-xl font-semibold tracking-tight sm:text-2xl">
+                Product choices, compressed for actual decisions
+              </h1>
+              <span className="rounded-full bg-primary/10 px-2 py-0.5 text-[11px] font-semibold text-primary">
+                {PRODUCTS.length} products
+              </span>
+            </div>
+          </div>
+          <div className="rounded-full border border-border/70 bg-background/80 px-3 py-1.5 text-[11px] text-muted-foreground">
+            Venture, cashflow, urgency, blockers
+          </div>
         </div>
-        <div className="rounded-3xl border border-border bg-card/80 px-5 py-4 text-sm shadow-sm">
-          <p className="text-[11px] uppercase tracking-[0.24em] text-muted-foreground">
-            Scope
-          </p>
-          <p className="mt-1 text-2xl font-semibold">{PRODUCTS.length}</p>
-          <p className="text-muted-foreground">products across 3 markets</p>
-        </div>
+        <p className="max-w-5xl text-[13px] leading-5 text-muted-foreground">
+          Use the preset first, then scan delta, contribution, and bottleneck. The table starts sooner, fits more rows, and keeps the operational next step visible.
+        </p>
       </header>
 
-      <div className="grid items-start gap-6 xl:grid-cols-[minmax(0,1fr)_320px]">
-        <div className="space-y-4">
-          <FilterBar
-            filters={filters}
-            preset={preset}
-            sortPreset={activeSortPreset}
-            onChange={setFilters}
-            onPresetChange={handlePresetChange}
-            onSortPreset={handleSortPreset}
-          />
-          <ProductTable
-            preset={preset}
-            products={filtered}
-            sortState={sortState}
-            onSortChange={setSortState}
-          />
-        </div>
+      <div className="space-y-3">
         <StatsPanel
           preset={preset}
           products={filtered}
           total={PRODUCTS.length}
+        />
+        <FilterBar
+          filters={filters}
+          preset={preset}
+          sortPreset={activeSortPreset}
+          onChange={setFilters}
+          onPresetChange={handlePresetChange}
+          onSortPreset={handleSortPreset}
+        />
+        <ProductTable
+          preset={preset}
+          products={filtered}
+          sortState={sortState}
+          onSortChange={setSortState}
         />
       </div>
     </div>
