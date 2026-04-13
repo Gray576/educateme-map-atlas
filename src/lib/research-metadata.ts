@@ -1,4 +1,4 @@
-import type { OperatorDifficulty, PresetKey, ProductRecord, ProductScores } from "@/types";
+import type { ArchetypeId, OperatorDifficulty, PresetKey, ProductRecord, ProductScores } from "@/types";
 
 export const PRESET_OPTIONS: Array<{ key: PresetKey; label: string; description: string }> = [
   {
@@ -28,8 +28,63 @@ export const PRESET_OPTIONS: Array<{ key: PresetKey; label: string; description:
   },
 ];
 
+export const ARCHETYPE_OPTIONS: Array<{
+  id: ArchetypeId;
+  label: string;
+  legendLines: [string, string];
+  fill: string;
+  text: string;
+}> = [
+  {
+    id: "core_language_programs",
+    label: "Core Language Programs",
+    legendLines: ["Core Language", "Programs"],
+    fill: "#d9efe4",
+    text: "#16624f",
+  },
+  {
+    id: "compliance_ai_training",
+    label: "Compliance & AI Training",
+    legendLines: ["Compliance & AI", "Training"],
+    fill: "#dbe9fb",
+    text: "#295d9d",
+  },
+  {
+    id: "integration_onboarding",
+    label: "Integration & Onboarding",
+    legendLines: ["Integration &", "Onboarding"],
+    fill: "#ede2fb",
+    text: "#6f46a5",
+  },
+  {
+    id: "diagnostics_capability_audit",
+    label: "Diagnostics & Capability Audit",
+    legendLines: ["Diagnostics &", "Capability Audit"],
+    fill: "#fce6cf",
+    text: "#9b5f0b",
+  },
+  {
+    id: "regulated_workforce_pathways_exam_prep",
+    label: "Regulated Workforce Pathways & Exam Prep",
+    legendLines: ["Regulated", "Pathways"],
+    fill: "#fde0e6",
+    text: "#a34b63",
+  },
+  {
+    id: "channel_licensing_placement",
+    label: "Channel, Licensing & Placement",
+    legendLines: ["Channel /", "Placement"],
+    fill: "#e2f1ee",
+    text: "#2e7066",
+  },
+];
+
 export function getPresetLabel(preset: PresetKey) {
   return PRESET_OPTIONS.find((item) => item.key === preset)?.label ?? preset;
+}
+
+export function getArchetypeVisual(archetypeId: ArchetypeId) {
+  return ARCHETYPE_OPTIONS.find((item) => item.id === archetypeId) ?? ARCHETYPE_OPTIONS[0]!;
 }
 
 export function getOperatorDifficultyLabel(level: OperatorDifficulty) {

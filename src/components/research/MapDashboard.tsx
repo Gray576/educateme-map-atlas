@@ -8,7 +8,7 @@ import { ResearchScreenNav } from "@/components/research/ResearchScreenNav";
 import { useResearchUrlState } from "@/components/research/useResearchUrlState";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { PRESET_OPTIONS } from "@/lib/research-metadata";
+import { ARCHETYPE_OPTIONS, getArchetypeVisual, PRESET_OPTIONS } from "@/lib/research-metadata";
 import {
   assignBands,
   applyFounderFilters,
@@ -50,12 +50,6 @@ function SelectControl({
       </select>
     </label>
   );
-}
-
-function pointTone(band: "top" | "mid" | "low") {
-  if (band === "top") return { fill: "#d7efe5", stroke: "#126b56", text: "#126b56" };
-  if (band === "mid") return { fill: "#f8e7c0", stroke: "#a76300", text: "#a76300" };
-  return { fill: "#f5d7df", stroke: "#aa4f62", text: "#aa4f62" };
 }
 
 function formatScore(value: number) {
@@ -168,6 +162,27 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
             <Badge variant="outline" className="rounded-md px-2.5 py-1 text-xs">Size: Buyer clarity</Badge>
           </div>
 
+          <div className="mt-3 flex flex-wrap gap-2 rounded-md border border-border bg-background px-3 py-3">
+            {ARCHETYPE_OPTIONS.map((item) => (
+              <div
+                key={item.id}
+                className="flex min-w-[112px] items-center gap-2 rounded-md px-2 py-1.5"
+                style={{ backgroundColor: item.fill }}
+                title={item.label}
+              >
+                <span
+                  className="h-2.5 w-2.5 rounded-full"
+                  style={{ backgroundColor: item.text }}
+                />
+                <span className="text-[11px] font-semibold leading-4" style={{ color: item.text }}>
+                  {item.legendLines[0]}
+                  <br />
+                  {item.legendLines[1]}
+                </span>
+              </div>
+            ))}
+          </div>
+
           <div className="mt-4">
             <div className="rounded-md border border-border bg-background p-3">
               <svg viewBox="0 0 920 540" className="h-auto w-full">
@@ -196,7 +211,7 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
                 {points.map((point) => {
                   const cx = 40 + point.x * 8.2;
                   const cy = 468 - point.y * 4.4;
-                  const tone = pointTone(point.band);
+                  const tone = getArchetypeVisual(point.archetype.id);
 
                   return (
                     <g
