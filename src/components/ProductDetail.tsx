@@ -212,6 +212,14 @@ export function ProductDetail({ product, preset }: ProductDetailProps) {
             <PairList
               items={[
                 {
+                  label: "Discovery status",
+                  value: product.discoveryStatus,
+                },
+                {
+                  label: "Readiness detail",
+                  value: product.details.readinessDetail,
+                },
+                {
                   label: "Target audience",
                   value: product.details.targetAudience,
                 },
@@ -220,8 +228,58 @@ export function ProductDetail({ product, preset }: ProductDetailProps) {
                   value: <span className="italic text-muted-foreground">{product.details.jtbd}</span>,
                 },
                 {
+                  label: "Curriculum",
+                  value: (
+                    <ul className="list-disc space-y-1 pl-4 text-[12px] leading-5 text-foreground">
+                      {product.details.curriculum.map((item) => (
+                        <li key={item}>{item}</li>
+                      ))}
+                    </ul>
+                  ),
+                },
+                {
+                  label: "Format",
+                  value: product.details.grid.Format,
+                },
+                {
+                  label: "Group size",
+                  value: product.details.grid["Group Size"],
+                },
+                {
+                  label: "Languages",
+                  value: product.details.grid.Languages,
+                },
+                {
+                  label: "Subsidy",
+                  value: product.details.grid.Subsidy,
+                },
+                {
+                  label: "Full price",
+                  value: product.details.priceFull,
+                },
+                {
                   label: "Deliverables",
                   value: product.details.deliverables,
+                },
+                {
+                  label: "Competitive",
+                  value: product.details.competitive,
+                },
+                {
+                  label: "Why it works",
+                  value: product.details.whyItWorks,
+                },
+                {
+                  label: "Tags",
+                  value: product.tags.join(", "),
+                },
+                {
+                  label: "Top-line price",
+                  value: product.price,
+                },
+                {
+                  label: "Top-line revenue",
+                  value: product.revenue,
                 },
                 {
                   label: "Upsell path",
