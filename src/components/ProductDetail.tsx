@@ -142,6 +142,7 @@ export function ProductDetail({ product, preset }: ProductDetailProps) {
           tone="derived"
         >
           <PairList
+            columns={2}
             items={AXIS_DETAILS.map((axis) => ({
               label: (
                 <span className="inline-flex items-center gap-1">
