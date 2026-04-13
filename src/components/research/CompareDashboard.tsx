@@ -128,9 +128,14 @@ export function CompareDashboard({ products }: { products: ScoredProductRecord[]
       </div>
 
       <section className="mt-3 space-y-2">
-        <p className="text-xs text-muted-foreground">
-          Ranking lens: these tabs keep the same card data, but change which score drives the ordering.
-        </p>
+        <div className="space-y-0.5">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.04em] text-muted-foreground">
+            Ranking lens
+          </p>
+          <p className="text-xs text-muted-foreground">
+            Same cards, different ranking formula depending on the decision goal.
+          </p>
+        </div>
         <div className="flex flex-wrap items-center gap-3">
         <ResearchScreenNav active="compare" buildHref={buildHref} />
         {PRESET_OPTIONS.map((item) => (

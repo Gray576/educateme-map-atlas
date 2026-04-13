@@ -116,9 +116,14 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
       </div>
 
       <section className="mt-3 space-y-2">
-        <p className="text-xs text-muted-foreground">
-          Ranking lens: switch the current scoring emphasis without changing the underlying product set.
-        </p>
+        <div className="space-y-0.5">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.04em] text-muted-foreground">
+            Ranking lens
+          </p>
+          <p className="text-xs text-muted-foreground">
+            Same cards, different ranking formula depending on the decision goal.
+          </p>
+        </div>
         <div className="flex flex-wrap items-center gap-3">
         <ResearchScreenNav active="map" buildHref={buildHref} />
         {PRESET_OPTIONS.map((item) => (
@@ -164,34 +169,34 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
             <Badge variant="outline" className="rounded-md px-2.5 py-1 text-xs">Size: Buyer clarity</Badge>
           </div>
 
-          <div className="mt-4 overflow-x-auto">
-            <div className="min-w-[860px] rounded-md border border-border bg-background p-3">
-              <svg viewBox="0 0 920 620" className="h-auto w-full">
-                <rect x="40" y="30" width="820" height="520" fill="#fbfaf6" stroke="#d8d4c8" />
-                <rect x="450" y="30" width="410" height="260" fill="#eef8f4" />
-                <rect x="40" y="290" width="410" height="260" fill="#fdf0f3" />
+          <div className="mt-4">
+            <div className="rounded-md border border-border bg-background p-3">
+              <svg viewBox="0 0 920 540" className="h-auto w-full">
+                <rect x="40" y="28" width="820" height="440" fill="#fbfaf6" stroke="#d8d4c8" />
+                <rect x="450" y="28" width="410" height="220" fill="#eef8f4" />
+                <rect x="40" y="248" width="410" height="220" fill="#fdf0f3" />
 
                 {[25, 50, 75].map((tick) => (
                   <g key={`v-${tick}`}>
-                    <line x1={40 + tick * 8.2} y1={30} x2={40 + tick * 8.2} y2={550} stroke="#ddd7c8" />
-                    <line x1={40} y1={550 - tick * 5.2} x2={860} y2={550 - tick * 5.2} stroke="#ddd7c8" />
+                    <line x1={40 + tick * 8.2} y1={28} x2={40 + tick * 8.2} y2={468} stroke="#ddd7c8" />
+                    <line x1={40} y1={468 - tick * 4.4} x2={860} y2={468 - tick * 4.4} stroke="#ddd7c8" />
                   </g>
                 ))}
 
-                <text x="52" y="45" fill="#5e7268" fontSize="16">Safer claims</text>
-                <text x="770" y="585" fill="#5e7268" fontSize="16">Easier to ship</text>
-                <text x="52" y="545" fill="#9a5363" fontSize="16">Riskier claims</text>
-                <text x="42" y="585" fill="#9a5363" fontSize="16">Harder to ship</text>
-                <text x="460" y="70" fill="#126b56" fontSize="16" fontWeight="600">
+                <text x="52" y="44" fill="#5e7268" fontSize="14">Safer claims</text>
+                <text x="770" y="500" fill="#5e7268" fontSize="14">Easier to ship</text>
+                <text x="52" y="458" fill="#9a5363" fontSize="14">Riskier claims</text>
+                <text x="42" y="500" fill="#9a5363" fontSize="14">Harder to ship</text>
+                <text x="460" y="64" fill="#126b56" fontSize="14" fontWeight="600">
                   Top-right: easiest to ship with safer claims
                 </text>
-                <text x="60" y="515" fill="#aa4f62" fontSize="16" fontWeight="600">
+                <text x="60" y="430" fill="#aa4f62" fontSize="14" fontWeight="600">
                   Bottom-left: heavy setup and risky messaging
                 </text>
 
                 {points.map((point) => {
                   const cx = 40 + point.x * 8.2;
-                  const cy = 550 - point.y * 5.2;
+                  const cy = 468 - point.y * 4.4;
                   const tone = pointTone(point.band);
 
                   return (
@@ -213,25 +218,23 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
                         cy={cy}
                         r={point.radius}
                         fill={tone.fill}
-                        stroke={tone.stroke}
-                        strokeWidth="2.5"
                       />
                       <text
                         x={cx}
-                        y={cy + 4}
+                        y={cy + 3}
                         textAnchor="middle"
                         fill={tone.text}
-                        fontSize="19"
+                        fontSize="14"
                         fontWeight="700"
                       >
                         {point.code}
                       </text>
                       <text
                         x={cx}
-                        y={cy + point.radius + 24}
+                        y={cy + point.radius + 18}
                         textAnchor="middle"
                         fill="#65736f"
-                        fontSize="12"
+                        fontSize="11"
                       >
                         {formatScore(point.scores.deliveryEase)} · {formatScore(point.scores.claimSafety)}
                       </text>

@@ -253,7 +253,7 @@ export function buildMapPoints(rows: FounderRowRecord[]): MapPointRecord[] {
     ...row,
     x: row.scores.deliveryEase,
     y: row.scores.claimSafety,
-    radius: 16 + (row.scores.buyerClarity / 100) * 28,
+    radius: 10 + (row.scores.buyerClarity / 100) * 18,
   }));
 }
 

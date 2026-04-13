@@ -12,7 +12,7 @@ export function ResearchScreenNav({
   buildHref: (path: string) => string;
 }) {
   return (
-    <div className="inline-grid grid-cols-3 rounded-full bg-secondary p-1">
+    <div className="inline-grid grid-cols-3 rounded-full border border-border/80 bg-muted px-1 py-1 shadow-sm">
       <Link href={buildHref("/")}>
         <span
           className={cn(
