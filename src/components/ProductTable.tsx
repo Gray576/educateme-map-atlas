@@ -21,22 +21,22 @@ interface ProductTableProps {
 }
 
 const MODEL_CLASS = {
-  B2B: "border-sky-200 bg-sky-50 text-sky-700",
-  B2C: "border-emerald-200 bg-emerald-50 text-emerald-700",
-  B2B2C: "border-amber-200 bg-amber-50 text-amber-700",
+  B2B: "border-border bg-muted text-muted-foreground",
+  B2C: "border-border bg-muted text-muted-foreground",
+  B2B2C: "border-border bg-muted text-muted-foreground",
 } as const;
 
 const MARKET_CLASS = {
-  LUX: "border-slate-200 bg-slate-50 text-slate-700",
-  EU: "border-indigo-200 bg-indigo-50 text-indigo-700",
-  GCC: "border-teal-200 bg-teal-50 text-teal-700",
+  LUX: "border-border bg-muted text-muted-foreground",
+  EU: "border-border bg-muted text-muted-foreground",
+  GCC: "border-border bg-muted text-muted-foreground",
 } as const;
 
 const STAGE_CLASS = {
-  hypothesis: "bg-zinc-100 text-zinc-700",
-  ready: "bg-blue-100 text-blue-700",
-  piloting: "bg-amber-100 text-amber-700",
-  live: "bg-emerald-100 text-emerald-700",
+  hypothesis: "border border-border bg-muted text-muted-foreground",
+  ready: "border border-blue-300 bg-blue-50 text-blue-600",
+  piloting: "border border-border bg-muted text-muted-foreground",
+  live: "border border-green-300 bg-green-50 text-green-700",
 } as const;
 
 function SortButton({
@@ -73,7 +73,8 @@ function SortButton({
       type="button"
       onClick={() => onSort(column)}
       className={cn(
-        "flex w-full items-center gap-1.5 text-[10px] font-semibold uppercase tracking-[0.18em] text-muted-foreground",
+        "flex w-full items-center gap-1.5 text-[11px] font-medium uppercase tracking-[0.04em] text-muted-foreground",
+        active && "text-foreground",
         align === "right" && "justify-end"
       )}
     >
@@ -82,6 +83,7 @@ function SortButton({
         label={label}
         description={description}
         side={hintSide ?? (align === "right" ? "right" : "left")}
+        widthClassName="w-56"
       />
       {icon}
     </button>
@@ -89,16 +91,16 @@ function SortButton({
 }
 
 function ScoreCell({ value }: { value: number }) {
-  return <span className="font-mono text-sm font-semibold">{formatScore(value)}</span>;
+  return <span className="font-mono text-[18px] font-medium">{formatScore(value)}</span>;
 }
 
 function DeltaCell({ value }: { value: number }) {
   return (
     <span
       className={cn(
-        "font-mono text-sm font-semibold",
-        value > 0.2 && "text-indigo-700",
-        value < -0.2 && "text-emerald-700",
+        "font-mono text-[18px] font-medium",
+        value > 0.2 && "text-green-600",
+        value < -0.2 && "text-red-500",
         value >= -0.2 && value <= 0.2 && "text-foreground"
       )}
     >
@@ -147,10 +149,10 @@ export function ProductTable({
   if (products.length === 0) return emptyState;
 
   return (
-    <div className="overflow-hidden rounded-[24px] border border-border/70 bg-card/90 shadow-[0_12px_32px_-24px_rgba(14,37,33,0.35)] backdrop-blur">
+    <div className="overflow-hidden rounded-[14px] border border-border bg-card">
       <div className="overflow-x-auto">
         <table className="min-w-full border-separate border-spacing-0">
-          <thead className="sticky top-0 z-10 bg-card">
+          <thead className="sticky top-0 z-10 bg-[#f3f3f3]">
             <tr className="border-b border-border">
               <th className="w-8 px-3 py-3" />
               <th className="px-2 py-3 text-left">
@@ -182,7 +184,7 @@ export function ProductTable({
               </th>
               <th className="px-2 py-3 text-right">
                 <SortButton
-                  label="Time-to-ship"
+                  label="TTS"
                   description="Weeks to first paying customer. Reframed from Readiness into a sortable shipping timeline."
                   column="timeToShip"
                   sortState={sortState}
@@ -192,7 +194,7 @@ export function ProductTable({
               </th>
               <th className="px-2 py-3 text-right">
                 <SortButton
-                  label="Venture"
+                  label="VENT"
                   description="Σ(axis × venture-weight) × confidence. Measures how much this SKU can become a platform or strategic wedge."
                   column="venture"
                   sortState={sortState}
@@ -202,7 +204,7 @@ export function ProductTable({
               </th>
               <th className="px-2 py-3 text-right">
                 <SortButton
-                  label="Cashflow"
+                  label="CASH"
                   description="Σ(axis × cashflow-weight) × confidence. Measures likelihood of putting money in the bank within roughly six months."
                   column="cashflow"
                   sortState={sortState}
@@ -222,7 +224,7 @@ export function ProductTable({
               </th>
               <th className="px-2 py-3 text-right">
                 <SortButton
-                  label="Y1 Contribution"
+                  label="Y1"
                   description="Year-one revenue adjusted by gross margin. Higher-quality cash beats a bigger but low-margin top line."
                   column="y1Contribution"
                   sortState={sortState}
@@ -250,30 +252,30 @@ export function ProductTable({
                 <Fragment key={product.shortCode}>
                   <tr
                     className={cn(
-                      "cursor-pointer border-t border-border/60 transition-colors hover:bg-muted/20",
-                      isOpen && "bg-muted/40"
+                      "cursor-pointer border-t border-border/80 bg-card transition-colors hover:bg-[#fafafa]",
+                      isOpen && "bg-[#fafafa]"
                     )}
                     onClick={() => setOpenCode(isOpen ? null : product.shortCode)}
                   >
-                    <td className="px-3 py-3.5">
+                    <td className="px-3 py-5">
                       {isOpen ? (
                         <ChevronDown className="h-4 w-4 text-muted-foreground" />
                       ) : (
                         <ChevronRight className="h-4 w-4 text-muted-foreground" />
                       )}
                     </td>
-                    <td className="px-2 py-3.5 align-top font-mono text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
+                    <td className="px-2 py-5 align-top font-mono text-[12px] font-medium uppercase tracking-[0.02em] text-muted-foreground">
                       {product.shortCode}
                     </td>
-                    <td className="min-w-[260px] px-2 py-3.5 align-top">
+                    <td className="min-w-[380px] px-2 py-5 align-top">
                       <div className="space-y-1.5">
                         <div>
                           <div className="flex flex-wrap items-center gap-2">
-                            <p className="text-sm font-semibold leading-5">{product.title}</p>
+                            <p className="text-[28px] font-medium leading-none tracking-tight">{product.title}</p>
                             {!product.dependenciesResolved && (
                               <Badge
                                 variant="outline"
-                                className="gap-1 border-amber-200 bg-amber-50 text-[10px] text-amber-700"
+                                className="gap-1 border-border bg-muted text-[11px] text-muted-foreground"
                               >
                                 <Lock className="h-3 w-3" />
                                 Blocked by {product.dependencies.join(", ")}
@@ -282,10 +284,10 @@ export function ProductTable({
                           </div>
                         </div>
 
-                        <div className="flex flex-wrap gap-1">
+                        <div className="flex flex-wrap gap-2">
                           <Badge
                             variant="outline"
-                            className={cn("h-4 border px-1.5 text-[10px]", MARKET_CLASS[product.market])}
+                            className={cn("h-8 rounded-[10px] border px-3 text-[16px] font-medium", MARKET_CLASS[product.market])}
                           >
                             {product.market}
                           </Badge>
@@ -293,7 +295,7 @@ export function ProductTable({
                             <Badge
                               key={`${product.shortCode}-${model}`}
                               variant="outline"
-                              className={cn("h-4 border px-1.5 text-[10px]", MODEL_CLASS[model])}
+                              className={cn("h-8 rounded-[10px] border px-3 text-[16px] font-medium", MODEL_CLASS[model])}
                             >
                               {model}
                             </Badge>
@@ -301,7 +303,7 @@ export function ProductTable({
                           {product.cannibalizationCluster && (
                             <Badge
                               variant="outline"
-                              className="h-4 border-rose-200 bg-rose-50 px-1.5 text-[10px] text-rose-700"
+                              className="h-8 rounded-[10px] border-blue-300 bg-blue-50 px-3 text-[16px] font-medium text-blue-600"
                             >
                               Mutually exclusive
                             </Badge>
@@ -309,41 +311,41 @@ export function ProductTable({
                         </div>
                       </div>
                     </td>
-                    <td className="px-2 py-3.5 align-top">
+                    <td className="px-2 py-5 align-top">
                       <span
                         className={cn(
-                          "inline-flex rounded-full px-2 py-0.5 text-[11px] font-semibold",
+                          "inline-flex rounded-[10px] px-4 py-1.5 text-[16px] font-medium",
                           STAGE_CLASS[product.stage]
                         )}
                       >
                         {product.stageLabel}
                       </span>
                     </td>
-                    <td className="px-2 py-3.5 text-right align-top">
-                      <span className="font-mono text-[13px] font-semibold">
+                    <td className="px-2 py-5 text-right align-top">
+                      <span className="font-mono text-[18px] font-medium">
                         {product.axes.timeToShip}w
                       </span>
                     </td>
-                    <td className="px-2 py-3.5 text-right align-top">
+                    <td className="px-2 py-5 text-right align-top">
                       <ScoreCell value={product.ventureScore} />
                     </td>
-                    <td className="px-2 py-3.5 text-right align-top">
+                    <td className="px-2 py-5 text-right align-top">
                       <ScoreCell value={product.cashflowScore} />
                     </td>
-                    <td className="px-2 py-3.5 text-right align-top">
+                    <td className="px-2 py-5 text-right align-top">
                       <DeltaCell value={product.delta} />
                     </td>
-                    <td className="px-2 py-3.5 text-right align-top">
-                      <span className="text-[13px] font-semibold">
+                    <td className="px-2 py-5 text-right align-top">
+                      <span className="text-[18px] font-medium">
                         {formatCurrency(product.y1Contribution)}
                       </span>
                     </td>
-                    <td className="min-w-[180px] px-2 py-3.5 align-top">
+                    <td className="min-w-[200px] px-2 py-5 align-top">
                       <div className="space-y-0.5">
-                        <p className="text-[13px] font-semibold leading-5">
+                        <p className="text-[18px] font-medium leading-tight">
                           {product.bottleneck.label} {product.bottleneck.value}
                         </p>
-                        <p className="text-[10px] text-muted-foreground">
+                        <p className="text-[14px] text-muted-foreground">
                           {formatHalfLife(product)}
                         </p>
                       </div>

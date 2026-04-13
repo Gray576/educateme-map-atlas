@@ -81,7 +81,7 @@ function Select({
       onChange={(event) => onChange(event.target.value)}
       title={`${label}: ${description}`}
       aria-label={`${label}: ${description}`}
-      className="h-7 rounded-full border border-border bg-background px-3 text-[13px] text-foreground shadow-sm outline-none transition focus-visible:border-ring focus-visible:ring-2 focus-visible:ring-ring/40"
+      className="h-16 rounded-2xl border border-border bg-card px-5 text-[18px] text-foreground shadow-none outline-none transition focus-visible:border-ring focus-visible:ring-2 focus-visible:ring-ring/40"
     >
       {options.map(([optionValue, label]) => (
         <option key={optionValue} value={optionValue}>
@@ -103,61 +103,63 @@ export function FilterBar({
   const set = (patch: Partial<Filters>) => onChange({ ...filters, ...patch });
 
   return (
-    <section className="rounded-[22px] border border-border/70 bg-card/85 p-2.5 shadow-[0_12px_30px_-24px_rgba(14,37,33,0.34)] backdrop-blur">
-      <div className="flex flex-col gap-2">
-        <div className="flex flex-wrap items-center gap-1.5">
+    <section className="space-y-2">
+      <div className="flex flex-wrap items-center gap-2">
           {PRESETS.map(([value, label, hint]) => (
             <button
               key={value}
               type="button"
               onClick={() => onPresetChange(value)}
               className={cn(
-                "rounded-full border px-2.5 py-1 text-left transition",
+                "h-12 rounded-2xl border px-5 text-left transition",
                 preset === value
-                  ? "border-primary/70 bg-primary text-primary-foreground shadow-sm"
-                  : "border-border/80 bg-background/80 text-foreground hover:bg-muted"
+                  ? "border-black bg-black text-white"
+                  : "border-border bg-muted text-foreground hover:bg-background"
               )}
             >
-              <span className="flex items-center gap-1 text-[13px] font-semibold">
+              <span className="flex items-center gap-1.5 text-[13px] font-medium">
                 {label}
                 <InfoHint
                   label={label}
                   description={hint}
-                  className={preset === value ? "text-primary-foreground/80" : ""}
+                  className={preset === value ? "text-white/80" : ""}
                 />
               </span>
             </button>
           ))}
-        </div>
+      </div>
 
-        <div className="flex flex-wrap items-center gap-1.5">
+      <div className="flex flex-wrap items-center gap-2">
           {SORT_PRESETS.map(([value, label, hint]) => (
             <Button
               key={value}
               size="sm"
-              variant={sortPreset === value ? "default" : "outline"}
-              className="h-auto rounded-full px-2 py-1 text-left"
+              variant="outline"
+              className={cn(
+                "h-12 rounded-full border-border bg-card px-5 text-left text-[13px] font-medium shadow-none",
+                sortPreset === value && "border-foreground/30 bg-muted"
+              )}
               onClick={() => onSortPreset(value)}
             >
-              <span className="flex items-center gap-1 text-[11px] font-semibold">
+              <span className="flex items-center gap-1.5 text-[13px] font-medium">
                 {label}
                 <InfoHint
                   label={label}
                   description={hint}
-                  className={sortPreset === value ? "text-primary-foreground/80" : ""}
+                  className="text-muted-foreground"
                 />
               </span>
             </Button>
           ))}
-        </div>
+      </div>
 
-        <div className="grid gap-1.5 lg:grid-cols-[minmax(0,1.25fr)_repeat(5,minmax(0,0.84fr))]">
+      <div className="grid gap-2 lg:grid-cols-[minmax(0,1.35fr)_repeat(5,minmax(0,0.9fr))]">
           <Input
             type="search"
             placeholder="Search code, product, blocker, action…"
             value={filters.search}
             onChange={(event) => set({ search: event.target.value })}
-            className="h-7 rounded-full bg-background/80 px-3 text-[13px]"
+            className="h-16 rounded-2xl border-border bg-card px-5 text-[18px] placeholder:text-[18px] shadow-none md:text-[18px]"
           />
 
           <Select
@@ -213,11 +215,11 @@ export function FilterBar({
               ["venture", "Slider: Venture"],
             ]}
           />
-        </div>
+      </div>
 
-        <div className="grid gap-1.5 lg:grid-cols-[minmax(0,1fr)_auto_auto] lg:items-center">
-          <div className="rounded-3xl border border-border/80 bg-background/80 px-3 py-2">
-            <div className="flex items-center justify-between text-xs text-muted-foreground">
+      <div className="grid gap-2 lg:grid-cols-[minmax(0,1fr)_auto_auto] lg:items-center">
+          <div className="flex items-center gap-4 px-1 py-2">
+            <div className="flex min-w-[190px] items-center gap-2 text-[14px] text-muted-foreground">
               <span className="flex items-center gap-1">
                 Minimum {filters.scoreMetric} score
                 <InfoHint
@@ -225,7 +227,6 @@ export function FilterBar({
                   description="Score range slider for Venture or Cashflow. Use it to cut noise below your minimum bar."
                 />
               </span>
-              <span className="font-semibold text-foreground">{filters.scoreMin.toFixed(1)}</span>
             </div>
             <input
               type="range"
@@ -234,14 +235,20 @@ export function FilterBar({
               step="0.1"
               value={filters.scoreMin}
               onChange={(event) => set({ scoreMin: Number(event.target.value) })}
-              className="mt-2 w-full accent-foreground"
+              className="w-full accent-black"
             />
+            <span className="w-14 text-right text-[18px] font-medium text-foreground">
+              {filters.scoreMin.toFixed(1)}
+            </span>
           </div>
 
           <Button
             size="sm"
-            variant={filters.urgentOnly ? "default" : "outline"}
-            className="rounded-full px-3"
+            variant="outline"
+            className={cn(
+              "h-12 rounded-xl border-border bg-card px-5 text-[13px] shadow-none",
+              filters.urgentOnly && "bg-muted"
+            )}
             onClick={() => set({ urgentOnly: !filters.urgentOnly })}
           >
             Half-life &lt; 18 mo
@@ -250,7 +257,7 @@ export function FilterBar({
           <Button
             size="sm"
             variant="outline"
-            className="rounded-full px-3"
+            className="h-12 rounded-xl border-border bg-card px-5 text-[13px] shadow-none"
             onClick={() =>
               onChange({
                 ...filters,
@@ -267,7 +274,6 @@ export function FilterBar({
           >
             Reset filters
           </Button>
-        </div>
       </div>
     </section>
   );

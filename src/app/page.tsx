@@ -52,8 +52,8 @@ export default function Home() {
   };
 
   return (
-    <div className="mx-auto max-w-[1520px] px-4 pb-8 pt-4 sm:px-5 lg:px-6">
-      <div className="space-y-2">
+    <div className="mx-auto max-w-[1540px] px-4 pb-6 pt-4 sm:px-5 lg:px-6">
+      <div className="space-y-3">
         <FilterBar
           filters={filters}
           preset={preset}
