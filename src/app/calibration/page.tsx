@@ -29,9 +29,9 @@ function Section({
   children: React.ReactNode;
 }) {
   return (
-    <section className="rounded-[30px] border border-border bg-card p-5 shadow-[0_18px_50px_-40px_rgba(15,23,42,0.28)]">
+    <section className="rounded-2xl border border-border bg-card p-4 shadow-[0_16px_40px_-36px_rgba(15,23,42,0.28)]">
       <div className="mb-5">
-        <h2 className="text-2xl font-semibold">{title}</h2>
+        <h2 className="text-xl font-semibold">{title}</h2>
         {description ? <p className="mt-2 text-sm leading-6 text-muted-foreground">{description}</p> : null}
       </div>
       {children}
@@ -44,14 +44,14 @@ export default async function CalibrationPage() {
   const report = buildCalibrationReport(products);
 
   return (
-    <main className="mx-auto max-w-[1540px] px-6 py-6">
+    <main className="mx-auto max-w-[1480px] px-4 py-4">
       <div className="flex flex-wrap items-start justify-between gap-4">
         <div>
-          <p className="text-sm font-medium uppercase tracking-[0.16em] text-muted-foreground">
-            Internal calibration
-          </p>
-          <h1 className="mt-2 text-5xl font-semibold tracking-tight">Ranking sanity check</h1>
-          <p className="mt-3 max-w-4xl text-lg leading-7 text-muted-foreground">
+          <div className="inline-flex items-center rounded-md border border-border bg-card px-2.5 py-1 text-[11px] font-semibold tracking-[0.04em] text-foreground">
+            EducateMe
+          </div>
+          <p className="mt-2 text-sm text-muted-foreground">Internal calibration · ranking sanity check</p>
+          <p className="mt-2 max-w-4xl text-sm leading-6 text-muted-foreground">
             Quick view over the full card dataset to check whether the scoring layer is behaving
             credibly before we call this ready for wider internal use.
           </p>
@@ -59,35 +59,35 @@ export default async function CalibrationPage() {
         <div className="flex flex-wrap gap-3">
           <Link
             href="/"
-            className="rounded-2xl border border-border bg-card px-5 py-3 text-sm font-semibold"
+            className="rounded-xl border border-border bg-card px-4 py-2 text-sm font-semibold"
           >
             Open founder view
           </Link>
           <Link
             href="/research"
-            className="rounded-2xl border border-border bg-card px-5 py-3 text-sm font-semibold"
+            className="rounded-xl border border-border bg-card px-4 py-2 text-sm font-semibold"
           >
             Dataset debug
           </Link>
         </div>
       </div>
 
-      <section className="mt-6 grid gap-4 md:grid-cols-4">
-        <div className="rounded-2xl border border-border bg-card p-4">
+      <section className="mt-4 grid gap-3 md:grid-cols-4">
+        <div className="rounded-xl border border-border bg-card p-3">
           <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">Products</p>
-          <p className="mt-2 text-3xl font-semibold">{report.stats.productCount}</p>
+          <p className="mt-1.5 text-2xl font-semibold">{report.stats.productCount}</p>
         </div>
-        <div className="rounded-2xl border border-border bg-card p-4">
+        <div className="rounded-xl border border-border bg-card p-3">
           <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">Avg founder</p>
-          <p className="mt-2 text-3xl font-semibold">{formatScore(report.stats.avgFounder)}</p>
+          <p className="mt-1.5 text-2xl font-semibold">{formatScore(report.stats.avgFounder)}</p>
         </div>
-        <div className="rounded-2xl border border-border bg-card p-4">
+        <div className="rounded-xl border border-border bg-card p-3">
           <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">Avg evidence</p>
-          <p className="mt-2 text-3xl font-semibold">{formatScore(report.stats.avgEvidence)}</p>
+          <p className="mt-1.5 text-2xl font-semibold">{formatScore(report.stats.avgEvidence)}</p>
         </div>
-        <div className="rounded-2xl border border-border bg-card p-4">
+        <div className="rounded-xl border border-border bg-card p-3">
           <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">Avg conflicts</p>
-          <p className="mt-2 text-3xl font-semibold">{formatScore(report.stats.avgConflictCount)}</p>
+          <p className="mt-1.5 text-2xl font-semibold">{formatScore(report.stats.avgConflictCount)}</p>
         </div>
       </section>
 

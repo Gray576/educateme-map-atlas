@@ -34,7 +34,7 @@ function SelectControl({
   onChange: (value: string) => void;
 }) {
   return (
-    <label className="flex items-center gap-2 rounded-full border border-border bg-card px-3 py-2 text-sm">
+    <label className="flex items-center gap-2 rounded-md border border-border bg-secondary px-2.5 py-1.5 text-xs">
       <span className="text-muted-foreground">{label}:</span>
       <select
         value={value}
@@ -97,41 +97,39 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
   }, [rankedRows, selectedCode, setSelectedCode]);
 
   return (
-    <main className="mx-auto max-w-[1540px] px-6 py-6">
+    <main className="mx-auto max-w-[1540px] px-4 pb-6 pt-4 sm:px-5 lg:px-6">
       <div className="flex flex-wrap items-start justify-between gap-4">
         <div>
-          <h1 className="text-5xl font-semibold tracking-tight">EducateMe · Hypothesis Sorting</h1>
-          <p className="mt-2 text-2xl text-muted-foreground">Portfolio map · delivery × claim safety</p>
+          <div className="inline-flex items-center rounded-md border border-border bg-card px-2.5 py-1 text-[11px] font-semibold tracking-[0.04em] text-foreground">
+            EducateMe
+          </div>
+          <p className="mt-2 text-sm text-muted-foreground">Portfolio map · delivery × claim safety</p>
         </div>
         <div className="flex items-center gap-2">
-          <Badge variant="secondary" className="rounded-2xl px-4 py-2 text-sm">
+          <Badge variant="secondary" className="rounded-md px-2.5 py-1 text-[11px]">
             Card data only
           </Badge>
-          <Badge variant="outline" className="rounded-2xl px-4 py-2 text-sm">
+          <Badge variant="outline" className="rounded-md px-2.5 py-1 text-[11px]">
             v1
           </Badge>
         </div>
       </div>
 
-      <section className="mt-6">
+      <section className="mt-3 flex flex-wrap items-center gap-3">
         <ResearchScreenNav active="map" buildHref={buildHref} />
-      </section>
-
-      <section className="mt-4 flex flex-wrap items-center gap-3">
         {PRESET_OPTIONS.map((item) => (
           <Button
             key={item.key}
             variant={preset === item.key ? "default" : "outline"}
-            size="lg"
             onClick={() => setPreset(item.key)}
-            className="rounded-2xl px-6"
+            className="h-7 rounded-full px-2.5 text-xs"
           >
             {item.label}
           </Button>
         ))}
       </section>
 
-      <section className="mt-5 flex flex-wrap gap-3">
+      <section className="mt-2 flex flex-wrap gap-2">
         <SelectControl label="Market" value={filters.market} options={options.market} onChange={(value) => setFilters((current) => ({ ...current, market: value }))} />
         <SelectControl label="Buyer" value={filters.buyer} options={options.buyer} onChange={(value) => setFilters((current) => ({ ...current, buyer: value }))} />
         <SelectControl label="Claims" value={filters.claims} options={options.claims} onChange={(value) => setFilters((current) => ({ ...current, claims: value }))} />
@@ -139,9 +137,8 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
         <SelectControl label="Dependencies" value={filters.dependencies} options={options.dependencies} onChange={(value) => setFilters((current) => ({ ...current, dependencies: value }))} />
         <Button
           variant="ghost"
-          size="lg"
           onClick={() => setFilters(getDefaultFounderFilters())}
-          className="rounded-2xl px-5"
+          className="h-7 rounded-md px-2.5 text-xs"
         >
           Reset filters
         </Button>
@@ -149,19 +146,19 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
 
       <ResearchActiveFilters count={rankedRows.length} total={products.length} chips={activeFilterChips} />
 
-      <section className="mt-6 grid gap-5 xl:grid-cols-[minmax(0,1fr)_360px]">
+      <section className="mt-3 grid gap-3 xl:grid-cols-[minmax(0,1fr)_300px]">
         <div className={cn(
-          "rounded-[30px] border border-border bg-card p-5 shadow-[0_18px_50px_-40px_rgba(15,23,42,0.28)] transition-opacity",
+          "rounded-md border border-border bg-card p-4 transition-opacity",
           selectedProduct && "opacity-65"
         )}>
-          <div className="flex flex-wrap gap-3">
-            <Badge variant="outline" className="rounded-2xl px-4 py-2 text-base">X: Delivery ease</Badge>
-            <Badge variant="outline" className="rounded-2xl px-4 py-2 text-base">Y: Claim safety</Badge>
-            <Badge variant="outline" className="rounded-2xl px-4 py-2 text-base">Size: Buyer clarity</Badge>
+          <div className="flex flex-wrap gap-2">
+            <Badge variant="outline" className="rounded-md px-2.5 py-1 text-xs">X: Delivery ease</Badge>
+            <Badge variant="outline" className="rounded-md px-2.5 py-1 text-xs">Y: Claim safety</Badge>
+            <Badge variant="outline" className="rounded-md px-2.5 py-1 text-xs">Size: Buyer clarity</Badge>
           </div>
 
-          <div className="mt-5 overflow-x-auto">
-            <div className="min-w-[860px] rounded-[28px] border border-border bg-background p-4">
+          <div className="mt-4 overflow-x-auto">
+            <div className="min-w-[860px] rounded-md border border-border bg-background p-3">
               <svg viewBox="0 0 920 620" className="h-auto w-full">
                 <rect x="40" y="30" width="820" height="520" fill="#fbfaf6" stroke="#d8d4c8" />
                 <rect x="450" y="30" width="410" height="260" fill="#eef8f4" />
@@ -174,14 +171,14 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
                   </g>
                 ))}
 
-                <text x="52" y="45" fill="#5e7268" fontSize="18">Safer claims</text>
-                <text x="770" y="585" fill="#5e7268" fontSize="18">Easier to ship</text>
-                <text x="52" y="545" fill="#9a5363" fontSize="18">Riskier claims</text>
-                <text x="42" y="585" fill="#9a5363" fontSize="18">Harder to ship</text>
-                <text x="460" y="70" fill="#126b56" fontSize="18" fontWeight="600">
+                <text x="52" y="45" fill="#5e7268" fontSize="16">Safer claims</text>
+                <text x="770" y="585" fill="#5e7268" fontSize="16">Easier to ship</text>
+                <text x="52" y="545" fill="#9a5363" fontSize="16">Riskier claims</text>
+                <text x="42" y="585" fill="#9a5363" fontSize="16">Harder to ship</text>
+                <text x="460" y="70" fill="#126b56" fontSize="16" fontWeight="600">
                   Top-right: easiest to ship with safer claims
                 </text>
-                <text x="60" y="515" fill="#aa4f62" fontSize="18" fontWeight="600">
+                <text x="60" y="515" fill="#aa4f62" fontSize="16" fontWeight="600">
                   Bottom-left: heavy setup and risky messaging
                 </text>
 
@@ -217,7 +214,7 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
                         y={cy + 4}
                         textAnchor="middle"
                         fill={tone.text}
-                        fontSize="22"
+                        fontSize="19"
                         fontWeight="700"
                       >
                         {point.code}
@@ -227,7 +224,7 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
                         y={cy + point.radius + 24}
                         textAnchor="middle"
                         fill="#65736f"
-                        fontSize="14"
+                        fontSize="12"
                       >
                         {formatScore(point.scores.deliveryEase)} · {formatScore(point.scores.claimSafety)}
                       </text>
@@ -240,24 +237,24 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
         </div>
 
         <aside className={cn(
-          "rounded-[30px] border border-border bg-card p-6 shadow-[0_18px_50px_-40px_rgba(15,23,42,0.28)] transition-opacity",
+          "rounded-md border border-border bg-card p-4 transition-opacity",
           selectedProduct && "opacity-65"
         )}>
-          <h2 className="text-4xl font-semibold">Current sample reading</h2>
-          <p className="mt-3 text-lg leading-7 text-muted-foreground">
+          <h2 className="text-lg font-semibold">Current sample reading</h2>
+          <p className="mt-2 text-sm leading-6 text-muted-foreground">
             Same data, different angle: the map helps spot ship-now ideas versus heavier bets.
           </p>
 
-          <div className="mt-8 space-y-4">
+          <div className="mt-5 space-y-3">
             {reading.topRight ? (
-              <section className="rounded-2xl border border-border bg-background px-4 py-4">
+              <section className="rounded-md border border-border bg-background px-3 py-2.5">
                 <div className="flex items-start gap-3">
-                  <Badge variant="secondary" className="rounded-xl px-3 py-1 text-sm">
+                  <Badge variant="secondary" className="rounded-md px-2.5 py-1 text-[11px]">
                     {reading.topRight.code}
                   </Badge>
                   <div>
-                    <h3 className="text-2xl font-semibold">Closest to “ship now”</h3>
-                    <p className="mt-1 text-base leading-7 text-muted-foreground">
+                    <h3 className="text-sm font-semibold">Closest to “ship now”</h3>
+                    <p className="mt-1 text-sm leading-6 text-muted-foreground">
                       High delivery ease and safer claim surface put this card nearest the top-right zone.
                     </p>
                   </div>
@@ -266,14 +263,14 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
             ) : null}
 
             {reading.interesting ? (
-              <section className="rounded-2xl border border-border bg-background px-4 py-4">
+              <section className="rounded-md border border-border bg-background px-3 py-2.5">
                 <div className="flex items-start gap-3">
-                  <Badge variant="outline" className="rounded-xl px-3 py-1 text-sm">
+                  <Badge variant="outline" className="rounded-md px-2.5 py-1 text-[11px]">
                     {reading.interesting.code}
                   </Badge>
                   <div>
-                    <h3 className="text-2xl font-semibold">Interesting but heavier</h3>
-                    <p className="mt-1 text-base leading-7 text-muted-foreground">
+                    <h3 className="text-sm font-semibold">Interesting but heavier</h3>
+                    <p className="mt-1 text-sm leading-6 text-muted-foreground">
                       Stronger buyer clarity is visible here, but delivery or claims still add friction.
                     </p>
                   </div>
@@ -282,14 +279,14 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
             ) : null}
 
             {reading.bottomLeft ? (
-              <section className="rounded-2xl border border-border bg-background px-4 py-4">
+              <section className="rounded-md border border-border bg-background px-3 py-2.5">
                 <div className="flex items-start gap-3">
-                  <Badge variant="outline" className="rounded-xl px-3 py-1 text-sm">
+                  <Badge variant="outline" className="rounded-md px-2.5 py-1 text-[11px]">
                     {reading.bottomLeft.code}
                   </Badge>
                   <div>
-                    <h3 className="text-2xl font-semibold">Complex route logic</h3>
-                    <p className="mt-1 text-base leading-7 text-muted-foreground">
+                    <h3 className="text-sm font-semibold">Complex route logic</h3>
+                    <p className="mt-1 text-sm leading-6 text-muted-foreground">
                       Lower delivery and claim scores pull this card toward the heavier bottom-left zone.
                     </p>
                   </div>
@@ -298,9 +295,9 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
             ) : null}
           </div>
 
-          <div className="mt-8">
-            <h3 className="text-2xl font-semibold">Snapshot</h3>
-            <ul className="mt-4 space-y-2 text-base leading-7 text-muted-foreground">
+          <div className="mt-5">
+            <h3 className="text-sm font-semibold uppercase tracking-[0.04em] text-muted-foreground">Snapshot</h3>
+            <ul className="mt-3 space-y-1.5 text-sm leading-6 text-muted-foreground">
               {reading.snapshot.map((item) => (
                 <li key={item}>• {item}</li>
               ))}

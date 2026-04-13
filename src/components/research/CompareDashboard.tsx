@@ -45,7 +45,7 @@ function SelectControl({
   onChange: (value: string) => void;
 }) {
   return (
-    <label className="flex items-center gap-2 rounded-full border border-border bg-card px-3 py-2 text-sm">
+    <label className="flex items-center gap-2 rounded-md border border-border bg-secondary px-2.5 py-1.5 text-xs">
       <span className="text-muted-foreground">{label}:</span>
       <select
         value={value}
@@ -109,41 +109,39 @@ export function CompareDashboard({ products }: { products: ScoredProductRecord[]
   }, [rankedRows, selectedCode, setSelectedCode]);
 
   return (
-    <main className="mx-auto max-w-[1540px] px-6 py-6">
+    <main className="mx-auto max-w-[1540px] px-4 pb-6 pt-4 sm:px-5 lg:px-6">
       <div className="flex flex-wrap items-start justify-between gap-4">
         <div>
-          <h1 className="text-5xl font-semibold tracking-tight">EducateMe · Hypothesis Sorting</h1>
-          <p className="mt-2 text-2xl text-muted-foreground">Lens compare · score matrix</p>
+          <div className="inline-flex items-center rounded-md border border-border bg-card px-2.5 py-1 text-[11px] font-semibold tracking-[0.04em] text-foreground">
+            EducateMe
+          </div>
+          <p className="mt-2 text-sm text-muted-foreground">Lens compare · score matrix</p>
         </div>
         <div className="flex items-center gap-2">
-          <Badge variant="secondary" className="rounded-2xl px-4 py-2 text-sm">
+          <Badge variant="secondary" className="rounded-md px-2.5 py-1 text-[11px]">
             Card data only
           </Badge>
-          <Badge variant="outline" className="rounded-2xl px-4 py-2 text-sm">
+          <Badge variant="outline" className="rounded-md px-2.5 py-1 text-[11px]">
             v1
           </Badge>
         </div>
       </div>
 
-      <section className="mt-6">
+      <section className="mt-3 flex flex-wrap items-center gap-3">
         <ResearchScreenNav active="compare" buildHref={buildHref} />
-      </section>
-
-      <section className="mt-4 flex flex-wrap items-center gap-3">
         {PRESET_OPTIONS.map((item) => (
           <Button
             key={item.key}
             variant={preset === item.key ? "default" : "outline"}
-            size="lg"
             onClick={() => setPreset(item.key)}
-            className="rounded-2xl px-6"
+            className="h-7 rounded-full px-2.5 text-xs"
           >
             {item.label}
           </Button>
         ))}
       </section>
 
-      <section className="mt-5 flex flex-wrap gap-3">
+      <section className="mt-2 flex flex-wrap gap-2">
         <SelectControl label="Market" value={filters.market} options={options.market} onChange={(value) => setFilters((current) => ({ ...current, market: value }))} />
         <SelectControl label="Buyer" value={filters.buyer} options={options.buyer} onChange={(value) => setFilters((current) => ({ ...current, buyer: value }))} />
         <SelectControl label="Claims" value={filters.claims} options={options.claims} onChange={(value) => setFilters((current) => ({ ...current, claims: value }))} />
@@ -151,9 +149,8 @@ export function CompareDashboard({ products }: { products: ScoredProductRecord[]
         <SelectControl label="Dependencies" value={filters.dependencies} options={options.dependencies} onChange={(value) => setFilters((current) => ({ ...current, dependencies: value }))} />
         <Button
           variant="ghost"
-          size="lg"
           onClick={() => setFilters(getDefaultFounderFilters())}
-          className="rounded-2xl px-5"
+          className="h-7 rounded-md px-2.5 text-xs"
         >
           Reset filters
         </Button>
@@ -161,48 +158,48 @@ export function CompareDashboard({ products }: { products: ScoredProductRecord[]
 
       <ResearchActiveFilters count={filteredProducts.length} total={products.length} chips={activeFilterChips} />
 
-      <section className="mt-6 grid gap-5 xl:grid-cols-[minmax(0,1fr)_360px]">
+      <section className="mt-3 grid gap-3 xl:grid-cols-[minmax(0,1fr)_300px]">
         <div className={cn(
-          "rounded-[30px] border border-border bg-card p-5 shadow-[0_18px_50px_-40px_rgba(15,23,42,0.28)] transition-opacity",
+          "rounded-md border border-border bg-card p-4 transition-opacity",
           selectedProduct && "opacity-65"
         )}>
-          <p className="text-xl text-muted-foreground">
+          <p className="text-xs text-muted-foreground">
             Green = easier / safer. Red = heavier / riskier.
           </p>
 
           {compareProducts.length > 0 ? (
-            <div className="mt-6 overflow-x-auto">
+            <div className="mt-4 overflow-x-auto">
               <div className="min-w-[900px]">
-                <div className="grid grid-cols-[220px_repeat(3,minmax(0,1fr))] gap-4">
+                <div className="grid grid-cols-[168px_repeat(3,minmax(0,1fr))] gap-2">
                   <div />
                   {compareProducts.map((product) => (
                     <button
                       type="button"
                       key={product.code}
                       onClick={() => setSelectedCode(product.code)}
-                      className="rounded-2xl border border-border bg-background px-4 py-4 text-left"
+                      className="rounded-md border border-border bg-background px-3 py-2.5 text-left"
                     >
-                      <p className="text-4xl font-semibold">{product.code}</p>
-                      <p className="mt-2 truncate text-lg text-muted-foreground">{product.title}</p>
+                      <p className="text-lg font-semibold">{product.code}</p>
+                      <p className="mt-1 truncate text-xs text-muted-foreground">{product.title}</p>
                     </button>
                   ))}
                 </div>
 
-                <div className="mt-8">
-                  <h2 className="text-3xl font-semibold">Composite scores</h2>
-                  <div className="mt-4 space-y-3">
+                <div className="mt-6">
+                  <h2 className="text-sm font-semibold uppercase tracking-[0.04em] text-muted-foreground">Composite scores</h2>
+                  <div className="mt-3 space-y-2.5">
                     {COMPOSITE_METRICS.map((row) => (
-                      <div key={row.key} className="grid grid-cols-[220px_repeat(3,minmax(0,1fr))] gap-4 items-center">
+                      <div key={row.key} className="grid grid-cols-[168px_repeat(3,minmax(0,1fr))] gap-2 items-center">
                         <div>
-                          <p className="text-base font-medium">{row.label}</p>
-                          <p className="text-sm text-muted-foreground">{row.description}</p>
+                          <p className="text-xs font-medium">{row.label}</p>
+                          <p className="text-xs text-muted-foreground">{row.description}</p>
                         </div>
                         {compareProducts.map((product) => {
                           const value = product.scores[row.key];
                           return (
                             <div
                               key={`${product.code}-${row.key}`}
-                              className={cn("rounded-2xl px-4 py-4 text-center text-2xl font-semibold", scoreTone(value))}
+                              className={cn("rounded-md px-2.5 py-2 text-center text-sm font-semibold", scoreTone(value))}
                             >
                               {formatScore(value)}
                             </div>
@@ -213,18 +210,18 @@ export function CompareDashboard({ products }: { products: ScoredProductRecord[]
                   </div>
                 </div>
 
-                <div className="mt-10">
-                  <h2 className="text-3xl font-semibold">Raw load factors</h2>
-                  <div className="mt-4 space-y-3">
+                <div className="mt-7">
+                  <h2 className="text-sm font-semibold uppercase tracking-[0.04em] text-muted-foreground">Raw load factors</h2>
+                  <div className="mt-3 space-y-2.5">
                     {RAW_LOAD_FACTORS.map((row) => (
-                      <div key={row.key} className="grid grid-cols-[220px_repeat(3,minmax(0,1fr))] gap-4 items-center">
-                        <div className="text-base font-medium">{row.label}</div>
+                      <div key={row.key} className="grid grid-cols-[168px_repeat(3,minmax(0,1fr))] gap-2 items-center">
+                        <div className="text-xs font-medium">{row.label}</div>
                         {compareProducts.map((product) => {
                           const value = product.rawFactors[row.key];
                           return (
                             <div
                               key={`${product.code}-${row.key}`}
-                              className="rounded-2xl border border-border bg-background px-4 py-4 text-center text-xl font-semibold text-muted-foreground"
+                              className="rounded-md border border-border bg-background px-2.5 py-2 text-center text-sm font-semibold text-muted-foreground"
                             >
                               {value}
                               {"scale" in row ? row.scale : ""}
@@ -238,32 +235,32 @@ export function CompareDashboard({ products }: { products: ScoredProductRecord[]
               </div>
             </div>
           ) : (
-            <div className="mt-6 rounded-[28px] border border-dashed border-border px-6 py-12 text-center text-muted-foreground">
+            <div className="mt-4 rounded-md border border-dashed border-border px-4 py-10 text-center text-muted-foreground">
               No products match the current filters.
             </div>
           )}
         </div>
 
         <aside className={cn(
-          "rounded-[30px] border border-border bg-card p-6 shadow-[0_18px_50px_-40px_rgba(15,23,42,0.28)] transition-opacity",
+          "rounded-md border border-border bg-card p-4 transition-opacity",
           selectedProduct && "opacity-65"
         )}>
-          <h2 className="text-4xl font-semibold">Preset leaderboards</h2>
-          <p className="mt-3 text-lg leading-7 text-muted-foreground">
+          <h2 className="text-lg font-semibold">Preset leaderboards</h2>
+          <p className="mt-2 text-sm leading-6 text-muted-foreground">
             Each preset uses the same card data, but changes the ranking lens.
           </p>
 
-          <div className="mt-8 space-y-4">
+          <div className="mt-4 space-y-2.5">
             {leaderboards.map((leaderboard) => (
-              <section key={leaderboard.preset} className="rounded-2xl border border-border bg-background px-4 py-4">
-                <h3 className="text-2xl font-semibold">{leaderboard.label}</h3>
-                <div className="mt-4 flex flex-wrap gap-3">
+              <section key={leaderboard.preset} className="rounded-md border border-border bg-background px-3 py-2.5">
+                <h3 className="text-sm font-semibold">{leaderboard.label}</h3>
+                <div className="mt-3 flex flex-wrap gap-2">
                   {leaderboard.items.map((product, index) => (
                     <button
                       type="button"
                       key={`${leaderboard.preset}-${product.code}`}
                       onClick={() => setSelectedCode(product.code)}
-                      className={cn("inline-flex rounded-2xl px-4 py-2 text-base font-semibold", scoreTone(getScoreForPreset(product, leaderboard.preset)))}
+                      className={cn("inline-flex rounded-md px-2.5 py-1 text-xs font-semibold", scoreTone(getScoreForPreset(product, leaderboard.preset)))}
                     >
                       {index + 1} {product.code}
                     </button>

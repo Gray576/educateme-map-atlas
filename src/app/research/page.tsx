@@ -15,12 +15,12 @@ export default async function ResearchPage() {
     .slice(0, 10);
 
   return (
-    <main className="mx-auto max-w-6xl px-6 py-10">
+    <main className="mx-auto max-w-6xl px-4 py-6">
       <div className="space-y-2">
-        <p className="text-sm font-medium uppercase tracking-[0.16em] text-muted-foreground">
-          EducateMe v2 foundation
-        </p>
-        <h1 className="text-4xl font-semibold tracking-tight">Research-card dataset</h1>
+        <div className="inline-flex items-center rounded-md border border-border bg-card px-2.5 py-1 text-[11px] font-semibold tracking-[0.04em] text-foreground">
+          EducateMe
+        </div>
+        <p className="text-sm text-muted-foreground">Research-card dataset</p>
         <p className="max-w-3xl text-sm leading-6 text-muted-foreground">
           This route reads the new cards from
           {" "}
@@ -31,7 +31,7 @@ export default async function ResearchPage() {
         <div className="pt-2">
           <Link
             href="/calibration"
-            className="inline-flex rounded-2xl border border-border bg-card px-4 py-2 text-sm font-semibold"
+            className="inline-flex rounded-xl border border-border bg-card px-3 py-1.5 text-sm font-semibold"
           >
             Open calibration view
           </Link>
@@ -39,18 +39,18 @@ export default async function ResearchPage() {
       </div>
 
       <section className="mt-8 grid gap-4 md:grid-cols-4">
-        <div className="rounded-2xl border border-border bg-card p-4">
+        <div className="rounded-xl border border-border bg-card p-3">
           <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">Cards loaded</p>
           <p className="mt-2 text-3xl font-semibold">{products.length}</p>
         </div>
-        <div className="rounded-2xl border border-border bg-card p-4">
+        <div className="rounded-xl border border-border bg-card p-3">
           <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">Top market</p>
           <p className="mt-2 text-3xl font-semibold">
             {products.filter((item) => item.market === "LUX").length}
           </p>
           <p className="mt-1 text-sm text-muted-foreground">LUX products in dataset</p>
         </div>
-        <div className="rounded-2xl border border-border bg-card p-4">
+        <div className="rounded-xl border border-border bg-card p-3">
           <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">
             Avg evidence
           </p>
@@ -61,7 +61,7 @@ export default async function ResearchPage() {
             )}
           </p>
         </div>
-        <div className="rounded-2xl border border-border bg-card p-4">
+        <div className="rounded-xl border border-border bg-card p-3">
           <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">
             Avg founder score
           </p>
@@ -85,7 +85,7 @@ export default async function ResearchPage() {
           {topFounder.map((product, index) => (
             <article
               key={product.code}
-              className="grid gap-4 rounded-2xl border border-border px-4 py-3 md:grid-cols-[56px_minmax(0,1.3fr)_120px_120px_120px_120px]"
+              className="grid gap-3 rounded-xl border border-border px-3 py-2.5 md:grid-cols-[56px_minmax(0,1.3fr)_120px_120px_120px_120px]"
             >
               <div className="text-sm font-semibold text-muted-foreground">{index + 1}</div>
               <div>

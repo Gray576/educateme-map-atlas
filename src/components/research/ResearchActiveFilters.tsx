@@ -11,12 +11,12 @@ export function ResearchActiveFilters({
 }) {
   return (
     <section className="mt-4 flex flex-wrap items-center gap-3">
-      <Badge variant="secondary" className="rounded-2xl px-4 py-2 text-sm">
+      <Badge variant="secondary" className="rounded-xl px-3 py-1.5 text-xs">
         {count} of {total} products
       </Badge>
       {chips.length > 0 ? (
         chips.map((chip) => (
-          <Badge key={chip.key} variant="outline" className="rounded-2xl px-4 py-2 text-sm">
+          <Badge key={chip.key} variant="outline" className="rounded-xl px-3 py-1.5 text-xs">
             {chip.label}: {chip.value}
           </Badge>
         ))

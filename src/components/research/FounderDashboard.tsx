@@ -41,7 +41,7 @@ function SelectControl({
   onChange: (value: string) => void;
 }) {
   return (
-    <label className="flex items-center gap-2 rounded-full border border-border bg-card px-3 py-2 text-sm">
+    <label className="flex items-center gap-2 rounded-md border border-border bg-secondary px-2.5 py-1.5 text-xs">
       <span className="text-muted-foreground">{label}:</span>
       <select
         value={value}
@@ -61,7 +61,7 @@ function SelectControl({
 
 function ScorePill({ value }: { value: number }) {
   return (
-    <span className={`inline-flex min-w-20 justify-center rounded-xl px-3 py-2 text-sm font-semibold ${toneForScore(value)}`}>
+    <span className={`inline-flex min-w-14 justify-center rounded-md px-2 py-1 text-xs font-semibold ${toneForScore(value)}`}>
       {formatScore(value)}
     </span>
   );
@@ -100,41 +100,39 @@ export function FounderDashboard({ products }: { products: ScoredProductRecord[]
   }, [rows, selectedCode, setSelectedCode]);
 
   return (
-    <main className="mx-auto max-w-[1540px] px-6 py-6">
+    <main className="mx-auto max-w-[1540px] px-4 pb-6 pt-4 sm:px-5 lg:px-6">
       <div className="flex flex-wrap items-start justify-between gap-4">
         <div>
-          <h1 className="text-5xl font-semibold tracking-tight">EducateMe · Hypothesis Sorting</h1>
-          <p className="mt-2 text-2xl text-muted-foreground">Founder view · ranked table</p>
+          <div className="inline-flex items-center rounded-md border border-border bg-card px-2.5 py-1 text-[11px] font-semibold tracking-[0.04em] text-foreground">
+            EducateMe
+          </div>
+          <p className="mt-2 text-sm text-muted-foreground">Founder view · ranked table</p>
         </div>
         <div className="flex items-center gap-2">
-          <Badge variant="secondary" className="rounded-2xl px-4 py-2 text-sm">
+          <Badge variant="secondary" className="rounded-md px-2.5 py-1 text-[11px]">
             Card data only
           </Badge>
-          <Badge variant="outline" className="rounded-2xl px-4 py-2 text-sm">
+          <Badge variant="outline" className="rounded-md px-2.5 py-1 text-[11px]">
             v1
           </Badge>
         </div>
       </div>
 
-      <section className="mt-6 flex flex-wrap items-center gap-3">
+      <section className="mt-3 flex flex-wrap items-center gap-3">
         <ResearchScreenNav active="founder" buildHref={buildHref} />
-      </section>
-
-      <section className="mt-4 flex flex-wrap items-center gap-3">
         {PRESET_OPTIONS.map((item) => (
           <Button
             key={item.key}
             variant={preset === item.key ? "default" : "outline"}
-            size="lg"
             onClick={() => setPreset(item.key)}
-            className="rounded-2xl px-6"
+            className="h-7 rounded-full px-2.5 text-xs"
           >
             {item.label}
           </Button>
         ))}
       </section>
 
-      <section className="mt-5 flex flex-wrap gap-3">
+      <section className="mt-2 flex flex-wrap gap-2">
         <SelectControl
           label="Market"
           value={filters.market}
@@ -167,9 +165,8 @@ export function FounderDashboard({ products }: { products: ScoredProductRecord[]
         />
         <Button
           variant="ghost"
-          size="lg"
           onClick={() => setFilters(getDefaultFounderFilters())}
-          className="rounded-2xl px-5"
+          className="h-7 rounded-md px-2.5 text-xs"
         >
           Reset filters
         </Button>
@@ -177,12 +174,12 @@ export function FounderDashboard({ products }: { products: ScoredProductRecord[]
 
       <ResearchActiveFilters count={rows.length} total={products.length} chips={activeFilterChips} />
 
-      <section className="mt-6 grid gap-5 xl:grid-cols-[minmax(0,1fr)_340px]">
+      <section className="mt-3 grid gap-3 xl:grid-cols-[minmax(0,1fr)_300px]">
         <div className={cn(
-          "rounded-[30px] border border-border bg-card p-5 shadow-[0_18px_50px_-40px_rgba(15,23,42,0.28)] transition-opacity",
+          "overflow-hidden rounded-md border border-border bg-card transition-opacity",
           selectedProduct && "opacity-65"
         )}>
-          <div className="grid grid-cols-[90px_minmax(0,1fr)_110px_110px_110px_110px_110px] gap-3 px-4 pb-4 text-sm font-semibold text-muted-foreground">
+          <div className="grid grid-cols-[64px_minmax(0,1fr)_78px_78px_78px_78px_78px] gap-2 bg-muted/50 px-3 py-2 text-[11px] font-semibold uppercase tracking-[0.04em] text-muted-foreground">
             <div>Band</div>
             <div>Product</div>
             <div className="text-right">Founder</div>
@@ -192,7 +189,7 @@ export function FounderDashboard({ products }: { products: ScoredProductRecord[]
             <div className="text-right">Proof</div>
           </div>
 
-          <div className="space-y-4">
+          <div className="space-y-0">
             {rows.map((product) => (
               <article
                 key={product.code}
@@ -205,34 +202,34 @@ export function FounderDashboard({ products }: { products: ScoredProductRecord[]
                     setSelectedCode(product.code);
                   }
                 }}
-                className="grid grid-cols-[90px_minmax(0,1fr)_110px_110px_110px_110px_110px] gap-3 rounded-[28px] border border-border bg-background px-4 py-5"
+                className="grid grid-cols-[64px_minmax(0,1fr)_78px_78px_78px_78px_78px] gap-2 border-t border-border px-3 py-3 transition-colors hover:bg-muted/20"
               >
                 <div className="flex items-center">
-                  <span className={`inline-flex rounded-2xl px-4 py-2 text-sm font-semibold ${toneForBand(product.band)}`}>
+                  <span className={`inline-flex rounded-md px-2 py-1 text-[11px] font-semibold ${toneForBand(product.band)}`}>
                     {product.band[0]!.toUpperCase() + product.band.slice(1)}
                   </span>
                 </div>
 
                 <div className="min-w-0">
                   <div className="flex flex-wrap items-center gap-2">
-                    <h2 className="truncate text-2xl font-semibold">
+                    <h2 className="truncate text-sm font-medium">
                       {product.code} {product.title}
                     </h2>
                   </div>
-                  <div className="mt-3 flex flex-wrap items-center gap-2">
-                    <Badge variant="secondary" className="rounded-xl px-3 py-1 text-sm">
+                  <div className="mt-2 flex flex-wrap items-center gap-1.5">
+                    <Badge variant="secondary" className="rounded-[10px] border px-2.5 py-0.5 text-[11px] font-medium">
                       {product.marketBadge}
                     </Badge>
-                    <Badge variant="secondary" className="rounded-xl px-3 py-1 text-sm">
+                    <Badge variant="secondary" className="rounded-[10px] border px-2.5 py-0.5 text-[11px] font-medium">
                       {product.buyerClusterBadge}
                     </Badge>
                     {product.subsidyStateBadge ? (
-                      <Badge variant="outline" className="rounded-xl px-3 py-1 text-sm">
+                      <Badge variant="outline" className="rounded-[10px] px-2.5 py-0.5 text-[11px]">
                         {product.subsidyStateBadge}
                       </Badge>
                     ) : null}
                   </div>
-                  <p className="mt-3 max-w-3xl text-lg leading-7 text-muted-foreground">
+                  <p className="mt-1 max-w-3xl text-xs leading-5 text-muted-foreground">
                     {product.shortSummary}
                   </p>
                 </div>
@@ -256,7 +253,7 @@ export function FounderDashboard({ products }: { products: ScoredProductRecord[]
             ))}
 
             {rows.length === 0 ? (
-              <div className="rounded-[28px] border border-dashed border-border px-6 py-12 text-center text-muted-foreground">
+              <div className="border-t border-dashed border-border px-4 py-10 text-center text-muted-foreground">
                 No products match the current filters.
               </div>
             ) : null}
@@ -264,25 +261,25 @@ export function FounderDashboard({ products }: { products: ScoredProductRecord[]
         </div>
 
         <aside className={cn(
-          "rounded-[30px] border border-border bg-card p-6 shadow-[0_18px_50px_-40px_rgba(15,23,42,0.28)] transition-opacity",
+          "rounded-md border border-border bg-card p-4 transition-opacity",
           selectedProduct && "opacity-65"
         )}>
-          <h2 className="text-4xl font-semibold">{summary.title}</h2>
-          <p className="mt-3 text-lg leading-7 text-muted-foreground">{summary.description}</p>
+          <h2 className="text-lg font-semibold">{summary.title}</h2>
+          <p className="mt-2 text-sm leading-6 text-muted-foreground">{summary.description}</p>
 
-          <div className="mt-8">
-            <h3 className="text-2xl font-semibold">Top of current view</h3>
-            <div className="mt-4 space-y-4">
+          <div className="mt-5">
+            <h3 className="text-sm font-semibold uppercase tracking-[0.04em] text-muted-foreground">Top of current view</h3>
+            <div className="mt-3 space-y-3">
               {summary.topThree.map((product) => (
-                <div key={product.code} className="rounded-2xl border border-border bg-background px-4 py-4">
+                <div key={product.code} className="rounded-md border border-border bg-background px-3 py-2.5">
                   <div className="flex items-start justify-between gap-3">
                     <div>
-                      <p className="text-xl font-semibold">
+                      <p className="text-sm font-semibold">
                         {product.rankIndex} {product.code}
                       </p>
-                      <p className="mt-1 text-sm text-muted-foreground">{product.title}</p>
+                      <p className="mt-1 text-xs text-muted-foreground">{product.title}</p>
                     </div>
-                    <span className={`inline-flex rounded-2xl px-3 py-1.5 text-sm font-semibold ${toneForBand(product.band)}`}>
+                    <span className={`inline-flex rounded-md px-2 py-1 text-[11px] font-semibold ${toneForBand(product.band)}`}>
                       {getScoreForPreset(product, preset).toFixed(1)}
                     </span>
                   </div>
@@ -291,37 +288,37 @@ export function FounderDashboard({ products }: { products: ScoredProductRecord[]
             </div>
           </div>
 
-          <div className="mt-8">
-            <h3 className="text-2xl font-semibold">Snapshot</h3>
-            <ul className="mt-4 space-y-2 text-base leading-7 text-muted-foreground">
+          <div className="mt-5">
+            <h3 className="text-sm font-semibold uppercase tracking-[0.04em] text-muted-foreground">Snapshot</h3>
+            <ul className="mt-3 space-y-1.5 text-sm leading-6 text-muted-foreground">
               {summary.snapshot.map((item) => (
                 <li key={item}>• {item}</li>
               ))}
             </ul>
           </div>
 
-          <div className="mt-8">
-            <h3 className="text-2xl font-semibold">Current reading</h3>
-            <ul className="mt-4 space-y-2 text-base leading-7 text-muted-foreground">
+          <div className="mt-5">
+            <h3 className="text-sm font-semibold uppercase tracking-[0.04em] text-muted-foreground">Current reading</h3>
+            <ul className="mt-3 space-y-1.5 text-sm leading-6 text-muted-foreground">
               {summary.reading.map((item) => (
                 <li key={item}>• {item}</li>
               ))}
             </ul>
           </div>
 
-          <div className="mt-8">
-            <h3 className="text-2xl font-semibold">Banding logic</h3>
-            <div className="mt-4 space-y-3">
-              <div className="inline-flex rounded-2xl bg-emerald-100 px-4 py-2 text-sm font-semibold text-emerald-800">
+          <div className="mt-5">
+            <h3 className="text-sm font-semibold uppercase tracking-[0.04em] text-muted-foreground">Banding logic</h3>
+            <div className="mt-3 space-y-2">
+              <div className="inline-flex rounded-md bg-emerald-100 px-2.5 py-1 text-[11px] font-semibold text-emerald-800">
                 Top band
               </div>
-              <div className="inline-flex rounded-2xl bg-amber-100 px-4 py-2 text-sm font-semibold text-amber-800">
+              <div className="inline-flex rounded-md bg-amber-100 px-2.5 py-1 text-[11px] font-semibold text-amber-800">
                 Middle band
               </div>
-              <div className="inline-flex rounded-2xl bg-rose-100 px-4 py-2 text-sm font-semibold text-rose-800">
+              <div className="inline-flex rounded-md bg-rose-100 px-2.5 py-1 text-[11px] font-semibold text-rose-800">
                 Lower band
               </div>
-              <p className="text-base leading-7 text-muted-foreground">
+              <p className="text-sm leading-6 text-muted-foreground">
                 Band is rendered from the current sorted results only. It is not stored in card data.
               </p>
             </div>

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 
 export function ResearchScreenNav({
   active,
@@ -12,21 +12,42 @@ export function ResearchScreenNav({
   buildHref: (path: string) => string;
 }) {
   return (
-    <div className="flex flex-wrap items-center gap-3">
+    <div className="flex items-center gap-0.5 rounded-md bg-secondary p-0.5">
       <Link href={buildHref("/")}>
-        <Button variant={active === "founder" ? "default" : "outline"} size="lg" className="rounded-2xl px-6">
+        <span
+          className={cn(
+            "inline-flex rounded px-2.5 py-1 text-xs font-medium transition-all",
+            active === "founder"
+              ? "bg-foreground text-background shadow-sm"
+              : "text-muted-foreground hover:text-foreground"
+          )}
+        >
           Founder
-        </Button>
+        </span>
       </Link>
       <Link href={buildHref("/compare")}>
-        <Button variant={active === "compare" ? "default" : "outline"} size="lg" className="rounded-2xl px-6">
+        <span
+          className={cn(
+            "inline-flex rounded px-2.5 py-1 text-xs font-medium transition-all",
+            active === "compare"
+              ? "bg-foreground text-background shadow-sm"
+              : "text-muted-foreground hover:text-foreground"
+          )}
+        >
           Compare
-        </Button>
+        </span>
       </Link>
       <Link href={buildHref("/map")}>
-        <Button variant={active === "map" ? "default" : "outline"} size="lg" className="rounded-2xl px-6">
+        <span
+          className={cn(
+            "inline-flex rounded px-2.5 py-1 text-xs font-medium transition-all",
+            active === "map"
+              ? "bg-foreground text-background shadow-sm"
+              : "text-muted-foreground hover:text-foreground"
+          )}
+        >
           Map
-        </Button>
+        </span>
       </Link>
     </div>
   );
