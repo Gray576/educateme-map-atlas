@@ -1,0 +1,466 @@
+{
+  "product_code": "A10",
+  "product_title": "CSRD/ESG Compliance Training",
+  "analysis_timestamp": "2026-04-13T07:30:00+04:00",
+  "product_summary": {
+    "one_sentence_summary": "Luxembourg-oriented CSRD and ESG training for SMEs that face sustainability-data requests from larger customers or need practical compliance upskilling.",
+    "target_user": "SMEs in Luxembourg supply chains, plus RSE, compliance and finance staff who need to understand CSRD-related reporting pressure.",
+    "core_pain": "Companies need a practical way to understand sustainability reporting demands without buying a full Big Four consulting project.",
+    "claimed_outcome": "A fast path to CSRD readiness, double-materiality competence and report-writing support in French, English or German.",
+    "market_scope": {
+      "primary_market": "Luxembourg",
+      "country_scope": ["Luxembourg"],
+      "profession_scope": ["SMEs", "RSE managers", "compliance officers", "finance teams"]
+    }
+  },
+  "buyer_analysis": {
+    "primary_buyer_type": {
+      "value": "mixed",
+      "reason": "The buyer could be a compliance lead, an ESG/RSE manager, a finance team or an SME founder depending on the company size.",
+      "confidence": 0.68
+    },
+    "secondary_buyer_types": [
+      {
+        "value": "compliance",
+        "reason": "The offer is explicitly framed around CSRD compliance and reporting.",
+        "confidence": 0.84
+      },
+      {
+        "value": "employer",
+        "reason": "The product is sold to companies rather than individual learners.",
+        "confidence": 0.72
+      }
+    ],
+    "budget_owner": {
+      "value": "business_unit",
+      "reason": "For SMEs, budget likely sits with the business unit or finance/compliance function rather than a central training team.",
+      "confidence": 0.61
+    },
+    "buyer_influencers": [
+      {
+        "value": "finance",
+        "reason": "CSRD touches data collection, controls and reporting, so finance will often influence the purchase.",
+        "confidence": 0.74
+      },
+      {
+        "value": "legal",
+        "reason": "Regulatory interpretation and wording can create legal review needs.",
+        "confidence": 0.66
+      },
+      {
+        "value": "founder_ceo",
+        "reason": "For SMEs, founder or CEO approval may be needed if the issue is client-driven rather than compliance-led.",
+        "confidence": 0.55
+      }
+    ]
+  },
+  "claim_extraction": {
+    "externally_checkable_claims": [
+      {
+        "claim_area": "deadline",
+        "claim_text": "CSRD Wave 2 reporting is needed now for the card's target SME segment.",
+        "status": "contradicted",
+        "notes": "The European Commission states that the 'stop the clock' proposal delays the reporting requirements for companies previously due to report as of 2026 or 2027 until 2028. That makes the card's 'now' framing materially misleading for wave-two / wave-three targets.",
+        "source_ids": ["ec_sustainable_finance_2025", "ec_csrd_omnibus_2025", "ec_company_reporting_2025"]
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "No French or German CSRD training exists for Luxembourg SMEs.",
+        "status": "contradicted",
+        "notes": "House of Training offers CSRD and ESG-related modules in French, and PwC Luxembourg offers CSRD double-materiality training in English, French or German. The market is not language-empty.",
+        "source_ids": ["houseoftraining_csrd_fr", "houseoftraining_vsme", "pwc_csrd_dma"]
+      },
+      {
+        "claim_area": "funding",
+        "claim_text": "INFPC 15-35% is relevant to the product.",
+        "status": "partially_verified",
+        "notes": "The general Luxembourg company-training co-funding scheme exists and the 15% / 35% structure is public, but product-level eligibility for this specific CSRD training still needs checking.",
+        "source_ids": ["infpc_cofunding", "lifelong_learning_cofunding"]
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "Big Four CSRD training costs more than 5,000 euros per person.",
+        "status": "unverified",
+        "notes": "The reviewed sources do not support this exact market-wide price anchor as stated.",
+        "source_ids": []
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "CSRD Institute costs 995 euros and is English-only online.",
+        "status": "unverified",
+        "notes": "No direct source confirming this exact competitor price and format was reviewed.",
+        "source_ids": []
+      }
+    ],
+    "internal_claims_unverified": [
+      {
+        "claim_area": "scope_fit",
+        "claim_text": "SMEs in supply chains are the right wedge because large-client questionnaires create CSRD pressure.",
+        "reason_unverified": "This is a market inference rather than a public fact."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "Educateme has zero ESG expertise and therefore needs an ESG consultancy partner.",
+        "reason_unverified": "This is an internal capability assessment, not a public fact."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "A 50/50 revenue share with a content partner is the right commercial structure.",
+        "reason_unverified": "This is an internal business-design decision."
+      },
+      {
+        "claim_area": "deadline",
+        "claim_text": "The product can be launched in 2-3 months.",
+        "reason_unverified": "This is a planning estimate rather than an externally verifiable fact."
+      }
+    ]
+  },
+  "external_research": {
+    "regulator_entities": [
+      {
+        "name": "European Commission",
+        "type": "regulator",
+        "relevance": "The Commission drives the CSRD framework and the 2025 omnibus simplification proposals that changed the timing picture.",
+        "source_ids": ["ec_sustainable_finance_2025", "ec_csrd_omnibus_2025", "ec_company_reporting_2025"]
+      }
+    ],
+    "framework_entities": [
+      {
+        "name": "Corporate Sustainability Reporting Directive (CSRD)",
+        "type": "directive",
+        "relevance": "The product is explicitly built around CSRD compliance and reporting.",
+        "source_ids": ["ec_company_reporting_2025", "ec_csrd_omnibus_2025"]
+      },
+      {
+        "name": "European Sustainability Reporting Standards (ESRS)",
+        "type": "standard",
+        "relevance": "The card's proposed curriculum includes ESRS and double-materiality content.",
+        "source_ids": ["ec_company_reporting_2025", "houseoftraining_csrd_fr", "pwc_csrd_dma"]
+      },
+      {
+        "name": "VSME voluntary standard for SMEs",
+        "type": "standard",
+        "relevance": "The Commission and Luxembourg training providers both frame VSME as the simpler sustainability-reporting route relevant to SMEs.",
+        "source_ids": ["ec_company_reporting_2025", "houseoftraining_vsme"]
+      }
+    ],
+    "funding_bodies": [
+      {
+        "name": "INFPC",
+        "type": "training_fund",
+        "relevance": "Luxembourg company training co-funding is the only public funding route referenced by the card.",
+        "source_ids": ["infpc_cofunding", "lifelong_learning_cofunding"]
+      }
+    ],
+    "approval_entities": [],
+    "regulatory_requirements": [
+      {
+        "requirement": "Large companies and listed companies must report under CSRD, with the first wave reporting for financial year 2024 in 2025.",
+        "applies_to": "Companies already in the first CSRD wave",
+        "jurisdiction": "European Union",
+        "status": "confirmed",
+        "source_ids": ["ec_company_reporting_2025"]
+      },
+      {
+        "requirement": "The Commission's stop-the-clock proposal delays reporting requirements for companies that were previously due to report for financial years 2025 or 2026 until 2028.",
+        "applies_to": "Wave two and wave three CSRD companies",
+        "jurisdiction": "European Union",
+        "status": "confirmed",
+        "source_ids": ["ec_sustainable_finance_2025", "ec_csrd_omnibus_2025"]
+      },
+      {
+        "requirement": "VSME is a voluntary sustainability-reporting route for SMEs rather than a direct reporting mandate.",
+        "applies_to": "Small and medium-sized undertakings",
+        "jurisdiction": "European Union",
+        "status": "confirmed",
+        "source_ids": ["ec_company_reporting_2025", "houseoftraining_vsme"]
+      }
+    ],
+    "subsidies_or_funding": [
+      {
+        "name": "Company training co-funding",
+        "jurisdiction": "Luxembourg",
+        "relevance": "possible",
+        "eligibility_notes": "General co-funding exists, but product-level eligibility for this compliance-heavy training still needs to be checked against the employer profile and final course structure.",
+        "source_ids": ["infpc_cofunding", "lifelong_learning_cofunding"]
+      }
+    ],
+    "competitors_or_substitutes": [
+      {
+        "name": "House of Training - CSRD et normes ESRS",
+        "type": "direct",
+        "notes": "Public Luxembourg provider offering a 40h French CSRD course with exam and certificate.",
+        "source_ids": ["houseoftraining_csrd_fr"]
+      },
+      {
+        "name": "House of Training - Reporting ESG / VSME modules",
+        "type": "substitute",
+        "notes": "Public Luxembourg modules on ESG reporting and the VSME standard in French.",
+        "source_ids": ["houseoftraining_vsme", "houseoftraining_esg_fr"]
+      },
+      {
+        "name": "PwC Luxembourg - CSRD double materiality training",
+        "type": "direct",
+        "notes": "Training available in English, French or German with customisable intra-company delivery.",
+        "source_ids": ["pwc_csrd_dma"]
+      },
+      {
+        "name": "PwC Luxembourg - CSRD Reporting as a Service",
+        "type": "substitute",
+        "notes": "A managed-service alternative that bundles templates, platform support and writing support.",
+        "source_ids": ["pwc_csrd_reporting_service"]
+      }
+    ]
+  },
+  "dashboard_enrichment": {
+    "legal_claim_severity": {
+      "value": 3,
+      "reason": "The product is compliance-adjacent and explicitly uses CSRD / ESG language, but it does not claim formal accreditation or official acceptance.",
+      "confidence": 0.9
+    },
+    "authority_needed_for_delivery": {
+      "value": 3,
+      "reason": "Credible delivery practically requires external ESG and reporting expertise, especially if the product includes templates and compliance guidance.",
+      "confidence": 0.86
+    },
+    "authority_needed_for_claims": {
+      "value": 3,
+      "reason": "Claims about CSRD readiness and compliance should be reviewed by an external SME, even if no formal approval is required.",
+      "confidence": 0.88
+    },
+    "proof_stack": [
+      {
+        "value": "buyer_acceptance",
+        "reason": "A B2B buyer must prefer this training to existing training or managed-service substitutes.",
+        "confidence": 0.88
+      },
+      {
+        "value": "roi_case_study",
+        "reason": "The training should show lower internal effort or better reporting readiness to justify spend.",
+        "confidence": 0.74
+      },
+      {
+        "value": "audit_defensibility",
+        "reason": "Because the card uses compliance wording, the output needs to be defensible in a buyer review.",
+        "confidence": 0.8
+      }
+    ],
+    "proof_burden": {
+      "value": 3,
+      "reason": "This is more than a generic workshop because the buyer cares about defensible compliance and reporting outcomes.",
+      "confidence": 0.87
+    },
+    "dependency_types": [
+      {
+        "value": "expert_partner",
+        "reason": "The card itself says ESG expertise is missing and a content partner is needed.",
+        "confidence": 0.92
+      },
+      {
+        "value": "funding_eligibility",
+        "reason": "INFPC support is possible but needs product-level validation.",
+        "confidence": 0.81
+      },
+      {
+        "value": "country_localization",
+        "reason": "The offer is Luxembourg-specific and language-specific.",
+        "confidence": 0.77
+      }
+    ],
+    "scope_variance_risk": {
+      "value": "medium",
+      "reason": "The current scope is Luxembourg SMEs, but the legal content and language choices still vary by buyer segment.",
+      "confidence": 0.71
+    },
+    "expansion_variance_risk": {
+      "value": "high",
+      "reason": "Moving to neighbouring countries would change languages, buyer expectations and the compliance calendar.",
+      "confidence": 0.88
+    },
+    "subsidy_exists": {
+      "value": "yes",
+      "reason": "Luxembourg company training co-funding exists.",
+      "confidence": 0.95
+    },
+    "subsidy_eligibility_status": {
+      "value": "unclear",
+      "reason": "The funding route exists, but this specific CSRD offer still needs a product-level eligibility check.",
+      "confidence": 0.71
+    },
+    "subsidy_conflict_flag": {
+      "value": false,
+      "reason": "A funding route exists, but the issue is eligibility uncertainty rather than a direct contradiction.",
+      "confidence": 0.81
+    },
+    "market_regulatory_context": {
+      "value": "regulated_adjacent",
+      "reason": "The product sits next to sustainability reporting regulation, but for the target SME segment the immediate need is often customer-driven rather than directly mandated.",
+      "confidence": 0.9
+    }
+  },
+  "risk_map": {
+    "claim_language_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The card can easily overstate immediacy and compliance certainty in a landscape that has just been delayed and simplified.",
+      "source_ids": ["ec_sustainable_finance_2025", "ec_csrd_omnibus_2025", "ec_company_reporting_2025"]
+    },
+    "authority_dependency_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The offer depends on ESG and reporting expertise that the card itself says is missing internally.",
+      "source_ids": ["houseoftraining_csrd_fr", "pwc_csrd_dma"]
+    },
+    "competitive_gap_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "There are already French, English and German CSRD training options and a managed-service substitute in Luxembourg.",
+      "source_ids": ["houseoftraining_csrd_fr", "houseoftraining_vsme", "pwc_csrd_dma", "pwc_csrd_reporting_service"]
+    },
+    "numeric_claim_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The wave-timing claim is outdated for the target segment and the price anchors were not externally verified.",
+      "source_ids": ["ec_sustainable_finance_2025", "ec_csrd_omnibus_2025"]
+    },
+    "subsidy_conflict_risk": {
+      "status": "unknown",
+      "severity": "medium",
+      "reason": "General co-funding exists, but product-level eligibility was not confirmed.",
+      "source_ids": ["infpc_cofunding", "lifelong_learning_cofunding"]
+    },
+    "positioning_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The product is too close to existing Luxembourg training and consulting substitutes unless the delivery edge is very clear.",
+      "source_ids": ["houseoftraining_csrd_fr", "pwc_csrd_dma", "pwc_csrd_reporting_service"]
+    }
+  },
+  "claim_conflicts": [
+    {
+      "claim_area": "deadline",
+      "claim_text": "CSRD Wave 2 reporting NOW.",
+      "conflict_type": "external",
+      "severity": "high",
+      "what_is_wrong": "The European Commission has proposed and then advanced the stop-the-clock changes that delay reporting for companies that would have reported as of 2026 or 2027 until 2028. For the product's SME segment, 'now' is materially misleading.",
+      "source_ids": ["ec_sustainable_finance_2025", "ec_csrd_omnibus_2025", "ec_company_reporting_2025"]
+    },
+    {
+      "claim_area": "competitor_gap",
+      "claim_text": "No French or German CSRD training for Luxembourg SMEs.",
+      "conflict_type": "external",
+      "severity": "high",
+      "what_is_wrong": "Public Luxembourg providers already offer CSRD and ESG training in French, and PwC offers CSRD double-materiality training in English, French and German.",
+      "source_ids": ["houseoftraining_csrd_fr", "houseoftraining_vsme", "houseoftraining_esg_fr", "pwc_csrd_dma"]
+    }
+  ],
+  "recommended_manual_review": [
+    {
+      "field": "timing-copy",
+      "reason": "Rewrite the urgency narrative around customer pressure and VSME / value-chain readiness rather than a direct 2026 wave-two mandate."
+    },
+    {
+      "field": "delivery-model",
+      "reason": "Decide whether this is a pure course, a course-plus-template product or a partner-led advisory offer."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ec_sustainable_finance_2025",
+      "title": "Sustainable finance - European Commission newsletter",
+      "publisher": "European Commission",
+      "url": "https://finance.ec.europa.eu/news/sustainable-finance-2025-05-21_en",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "ec_csrd_omnibus_2025",
+      "title": "Omnibus package - European Commission",
+      "publisher": "European Commission",
+      "url": "https://finance.ec.europa.eu/news/omnibus-package-2025-04-01_en",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "ec_company_reporting_2025",
+      "title": "Corporate sustainability reporting",
+      "publisher": "European Commission",
+      "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "infpc_cofunding",
+      "title": "Co-funding of company training",
+      "publisher": "INFPC",
+      "url": "https://www.infpc.lu/cofinancement-de-la-formation/en",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "lifelong_learning_cofunding",
+      "title": "Cofunding of training in companies",
+      "publisher": "lifelong-learning.lu",
+      "url": "https://www.lifelong-learning.lu/entreprises/cofinancement/en",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "houseoftraining_csrd_fr",
+      "title": "Maîtriser la CSRD et les normes ESRS - Formation pratique au rapport de durabilité",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/maitriser-la-csrd-et-les-normes-esrs-formation-pratique-au-rapport-de-durabilite-13057",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "houseoftraining_vsme",
+      "title": "Reporting simplifié de développement durable pour les PME - Norme VSME",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/reporting-simplifie-de-developpement-durable-pour-les-pme-norme-vsme-12866",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "houseoftraining_esg_fr",
+      "title": "Reporting ESG - Évaluer la performance extra-financière d'une entreprise dans le cadre de la CSRD - LSMS",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/training/reporting-esg-evaluer-la-performance-extra-financiere-dune-entreprise-dans-le-cadre-de-la-corporate-sustainability-reporting-directive-csrd-lsms-12261",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "pwc_csrd_dma",
+      "title": "CSRD: conducting the Double Materiality Assessment",
+      "publisher": "PwC Luxembourg",
+      "url": "https://www.pwc.lu/en/pwcacademy/training-library/csrd-double-materiality-assessment.html",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "pwc_csrd_reporting_service",
+      "title": "CSRD Reporting as a Service",
+      "publisher": "PwC Luxembourg",
+      "url": "https://www.pwc.lu/en/sustainability-and-climate-change/csrd-reporting.html",
+      "source_type": "company",
+      "reliability": "medium"
+    }
+  ],
+  "quality_signals": {
+    "source_coverage_score": 0.86,
+    "unverified_claims_count": 4,
+    "field_confidence": {
+      "primary_buyer_type": 0.68,
+      "budget_owner": 0.61,
+      "legal_claim_severity": 0.9,
+      "authority_needed_for_delivery": 0.86,
+      "authority_needed_for_claims": 0.88,
+      "proof_burden": 0.87,
+      "scope_variance_risk": 0.71,
+      "expansion_variance_risk": 0.88,
+      "subsidy_exists": 0.95,
+      "subsidy_eligibility_status": 0.71,
+      "market_regulatory_context": 0.9
+    }
+  }
+}

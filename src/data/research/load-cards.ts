@@ -1,10 +1,13 @@
 import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
 import type { ResearchCard } from "@/types";
 import { validateResearchCard } from "@/data/research/validate-card";
 
-const CARDS_DIR = path.resolve("/Users/sergey/Desktop/product growth/plan/cards");
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const CARDS_DIR = path.join(__dirname, "cards");
 
 export async function loadResearchCards(): Promise<ResearchCard[]> {
   const files = (await readdir(CARDS_DIR))

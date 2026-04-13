@@ -1,0 +1,459 @@
+{
+  "product_code": "B4",
+  "product_title": "White-Label Course Licensing",
+  "analysis_timestamp": "2026-04-13T00:00:00Z",
+  "product_summary": {
+    "one_sentence_summary": "White-label licensing concept for packaged Luxembourg language curricula that schools or NGOs could adapt and resell.",
+    "target_user": "Language schools, integration NGOs and corporate training teams in Luxembourg and nearby border markets.",
+    "core_pain": "Potential licensees want ready-made local-language content instead of building a course from scratch.",
+    "claimed_outcome": "A licensable curriculum package with teacher materials and a branded completion badge.",
+    "market_scope": {
+      "primary_market": "Luxembourg",
+      "country_scope": [
+        "Luxembourg",
+        "Belgium"
+      ],
+      "profession_scope": [
+        "adult language learners",
+        "integration learners",
+        "corporate learners"
+      ]
+    }
+  },
+  "buyer_analysis": {
+    "primary_buyer_type": {
+      "value": "partner",
+      "reason": "The offer is a licensing product, so the likely first buyer is a partner organization that would reuse the curriculum.",
+      "confidence": 0.81
+    },
+    "secondary_buyer_types": [
+      {
+        "value": "hr_ld",
+        "reason": "Corporate training teams can buy a ready-made curriculum instead of building one internally.",
+        "confidence": 0.66
+      },
+      {
+        "value": "employer",
+        "reason": "Employers or integration sponsors may buy the package for workforce language development.",
+        "confidence": 0.58
+      }
+    ],
+    "budget_owner": {
+      "value": "mixed",
+      "reason": "Budget could sit with a training director, program lead or business owner depending on the licensee.",
+      "confidence": 0.61
+    },
+    "buyer_influencers": [
+      {
+        "value": "founder_ceo",
+        "reason": "For smaller schools or NGOs, the final buying decision may sit with leadership.",
+        "confidence": 0.62
+      },
+      {
+        "value": "hr_ld",
+        "reason": "Corporate learning teams may influence whether a ready-made curriculum is useful.",
+        "confidence": 0.59
+      },
+      {
+        "value": "innovation",
+        "reason": "A packaged curriculum often competes with in-house build-or-buy discussions.",
+        "confidence": 0.41
+      }
+    ]
+  },
+  "claim_extraction": {
+    "externally_checkable_claims": [
+      {
+        "claim_area": "other",
+        "claim_text": "Existing curricula can be packaged for licensing to third-party schools and NGOs.",
+        "status": "unverified",
+        "notes": "Public sources show Luxembourgish courses and certification routes exist, but they do not validate this exact licensing package.",
+        "source_ids": [
+          "inll_laf",
+          "inll_courses",
+          "lllc"
+        ]
+      },
+      {
+        "claim_area": "accreditation",
+        "claim_text": "Educateme Certified badge is an official or externally recognised credential.",
+        "status": "unverified",
+        "notes": "No public source reviewed shows external recognition for the proposed badge.",
+        "source_ids": []
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "No one else can create Luxembourg language curricula at this quality.",
+        "status": "contradicted",
+        "notes": "INLL runs Luxembourgish courses and issues the national LAF certification, and the Luxembourg Lifelong Learning Center also offers course and certification programs. The market is not empty.",
+        "source_ids": [
+          "inll_laf",
+          "inll_courses",
+          "lllc"
+        ]
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "Y1 revenue can reach €25-150K.",
+        "status": "unverified",
+        "notes": "This is an internal revenue projection, not a publicly verified market fact.",
+        "source_ids": []
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "Near-zero marginal cost after packaging.",
+        "status": "unverified",
+        "notes": "No public source reviewed establishes the economics of this exact licensing package.",
+        "source_ids": []
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "Belgium and border-region demand is sufficient to sustain a licensing offer.",
+        "status": "unverified",
+        "notes": "Public sources confirm demand for Luxembourgish language learning and continuing training, but not the market size for this exact licensing motion.",
+        "source_ids": [
+          "inll_luxembourgish",
+          "lllc"
+        ]
+      }
+    ],
+    "internal_claims_unverified": [
+      {
+        "claim_area": "accreditation",
+        "claim_text": "Educateme Certified badge will carry market weight.",
+        "reason_unverified": "No official source shows external recognition for the badge."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "The curriculum packages are ready for third-party licensing as-is.",
+        "reason_unverified": "The source card is a hypothesis; public evidence does not validate packaging maturity."
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "Y1 revenue can reach €25-150K.",
+        "reason_unverified": "This is an internal projection, not an externally verified market result."
+      }
+    ]
+  },
+  "external_research": {
+    "regulator_entities": [
+      {
+        "name": "Institut national des langues Luxembourg (INLL)",
+        "type": "exam_body",
+        "relevance": "National certification body for Luxembourgish language diplomas and courses.",
+        "source_ids": [
+          "inll_laf",
+          "inll_courses",
+          "inll_luxembourgish"
+        ]
+      },
+      {
+        "name": "Ministry of the Economy",
+        "type": "ministry",
+        "relevance": "Luxembourg guidance says a business permit can be required for training to third parties outside the company.",
+        "source_ids": [
+          "guichet_training_establishment"
+        ]
+      }
+    ],
+    "framework_entities": [
+      {
+        "name": "LAF – Lëtzebuergesch als Friemsprooch",
+        "type": "other",
+        "relevance": "Official national Luxembourgish certification route; independent of the courses taken.",
+        "source_ids": [
+          "inll_laf"
+        ]
+      },
+      {
+        "name": "Business permit for continuing professional training establishment",
+        "type": "guidance",
+        "relevance": "Luxembourg guidance for organisations providing training to third parties outside the company.",
+        "source_ids": [
+          "guichet_training_establishment"
+        ]
+      }
+    ],
+    "funding_bodies": [],
+    "approval_entities": [
+      {
+        "name": "Business permit for continuing professional training establishment route",
+        "type": "accepted_provider_route",
+        "relevance": "Relevant route if the provider delivers training to third parties outside the company.",
+        "source_ids": [
+          "guichet_training_establishment"
+        ]
+      }
+    ],
+    "regulatory_requirements": [
+      {
+        "requirement": "INLL is the national certification body for Luxembourgish and LAF is independent of courses.",
+        "applies_to": "Luxembourgish language certification and prep courses",
+        "jurisdiction": "Luxembourg",
+        "status": "confirmed",
+        "source_ids": [
+          "inll_laf",
+          "inll_courses"
+        ]
+      },
+      {
+        "requirement": "Provision of training to third parties outside the company can require a business permit, subject to exemptions.",
+        "applies_to": "Training providers in Luxembourg",
+        "jurisdiction": "Luxembourg",
+        "status": "confirmed",
+        "source_ids": [
+          "guichet_training_establishment"
+        ]
+      }
+    ],
+    "subsidies_or_funding": [],
+    "competitors_or_substitutes": [
+      {
+        "name": "INLL Luxembourgish courses and LAF certification",
+        "type": "direct",
+        "notes": "Official language training and certification route already exists.",
+        "source_ids": [
+          "inll_laf",
+          "inll_courses"
+        ]
+      },
+      {
+        "name": "Luxembourg Lifelong Learning Center (LLLC)",
+        "type": "substitute",
+        "notes": "Public continuing vocational training provider with a broad course and certification offer.",
+        "source_ids": [
+          "lllc"
+        ]
+      }
+    ]
+  },
+  "dashboard_enrichment": {
+    "legal_claim_severity": {
+      "value": 1,
+      "reason": "This is mostly a commercial licensing proposition; the strongest claims are soft, not compliance-grade.",
+      "confidence": 0.88
+    },
+    "authority_needed_for_delivery": {
+      "value": 1,
+      "reason": "Delivery of the licensing concept appears possible with internal expertise, though the actual third-party training route may need a permit.",
+      "confidence": 0.76
+    },
+    "authority_needed_for_claims": {
+      "value": 2,
+      "reason": "Claims about official recognition or badge value should be externally reviewed before use.",
+      "confidence": 0.79
+    },
+    "proof_stack": [
+      {
+        "value": "buyer_acceptance",
+        "reason": "The first proof is whether schools or NGOs actually want to license the content.",
+        "confidence": 0.84
+      },
+      {
+        "value": "paid_pilot",
+        "reason": "A paid pilot or first license is the clearest commercial validation.",
+        "confidence": 0.7
+      },
+      {
+        "value": "learning_progress",
+        "reason": "If the content is reused, the licensee should still show learner progress.",
+        "confidence": 0.56
+      }
+    ],
+    "proof_burden": {
+      "value": 2,
+      "reason": "The product needs commercial acceptance and basic usage proof, but not regulated acceptance.",
+      "confidence": 0.77
+    },
+    "dependency_types": [
+      {
+        "value": "teacher_supply",
+        "reason": "Licensees still need capable teachers to deliver the curriculum.",
+        "confidence": 0.64
+      },
+      {
+        "value": "country_localization",
+        "reason": "Luxembourgish, French and German course materials need local adaptation.",
+        "confidence": 0.81
+      },
+      {
+        "value": "expert_partner",
+        "reason": "Domain review helps avoid overclaiming on language and certification value.",
+        "confidence": 0.54
+      }
+    ],
+    "scope_variance_risk": {
+      "value": "medium",
+      "reason": "The core offer is country-specific and the border-region use case depends on local language and training expectations.",
+      "confidence": 0.7
+    },
+    "expansion_variance_risk": {
+      "value": "medium",
+      "reason": "Moving beyond Luxembourg and nearby markets would require substantial localisation of language content and training norms.",
+      "confidence": 0.74
+    },
+    "subsidy_exists": {
+      "value": "no",
+      "reason": "No funding route was identified as clearly relevant to this licensing concept.",
+      "confidence": 0.83
+    },
+    "subsidy_eligibility_status": {
+      "value": "not_applicable",
+      "reason": "The product card does not rely on a subsidy or reimbursement route.",
+      "confidence": 0.88
+    },
+    "subsidy_conflict_flag": {
+      "value": false,
+      "reason": "No meaningful subsidy claim is made for this product.",
+      "confidence": 0.91
+    },
+    "market_regulatory_context": {
+      "value": "lightly_regulated",
+      "reason": "The offer is an education/licensing product, but the route to third-party training in Luxembourg is not entirely frictionless.",
+      "confidence": 0.82
+    }
+  },
+  "risk_map": {
+    "claim_language_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "Words like certified and unique content can easily overstate externally verifiable value.",
+      "source_ids": [
+        "inll_laf",
+        "lllc"
+      ]
+    },
+    "authority_dependency_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "Luxembourg guidance suggests a training-provider permit may be required for third-party training delivery.",
+      "source_ids": [
+        "guichet_training_establishment"
+      ]
+    },
+    "competitive_gap_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "Official Luxembourgish courses and certification routes already exist, so the uniqueness claim is not defensible.",
+      "source_ids": [
+        "inll_laf",
+        "inll_courses",
+        "lllc"
+      ]
+    },
+    "numeric_claim_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The revenue anchor is internal and unverified.",
+      "source_ids": []
+    },
+    "subsidy_conflict_risk": {
+      "status": "absent",
+      "severity": "low",
+      "reason": "No subsidy route is being relied upon.",
+      "source_ids": []
+    },
+    "positioning_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The product sits between content licensing and training delivery, so the route and ownership boundaries need to be explicit.",
+      "source_ids": [
+        "guichet_training_establishment",
+        "inll_laf"
+      ]
+    }
+  },
+  "claim_conflicts": [
+    {
+      "claim_area": "competitor_gap",
+      "claim_text": "No one else can create Luxembourg language curricula at this quality.",
+      "conflict_type": "external",
+      "severity": "high",
+      "what_is_wrong": "INLL already offers Luxembourgish courses and the official LAF certification route, and the LLLC also offers broad continuing education. The market is not empty.",
+      "source_ids": [
+        "inll_laf",
+        "inll_courses",
+        "lllc"
+      ]
+    },
+    {
+      "claim_area": "licensing",
+      "claim_text": "Curriculum packages are ready for third-party licensing as-is.",
+      "conflict_type": "ambiguity",
+      "severity": "medium",
+      "what_is_wrong": "Luxembourg guidance says training to third parties outside the company can require a business permit, so the route is not frictionless.",
+      "source_ids": [
+        "guichet_training_establishment"
+      ]
+    }
+  ],
+  "recommended_manual_review": [
+    {
+      "field": "licensing-route",
+      "reason": "Clarify whether the offer is pure IP licensing, training delivery, or a hybrid of both."
+    },
+    {
+      "field": "badge-value",
+      "reason": "Decide whether the Educateme badge is purely internal branding or should be removed from customer-facing copy."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "inll_laf",
+      "title": "LAF - Lëtzebuergesch als Friemsprooch",
+      "publisher": "Institut national des langues Luxembourg",
+      "url": "https://www.inll.lu/fr/laf/",
+      "source_type": "exam_body",
+      "reliability": "high"
+    },
+    {
+      "source_id": "inll_courses",
+      "title": "Our language courses",
+      "publisher": "Institut national des langues Luxembourg",
+      "url": "https://www.inll.lu/en/courses/",
+      "source_type": "exam_body",
+      "reliability": "high"
+    },
+    {
+      "source_id": "inll_luxembourgish",
+      "title": "Learn to speak Luxembourgish with our language courses",
+      "publisher": "Institut national des langues Luxembourg",
+      "url": "https://www.inll.lu/en/languages/luxembourgish/",
+      "source_type": "exam_body",
+      "reliability": "high"
+    },
+    {
+      "source_id": "guichet_training_establishment",
+      "title": "Manager of a continuing professional training establishment",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/creation-developpement/autorisation-etablissement/commerce/organisme-formation-continue.html",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "lllc",
+      "title": "Luxembourg Lifelong Learning Center (LLLC)",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/organismes/organismes_citoyens/luxembourg-lifelong-learning-center-.html",
+      "source_type": "government",
+      "reliability": "high"
+    }
+  ],
+  "quality_signals": {
+    "source_coverage_score": 0.71,
+    "unverified_claims_count": 4,
+    "field_confidence": {
+      "primary_buyer_type": 0.81,
+      "budget_owner": 0.61,
+      "legal_claim_severity": 0.88,
+      "authority_needed_for_delivery": 0.76,
+      "authority_needed_for_claims": 0.79,
+      "proof_burden": 0.77,
+      "scope_variance_risk": 0.7,
+      "expansion_variance_risk": 0.74,
+      "subsidy_exists": 0.83,
+      "subsidy_eligibility_status": 0.88,
+      "market_regulatory_context": 0.82
+    }
+  }
+}

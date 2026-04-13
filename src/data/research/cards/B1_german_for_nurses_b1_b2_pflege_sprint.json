@@ -1,0 +1,591 @@
+{
+  "product_code": "B1",
+  "product_title": "German for Nurses (B1->B2 Pflege Sprint)",
+  "analysis_timestamp": "2026-04-13T09:15:00+04:00",
+  "product_summary": {
+    "one_sentence_summary": "Online German sprint for international nurses preparing for German healthcare work and nursing-specific language proof.",
+    "target_user": "International nurses and recruitment partners preparing nurses for German practice.",
+    "core_pain": "Candidates need nursing-specific German fast enough to clear accepted proof and move into the German labour market.",
+    "claimed_outcome": "Faster progress toward a passable nursing German exam and improved employability in Germany.",
+    "market_scope": {
+      "primary_market": "Germany",
+      "country_scope": [
+        "Germany"
+      ],
+      "profession_scope": [
+        "nurses",
+        "healthcare workers"
+      ]
+    }
+  },
+  "buyer_analysis": {
+    "primary_buyer_type": {
+      "value": "individual",
+      "reason": "The source card is written around the nurse's personal migration outcome, even though agencies can also buy it.",
+      "confidence": 0.76
+    },
+    "secondary_buyer_types": [
+      {
+        "value": "staffing_agency",
+        "reason": "The card explicitly mentions white-label use for agencies.",
+        "confidence": 0.74
+      },
+      {
+        "value": "employer",
+        "reason": "Hospitals and care facilities can indirectly buy the course to speed onboarding.",
+        "confidence": 0.64
+      }
+    ],
+    "budget_owner": {
+      "value": "mixed",
+      "reason": "The learner, the agency and the hiring employer can all be budget owners depending on the route.",
+      "confidence": 0.72
+    },
+    "buyer_influencers": [
+      {
+        "value": "legal",
+        "reason": "Recognition, visa and language-proof rules determine whether the route works.",
+        "confidence": 0.88
+      },
+      {
+        "value": "hr_ld",
+        "reason": "Recruitment teams and L&D teams care about whether the nurse can be onboarded quickly.",
+        "confidence": 0.71
+      },
+      {
+        "value": "team_manager",
+        "reason": "Nursing managers influence whether a language sprint is good enough for the workplace.",
+        "confidence": 0.67
+      }
+    ]
+  },
+  "claim_extraction": {
+    "externally_checkable_claims": [
+      {
+        "claim_area": "exam",
+        "claim_text": "telc Deutsch B1-B2 Pflege exists as a nursing-specific exam that proves language competence at B1 and B2.",
+        "status": "verified",
+        "notes": "telc states that the exam certifies reading, listening, writing and speaking at B1 and B2 for nursing staff.",
+        "source_ids": [
+          "telc_pflege"
+        ]
+      },
+      {
+        "claim_area": "exam",
+        "claim_text": "Goethe-Test PRO Pflege exists as an accepted B2 nursing-language proof route.",
+        "status": "verified",
+        "notes": "Goethe states that the exam is recognised by BAMF and the German Foreign Office as B2 proof.",
+        "source_ids": [
+          "goethe_pflege",
+          "goethe_pflege_results"
+        ]
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "Germany's nursing sector had about 35,000 vacancies in 2023.",
+        "status": "verified",
+        "notes": "The Federal Employment Agency explicitly reported 35,000 registered vacancies in the nursing sector on average in 2023.",
+        "source_ids": [
+          "ba_nursing_shortage_2024"
+        ]
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "About 270,000 qualified nurses in Germany were foreign nationals, about 16% of the workforce in 2023; 18% in 2025.",
+        "status": "verified",
+        "notes": "BA reported 270,000 foreign-national nurses and 16% in 2023, then 18% in 2025 for nursing professions overall. The source card's 300k+ figure is not supported.",
+        "source_ids": [
+          "ba_nursing_shortage_2024",
+          "ba_nurses_2025"
+        ]
+      },
+      {
+        "claim_area": "funding",
+        "claim_text": "BAMF-backed vocational German language support exists as a public route relevant to this product.",
+        "status": "verified",
+        "notes": "The DeuFöV regulation assigns implementation of occupational German language support to BAMF.",
+        "source_ids": [
+          "bamf_deufoev"
+        ]
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "Bilateral agreements with India, Morocco and Brazil define the recruiting route.",
+        "status": "contradicted",
+        "notes": "The reviewed public sources show Triple Win arrangements with India, Indonesia, the Philippines and Tunisia, not Morocco or Brazil.",
+        "source_ids": [
+          "triplewin_makeit",
+          "triplewin_projects"
+        ]
+      }
+    ],
+    "internal_claims_unverified": [
+      {
+        "claim_area": "scope_fit",
+        "claim_text": "A 8-12 week sprint is enough for most nurses to reach the required route proof.",
+        "reason_unverified": "The public sources confirm the route and exam types, but not that this exact sprint length is sufficient for most learners."
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "300K+ foreign nurses already work in Germany (17.8%).",
+        "reason_unverified": "The reviewed official figures are lower and time-specific; the card's number is not confirmed as stated."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "No strong online-first healthcare German brand exists.",
+        "reason_unverified": "The reviewed evidence shows strong substitutes and recognized exam routes, but not an exhaustive market census."
+      },
+      {
+        "claim_area": "scope_fit",
+        "claim_text": "The family-income framing is a reliable conversion lever.",
+        "reason_unverified": "This is a commercial hypothesis, not an external fact."
+      }
+    ]
+  },
+  "external_research": {
+    "regulator_entities": [
+      {
+        "name": "Federal Employment Agency (BA)",
+        "type": "regulator",
+        "relevance": "Publishes shortage analysis and participates in Triple Win and labour-market support for nursing recruitment.",
+        "source_ids": [
+          "ba_nursing_shortage_2024",
+          "ba_nurses_2025"
+        ]
+      },
+      {
+        "name": "BAMF",
+        "type": "regulator",
+        "relevance": "Implements occupational German language support through DeuFöV.",
+        "source_ids": [
+          "bamf_deufoev"
+        ]
+      }
+    ],
+    "framework_entities": [
+      {
+        "name": "DeuFöV",
+        "type": "law",
+        "relevance": "German regulation for occupation-related German language support.",
+        "source_ids": [
+          "bamf_deufoev"
+        ]
+      },
+      {
+        "name": "Skilled Immigration Act",
+        "type": "law",
+        "relevance": "Part of the migration framework that makes nursing recruitment and recognition pathways important in Germany.",
+        "source_ids": [
+          "ba_nurses_2025",
+          "makeit_nursing"
+        ]
+      }
+    ],
+    "funding_bodies": [
+      {
+        "name": "BAMF",
+        "type": "subsidy_body",
+        "relevance": "Funds or organizes vocational German language support through DeuFöV.",
+        "source_ids": [
+          "bamf_deufoev"
+        ]
+      },
+      {
+        "name": "Federal Employment Agency (BA)",
+        "type": "training_fund",
+        "relevance": "Supports nursing retraining and recruitment programmes, including Triple Win and labour-market support.",
+        "source_ids": [
+          "ba_nurses_2025",
+          "triplewin_makeit"
+        ]
+      }
+    ],
+    "approval_entities": [
+      {
+        "name": "telc Deutsch B1-B2 Pflege",
+        "type": "accepted_provider_route",
+        "relevance": "Recognized nursing-language exam route that can be used as accepted proof.",
+        "source_ids": [
+          "telc_pflege"
+        ]
+      },
+      {
+        "name": "Goethe-Test PRO Pflege",
+        "type": "accepted_provider_route",
+        "relevance": "Recognized nursing-language exam route that is accepted by BAMF and the German Foreign Office.",
+        "source_ids": [
+          "goethe_pflege",
+          "goethe_pflege_results"
+        ]
+      }
+    ],
+    "regulatory_requirements": [
+      {
+        "requirement": "International nursing staff need B2-level language proof for nursing work in Germany.",
+        "applies_to": "Foreign-trained nurses seeking to work in Germany",
+        "jurisdiction": "Germany",
+        "status": "confirmed",
+        "source_ids": [
+          "goethe_pflege",
+          "telc_pflege"
+        ]
+      },
+      {
+        "requirement": "Triple Win recruits nurses from India, Indonesia, the Philippines and Tunisia, and provides language support up to B1 in the country of origin.",
+        "applies_to": "Nursing recruitment via the Triple Win programme",
+        "jurisdiction": "Germany and partner countries",
+        "status": "confirmed",
+        "source_ids": [
+          "triplewin_makeit",
+          "triplewin_projects"
+        ]
+      }
+    ],
+    "subsidies_or_funding": [
+      {
+        "name": "BAMF vocational German language support",
+        "jurisdiction": "Germany",
+        "relevance": "direct",
+        "eligibility_notes": "Relevant public support exists, but the exact fit for this private sprint needs validation.",
+        "source_ids": [
+          "bamf_deufoev"
+        ]
+      }
+    ],
+    "competitors_or_substitutes": [
+      {
+        "name": "telc Deutsch B1-B2 Pflege",
+        "type": "direct",
+        "notes": "Nursing-specific exam route with B1/B2 language proof.",
+        "source_ids": [
+          "telc_pflege"
+        ]
+      },
+      {
+        "name": "Goethe-Test PRO Pflege",
+        "type": "direct",
+        "notes": "Recognized B2 nursing-language exam route accepted by BAMF and the German Foreign Office.",
+        "source_ids": [
+          "goethe_pflege",
+          "goethe_pflege_results"
+        ]
+      },
+      {
+        "name": "Triple Win programme",
+        "type": "substitute",
+        "notes": "A government-backed recruitment and language-prep route for nurses from selected countries.",
+        "source_ids": [
+          "triplewin_makeit",
+          "triplewin_projects"
+        ]
+      }
+    ]
+  },
+  "dashboard_enrichment": {
+    "legal_claim_severity": {
+      "value": 4,
+      "reason": "The product depends on regulated-profession language proof and placement-adjacent claims.",
+      "confidence": 0.95
+    },
+    "authority_needed_for_delivery": {
+      "value": 3,
+      "reason": "Credible delivery requires nursing-pathway expertise, exam knowledge and likely recruitment/domain support.",
+      "confidence": 0.86
+    },
+    "authority_needed_for_claims": {
+      "value": 4,
+      "reason": "Claims about accepted language proof and employability depend on recognized exam and route logic.",
+      "confidence": 0.97
+    },
+    "proof_stack": [
+      {
+        "value": "accepted_language_proof",
+        "reason": "The product must prove that learners can pass an accepted nursing-language route.",
+        "confidence": 0.96
+      },
+      {
+        "value": "exam_pass",
+        "reason": "Exam pass is the core intermediate signal for this product.",
+        "confidence": 0.97
+      },
+      {
+        "value": "buyer_acceptance",
+        "reason": "Agencies and employers still have to buy the format rather than a cheaper generic German course.",
+        "confidence": 0.79
+      },
+      {
+        "value": "placement_outcome",
+        "reason": "The downstream value is work in Germany, not just course completion.",
+        "confidence": 0.91
+      }
+    ],
+    "proof_burden": {
+      "value": 4,
+      "reason": "The market cares about accepted language proof and actual hiring outcomes, not just attendance.",
+      "confidence": 0.97
+    },
+    "dependency_types": [
+      {
+        "value": "licensing_path",
+        "reason": "Nursing work depends on recognition and language proof pathways.",
+        "confidence": 0.98
+      },
+      {
+        "value": "regulator_acceptance",
+        "reason": "The course must line up with accepted exam and immigration routes.",
+        "confidence": 0.95
+      },
+      {
+        "value": "staffing_partner",
+        "reason": "The card's white-label motion and recruitment angle depend on partner channels.",
+        "confidence": 0.87
+      },
+      {
+        "value": "expert_partner",
+        "reason": "Healthcare and migration content needs specialist review.",
+        "confidence": 0.84
+      },
+      {
+        "value": "country_localization",
+        "reason": "The origin-country and destination-country path changes the support design.",
+        "confidence": 0.91
+      },
+      {
+        "value": "funding_eligibility",
+        "reason": "Public funding routes exist and can affect buying decisions.",
+        "confidence": 0.78
+      }
+    ],
+    "scope_variance_risk": {
+      "value": "high",
+      "reason": "Even inside Germany, origin-country and employer route differences materially affect delivery.",
+      "confidence": 0.92
+    },
+    "expansion_variance_risk": {
+      "value": "high",
+      "reason": "Expanding to other professions or destination countries would change the route logic materially.",
+      "confidence": 0.96
+    },
+    "subsidy_exists": {
+      "value": "yes",
+      "reason": "Public vocational German language support and nursing-recruitment programmes exist.",
+      "confidence": 0.93
+    },
+    "subsidy_eligibility_status": {
+      "value": "unclear",
+      "reason": "The public support exists, but exact eligibility for this sprint depends on learner status and programme structure.",
+      "confidence": 0.74
+    },
+    "subsidy_conflict_flag": {
+      "value": true,
+      "reason": "The source card shows no subsidy, but public vocational language support and nursing-recruitment funding routes do exist.",
+      "confidence": 0.89
+    },
+    "market_regulatory_context": {
+      "value": "strongly_regulated",
+      "reason": "This sits inside a regulated-profession and migration route where language proof is a gate, not a nice-to-have.",
+      "confidence": 0.98
+    }
+  },
+  "risk_map": {
+    "claim_language_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The product sits next to accepted-language-proof claims and should not imply guaranteed placement or licensing.",
+      "source_ids": [
+        "telc_pflege",
+        "goethe_pflege",
+        "goethe_pflege_results"
+      ]
+    },
+    "authority_dependency_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "Delivery and claims depend heavily on external exam and migration routes.",
+      "source_ids": [
+        "telc_pflege",
+        "goethe_pflege",
+        "bamf_deufoev"
+      ]
+    },
+    "competitive_gap_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "Strong substitutes already exist through telc, Goethe and government-backed nursing recruitment programmes.",
+      "source_ids": [
+        "telc_pflege",
+        "goethe_pflege",
+        "triplewin_makeit"
+      ]
+    },
+    "numeric_claim_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The source card's 300k+ nurse figure is not supported, while the official shortage data are lower and time-specific.",
+      "source_ids": [
+        "ba_nursing_shortage_2024",
+        "ba_nurses_2025"
+      ]
+    },
+    "subsidy_conflict_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "Public funding routes exist even though the card says none.",
+      "source_ids": [
+        "bamf_deufoev",
+        "triplewin_makeit"
+      ]
+    },
+    "positioning_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The product can drift into a route-orchestration business if it promises exam, visa and placement outcomes together.",
+      "source_ids": [
+        "telc_pflege",
+        "goethe_pflege",
+        "triplewin_makeit"
+      ]
+    }
+  },
+  "claim_conflicts": [
+    {
+      "claim_area": "competitor_gap",
+      "claim_text": "Bilateral agreements with India, Morocco and Brazil define the recruiting route.",
+      "conflict_type": "external",
+      "severity": "high",
+      "what_is_wrong": "The reviewed public evidence shows partner-country recruitment for India, Indonesia, the Philippines and Tunisia, not Morocco or Brazil.",
+      "source_ids": [
+        "triplewin_makeit",
+        "triplewin_projects"
+      ]
+    },
+    {
+      "claim_area": "numeric_claim",
+      "claim_text": "300K+ foreign nurses already there (17.8%).",
+      "conflict_type": "external",
+      "severity": "medium",
+      "what_is_wrong": "Official BA figures are 270,000 foreign-national nurses in 2023 and 18% in 2025; the source-card number is not exact.",
+      "source_ids": [
+        "ba_nursing_shortage_2024",
+        "ba_nurses_2025"
+      ]
+    },
+    {
+      "claim_area": "funding",
+      "claim_text": "Subsidy: none.",
+      "conflict_type": "external",
+      "severity": "medium",
+      "what_is_wrong": "BAMF vocational German language support and BA-supported recruitment/training routes exist, so the blanket no-subsidy framing is incomplete.",
+      "source_ids": [
+        "bamf_deufoev",
+        "triplewin_makeit",
+        "triplewin_projects"
+      ]
+    }
+  ],
+  "recommended_manual_review": [
+    {
+      "field": "route_design",
+      "reason": "Decide whether the product is exam prep only or a broader migration-support motion."
+    },
+    {
+      "field": "country_origin_scope",
+      "reason": "The public route differs by source country; do not reuse an unsupported country list."
+    },
+    {
+      "field": "funding_angle",
+      "reason": "Validate whether any BAMF or BA route is operationally usable for this offer."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ba_nursing_shortage_2024",
+      "title": "Nursing staff in Germany: mostly female, part-time and in more demand than ever before",
+      "publisher": "Federal Employment Agency",
+      "url": "https://www.arbeitsagentur.de/en/press/2024-19-nursing-staff-in-germany-mostly-female-part-time-and-in-more-demand-than-ever-before",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "ba_nurses_2025",
+      "title": "Nurses Day",
+      "publisher": "Federal Employment Agency",
+      "url": "https://www.arbeitsagentur.de/en/press/2025-21-nurses-day-most-new-nurses-are-from-foreign-countries",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "telc_pflege",
+      "title": "telc Deutsch B1-B2 Pflege",
+      "publisher": "telc",
+      "url": "https://www.telc.net/sprachpruefungen/zertifikatspruefung/deutsch/telc-deutsch-b1b2-pflege/",
+      "source_type": "exam_body",
+      "reliability": "high"
+    },
+    {
+      "source_id": "goethe_pflege",
+      "title": "Goethe-Test PRO Pflege",
+      "publisher": "Goethe-Institut",
+      "url": "https://www.goethe.de/ins/de/de/fku/gtp.html",
+      "source_type": "exam_body",
+      "reliability": "high"
+    },
+    {
+      "source_id": "goethe_pflege_results",
+      "title": "Informationen zu den Prüfungsergebnissen - Goethe-Test PRO Pflege Deutsch für Pflegeberufe",
+      "publisher": "Goethe-Institut",
+      "url": "https://www.goethe.de/de/spr/prf/pes/papf.html",
+      "source_type": "exam_body",
+      "reliability": "high"
+    },
+    {
+      "source_id": "bamf_deufoev",
+      "title": "Verordnung über die berufsbezogene Deutschsprachförderung (DeuFöV)",
+      "publisher": "BAMF",
+      "url": "https://www.bamf.de/SharedDocs/Anlagen/DE/Integration/Berufsbezsprachf-ESF-BAMF/BSK-Rechtsgrundlagen/vo-berufsbezogene-deutschsprachfoerderung.html?nn=279612",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "triplewin_makeit",
+      "title": "Recruiting nursing professionals from abroad for the German labour market",
+      "publisher": "Make it in Germany",
+      "url": "https://www.make-it-in-germany.com/en/recruiting-nursing-professionals-from-abroad-for-the-german-labour-market",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "triplewin_projects",
+      "title": "Current projects for recruiting skilled workers",
+      "publisher": "Make it in Germany",
+      "url": "https://www.make-it-in-germany.com/en/looking-for-foreign-professionals/support/projects",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "makeit_nursing",
+      "title": "Nursing professionals",
+      "publisher": "Make it in Germany",
+      "url": "https://www.make-it-in-germany.com/en/working-in-germany/professions-in-demand/nursing",
+      "source_type": "official",
+      "reliability": "high"
+    }
+  ],
+  "quality_signals": {
+    "source_coverage_score": 0.88,
+    "unverified_claims_count": 4,
+    "field_confidence": {
+      "primary_buyer_type": 0.76,
+      "budget_owner": 0.72,
+      "legal_claim_severity": 0.95,
+      "authority_needed_for_delivery": 0.86,
+      "authority_needed_for_claims": 0.97,
+      "proof_burden": 0.97,
+      "scope_variance_risk": 0.92,
+      "expansion_variance_risk": 0.96,
+      "subsidy_exists": 0.93,
+      "subsidy_eligibility_status": 0.74,
+      "market_regulatory_context": 0.98
+    }
+  }
+}

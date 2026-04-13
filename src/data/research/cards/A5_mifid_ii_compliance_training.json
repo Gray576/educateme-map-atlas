@@ -1,0 +1,624 @@
+{
+  "product_code": "A5",
+  "product_title": "MiFID II Compliance Training",
+  "analysis_timestamp": "2026-04-13T09:23:26Z",
+  "product_summary": {
+    "one_sentence_summary": "Luxembourg MiFID II training concept that tries to package a CSSF-recognised external route with multilingual delivery and compliance-oriented certification.",
+    "target_user": "Financial institutions and staff under CSSF prudential supervision who provide investment information or advice.",
+    "core_pain": "Regulated financial firms need a credible external training path that maps to MiFID II knowledge-and-competence expectations and survives compliance scrutiny.",
+    "claimed_outcome": "A CSSF-recognised training path, completion certificate and audit documentation.",
+    "market_scope": {
+      "primary_market": "Luxembourg",
+      "country_scope": [
+        "Luxembourg"
+      ],
+      "profession_scope": [
+        "investment advice staff",
+        "investment information staff"
+      ]
+    }
+  },
+  "buyer_analysis": {
+    "primary_buyer_type": {
+      "value": "compliance",
+      "reason": "The product is driven by regulated training, certification and CSSF-recognition language.",
+      "confidence": 0.94
+    },
+    "secondary_buyer_types": [
+      {
+        "value": "employer",
+        "reason": "The actual customer is still a regulated financial firm buying training for staff.",
+        "confidence": 0.72
+      },
+      {
+        "value": "partner",
+        "reason": "A partner or accredited provider route may be needed for credibility.",
+        "confidence": 0.69
+      }
+    ],
+    "budget_owner": {
+      "value": "compliance",
+      "reason": "Compliance or risk functions are the most likely budget owners for this type of training.",
+      "confidence": 0.91
+    },
+    "buyer_influencers": [
+      {
+        "value": "legal",
+        "reason": "Legal is likely to review wording around accreditation, acceptance and regulated-practice claims.",
+        "confidence": 0.86
+      },
+      {
+        "value": "finance",
+        "reason": "Finance leadership may care about operational burden, multilingual delivery and partner economics.",
+        "confidence": 0.63
+      },
+      {
+        "value": "compliance",
+        "reason": "Compliance teams will decide whether the route is defensible.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "claim_extraction": {
+    "externally_checkable_claims": [
+      {
+        "claim_area": "mandate",
+        "claim_text": "Circular CSSF 17/670 sets criteria for external training on knowledge and competence in the MiFID II framework.",
+        "status": "verified",
+        "notes": "CSSF’s circular explicitly sets minimum criteria for external training in the MiFID II / knowledge-and-competence framework.",
+        "source_ids": [
+          "cssf_17670",
+          "esma_knowledge_competence"
+        ]
+      },
+      {
+        "claim_area": "accreditation",
+        "claim_text": "CSSF maintains a list of bodies providing external training within the meaning of Circular 17/670.",
+        "status": "verified",
+        "notes": "The CSSF publishes the list and the public MiFID II / PRIIPs page points to it.",
+        "source_ids": [
+          "cssf_training_list",
+          "cssf_mifid_page"
+        ]
+      },
+      {
+        "claim_area": "accreditation",
+        "claim_text": "House of Training has a CSSF-accredited MiFID II certification path.",
+        "status": "verified",
+        "notes": "House of Training publicly states that its MiFID II certification programme has received CSSF accreditation.",
+        "source_ids": [
+          "houseoftraining_mifid_cert",
+          "houseoftraining_mifid_blog"
+        ]
+      },
+      {
+        "claim_area": "mandate",
+        "claim_text": "CSSF Circular 17/670 mandates 60h training.",
+        "status": "contradicted",
+        "notes": "Public House of Training materials show a 64-hour one-stop route without optional e-learning or 76 hours with optional e-learning, and the current certification page uses a modular certification path. The card’s universal 60h claim is materially misleading.",
+        "source_ids": [
+          "cssf_17670",
+          "houseoftraining_mifid_cert",
+          "houseoftraining_mifid_blog"
+        ]
+      },
+      {
+        "claim_area": "subsidy",
+        "claim_text": "INFPC 15-35% applies to this product.",
+        "status": "contradicted",
+        "notes": "Guichet says co-funding does not apply to mandatory continuing training legally required to practise a regulated profession, while House of Training says its MiFID II training can be eligible for the co-financing law. The product-level claim is therefore conflicted and should not be treated as settled.",
+        "source_ids": [
+          "guichet_cvt",
+          "houseoftraining_mifid_cert"
+        ]
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "House of Training is FR/EN only.",
+        "status": "verified",
+        "notes": "The reviewed House of Training MiFID II certification page offers English and French delivery.",
+        "source_ids": [
+          "houseoftraining_mifid_cert"
+        ]
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "No DE/PT/IT providers exist.",
+        "status": "unverified",
+        "notes": "The public sources reviewed do not establish an exhaustive market census across Luxembourg or neighbouring markets.",
+        "source_ids": []
+      },
+      {
+        "claim_area": "deadline",
+        "claim_text": "CSSF deadline June 30, 2026.",
+        "status": "unverified",
+        "notes": "No official CSSF deadline matching this claim was found in the reviewed sources.",
+        "source_ids": [
+          "houseoftraining_mifid_cert"
+        ]
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "All financial sector employees providing investment services (73K in Luxembourg).",
+        "status": "unverified",
+        "notes": "No primary source reviewed here confirmed the 73K count.",
+        "source_ids": []
+      }
+    ],
+    "internal_claims_unverified": [
+      {
+        "claim_area": "accreditation",
+        "claim_text": "This proposed product can issue a CSSF-accredited completion certificate.",
+        "reason_unverified": "The reviewed sources confirm an incumbent accredited route, not accreditation for this new product."
+      },
+      {
+        "claim_area": "deadline",
+        "claim_text": "CSSF deadline June 30, 2026.",
+        "reason_unverified": "No public source reviewed confirms this deadline."
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "No DE/PT/IT providers.",
+        "reason_unverified": "The claim would require an exhaustive market review that was not established by the sources reviewed."
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "73K target audience count.",
+        "reason_unverified": "No primary source confirmed the exact figure."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "The product can be delivered as a new independent certified route without partner/accreditation work.",
+        "reason_unverified": "The public evidence points the opposite way: a formal route is already controlled by the CSSF-listed accredited ecosystem."
+      }
+    ]
+  },
+  "external_research": {
+    "regulator_entities": [
+      {
+        "name": "Commission de Surveillance du Secteur Financier (CSSF)",
+        "type": "regulator",
+        "relevance": "Publishes Circular 17/670 and maintains the list of bodies providing external training.",
+        "source_ids": [
+          "cssf_17670",
+          "cssf_training_list",
+          "cssf_mifid_page"
+        ]
+      },
+      {
+        "name": "European Securities and Markets Authority (ESMA)",
+        "type": "regulator",
+        "relevance": "Issued the knowledge-and-competence guidelines that underpin the CSSF circular.",
+        "source_ids": [
+          "esma_knowledge_competence",
+          "esma_press_release"
+        ]
+      }
+    ],
+    "framework_entities": [
+      {
+        "name": "Circular CSSF 17/670",
+        "type": "circular",
+        "relevance": "Defines external training criteria for MiFID II knowledge and competence.",
+        "source_ids": [
+          "cssf_17670"
+        ]
+      },
+      {
+        "name": "MiFID II / Directive 2014/65/EU",
+        "type": "directive",
+        "relevance": "The broader EU investment-services framework that underlies the training regime.",
+        "source_ids": [
+          "esma_knowledge_competence",
+          "esma_press_release"
+        ]
+      }
+    ],
+    "funding_bodies": [
+      {
+        "name": "INFPC / Guichet.lu",
+        "type": "training_fund",
+        "relevance": "Relevant because the card claims company training co-funding and the public rules are conflicted for regulated training.",
+        "source_ids": [
+          "guichet_cvt"
+        ]
+      }
+    ],
+    "approval_entities": [
+      {
+        "name": "CSSF list of bodies providing external training within the meaning of Circular 17/670",
+        "type": "listing_body",
+        "relevance": "This is the public route an external provider must understand before making accreditation-style claims.",
+        "source_ids": [
+          "cssf_training_list"
+        ]
+      },
+      {
+        "name": "House of Training MiFID II Certification route",
+        "type": "accepted_provider_route",
+        "relevance": "Public incumbent route that shows what a recognised path currently looks like.",
+        "source_ids": [
+          "houseoftraining_mifid_cert",
+          "houseoftraining_mifid_blog"
+        ]
+      }
+    ],
+    "regulatory_requirements": [
+      {
+        "requirement": "Knowledge-and-competence criteria apply to staff providing investment information or advice under MiFID II.",
+        "applies_to": "Investment-information and investment-advice staff under CSSF prudential supervision",
+        "jurisdiction": "Luxembourg / EU MiFID II framework",
+        "status": "confirmed",
+        "source_ids": [
+          "cssf_17670",
+          "esma_knowledge_competence"
+        ]
+      },
+      {
+        "requirement": "External training bodies can be registered/listed by CSSF for the Circular 17/670 route.",
+        "applies_to": "Bodies proposing external professional training",
+        "jurisdiction": "Luxembourg",
+        "status": "confirmed",
+        "source_ids": [
+          "cssf_training_list"
+        ]
+      }
+    ],
+    "subsidies_or_funding": [
+      {
+        "name": "Luxembourg company training co-funding",
+        "jurisdiction": "Luxembourg",
+        "relevance": "unclear",
+        "eligibility_notes": "Guichet excludes mandatory continuing training for regulated professions, while House of Training publicly says its MiFID II route can be eligible for the co-financing law. The conflict remains unresolved for this new product.",
+        "source_ids": [
+          "guichet_cvt",
+          "houseoftraining_mifid_cert"
+        ]
+      }
+    ],
+    "competitors_or_substitutes": [
+      {
+        "name": "House of Training - MiFID II Certification",
+        "type": "direct",
+        "notes": "CSSF-accredited incumbent route with module-based training and exam path.",
+        "source_ids": [
+          "houseoftraining_mifid_cert",
+          "houseoftraining_mifid_blog"
+        ]
+      },
+      {
+        "name": "House of Training - MiFID II - Framework Overview",
+        "type": "direct",
+        "notes": "Public MiFID II overview course in English and French.",
+        "source_ids": [
+          "houseoftraining_mifid_overview_en",
+          "houseoftraining_mifid_overview_fr"
+        ]
+      },
+      {
+        "name": "House of Training - MiFID II - Risk, Compliance, Regulations",
+        "type": "substitute",
+        "notes": "Another public Luxembourg route covering compliance and regulation modules.",
+        "source_ids": [
+          "houseoftraining_mifid_risk"
+        ]
+      }
+    ]
+  },
+  "dashboard_enrichment": {
+    "legal_claim_severity": {
+      "value": 4,
+      "reason": "The product uses accredited, recognised and compliance-sensitive wording in a regulated finance context.",
+      "confidence": 0.96
+    },
+    "authority_needed_for_delivery": {
+      "value": 4,
+      "reason": "A credible delivery in the intended form needs a formal route, listing or accredited partner ecosystem.",
+      "confidence": 0.97
+    },
+    "authority_needed_for_claims": {
+      "value": 4,
+      "reason": "Claims about CSSF accreditation or acceptance depend on formal route control, not just content quality.",
+      "confidence": 0.98
+    },
+    "proof_stack": [
+      {
+        "value": "regulator_listing_or_partner_route",
+        "reason": "The product needs a recognised route before the strongest claims can be used.",
+        "confidence": 0.98
+      },
+      {
+        "value": "audit_defensibility",
+        "reason": "Compliance buyers will care whether the training trail can survive scrutiny.",
+        "confidence": 0.91
+      },
+      {
+        "value": "buyer_acceptance",
+        "reason": "The market must still buy the multilingual proposition even if the route exists.",
+        "confidence": 0.79
+      }
+    ],
+    "proof_burden": {
+      "value": 4,
+      "reason": "This product depends on regulated acceptance and formal route credibility, which makes proof burden very high.",
+      "confidence": 0.97
+    },
+    "dependency_types": [
+      {
+        "value": "accreditation",
+        "reason": "A formal accredited or listed route is central to the value proposition.",
+        "confidence": 0.98
+      },
+      {
+        "value": "regulator_acceptance",
+        "reason": "The strongest claims depend on how CSSF treats the route.",
+        "confidence": 0.98
+      },
+      {
+        "value": "expert_partner",
+        "reason": "A credible external finance expert or partner is effectively necessary.",
+        "confidence": 0.88
+      },
+      {
+        "value": "funding_eligibility",
+        "reason": "The subsidy angle is part of the positioning and must be validated carefully.",
+        "confidence": 0.91
+      }
+    ],
+    "scope_variance_risk": {
+      "value": "low",
+      "reason": "The current scope is very specific: Luxembourg MiFID II training for in-scope financial staff.",
+      "confidence": 0.87
+    },
+    "expansion_variance_risk": {
+      "value": "medium",
+      "reason": "Other countries will use similar frameworks but different approval structures and provider routes.",
+      "confidence": 0.8
+    },
+    "subsidy_exists": {
+      "value": "yes",
+      "reason": "Company training co-funding exists in Luxembourg.",
+      "confidence": 0.94
+    },
+    "subsidy_eligibility_status": {
+      "value": "conflicted",
+      "reason": "Official guidance and incumbent provider wording conflict on whether this category of training is co-financing eligible.",
+      "confidence": 0.95
+    },
+    "subsidy_conflict_flag": {
+      "value": true,
+      "reason": "The public subsidy story is not clean and should not be presented as settled.",
+      "confidence": 0.97
+    },
+    "market_regulatory_context": {
+      "value": "strongly_regulated",
+      "reason": "This sits directly inside regulated financial-services knowledge and competence rules.",
+      "confidence": 0.99
+    }
+  },
+  "risk_map": {
+    "claim_language_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The card uses accreditation, recognition and mandatory language that can easily outrun the public evidence.",
+      "source_ids": [
+        "cssf_17670",
+        "houseoftraining_mifid_cert",
+        "guichet_cvt"
+      ]
+    },
+    "authority_dependency_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "A formal CSSF route is central to the product's credibility.",
+      "source_ids": [
+        "cssf_training_list",
+        "houseoftraining_mifid_cert"
+      ]
+    },
+    "competitive_gap_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "A CSSF-accredited incumbent route already exists, so multilingual differentiation alone is insufficient.",
+      "source_ids": [
+        "houseoftraining_mifid_cert",
+        "houseoftraining_mifid_overview_en",
+        "houseoftraining_mifid_risk"
+      ]
+    },
+    "numeric_claim_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The 60h mandate and 73K audience claims are not supported as stated.",
+      "source_ids": [
+        "houseoftraining_mifid_blog",
+        "cssf_17670"
+      ]
+    },
+    "subsidy_conflict_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "Official and provider wording conflict on training-aid eligibility for this category.",
+      "source_ids": [
+        "guichet_cvt",
+        "houseoftraining_mifid_cert"
+      ]
+    },
+    "positioning_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The product may be a new business line requiring route-orchestration rather than a simple training offer.",
+      "source_ids": [
+        "cssf_training_list",
+        "houseoftraining_mifid_cert"
+      ]
+    }
+  },
+  "claim_conflicts": [
+    {
+      "claim_area": "mandate",
+      "claim_text": "CSSF Circular 17/670 mandates 60h training.",
+      "conflict_type": "external",
+      "severity": "high",
+      "what_is_wrong": "The public materials show a modular accredited route with 64h or 76h in one House of Training description and a separate certification path on the current page. The card's universal 60h wording is misleading.",
+      "source_ids": [
+        "cssf_17670",
+        "houseoftraining_mifid_cert",
+        "houseoftraining_mifid_blog"
+      ]
+    },
+    {
+      "claim_area": "subsidy",
+      "claim_text": "INFPC 15-35% applies to this product.",
+      "conflict_type": "external",
+      "severity": "high",
+      "what_is_wrong": "Guichet excludes mandatory regulated-profession training, while House of Training says its MiFID II route can be eligible. The public wording conflicts and does not support a clean claim for this new product.",
+      "source_ids": [
+        "guichet_cvt",
+        "houseoftraining_mifid_cert"
+      ]
+    },
+    {
+      "claim_area": "accreditation",
+      "claim_text": "Deliverable: CSSF-accredited completion certificate.",
+      "conflict_type": "external",
+      "severity": "high",
+      "what_is_wrong": "The reviewed sources confirm an incumbent accredited route, not accreditation for this proposed product.",
+      "source_ids": [
+        "houseoftraining_mifid_cert",
+        "houseoftraining_mifid_blog"
+      ]
+    },
+    {
+      "claim_area": "deadline",
+      "claim_text": "CSSF deadline June 30, 2026.",
+      "conflict_type": "ambiguity",
+      "severity": "medium",
+      "what_is_wrong": "No official CSSF deadline matching this statement was found; an exam date is not the same as a regulatory deadline.",
+      "source_ids": [
+        "houseoftraining_mifid_cert"
+      ]
+    }
+  ],
+  "recommended_manual_review": [
+    {
+      "field": "route-strategy",
+      "reason": "Decide whether the business will pursue its own CSSF route, use a partner route or remain a non-accredited training reseller."
+    },
+    {
+      "field": "subsidy-copy",
+      "reason": "Remove any subsidy copy until eligibility is resolved at product level."
+    },
+    {
+      "field": "multilingual-gap",
+      "reason": "Re-test whether language coverage is truly a differentiator after accounting for the incumbent route."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "cssf_17670",
+      "title": "Circular CSSF 17/670",
+      "publisher": "CSSF",
+      "url": "https://www.cssf.lu/en/Document/circular-cssf-17-670/",
+      "source_type": "regulator",
+      "reliability": "high"
+    },
+    {
+      "source_id": "cssf_training_list",
+      "title": "List of bodies providing external training within the meaning of Circular CSSF 17/670",
+      "publisher": "CSSF",
+      "url": "https://www.cssf.lu/en/Document/list-of-bodies-providing-external-training-within-the-meaning-of-circular-cssf-17-670/",
+      "source_type": "regulator",
+      "reliability": "high"
+    },
+    {
+      "source_id": "cssf_mifid_page",
+      "title": "MiFID II/PRIIPs",
+      "publisher": "CSSF",
+      "url": "https://www.cssf.lu/en/mifid-ii-priips/",
+      "source_type": "regulator",
+      "reliability": "high"
+    },
+    {
+      "source_id": "esma_knowledge_competence",
+      "title": "Guidelines for the assessment of knowledge and competence",
+      "publisher": "ESMA",
+      "url": "https://www.esma.europa.eu/document/guidelines-assessment-knowledge-and-competence",
+      "source_type": "regulator",
+      "reliability": "high"
+    },
+    {
+      "source_id": "esma_press_release",
+      "title": "ESMA publishes Final Report on MiFID II Guidelines on assessment and knowledge of competence",
+      "publisher": "ESMA",
+      "url": "https://www.esma.europa.eu/lt/press-news/esma-news/esma-publishes-final-report-mifid-ii-guidelines-assessment-and-knowledge",
+      "source_type": "regulator",
+      "reliability": "high"
+    },
+    {
+      "source_id": "houseoftraining_mifid_cert",
+      "title": "MiFID II Certification | CSSF accredited programme",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/mifid-ii-certification-en-fr-3499",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "houseoftraining_mifid_blog",
+      "title": "MiFID II Certification",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/blog/actualites-1/mifid-ii-certification-79",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "houseoftraining_mifid_overview_en",
+      "title": "MiFID II - Overview of International Financial Markets (EN)",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/mifid-ii-overview-of-international-financial-markets-en-3503",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "houseoftraining_mifid_overview_fr",
+      "title": "MiFID II - Overview of International Financial Markets (FR)",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/mifid-ii-overview-of-international-financial-markets-fr-3512",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "houseoftraining_mifid_risk",
+      "title": "MiFID II - Risk, Compliance, Regulations (EN)",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/mifid-ii-risk-compliance-regulations-en-3509",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "guichet_cvt",
+      "title": "Financial aid for in-company continuing vocational training",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/financement-aides/aides-emploi-recrutement-formation/formation-professionnelle-continue/fpc-entreprise.html",
+      "source_type": "government",
+      "reliability": "high"
+    }
+  ],
+  "quality_signals": {
+    "source_coverage_score": 0.9,
+    "unverified_claims_count": 5,
+    "field_confidence": {
+      "primary_buyer_type": 0.94,
+      "budget_owner": 0.91,
+      "legal_claim_severity": 0.96,
+      "authority_needed_for_delivery": 0.97,
+      "authority_needed_for_claims": 0.98,
+      "proof_burden": 0.97,
+      "scope_variance_risk": 0.87,
+      "expansion_variance_risk": 0.8,
+      "subsidy_exists": 0.94,
+      "subsidy_eligibility_status": 0.95,
+      "market_regulatory_context": 0.99
+    }
+  }
+}

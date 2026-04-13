@@ -1,0 +1,535 @@
+{
+  "product_code": "B2",
+  "product_title": "Medical French for Nurses",
+  "analysis_timestamp": "2026-04-13T09:15:00+04:00",
+  "product_summary": {
+    "one_sentence_summary": "Medical French training concept for nurses targeting French-speaking healthcare systems where language proof and recognition rules differ by country.",
+    "target_user": "International nurses and staffing partners targeting France, Belgium and Switzerland.",
+    "core_pain": "Nurses need job-ready medical French and still have to clear country-specific recognition and language-proof requirements.",
+    "claimed_outcome": "Better medical French and a smoother path toward employment in French-speaking healthcare systems.",
+    "market_scope": {
+      "primary_market": "France, Belgium and Switzerland",
+      "country_scope": [
+        "France",
+        "Belgium",
+        "Switzerland"
+      ],
+      "profession_scope": [
+        "nurses",
+        "healthcare workers"
+      ]
+    }
+  },
+  "buyer_analysis": {
+    "primary_buyer_type": {
+      "value": "mixed",
+      "reason": "The offer can be sold directly to nurses or through staffing/employer channels, so the motion is hybrid.",
+      "confidence": 0.77
+    },
+    "secondary_buyer_types": [
+      {
+        "value": "staffing_agency",
+        "reason": "Recruitment partners may want language preparation as part of a placement pipeline.",
+        "confidence": 0.71
+      },
+      {
+        "value": "employer",
+        "reason": "Hospitals and care groups can buy language preparation to improve hiring readiness.",
+        "confidence": 0.67
+      },
+      {
+        "value": "individual",
+        "reason": "Nurses themselves are still the end users and may buy the course directly.",
+        "confidence": 0.69
+      }
+    ],
+    "budget_owner": {
+      "value": "mixed",
+      "reason": "Budget may sit with the learner, an agency or the hiring employer depending on the go-to-market route.",
+      "confidence": 0.71
+    },
+    "buyer_influencers": [
+      {
+        "value": "legal",
+        "reason": "Recognition, visa and language-proof rules shape whether the course is useful.",
+        "confidence": 0.88
+      },
+      {
+        "value": "hr_ld",
+        "reason": "Recruitment and onboarding teams care about route readiness.",
+        "confidence": 0.69
+      },
+      {
+        "value": "team_manager",
+        "reason": "Clinical managers care whether the nurse can function in a French-speaking workplace.",
+        "confidence": 0.68
+      }
+    ]
+  },
+  "claim_extraction": {
+    "externally_checkable_claims": [
+      {
+        "claim_area": "recognition",
+        "claim_text": "France requires recognition or authorization to exercise for foreign-trained paramedical professions.",
+        "status": "verified",
+        "notes": "Service-Public states that regulated paramedical professions require the corresponding diploma or authorization to exercise in France.",
+        "source_ids": [
+          "france_paramedical",
+          "france_diploma_recognition"
+        ]
+      },
+      {
+        "claim_area": "recognition",
+        "claim_text": "Belgium requires foreign-trained healthcare professionals to obtain a visa and prove sufficient language knowledge; B2 applies to nurses at bachelor's level.",
+        "status": "verified",
+        "notes": "Belgian FPS Public Health states that nurses need a visa and that B2 is the required language level for the relevant bachelor's-level healthcare professions.",
+        "source_ids": [
+          "belgium_visa_lang",
+          "belgium_irsg"
+        ]
+      },
+      {
+        "claim_area": "recognition",
+        "claim_text": "Switzerland requires foreign medical and psychology qualifications to be submitted in a national language.",
+        "status": "verified",
+        "notes": "The Swiss FOPH states that applications must be submitted in German, French or Italian.",
+        "source_ids": [
+          "swiss_foph"
+        ]
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "No dedicated online Medical French provider identified.",
+        "status": "unverified",
+        "notes": "The reviewed public sources show strong substitutes and general language providers, but not an exhaustive market census of online medical French offers.",
+        "source_ids": [
+          "prolingua_tailor_made",
+          "inlingua_company_courses"
+        ]
+      }
+    ],
+    "internal_claims_unverified": [
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "France needs 500K+ healthcare workers.",
+        "reason_unverified": "No primary official source reviewed confirmed this figure in the context of this product."
+      },
+      {
+        "claim_area": "scope_fit",
+        "claim_text": "The same model can be applied to France, Belgium and Switzerland without material redesign.",
+        "reason_unverified": "The public evidence shows the countries have different recognition and language rules."
+      },
+      {
+        "claim_area": "recognition",
+        "claim_text": "The product's certificate will be accepted for practice or recognition.",
+        "reason_unverified": "Acceptance depends on the destination authority, not on the provider's course label."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "The market lacks a dedicated online Medical French alternative.",
+        "reason_unverified": "The reviewed sources do not provide an exhaustive market census."
+      }
+    ]
+  },
+  "external_research": {
+    "regulator_entities": [
+      {
+        "name": "Centre ENIC-NARIC France",
+        "type": "other",
+        "relevance": "Provides comparability recognition for foreign diplomas in France.",
+        "source_ids": [
+          "france_diploma_recognition"
+        ]
+      },
+      {
+        "name": "FPS Public Health (Belgium)",
+        "type": "regulator",
+        "relevance": "Issues visa and language-proof guidance for healthcare professions in Belgium.",
+        "source_ids": [
+          "belgium_visa_lang",
+          "belgium_irsg"
+        ]
+      },
+      {
+        "name": "Federal Office of Public Health (FOPH) / MEBEKO",
+        "type": "regulator",
+        "relevance": "Evaluates recognition of foreign medical diplomas in Switzerland.",
+        "source_ids": [
+          "swiss_foph"
+        ]
+      }
+    ],
+    "framework_entities": [
+      {
+        "name": "Directive 2005/36/EC",
+        "type": "directive",
+        "relevance": "EU professional-qualification recognition framework relevant to cross-border nursing.",
+        "source_ids": [
+          "eu_professions"
+        ]
+      }
+    ],
+    "funding_bodies": [],
+    "approval_entities": [],
+    "regulatory_requirements": [
+      {
+        "requirement": "Foreign-trained paramedical professionals need recognition or authorization to exercise in France.",
+        "applies_to": "Foreign-trained nurses and related regulated professions",
+        "jurisdiction": "France",
+        "status": "confirmed",
+        "source_ids": [
+          "france_paramedical",
+          "france_diploma_recognition"
+        ]
+      },
+      {
+        "requirement": "Foreign-trained healthcare professionals need a visa to practise in Belgium, and B2 language proof applies to nurses at bachelor's level.",
+        "applies_to": "Foreign-trained nurses in Belgium",
+        "jurisdiction": "Belgium",
+        "status": "confirmed",
+        "source_ids": [
+          "belgium_visa_lang",
+          "belgium_irsg"
+        ]
+      },
+      {
+        "requirement": "Foreign medical diplomas in Switzerland must be submitted in German, French or Italian.",
+        "applies_to": "Applicants for recognition in Switzerland",
+        "jurisdiction": "Switzerland",
+        "status": "confirmed",
+        "source_ids": [
+          "swiss_foph"
+        ]
+      }
+    ],
+    "subsidies_or_funding": [],
+    "competitors_or_substitutes": [
+      {
+        "name": "Prolingua",
+        "type": "direct",
+        "notes": "Offers tailor-made company language courses and specialist language options that can substitute for some of this need.",
+        "source_ids": [
+          "prolingua_tailor_made",
+          "prolingua_specialist_language"
+        ]
+      },
+      {
+        "name": "inlingua Luxembourg",
+        "type": "indirect",
+        "notes": "Offers French courses for adults and companies with online and in-person delivery.",
+        "source_ids": [
+          "inlingua_company_courses",
+          "inlingua_adults"
+        ]
+      }
+    ]
+  },
+  "dashboard_enrichment": {
+    "legal_claim_severity": {
+      "value": 4,
+      "reason": "The offer is directly adjacent to regulated-profession recognition and accepted language-proof claims.",
+      "confidence": 0.94
+    },
+    "authority_needed_for_delivery": {
+      "value": 3,
+      "reason": "Credible delivery requires medical-language and route expertise beyond generic French teaching.",
+      "confidence": 0.86
+    },
+    "authority_needed_for_claims": {
+      "value": 4,
+      "reason": "Claims about recognition, visa and accepted proof depend on external authorities, not the provider.",
+      "confidence": 0.97
+    },
+    "proof_stack": [
+      {
+        "value": "accepted_language_proof",
+        "reason": "The product needs to show that it moves candidates toward accepted language proof, not just classroom progress.",
+        "confidence": 0.96
+      },
+      {
+        "value": "regulator_listing_or_partner_route",
+        "reason": "A route to acceptance by employers or authorities matters more than a generic participation certificate.",
+        "confidence": 0.9
+      },
+      {
+        "value": "placement_outcome",
+        "reason": "The end value is working in a French-speaking healthcare system.",
+        "confidence": 0.94
+      },
+      {
+        "value": "buyer_acceptance",
+        "reason": "Buyers need to prefer this niche route over generic French training or employer-led alternatives.",
+        "confidence": 0.82
+      }
+    ],
+    "proof_burden": {
+      "value": 4,
+      "reason": "Route acceptance and placement outcomes are the real proof standard here.",
+      "confidence": 0.95
+    },
+    "dependency_types": [
+      {
+        "value": "licensing_path",
+        "reason": "Recognition and exercise authorization are part of the offer's value chain.",
+        "confidence": 0.97
+      },
+      {
+        "value": "regulator_acceptance",
+        "reason": "Destination-country authorities decide what counts as accepted proof.",
+        "confidence": 0.97
+      },
+      {
+        "value": "staffing_partner",
+        "reason": "Recruitment partners are likely needed to make the pipeline commercially useful.",
+        "confidence": 0.84
+      },
+      {
+        "value": "expert_partner",
+        "reason": "Medical French plus recognition guidance benefits from specialist healthcare and migration input.",
+        "confidence": 0.87
+      },
+      {
+        "value": "country_localization",
+        "reason": "France, Belgium and Switzerland differ materially in rules and accepted proof.",
+        "confidence": 0.96
+      },
+      {
+        "value": "teacher_supply",
+        "reason": "Specialist medical French requires teachers who can handle healthcare vocabulary and route context.",
+        "confidence": 0.74
+      }
+    ],
+    "scope_variance_risk": {
+      "value": "high",
+      "reason": "The current scope spans three jurisdictions with materially different recognition and language rules.",
+      "confidence": 0.95
+    },
+    "expansion_variance_risk": {
+      "value": "high",
+      "reason": "Expanding to new countries or professions would add more route complexity and proof differences.",
+      "confidence": 0.97
+    },
+    "subsidy_exists": {
+      "value": "unclear",
+      "reason": "No direct subsidy route was confirmed for this specific product.",
+      "confidence": 0.59
+    },
+    "subsidy_eligibility_status": {
+      "value": "unclear",
+      "reason": "Public support may exist in some systems, but this course structure is not linked to a confirmed subsidy route.",
+      "confidence": 0.57
+    },
+    "subsidy_conflict_flag": {
+      "value": false,
+      "reason": "No direct subsidy claim was confirmed, so no subsidy conflict is established.",
+      "confidence": 0.66
+    },
+    "market_regulatory_context": {
+      "value": "strongly_regulated",
+      "reason": "The product sits directly beside healthcare practice, recognition and visa rules.",
+      "confidence": 0.98
+    }
+  },
+  "risk_map": {
+    "claim_language_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "Recognition, visa and accepted-proof wording can easily overstate what a course itself can deliver.",
+      "source_ids": [
+        "france_paramedical",
+        "belgium_visa_lang",
+        "swiss_foph"
+      ]
+    },
+    "authority_dependency_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The product depends on decisions made by destination-country authorities.",
+      "source_ids": [
+        "france_paramedical",
+        "belgium_visa_lang",
+        "swiss_foph"
+      ]
+    },
+    "competitive_gap_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "Generic and tailored French substitutes already exist, so the market is not empty.",
+      "source_ids": [
+        "prolingua_tailor_made",
+        "inlingua_company_courses"
+      ]
+    },
+    "numeric_claim_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The card's France healthcare-worker count is not confirmed by a primary source.",
+      "source_ids": []
+    },
+    "subsidy_conflict_risk": {
+      "status": "absent",
+      "severity": "low",
+      "reason": "No direct subsidy claim was confirmed for this product.",
+      "source_ids": []
+    },
+    "positioning_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The offer can easily become a generic French course unless route-critical outcomes are made explicit.",
+      "source_ids": [
+        "prolingua_tailor_made",
+        "inlingua_adults"
+      ]
+    }
+  },
+  "claim_conflicts": [
+    {
+      "claim_area": "scope_fit",
+      "claim_text": "The same model can be applied to France, Belgium and Switzerland without material redesign.",
+      "conflict_type": "ambiguity",
+      "severity": "high",
+      "what_is_wrong": "The public sources show materially different recognition and language requirements in each country, so a single model is not obviously portable.",
+      "source_ids": [
+        "france_paramedical",
+        "belgium_visa_lang",
+        "swiss_foph"
+      ]
+    },
+    {
+      "claim_area": "recognition",
+      "claim_text": "The product's certificate will be accepted for practice or recognition.",
+      "conflict_type": "ambiguity",
+      "severity": "high",
+      "what_is_wrong": "Acceptance depends on the destination authority; provider-issued certificates are not automatically valid.",
+      "source_ids": [
+        "france_paramedical",
+        "belgium_visa_lang",
+        "swiss_foph"
+      ]
+    },
+    {
+      "claim_area": "competitor_gap",
+      "claim_text": "No dedicated online Medical French provider identified.",
+      "conflict_type": "ambiguity",
+      "severity": "medium",
+      "what_is_wrong": "The review found substitutes, but not an exhaustive market census, so the absence claim is not proven.",
+      "source_ids": [
+        "prolingua_tailor_made",
+        "inlingua_company_courses"
+      ]
+    }
+  ],
+  "recommended_manual_review": [
+    {
+      "field": "route_design",
+      "reason": "Split the offer by destination country if you want credible claims."
+    },
+    {
+      "field": "certificate_claim",
+      "reason": "Do not imply that a course certificate is accepted by destination authorities unless that is validated."
+    },
+    {
+      "field": "market_focus",
+      "reason": "Choose whether the first wedge is France, Belgium or Switzerland instead of all three at once."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "france_paramedical",
+      "title": "Peut-on exercer une profession paramédicale en France avec un diplôme étranger ?",
+      "publisher": "Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F3141",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "france_diploma_recognition",
+      "title": "Faire reconnaître en France un diplôme obtenu à l'étranger",
+      "publisher": "Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F463",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "belgium_visa_lang",
+      "title": "Want to apply for a visa with a foreign diploma?",
+      "publisher": "FPS Public Health",
+      "url": "https://www.health.belgium.be/en/node/2180",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "belgium_irsg",
+      "title": "Infirmier responsable des soins généraux (IRSG)",
+      "publisher": "SPF Santé publique",
+      "url": "https://www.health.belgium.be/fr/professionnels/professionnels-sante/sante-humaine/professions-sante/acces-aux-professions-soins-sante/praticiens-lart-infirmier/infirmier-responsable-soins-generaux-irsg",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "swiss_foph",
+      "title": "Submit applications for foreign qualifications in the medical and psychology professions",
+      "publisher": "Swiss FOPH",
+      "url": "https://www.bag.admin.ch/en/submit-applications-for-foreign-qualifications-in-the-medical-and-psychology-professions",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "eu_professions",
+      "title": "Regulated professions",
+      "publisher": "Your Europe",
+      "url": "https://europa.eu/youreurope/citizens/work/professional-qualifications/regulated-professions/",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "prolingua_tailor_made",
+      "title": "Tailor-made courses in your company, at Prolingua's premises or at a distance",
+      "publisher": "Prolingua",
+      "url": "https://prolingua.lu/en/courses_25?category=individual",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "prolingua_specialist_language",
+      "title": "Tailor-made courses / Specialist language",
+      "publisher": "Prolingua",
+      "url": "https://prolingua.lu/en/courses_25/specialist-language_8/english_5",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "inlingua_company_courses",
+      "title": "Cours de langues pros & particuliers Luxembourg",
+      "publisher": "inlingua Luxembourg",
+      "url": "https://www.inlingua.lu/",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "inlingua_adults",
+      "title": "Cours de langues pour adultes",
+      "publisher": "inlingua Luxembourg",
+      "url": "https://www.inlingua.lu/adultes",
+      "source_type": "company",
+      "reliability": "medium"
+    }
+  ],
+  "quality_signals": {
+    "source_coverage_score": 0.84,
+    "unverified_claims_count": 4,
+    "field_confidence": {
+      "primary_buyer_type": 0.77,
+      "budget_owner": 0.71,
+      "legal_claim_severity": 0.94,
+      "authority_needed_for_delivery": 0.86,
+      "authority_needed_for_claims": 0.97,
+      "proof_burden": 0.95,
+      "scope_variance_risk": 0.95,
+      "expansion_variance_risk": 0.97,
+      "subsidy_exists": 0.59,
+      "subsidy_eligibility_status": 0.57,
+      "market_regulatory_context": 0.98
+    }
+  }
+}

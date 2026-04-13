@@ -1,0 +1,443 @@
+{
+  "product_code": "L2",
+  "product_title": "L\u00ebtz Care - Medical Luxembourgish",
+  "analysis_timestamp": "2026-04-13T07:30:00+04:00",
+  "product_summary": {
+    "one_sentence_summary": "Medical Luxembourgish training for healthcare employers that want staff to communicate better with Luxembourgish-speaking patients.",
+    "target_user": "Hospitals, clinics, care networks, pharmacies and elderly-care employers in Luxembourg.",
+    "core_pain": "Healthcare staff may be able to work in Luxembourg but still struggle with patient communication and local-language confidence.",
+    "claimed_outcome": "Better patient communication in Luxembourgish and a more confident frontline staff experience.",
+    "market_scope": {
+      "primary_market": "Luxembourg",
+      "country_scope": ["Luxembourg"],
+      "profession_scope": ["nurses", "doctors", "care staff", "pharmacy staff"]
+    }
+  },
+  "buyer_analysis": {
+    "primary_buyer_type": {
+      "value": "employer",
+      "reason": "The product is sold to healthcare organisations rather than directly to individual learners.",
+      "confidence": 0.88
+    },
+    "secondary_buyer_types": [
+      {
+        "value": "hr_ld",
+        "reason": "Healthcare organisations are likely to buy this via HR, training or workforce-development functions.",
+        "confidence": 0.72
+      },
+      {
+        "value": "partner",
+        "reason": "The model may depend on employer-side or care-network partners for distribution.",
+        "confidence": 0.62
+      }
+    ],
+    "budget_owner": {
+      "value": "business_unit",
+      "reason": "Hospitals or care networks are likely to fund it from the operating unit that owns staffing and patient-facing service quality.",
+      "confidence": 0.6
+    },
+    "buyer_influencers": [
+      {
+        "value": "hr_ld",
+        "reason": "HR or learning teams influence training selection and scheduling.",
+        "confidence": 0.73
+      },
+      {
+        "value": "legal",
+        "reason": "Language and patient-safety claims can create compliance and liability questions.",
+        "confidence": 0.66
+      },
+      {
+        "value": "team_manager",
+        "reason": "Ward and care-unit managers care whether staff can actually use the language on shift.",
+        "confidence": 0.79
+      },
+      {
+        "value": "finance",
+        "reason": "Employer training spend and co-funding administration can require finance review.",
+        "confidence": 0.53
+      }
+    ]
+  },
+  "claim_extraction": {
+    "externally_checkable_claims": [
+      {
+        "claim_area": "compliance",
+        "claim_text": "Healthcare professionals in Luxembourg must have the language skills needed to practise, and if their mother tongue is not French, German or Luxembourgish they must provide proof; the minimum French or German level is B2 and an approved examination centre may be required.",
+        "status": "verified",
+        "notes": "Guichet explicitly states the language-skill requirement and the B2 / INLL proof route for healthcare professionals.",
+        "source_ids": ["guichet_healthcare_professions", "guichet_foreign_health_professional", "guichet_medical_practitioners"]
+      },
+      {
+        "claim_area": "funding",
+        "claim_text": "INFPC company training co-financing exists at 15% with a 35% salary-cost increase for some participants.",
+        "status": "partially_verified",
+        "notes": "The funding route exists and the structure is public, but product-level eligibility still depends on the employer profile and final training structure.",
+        "source_ids": ["infpc_cofunding", "lifelong_learning_cofunding"]
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "Only specialized medical Luxembourgish program in Luxembourg; no competitor exists.",
+        "status": "contradicted",
+        "notes": "The absolute claim is not defensible because Luxembourg already has professional Luxembourgish and tailored corporate language providers, plus general Luxembourgish courses. Even if no identical 'medical Luxembourgish' clone was found, the market clearly has substitutes.",
+        "source_ids": ["allingua_home", "allingua_offer", "prolingua_home", "luxlessons_home"]
+      }
+    ],
+    "internal_claims_unverified": [
+      {
+        "claim_area": "scope_fit",
+        "claim_text": "Medical Luxembourgish improves patient safety and satisfaction.",
+        "reason_unverified": "This is a plausible outcome claim, but no provider-specific evidence was reviewed."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "Healthcare staffing shortages make the product urgent because many staff are non-Luxembourgish speakers.",
+        "reason_unverified": "This is a market inference rather than a public fact about this offer."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "Curriculum is complete and piloting is already underway.",
+        "reason_unverified": "This is an internal readiness claim, not a public fact."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "Cross-sell with AI Healthcare at a 15% bundle discount.",
+        "reason_unverified": "This is an internal commercial design choice."
+      }
+    ]
+  },
+  "external_research": {
+    "regulator_entities": [
+      {
+        "name": "Ministry of Health and Social Security",
+        "type": "ministry",
+        "relevance": "The official healthcare-profession language rules sit within health-sector authorisation and recognition procedures.",
+        "source_ids": ["guichet_healthcare_professions", "guichet_foreign_health_professional", "guichet_medical_practitioners"]
+      },
+      {
+        "name": "Institut national des langues Luxembourg (INLL)",
+        "type": "exam_body",
+        "relevance": "INLL is the approved examination centre if B2 proof is needed for healthcare professionals.",
+        "source_ids": ["guichet_healthcare_professions", "guichet_foreign_health_professional", "guichet_medical_practitioners"]
+      }
+    ],
+    "framework_entities": [
+      {
+        "name": "Directive 2005/36/EC on the recognition of professional qualifications",
+        "type": "directive",
+        "relevance": "The healthcare-profession pages refer to recognition and qualification rules derived from the directive.",
+        "source_ids": ["guichet_healthcare_professions", "guichet_foreign_health_professional", "guichet_medical_practitioners"]
+      },
+      {
+        "name": "Regulated healthcare professions framework",
+        "type": "guidance",
+        "relevance": "The product sits inside a regulated-profession context even though it is not itself a licence.",
+        "source_ids": ["guichet_healthcare_professions"]
+      }
+    ],
+    "funding_bodies": [
+      {
+        "name": "INFPC",
+        "type": "training_fund",
+        "relevance": "The product claims company training co-financing as part of its economics.",
+        "source_ids": ["infpc_cofunding", "lifelong_learning_cofunding"]
+      }
+    ],
+    "approval_entities": [
+      {
+        "name": "INLL approved examination centre",
+        "type": "listing_body",
+        "relevance": "If the employer needs formal language proof, INLL is the approved examination centre named by Guichet.",
+        "source_ids": ["guichet_healthcare_professions", "guichet_foreign_health_professional", "guichet_medical_practitioners"]
+      }
+    ],
+    "regulatory_requirements": [
+      {
+        "requirement": "Healthcare professionals must have the language skills needed to practise in Luxembourg; if their mother tongue is not French, German or Luxembourgish, proof is required and the minimum French or German level is B2.",
+        "applies_to": "Healthcare professionals seeking authorisation to practise in Luxembourg",
+        "jurisdiction": "Luxembourg",
+        "status": "confirmed",
+        "source_ids": ["guichet_healthcare_professions", "guichet_foreign_health_professional", "guichet_medical_practitioners"]
+      },
+      {
+        "requirement": "If a practitioner cannot provide alternative proof, a B2 certificate from the approved examination centre is required.",
+        "applies_to": "Healthcare professionals without alternative language proof",
+        "jurisdiction": "Luxembourg",
+        "status": "confirmed",
+        "source_ids": ["guichet_healthcare_professions", "guichet_foreign_health_professional", "guichet_medical_practitioners"]
+      }
+    ],
+    "subsidies_or_funding": [
+      {
+        "name": "Company training co-funding",
+        "jurisdiction": "Luxembourg",
+        "relevance": "possible",
+        "eligibility_notes": "General co-funding exists and the product looks like ordinary company training rather than a mandatory regulated-profession course, but product-level eligibility still needs checking.",
+        "source_ids": ["infpc_cofunding", "lifelong_learning_cofunding"]
+      }
+    ],
+    "competitors_or_substitutes": [
+      {
+        "name": "Allingua corporate Luxembourgish training",
+        "type": "substitute",
+        "notes": "Luxembourg-based corporate language training that covers professional realities and offers CEFR-aligned reporting.",
+        "source_ids": ["allingua_home", "allingua_approach"]
+      },
+      {
+        "name": "Prolingua Luxembourgish courses",
+        "type": "substitute",
+        "notes": "Private Luxembourgish language offerings for private and professional needs.",
+        "source_ids": ["prolingua_home"]
+      },
+      {
+        "name": "LuxLessons Luxembourgish course",
+        "type": "substitute",
+        "notes": "A Luxembourgish course focused on citizenship and broader language learning, showing that the market already has adjacent substitutes.",
+        "source_ids": ["luxlessons_home"]
+      }
+    ]
+  },
+  "dashboard_enrichment": {
+    "legal_claim_severity": {
+      "value": 3,
+      "reason": "The offer lives next to a regulated healthcare-profession language requirement, but it does not itself promise formal recognition or licensing.",
+      "confidence": 0.92
+    },
+    "authority_needed_for_delivery": {
+      "value": 3,
+      "reason": "Healthcare language training and patient-facing examples benefit from external SME review because the setting is regulated and safety-sensitive.",
+      "confidence": 0.83
+    },
+    "authority_needed_for_claims": {
+      "value": 3,
+      "reason": "Claims about patient communication and healthcare fit should be reviewed by a healthcare or regulatory SME.",
+      "confidence": 0.84
+    },
+    "proof_stack": [
+      {
+        "value": "buyer_acceptance",
+        "reason": "Hospitals or care networks must decide this is better than general Luxembourgish training.",
+        "confidence": 0.88
+      },
+      {
+        "value": "roi_case_study",
+        "reason": "Employers need evidence that the training improves communication or reduces service friction.",
+        "confidence": 0.73
+      },
+      {
+        "value": "learning_progress",
+        "reason": "The course should show measurable language progression in patient-facing scenarios.",
+        "confidence": 0.79
+      }
+    ],
+    "proof_burden": {
+      "value": 3,
+      "reason": "This is a B2B training product with regulated adjacency and a credibility burden around patient-facing outcomes.",
+      "confidence": 0.87
+    },
+    "dependency_types": [
+      {
+        "value": "expert_partner",
+        "reason": "A healthcare SME is needed to keep patient-facing examples credible.",
+        "confidence": 0.82
+      },
+      {
+        "value": "country_localization",
+        "reason": "The content is highly Luxembourg-specific.",
+        "confidence": 0.94
+      },
+      {
+        "value": "teacher_supply",
+        "reason": "Specialist Luxembourgish instruction requires scarce teaching capacity.",
+        "confidence": 0.76
+      }
+    ],
+    "scope_variance_risk": {
+      "value": "medium",
+      "reason": "Within Luxembourg, different healthcare settings still have different communication needs and language mixes.",
+      "confidence": 0.74
+    },
+    "expansion_variance_risk": {
+      "value": "high",
+      "reason": "Expanding to another country or regulated profession would change the language requirements and the buyer story significantly.",
+      "confidence": 0.92
+    },
+    "subsidy_exists": {
+      "value": "yes",
+      "reason": "Luxembourg company training co-funding exists.",
+      "confidence": 0.95
+    },
+    "subsidy_eligibility_status": {
+      "value": "likely_eligible",
+      "reason": "This looks like ordinary employer training rather than a compulsory regulated-profession course, so co-funding is plausible.",
+      "confidence": 0.66
+    },
+    "subsidy_conflict_flag": {
+      "value": false,
+      "reason": "No direct conflict was found between the funding scheme and the product category.",
+      "confidence": 0.83
+    },
+    "market_regulatory_context": {
+      "value": "strongly_regulated",
+      "reason": "The product is tied to a healthcare-profession language requirement and patient-facing work.",
+      "confidence": 0.95
+    }
+  },
+  "risk_map": {
+    "claim_language_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The phrase medical Luxembourgish can imply a formal route that the official healthcare language rules do not actually require.",
+      "source_ids": ["guichet_healthcare_professions", "guichet_foreign_health_professional", "guichet_medical_practitioners"]
+    },
+    "authority_dependency_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "Healthcare is regulated and the product must avoid sounding like an official language-proof substitute.",
+      "source_ids": ["guichet_healthcare_professions", "guichet_foreign_health_professional"]
+    },
+    "competitive_gap_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "There are already Luxembourgish and corporate-language substitutes, so the market is not empty.",
+      "source_ids": ["allingua_home", "allingua_approach", "prolingua_home", "luxlessons_home"]
+    },
+    "numeric_claim_risk": {
+      "status": "absent",
+      "severity": "low",
+      "reason": "The main claims here are regulatory and positioning claims rather than unsupported numeric anchors.",
+      "source_ids": ["infpc_cofunding", "guichet_healthcare_professions"]
+    },
+    "subsidy_conflict_risk": {
+      "status": "absent",
+      "severity": "low",
+      "reason": "A general company-training funding route exists and no direct exclusion was identified for this product category.",
+      "source_ids": ["infpc_cofunding", "lifelong_learning_cofunding"]
+    },
+    "positioning_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The offer can easily drift into a compliance-like promise even though the official language route is broader and not medical-Luxembourgish-specific.",
+      "source_ids": ["guichet_healthcare_professions", "allingua_approach", "prolingua_home"]
+    }
+  },
+  "claim_conflicts": [
+    {
+      "claim_area": "competitor_gap",
+      "claim_text": "Only specialized medical Luxembourgish program in Luxembourg; no competitor exists.",
+      "conflict_type": "external",
+      "severity": "high",
+      "what_is_wrong": "The absolute uniqueness claim is not defensible because there are already Luxembourgish training substitutes and corporate language providers in the market.",
+      "source_ids": ["allingua_home", "allingua_approach", "prolingua_home", "luxlessons_home"]
+    },
+    {
+      "claim_area": "scope_fit",
+      "claim_text": "A medical Luxembourgish certificate is the right route for healthcare staff communication in Luxembourg.",
+      "conflict_type": "ambiguity",
+      "severity": "medium",
+      "what_is_wrong": "Official healthcare-profession rules require language skills in general, with B2 French or German proof or an approved exam centre where needed. A medical-Luxembourgish certificate may help operationally, but it is not the official compliance route.",
+      "source_ids": ["guichet_healthcare_professions", "guichet_foreign_health_professional", "guichet_medical_practitioners"]
+    }
+  ],
+  "recommended_manual_review": [
+    {
+      "field": "route-boundary",
+      "reason": "Decide whether this is a patient-communication product, a regulated-profession support product or both."
+    },
+    {
+      "field": "evidence-of-impact",
+      "reason": "If the claim is patient safety or satisfaction, add a real outcome measure before using the language publicly."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "guichet_healthcare_professions",
+      "title": "Regulated healthcare professions",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/creation-developpement/profession/autres-professions-sante-reglementees/profession-sante-reglementees.html",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "guichet_foreign_health_professional",
+      "title": "Declaration of provision of services by a foreign health professional",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/sectoriel/sante/autres-professions-sante-reglementees/declaration-prestations-service-professionnel-sante.html",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "guichet_medical_practitioners",
+      "title": "General and specialist medical practitioners",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/sectoriel/sante/medecins/medecin-generaliste-specialiste.html",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "infpc_cofunding",
+      "title": "Co-funding of company training",
+      "publisher": "INFPC",
+      "url": "https://www.infpc.lu/cofinancement-de-la-formation/en",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "lifelong_learning_cofunding",
+      "title": "Cofunding of training in companies",
+      "publisher": "lifelong-learning.lu",
+      "url": "https://www.lifelong-learning.lu/entreprises/cofinancement/en",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "allingua_home",
+      "title": "Professional language training",
+      "publisher": "Allingua",
+      "url": "https://www.allingua.lu/en/home/",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "allingua_approach",
+      "title": "What is our approach?",
+      "publisher": "Allingua",
+      "url": "https://www.allingua.lu/approche/",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "prolingua_home",
+      "title": "Accueil - Prolingua Language Centre",
+      "publisher": "Prolingua",
+      "url": "https://prolingua.lu/",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "luxlessons_home",
+      "title": "Learn Luxembourgish Online Fast",
+      "publisher": "LuxLessons",
+      "url": "https://www.luxlessons.lu/",
+      "source_type": "company",
+      "reliability": "medium"
+    }
+  ],
+  "quality_signals": {
+    "source_coverage_score": 0.84,
+    "unverified_claims_count": 4,
+    "field_confidence": {
+      "primary_buyer_type": 0.88,
+      "budget_owner": 0.6,
+      "legal_claim_severity": 0.92,
+      "authority_needed_for_delivery": 0.83,
+      "authority_needed_for_claims": 0.84,
+      "proof_burden": 0.87,
+      "scope_variance_risk": 0.74,
+      "expansion_variance_risk": 0.92,
+      "subsidy_exists": 0.95,
+      "subsidy_eligibility_status": 0.66,
+      "market_regulatory_context": 0.95
+    }
+  }
+}

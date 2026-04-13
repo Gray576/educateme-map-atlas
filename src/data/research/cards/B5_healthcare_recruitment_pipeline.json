@@ -1,0 +1,637 @@
+{
+  "product_code": "B5",
+  "product_title": "Healthcare Recruitment Pipeline",
+  "analysis_timestamp": "2026-04-13T00:00:00Z",
+  "product_summary": {
+    "one_sentence_summary": "Cross-border nurse recruitment concept for Belgian and Luxembourg employers that bundles language training, recognition support and post-placement coaching.",
+    "target_user": "Recruitment agencies and hospital employers hiring foreign-trained nurses into Belgium and Luxembourg, with nurses as the end beneficiaries of the pathway.",
+    "core_pain": "Employers and recruiters face nurse shortages, but actual hiring depends on language proof, recognition steps, visa or licence processes and practical relocation support.",
+    "claimed_outcome": "A smoother route from candidate sourcing to placement by bundling language preparation, recognition support and post-placement support.",
+    "market_scope": {
+      "primary_market": "Benelux",
+      "country_scope": [
+        "Belgium",
+        "Luxembourg"
+      ],
+      "profession_scope": [
+        "nurses"
+      ]
+    }
+  },
+  "buyer_analysis": {
+    "primary_buyer_type": {
+      "value": "staffing_agency",
+      "reason": "The source card frames the product as a pipeline component that agencies can add to placement offers.",
+      "confidence": 0.82
+    },
+    "secondary_buyer_types": [
+      {
+        "value": "employer",
+        "reason": "Hospitals are named as co-target customers and may buy the pipeline directly.",
+        "confidence": 0.74
+      },
+      {
+        "value": "partner",
+        "reason": "The model likely depends on recruitment, training or relocation partners rather than a standalone course sale.",
+        "confidence": 0.68
+      }
+    ],
+    "budget_owner": {
+      "value": "mixed",
+      "reason": "Budget could sit with agency leadership, hospital talent teams or a joint partnership sponsor.",
+      "confidence": 0.62
+    },
+    "buyer_influencers": [
+      {
+        "value": "legal",
+        "reason": "Recognition, visa and employment-route questions materially shape feasibility.",
+        "confidence": 0.86
+      },
+      {
+        "value": "hr_ld",
+        "reason": "Hospital or agency talent teams influence whether the pipeline is operationally useful.",
+        "confidence": 0.7
+      },
+      {
+        "value": "team_manager",
+        "reason": "Nursing managers carry the operational burden of integrating placed staff.",
+        "confidence": 0.69
+      },
+      {
+        "value": "finance",
+        "reason": "Placement economics and rev-share assumptions will be scrutinized by commercial leadership.",
+        "confidence": 0.56
+      },
+      {
+        "value": "founder_ceo",
+        "reason": "Because this is a partner-heavy cross-border motion, founder-level decision-making is likely.",
+        "confidence": 0.63
+      }
+    ]
+  },
+  "claim_extraction": {
+    "externally_checkable_claims": [
+      {
+        "claim_area": "recognition",
+        "claim_text": "Credential recognition is part of the pathway for foreign-trained nurses.",
+        "status": "verified",
+        "notes": "Nursing is a regulated profession and destination-country recognition or licence steps are part of the route, subject to qualification type and destination-country rules.",
+        "source_ids": [
+          "eu_regulated_professions",
+          "directive_2005_36",
+          "lux_health_professions",
+          "belgium_foreign_diploma_visa"
+        ]
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "When an agency recruits nurses for the EU, they need a language training component in the pipeline.",
+        "status": "partially_verified",
+        "notes": "Language proof is clearly required in Luxembourg and Belgium for regulated nursing routes, but the reviewed sources do not show that an external training component in this exact bundled format is mandatory.",
+        "source_ids": [
+          "lux_health_professions",
+          "belgium_foreign_diploma_visa"
+        ]
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "Deliverable: language certificate.",
+        "status": "unverified",
+        "notes": "Official routes require specific language levels and accepted proof formats, but the product card does not specify whether its certificate would be accepted for licensing, recognition or visa purposes.",
+        "source_ids": [
+          "lux_health_professions",
+          "belgium_foreign_diploma_visa"
+        ]
+      },
+      {
+        "claim_area": "funding",
+        "claim_text": "EU/Erasmus+ potential.",
+        "status": "partially_verified",
+        "notes": "Erasmus+ clearly funds cooperation and training projects, and WHO/Europe explicitly notes workforce-mobility initiatives in this area. The reviewed sources do not confirm direct eligibility for this exact commercial recruitment-and-placement pipeline.",
+        "source_ids": [
+          "erasmus_plus_partnerships",
+          "who_europe_nurse_shortage"
+        ]
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "No one does this for Luxembourg/Belgium.",
+        "status": "contradicted",
+        "notes": "LiReco publicly markets an integrated recruitment, language training and relocation model, Charité runs international nurse recruitment, and HSE offers an international recruitment and relocation package. The market is not empty.",
+        "source_ids": [
+          "lireco_about",
+          "charite_recruitment",
+          "hse_relocation_package",
+          "hse_overseas_candidates"
+        ]
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "Europe needs 950K health workers by 2030.",
+        "status": "partially_verified",
+        "notes": "WHO/Europe says the region faces an expected shortage of nearly 1 million health workers by 2030. The card's 950K figure is directionally close but not the exact wording in the source.",
+        "source_ids": [
+          "who_europe_nurse_shortage"
+        ]
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "Agencies spend £10–17K per nurse.",
+        "status": "partially_verified",
+        "notes": "An official HSE response documented a €10,000 agency fee per international nurse and total international recruitment costs of €15,500 in one case. The card's sterling-denominated range is not directly confirmed and the official evidence is from another country and cost structure.",
+        "source_ids": [
+          "hse_pq_61870"
+        ]
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "Language is the bottleneck.",
+        "status": "partially_verified",
+        "notes": "Language proof is clearly part of the regulated route in Luxembourg and Belgium, but the wording remains an interpretive summary rather than a measured official classification.",
+        "source_ids": [
+          "lux_health_professions",
+          "belgium_foreign_diploma_visa"
+        ]
+      }
+    ],
+    "internal_claims_unverified": [
+      {
+        "claim_area": "other",
+        "claim_text": "This integrated pipeline format is needed by agencies recruiting nurses into the EU.",
+        "reason_unverified": "The reviewed sources show route constraints, not a mandatory need for this exact product format."
+      },
+      {
+        "claim_area": "recognition",
+        "claim_text": "Credential recognition support from this product will materially improve recognition outcomes.",
+        "reason_unverified": "No public source reviewed verifies this provider-specific capability or outcome effect."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "The product's language certificate would be sufficient or accepted for destination-country practice pathways.",
+        "reason_unverified": "The card does not specify an accepted exam or authority-recognised certificate route."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "Placement support and ongoing coaching will materially improve hiring or retention outcomes.",
+        "reason_unverified": "This is a plausible product hypothesis, but no external evidence specific to this product was found."
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "No one does this for Luxembourg/Belgium.",
+        "reason_unverified": "The claim is contradicted by adjacent European models and direct substitutes, but the exact Benelux market was not exhaustively mapped."
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "Y1 revenue at 20 placements can reach €100–240K.",
+        "reason_unverified": "This is an internal business projection, not an externally verifiable market fact."
+      }
+    ]
+  },
+  "external_research": {
+    "regulator_entities": [
+      {
+        "name": "Ministry of Health and Social Security (Luxembourg)",
+        "type": "ministry",
+        "relevance": "Licence-to-practise and recognition procedures for regulated healthcare professions sit with the ministry and related recognition bodies.",
+        "source_ids": [
+          "lux_health_professions"
+        ]
+      },
+      {
+        "name": "Federal Public Service Health, Food Chain Safety and Environment (Belgium)",
+        "type": "ministry",
+        "relevance": "Belgium requires a visa to practise nursing and sets the foreign-diploma route described in the reviewed page.",
+        "source_ids": [
+          "belgium_foreign_diploma_visa"
+        ]
+      }
+    ],
+    "framework_entities": [
+      {
+        "name": "Directive 2005/36/EC on the recognition of professional qualifications",
+        "type": "directive",
+        "relevance": "This directive underpins regulated-profession recognition for nurses and explains when automatic recognition can apply.",
+        "source_ids": [
+          "directive_2005_36",
+          "eu_regulated_professions"
+        ]
+      },
+      {
+        "name": "EU regulated professions framework",
+        "type": "guidance",
+        "relevance": "EU guidance clarifies that nursing is a regulated profession and that destination-country recognition rules apply.",
+        "source_ids": [
+          "eu_regulated_professions",
+          "directive_2005_36"
+        ]
+      }
+    ],
+    "funding_bodies": [
+      {
+        "name": "Erasmus+",
+        "type": "subsidy_body",
+        "relevance": "Broad EU cooperation and training funding exists, but product-level fit for this commercial recruitment pipeline is unclear.",
+        "source_ids": [
+          "erasmus_plus_partnerships"
+        ]
+      }
+    ],
+    "approval_entities": [],
+    "regulatory_requirements": [
+      {
+        "requirement": "Nursing is a regulated profession and destination-country recognition rules apply before practice.",
+        "applies_to": "Foreign-trained nurses seeking to work in another EU country",
+        "jurisdiction": "European Union",
+        "status": "confirmed",
+        "source_ids": [
+          "eu_regulated_professions",
+          "directive_2005_36"
+        ]
+      },
+      {
+        "requirement": "In Luxembourg, general care nurses whose qualifications are covered by Annex V can apply directly for a licence to practise; otherwise recognition procedures apply.",
+        "applies_to": "Nurses seeking to practise in Luxembourg",
+        "jurisdiction": "Luxembourg",
+        "status": "confirmed",
+        "source_ids": [
+          "lux_health_professions"
+        ]
+      },
+      {
+        "requirement": "In Luxembourg, healthcare professionals need the necessary language skills and, where no other proof is available, a B2 certificate from INLL.",
+        "applies_to": "Healthcare professionals seeking authorisation to practise in Luxembourg",
+        "jurisdiction": "Luxembourg",
+        "status": "confirmed",
+        "source_ids": [
+          "lux_health_professions"
+        ]
+      },
+      {
+        "requirement": "In Belgium, foreign-diploma nurses need a visa to practise, and bachelor-level healthcare professions including general care nursing require B2 language proof.",
+        "applies_to": "Foreign-trained nurses seeking practice in Belgium",
+        "jurisdiction": "Belgium",
+        "status": "confirmed",
+        "source_ids": [
+          "belgium_foreign_diploma_visa"
+        ]
+      }
+    ],
+    "subsidies_or_funding": [
+      {
+        "name": "Erasmus+ cooperation funding",
+        "jurisdiction": "European Union",
+        "relevance": "possible",
+        "eligibility_notes": "Broad partnership and training funding exists, but no direct evidence was found that this exact commercial pipeline qualifies.",
+        "source_ids": [
+          "erasmus_plus_partnerships"
+        ]
+      }
+    ],
+    "competitors_or_substitutes": [
+      {
+        "name": "LiReco",
+        "type": "direct",
+        "notes": "Publicly markets an integrated recruitment, medical-language training and relocation model for healthcare professionals moving to Sweden.",
+        "source_ids": [
+          "lireco_about"
+        ]
+      },
+      {
+        "name": "Charité international recruitment of nurses",
+        "type": "substitute",
+        "notes": "Shows a direct-employer substitute model in which the employer handles recruitment, recognition guidance and language support.",
+        "source_ids": [
+          "charite_recruitment"
+        ]
+      },
+      {
+        "name": "HSE international recruitment and relocation package",
+        "type": "substitute",
+        "notes": "A public employer-led relocation model that shows the market already has structured international recruitment support.",
+        "source_ids": [
+          "hse_relocation_package",
+          "hse_overseas_candidates"
+        ]
+      }
+    ]
+  },
+  "dashboard_enrichment": {
+    "legal_claim_severity": {
+      "value": 4,
+      "reason": "The product is adjacent to placement, recognition and lawful practice in a regulated healthcare profession.",
+      "confidence": 0.94
+    },
+    "authority_needed_for_delivery": {
+      "value": 3,
+      "reason": "Credible delivery likely requires external staffing, recognition and healthcare-pathway expertise.",
+      "confidence": 0.84
+    },
+    "authority_needed_for_claims": {
+      "value": 4,
+      "reason": "Claims around placeability, recognition support and language-proof usefulness depend on formal recognition and visa or licence routes outside the provider's control.",
+      "confidence": 0.95
+    },
+    "proof_stack": [
+      {
+        "value": "buyer_acceptance",
+        "reason": "Agencies and hospitals must decide that the bundled pipeline is better than direct recruitment or in-house support.",
+        "confidence": 0.89
+      },
+      {
+        "value": "regulator_listing_or_partner_route",
+        "reason": "Because the outcome is route-dependent, partner acceptance matters almost as much as training quality.",
+        "confidence": 0.7
+      },
+      {
+        "value": "placement_outcome",
+        "reason": "The ultimate value claim is lawful placement of nurses into destination-country roles.",
+        "confidence": 0.96
+      }
+    ],
+    "proof_burden": {
+      "value": 4,
+      "reason": "Proof requires downstream regulatory acceptance and placement outcomes, not only training completion.",
+      "confidence": 0.96
+    },
+    "dependency_types": [
+      {
+        "value": "staffing_partner",
+        "reason": "The model depends on agency or employer channel partners to generate and convert placement opportunities.",
+        "confidence": 0.94
+      },
+      {
+        "value": "licensing_path",
+        "reason": "Nurses cannot practise without destination-country recognition and licence or visa steps where applicable.",
+        "confidence": 0.98
+      },
+      {
+        "value": "expert_partner",
+        "reason": "Recognition and migration support require specialist legal or regulatory expertise beyond pure language teaching.",
+        "confidence": 0.85
+      },
+      {
+        "value": "country_localization",
+        "reason": "Belgium and Luxembourg have materially different recognition, visa and language-proof rules inside the current scope.",
+        "confidence": 0.97
+      }
+    ],
+    "scope_variance_risk": {
+      "value": "high",
+      "reason": "Even within Belgium and Luxembourg, recognition and language-proof routes differ materially.",
+      "confidence": 0.93
+    },
+    "expansion_variance_risk": {
+      "value": "high",
+      "reason": "Expansion into neighbouring countries or additional healthcare professions would add more licensing, language and labour-mobility variance.",
+      "confidence": 0.96
+    },
+    "subsidy_exists": {
+      "value": "yes",
+      "reason": "Broad EU partnership and training funding exists, even if this product's direct fit is unclear.",
+      "confidence": 0.85
+    },
+    "subsidy_eligibility_status": {
+      "value": "unclear",
+      "reason": "The reviewed sources do not establish direct eligibility for this exact commercial recruitment pipeline.",
+      "confidence": 0.82
+    },
+    "subsidy_conflict_flag": {
+      "value": true,
+      "reason": "The card presents EU/Erasmus+ as a meaningful angle, but the reviewed evidence only supports broad programme existence rather than product-specific eligibility.",
+      "confidence": 0.69
+    },
+    "market_regulatory_context": {
+      "value": "strongly_regulated",
+      "reason": "The product is directly tied to cross-border hiring into a regulated healthcare profession.",
+      "confidence": 0.97
+    }
+  },
+  "risk_map": {
+    "claim_language_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "Language certificate, recognition support and placement wording can easily outstrip what the reviewed sources support.",
+      "source_ids": [
+        "lux_health_professions",
+        "belgium_foreign_diploma_visa"
+      ]
+    },
+    "authority_dependency_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The product depends on external recognition, visa and employer decisions that the provider does not control.",
+      "source_ids": [
+        "eu_regulated_professions",
+        "lux_health_professions",
+        "belgium_foreign_diploma_visa"
+      ]
+    },
+    "competitive_gap_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The market is not empty: integrated European models and direct-employer recruitment substitutes already exist.",
+      "source_ids": [
+        "lireco_about",
+        "charite_recruitment",
+        "hse_relocation_package"
+      ]
+    },
+    "numeric_claim_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The shortage and agency-cost numbers are directionally supported only in part and carry scope or geography mismatches.",
+      "source_ids": [
+        "who_europe_nurse_shortage",
+        "hse_pq_61870"
+      ]
+    },
+    "subsidy_conflict_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "A broad Erasmus+ route exists, but product-level eligibility was not established.",
+      "source_ids": [
+        "erasmus_plus_partnerships"
+      ]
+    },
+    "positioning_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The offer spans language training, recruitment, recognition support and post-placement support, pushing it toward a service-heavy workforce business.",
+      "source_ids": [
+        "lireco_about",
+        "charite_recruitment"
+      ]
+    }
+  },
+  "claim_conflicts": [
+    {
+      "claim_area": "competitor_gap",
+      "claim_text": "No one does this for Luxembourg/Belgium.",
+      "conflict_type": "external",
+      "severity": "high",
+      "what_is_wrong": "LiReco, Charité and HSE all show adjacent or direct models with recruitment, language support and relocation assistance. The exclusivity claim is not defensible.",
+      "source_ids": [
+        "lireco_about",
+        "charite_recruitment",
+        "hse_relocation_package",
+        "hse_overseas_candidates"
+      ]
+    },
+    {
+      "claim_area": "numeric_claim",
+      "claim_text": "Europe needs 950K health workers by 2030.",
+      "conflict_type": "ambiguity",
+      "severity": "medium",
+      "what_is_wrong": "WHO/Europe says the expected shortage is nearly 1 million health workers by 2030. The figure is close but not quoted precisely.",
+      "source_ids": [
+        "who_europe_nurse_shortage"
+      ]
+    },
+    {
+      "claim_area": "numeric_claim",
+      "claim_text": "Agencies spend £10–17K per nurse.",
+      "conflict_type": "ambiguity",
+      "severity": "medium",
+      "what_is_wrong": "The only official figure reviewed is an Irish public-sector case with €10,000 agency fee and €15,500 total recruitment cost for an international nurse, which is not the same claim.",
+      "source_ids": [
+        "hse_pq_61870"
+      ]
+    },
+    {
+      "claim_area": "other",
+      "claim_text": "Deliverables: language certificate.",
+      "conflict_type": "ambiguity",
+      "severity": "high",
+      "what_is_wrong": "The card does not specify whether the certificate would be accepted by destination-country authorities; official routes require accepted proof formats and country-specific thresholds.",
+      "source_ids": [
+        "lux_health_professions",
+        "belgium_foreign_diploma_visa"
+      ]
+    }
+  ],
+  "recommended_manual_review": [
+    {
+      "field": "route-boundary",
+      "reason": "Decide whether this is a training offer, a recruitment service, a recognition-support service or a combined business line."
+    },
+    {
+      "field": "certificate-design",
+      "reason": "Validate whether the product prepares candidates for accepted destination-country language proof or only issues an internal course certificate."
+    },
+    {
+      "field": "country-sequencing",
+      "reason": "Split Luxembourg and Belgium route design if needed because the rules are materially different."
+    },
+    {
+      "field": "funding-angle",
+      "reason": "Do not use Erasmus+ as a practical commercial subsidy angle until a specific eligible project route is identified."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "eu_regulated_professions",
+      "title": "Regulated professions",
+      "publisher": "Your Europe / European Union",
+      "url": "https://europa.eu/youreurope/citizens/work/professional-qualifications/regulated-professions/",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "directive_2005_36",
+      "title": "Directive 2005/36/EC on the recognition of professional qualifications",
+      "publisher": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/eli/dir/2005/36/2025-07-10/eng",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "lux_health_professions",
+      "title": "Regulated healthcare professions",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/creation-developpement/profession/autres-professions-liberales/profession-sante-reglementees.html",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "belgium_foreign_diploma_visa",
+      "title": "Visa for a foreign diploma",
+      "publisher": "FPS Public Health",
+      "url": "https://www.health.belgium.be/fr/professionnels/professionnels-sante/sante-humaine/professions-sante/acces-aux-professions-soins-sante/demander-visa-diplome-etranger",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "who_europe_nurse_shortage",
+      "title": "Unsafe nurse staffing in European Region can harm patients and drive nurses out of the profession",
+      "publisher": "WHO/Europe",
+      "url": "https://www.who.int/europe/news/item/18-02-2026-unsafe-nurse-staffing-in-european-region-can-harm-patients-and-drive-nurses-out-of-the-profession",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "erasmus_plus_partnerships",
+      "title": "Partnerships for cooperation",
+      "publisher": "Erasmus+",
+      "url": "https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-organisations/cooperation-among-organisations-and-institutions/partnerships-for-cooperation",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "lireco_about",
+      "title": "About Lireco",
+      "publisher": "LiReco",
+      "url": "https://lireco.se/en/about-lireco/",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "charite_recruitment",
+      "title": "International recruitment of nurses",
+      "publisher": "Charité – Universitätsmedizin Berlin",
+      "url": "https://www.charite.de/en/international/archiv/for_physicians_and_nursing_staff/working_at_charite/international_recruitment_of_nurses",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "hse_relocation_package",
+      "title": "HSE International / Returning Emigrants Recruitment Relocation Package",
+      "publisher": "HSE Career Hub",
+      "url": "https://about.hse.ie/publications/question-from-deputy-sorca-clarke-pq-1668-26/",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "hse_overseas_candidates",
+      "title": "Overseas Candidates",
+      "publisher": "HSE.ie",
+      "url": "https://www.hse.ie/eng/staff/jobs/overseas-candidates/",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "hse_pq_61870",
+      "title": "PQ/61870/21 on international nurse recruitment costings",
+      "publisher": "HSE",
+      "url": "https://www.hse.ie/eng/about/personalpq/pq/2021-pq-responses/december-2021/pq-61870-21-ivana-bacik.pdf",
+      "source_type": "government",
+      "reliability": "high"
+    }
+  ],
+  "quality_signals": {
+    "source_coverage_score": 0.84,
+    "unverified_claims_count": 6,
+    "field_confidence": {
+      "primary_buyer_type": 0.82,
+      "budget_owner": 0.62,
+      "legal_claim_severity": 0.94,
+      "authority_needed_for_delivery": 0.84,
+      "authority_needed_for_claims": 0.95,
+      "proof_burden": 0.96,
+      "scope_variance_risk": 0.93,
+      "expansion_variance_risk": 0.96,
+      "subsidy_exists": 0.85,
+      "subsidy_eligibility_status": 0.82,
+      "market_regulatory_context": 0.97
+    }
+  }
+}

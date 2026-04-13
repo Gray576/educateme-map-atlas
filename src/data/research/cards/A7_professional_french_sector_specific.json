@@ -1,0 +1,418 @@
+{
+  "product_code": "A7",
+  "product_title": "Professional French (sector-specific)",
+  "analysis_timestamp": "2026-04-13T07:30:00+04:00",
+  "product_summary": {
+    "one_sentence_summary": "Sector-specific French training for Luxembourg workplaces that need practical French for finance, healthcare, legal/admin and IT contexts.",
+    "target_user": "Cross-border employees and local teams in Luxembourg who need French for work; buying motion likely sits with HR/L&D or business leaders.",
+    "core_pain": "General French courses do not map well enough to sector vocabulary, workplace documents and client or compliance communication.",
+    "claimed_outcome": "Better workplace French in sector contexts and easier use of company training co-funding.",
+    "market_scope": {
+      "primary_market": "Luxembourg",
+      "country_scope": ["Luxembourg"],
+      "profession_scope": ["cross-border workers", "finance", "healthcare", "IT", "legal/admin"]
+    }
+  },
+  "buyer_analysis": {
+    "primary_buyer_type": {
+      "value": "mixed",
+      "reason": "The card is explicitly B2B and B2C, so the buying motion is shared between individual learners and employer-side buyers.",
+      "confidence": 0.84
+    },
+    "secondary_buyer_types": [
+      {
+        "value": "hr_ld",
+        "reason": "Employer-sponsored language upskilling usually sits with HR/L&D or training teams.",
+        "confidence": 0.76
+      },
+      {
+        "value": "employer",
+        "reason": "The course is framed as a workplace capability product, so companies are likely to sponsor it.",
+        "confidence": 0.72
+      },
+      {
+        "value": "individual",
+        "reason": "The card also prices the offer per person, so self-paying learners remain a real channel.",
+        "confidence": 0.71
+      }
+    ],
+    "budget_owner": {
+      "value": "mixed",
+      "reason": "Budget could come from an individual learner or from an employer training budget depending on the channel.",
+      "confidence": 0.79
+    },
+    "buyer_influencers": [
+      {
+        "value": "hr_ld",
+        "reason": "HR/L&D influences training selection and co-funding administration.",
+        "confidence": 0.78
+      },
+      {
+        "value": "team_manager",
+        "reason": "Managers care whether language training actually improves day-to-day work output.",
+        "confidence": 0.66
+      },
+      {
+        "value": "finance",
+        "reason": "Training budget and co-funding logic make finance a likely influencer in larger firms.",
+        "confidence": 0.54
+      },
+      {
+        "value": "founder_ceo",
+        "reason": "In SMEs, founder or CEO approval is often needed for training spend.",
+        "confidence": 0.57
+      }
+    ]
+  },
+  "claim_extraction": {
+    "externally_checkable_claims": [
+      {
+        "claim_area": "funding",
+        "claim_text": "INFPC company training co-funding exists at 15% of annual training investment, with a 35% salary-cost increase for some employee categories.",
+        "status": "verified",
+        "notes": "Luxembourg public sources confirm the general company-training co-funding scheme and the 15% / 35% structure for eligible cases.",
+        "source_ids": ["infpc_cofunding", "lifelong_learning_cofunding"]
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "There are 228K cross-border workers in the Luxembourg market.",
+        "status": "partially_verified",
+        "notes": "STATEC reports about 229.1k non-resident cross-border wage-earners in 2024, so the card's figure is directionally close but not exact and the scope is slightly different.",
+        "source_ids": ["statec_luxembourg_in_figures_2025"]
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "About 47% of the workforce is cross-border.",
+        "status": "partially_verified",
+        "notes": "The official 2024 figures imply a cross-border share in the mid-40% range, so the card's number is close but not exact.",
+        "source_ids": ["statec_luxembourg_in_figures_2025"]
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "Nobody does sector-specialized French plus INFPC co-funding positioning.",
+        "status": "contradicted",
+        "notes": "Public substitutes already exist: Prolingua offers professional, business and specialist language training including French, and INLL offers French courses for professional purposes. Company training co-funding also exists independently of this product, so the exclusivity claim is not defensible.",
+        "source_ids": ["prolingua_courses", "prolingua_professionals", "inll_french", "inll_courses", "infpc_cofunding", "lifelong_learning_cofunding"]
+      }
+    ],
+    "internal_claims_unverified": [
+      {
+        "claim_area": "scope_fit",
+        "claim_text": "Sector-specific French is the right wedge because workplace French for contracts, meetings and compliance is more valuable than general French.",
+        "reason_unverified": "This is a positioning inference from the product card, not an externally verified market fact."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "Teachers are ready and the LMS is ready.",
+        "reason_unverified": "Readiness is an internal operational claim and was not independently verified."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "Pilot on existing B2B clients is a low-risk next step.",
+        "reason_unverified": "This is a planning judgment rather than an externally checkable fact."
+      }
+    ]
+  },
+  "external_research": {
+    "regulator_entities": [],
+    "framework_entities": [],
+    "funding_bodies": [
+      {
+        "name": "INFPC",
+        "type": "training_fund",
+        "relevance": "The public co-funding scheme is the main funding route referenced by the product card.",
+        "source_ids": ["infpc_cofunding", "lifelong_learning_cofunding"]
+      }
+    ],
+    "approval_entities": [],
+    "regulatory_requirements": [
+      {
+        "requirement": "Private-sector companies legally established in Luxembourg and carrying out their main business there can apply for co-funding for employee training, subject to eligibility conditions.",
+        "applies_to": "Employer-funded training in Luxembourg",
+        "jurisdiction": "Luxembourg",
+        "status": "confirmed",
+        "source_ids": ["infpc_cofunding", "lifelong_learning_cofunding"]
+      }
+    ],
+    "subsidies_or_funding": [
+      {
+        "name": "Company training co-funding",
+        "jurisdiction": "Luxembourg",
+        "relevance": "direct",
+        "eligibility_notes": "General employer training support exists. The card's sector-specific French positioning is not itself a special funding category, but the training can plausibly sit inside the normal co-funding route if the employer and employees meet the conditions.",
+        "source_ids": ["infpc_cofunding", "lifelong_learning_cofunding"]
+      }
+    ],
+    "competitors_or_substitutes": [
+      {
+        "name": "Prolingua",
+        "type": "direct",
+        "notes": "Offers French, business language, specialist language and tailor-made professional courses in Luxembourg.",
+        "source_ids": ["prolingua_courses", "prolingua_professionals", "prolingua_french"]
+      },
+      {
+        "name": "INLL French intensive courses for professional purposes",
+        "type": "direct",
+        "notes": "Public provider offering intensive French courses for professional purposes and CEFR-based language training.",
+        "source_ids": ["inll_french", "inll_courses"]
+      },
+      {
+        "name": "Allingua corporate language training",
+        "type": "substitute",
+        "notes": "Corporate language training in Luxembourg with sector adaptation, CEFR-aligned testing and HR reporting.",
+        "source_ids": ["allingua_home", "allingua_offer"]
+      }
+    ]
+  },
+  "dashboard_enrichment": {
+    "legal_claim_severity": {
+      "value": 2,
+      "reason": "The key externally relevant claim is co-funding / training-aid positioning, not a regulated or accredited pathway.",
+      "confidence": 0.84
+    },
+    "authority_needed_for_delivery": {
+      "value": 2,
+      "reason": "General delivery is straightforward, but sector-specific content benefits from external SME review for accuracy.",
+      "confidence": 0.79
+    },
+    "authority_needed_for_claims": {
+      "value": 2,
+      "reason": "Co-funding and sector-specific claims should be checked by an external reviewer, but no formal licence is required.",
+      "confidence": 0.77
+    },
+    "proof_stack": [
+      {
+        "value": "buyer_acceptance",
+        "reason": "The main commercial proof is whether employers and learners choose this over generic French training.",
+        "confidence": 0.86
+      },
+      {
+        "value": "paid_pilot",
+        "reason": "A paid pilot is the fastest way to validate willingness to buy the sector-specific framing.",
+        "confidence": 0.72
+      },
+      {
+        "value": "learning_progress",
+        "reason": "The product should show measurable French improvement in workplace contexts.",
+        "confidence": 0.78
+      }
+    ],
+    "proof_burden": {
+      "value": 2,
+      "reason": "This is a standard B2B/B2C training product, so commercial uptake and learning progress matter more than formal recognition.",
+      "confidence": 0.76
+    },
+    "dependency_types": [
+      {
+        "value": "country_localization",
+        "reason": "The sector vocabulary and workplace examples are Luxembourg-specific.",
+        "confidence": 0.84
+      },
+      {
+        "value": "expert_partner",
+        "reason": "Finance, healthcare and legal-administrative content needs sector review to avoid shallow examples.",
+        "confidence": 0.66
+      },
+      {
+        "value": "funding_eligibility",
+        "reason": "The commercial story relies partly on company co-funding logic.",
+        "confidence": 0.88
+      }
+    ],
+    "scope_variance_risk": {
+      "value": "low",
+      "reason": "The current scope is narrowly Luxembourg-based and language-specific.",
+      "confidence": 0.87
+    },
+    "expansion_variance_risk": {
+      "value": "medium",
+      "reason": "Expanding into other countries or more regulated professions would change vocabulary, buyer expectations and funding logic.",
+      "confidence": 0.78
+    },
+    "subsidy_exists": {
+      "value": "yes",
+      "reason": "Luxembourg has a public co-funding scheme for company training.",
+      "confidence": 0.95
+    },
+    "subsidy_eligibility_status": {
+      "value": "likely_eligible",
+      "reason": "The product is normal employer training rather than a compulsory regulated-profession course, so it plausibly fits the general co-funding route.",
+      "confidence": 0.68
+    },
+    "subsidy_conflict_flag": {
+      "value": false,
+      "reason": "The public co-funding scheme exists and no direct conflict with the product category was found, though product-level eligibility still needs review.",
+      "confidence": 0.82
+    },
+    "market_regulatory_context": {
+      "value": "lightly_regulated",
+      "reason": "The product is a workplace language training offer, not a regulated-practice or licensing product.",
+      "confidence": 0.9
+    }
+  },
+  "risk_map": {
+    "claim_language_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The exclusivity language around sector-specialized French is stronger than the evidence supports.",
+      "source_ids": ["prolingua_courses", "prolingua_professionals", "inll_french", "infpc_cofunding"]
+    },
+    "authority_dependency_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "Sector-specific credibility depends on subject-matter review even though no formal approval is needed.",
+      "source_ids": ["prolingua_courses", "inll_french"]
+    },
+    "competitive_gap_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "Public substitutes already cover professional, specialist and tailor-made language training in Luxembourg.",
+      "source_ids": ["prolingua_courses", "prolingua_professionals", "inll_french", "inll_courses", "allingua_offer"]
+    },
+    "numeric_claim_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The cross-border and workforce-share numbers are directionally supported but not exact.",
+      "source_ids": ["statec_luxembourg_in_figures_2025"]
+    },
+    "subsidy_conflict_risk": {
+      "status": "absent",
+      "severity": "low",
+      "reason": "The general co-funding route is real and the product does not obviously conflict with it.",
+      "source_ids": ["infpc_cofunding", "lifelong_learning_cofunding"]
+    },
+    "positioning_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The product sits close to generic professional French unless the sector packaging is genuinely deep.",
+      "source_ids": ["prolingua_courses", "prolingua_professionals", "inll_french"]
+    }
+  },
+  "claim_conflicts": [
+    {
+      "claim_area": "competitor_gap",
+      "claim_text": "Nobody does sector-specialized French plus INFPC co-funding positioning.",
+      "conflict_type": "external",
+      "severity": "high",
+      "what_is_wrong": "There are already professional, business and specialist French offers in Luxembourg, and the co-funding mechanism exists independently of this product. The market is not empty and the exclusivity claim is too strong.",
+      "source_ids": ["prolingua_courses", "prolingua_professionals", "inll_french", "infpc_cofunding", "lifelong_learning_cofunding"]
+    },
+    {
+      "claim_area": "numeric_claim",
+      "claim_text": "228K cross-border workers / 47% workforce.",
+      "conflict_type": "ambiguity",
+      "severity": "medium",
+      "what_is_wrong": "The official figures are close but not exact, and the precise denominator differs depending on whether the card is referring to wage-earners, all employment, or another workforce measure.",
+      "source_ids": ["statec_luxembourg_in_figures_2025"]
+    }
+  ],
+  "recommended_manual_review": [
+    {
+      "field": "sector-packaging",
+      "reason": "The core product is only defensible if the sector-specific curriculum is genuinely differentiated from standard professional French."
+    },
+    {
+      "field": "funding-positioning",
+      "reason": "Keep the INFPC claim generic until the eligibility path is checked against the exact employer and employee profile."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "statec_luxembourg_in_figures_2025",
+      "title": "Luxembourg in Figures 2025",
+      "publisher": "STATEC",
+      "url": "https://statistiques.public.lu/dam-assets/catalogue-publications/luxembourg-en-chiffres/2025/luxembourg-in-figures-2025.pdf",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "infpc_cofunding",
+      "title": "Co-funding of company training",
+      "publisher": "INFPC",
+      "url": "https://www.infpc.lu/cofinancement-de-la-formation/en",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "lifelong_learning_cofunding",
+      "title": "Cofunding of training in companies",
+      "publisher": "lifelong-learning.lu",
+      "url": "https://www.lifelong-learning.lu/entreprises/cofinancement/en",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "prolingua_courses",
+      "title": "Courses - Prolingua Language Centre",
+      "publisher": "Prolingua",
+      "url": "https://prolingua.lu/en/courses_25",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "prolingua_professionals",
+      "title": "Professionals - Prolingua Language Centre",
+      "publisher": "Prolingua",
+      "url": "https://prolingua.lu/en/professionals_35",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "prolingua_french",
+      "title": "French courses - Prolingua Language Centre",
+      "publisher": "Prolingua",
+      "url": "https://prolingua.lu/en/courses_25/langue/french_7/",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "inll_french",
+      "title": "Learn to speak French with our language courses",
+      "publisher": "INLL",
+      "url": "https://www.inll.lu/en/languages/french",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "inll_courses",
+      "title": "Our language courses",
+      "publisher": "INLL",
+      "url": "https://www.inll.lu/en/courses/",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "allingua_home",
+      "title": "Professional language training",
+      "publisher": "Allingua",
+      "url": "https://www.allingua.lu/en/home/",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "allingua_offer",
+      "title": "Our Language Training Solutions in Luxembourg",
+      "publisher": "Allingua",
+      "url": "https://www.allingua.lu/en/offer/",
+      "source_type": "company",
+      "reliability": "medium"
+    }
+  ],
+  "quality_signals": {
+    "source_coverage_score": 0.82,
+    "unverified_claims_count": 3,
+    "field_confidence": {
+      "primary_buyer_type": 0.84,
+      "budget_owner": 0.79,
+      "legal_claim_severity": 0.84,
+      "authority_needed_for_delivery": 0.79,
+      "authority_needed_for_claims": 0.77,
+      "proof_burden": 0.76,
+      "scope_variance_risk": 0.87,
+      "expansion_variance_risk": 0.78,
+      "subsidy_exists": 0.95,
+      "subsidy_eligibility_status": 0.68,
+      "market_regulatory_context": 0.9
+    }
+  }
+}

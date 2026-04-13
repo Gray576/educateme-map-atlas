@@ -1,0 +1,443 @@
+{
+  "product_code": "B3",
+  "product_title": "AI Literacy (EU-wide remote)",
+  "analysis_timestamp": "2026-04-13T09:15:00+04:00",
+  "product_summary": {
+    "one_sentence_summary": "Remote EU-wide AI literacy workshop that translates AI Act obligations into practical staff habits and basic governance discipline.",
+    "target_user": "EU employers and deployers of AI systems, especially HR/L&D, compliance and business leaders managing multi-country teams.",
+    "core_pain": "They need a practical way to meet AI literacy expectations across countries and teams without relying on generic English-only content.",
+    "claimed_outcome": "Staff AI literacy, safer internal AI use and a more defensible compliance posture.",
+    "market_scope": {
+      "primary_market": "European Union",
+      "country_scope": [
+        "European Union"
+      ],
+      "profession_scope": [
+        "general corporate workforce",
+        "AI-using teams"
+      ]
+    }
+  },
+  "buyer_analysis": {
+    "primary_buyer_type": {
+      "value": "hr_ld",
+      "reason": "The workshop is still fundamentally a training purchase even though it has compliance implications.",
+      "confidence": 0.66
+    },
+    "secondary_buyer_types": [
+      {
+        "value": "compliance",
+        "reason": "Compliance teams will care about AI literacy wording and policy alignment.",
+        "confidence": 0.8
+      },
+      {
+        "value": "employer",
+        "reason": "Business leaders may sponsor the product when AI usage is already happening across teams.",
+        "confidence": 0.63
+      }
+    ],
+    "budget_owner": {
+      "value": "mixed",
+      "reason": "Budget can sit in HR/L&D, compliance or business leadership depending on how the company frames the need.",
+      "confidence": 0.7
+    },
+    "buyer_influencers": [
+      {
+        "value": "hr_ld",
+        "reason": "Training logistics and roll-out usually sit with HR/L&D.",
+        "confidence": 0.81
+      },
+      {
+        "value": "compliance",
+        "reason": "AI literacy claims become stronger when compliance is involved.",
+        "confidence": 0.86
+      },
+      {
+        "value": "legal",
+        "reason": "Policy and claim wording should be checked by legal or governance teams.",
+        "confidence": 0.83
+      }
+    ]
+  },
+  "claim_extraction": {
+    "externally_checkable_claims": [
+      {
+        "claim_area": "mandate",
+        "claim_text": "AI Act Article 4 requires providers and deployers of AI systems to take measures ensuring sufficient AI literacy of staff and other persons acting on their behalf.",
+        "status": "verified",
+        "notes": "This is the core regulatory basis for the product.",
+        "source_ids": [
+          "eu_ai_act",
+          "ai_literacy_qna"
+        ]
+      },
+      {
+        "claim_area": "compliance",
+        "claim_text": "AI literacy measures should reflect technical knowledge, experience, education, training and the context in which AI systems are used.",
+        "status": "verified",
+        "notes": "The Commission's AI literacy Q&A makes the context-sensitive interpretation explicit.",
+        "source_ids": [
+          "ai_literacy_qna"
+        ]
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "House of Training offers practical AI fundamentals training that can substitute for generic AI literacy workshops.",
+        "status": "verified",
+        "notes": "House of Training publicly lists a 4h face-to-face generative AI fundamentals course in French.",
+        "source_ids": [
+          "houseoftraining_ai_fundamentals"
+        ]
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "Elements of AI is a free online substitute with no attendance requirements or exams.",
+        "status": "verified",
+        "notes": "The course description states that it is completed online with no attendance requirements or exams.",
+        "source_ids": [
+          "elements_ai_pdf"
+        ]
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "EU-wide coverage applies to all companies.",
+        "status": "contradicted",
+        "notes": "The AI Act applies to providers and deployers of AI systems and related actors in scope, not to every company in the EU by default.",
+        "source_ids": [
+          "eu_ai_act",
+          "ai_literacy_qna"
+        ]
+      }
+    ],
+    "internal_claims_unverified": [
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "Most AI literacy training is English-only.",
+        "reason_unverified": "The reviewed substitutes include a French public offering and a multilingual corporate market example, so the blanket language claim is not proven."
+      },
+      {
+        "claim_area": "scope_fit",
+        "claim_text": "EU-wide remote delivery is enough to solve the buyer's AI literacy problem.",
+        "reason_unverified": "The product may still need local policy and country-context adaptation."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "The multilingual FR/DE/EN angle is a durable geographic advantage.",
+        "reason_unverified": "The advantage is plausible but not externally established."
+      }
+    ]
+  },
+  "external_research": {
+    "regulator_entities": [
+      {
+        "name": "European Commission AI Office",
+        "type": "regulator",
+        "relevance": "Publishes AI literacy guidance and interpretive material for Article 4.",
+        "source_ids": [
+          "ai_literacy_qna"
+        ]
+      },
+      {
+        "name": "National market surveillance authorities",
+        "type": "regulator",
+        "relevance": "Member State authorities are part of AI Act enforcement and oversight.",
+        "source_ids": [
+          "eu_ai_act",
+          "ai_literacy_qna"
+        ]
+      }
+    ],
+    "framework_entities": [
+      {
+        "name": "Regulation (EU) 2024/1689 (AI Act)",
+        "type": "law",
+        "relevance": "Creates the Article 4 AI literacy obligation.",
+        "source_ids": [
+          "eu_ai_act"
+        ]
+      },
+      {
+        "name": "AI Literacy - Questions & Answers",
+        "type": "guidance",
+        "relevance": "Clarifies interpretation, scope and context sensitivity for AI literacy obligations.",
+        "source_ids": [
+          "ai_literacy_qna"
+        ]
+      }
+    ],
+    "funding_bodies": [],
+    "approval_entities": [],
+    "regulatory_requirements": [
+      {
+        "requirement": "Providers and deployers of AI systems must take measures to ensure a sufficient level of AI literacy of staff and other persons acting on their behalf.",
+        "applies_to": "AI-system providers and deployers in the EU",
+        "jurisdiction": "European Union",
+        "status": "confirmed",
+        "source_ids": [
+          "eu_ai_act",
+          "ai_literacy_qna"
+        ]
+      },
+      {
+        "requirement": "AI literacy measures should be proportionate to the role, technical knowledge and context of the people using AI systems.",
+        "applies_to": "AI-system providers and deployers implementing Article 4",
+        "jurisdiction": "European Union",
+        "status": "confirmed",
+        "source_ids": [
+          "ai_literacy_qna"
+        ]
+      }
+    ],
+    "subsidies_or_funding": [],
+    "competitors_or_substitutes": [
+      {
+        "name": "House of Training - Generative artificial intelligences - Fundamentals",
+        "type": "direct",
+        "notes": "Public corporate AI fundamentals course with face-to-face delivery in French.",
+        "source_ids": [
+          "houseoftraining_ai_fundamentals"
+        ]
+      },
+      {
+        "name": "Elements of AI / Building AI",
+        "type": "substitute",
+        "notes": "Free online AI course with no attendance requirements or exams.",
+        "source_ids": [
+          "elements_ai_pdf"
+        ]
+      }
+    ]
+  },
+  "dashboard_enrichment": {
+    "legal_claim_severity": {
+      "value": 3,
+      "reason": "The product is adjacent to a compliance obligation, but it is still a training workshop rather than a licensed or accredited route.",
+      "confidence": 0.9
+    },
+    "authority_needed_for_delivery": {
+      "value": 2,
+      "reason": "Practical AI usage plus policy guidance benefits from SME review, especially when distributed across countries.",
+      "confidence": 0.81
+    },
+    "authority_needed_for_claims": {
+      "value": 3,
+      "reason": "Claims about compliance posture and AI literacy should be checked by legal or governance expertise.",
+      "confidence": 0.86
+    },
+    "proof_stack": [
+      {
+        "value": "buyer_acceptance",
+        "reason": "The product has to win against free and low-cost substitutes.",
+        "confidence": 0.93
+      },
+      {
+        "value": "paid_pilot",
+        "reason": "A paid pilot is the cleanest early signal that buyers prefer the managed workshop format.",
+        "confidence": 0.89
+      },
+      {
+        "value": "audit_defensibility",
+        "reason": "Because the product is sold with compliance framing, defensibility of the content matters.",
+        "confidence": 0.84
+      },
+      {
+        "value": "learning_progress",
+        "reason": "Staff understanding and safer use remain important intermediate signals.",
+        "confidence": 0.79
+      }
+    ],
+    "proof_burden": {
+      "value": 3,
+      "reason": "The market requires more than attendance; it wants defensible learning and compliance value.",
+      "confidence": 0.88
+    },
+    "dependency_types": [
+      {
+        "value": "data_privacy_review",
+        "reason": "Practical AI usage, prompting and policy guidance should be reviewed for privacy and governance implications.",
+        "confidence": 0.95
+      },
+      {
+        "value": "country_localization",
+        "reason": "The product is EU-wide but still needs adaptation for local policies and languages.",
+        "confidence": 0.87
+      },
+      {
+        "value": "expert_partner",
+        "reason": "Compliance-adjacent AI training benefits from legal or governance subject-matter input.",
+        "confidence": 0.84
+      }
+    ],
+    "scope_variance_risk": {
+      "value": "medium",
+      "reason": "The regulation is EU-wide, but internal policy expectations and language needs vary by company and country.",
+      "confidence": 0.77
+    },
+    "expansion_variance_risk": {
+      "value": "high",
+      "reason": "Expanding into new countries or industries would change policy and localization requirements materially.",
+      "confidence": 0.88
+    },
+    "subsidy_exists": {
+      "value": "unclear",
+      "reason": "No direct public funding route was confirmed for this workshop.",
+      "confidence": 0.63
+    },
+    "subsidy_eligibility_status": {
+      "value": "unclear",
+      "reason": "Country-level training aid may exist, but no EU-wide subsidy route was verified.",
+      "confidence": 0.61
+    },
+    "subsidy_conflict_flag": {
+      "value": false,
+      "reason": "No specific subsidy promise was made or verified.",
+      "confidence": 0.7
+    },
+    "market_regulatory_context": {
+      "value": "regulated_adjacent",
+      "reason": "The product is a training workshop, but it sits next to a real EU compliance obligation.",
+      "confidence": 0.94
+    }
+  },
+  "risk_map": {
+    "claim_language_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "Compliance wording should stay precise because the AI Act scope is narrower than 'all companies'.",
+      "source_ids": [
+        "eu_ai_act",
+        "ai_literacy_qna"
+      ]
+    },
+    "authority_dependency_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "Claims about compliance posture need legal or governance validation.",
+      "source_ids": [
+        "ai_literacy_qna"
+      ]
+    },
+    "competitive_gap_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "Public substitutes already exist, including a free online course and a corporate fundamentals course.",
+      "source_ids": [
+        "houseoftraining_ai_fundamentals",
+        "elements_ai_pdf"
+      ]
+    },
+    "numeric_claim_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The card's blanket all-company framing is materially misleading relative to the AI Act scope.",
+      "source_ids": [
+        "eu_ai_act",
+        "ai_literacy_qna"
+      ]
+    },
+    "subsidy_conflict_risk": {
+      "status": "absent",
+      "severity": "low",
+      "reason": "No subsidy claim was confirmed.",
+      "source_ids": []
+    },
+    "positioning_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The product may be too close to generic AI literacy unless the compliance and localization layer is strong.",
+      "source_ids": [
+        "houseoftraining_ai_fundamentals",
+        "elements_ai_pdf"
+      ]
+    }
+  },
+  "claim_conflicts": [
+    {
+      "claim_area": "numeric_claim",
+      "claim_text": "EU-wide coverage applies to all companies.",
+      "conflict_type": "external",
+      "severity": "high",
+      "what_is_wrong": "The AI Act covers providers, deployers and other in-scope actors; it is not accurate to state that every EU company is automatically in scope.",
+      "source_ids": [
+        "eu_ai_act",
+        "ai_literacy_qna"
+      ]
+    },
+    {
+      "claim_area": "competitor_gap",
+      "claim_text": "Most training is English-only.",
+      "conflict_type": "ambiguity",
+      "severity": "medium",
+      "what_is_wrong": "The reviewed substitutes include a French corporate course and a free multilingual-style public alternative, so the language-market claim is not proven.",
+      "source_ids": [
+        "houseoftraining_ai_fundamentals",
+        "elements_ai_pdf"
+      ]
+    }
+  ],
+  "recommended_manual_review": [
+    {
+      "field": "scope_language",
+      "reason": "Reword the offer so it only claims Article 4 relevance for in-scope AI-system actors."
+    },
+    {
+      "field": "localization",
+      "reason": "Decide which countries and policies are in scope for the first version of the workshop."
+    },
+    {
+      "field": "proof_design",
+      "reason": "Keep the proof model focused on buyer acceptance and defensibility rather than attendance alone."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "eu_ai_act",
+      "title": "Regulation (EU) 2024/1689 (AI Act)",
+      "publisher": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "ai_literacy_qna",
+      "title": "AI Literacy - Questions & Answers",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "houseoftraining_ai_fundamentals",
+      "title": "Intelligences artificielles génératives - Fondamentaux",
+      "publisher": "House of Training",
+      "url": "https://houseoftraining.lu/en_GB/training/intelligences-artificielles-generatives-fondamentaux-12374",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "elements_ai_pdf",
+      "title": "Course Description: Elements of AI: Building AI Syllabus and Learning Objectives",
+      "publisher": "University of Helsinki / Elements of AI",
+      "url": "https://buildingai.elementsofai.com/buildingai_objectives.pdf",
+      "source_type": "other",
+      "reliability": "high"
+    }
+  ],
+  "quality_signals": {
+    "source_coverage_score": 0.8,
+    "unverified_claims_count": 3,
+    "field_confidence": {
+      "primary_buyer_type": 0.66,
+      "budget_owner": 0.7,
+      "legal_claim_severity": 0.9,
+      "authority_needed_for_delivery": 0.81,
+      "authority_needed_for_claims": 0.86,
+      "proof_burden": 0.88,
+      "scope_variance_risk": 0.77,
+      "expansion_variance_risk": 0.88,
+      "subsidy_exists": 0.63,
+      "subsidy_eligibility_status": 0.61,
+      "market_regulatory_context": 0.94
+    }
+  }
+}

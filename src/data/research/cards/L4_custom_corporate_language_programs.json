@@ -1,0 +1,427 @@
+{
+  "product_code": "L4",
+  "product_title": "Custom Corporate Language Programs",
+  "analysis_timestamp": "2026-04-13T09:15:00+04:00",
+  "product_summary": {
+    "one_sentence_summary": "Flexible multilingual corporate language programs for Luxembourg companies that want tailored delivery, reporting and scheduling.",
+    "target_user": "Luxembourg employers and HR teams that need language training for staff in one or more languages.",
+    "core_pain": "Companies need language training that fits roles, schedules and internal reporting without becoming a generic classroom offer.",
+    "claimed_outcome": "Improved employee language ability with HR-visible tracking and possible training-aid support.",
+    "market_scope": {
+      "primary_market": "Luxembourg",
+      "country_scope": [
+        "Luxembourg"
+      ],
+      "profession_scope": [
+        "general corporate workforce"
+      ]
+    }
+  },
+  "buyer_analysis": {
+    "primary_buyer_type": {
+      "value": "hr_ld",
+      "reason": "The product is a classic employer-funded training service and HR/L&D is the most likely procurement owner.",
+      "confidence": 0.81
+    },
+    "secondary_buyer_types": [
+      {
+        "value": "employer",
+        "reason": "Business-unit leaders and company management can sponsor team language budgets.",
+        "confidence": 0.68
+      },
+      {
+        "value": "partner",
+        "reason": "The service may be delivered through external training or implementation partners.",
+        "confidence": 0.51
+      }
+    ],
+    "budget_owner": {
+      "value": "hr_ld",
+      "reason": "The buyer motion is most naturally owned by HR/L&D in a corporate setting.",
+      "confidence": 0.73
+    },
+    "buyer_influencers": [
+      {
+        "value": "hr_ld",
+        "reason": "HR typically cares about participation, reporting and training logistics.",
+        "confidence": 0.83
+      },
+      {
+        "value": "team_manager",
+        "reason": "Managers influence whether the language program is useful for team execution.",
+        "confidence": 0.71
+      },
+      {
+        "value": "founder_ceo",
+        "reason": "In smaller firms, leadership may decide on training spend directly.",
+        "confidence": 0.54
+      }
+    ]
+  },
+  "claim_extraction": {
+    "externally_checkable_claims": [
+      {
+        "claim_area": "funding",
+        "claim_text": "INFPC co-financing of 15-35% is relevant to this product.",
+        "status": "partially_verified",
+        "notes": "General Luxembourg company training co-financing exists and can reach 15% with a 35% uplift for certain employees. Product-level eligibility still depends on the exact plan and provider setup.",
+        "source_ids": [
+          "guichet_fpc_2025"
+        ]
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "Berlitz is global, Prolingua is local and freelancers do not provide structured tracking.",
+        "status": "partially_verified",
+        "notes": "Berlitz and Prolingua clearly offer corporate language services. The 'freelancers do not provide structured tracking' part is not directly verified and should not be treated as fact.",
+        "source_ids": [
+          "berlitz_business_lux",
+          "prolingua_tailor_made",
+          "inlingua_company_courses"
+        ]
+      }
+    ],
+    "internal_claims_unverified": [
+      {
+        "claim_area": "accreditation",
+        "claim_text": "Ministry of Education certified implies INFPC eligibility.",
+        "reason_unverified": "No public source reviewed confirms this provider-specific certification route."
+      },
+      {
+        "claim_area": "scope_fit",
+        "claim_text": "LMS analytics, multilingual delivery and flexible scheduling together create a unique edge.",
+        "reason_unverified": "The public market contains similar flexibility and tailored delivery; the exact edge is not externally established."
+      }
+    ]
+  },
+  "external_research": {
+    "regulator_entities": [],
+    "framework_entities": [],
+    "funding_bodies": [
+      {
+        "name": "INFPC",
+        "type": "training_fund",
+        "relevance": "Administers Luxembourg co-financing for continuing vocational training.",
+        "source_ids": [
+          "infpc_guichet"
+        ]
+      },
+      {
+        "name": "Guichet.lu",
+        "type": "other",
+        "relevance": "Publishes official instructions and eligibility rules for employer training co-financing.",
+        "source_ids": [
+          "guichet_fpc_2025"
+        ]
+      }
+    ],
+    "approval_entities": [],
+    "regulatory_requirements": [
+      {
+        "requirement": "Luxembourg company training co-financing can reach 15% of annual investment and 35% for eligible wage costs.",
+        "applies_to": "Luxembourg employers requesting training co-financing",
+        "jurisdiction": "Luxembourg",
+        "status": "confirmed",
+        "source_ids": [
+          "guichet_fpc_2025"
+        ]
+      }
+    ],
+    "subsidies_or_funding": [
+      {
+        "name": "Company training co-financing",
+        "jurisdiction": "Luxembourg",
+        "relevance": "direct",
+        "eligibility_notes": "General aid exists, but the exact eligibility of this corporate language service requires validation.",
+        "source_ids": [
+          "guichet_fpc_2025"
+        ]
+      }
+    ],
+    "competitors_or_substitutes": [
+      {
+        "name": "Prolingua",
+        "type": "direct",
+        "notes": "Offers tailor-made courses in companies, at premises or remotely, with specialist language options.",
+        "source_ids": [
+          "prolingua_tailor_made",
+          "prolingua_specialist_language"
+        ]
+      },
+      {
+        "name": "inlingua Luxembourg",
+        "type": "direct",
+        "notes": "Offers company and individual language courses with online and in-person delivery.",
+        "source_ids": [
+          "inlingua_company_courses",
+          "inlingua_adults"
+        ]
+      },
+      {
+        "name": "Berlitz Luxembourg",
+        "type": "indirect",
+        "notes": "Provides corporate language solutions for international teams across many languages.",
+        "source_ids": [
+          "berlitz_business_lux"
+        ]
+      }
+    ]
+  },
+  "dashboard_enrichment": {
+    "legal_claim_severity": {
+      "value": 2,
+      "reason": "The product uses training-aid wording, not formal regulated-practice or accreditation claims.",
+      "confidence": 0.84
+    },
+    "authority_needed_for_delivery": {
+      "value": 1,
+      "reason": "Core delivery does not depend on formal external approval.",
+      "confidence": 0.88
+    },
+    "authority_needed_for_claims": {
+      "value": 2,
+      "reason": "Funding and certification claims should be checked externally before being used publicly.",
+      "confidence": 0.79
+    },
+    "proof_stack": [
+      {
+        "value": "buyer_acceptance",
+        "reason": "A corporate language service must win against generic local competitors and freelancers.",
+        "confidence": 0.91
+      },
+      {
+        "value": "roi_case_study",
+        "reason": "HR buyers usually want proof that tracking and flexibility improve completion or productivity.",
+        "confidence": 0.78
+      },
+      {
+        "value": "learning_progress",
+        "reason": "Language improvement remains an important intermediate proof signal.",
+        "confidence": 0.82
+      }
+    ],
+    "proof_burden": {
+      "value": 3,
+      "reason": "The service is not regulated, but it still needs commercial proof and evidence that its tracking layer adds value.",
+      "confidence": 0.73
+    },
+    "dependency_types": [
+      {
+        "value": "data_privacy_review",
+        "reason": "LMS tracking, progress reporting and session recordings require privacy review.",
+        "confidence": 0.87
+      },
+      {
+        "value": "country_localization",
+        "reason": "The proposition depends on Luxembourg-specific training aid and employer expectations.",
+        "confidence": 0.79
+      },
+      {
+        "value": "funding_eligibility",
+        "reason": "The INFPC angle must be validated per client and plan.",
+        "confidence": 0.81
+      },
+      {
+        "value": "teacher_supply",
+        "reason": "Custom language programs need a reliable bench of teachers across languages and levels.",
+        "confidence": 0.67
+      }
+    ],
+    "scope_variance_risk": {
+      "value": "low",
+      "reason": "The product is broad but confined to a single market and a standard corporate-training motion.",
+      "confidence": 0.78
+    },
+    "expansion_variance_risk": {
+      "value": "high",
+      "reason": "Outside Luxembourg, training-aid logic and buyer expectations would change materially.",
+      "confidence": 0.85
+    },
+    "subsidy_exists": {
+      "value": "yes",
+      "reason": "Luxembourg employer training co-financing exists.",
+      "confidence": 0.9
+    },
+    "subsidy_eligibility_status": {
+      "value": "likely_eligible",
+      "reason": "The product category fits general employer training aid, but the exact course configuration needs validation.",
+      "confidence": 0.69
+    },
+    "subsidy_conflict_flag": {
+      "value": false,
+      "reason": "No direct public conflict was found for the category itself.",
+      "confidence": 0.74
+    },
+    "market_regulatory_context": {
+      "value": "lightly_regulated",
+      "reason": "The product is a standard corporate training service with some funding-rule checks.",
+      "confidence": 0.91
+    }
+  },
+  "risk_map": {
+    "claim_language_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The certification and funding language should be softened until validated.",
+      "source_ids": [
+        "guichet_fpc_2025",
+        "infpc_guichet"
+      ]
+    },
+    "authority_dependency_risk": {
+      "status": "absent",
+      "severity": "low",
+      "reason": "Delivery itself does not rely on formal authority; only the funding angle does.",
+      "source_ids": [
+        "guichet_fpc_2025"
+      ]
+    },
+    "competitive_gap_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "Several established corporate language providers already offer tailored and online/hybrid delivery.",
+      "source_ids": [
+        "prolingua_tailor_made",
+        "inlingua_company_courses",
+        "berlitz_business_lux"
+      ]
+    },
+    "numeric_claim_risk": {
+      "status": "absent",
+      "severity": "low",
+      "reason": "No numeric market claim is central to this product card.",
+      "source_ids": []
+    },
+    "subsidy_conflict_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "Eligibility is plausible but not proven for the exact product configuration.",
+      "source_ids": [
+        "guichet_fpc_2025"
+      ]
+    },
+    "positioning_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The product can easily look like a generic language school offer unless the reporting and tracking layer is demonstrated.",
+      "source_ids": [
+        "prolingua_tailor_made",
+        "inlingua_adults"
+      ]
+    }
+  },
+  "claim_conflicts": [
+    {
+      "claim_area": "accreditation",
+      "claim_text": "Ministry of Education certified implies INFPC eligible.",
+      "conflict_type": "ambiguity",
+      "severity": "high",
+      "what_is_wrong": "No public source reviewed confirms that this specific certification route exists or that it automatically grants eligibility.",
+      "source_ids": [
+        "guichet_fpc_2025",
+        "infpc_guichet"
+      ]
+    },
+    {
+      "claim_area": "competitor_gap",
+      "claim_text": "Berlitz, Prolingua and freelancers are the full substitute set.",
+      "conflict_type": "ambiguity",
+      "severity": "medium",
+      "what_is_wrong": "The reviewed market evidence shows substitutes, but it is not an exhaustive census of the Luxembourg market.",
+      "source_ids": [
+        "berlitz_business_lux",
+        "prolingua_tailor_made",
+        "inlingua_company_courses"
+      ]
+    }
+  ],
+  "recommended_manual_review": [
+    {
+      "field": "certification_route",
+      "reason": "Validate any Ministry-of-Education or similar certification language before using it publicly."
+    },
+    {
+      "field": "lms_claims",
+      "reason": "Make sure the reporting layer is strong enough to justify the premium positioning."
+    },
+    {
+      "field": "funding_route",
+      "reason": "Check whether each client setup is actually eligible for training co-financing."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "guichet_fpc_2025",
+      "title": "Aides à la formation professionnelle continue en entreprise",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/fr/entreprises/financement-aides/aides-emploi-recrutement-formation/formation-professionnelle-continue/fpc-entreprise.html",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "infpc_guichet",
+      "title": "Institut national pour le développement de la formation professionnelle continue (INFPC)",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/fr/entreprises/organismes/organismes_citoyens/institut-national-formation-continue.html",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "prolingua_tailor_made",
+      "title": "Tailor-made courses in your company, at Prolingua's premises or at a distance",
+      "publisher": "Prolingua",
+      "url": "https://prolingua.lu/en/courses_25?category=individual",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "prolingua_specialist_language",
+      "title": "Tailor-made courses / Specialist language",
+      "publisher": "Prolingua",
+      "url": "https://prolingua.lu/en/courses_25/specialist-language_8/english_5",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "inlingua_company_courses",
+      "title": "Cours de langues pros & particuliers Luxembourg",
+      "publisher": "inlingua Luxembourg",
+      "url": "https://www.inlingua.lu/",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "inlingua_adults",
+      "title": "Cours de langues pour adultes",
+      "publisher": "inlingua Luxembourg",
+      "url": "https://www.inlingua.lu/adultes",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "berlitz_business_lux",
+      "title": "Learn a language at our language institute | Berlitz",
+      "publisher": "Berlitz",
+      "url": "https://www.berlitz.com/en-lu",
+      "source_type": "company",
+      "reliability": "medium"
+    }
+  ],
+  "quality_signals": {
+    "source_coverage_score": 0.78,
+    "unverified_claims_count": 2,
+    "field_confidence": {
+      "primary_buyer_type": 0.81,
+      "budget_owner": 0.73,
+      "legal_claim_severity": 0.84,
+      "authority_needed_for_delivery": 0.88,
+      "authority_needed_for_claims": 0.79,
+      "proof_burden": 0.73,
+      "scope_variance_risk": 0.78,
+      "expansion_variance_risk": 0.85,
+      "subsidy_exists": 0.9,
+      "subsidy_eligibility_status": 0.69,
+      "market_regulatory_context": 0.91
+    }
+  }
+}

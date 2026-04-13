@@ -1,0 +1,464 @@
+{
+  "product_code": "L1",
+  "product_title": "Sproochtest Preparation",
+  "analysis_timestamp": "2026-04-13T07:30:00+04:00",
+  "product_summary": {
+    "one_sentence_summary": "Live Luxembourgish exam-prep course for people preparing for the Sproochentest required in the nationality process.",
+    "target_user": "Adults preparing for Luxembourgish nationality, especially naturalisation candidates who need to pass the Sproochentest.",
+    "core_pain": "Learners need a structured way to pass the official Luxembourgish language exam on the first attempt.",
+    "claimed_outcome": "Exam readiness, pass confidence and reimbursement awareness for the nationality route.",
+    "market_scope": {
+      "primary_market": "Luxembourg",
+      "country_scope": ["Luxembourg"],
+      "profession_scope": ["naturalisation candidates", "adult learners"]
+    }
+  },
+  "buyer_analysis": {
+    "primary_buyer_type": {
+      "value": "individual",
+      "reason": "This is a consumer exam-preparation product bought by nationality candidates.",
+      "confidence": 0.95
+    },
+    "secondary_buyer_types": [],
+    "budget_owner": {
+      "value": "unknown",
+      "reason": "The spend is usually self-paid, and the dashboard budget-owner taxonomy is company-oriented.",
+      "confidence": 0.72
+    },
+    "buyer_influencers": [
+      {
+        "value": "unknown",
+        "reason": "The primary purchase is personal, so there is usually no corporate influencer.",
+        "confidence": 0.84
+      }
+    ]
+  },
+  "claim_extraction": {
+    "externally_checkable_claims": [
+      {
+        "claim_area": "exam",
+        "claim_text": "The Sproochentest is the official Luxembourgish language exam required in the nationality procedure.",
+        "status": "verified",
+        "notes": "Guichet and INLL confirm the test's role in the nationality route.",
+        "source_ids": ["guichet_naturalisation", "inll_sproochentest"]
+      },
+      {
+        "claim_area": "exam",
+        "claim_text": "The test requires oral expression at A2 and listening comprehension at B1.",
+        "status": "verified",
+        "notes": "INLL's official page sets the oral A2 and listening B1 structure.",
+        "source_ids": ["inll_sproochentest"]
+      },
+      {
+        "claim_area": "funding",
+        "claim_text": "The State can reimburse up to 750 euros for approved Luxembourgish language course fees, and the Sproochentest fee can also be reimbursed after success.",
+        "status": "partially_verified",
+        "notes": "Official Guichet guidance confirms reimbursement routes, while Lux'Languages and ETIC state the 750 euro amount and the test fee reimbursement. The card compresses separate fee and course rules into one line.",
+        "source_ids": ["guichet_conditions_prealables", "guichet_naturalisation", "guichet_sproochentest_pdf", "etic_sproochentest", "luxlanguages_sproochentest_individual"]
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "Educateme is already #1 in Sproochtest, so this is a pure upsell with no real competitor pressure.",
+        "status": "contradicted",
+        "notes": "There are official and private alternatives in the same Sproochentest prep space, including INLL, ETIC, Lux'Languages, Prolingua and LuxLessons. The market is not empty.",
+        "source_ids": ["inll_sproochentest", "etic_sproochentest", "luxlanguages_sproochentest_group", "prolingua_luxembourgish", "luxlessons_home"]
+      }
+    ],
+    "internal_claims_unverified": [
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "98% pass rate.",
+        "reason_unverified": "This is a provider claim that was not independently verified in the public sources reviewed."
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "Top-3 private provider in Luxembourg.",
+        "reason_unverified": "Market rank is an internal positioning claim and needs independent proof."
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "INLL is free but has waitlists.",
+        "reason_unverified": "A free public route exists, but waitlist conditions were not independently verified."
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "Prolingua has a lower pass rate.",
+        "reason_unverified": "Competitor pass-rate comparisons were not independently verified."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "Established brand and strong demand with waiting list.",
+        "reason_unverified": "This is an internal commercial assessment rather than a public fact."
+      }
+    ]
+  },
+  "external_research": {
+    "regulator_entities": [
+      {
+        "name": "Institut national des langues Luxembourg (INLL)",
+        "type": "exam_body",
+        "relevance": "INLL administers the official Sproochentest used in the nationality procedure.",
+        "source_ids": ["inll_sproochentest"]
+      },
+      {
+        "name": "Ministry of Justice",
+        "type": "ministry",
+        "relevance": "The Ministry owns the nationality procedure and reimbursement route.",
+        "source_ids": ["guichet_naturalisation", "guichet_conditions_prealables"]
+      }
+    ],
+    "framework_entities": [
+      {
+        "name": "Law of 8 March 2017 on Luxembourg nationality",
+        "type": "law",
+        "relevance": "Defines the nationality process in which the Sproochentest is used.",
+        "source_ids": ["guichet_naturalisation", "guichet_conditions_prealables"]
+      },
+      {
+        "name": "Grand-ducal regulation of 22 July 2019 on the Luxembourgish language evaluation test",
+        "type": "other",
+        "relevance": "The official Sproochentest page cites the regulatory basis for the exam.",
+        "source_ids": ["inll_sproochentest"]
+      }
+    ],
+    "funding_bodies": [
+      {
+        "name": "Luxembourg State reimbursement route",
+        "type": "reimbursement_body",
+        "relevance": "The state reimburses certain language-course and test fees for the nationality procedure.",
+        "source_ids": ["guichet_conditions_prealables", "guichet_naturalisation", "guichet_sproochentest_pdf"]
+      }
+    ],
+    "approval_entities": [
+      {
+        "name": "Approved Luxembourgish language course provider route",
+        "type": "accepted_provider_route",
+        "relevance": "The reimbursement route depends on approved provider conditions for language courses.",
+        "source_ids": ["etic_sproochentest", "luxlanguages_sproochentest_individual"]
+      }
+    ],
+    "regulatory_requirements": [
+      {
+        "requirement": "Naturalisation applicants must have knowledge of Luxembourgish proven by a language test pass certificate.",
+        "applies_to": "Nationality applicants",
+        "jurisdiction": "Luxembourg",
+        "status": "confirmed",
+        "source_ids": ["guichet_naturalisation"]
+      },
+      {
+        "requirement": "The Sproochentest uses A2 oral expression and B1 listening comprehension.",
+        "applies_to": "Nationality applicants taking the exam",
+        "jurisdiction": "Luxembourg",
+        "status": "confirmed",
+        "source_ids": ["inll_sproochentest"]
+      }
+    ],
+    "subsidies_or_funding": [
+      {
+        "name": "State reimbursement for Luxembourgish language course fees",
+        "jurisdiction": "Luxembourg",
+        "relevance": "direct",
+        "eligibility_notes": "Provider pages state reimbursement can reach 750 euros, but the exact conditions depend on the nationality route and approved provider status.",
+        "source_ids": ["guichet_conditions_prealables", "luxlanguages_sproochentest_individual", "etic_sproochentest"]
+      },
+      {
+        "name": "State reimbursement for Sproochentest registration fee",
+        "jurisdiction": "Luxembourg",
+        "relevance": "direct",
+        "eligibility_notes": "The official exam fee is 75 euros and is reimbursable under the nationality procedure after success.",
+        "source_ids": ["guichet_sproochentest_pdf", "etic_sproochentest"]
+      }
+    ],
+    "competitors_or_substitutes": [
+      {
+        "name": "INLL Sproochentest route",
+        "type": "direct",
+        "notes": "The official exam body and route set the baseline the product must sit next to.",
+        "source_ids": ["inll_sproochentest"]
+      },
+      {
+        "name": "ETIC Sproochentest",
+        "type": "direct",
+        "notes": "Commercial Sproochentest preparation with reimbursement guidance.",
+        "source_ids": ["etic_sproochentest", "etic_sproochentest_de"]
+      },
+      {
+        "name": "Lux'Languages Sproochentest preparation",
+        "type": "direct",
+        "notes": "Commercial prep offer explicitly marketed with up to 750 euro reimbursement once the test is passed.",
+        "source_ids": ["luxlanguages_sproochentest_individual", "luxlanguages_sproochentest_group"]
+      },
+      {
+        "name": "Prolingua Luxembourgish courses",
+        "type": "substitute",
+        "notes": "Private Luxembourgish courses and nationality-oriented offers.",
+        "source_ids": ["prolingua_luxembourgish", "prolingua_luxembourgish_offers"]
+      },
+      {
+        "name": "LuxLessons Luxembourgish course",
+        "type": "substitute",
+        "notes": "Private Luxembourgish course focused on citizenship prep.",
+        "source_ids": ["luxlessons_home"]
+      }
+    ]
+  },
+  "dashboard_enrichment": {
+    "legal_claim_severity": {
+      "value": 4,
+      "reason": "The product sits directly on a nationality exam and state reimbursement route.",
+      "confidence": 0.97
+    },
+    "authority_needed_for_delivery": {
+      "value": 2,
+      "reason": "Teaching the course does not require formal approval, but route knowledge and correct exam framing matter.",
+      "confidence": 0.8
+    },
+    "authority_needed_for_claims": {
+      "value": 4,
+      "reason": "Claims about exam readiness and reimbursement depend on the official nationality route and approved-provider conditions.",
+      "confidence": 0.96
+    },
+    "proof_stack": [
+      {
+        "value": "buyer_acceptance",
+        "reason": "The consumer has to prefer this course over free or cheaper alternatives.",
+        "confidence": 0.9
+      },
+      {
+        "value": "exam_pass",
+        "reason": "Passing the official Sproochentest is the core outcome.",
+        "confidence": 0.98
+      },
+      {
+        "value": "learning_progress",
+        "reason": "Learners should show measurable progress toward A2 oral and B1 listening goals.",
+        "confidence": 0.82
+      }
+    ],
+    "proof_burden": {
+      "value": 4,
+      "reason": "The product must prove route-relevant exam success rather than just normal learning satisfaction.",
+      "confidence": 0.95
+    },
+    "dependency_types": [
+      {
+        "value": "country_localization",
+        "reason": "The course is deeply Luxembourg-specific.",
+        "confidence": 0.94
+      },
+      {
+        "value": "funding_eligibility",
+        "reason": "The reimbursement angle depends on the official route and approved-provider logic.",
+        "confidence": 0.93
+      },
+      {
+        "value": "regulator_acceptance",
+        "reason": "Exam pass and reimbursement are controlled by official nationality procedures.",
+        "confidence": 0.94
+      }
+    ],
+    "scope_variance_risk": {
+      "value": "low",
+      "reason": "The current scope is tightly anchored to Luxembourg nationality prep.",
+      "confidence": 0.92
+    },
+    "expansion_variance_risk": {
+      "value": "medium",
+      "reason": "Adjacent nationality or integration products would need different rules and language levels.",
+      "confidence": 0.74
+    },
+    "subsidy_exists": {
+      "value": "yes",
+      "reason": "Public reimbursement routes exist for both approved language course fees and the Sproochentest fee.",
+      "confidence": 0.96
+    },
+    "subsidy_eligibility_status": {
+      "value": "unclear",
+      "reason": "The route exists, but product-level eligibility still depends on the approved-provider and nationality-procedure conditions.",
+      "confidence": 0.72
+    },
+    "subsidy_conflict_flag": {
+      "value": true,
+      "reason": "The card compresses multiple reimbursement rules into a single simple number and omits the route conditions.",
+      "confidence": 0.91
+    },
+    "market_regulatory_context": {
+      "value": "strongly_regulated",
+      "reason": "The offer sits next to a formal nationality procedure and a state reimbursement regime.",
+      "confidence": 0.97
+    }
+  },
+  "risk_map": {
+    "claim_language_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "Official exam and reimbursement language makes the product sound closer to a state-backed route than it really is.",
+      "source_ids": ["guichet_naturalisation", "guichet_conditions_prealables", "inll_sproochentest"]
+    },
+    "authority_dependency_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "Exam pass and reimbursement depend on official procedures and approved-provider conditions.",
+      "source_ids": ["guichet_conditions_prealables", "guichet_sproochentest_pdf", "etic_sproochentest"]
+    },
+    "competitive_gap_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The market already has multiple official and private Sproochentest alternatives.",
+      "source_ids": ["inll_sproochentest", "etic_sproochentest", "luxlanguages_sproochentest_individual", "prolingua_luxembourgish"]
+    },
+    "numeric_claim_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The reimbursement amount is real in provider pages but is presented more cleanly than the official rules support.",
+      "source_ids": ["guichet_conditions_prealables", "guichet_sproochentest_pdf", "etic_sproochentest", "luxlanguages_sproochentest_individual"]
+    },
+    "subsidy_conflict_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The card simplifies several reimbursement regimes into one easy number without showing the conditions.",
+      "source_ids": ["guichet_conditions_prealables", "etic_sproochentest", "luxlanguages_sproochentest_individual"]
+    },
+    "positioning_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The product sits between exam prep and citizenship-adjacent support, which makes it easy to overclaim.",
+      "source_ids": ["guichet_conditions_prealables", "guichet_naturalisation"]
+    }
+  },
+  "claim_conflicts": [
+    {
+      "claim_area": "funding",
+      "claim_text": "Government reimbursement ~750 after exam pass.",
+      "conflict_type": "ambiguity",
+      "severity": "high",
+      "what_is_wrong": "The public sources confirm reimbursement routes, but the card merges course-fee reimbursement, exam-fee reimbursement and eligibility conditions into one simple claim.",
+      "source_ids": ["guichet_conditions_prealables", "guichet_naturalisation", "guichet_sproochentest_pdf", "etic_sproochentest", "luxlanguages_sproochentest_individual"]
+    },
+    {
+      "claim_area": "competitor_gap",
+      "claim_text": "No real competitor pressure / pure upsell.",
+      "conflict_type": "external",
+      "severity": "high",
+      "what_is_wrong": "There are already official and private alternatives in the Sproochentest prep and Luxembourgish course market, so the market is not empty.",
+      "source_ids": ["inll_sproochentest", "etic_sproochentest", "luxlanguages_sproochentest_group", "prolingua_luxembourgish", "luxlessons_home"]
+    }
+  ],
+  "recommended_manual_review": [
+    {
+      "field": "reimbursement-copy",
+      "reason": "Make the reimbursement language precise and separate the test fee from the course fee."
+    },
+    {
+      "field": "market-positioning",
+      "reason": "Decide whether the offer is a premium exam-prep product or a citizenship-journey bundle, because both need different messaging."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "guichet_naturalisation",
+      "title": "Acquiring Luxembourgish nationality by naturalisation",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/citoyens/citoyennete/nationalite-luxembourgeoise/acquisition-recouvrement/naturalisation.html",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "guichet_conditions_prealables",
+      "title": "Conditions préalables à l'acquisition volontaire de la nationalité",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/content/guichet/fr/citoyens/citoyennete/nationalite-luxembourgeoise/acquisition-recouvrement/conditions-prealables.html",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "guichet_sproochentest_pdf",
+      "title": "Fiche d'inscription au test en vue de l'admission a la naturalisation",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/dam-assets/catalogue-formulaires/nationalite/inscription-test-naturalisation/inscription-test-naturalisation-fr.pdf",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "inll_sproochentest",
+      "title": "Sproochentest: déi lëtzebuergesch Nationalitéit erhalen",
+      "publisher": "INLL",
+      "url": "https://www.inll.lu/lu/sproochentest-2/",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "etic_sproochentest",
+      "title": "Home | ETIC Sproochentest",
+      "publisher": "ETIC",
+      "url": "https://sproochentest.etic.lu/",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "etic_sproochentest_de",
+      "title": "Startseite | Sproochentest",
+      "publisher": "ETIC",
+      "url": "https://sproochentest.etic.lu/?lang=de",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "luxlanguages_sproochentest_individual",
+      "title": "Preparation au Sproochentest individuelle 100 % personnalisee",
+      "publisher": "Lux'Languages",
+      "url": "https://www.luxlanguages.lu/produit/preparation-au-sproochentest/",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "luxlanguages_sproochentest_group",
+      "title": "Preparation au Sproochentest Groupe fevrier",
+      "publisher": "Lux'Languages",
+      "url": "https://www.luxlanguages.lu/produit/preparation-au-sproochentest-groupe-fevrier/",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "prolingua_luxembourgish",
+      "title": "Accueil - Prolingua Language Centre",
+      "publisher": "Prolingua",
+      "url": "https://prolingua.lu/",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "prolingua_luxembourgish_offers",
+      "title": "Luxembourgish courses under nationality law provisions",
+      "publisher": "Prolingua",
+      "url": "https://prolingua.lu/en/offers_37/luxembourgish-courses_11/",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "luxlessons_home",
+      "title": "Learn Luxembourgish Online Fast",
+      "publisher": "LuxLessons",
+      "url": "https://www.luxlessons.lu/",
+      "source_type": "company",
+      "reliability": "medium"
+    }
+  ],
+  "quality_signals": {
+    "source_coverage_score": 0.88,
+    "unverified_claims_count": 5,
+    "field_confidence": {
+      "primary_buyer_type": 0.95,
+      "budget_owner": 0.72,
+      "legal_claim_severity": 0.97,
+      "authority_needed_for_delivery": 0.8,
+      "authority_needed_for_claims": 0.96,
+      "proof_burden": 0.95,
+      "scope_variance_risk": 0.92,
+      "expansion_variance_risk": 0.74,
+      "subsidy_exists": 0.96,
+      "subsidy_eligibility_status": 0.72,
+      "market_regulatory_context": 0.97
+    }
+  }
+}

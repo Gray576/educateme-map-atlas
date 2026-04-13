@@ -1,0 +1,407 @@
+{
+  "product_code": "A8",
+  "product_title": "B2B Language Proficiency Audit",
+  "analysis_timestamp": "2026-04-13T07:30:00+04:00",
+  "product_summary": {
+    "one_sentence_summary": "CEFR-aligned B2B language audit for Luxembourg firms that want per-employee diagnostics, gap analysis and training recommendations.",
+    "target_user": "Companies with multilingual operations, especially HR, compliance and business-unit leaders in Luxembourg.",
+    "core_pain": "Firms need objective language diagnostics before deciding where to deploy people or which employees need training.",
+    "claimed_outcome": "A company language capability report with per-employee CEFR levels and training recommendations.",
+    "market_scope": {
+      "primary_market": "Luxembourg",
+      "country_scope": ["Luxembourg"],
+      "profession_scope": ["multilingual corporate teams", "fund admins", "law firms", "fiduciaries"]
+    }
+  },
+  "buyer_analysis": {
+    "primary_buyer_type": {
+      "value": "mixed",
+      "reason": "The offer could be bought by HR, compliance, operations or a business unit depending on where language risk sits.",
+      "confidence": 0.72
+    },
+    "secondary_buyer_types": [
+      {
+        "value": "hr_ld",
+        "reason": "Training diagnostics usually sit in HR or L&D once the audit identifies gaps.",
+        "confidence": 0.75
+      },
+      {
+        "value": "employer",
+        "reason": "The card is company-wide and positions the offer as a corporate capability review.",
+        "confidence": 0.66
+      },
+      {
+        "value": "compliance",
+        "reason": "In regulated or multilingual environments, compliance teams may care about defensible language standards.",
+        "confidence": 0.61
+      }
+    ],
+    "budget_owner": {
+      "value": "business_unit",
+      "reason": "The spend is most likely owned by the operational unit that needs better language capability, not by a central consumer budget.",
+      "confidence": 0.58
+    },
+    "buyer_influencers": [
+      {
+        "value": "hr_ld",
+        "reason": "HR will care about employee reports, training recommendations and test administration.",
+        "confidence": 0.78
+      },
+      {
+        "value": "legal",
+        "reason": "Employee testing and reporting can create employment-law and privacy questions.",
+        "confidence": 0.58
+      },
+      {
+        "value": "compliance",
+        "reason": "Compliance teams may want a defensible standard for language-related role requirements.",
+        "confidence": 0.63
+      }
+    ]
+  },
+  "claim_extraction": {
+    "externally_checkable_claims": [
+      {
+        "claim_area": "other",
+        "claim_text": "CEFR-aligned language assessment and reporting is a valid structure for workplace language testing.",
+        "status": "partially_verified",
+        "notes": "CEFR-based corporate assessment products exist, and Allingua, Pearson and Pipplet explicitly position their tests around workplace assessment and CEFR reporting. The exact combined audit product is still an internal product design.",
+        "source_ids": ["cefr_council_of_europe", "pearson_versant", "pipplet_standard", "allingua_home", "allingua_approach"]
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "78% of employers use language tests.",
+        "status": "unverified",
+        "notes": "No primary source reviewed here confirmed this exact figure.",
+        "source_ids": []
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "Pearson, Cambridge and Pipplet are generic, English-focused competitors.",
+        "status": "contradicted",
+        "notes": "Pearson and Pipplet both offer broader multilingual assessment routes and CEFR-aligned reporting; Allingua also offers adaptive testing in 29 languages with HR reporting. The market is not English-only.",
+        "source_ids": ["pearson_versant", "cambridge_linguaskill", "pipplet_about", "pipplet_standard", "allingua_home", "allingua_approach"]
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "Nobody does a Luxembourg-specific trilingual language audit.",
+        "status": "contradicted",
+        "notes": "The absolute uniqueness claim is too strong because multilingual assessment and reporting products already exist in Luxembourg, even if no identical trilingual Luxembourg-specific package was found.",
+        "source_ids": ["allingua_home", "allingua_approach", "pipplet_about", "pearson_versant"]
+      }
+    ],
+    "internal_claims_unverified": [
+      {
+        "claim_area": "scope_fit",
+        "claim_text": "A mini-audit can work as a free lead magnet.",
+        "reason_unverified": "This is a go-to-market hypothesis, not an externally verified fact."
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "The product will cover 20-100 employees per audit.",
+        "reason_unverified": "This is a design choice from the card and was not externally verified."
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "Margin will be 70-75%.",
+        "reason_unverified": "Margin is an internal commercial estimate, not a public fact."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "A pilot with three companies is enough to validate the framework.",
+        "reason_unverified": "This is an execution plan, not an externally checkable statement."
+      }
+    ]
+  },
+  "external_research": {
+    "regulator_entities": [
+      {
+        "name": "Council of Europe",
+        "type": "other",
+        "relevance": "The CEFR framework used by the product is published and maintained in the Council of Europe ecosystem.",
+        "source_ids": ["cefr_council_of_europe"]
+      }
+    ],
+    "framework_entities": [
+      {
+        "name": "Common European Framework of Reference for Languages (CEFR)",
+        "type": "standard",
+        "relevance": "The product explicitly uses CEFR-aligned assessment and reporting.",
+        "source_ids": ["cefr_council_of_europe", "allingua_approach", "pipplet_standard", "pearson_versant"]
+      }
+    ],
+    "funding_bodies": [],
+    "approval_entities": [],
+    "regulatory_requirements": [],
+    "subsidies_or_funding": [],
+    "competitors_or_substitutes": [
+      {
+        "name": "Versant by Pearson",
+        "type": "direct",
+        "notes": "Corporate language assessment for HR workflows with English testing and some additional languages, positioned for recruitment and L&D.",
+        "source_ids": ["pearson_versant", "pearson_versant_tests"]
+      },
+      {
+        "name": "Cambridge Linguaskill",
+        "type": "direct",
+        "notes": "Corporate language assessment with Business and General versions and CEFR coverage.",
+        "source_ids": ["cambridge_linguaskill"]
+      },
+      {
+        "name": "Pipplet",
+        "type": "direct",
+        "notes": "Multilingual online language assessment for job candidates, employees and learners, with CEFR-aligned reporting and 40+ languages.",
+        "source_ids": ["pipplet_about", "pipplet_standard", "pipplet_languages"]
+      },
+      {
+        "name": "Allingua L-testing",
+        "type": "substitute",
+        "notes": "Luxembourg-based adaptive testing platform in 29 languages with HR reporting and CEFR-aligned progress tests.",
+        "source_ids": ["allingua_home", "allingua_approach"]
+      }
+    ]
+  },
+  "dashboard_enrichment": {
+    "legal_claim_severity": {
+      "value": 1,
+      "reason": "This is mainly a commercial assessment product, not a regulated, accredited or mandatory-route claim.",
+      "confidence": 0.86
+    },
+    "authority_needed_for_delivery": {
+      "value": 2,
+      "reason": "A credible language audit needs assessment design expertise and careful handling of employee data.",
+      "confidence": 0.77
+    },
+    "authority_needed_for_claims": {
+      "value": 2,
+      "reason": "CEFR alignment and diagnostic credibility should be reviewed by an assessment SME, but no formal approval route is required.",
+      "confidence": 0.78
+    },
+    "proof_stack": [
+      {
+        "value": "buyer_acceptance",
+        "reason": "The product only matters if HR or business teams decide the audit output is useful enough to buy.",
+        "confidence": 0.88
+      },
+      {
+        "value": "paid_pilot",
+        "reason": "A paid pilot is the fastest way to validate the audit workflow and reporting format.",
+        "confidence": 0.74
+      },
+      {
+        "value": "roi_case_study",
+        "reason": "The main question is whether the audit leads to better training spend or better hiring/deployment decisions.",
+        "confidence": 0.71
+      }
+    ],
+    "proof_burden": {
+      "value": 3,
+      "reason": "The product must prove buyer acceptance and defensibility, not just learner progress.",
+      "confidence": 0.79
+    },
+    "dependency_types": [
+      {
+        "value": "expert_partner",
+        "reason": "Assessment design and CEFR alignment benefit from psychometrics or language-testing expertise.",
+        "confidence": 0.8
+      },
+      {
+        "value": "data_privacy_review",
+        "reason": "Employee-level language reporting creates privacy and HR-data handling questions.",
+        "confidence": 0.83
+      },
+      {
+        "value": "country_localization",
+        "reason": "The card is Luxembourg-specific and includes Luxembourgish as a differentiator.",
+        "confidence": 0.76
+      }
+    ],
+    "scope_variance_risk": {
+      "value": "low",
+      "reason": "The current scope is explicitly Luxembourg-specific and tied to a defined corporate context.",
+      "confidence": 0.81
+    },
+    "expansion_variance_risk": {
+      "value": "high",
+      "reason": "Expanding to other countries or multilingual profiles would materially change the language matrix and HR reporting logic.",
+      "confidence": 0.88
+    },
+    "subsidy_exists": {
+      "value": "no",
+      "reason": "No relevant public subsidy or reimbursement route was identified for this audit product itself.",
+      "confidence": 0.88
+    },
+    "subsidy_eligibility_status": {
+      "value": "not_applicable",
+      "reason": "The product is a diagnostic service, not a funded training route.",
+      "confidence": 0.9
+    },
+    "subsidy_conflict_flag": {
+      "value": false,
+      "reason": "No subsidy claim is central to the card.",
+      "confidence": 0.92
+    },
+    "market_regulatory_context": {
+      "value": "lightly_regulated",
+      "reason": "Language testing in employment settings is not itself licensed, though it can touch privacy and HR compliance.",
+      "confidence": 0.82
+    }
+  },
+  "risk_map": {
+    "claim_language_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "Words like objective and audit can overstate certainty unless the methodology is validated.",
+      "source_ids": ["cefr_council_of_europe", "allingua_approach", "pipplet_standard"]
+    },
+    "authority_dependency_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "A defensible audit needs assessment expertise and privacy controls even without formal licensing.",
+      "source_ids": ["allingua_approach", "pipplet_about"]
+    },
+    "competitive_gap_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The market already has multilingual and CEFR-based testing products, including Luxembourg-based substitutes.",
+      "source_ids": ["pearson_versant", "cambridge_linguaskill", "pipplet_about", "allingua_home"]
+    },
+    "numeric_claim_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The 78% employer adoption figure was not verified.",
+      "source_ids": []
+    },
+    "subsidy_conflict_risk": {
+      "status": "absent",
+      "severity": "low",
+      "reason": "No funding claim is central to the audit product.",
+      "source_ids": []
+    },
+    "positioning_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The product needs sharper differentiation than generic testing or reporting.",
+      "source_ids": ["pearson_versant", "cambridge_linguaskill", "pipplet_standard", "allingua_home"]
+    }
+  },
+  "claim_conflicts": [
+    {
+      "claim_area": "competitor_gap",
+      "claim_text": "Pearson, Cambridge and Pipplet are generic, English-focused competitors.",
+      "conflict_type": "external",
+      "severity": "high",
+      "what_is_wrong": "Pearson and Pipplet both support broader multilingual or non-English assessment routes, and Pipplet explicitly offers 40+ languages. The market is not English-only.",
+      "source_ids": ["pearson_versant", "pipplet_about", "pipplet_standard"]
+    },
+    {
+      "claim_area": "competitor_gap",
+      "claim_text": "Nobody does a Luxembourg-specific trilingual language audit.",
+      "conflict_type": "ambiguity",
+      "severity": "medium",
+      "what_is_wrong": "The absolute uniqueness claim is not defensible because multilingual assessment and HR reporting tools already exist in Luxembourg, even if no exact clone was found.",
+      "source_ids": ["allingua_home", "allingua_approach", "pipplet_about", "pearson_versant"]
+    }
+  ],
+  "recommended_manual_review": [
+    {
+      "field": "assessment-methodology",
+      "reason": "Before launch, define the CEFR rubric and whether the audit is psychometric enough to stand up to buyer scrutiny."
+    },
+    {
+      "field": "privacy-design",
+      "reason": "Employee-level reporting should be reviewed for data protection and internal HR policy fit."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "cefr_council_of_europe",
+      "title": "Contributing institutions - Common European Framework of Reference for Languages (CEFR)",
+      "publisher": "Council of Europe",
+      "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/institutions",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "pearson_versant",
+      "title": "Versant by Pearson - Corporate English language learning",
+      "publisher": "Pearson",
+      "url": "https://www.pearson.com/languages/en-us/hr-professionals/versant.html",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "pearson_versant_tests",
+      "title": "Versant, our tests",
+      "publisher": "Pearson",
+      "url": "https://www.pearson.com/languages/en-us/hr-professionals/versant/our-tests.html",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "cambridge_linguaskill",
+      "title": "Linguaskill is being enhanced",
+      "publisher": "Cambridge English",
+      "url": "https://www.cambridgeenglish.org/exams-and-tests/linguaskill/linguaskill-what-is-changing/",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "pipplet_about",
+      "title": "About us - Team",
+      "publisher": "Pipplet",
+      "url": "https://www.pipplet.com/about-us",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "pipplet_standard",
+      "title": "Online Language Assessment - Pipplet Standard",
+      "publisher": "Pipplet",
+      "url": "https://www.pipplet.com/product/standard",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "pipplet_languages",
+      "title": "Over 40 Languages Assessed with Online Platform - Pipplet",
+      "publisher": "Pipplet",
+      "url": "https://www.pipplet.com/features/languages",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "allingua_home",
+      "title": "Professional language training",
+      "publisher": "Allingua",
+      "url": "https://www.allingua.lu/en/home/",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "allingua_approach",
+      "title": "What is our approach?",
+      "publisher": "Allingua",
+      "url": "https://www.allingua.lu/en/approach/",
+      "source_type": "company",
+      "reliability": "medium"
+    }
+  ],
+  "quality_signals": {
+    "source_coverage_score": 0.79,
+    "unverified_claims_count": 4,
+    "field_confidence": {
+      "primary_buyer_type": 0.72,
+      "budget_owner": 0.58,
+      "legal_claim_severity": 0.86,
+      "authority_needed_for_delivery": 0.77,
+      "authority_needed_for_claims": 0.78,
+      "proof_burden": 0.79,
+      "scope_variance_risk": 0.81,
+      "expansion_variance_risk": 0.88,
+      "subsidy_exists": 0.88,
+      "subsidy_eligibility_status": 0.9,
+      "market_regulatory_context": 0.82
+    }
+  }
+}

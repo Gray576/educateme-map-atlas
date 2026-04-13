@@ -1,0 +1,588 @@
+{
+  "product_code": "A1",
+  "product_title": "AI Literacy Workshop",
+  "analysis_timestamp": "2026-04-13T09:23:26Z",
+  "product_summary": {
+    "one_sentence_summary": "B2B AI literacy workshop for Luxembourg employers that pairs AI Act awareness with practical safe-use training.",
+    "target_user": "HR/L&D directors, SME CEOs and compliance stakeholders in Luxembourg companies that deploy or allow AI tools.",
+    "core_pain": "Teams need enough AI literacy to use AI tools safely and document governance without overpromising compliance.",
+    "claimed_outcome": "Improved AI literacy, better internal AI usage and a more defensible training record.",
+    "market_scope": {
+      "primary_market": "Luxembourg",
+      "country_scope": [
+        "Luxembourg",
+        "EU"
+      ],
+      "profession_scope": [
+        "general corporate workforce",
+        "knowledge workers"
+      ]
+    }
+  },
+  "buyer_analysis": {
+    "primary_buyer_type": {
+      "value": "hr_ld",
+      "reason": "The likely purchase motion is employer-led training, usually run through HR/L&D or people-enablement teams.",
+      "confidence": 0.78
+    },
+    "secondary_buyer_types": [
+      {
+        "value": "compliance",
+        "reason": "The card frames the workshop around AI Act literacy and audit documentation.",
+        "confidence": 0.71
+      },
+      {
+        "value": "employer",
+        "reason": "SME leadership may buy directly if the training is positioned as company-wide capability building.",
+        "confidence": 0.66
+      }
+    ],
+    "budget_owner": {
+      "value": "hr_ld",
+      "reason": "For a workshop format, budget is most likely to sit with HR/L&D or a people development budget.",
+      "confidence": 0.73
+    },
+    "buyer_influencers": [
+      {
+        "value": "compliance",
+        "reason": "Compliance stakeholders influence the acceptance of AI Act and audit-readiness wording.",
+        "confidence": 0.83
+      },
+      {
+        "value": "legal",
+        "reason": "Legal review is useful when claims touch regulation, privacy and internal policy language.",
+        "confidence": 0.76
+      },
+      {
+        "value": "founder_ceo",
+        "reason": "SME leadership may influence buy-in if the workshop is sold as a company-wide risk and productivity initiative.",
+        "confidence": 0.58
+      }
+    ]
+  },
+  "claim_extraction": {
+    "externally_checkable_claims": [
+      {
+        "claim_area": "mandate",
+        "claim_text": "The AI Act requires providers and deployers of AI systems to ensure a sufficient level of AI literacy among relevant staff and people acting on their behalf.",
+        "status": "verified",
+        "notes": "The Commission states that Article 4 applies to providers and deployers and requires measures to ensure sufficient AI literacy.",
+        "source_ids": [
+          "eu_ai_literacy_qa",
+          "eu_ai_literacy_policy"
+        ]
+      },
+      {
+        "claim_area": "deadline",
+        "claim_text": "The AI literacy obligation becomes a compliance concern by August 2026.",
+        "status": "partially_verified",
+        "notes": "The obligation already applies from 2 February 2025; supervision and enforcement by national market surveillance authorities start in August 2026. The card compresses that timeline into one deadline.",
+        "source_ids": [
+          "eu_ai_literacy_qa",
+          "eu_ai_act_start"
+        ]
+      },
+      {
+        "claim_area": "subsidy",
+        "claim_text": "Luxembourg employer training co-funding via INFPC / Guichet exists and is relevant to training products.",
+        "status": "verified",
+        "notes": "Guichet states that private-sector businesses in Luxembourg can apply for co-funding of continuing vocational training, with exclusions for mandatory regulated-profession training.",
+        "source_ids": [
+          "guichet_cvt"
+        ]
+      },
+      {
+        "claim_area": "subsidy",
+        "claim_text": "Luxinnovation Fit 4 AI / AI support exists as a public AI support route.",
+        "status": "verified",
+        "notes": "Luxinnovation publicly offers Fit 4 AI support. The reviewed public material does not prove that this exact workshop format is directly eligible on the card's terms.",
+        "source_ids": [
+          "fit4ai"
+        ]
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "14.4% of Luxembourg enterprises used AI technologies in 2023.",
+        "status": "verified",
+        "notes": "Eurostat reports Luxembourg as one of the highest adopters in the EU at 14.4% for 2023.",
+        "source_ids": [
+          "eurostat_ai_2023"
+        ]
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "Only provider combining EU AI Act compliance + hands-on practice + audit documentation.",
+        "status": "contradicted",
+        "notes": "House of Training already offers Luxembourg AI training that combines AI Act framing, practical AI use and data-protection/risk content, so the exclusivity claim is too strong.",
+        "source_ids": [
+          "houseoftraining_ai_fundamentals",
+          "houseoftraining_ai_act_course",
+          "houseoftraining_ai_risk"
+        ]
+      }
+    ],
+    "internal_claims_unverified": [
+      {
+        "claim_area": "other",
+        "claim_text": "The AI Literacy Certificate has external compliance significance.",
+        "reason_unverified": "No public source reviewed shows that a provider-issued certificate from this workshop has official regulatory standing."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "Audit-ready documentation from this workshop is sufficient for compliance use.",
+        "reason_unverified": "No public source reviewed confirms regulator or authority acceptance of this product's documentation."
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "77% of employers plan AI upskilling.",
+        "reason_unverified": "No primary public source confirming this exact figure was found in the review."
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "Fine up to €7.5M.",
+        "reason_unverified": "The reviewed sources do not confirm this amount as it is used in the card's compliance framing."
+      },
+      {
+        "claim_area": "subsidy",
+        "claim_text": "SME Package AI 70% (up to €17,500) applies to this workshop.",
+        "reason_unverified": "Public AI support exists, but the workshop-level eligibility claim is not directly confirmed by the reviewed sources."
+      }
+    ]
+  },
+  "external_research": {
+    "regulator_entities": [
+      {
+        "name": "European Commission AI Office",
+        "type": "regulator",
+        "relevance": "The Commission publishes AI literacy guidance and supporting materials for Article 4 implementation.",
+        "source_ids": [
+          "eu_ai_literacy_qa",
+          "eu_ai_literacy_policy"
+        ]
+      },
+      {
+        "name": "National market surveillance authorities",
+        "type": "regulator",
+        "relevance": "They are the authorities responsible for supervising and enforcing Article 4 from August 2026.",
+        "source_ids": [
+          "eu_ai_literacy_qa"
+        ]
+      }
+    ],
+    "framework_entities": [
+      {
+        "name": "Regulation (EU) 2024/1689 (AI Act)",
+        "type": "law",
+        "relevance": "Article 4 creates the AI literacy obligation used by the card's positioning.",
+        "source_ids": [
+          "eu_ai_literacy_qa",
+          "eu_ai_act_start"
+        ]
+      },
+      {
+        "name": "AI Literacy - Questions & Answers",
+        "type": "guidance",
+        "relevance": "Official explanation of the scope, timing and enforcement of Article 4.",
+        "source_ids": [
+          "eu_ai_literacy_qa"
+        ]
+      },
+      {
+        "name": "Repository of AI literacy practices",
+        "type": "guidance",
+        "relevance": "Shows that the Commission has already catalogued AI literacy initiatives from providers and deployers.",
+        "source_ids": [
+          "eu_ai_literacy_repository"
+        ]
+      }
+    ],
+    "funding_bodies": [
+      {
+        "name": "INFPC / Guichet.lu",
+        "type": "training_fund",
+        "relevance": "Relevant for Luxembourg continuing-vocational-training co-funding.",
+        "source_ids": [
+          "guichet_cvt"
+        ]
+      },
+      {
+        "name": "Luxinnovation Fit 4 AI",
+        "type": "subsidy_body",
+        "relevance": "Relevant public AI support route, though not proven as direct workshop reimbursement.",
+        "source_ids": [
+          "fit4ai"
+        ]
+      }
+    ],
+    "approval_entities": [],
+    "regulatory_requirements": [
+      {
+        "requirement": "Providers and deployers of AI systems should take measures to ensure sufficient AI literacy of staff and relevant persons.",
+        "applies_to": "AI providers and deployers in the EU",
+        "jurisdiction": "European Union",
+        "status": "confirmed",
+        "source_ids": [
+          "eu_ai_literacy_qa"
+        ]
+      },
+      {
+        "requirement": "Supervision and enforcement of Article 4 begin from August 2026.",
+        "applies_to": "Organisations in scope of Article 4",
+        "jurisdiction": "European Union",
+        "status": "confirmed",
+        "source_ids": [
+          "eu_ai_literacy_qa"
+        ]
+      }
+    ],
+    "subsidies_or_funding": [
+      {
+        "name": "Continuing vocational training co-funding",
+        "jurisdiction": "Luxembourg",
+        "relevance": "direct",
+        "eligibility_notes": "Public co-funding exists for company training plans, but it excludes mandatory continuing training for regulated professions.",
+        "source_ids": [
+          "guichet_cvt"
+        ]
+      },
+      {
+        "name": "Fit 4 AI",
+        "jurisdiction": "Luxembourg",
+        "relevance": "possible",
+        "eligibility_notes": "Public AI support exists, but the exact fit for this workshop format was not confirmed.",
+        "source_ids": [
+          "fit4ai"
+        ]
+      }
+    ],
+    "competitors_or_substitutes": [
+      {
+        "name": "House of Training - Generative artificial intelligences - Fundamentals",
+        "type": "direct",
+        "notes": "Public Luxembourg AI fundamentals course with certificate and productivity orientation.",
+        "source_ids": [
+          "houseoftraining_ai_fundamentals"
+        ]
+      },
+      {
+        "name": "House of Training - How to Navigate the European Union Artificial Intelligence Act",
+        "type": "direct",
+        "notes": "Public AI Act course in Luxembourg that weakens any exclusivity claim.",
+        "source_ids": [
+          "houseoftraining_ai_act_course"
+        ]
+      },
+      {
+        "name": "House of Training - AI Driving Licence for Financial Sector Employees (AI Act Compliant)",
+        "type": "substitute",
+        "notes": "Finance-oriented AI literacy product with compliance framing and practical usage content.",
+        "source_ids": [
+          "houseoftraining_ai_finance_licence"
+        ]
+      }
+    ]
+  },
+  "dashboard_enrichment": {
+    "legal_claim_severity": {
+      "value": 3,
+      "reason": "The card uses AI Act and audit-readiness language, but it does not show a formal accreditation or recognition route.",
+      "confidence": 0.79
+    },
+    "authority_needed_for_delivery": {
+      "value": 2,
+      "reason": "The workshop can be delivered without formal approval, but compliance-oriented content benefits from external SME review.",
+      "confidence": 0.84
+    },
+    "authority_needed_for_claims": {
+      "value": 2,
+      "reason": "Claims about AI Act literacy and internal compliance posture are credible with review, but not dependent on formal listing.",
+      "confidence": 0.8
+    },
+    "proof_stack": [
+      {
+        "value": "buyer_acceptance",
+        "reason": "For a B2B workshop with substitutes, the first signal is whether employers will buy the format.",
+        "confidence": 0.89
+      },
+      {
+        "value": "paid_pilot",
+        "reason": "A paid pilot would validate willingness to pay and whether the workshop fits internal demand.",
+        "confidence": 0.81
+      },
+      {
+        "value": "learning_progress",
+        "reason": "The workshop should show improved staff understanding and safer AI usage.",
+        "confidence": 0.75
+      }
+    ],
+    "proof_burden": {
+      "value": 3,
+      "reason": "Because the product is sold with compliance-adjacent wording and market substitutes already exist, buyer acceptance plus defensibility proof matters.",
+      "confidence": 0.79
+    },
+    "dependency_types": [
+      {
+        "value": "expert_partner",
+        "reason": "External AI governance or legal review would reduce claim-language risk.",
+        "confidence": 0.7
+      },
+      {
+        "value": "data_privacy_review",
+        "reason": "Hands-on AI usage and policy guidance should be checked against privacy and data-handling rules.",
+        "confidence": 0.87
+      },
+      {
+        "value": "country_localization",
+        "reason": "The workshop is positioned for Luxembourg, so local regulatory and subsidy language matters.",
+        "confidence": 0.74
+      },
+      {
+        "value": "funding_eligibility",
+        "reason": "The sales story depends partly on public co-funding, which must be validated carefully.",
+        "confidence": 0.83
+      }
+    ],
+    "scope_variance_risk": {
+      "value": "medium",
+      "reason": "The current scope is Luxembourg corporate training, which is reasonably coherent but still varies by sector and employer maturity.",
+      "confidence": 0.66
+    },
+    "expansion_variance_risk": {
+      "value": "high",
+      "reason": "Scaling across countries would change enforcement context, subsidy logic and buyer expectations.",
+      "confidence": 0.84
+    },
+    "subsidy_exists": {
+      "value": "yes",
+      "reason": "Public co-funding and AI support routes exist in Luxembourg.",
+      "confidence": 0.88
+    },
+    "subsidy_eligibility_status": {
+      "value": "conflicted",
+      "reason": "The card bundles general training co-funding with AI-specific support and overstates workshop-level certainty.",
+      "confidence": 0.8
+    },
+    "subsidy_conflict_flag": {
+      "value": true,
+      "reason": "The public support routes exist, but the exact workshop-level subsidy promise is not cleanly proven.",
+      "confidence": 0.84
+    },
+    "market_regulatory_context": {
+      "value": "regulated_adjacent",
+      "reason": "The product is not itself regulated, but its claim language sits next to the AI Act and compliance expectations.",
+      "confidence": 0.9
+    }
+  },
+  "risk_map": {
+    "claim_language_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The card uses compliance, audit-ready and certificate language that is stronger than the public evidence supports for a new workshop.",
+      "source_ids": [
+        "eu_ai_literacy_qa",
+        "houseoftraining_ai_fundamentals",
+        "houseoftraining_ai_act_course"
+      ]
+    },
+    "authority_dependency_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The workshop itself does not need formal approval, but compliance claims benefit from external review.",
+      "source_ids": [
+        "eu_ai_literacy_qa"
+      ]
+    },
+    "competitive_gap_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "Public Luxembourg substitutes already cover AI literacy, AI Act framing and practical AI usage.",
+      "source_ids": [
+        "houseoftraining_ai_fundamentals",
+        "houseoftraining_ai_act_course",
+        "houseoftraining_ai_risk"
+      ]
+    },
+    "numeric_claim_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The card relies on dated adoption statistics and uncited upsell assumptions that should not be treated as current market fact.",
+      "source_ids": [
+        "eurostat_ai_2023"
+      ]
+    },
+    "subsidy_conflict_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "Public funding exists, but the card overstates exact workshop-level eligibility and merges different support routes.",
+      "source_ids": [
+        "guichet_cvt",
+        "fit4ai"
+      ]
+    },
+    "positioning_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The offer sits between general AI literacy and compliance enablement, which can create expectation mismatch if the workshop stays introductory.",
+      "source_ids": [
+        "eu_ai_literacy_qa",
+        "houseoftraining_ai_act_course"
+      ]
+    }
+  },
+  "claim_conflicts": [
+    {
+      "claim_area": "mandate",
+      "claim_text": "EU AI Act requires AI literacy from employees.",
+      "conflict_type": "ambiguity",
+      "severity": "medium",
+      "what_is_wrong": "The legal text is narrower: providers and deployers must take measures to ensure sufficient AI literacy of relevant staff and people acting on their behalf, rather than every employee in every company.",
+      "source_ids": [
+        "eu_ai_literacy_qa"
+      ]
+    },
+    {
+      "claim_area": "deadline",
+      "claim_text": "Need to quickly train the team to be compliant by Aug 2026.",
+      "conflict_type": "external",
+      "severity": "medium",
+      "what_is_wrong": "The obligation already applies from 2 February 2025, while August 2026 is the start of supervision and enforcement.",
+      "source_ids": [
+        "eu_ai_literacy_qa",
+        "eu_ai_act_start"
+      ]
+    },
+    {
+      "claim_area": "competitor_gap",
+      "claim_text": "Only provider combining EU AI Act compliance + hands-on practice + audit documentation.",
+      "conflict_type": "external",
+      "severity": "high",
+      "what_is_wrong": "House of Training already offers similar Luxembourg AI courses with AI Act framing and hands-on usage content.",
+      "source_ids": [
+        "houseoftraining_ai_fundamentals",
+        "houseoftraining_ai_act_course",
+        "houseoftraining_ai_risk"
+      ]
+    }
+  ],
+  "recommended_manual_review": [
+    {
+      "field": "claim-language",
+      "reason": "Decide whether AI literacy, audit-ready and compliance wording should be softened before any sales use."
+    },
+    {
+      "field": "subsidy-routing",
+      "reason": "Validate whether the workshop can genuinely be sold under the claimed AI package or only under general company training co-funding."
+    },
+    {
+      "field": "competitive-positioning",
+      "reason": "Rebuild differentiation against House of Training and other public substitutes rather than relying on exclusivity language."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "eu_ai_literacy_qa",
+      "title": "AI Literacy - Questions & Answers",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "eu_ai_literacy_policy",
+      "title": "AI talent, skills and literacy",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "eu_ai_act_start",
+      "title": "First rules of the Artificial Intelligence Act are now applicable",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/first-rules-artificial-intelligence-act-are-now-applicable",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "eu_ai_literacy_repository",
+      "title": "Repository of AI literacy practices",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/repository-ai-literacy-practices",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "guichet_cvt",
+      "title": "Financial aid for in-company continuing vocational training",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/financement-aides/aides-emploi-recrutement-formation/formation-professionnelle-continue/fpc-entreprise.html",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "fit4ai",
+      "title": "Fit 4 AI",
+      "publisher": "Luxinnovation",
+      "url": "https://luxinnovation.lu/fit-4-ai",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "eurostat_ai_2023",
+      "title": "8% of EU enterprises used AI technologies in 2023",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20240529-2",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "houseoftraining_ai_fundamentals",
+      "title": "Generative artificial intelligences - Fundamentals",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/generative-artificial-intelligences-fundamentals-12375",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "houseoftraining_ai_act_course",
+      "title": "How to Navigate the European Union Artificial Intelligence Act (EU AI Act)",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/how-to-navigate-the-european-union-artificial-intelligence-act-eu-ai-act-14526",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "houseoftraining_ai_finance_licence",
+      "title": "AI Driving Licence for Financial Sector Employees (AI Act Compliant)",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/ai-driving-licence-for-financial-sector-employees-ai-act-compliant-15927",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "houseoftraining_ai_risk",
+      "title": "Risk Management - Information Security, Data Protection and Artificial Intelligence",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/risk-management-information-security-data-protection-and-ai-14729",
+      "source_type": "company",
+      "reliability": "medium"
+    }
+  ],
+  "quality_signals": {
+    "source_coverage_score": 0.8,
+    "unverified_claims_count": 5,
+    "field_confidence": {
+      "primary_buyer_type": 0.78,
+      "budget_owner": 0.73,
+      "legal_claim_severity": 0.79,
+      "authority_needed_for_delivery": 0.84,
+      "authority_needed_for_claims": 0.8,
+      "proof_burden": 0.79,
+      "scope_variance_risk": 0.66,
+      "expansion_variance_risk": 0.84,
+      "subsidy_exists": 0.88,
+      "subsidy_eligibility_status": 0.8,
+      "market_regulatory_context": 0.9
+    }
+  }
+}

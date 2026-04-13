@@ -1,0 +1,545 @@
+{
+  "product_code": "A4",
+  "product_title": "AI for Finance & Compliance",
+  "analysis_timestamp": "2026-04-13T09:23:26Z",
+  "product_summary": {
+    "one_sentence_summary": "Finance-sector AI governance and compliance training for Luxembourg institutions that want practical AI use without underestimating regulatory and privacy risk.",
+    "target_user": "Banks, funds, PSFs and insurers in Luxembourg that need staff training around AI use, governance and compliance.",
+    "core_pain": "Financial institutions want to use AI and show control, but they need safe framing, governance and defensible documentation rather than generic AI enthusiasm.",
+    "claimed_outcome": "Better AI governance, safer deployment and compliance-ready documentation for finance teams.",
+    "market_scope": {
+      "primary_market": "Luxembourg",
+      "country_scope": [
+        "Luxembourg"
+      ],
+      "profession_scope": [
+        "financial services staff",
+        "compliance and risk teams"
+      ]
+    }
+  },
+  "buyer_analysis": {
+    "primary_buyer_type": {
+      "value": "compliance",
+      "reason": "The card is explicitly framed around finance compliance, governance and regulated use.",
+      "confidence": 0.88
+    },
+    "secondary_buyer_types": [
+      {
+        "value": "employer",
+        "reason": "The direct customer is still a financial institution purchasing training for staff.",
+        "confidence": 0.72
+      },
+      {
+        "value": "mixed",
+        "reason": "Compliance, risk and business leadership can all influence the decision.",
+        "confidence": 0.61
+      }
+    ],
+    "budget_owner": {
+      "value": "compliance",
+      "reason": "For a compliance-framed finance training product, compliance or risk budgets are the most likely home.",
+      "confidence": 0.75
+    },
+    "buyer_influencers": [
+      {
+        "value": "legal",
+        "reason": "Legal review matters because the workshop touches AI Act, data protection and internal governance wording.",
+        "confidence": 0.84
+      },
+      {
+        "value": "finance",
+        "reason": "Finance leaders care about process risk, productivity gains and operational control.",
+        "confidence": 0.68
+      },
+      {
+        "value": "security",
+        "reason": "Information security and data-handling concerns affect whether AI can be used in production settings.",
+        "confidence": 0.79
+      },
+      {
+        "value": "founder_ceo",
+        "reason": "In smaller institutions, leadership can still influence whether the initiative is treated as strategic or merely optional.",
+        "confidence": 0.52
+      }
+    ]
+  },
+  "claim_extraction": {
+    "externally_checkable_claims": [
+      {
+        "claim_area": "compliance",
+        "claim_text": "The CSSF has published a thematic review on the use of Artificial Intelligence in the Luxembourg financial sector.",
+        "status": "verified",
+        "notes": "The CSSF and BCL published a thematic report on AI use, challenges and risks in the Luxembourg financial sector.",
+        "source_ids": [
+          "cssf_ai_thematic_review"
+        ]
+      },
+      {
+        "claim_area": "mandate",
+        "claim_text": "AI Act literacy and governance concerns apply to finance teams using AI.",
+        "status": "partially_verified",
+        "notes": "The AI Act literacy obligation applies to providers and deployers, while CSSF materials show that AI use in finance raises governance, explainability, auditability and ethics concerns. The card overstates this as a direct finance-specific mandate.",
+        "source_ids": [
+          "eu_ai_literacy_qa",
+          "cssf_ai_thematic_review"
+        ]
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "Only multilingual provider with CSSF focus.",
+        "status": "contradicted",
+        "notes": "House of Training already offers Luxembourg finance AI training, including an AI Act-compliant financial-sector course and AI risk/data-protection courses.",
+        "source_ids": [
+          "houseoftraining_finance_ai_license",
+          "houseoftraining_ai_risk",
+          "houseoftraining_prompt_finance"
+        ]
+      },
+      {
+        "claim_area": "subsidy",
+        "claim_text": "Luxembourg company training co-funding exists and may be relevant.",
+        "status": "verified",
+        "notes": "Guichet confirms continuing-vocational-training co-funding for companies in Luxembourg.",
+        "source_ids": [
+          "guichet_cvt"
+        ]
+      },
+      {
+        "claim_area": "subsidy",
+        "claim_text": "Fit 4 AI provides relevant public AI support.",
+        "status": "verified",
+        "notes": "Luxinnovation publicly offers Fit 4 AI support, but the reviewed sources do not prove that the training product itself fits the support route described in the card.",
+        "source_ids": [
+          "fit4ai"
+        ]
+      }
+    ],
+    "internal_claims_unverified": [
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "There are 461+ financial institutions in Luxembourg.",
+        "reason_unverified": "No primary source reviewed here confirmed the exact figure."
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "The training can cut operational costs by 20-30%.",
+        "reason_unverified": "This is an internal business hypothesis, not an externally verified fact."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "The product can deliver an AI governance framework, AML/KYC automation setup and audit documentation as standard deliverables.",
+        "reason_unverified": "These are product design claims rather than public facts."
+      },
+      {
+        "claim_area": "subsidy",
+        "claim_text": "Fit 4 AI 50%/30% applies to this training product.",
+        "reason_unverified": "Public Fit 4 AI support exists, but the reviewed sources do not confirm this exact training fit or percentage claim."
+      }
+    ]
+  },
+  "external_research": {
+    "regulator_entities": [
+      {
+        "name": "Commission de Surveillance du Secteur Financier (CSSF)",
+        "type": "regulator",
+        "relevance": "Published a thematic review on AI use in the Luxembourg financial sector and is the sector regulator for the target market.",
+        "source_ids": [
+          "cssf_ai_thematic_review",
+          "cssf_mifid_page"
+        ]
+      },
+      {
+        "name": "European Commission AI Office",
+        "type": "regulator",
+        "relevance": "Publishes the AI literacy and AI Act context that makes AI governance training relevant.",
+        "source_ids": [
+          "eu_ai_literacy_qa",
+          "eu_ai_act_start"
+        ]
+      }
+    ],
+    "framework_entities": [
+      {
+        "name": "Regulation (EU) 2024/1689 (AI Act)",
+        "type": "law",
+        "relevance": "Creates the AI literacy context used by the product positioning.",
+        "source_ids": [
+          "eu_ai_literacy_qa",
+          "eu_ai_act_start"
+        ]
+      },
+      {
+        "name": "Thematic review on the use of Artificial Intelligence in the Luxembourg Financial sector",
+        "type": "guidance",
+        "relevance": "Summarises adoption, challenges and risks for AI use in Luxembourg finance.",
+        "source_ids": [
+          "cssf_ai_thematic_review"
+        ]
+      }
+    ],
+    "funding_bodies": [
+      {
+        "name": "INFPC / Guichet.lu",
+        "type": "training_fund",
+        "relevance": "Relevant for company training co-funding in Luxembourg.",
+        "source_ids": [
+          "guichet_cvt"
+        ]
+      },
+      {
+        "name": "Luxinnovation Fit 4 AI",
+        "type": "subsidy_body",
+        "relevance": "Relevant public AI support route, though the product-level fit is not proven.",
+        "source_ids": [
+          "fit4ai"
+        ]
+      }
+    ],
+    "approval_entities": [],
+    "regulatory_requirements": [
+      {
+        "requirement": "AI literacy measures apply to AI providers and deployers.",
+        "applies_to": "Organisations deploying AI systems in the EU",
+        "jurisdiction": "European Union",
+        "status": "confirmed",
+        "source_ids": [
+          "eu_ai_literacy_qa"
+        ]
+      },
+      {
+        "requirement": "AI use in Luxembourg financial institutions raises governance, explainability, auditability and ethics concerns that should be addressed internally.",
+        "applies_to": "Luxembourg financial institutions using AI",
+        "jurisdiction": "Luxembourg",
+        "status": "likely",
+        "source_ids": [
+          "cssf_ai_thematic_review"
+        ]
+      }
+    ],
+    "subsidies_or_funding": [
+      {
+        "name": "Continuing vocational training co-funding",
+        "jurisdiction": "Luxembourg",
+        "relevance": "direct",
+        "eligibility_notes": "Exists for company training plans, but the exact fit for this product and its finance-specific compliance framing should be validated.",
+        "source_ids": [
+          "guichet_cvt"
+        ]
+      },
+      {
+        "name": "Fit 4 AI",
+        "jurisdiction": "Luxembourg",
+        "relevance": "possible",
+        "eligibility_notes": "Public AI support exists, but the reviewed sources do not show that this training product itself is an eligible Fit 4 AI use case.",
+        "source_ids": [
+          "fit4ai"
+        ]
+      }
+    ],
+    "competitors_or_substitutes": [
+      {
+        "name": "House of Training - AI Driving Licence for Financial Sector Employees (AI Act Compliant)",
+        "type": "direct",
+        "notes": "A direct Luxembourg substitute with compliance framing and finance-sector focus.",
+        "source_ids": [
+          "houseoftraining_finance_ai_license"
+        ]
+      },
+      {
+        "name": "House of Training - Risk Management - Information Security, Data Protection and Artificial Intelligence",
+        "type": "direct",
+        "notes": "A finance-adjacent practical AI course that combines data protection and AI risk.",
+        "source_ids": [
+          "houseoftraining_ai_risk"
+        ]
+      },
+      {
+        "name": "House of Training - Prompt Engineering : Initiation & mise en pratique pour les employés du secteur financier",
+        "type": "substitute",
+        "notes": "A prompt-engineering offering for financial-sector staff with GDPR and AI Act framing.",
+        "source_ids": [
+          "houseoftraining_prompt_finance"
+        ]
+      }
+    ]
+  },
+  "dashboard_enrichment": {
+    "legal_claim_severity": {
+      "value": 3,
+      "reason": "The product is positioned around compliance, governance and regulated finance, but not around formal placement or licensing claims.",
+      "confidence": 0.84
+    },
+    "authority_needed_for_delivery": {
+      "value": 3,
+      "reason": "Credible delivery in finance likely requires external SME expertise rather than generic AI teaching alone.",
+      "confidence": 0.82
+    },
+    "authority_needed_for_claims": {
+      "value": 3,
+      "reason": "Claims about compliance-ready finance use should be supported by external expertise and careful legal framing.",
+      "confidence": 0.87
+    },
+    "proof_stack": [
+      {
+        "value": "buyer_acceptance",
+        "reason": "The institution must believe the workshop is worth buying instead of using incumbent training routes.",
+        "confidence": 0.88
+      },
+      {
+        "value": "audit_defensibility",
+        "reason": "The product must produce outputs that can survive finance-compliance scrutiny.",
+        "confidence": 0.94
+      },
+      {
+        "value": "roi_case_study",
+        "reason": "The card leans on operational savings, so measurable case-study evidence matters.",
+        "confidence": 0.73
+      }
+    ],
+    "proof_burden": {
+      "value": 4,
+      "reason": "This is a strongly proof-heavy finance/compliance offer because the buyer cares about defensibility and regulated-context credibility.",
+      "confidence": 0.92
+    },
+    "dependency_types": [
+      {
+        "value": "expert_partner",
+        "reason": "A finance or compliance expert is strongly needed to keep claims credible.",
+        "confidence": 0.91
+      },
+      {
+        "value": "data_privacy_review",
+        "reason": "Practical AI usage in finance must account for privacy, confidentiality and data-handling risk.",
+        "confidence": 0.92
+      },
+      {
+        "value": "country_localization",
+        "reason": "The offer is Luxembourg-specific and should reflect local regulator context.",
+        "confidence": 0.86
+      },
+      {
+        "value": "funding_eligibility",
+        "reason": "The funding story is part of the product positioning and must be checked carefully.",
+        "confidence": 0.8
+      }
+    ],
+    "scope_variance_risk": {
+      "value": "medium",
+      "reason": "The current scope is coherent inside Luxembourg finance, but different sub-sectors will still react differently.",
+      "confidence": 0.68
+    },
+    "expansion_variance_risk": {
+      "value": "high",
+      "reason": "Moving into other countries or regulated sectors would change the compliance and subsidy logic materially.",
+      "confidence": 0.87
+    },
+    "subsidy_exists": {
+      "value": "yes",
+      "reason": "Public training co-funding and AI support routes exist in Luxembourg.",
+      "confidence": 0.89
+    },
+    "subsidy_eligibility_status": {
+      "value": "conflicted",
+      "reason": "General training co-funding exists, but the exact finance-specific AI support fit is not settled and the card overstates certainty.",
+      "confidence": 0.84
+    },
+    "subsidy_conflict_flag": {
+      "value": true,
+      "reason": "The product blends training and consultancy-style AI support in a way the public sources do not fully confirm.",
+      "confidence": 0.88
+    },
+    "market_regulatory_context": {
+      "value": "strongly_regulated",
+      "reason": "The product sits directly inside Luxembourg financial services and AI governance context.",
+      "confidence": 0.96
+    }
+  },
+  "risk_map": {
+    "claim_language_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "Finance compliance, governance and audit-ready language must be handled conservatively because it can imply stronger assurances than the evidence supports.",
+      "source_ids": [
+        "cssf_ai_thematic_review",
+        "houseoftraining_finance_ai_license",
+        "houseoftraining_prompt_finance"
+      ]
+    },
+    "authority_dependency_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "Credibility depends on finance-domain expertise and careful regulator-aware framing.",
+      "source_ids": [
+        "cssf_ai_thematic_review",
+        "houseoftraining_ai_risk"
+      ]
+    },
+    "competitive_gap_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "House of Training already covers finance AI, prompt engineering and AI Act-compliant training.",
+      "source_ids": [
+        "houseoftraining_finance_ai_license",
+        "houseoftraining_ai_risk",
+        "houseoftraining_prompt_finance"
+      ]
+    },
+    "numeric_claim_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The card uses institution-count and cost-reduction numbers that were not verified in the reviewed sources.",
+      "source_ids": []
+    },
+    "subsidy_conflict_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The subsidy story mixes training co-funding with AI support in a way that is not cleanly proven for this specific product.",
+      "source_ids": [
+        "guichet_cvt",
+        "fit4ai"
+      ]
+    },
+    "positioning_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The product may drift into a service-heavy consulting motion rather than a simple training offer.",
+      "source_ids": [
+        "cssf_ai_thematic_review",
+        "houseoftraining_finance_ai_license"
+      ]
+    }
+  },
+  "claim_conflicts": [
+    {
+      "claim_area": "mandate",
+      "claim_text": "CSSF requires AI governance + EU AI Act compliance.",
+      "conflict_type": "ambiguity",
+      "severity": "high",
+      "what_is_wrong": "The CSSF review shows AI governance concerns in finance, but it does not create a simple universal training mandate in the wording used by the card.",
+      "source_ids": [
+        "cssf_ai_thematic_review",
+        "eu_ai_literacy_qa"
+      ]
+    },
+    {
+      "claim_area": "competitor_gap",
+      "claim_text": "Only multilingual provider with CSSF focus.",
+      "conflict_type": "external",
+      "severity": "high",
+      "what_is_wrong": "House of Training already offers Luxembourg finance AI products with AI Act and data-protection framing.",
+      "source_ids": [
+        "houseoftraining_finance_ai_license",
+        "houseoftraining_ai_risk",
+        "houseoftraining_prompt_finance"
+      ]
+    },
+    {
+      "claim_area": "subsidy",
+      "claim_text": "Fit 4 AI 50%/30% applies to this training product.",
+      "conflict_type": "external",
+      "severity": "high",
+      "what_is_wrong": "Public AI support exists, but the reviewed sources do not show that this exact training product fits the route or percentages claimed.",
+      "source_ids": [
+        "fit4ai"
+      ]
+    }
+  ],
+  "recommended_manual_review": [
+    {
+      "field": "compliance-framing",
+      "reason": "Decide how much of the offer should be framed as training versus consulting support."
+    },
+    {
+      "field": "subsidy-routing",
+      "reason": "Validate whether Fit 4 AI or only general company training co-funding is realistically available."
+    },
+    {
+      "field": "benchmarking",
+      "reason": "Recheck any institution-count and cost-reduction claims before they appear in sales copy."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "cssf_ai_thematic_review",
+      "title": "Thematic review on the use of Artificial Intelligence in the Luxembourg Financial sector",
+      "publisher": "CSSF",
+      "url": "https://www.cssf.lu/en/2023/05/thematic-review-on-the-use-of-artificial-intelligence-in-the-luxembourg-financial-sector/",
+      "source_type": "regulator",
+      "reliability": "high"
+    },
+    {
+      "source_id": "eu_ai_literacy_qa",
+      "title": "AI Literacy - Questions & Answers",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "eu_ai_act_start",
+      "title": "First rules of the Artificial Intelligence Act are now applicable",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/first-rules-artificial-intelligence-act-are-now-applicable",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "guichet_cvt",
+      "title": "Financial aid for in-company continuing vocational training",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/financement-aides/aides-emploi-recrutement-formation/formation-professionnelle-continue/fpc-entreprise.html",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "fit4ai",
+      "title": "Fit 4 AI",
+      "publisher": "Luxinnovation",
+      "url": "https://luxinnovation.lu/fit-4-ai",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "houseoftraining_finance_ai_license",
+      "title": "AI Driving Licence for Financial Sector Employees (AI Act Compliant)",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/training/permis-de-conduire-ia-pour-les-employes-du-secteur-financier-conforme-ia-act-15635",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "houseoftraining_ai_risk",
+      "title": "Risk Management - Information Security, Data Protection and Artificial Intelligence",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/risk-management-information-security-data-protection-and-ai-14729",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "houseoftraining_prompt_finance",
+      "title": "Prompt Engineering : Initiation & mise en pratique pour les employés du secteur financier",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/prompt-engineering-initiation-mise-en-pratique-pour-les-employes-du-secteur-financier-15850",
+      "source_type": "company",
+      "reliability": "medium"
+    }
+  ],
+  "quality_signals": {
+    "source_coverage_score": 0.81,
+    "unverified_claims_count": 4,
+    "field_confidence": {
+      "primary_buyer_type": 0.88,
+      "budget_owner": 0.75,
+      "legal_claim_severity": 0.84,
+      "authority_needed_for_delivery": 0.82,
+      "authority_needed_for_claims": 0.87,
+      "proof_burden": 0.92,
+      "scope_variance_risk": 0.68,
+      "expansion_variance_risk": 0.87,
+      "subsidy_exists": 0.89,
+      "subsidy_eligibility_status": 0.84,
+      "market_regulatory_context": 0.96
+    }
+  }
+}

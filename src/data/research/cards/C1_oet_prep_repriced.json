@@ -1,0 +1,433 @@
+{
+  "product_code": "C1",
+  "product_title": "OET Prep (repriced)",
+  "analysis_timestamp": "2026-04-13T00:00:00Z",
+  "product_summary": {
+    "one_sentence_summary": "Budget-friendly cohort-based OET prep for healthcare professionals in the UAE and wider GCC who want route-relevant English practice.",
+    "target_user": "Nurses and doctors in the UAE/GCC who are preparing for OET for career advancement or migration.",
+    "core_pain": "Candidates need healthcare-specific English preparation that is cheaper than premium tutoring but still credible for high-stakes exam performance.",
+    "claimed_outcome": "Improved OET readiness and a cheaper path to exam success and mobility.",
+    "market_scope": {
+      "primary_market": "GCC",
+      "country_scope": [
+        "United Arab Emirates",
+        "GCC"
+      ],
+      "profession_scope": [
+        "nurses",
+        "doctors"
+      ]
+    }
+  },
+  "buyer_analysis": {
+    "primary_buyer_type": {
+      "value": "individual",
+      "reason": "This is priced and delivered as a B2C exam-prep offer.",
+      "confidence": 0.97
+    },
+    "secondary_buyer_types": [
+      {
+        "value": "employer",
+        "reason": "Some learners may be sponsored by employers or hospitals that need staff to clear the test.",
+        "confidence": 0.34
+      },
+      {
+        "value": "partner",
+        "reason": "The offer may still depend on referral or sponsorship partnerships, even if the primary sale is B2C.",
+        "confidence": 0.28
+      }
+    ],
+    "budget_owner": {
+      "value": "mixed",
+      "reason": "In practice the learner may pay personally, but an employer or family sponsor can also fund the course.",
+      "confidence": 0.57
+    },
+    "buyer_influencers": [
+      {
+        "value": "legal",
+        "reason": "Registration and migration rules influence why the learner is taking OET in the first place.",
+        "confidence": 0.72
+      },
+      {
+        "value": "hr_ld",
+        "reason": "Employer sponsorship or internal development teams can influence the purchase in some cases.",
+        "confidence": 0.41
+      },
+      {
+        "value": "team_manager",
+        "reason": "For working nurses and doctors, line managers can influence study time and urgency.",
+        "confidence": 0.38
+      }
+    ]
+  },
+  "claim_extraction": {
+    "externally_checkable_claims": [
+      {
+        "claim_area": "exam",
+        "claim_text": "OET is accepted by key healthcare authorities in the UAE and for residency programs in Abu Dhabi and Dubai.",
+        "status": "verified",
+        "notes": "OET's UAE country page states that the test is accepted by key healthcare authorities in the UAE and by residency programs in Abu Dhabi and Dubai.",
+        "source_ids": [
+          "oet_uae"
+        ]
+      },
+      {
+        "claim_area": "recognition",
+        "claim_text": "OET is accepted worldwide by healthcare regulators, educational institutions and visa and immigration services.",
+        "status": "verified",
+        "notes": "OET's official site states that the test is accepted worldwide by healthcare regulators, educational institutions and visa and immigration services.",
+        "source_ids": [
+          "oet_acceptance_worldwide"
+        ]
+      },
+      {
+        "claim_area": "recognition",
+        "claim_text": "OET can help with migration or career advancement in the UK, Australia and the US.",
+        "status": "partially_verified",
+        "notes": "The official OET site supports global acceptance and country-specific recognition, but the card's specific use-case wording is still a broad inference.",
+        "source_ids": [
+          "oet_acceptance_worldwide",
+          "oet_uae"
+        ]
+      },
+      {
+        "claim_area": "recognition",
+        "claim_text": "Learners need an OET certificate for DHA or DOH registration.",
+        "status": "partially_verified",
+        "notes": "The reviewed sources show OET acceptance in UAE healthcare settings, but they do not prove that this package is sufficient for every registration path or that an OET certificate is universally mandatory.",
+        "source_ids": [
+          "oet_uae"
+        ]
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "94 leads exist from the UAE pilot.",
+        "status": "unverified",
+        "notes": "This is an internal lead count and was not externally verified.",
+        "source_ids": []
+      }
+    ],
+    "internal_claims_unverified": [
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "94 leads exist from the UAE pilot.",
+        "reason_unverified": "This is an internal funnel metric, not a public fact."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "Repricing from €349 to €149-199 fixes market fit.",
+        "reason_unverified": "This is a commercial hypothesis, not an externally verified claim."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "The course is the right option for all UAE/GCC learners targeting OET.",
+        "reason_unverified": "The reviewed sources do not establish that this course is the best or only fit for the segment."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "Pass guarantee can be promised safely.",
+        "reason_unverified": "The OET test itself warns against guaranteed results; no public source reviewed supports a guarantee claim."
+      }
+    ]
+  },
+  "external_research": {
+    "regulator_entities": [
+      {
+        "name": "Department of Health - Abu Dhabi",
+        "type": "regulator",
+        "relevance": "The UAE OET country page says OET is accepted for residency programs in Abu Dhabi.",
+        "source_ids": [
+          "oet_uae"
+        ]
+      },
+      {
+        "name": "Dubai Health Authority",
+        "type": "regulator",
+        "relevance": "The UAE OET country page says OET is accepted for residency programs in Dubai.",
+        "source_ids": [
+          "oet_uae"
+        ]
+      },
+      {
+        "name": "OET",
+        "type": "exam_body",
+        "relevance": "The test provider itself is the relevant exam body for this product.",
+        "source_ids": [
+          "oet_acceptance_worldwide",
+          "oet_sample_tests"
+        ]
+      }
+    ],
+    "framework_entities": [
+      {
+        "name": "OET Test",
+        "type": "other",
+        "relevance": "Healthcare-specific English test used for route-relevant preparation and recognition.",
+        "source_ids": [
+          "oet_acceptance_worldwide"
+        ]
+      }
+    ],
+    "funding_bodies": [],
+    "approval_entities": [],
+    "regulatory_requirements": [
+      {
+        "requirement": "OET is accepted by key healthcare authorities in the UAE and for residency programs in Abu Dhabi and Dubai.",
+        "applies_to": "Healthcare professionals preparing for UAE pathways",
+        "jurisdiction": "United Arab Emirates",
+        "status": "confirmed",
+        "source_ids": [
+          "oet_uae"
+        ]
+      },
+      {
+        "requirement": "OET is accepted by healthcare regulators, educational institutions and visa and immigration services worldwide.",
+        "applies_to": "Healthcare professionals seeking international mobility",
+        "jurisdiction": "Global",
+        "status": "confirmed",
+        "source_ids": [
+          "oet_acceptance_worldwide"
+        ]
+      }
+    ],
+    "subsidies_or_funding": [],
+    "competitors_or_substitutes": [
+      {
+        "name": "OET Intro to OET Course for Doctors",
+        "type": "substitute",
+        "notes": "Official free intro course that competes with paid prep for doctor learners.",
+        "source_ids": [
+          "oet_intro_courses"
+        ]
+      },
+      {
+        "name": "OET Intro to OET Course for Nurses",
+        "type": "substitute",
+        "notes": "Official free intro course that competes with paid prep for nurse learners.",
+        "source_ids": [
+          "oet_intro_courses"
+        ]
+      },
+      {
+        "name": "OET free sample tests",
+        "type": "substitute",
+        "notes": "Official sample tests reduce willingness to pay for generic prep and set the baseline for self-study.",
+        "source_ids": [
+          "oet_sample_tests"
+        ]
+      }
+    ]
+  },
+  "dashboard_enrichment": {
+    "legal_claim_severity": {
+      "value": 3,
+      "reason": "The offer is exam prep tied to healthcare registration and migration outcomes, which makes the claim language more sensitive than ordinary language tutoring.",
+      "confidence": 0.81
+    },
+    "authority_needed_for_delivery": {
+      "value": 1,
+      "reason": "The course itself can be delivered without formal approval, assuming competent OET teaching expertise.",
+      "confidence": 0.9
+    },
+    "authority_needed_for_claims": {
+      "value": 2,
+      "reason": "Route claims should be reviewed against current UAE and destination-country rules before they are used in marketing.",
+      "confidence": 0.78
+    },
+    "proof_stack": [
+      {
+        "value": "buyer_acceptance",
+        "reason": "Because OET has free official resources, buyers must still choose this paid course over self-study.",
+        "confidence": 0.86
+      },
+      {
+        "value": "exam_pass",
+        "reason": "The most meaningful proof is improved OET scores or actual exam success.",
+        "confidence": 0.95
+      },
+      {
+        "value": "learning_progress",
+        "reason": "Intermediate evidence should show that learners improve in the sub-skills they need.",
+        "confidence": 0.77
+      }
+    ],
+    "proof_burden": {
+      "value": 3,
+      "reason": "The offer needs measurable learner improvement and exam success, but not formal licensing recognition.",
+      "confidence": 0.82
+    },
+    "dependency_types": [
+      {
+        "value": "teacher_supply",
+        "reason": "The course depends on OET-capable instructors who can give useful feedback.",
+        "confidence": 0.72
+      },
+      {
+        "value": "country_localization",
+        "reason": "The value proposition depends on the UAE/GCC route context.",
+        "confidence": 0.81
+      }
+    ],
+    "scope_variance_risk": {
+      "value": "medium",
+      "reason": "Within the GCC the audience is similar, but destination-country requirements and learner motivations vary.",
+      "confidence": 0.67
+    },
+    "expansion_variance_risk": {
+      "value": "medium",
+      "reason": "Expanding to other regions would require more localisation of route claims and exam positioning.",
+      "confidence": 0.74
+    },
+    "subsidy_exists": {
+      "value": "no",
+      "reason": "No subsidy or reimbursement route is part of the product story.",
+      "confidence": 0.86
+    },
+    "subsidy_eligibility_status": {
+      "value": "not_applicable",
+      "reason": "The course is sold as a direct consumer product, not a funded training offer.",
+      "confidence": 0.9
+    },
+    "subsidy_conflict_flag": {
+      "value": false,
+      "reason": "The card does not rely on subsidy wording.",
+      "confidence": 0.93
+    },
+    "market_regulatory_context": {
+      "value": "regulated_adjacent",
+      "reason": "The course is not a regulated credential itself, but it sits next to healthcare registration and migration pathways.",
+      "confidence": 0.86
+    }
+  },
+  "risk_map": {
+    "claim_language_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The product sits close to registration and migration claims, so wording needs to stay narrow.",
+      "source_ids": [
+        "oet_uae",
+        "oet_acceptance_worldwide"
+      ]
+    },
+    "authority_dependency_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "Learners ultimately depend on destination-country and employer acceptance, not just the course.",
+      "source_ids": [
+        "oet_uae",
+        "oet_acceptance_worldwide"
+      ]
+    },
+    "competitive_gap_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "Official free OET resources already exist, so the paid product needs a clearer value gap than price alone.",
+      "source_ids": [
+        "oet_sample_tests",
+        "oet_intro_courses"
+      ]
+    },
+    "numeric_claim_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The lead count and repricing narrative are internal and not externally verified.",
+      "source_ids": []
+    },
+    "subsidy_conflict_risk": {
+      "status": "absent",
+      "severity": "low",
+      "reason": "No subsidy claim is being made.",
+      "source_ids": []
+    },
+    "positioning_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "Competing with official free resources means the product must justify why it is better than self-study.",
+      "source_ids": [
+        "oet_sample_tests",
+        "oet_intro_courses"
+      ]
+    }
+  },
+  "claim_conflicts": [
+    {
+      "claim_area": "recognition",
+      "claim_text": "Learners need an OET certificate for DHA or DOH registration.",
+      "conflict_type": "ambiguity",
+      "severity": "medium",
+      "what_is_wrong": "The official OET page supports UAE acceptance, but not the exact registration logic or whether this course's certificate is sufficient.",
+      "source_ids": [
+        "oet_uae"
+      ]
+    },
+    {
+      "claim_area": "numeric_claim",
+      "claim_text": "94 leads exist from the UAE pilot.",
+      "conflict_type": "internal",
+      "severity": "low",
+      "what_is_wrong": "This is an internal lead count and should not be treated as a market fact.",
+      "source_ids": []
+    }
+  ],
+  "recommended_manual_review": [
+    {
+      "field": "route-language",
+      "reason": "Keep claims about registration, migration and exam utility narrow enough to match the official recognition language."
+    },
+    {
+      "field": "pricing-proof",
+      "reason": "Validate the new price against actual buyer willingness to pay rather than the lead count alone."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "oet_uae",
+      "title": "United Arab Emirates",
+      "publisher": "OET",
+      "url": "https://oet.com/en-us/test/who-recognises-oet/recognising-organisations/united-arab-emirates",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "oet_acceptance_worldwide",
+      "title": "What is the OET Test, where and how do I take it",
+      "publisher": "OET",
+      "url": "https://oet.com/en-us/about/the-test",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "oet_intro_courses",
+      "title": "OET homepage",
+      "publisher": "OET",
+      "url": "https://oet.com/en-us/",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "oet_sample_tests",
+      "title": "How to prepare for the OET Test and why is it important",
+      "publisher": "OET",
+      "url": "https://oet.com/preparation-portal/free-sample-tests/",
+      "source_type": "company",
+      "reliability": "medium"
+    }
+  ],
+  "quality_signals": {
+    "source_coverage_score": 0.77,
+    "unverified_claims_count": 4,
+    "field_confidence": {
+      "primary_buyer_type": 0.97,
+      "budget_owner": 0.57,
+      "legal_claim_severity": 0.81,
+      "authority_needed_for_delivery": 0.9,
+      "authority_needed_for_claims": 0.78,
+      "proof_burden": 0.82,
+      "scope_variance_risk": 0.67,
+      "expansion_variance_risk": 0.74,
+      "subsidy_exists": 0.86,
+      "subsidy_eligibility_status": 0.9,
+      "market_regulatory_context": 0.86
+    }
+  }
+}

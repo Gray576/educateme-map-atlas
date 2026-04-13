@@ -1,0 +1,495 @@
+{
+  "product_code": "L5",
+  "product_title": "Luxembourgish for Business",
+  "analysis_timestamp": "2026-04-13T09:15:00+04:00",
+  "product_summary": {
+    "one_sentence_summary": "Luxembourgish training for employees and candidates who need workplace integration or official-language progress in Luxembourg.",
+    "target_user": "Expat employees, cross-border workers and public-sector candidates who need usable Luxembourgish.",
+    "core_pain": "People need a structured way to improve Luxembourgish while navigating official leave, certificate and acceptance rules.",
+    "claimed_outcome": "Workplace and integration-oriented Luxembourgish progress with a path toward recognized proof where available.",
+    "market_scope": {
+      "primary_market": "Luxembourg",
+      "country_scope": [
+        "Luxembourg"
+      ],
+      "profession_scope": [
+        "expat employees",
+        "cross-border teams",
+        "public-sector candidates"
+      ]
+    }
+  },
+  "buyer_analysis": {
+    "primary_buyer_type": {
+      "value": "individual",
+      "reason": "The course can be bought by private learners, even if employers may also support it.",
+      "confidence": 0.72
+    },
+    "secondary_buyer_types": [
+      {
+        "value": "hr_ld",
+        "reason": "Employers may sponsor Luxembourgish learning for integration and retention reasons.",
+        "confidence": 0.66
+      },
+      {
+        "value": "employer",
+        "reason": "Companies with integration-heavy workforces may buy the course for staff.",
+        "confidence": 0.64
+      }
+    ],
+    "budget_owner": {
+      "value": "mixed",
+      "reason": "The payment can come from the learner, the employer, or an official leave-support route depending on the case.",
+      "confidence": 0.69
+    },
+    "buyer_influencers": [
+      {
+        "value": "hr_ld",
+        "reason": "HR teams influence language support for integration and onboarding.",
+        "confidence": 0.7
+      },
+      {
+        "value": "team_manager",
+        "reason": "Managers care whether the learner can function in workplace Luxembourgish.",
+        "confidence": 0.64
+      },
+      {
+        "value": "legal",
+        "reason": "Official leave and proof rules make legal or compliance review relevant in some cases.",
+        "confidence": 0.56
+      }
+    ]
+  },
+  "claim_extraction": {
+    "externally_checkable_claims": [
+      {
+        "claim_area": "funding",
+        "claim_text": "Congé linguistique provides up to 200 hours of paid linguistic leave for Luxembourgish courses.",
+        "status": "verified",
+        "notes": "Guichet.lu states that linguistic leave is limited to 200 hours and is divided into two stages across a professional career.",
+        "source_ids": [
+          "guichet_ling_leave"
+        ]
+      },
+      {
+        "claim_area": "funding",
+        "claim_text": "Eligible Luxembourgish courses must be provided by recognised institutions, approved associations, chambers, ministries or public bodies.",
+        "status": "verified",
+        "notes": "The official leave page lists the categories of institutions whose Luxembourgish courses are eligible.",
+        "source_ids": [
+          "guichet_ling_leave"
+        ]
+      },
+      {
+        "claim_area": "recognition",
+        "claim_text": "INLL is the national certification body for Luxembourgish diplomas and certificates.",
+        "status": "verified",
+        "notes": "INLL states that it is recognised as the national certification body for Luxembourgish language diplomas and certificates.",
+        "source_ids": [
+          "inll_luxembourgish"
+        ]
+      },
+      {
+        "claim_area": "recognition",
+        "claim_text": "INLL courses do not give a certificate valid for a nationality application.",
+        "status": "verified",
+        "notes": "INLL explicitly states that its Luxembourgish courses do not grant a certificate valid for a nationality application.",
+        "source_ids": [
+          "inll_luxembourgish"
+        ]
+      }
+    ],
+    "internal_claims_unverified": [
+      {
+        "claim_area": "scope_fit",
+        "claim_text": "The product's CEFR certification is sufficient for official needs.",
+        "reason_unverified": "A provider-issued certificate and official acceptance are not the same thing, and no public source reviewed validates this product-specific claim."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "INLL is free, overcrowded and generic.",
+        "reason_unverified": "The public sources reviewed show free self-learning and broad course offerings, but not an objective measure of overcrowding."
+      },
+      {
+        "claim_area": "scope_fit",
+        "claim_text": "Luxembourgish demand is rising because of integration requirements.",
+        "reason_unverified": "This is plausible context, but the reviewed sources do not quantify demand growth for this product."
+      }
+    ]
+  },
+  "external_research": {
+    "regulator_entities": [
+      {
+        "name": "Ministry of Labour",
+        "type": "ministry",
+        "relevance": "Processes linguistic leave applications in Luxembourg.",
+        "source_ids": [
+          "guichet_ling_leave"
+        ]
+      },
+      {
+        "name": "INLL",
+        "type": "certification_body",
+        "relevance": "Recognised as the national certification body for Luxembourgish language diplomas and certificates.",
+        "source_ids": [
+          "inll_luxembourgish"
+        ]
+      }
+    ],
+    "framework_entities": [],
+    "funding_bodies": [
+      {
+        "name": "Ministry of Labour linguistic leave service",
+        "type": "reimbursement_body",
+        "relevance": "Pays or reimburses the salary-compensation mechanism behind linguistic leave.",
+        "source_ids": [
+          "guichet_ling_leave"
+        ]
+      },
+      {
+        "name": "INFPC",
+        "type": "training_fund",
+        "relevance": "May matter for employer-funded training, though the leave route is the cleaner fit here.",
+        "source_ids": [
+          "infpc_guichet",
+          "guichet_fpc_2025"
+        ]
+      }
+    ],
+    "approval_entities": [
+      {
+        "name": "INLL certification route",
+        "type": "accrediting_body",
+        "relevance": "The official Luxembourgish certification route matters if the product wants formal proof value.",
+        "source_ids": [
+          "inll_luxembourgish"
+        ]
+      }
+    ],
+    "regulatory_requirements": [
+      {
+        "requirement": "Linguistic leave is capped at 200 hours and must be split into two stages of 80 to 120 hours each.",
+        "applies_to": "Employees and self-employed applicants in Luxembourg",
+        "jurisdiction": "Luxembourg",
+        "status": "confirmed",
+        "source_ids": [
+          "guichet_ling_leave"
+        ]
+      },
+      {
+        "requirement": "Only Luxembourgish courses from eligible institutions can be used for linguistic leave.",
+        "applies_to": "Applicants using the linguistic leave route",
+        "jurisdiction": "Luxembourg",
+        "status": "confirmed",
+        "source_ids": [
+          "guichet_ling_leave"
+        ]
+      }
+    ],
+    "subsidies_or_funding": [
+      {
+        "name": "Linguistic leave",
+        "jurisdiction": "Luxembourg",
+        "relevance": "direct",
+        "eligibility_notes": "The route is directly relevant, but only if the course provider fits the official eligibility categories.",
+        "source_ids": [
+          "guichet_ling_leave"
+        ]
+      }
+    ],
+    "competitors_or_substitutes": [
+      {
+        "name": "INLL Luxembourgish courses",
+        "type": "direct",
+        "notes": "Public Luxembourgish course offering with official certification role.",
+        "source_ids": [
+          "inll_courses",
+          "inll_luxembourgish"
+        ]
+      },
+      {
+        "name": "Prolingua Luxembourgish courses",
+        "type": "direct",
+        "notes": "Private Luxembourgish and tailored language courses, including company delivery.",
+        "source_ids": [
+          "prolingua_tailor_made"
+        ]
+      },
+      {
+        "name": "inlingua Luxembourg",
+        "type": "indirect",
+        "notes": "Company and individual language courses that can substitute for some workplace-integration language needs.",
+        "source_ids": [
+          "inlingua_adults",
+          "inlingua_company_courses"
+        ]
+      }
+    ]
+  },
+  "dashboard_enrichment": {
+    "legal_claim_severity": {
+      "value": 2,
+      "reason": "The product uses a formal training-aid route and official-language proof logic, but not a licensed-practice claim.",
+      "confidence": 0.84
+    },
+    "authority_needed_for_delivery": {
+      "value": 1,
+      "reason": "The course can be delivered without formal authority, though eligibility for leave support needs validation.",
+      "confidence": 0.86
+    },
+    "authority_needed_for_claims": {
+      "value": 3,
+      "reason": "Claims about official proof, leave support and certification need external validation to stay credible.",
+      "confidence": 0.8
+    },
+    "proof_stack": [
+      {
+        "value": "buyer_acceptance",
+        "reason": "The product must win against free public alternatives and local private schools.",
+        "confidence": 0.88
+      },
+      {
+        "value": "accepted_language_proof",
+        "reason": "This category depends on accepted proof or certification logic, not just participation.",
+        "confidence": 0.86
+      },
+      {
+        "value": "learning_progress",
+        "reason": "Learner progression is still an important intermediate proof signal.",
+        "confidence": 0.82
+      }
+    ],
+    "proof_burden": {
+      "value": 3,
+      "reason": "The route is official and proof-sensitive, but the product remains a training offer rather than a licensed profession pathway.",
+      "confidence": 0.77
+    },
+    "dependency_types": [
+      {
+        "value": "funding_eligibility",
+        "reason": "The linguistic leave route is part of the value proposition.",
+        "confidence": 0.92
+      },
+      {
+        "value": "country_localization",
+        "reason": "The offer is deeply tied to Luxembourg institutions and leave rules.",
+        "confidence": 0.88
+      },
+      {
+        "value": "teacher_supply",
+        "reason": "Luxembourgish teaching capacity is a core operational dependency.",
+        "confidence": 0.7
+      },
+      {
+        "value": "regulator_acceptance",
+        "reason": "If the product wants official proof value, accepted certification matters.",
+        "confidence": 0.79
+      }
+    ],
+    "scope_variance_risk": {
+      "value": "medium",
+      "reason": "The current scope is Luxembourg-only, but public and private proof routes differ inside that scope.",
+      "confidence": 0.73
+    },
+    "expansion_variance_risk": {
+      "value": "high",
+      "reason": "Outside Luxembourg, both the language value proposition and the leave logic would change materially.",
+      "confidence": 0.9
+    },
+    "subsidy_exists": {
+      "value": "yes",
+      "reason": "Linguistic leave clearly exists as a public support route for Luxembourgish learning.",
+      "confidence": 0.94
+    },
+    "subsidy_eligibility_status": {
+      "value": "unclear",
+      "reason": "The support route exists, but the provider must still fit the official course-eligibility categories.",
+      "confidence": 0.7
+    },
+    "subsidy_conflict_flag": {
+      "value": false,
+      "reason": "No direct policy conflict was found, only provider-eligibility dependence.",
+      "confidence": 0.78
+    },
+    "market_regulatory_context": {
+      "value": "lightly_regulated",
+      "reason": "This is language training, but with a formal leave and certification layer.",
+      "confidence": 0.86
+    }
+  },
+  "risk_map": {
+    "claim_language_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "Official proof and certificate wording must be handled carefully because INLL distinguishes between course learning and nationality-valid certification.",
+      "source_ids": [
+        "inll_luxembourgish",
+        "guichet_ling_leave"
+      ]
+    },
+    "authority_dependency_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The product depends on official leave-eligibility and certification logic.",
+      "source_ids": [
+        "guichet_ling_leave",
+        "inll_luxembourgish"
+      ]
+    },
+    "competitive_gap_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "Public and private Luxembourgish offerings already exist, including an official certification body and private substitutes.",
+      "source_ids": [
+        "inll_courses",
+        "prolingua_tailor_made",
+        "inlingua_adults"
+      ]
+    },
+    "numeric_claim_risk": {
+      "status": "present",
+      "severity": "low",
+      "reason": "The 200-hour leave figure is official and cleanly stated.",
+      "source_ids": [
+        "guichet_ling_leave"
+      ]
+    },
+    "subsidy_conflict_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The support route is real, but course eligibility depends on provider status.",
+      "source_ids": [
+        "guichet_ling_leave"
+      ]
+    },
+    "positioning_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "Without a strong official-proof angle, the product can blur into generic Luxembourgish instruction.",
+      "source_ids": [
+        "inll_courses",
+        "prolingua_tailor_made"
+      ]
+    }
+  },
+  "claim_conflicts": [
+    {
+      "claim_area": "scope_fit",
+      "claim_text": "The product's CEFR certification is sufficient for official needs.",
+      "conflict_type": "ambiguity",
+      "severity": "high",
+      "what_is_wrong": "INLL explicitly distinguishes between course offerings and certificate value for nationality, so a provider-issued CEFR report should not be treated as official proof without validation.",
+      "source_ids": [
+        "inll_luxembourgish"
+      ]
+    },
+    {
+      "claim_area": "competitor_gap",
+      "claim_text": "INLL is free but overcrowded.",
+      "conflict_type": "ambiguity",
+      "severity": "medium",
+      "what_is_wrong": "The public evidence shows free and broad offerings, but not an objective overcrowding measure.",
+      "source_ids": [
+        "inll_courses",
+        "inll_free_course"
+      ]
+    }
+  ],
+  "recommended_manual_review": [
+    {
+      "field": "proof_value",
+      "reason": "Decide whether the product will sell on official certification value, workplace progress, or both."
+    },
+    {
+      "field": "eligibility_route",
+      "reason": "Check if the chosen course provider is actually eligible for linguistic leave support."
+    },
+    {
+      "field": "positioning",
+      "reason": "Avoid implying that a provider-issued certificate is automatically equivalent to official recognition."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "guichet_ling_leave",
+      "title": "Linguistic leave",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/citoyens/travail/conges-jours-feries/formation-professionnelle/conge-linguistique.html",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "inll_luxembourgish",
+      "title": "Learn to speak Luxembourgish with our language courses",
+      "publisher": "INLL",
+      "url": "https://www.inll.lu/en/languages/luxembourgish/",
+      "source_type": "company",
+      "reliability": "high"
+    },
+    {
+      "source_id": "inll_courses",
+      "title": "Language courses that focus on the power of dialogue",
+      "publisher": "INLL",
+      "url": "https://www.inll.lu/en/courses/",
+      "source_type": "company",
+      "reliability": "high"
+    },
+    {
+      "source_id": "inll_free_course",
+      "title": "Initiation à la langue luxembourgeoise dans le contexte professionnel",
+      "publisher": "INLL",
+      "url": "https://www.inll.lu/fr/formation-en-auto-apprentissage-de-la-langue-luxembourgeoise/",
+      "source_type": "company",
+      "reliability": "high"
+    },
+    {
+      "source_id": "prolingua_tailor_made",
+      "title": "Tailor-made courses in your company, at Prolingua's premises or at a distance",
+      "publisher": "Prolingua",
+      "url": "https://prolingua.lu/en/courses_25?category=individual",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "inlingua_adults",
+      "title": "Cours de langues pour adultes",
+      "publisher": "inlingua Luxembourg",
+      "url": "https://www.inlingua.lu/adultes",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "guichet_fpc_2025",
+      "title": "Aides à la formation professionnelle continue en entreprise",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/fr/entreprises/financement-aides/aides-emploi-recrutement-formation/formation-professionnelle-continue/fpc-entreprise.html",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "infpc_guichet",
+      "title": "Institut national pour le développement de la formation professionnelle continue (INFPC)",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/fr/entreprises/organismes/organismes_citoyens/institut-national-formation-continue.html",
+      "source_type": "government",
+      "reliability": "high"
+    }
+  ],
+  "quality_signals": {
+    "source_coverage_score": 0.82,
+    "unverified_claims_count": 3,
+    "field_confidence": {
+      "primary_buyer_type": 0.72,
+      "budget_owner": 0.69,
+      "legal_claim_severity": 0.84,
+      "authority_needed_for_delivery": 0.86,
+      "authority_needed_for_claims": 0.8,
+      "proof_burden": 0.77,
+      "scope_variance_risk": 0.73,
+      "expansion_variance_risk": 0.9,
+      "subsidy_exists": 0.94,
+      "subsidy_eligibility_status": 0.7,
+      "market_regulatory_context": 0.86
+    }
+  }
+}

@@ -1,0 +1,492 @@
+{
+  "product_code": "B6",
+  "product_title": "Embedded Onboarding for Staffing Agencies",
+  "analysis_timestamp": "2026-04-13T00:00:00Z",
+  "product_summary": {
+    "one_sentence_summary": "Turnkey language-and-orientation package that staffing agencies can bundle into cross-border placements for workers moving into Benelux roles.",
+    "target_user": "EU staffing and relocation agencies placing workers in Belgium, Luxembourg and nearby Benelux markets.",
+    "core_pain": "Agencies need a simple way to raise placement value while reducing onboarding friction for candidates moving across borders.",
+    "claimed_outcome": "A bundled language and orientation package that increases the value of a placement and helps workers settle faster.",
+    "market_scope": {
+      "primary_market": "Benelux",
+      "country_scope": [
+        "Belgium",
+        "Luxembourg",
+        "Netherlands"
+      ],
+      "profession_scope": [
+        "cross-border workers",
+        "general workforce"
+      ]
+    }
+  },
+  "buyer_analysis": {
+    "primary_buyer_type": {
+      "value": "staffing_agency",
+      "reason": "The source card is explicitly written for staffing and relocation agencies.",
+      "confidence": 0.94
+    },
+    "secondary_buyer_types": [
+      {
+        "value": "employer",
+        "reason": "Employers that receive placed workers may co-fund or co-own the onboarding motion.",
+        "confidence": 0.69
+      },
+      {
+        "value": "partner",
+        "reason": "The model likely needs local training or relocation partners to be credible.",
+        "confidence": 0.73
+      }
+    ],
+    "budget_owner": {
+      "value": "business_unit",
+      "reason": "For staffing agencies, this would usually sit with a commercial or operations business unit rather than a general L&D owner.",
+      "confidence": 0.6
+    },
+    "buyer_influencers": [
+      {
+        "value": "founder_ceo",
+        "reason": "This is a partner-heavy cross-border motion and may require founder-level approval in smaller agencies.",
+        "confidence": 0.71
+      },
+      {
+        "value": "legal",
+        "reason": "Cross-border work eligibility, permit and localisation questions influence whether the offer is viable.",
+        "confidence": 0.82
+      },
+      {
+        "value": "finance",
+        "reason": "Bundle pricing and placement margin assumptions need commercial review.",
+        "confidence": 0.58
+      },
+      {
+        "value": "hr_ld",
+        "reason": "Employer-side onboarding stakeholders can shape the usefulness of the package.",
+        "confidence": 0.49
+      }
+    ]
+  },
+  "claim_extraction": {
+    "externally_checkable_claims": [
+      {
+        "claim_area": "compliance",
+        "claim_text": "A turnkey language package increases an agency's value proposition and fee.",
+        "status": "unverified",
+        "notes": "This is a commercial hypothesis; no public source reviewed validates the price uplift for this exact offer.",
+        "source_ids": []
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "RPO market growing 15.4% CAGR.",
+        "status": "unverified",
+        "notes": "No public source reviewed confirmed this market-growth figure for the relevant segment.",
+        "source_ids": []
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "EU Blue Card issuances grew 300%.",
+        "status": "unverified",
+        "notes": "The reviewed public sources show EU Blue Card rule changes and Luxembourg issuance counts, but not this exact growth statistic.",
+        "source_ids": [
+          "eu_blue_card_luxembourg",
+          "eu_blue_card_rules"
+        ]
+      },
+      {
+        "claim_area": "compliance",
+        "claim_text": "The revised EU Blue Card framework lowers thresholds and allows a 6-month contract.",
+        "status": "verified",
+        "notes": "European Commission materials on the revised Blue Card framework state that the contract duration requirement is six months and that Luxembourg applies the revised threshold.",
+        "source_ids": [
+          "eu_blue_card_rules",
+          "eu_blue_card_luxembourg"
+        ]
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "More workers need integration because Blue Card rules are looser.",
+        "status": "partially_verified",
+        "notes": "The Blue Card framework is indeed more flexible, but the link to a broad increase in agency demand is an inference, not a directly verified market result.",
+        "source_ids": [
+          "eu_blue_card_rules",
+          "eu_blue_card_luxembourg"
+        ]
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "A turnkey package can be bundled into the agency placement fee.",
+        "status": "unverified",
+        "notes": "This is a business-model assumption and was not externally verified for this specific product.",
+        "source_ids": []
+      }
+    ],
+    "internal_claims_unverified": [
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "Agencies can charge €1,500 more per placement with language included.",
+        "reason_unverified": "No public source reviewed confirmed this pricing uplift."
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "Y1 revenue can reach €50–80K.",
+        "reason_unverified": "This is an internal projection, not an externally verified market fact."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "Identify 2–3 staffing agencies in Luxembourg and Belgium and convert them into pilots.",
+        "reason_unverified": "This is an execution plan, not a public fact."
+      }
+    ]
+  },
+  "external_research": {
+    "regulator_entities": [
+      {
+        "name": "European Commission, Directorate-General for Migration and Home Affairs",
+        "type": "regulator",
+        "relevance": "Runs the EU Blue Card portal and publishes the framework used for highly qualified cross-border work mobility.",
+        "source_ids": [
+          "eu_blue_card_rules",
+          "eu_blue_card_portal"
+        ]
+      },
+      {
+        "name": "General Department of Immigration, Ministry of Home Affairs (Luxembourg)",
+        "type": "ministry",
+        "relevance": "The Luxembourg Blue Card page states that applications go through the Ministry of Home Affairs.",
+        "source_ids": [
+          "eu_blue_card_luxembourg"
+        ]
+      }
+    ],
+    "framework_entities": [
+      {
+        "name": "Directive (EU) 2021/1883 (Recast Blue Card Directive)",
+        "type": "directive",
+        "relevance": "The EU Blue Card framework now uses a 6-month contract threshold and a simplified mobility regime in Member States.",
+        "source_ids": [
+          "eu_blue_card_rules",
+          "eu_blue_card_portal"
+        ]
+      }
+    ],
+    "funding_bodies": [],
+    "approval_entities": [],
+    "regulatory_requirements": [
+      {
+        "requirement": "For the EU Blue Card in Luxembourg, the applicant must have a 6-month contract and meet the salary threshold of EUR 58,968.",
+        "applies_to": "Highly qualified third-country workers applying in Luxembourg",
+        "jurisdiction": "Luxembourg",
+        "status": "confirmed",
+        "source_ids": [
+          "eu_blue_card_luxembourg"
+        ]
+      },
+      {
+        "requirement": "Only EU Member States can issue EU Blue Cards and the regime applies in 25 of the 27 EU Member States.",
+        "applies_to": "Highly qualified third-country workers and sponsoring employers",
+        "jurisdiction": "European Union",
+        "status": "confirmed",
+        "source_ids": [
+          "eu_blue_card_portal"
+        ]
+      },
+      {
+        "requirement": "For regulated professions under the Blue Card framework, national legal requirements must be met.",
+        "applies_to": "Applicants for regulated-profession roles",
+        "jurisdiction": "European Union",
+        "status": "confirmed",
+        "source_ids": [
+          "eu_blue_card_portal",
+          "eu_blue_card_rules"
+        ]
+      }
+    ],
+    "subsidies_or_funding": [],
+    "competitors_or_substitutes": [
+      {
+        "name": "LiReco",
+        "type": "direct",
+        "notes": "Integrated recruitment, language training and relocation model for healthcare professionals moving across Europe.",
+        "source_ids": [
+          "lireco_about"
+        ]
+      },
+      {
+        "name": "Charité international recruitment of nurses",
+        "type": "substitute",
+        "notes": "Employer-led international recruitment with language and integration support.",
+        "source_ids": [
+          "charite_recruitment"
+        ]
+      },
+      {
+        "name": "HSE international recruitment relocation package",
+        "type": "substitute",
+        "notes": "Public employer relocation package that pays some visa, registration and language-testing costs for incoming staff.",
+        "source_ids": [
+          "hse_relocation_package",
+          "hse_overseas_candidates"
+        ]
+      }
+    ]
+  },
+  "dashboard_enrichment": {
+    "legal_claim_severity": {
+      "value": 2,
+      "reason": "The product is commercial onboarding support, but it touches immigration and lawful work-routing claims.",
+      "confidence": 0.72
+    },
+    "authority_needed_for_delivery": {
+      "value": 2,
+      "reason": "A credible delivery likely needs country-specific legal and relocation expertise, though not a formal accreditation route.",
+      "confidence": 0.78
+    },
+    "authority_needed_for_claims": {
+      "value": 3,
+      "reason": "Claims about lawful work routes and Blue Card eligibility should be supported by external expertise or legal review.",
+      "confidence": 0.84
+    },
+    "proof_stack": [
+      {
+        "value": "buyer_acceptance",
+        "reason": "Staffing agencies need to believe the package will improve placement economics and reduce friction.",
+        "confidence": 0.9
+      },
+      {
+        "value": "paid_pilot",
+        "reason": "A paid agency pilot is the first meaningful proof that the bundle has commercial pull.",
+        "confidence": 0.79
+      },
+      {
+        "value": "placement_outcome",
+        "reason": "The package only matters if it helps produce successful placements and handoffs.",
+        "confidence": 0.72
+      }
+    ],
+    "proof_burden": {
+      "value": 3,
+      "reason": "The model needs measurable buyer acceptance and real placement outcomes, but not regulated recognition proof.",
+      "confidence": 0.82
+    },
+    "dependency_types": [
+      {
+        "value": "staffing_partner",
+        "reason": "The offer depends on recruitment or relocation agencies as the channel of delivery.",
+        "confidence": 0.93
+      },
+      {
+        "value": "country_localization",
+        "reason": "Benelux rules and expectations differ enough that local adaptation is required.",
+        "confidence": 0.95
+      },
+      {
+        "value": "expert_partner",
+        "reason": "Immigration and onboarding claims need external specialist input to stay credible.",
+        "confidence": 0.8
+      },
+      {
+        "value": "regulator_acceptance",
+        "reason": "The offer depends on the state accepting the applicant's legal route to work.",
+        "confidence": 0.76
+      }
+    ],
+    "scope_variance_risk": {
+      "value": "high",
+      "reason": "Even within Benelux, work-eligibility and onboarding routes vary enough to affect execution.",
+      "confidence": 0.89
+    },
+    "expansion_variance_risk": {
+      "value": "high",
+      "reason": "Expansion beyond the current countries would add more permit, language and localisation variance.",
+      "confidence": 0.94
+    },
+    "subsidy_exists": {
+      "value": "no",
+      "reason": "No clear subsidy or co-funding route is being relied on for this product.",
+      "confidence": 0.87
+    },
+    "subsidy_eligibility_status": {
+      "value": "not_applicable",
+      "reason": "The product card does not depend on a subsidy or reimbursement mechanism.",
+      "confidence": 0.9
+    },
+    "subsidy_conflict_flag": {
+      "value": false,
+      "reason": "No meaningful funding claim is made.",
+      "confidence": 0.91
+    },
+    "market_regulatory_context": {
+      "value": "regulated_adjacent",
+      "reason": "The product sits next to immigration and work-permit rules rather than formal professional accreditation.",
+      "confidence": 0.84
+    }
+  },
+  "risk_map": {
+    "claim_language_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "Commercial language about increasing fees and smoothing cross-border work can become overstated quickly.",
+      "source_ids": [
+        "eu_blue_card_rules",
+        "eu_blue_card_luxembourg"
+      ]
+    },
+    "authority_dependency_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "Work eligibility depends on national legal routes and Blue Card acceptance, which the provider does not control.",
+      "source_ids": [
+        "eu_blue_card_portal",
+        "eu_blue_card_luxembourg"
+      ]
+    },
+    "competitive_gap_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "Integrated recruitment plus language plus relocation models already exist, so uniqueness claims are weak.",
+      "source_ids": [
+        "lireco_about",
+        "charite_recruitment",
+        "hse_relocation_package"
+      ]
+    },
+    "numeric_claim_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The RPO CAGR, price uplift and Blue Card growth figures are not verified in the reviewed sources.",
+      "source_ids": [
+        "eu_blue_card_rules",
+        "eu_blue_card_luxembourg"
+      ]
+    },
+    "subsidy_conflict_risk": {
+      "status": "absent",
+      "severity": "low",
+      "reason": "The card does not rely on a subsidy story.",
+      "source_ids": []
+    },
+    "positioning_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "This is closer to a cross-border service operation than a simple training product.",
+      "source_ids": [
+        "lireco_about",
+        "hse_relocation_package"
+      ]
+    }
+  },
+  "claim_conflicts": [
+    {
+      "claim_area": "numeric_claim",
+      "claim_text": "RPO market growing 15.4% CAGR.",
+      "conflict_type": "external",
+      "severity": "medium",
+      "what_is_wrong": "No public source reviewed confirmed this market-growth figure for the relevant segment.",
+      "source_ids": []
+    },
+    {
+      "claim_area": "numeric_claim",
+      "claim_text": "EU Blue Card issuances grew 300%.",
+      "conflict_type": "external",
+      "severity": "medium",
+      "what_is_wrong": "The reviewed Blue Card sources describe rule changes and Luxembourg thresholds, but not this exact growth statistic.",
+      "source_ids": [
+        "eu_blue_card_luxembourg",
+        "eu_blue_card_rules"
+      ]
+    },
+    {
+      "claim_area": "numeric_claim",
+      "claim_text": "Agencies charge €1,500 more per placement with language included.",
+      "conflict_type": "external",
+      "severity": "medium",
+      "what_is_wrong": "No public source reviewed confirmed this pricing uplift.",
+      "source_ids": []
+    }
+  ],
+  "recommended_manual_review": [
+    {
+      "field": "commercial-model",
+      "reason": "Decide whether the offer is a fee uplift add-on, a bundle inside the placement fee, or a separate service line."
+    },
+    {
+      "field": "country-scope",
+      "reason": "Validate whether the initial scope is actually Benelux or only Belgium-Luxembourg with Netherlands as a future expansion."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "eu_blue_card_portal",
+      "title": "EU Blue Card",
+      "publisher": "European Commission - Migration and Home Affairs",
+      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card_en",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "eu_blue_card_rules",
+      "title": "New EU Blue Card rules for highly qualified immigrants wishing to work in Europe",
+      "publisher": "European Parliament",
+      "url": "https://www.europarl.europa.eu/news/en/press-room/20210910IPR11915/carte-bleue-regles-pour-les-immigrants-qualifies-souhaitant-travailler-en-europe",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "eu_blue_card_luxembourg",
+      "title": "EU Blue card in Luxembourg",
+      "publisher": "European Commission - Migration and Home Affairs",
+      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-luxembourg_en",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "lireco_about",
+      "title": "Recruitment and Language Training for Swedish Healthcare",
+      "publisher": "LiReco",
+      "url": "https://lireco.se/en/",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "charite_recruitment",
+      "title": "International recruitment of nurses",
+      "publisher": "Charité – Universitätsmedizin Berlin",
+      "url": "https://www.charite.de/en/international/archiv/for_physicians_and_nursing_staff/working_at_charite/international_recruitment_of_nurses",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "hse_relocation_package",
+      "title": "HSE International / Returning Emigrants Recruitment Relocation Package",
+      "publisher": "HSE Career Hub",
+      "url": "https://about.hse.ie/publications/question-from-deputy-sorca-clarke-pq-1668-26/",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "hse_overseas_candidates",
+      "title": "Overseas candidates",
+      "publisher": "HSE.ie",
+      "url": "https://www.hse.ie/eng/staff/jobs/overseas-candidates/",
+      "source_type": "government",
+      "reliability": "high"
+    }
+  ],
+  "quality_signals": {
+    "source_coverage_score": 0.8,
+    "unverified_claims_count": 5,
+    "field_confidence": {
+      "primary_buyer_type": 0.94,
+      "budget_owner": 0.6,
+      "legal_claim_severity": 0.72,
+      "authority_needed_for_delivery": 0.78,
+      "authority_needed_for_claims": 0.84,
+      "proof_burden": 0.82,
+      "scope_variance_risk": 0.89,
+      "expansion_variance_risk": 0.94,
+      "subsidy_exists": 0.87,
+      "subsidy_eligibility_status": 0.9,
+      "market_regulatory_context": 0.84
+    }
+  }
+}

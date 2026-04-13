@@ -1,0 +1,450 @@
+{
+  "product_code": "L7",
+  "product_title": "OET Medical Preparation (Doctors)",
+  "analysis_timestamp": "2026-04-13T00:00:00Z",
+  "product_summary": {
+    "one_sentence_summary": "Premium doctor-specific OET Medicine prep for clinicians in the UAE and GCC who need a stronger pathway toward ECFMG or other international recognition routes.",
+    "target_user": "Doctors in the UAE/GCC, especially specialists and consultants, who want exam prep tailored to physician-level medical English.",
+    "core_pain": "Doctors need high-quality, route-relevant English preparation and feedback that matches their professional communication tasks.",
+    "claimed_outcome": "Better OET Medicine performance and a more confident path to international recognition or career advancement.",
+    "market_scope": {
+      "primary_market": "GCC",
+      "country_scope": [
+        "United Arab Emirates",
+        "GCC"
+      ],
+      "profession_scope": [
+        "doctors"
+      ]
+    }
+  },
+  "buyer_analysis": {
+    "primary_buyer_type": {
+      "value": "individual",
+      "reason": "The offer is sold as 1:1 or small-group B2C exam prep.",
+      "confidence": 0.97
+    },
+    "secondary_buyer_types": [
+      {
+        "value": "employer",
+        "reason": "Some doctors may be employer-sponsored if a hospital wants them to clear an English pathway.",
+        "confidence": 0.26
+      }
+    ],
+    "budget_owner": {
+      "value": "mixed",
+      "reason": "The learner may pay personally, but employer sponsorship is plausible for senior clinicians.",
+      "confidence": 0.49
+    },
+    "buyer_influencers": [
+      {
+        "value": "legal",
+        "reason": "ECFMG and destination-country requirements motivate the purchase.",
+        "confidence": 0.74
+      },
+      {
+        "value": "team_manager",
+        "reason": "Hospital or department leaders can influence the study timeline or sponsorship decision.",
+        "confidence": 0.34
+      }
+    ]
+  },
+  "claim_extraction": {
+    "externally_checkable_claims": [
+      {
+        "claim_area": "exam",
+        "claim_text": "OET Medicine is the approved English language and communications skills test for International Medical Graduates applying for ECFMG certification.",
+        "status": "verified",
+        "notes": "OET's official ECFMG page states this directly.",
+        "source_ids": [
+          "oet_ecfmg"
+        ]
+      },
+      {
+        "claim_area": "exam",
+        "claim_text": "OET Medicine is designed specifically for physicians and is an essential step in ECFMG's Pathways program.",
+        "status": "verified",
+        "notes": "The official ECFMG page says OET Medicine is designed specifically for physicians and is an essential step in the Pathways program.",
+        "source_ids": [
+          "oet_ecfmg"
+        ]
+      },
+      {
+        "claim_area": "recognition",
+        "claim_text": "OET is accepted by healthcare regulators in the UAE and recognized by healthcare regulators, educational institutions and visa and immigration services worldwide.",
+        "status": "verified",
+        "notes": "The official OET site supports broad acceptance, and the UAE country page shows acceptance in Abu Dhabi and Dubai contexts.",
+        "source_ids": [
+          "oet_acceptance_worldwide",
+          "oet_uae"
+        ]
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "ECFMG now requires OET only and has dropped IELTS.",
+        "status": "unverified",
+        "notes": "The reviewed official sources confirm OET Medicine is approved and essential for Pathways, but they do not establish the broader 'OET only' framing.",
+        "source_ids": [
+          "oet_ecfmg"
+        ]
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "The curriculum includes 24 corrected medical letters and uses doctor-exclusive cohorts only.",
+        "status": "unverified",
+        "notes": "These are internal course-design choices and were not externally verified.",
+        "source_ids": []
+      }
+    ],
+    "internal_claims_unverified": [
+      {
+        "claim_area": "other",
+        "claim_text": "ECFMG now requires OET only and has dropped IELTS.",
+        "reason_unverified": "The official sources reviewed do not prove the broader exclusion claim."
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "The curriculum includes 24 corrected medical letters and uses doctor-exclusive cohorts only.",
+        "reason_unverified": "These are internal design choices, not public facts."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "A premium 1:1 format is necessary for doctors.",
+        "reason_unverified": "No public source reviewed proves that this format is required rather than merely preferred."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "The tutor network is fully MD/MBBS + OET certified and sufficient for the target market.",
+        "reason_unverified": "Tutor qualifications and adequacy were not externally verified."
+      }
+    ]
+  },
+  "external_research": {
+    "regulator_entities": [
+      {
+        "name": "Educational Commission for Foreign Medical Graduates (ECFMG)",
+        "type": "exam_body",
+        "relevance": "The official ECFMG page explicitly uses OET Medicine for IMG certification pathways.",
+        "source_ids": [
+          "oet_ecfmg"
+        ]
+      },
+      {
+        "name": "OET",
+        "type": "exam_body",
+        "relevance": "The exam provider and preparation ecosystem are central to this product.",
+        "source_ids": [
+          "oet_ecfmg",
+          "oet_sample_tests"
+        ]
+      },
+      {
+        "name": "Department of Health - Abu Dhabi",
+        "type": "regulator",
+        "relevance": "The UAE page shows OET acceptance in Abu Dhabi and Dubai contexts.",
+        "source_ids": [
+          "oet_uae"
+        ]
+      }
+    ],
+    "framework_entities": [
+      {
+        "name": "ECFMG Pathways Program",
+        "type": "other",
+        "relevance": "The pathway framework for IMGs that the official OET Medicine page references.",
+        "source_ids": [
+          "oet_ecfmg"
+        ]
+      },
+      {
+        "name": "OET Test",
+        "type": "other",
+        "relevance": "The test itself is the central external framework for this prep product.",
+        "source_ids": [
+          "oet_acceptance_worldwide"
+        ]
+      }
+    ],
+    "funding_bodies": [],
+    "approval_entities": [],
+    "regulatory_requirements": [
+      {
+        "requirement": "OET Medicine is the approved English language and communications skills test for International Medical Graduates applying for ECFMG certification.",
+        "applies_to": "International medical graduates pursuing ECFMG certification",
+        "jurisdiction": "United States / ECFMG",
+        "status": "confirmed",
+        "source_ids": [
+          "oet_ecfmg"
+        ]
+      },
+      {
+        "requirement": "OET Medicine is an essential step in ECFMG's Pathways program.",
+        "applies_to": "International medical graduates applying through ECFMG Pathways",
+        "jurisdiction": "United States / ECFMG",
+        "status": "confirmed",
+        "source_ids": [
+          "oet_ecfmg"
+        ]
+      },
+      {
+        "requirement": "OET is accepted by healthcare regulators in the UAE and by healthcare regulators, educational institutions and visa and immigration services worldwide.",
+        "applies_to": "Healthcare professionals seeking international mobility",
+        "jurisdiction": "Global",
+        "status": "confirmed",
+        "source_ids": [
+          "oet_acceptance_worldwide",
+          "oet_uae"
+        ]
+      }
+    ],
+    "subsidies_or_funding": [],
+    "competitors_or_substitutes": [
+      {
+        "name": "Intro to OET Medicine course for doctors",
+        "type": "substitute",
+        "notes": "Official free OET introduction course competes directly with paid generic prep.",
+        "source_ids": [
+          "oet_intro_courses"
+        ]
+      },
+      {
+        "name": "OET free sample tests",
+        "type": "substitute",
+        "notes": "Official sample tests reduce willingness to pay for generic prep and set the self-study baseline.",
+        "source_ids": [
+          "oet_sample_tests"
+        ]
+      }
+    ]
+  },
+  "dashboard_enrichment": {
+    "legal_claim_severity": {
+      "value": 4,
+      "reason": "The offer is tied to ECFMG certification and other regulated international medical pathways.",
+      "confidence": 0.95
+    },
+    "authority_needed_for_delivery": {
+      "value": 2,
+      "reason": "The course can be delivered without formal approval, but credible physician-focused instruction requires strong subject-matter expertise.",
+      "confidence": 0.83
+    },
+    "authority_needed_for_claims": {
+      "value": 3,
+      "reason": "Claims about ECFMG usefulness and route relevance should be supported by expert review and current source checks.",
+      "confidence": 0.9
+    },
+    "proof_stack": [
+      {
+        "value": "buyer_acceptance",
+        "reason": "Doctors must see enough value to pay for a premium format instead of using free resources.",
+        "confidence": 0.9
+      },
+      {
+        "value": "exam_pass",
+        "reason": "The main proof is improved OET Medicine scores or exam success.",
+        "confidence": 0.95
+      },
+      {
+        "value": "regulator_listing_or_partner_route",
+        "reason": "Because the offer references ECFMG and route acceptance, partner or route proof matters if the claim language gets stronger.",
+        "confidence": 0.69
+      }
+    ],
+    "proof_burden": {
+      "value": 4,
+      "reason": "The product claims regulated-route relevance, so proof must reach beyond simple learning progress.",
+      "confidence": 0.93
+    },
+    "dependency_types": [
+      {
+        "value": "expert_partner",
+        "reason": "Physician-level tutoring and route guidance need credible medical expertise.",
+        "confidence": 0.91
+      },
+      {
+        "value": "teacher_supply",
+        "reason": "The offer depends on MD/MBBS-qualified or equivalent instructors with OET knowledge.",
+        "confidence": 0.82
+      },
+      {
+        "value": "country_localization",
+        "reason": "The proposition depends on GCC and ECFMG route context.",
+        "confidence": 0.86
+      },
+      {
+        "value": "regulator_acceptance",
+        "reason": "Acceptance by ECFMG and other healthcare authorities is central to the value proposition.",
+        "confidence": 0.89
+      }
+    ],
+    "scope_variance_risk": {
+      "value": "medium",
+      "reason": "The GCC audience is coherent, but destination-country rules and physician sub-specialties can vary.",
+      "confidence": 0.69
+    },
+    "expansion_variance_risk": {
+      "value": "high",
+      "reason": "Moving into other countries or professions would change both acceptance rules and buyer expectations substantially.",
+      "confidence": 0.92
+    },
+    "subsidy_exists": {
+      "value": "no",
+      "reason": "No subsidy or reimbursement route is central to this offer.",
+      "confidence": 0.88
+    },
+    "subsidy_eligibility_status": {
+      "value": "not_applicable",
+      "reason": "The product is sold as a direct premium consumer offer.",
+      "confidence": 0.92
+    },
+    "subsidy_conflict_flag": {
+      "value": false,
+      "reason": "No funding claim is being made.",
+      "confidence": 0.94
+    },
+    "market_regulatory_context": {
+      "value": "strongly_regulated",
+      "reason": "This product sits directly next to ECFMG certification and healthcare-regulator acceptance.",
+      "confidence": 0.96
+    }
+  },
+  "risk_map": {
+    "claim_language_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "ECFMG and route wording can quickly cross into formal acceptance claims if not kept narrow.",
+      "source_ids": [
+        "oet_ecfmg",
+        "oet_acceptance_worldwide"
+      ]
+    },
+    "authority_dependency_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The value proposition depends on formal route acceptance by ECFMG and healthcare authorities.",
+      "source_ids": [
+        "oet_ecfmg",
+        "oet_uae"
+      ]
+    },
+    "competitive_gap_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "Official free OET preparation resources already exist, so the premium offer must justify itself on physician specificity and feedback depth.",
+      "source_ids": [
+        "oet_intro_courses",
+        "oet_sample_tests"
+      ]
+    },
+    "numeric_claim_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The letter-count and cohort-format claims are internal and unverified.",
+      "source_ids": []
+    },
+    "subsidy_conflict_risk": {
+      "status": "absent",
+      "severity": "low",
+      "reason": "The card does not rely on a subsidy story.",
+      "source_ids": []
+    },
+    "positioning_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "The product is closer to a premium, route-sensitive service than to a simple exam-prep course.",
+      "source_ids": [
+        "oet_ecfmg",
+        "oet_intro_courses"
+      ]
+    }
+  },
+  "claim_conflicts": [
+    {
+      "claim_area": "other",
+      "claim_text": "ECFMG now requires OET only and has dropped IELTS.",
+      "conflict_type": "ambiguity",
+      "severity": "high",
+      "what_is_wrong": "The reviewed sources confirm OET Medicine is approved and essential for Pathways, but they do not prove the broader 'OET only' claim.",
+      "source_ids": [
+        "oet_ecfmg"
+      ]
+    },
+    {
+      "claim_area": "numeric_claim",
+      "claim_text": "The curriculum includes 24 corrected medical letters and uses doctor-exclusive cohorts only.",
+      "conflict_type": "internal",
+      "severity": "low",
+      "what_is_wrong": "These are internal design choices and not public facts.",
+      "source_ids": []
+    }
+  ],
+  "recommended_manual_review": [
+    {
+      "field": "route-language",
+      "reason": "Keep the ECFMG-related claim language narrow and source-tied."
+    },
+    {
+      "field": "premium-positioning",
+      "reason": "Validate whether the premium doctor-only positioning is compelling enough against free OET materials."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "oet_ecfmg",
+      "title": "OET for ECFMG Certification",
+      "publisher": "OET",
+      "url": "https://oet.com/en-us/ecfmg",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "oet_acceptance_worldwide",
+      "title": "What is the OET Test, where and how do I take it",
+      "publisher": "OET",
+      "url": "https://oet.com/en-us/about/the-test",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "oet_uae",
+      "title": "United Arab Emirates",
+      "publisher": "OET",
+      "url": "https://oet.com/en-us/test/who-recognises-oet/recognising-organisations/united-arab-emirates",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "oet_intro_courses",
+      "title": "OET homepage",
+      "publisher": "OET",
+      "url": "https://oet.com/en-us/",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "oet_sample_tests",
+      "title": "OET free sample tests",
+      "publisher": "OET",
+      "url": "https://oet.com/preparation-portal/free-sample-tests/",
+      "source_type": "company",
+      "reliability": "medium"
+    }
+  ],
+  "quality_signals": {
+    "source_coverage_score": 0.83,
+    "unverified_claims_count": 4,
+    "field_confidence": {
+      "primary_buyer_type": 0.97,
+      "budget_owner": 0.49,
+      "legal_claim_severity": 0.95,
+      "authority_needed_for_delivery": 0.83,
+      "authority_needed_for_claims": 0.9,
+      "proof_burden": 0.93,
+      "scope_variance_risk": 0.69,
+      "expansion_variance_risk": 0.92,
+      "subsidy_exists": 0.88,
+      "subsidy_eligibility_status": 0.92,
+      "market_regulatory_context": 0.96
+    }
+  }
+}

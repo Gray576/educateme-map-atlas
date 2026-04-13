@@ -1,0 +1,505 @@
+{
+  "product_code": "A6",
+  "product_title": "Expat Onboarding 'Luxembourg Ready'",
+  "analysis_timestamp": "2026-04-13T09:23:26Z",
+  "product_summary": {
+    "one_sentence_summary": "B2B expat onboarding package for Luxembourg that bundles language, civic integration and practical life-in-country support.",
+    "target_user": "HR teams and mobility managers relocating employees to Luxembourg, with the relocated employees as the end users.",
+    "core_pain": "Companies need faster, less fragile relocation and integration support so new hires can function socially and professionally in Luxembourg sooner.",
+    "claimed_outcome": "Better relocation success, faster integration and lower turnover risk.",
+    "market_scope": {
+      "primary_market": "Luxembourg",
+      "country_scope": [
+        "Luxembourg"
+      ],
+      "profession_scope": [
+        "expats",
+        "relocated employees",
+        "cross-border workers"
+      ]
+    }
+  },
+  "buyer_analysis": {
+    "primary_buyer_type": {
+      "value": "employer",
+      "reason": "The natural buyer is the company relocating the employee.",
+      "confidence": 0.82
+    },
+    "secondary_buyer_types": [
+      {
+        "value": "hr_ld",
+        "reason": "HR or mobility teams typically own onboarding and relocation support.",
+        "confidence": 0.78
+      },
+      {
+        "value": "partner",
+        "reason": "Relocation, language and integration partners are likely needed to deliver the bundle.",
+        "confidence": 0.62
+      }
+    ],
+    "budget_owner": {
+      "value": "hr_ld",
+      "reason": "Relocation and integration spend usually sits with HR or mobility budgets.",
+      "confidence": 0.75
+    },
+    "buyer_influencers": [
+      {
+        "value": "team_manager",
+        "reason": "Managers care whether the employee becomes productive quickly.",
+        "confidence": 0.67
+      },
+      {
+        "value": "legal",
+        "reason": "Relocation, language leave and residency-related questions often need legal or policy review.",
+        "confidence": 0.61
+      },
+      {
+        "value": "founder_ceo",
+        "reason": "SME leaders may influence whether relocation support is treated as a retention investment.",
+        "confidence": 0.56
+      }
+    ]
+  },
+  "claim_extraction": {
+    "externally_checkable_claims": [
+      {
+        "claim_area": "subsidy",
+        "claim_text": "Luxembourg has a linguistic leave scheme of up to 200 hours for language courses.",
+        "status": "verified",
+        "notes": "Guichet states that linguistic leave exists and can be used for language learning under defined conditions.",
+        "source_ids": [
+          "guichet_linguistic_leave"
+        ]
+      },
+      {
+        "claim_area": "scope_fit",
+        "claim_text": "The citizen's pact for intercultural living together includes introductory modules for people living or working in Luxembourg.",
+        "status": "verified",
+        "notes": "The Biergerpakt page says signatories can access information and training modules about intercultural living together and everyday life in Luxembourg.",
+        "source_ids": [
+          "guichet_biergerpakt"
+        ]
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "Luxembourg already has public and private substitutes for language and integration support.",
+        "status": "verified",
+        "notes": "INLL offers public language learning and certification, Prolingua offers private language courses, and Guichet publishes civic integration modules.",
+        "source_ids": [
+          "inll_institute",
+          "prolingua_courses",
+          "guichet_biergerpakt"
+        ]
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "Cross-border workers make up about 47% of Luxembourg's workforce.",
+        "status": "partially_verified",
+        "notes": "A 2025 EU labour mobility report says Luxembourg’s cross-border worker share is 45.1%, so the card’s 47% figure is directionally right but not exact.",
+        "source_ids": [
+          "ec_labour_mobility_2025"
+        ]
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "No one sells a single relocation language + integration package.",
+        "status": "contradicted",
+        "notes": "The public substitutes already combine language learning, civic integration and work/life-in-country support, so the absolute uniqueness claim is too strong.",
+        "source_ids": [
+          "inll_institute",
+          "prolingua_courses",
+          "guichet_biergerpakt"
+        ]
+      }
+    ],
+    "internal_claims_unverified": [
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "12,000 immigrants per year.",
+        "reason_unverified": "No public source reviewed here confirmed the exact figure."
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "220K cross-border workers.",
+        "reason_unverified": "The public source reviewed gives a different share-based statistic rather than this exact count."
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "40% turnover reduction and 8x ROI.",
+        "reason_unverified": "This is internal commercial math, not an externally verified result."
+      },
+      {
+        "claim_area": "scope_fit",
+        "claim_text": "The product's language certificate or Sproochtest readiness evaluation has external acceptance value.",
+        "reason_unverified": "The reviewed public sources do not confirm that this new product’s deliverables have official recognition."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "Companies assemble this piecemeal today.",
+        "reason_unverified": "This is a market interpretation, not a public fact."
+      }
+    ]
+  },
+  "external_research": {
+    "regulator_entities": [
+      {
+        "name": "Ministry of Labour",
+        "type": "ministry",
+        "relevance": "Responsible for the linguistic leave scheme on Guichet.lu.",
+        "source_ids": [
+          "guichet_linguistic_leave"
+        ]
+      }
+    ],
+    "framework_entities": [
+      {
+        "name": "Linguistic leave",
+        "type": "guidance",
+        "relevance": "Public leave scheme enabling employees or self-employed people to learn a language in Luxembourg.",
+        "source_ids": [
+          "guichet_linguistic_leave"
+        ]
+      },
+      {
+        "name": "Citizen's pact for intercultural living together",
+        "type": "law",
+        "relevance": "Public civic-integration framework with modules about everyday life, access to information and participation in Luxembourg.",
+        "source_ids": [
+          "guichet_biergerpakt"
+        ]
+      }
+    ],
+    "funding_bodies": [
+      {
+        "name": "Ministry of Labour",
+        "type": "reimbursement_body",
+        "relevance": "Administers linguistic leave-related procedures.",
+        "source_ids": [
+          "guichet_linguistic_leave"
+        ]
+      },
+      {
+        "name": "INFPC / Guichet.lu",
+        "type": "training_fund",
+        "relevance": "Relevant if the product is sold as company training in Luxembourg.",
+        "source_ids": [
+          "guichet_cvt"
+        ]
+      }
+    ],
+    "approval_entities": [],
+    "regulatory_requirements": [
+      {
+        "requirement": "Linguistic leave can be requested under defined conditions to learn a language.",
+        "applies_to": "Employees and self-employed people in Luxembourg",
+        "jurisdiction": "Luxembourg",
+        "status": "confirmed",
+        "source_ids": [
+          "guichet_linguistic_leave"
+        ]
+      },
+      {
+        "requirement": "The intercultural living-together programme offers modules about life in Luxembourg and can support long-term residence or nationality procedures under certain conditions.",
+        "applies_to": "People living or working in Luxembourg",
+        "jurisdiction": "Luxembourg",
+        "status": "confirmed",
+        "source_ids": [
+          "guichet_biergerpakt"
+        ]
+      }
+    ],
+    "subsidies_or_funding": [
+      {
+        "name": "Linguistic leave",
+        "jurisdiction": "Luxembourg",
+        "relevance": "direct",
+        "eligibility_notes": "A worker-level entitlement rather than a company subsidy, but highly relevant to the product story.",
+        "source_ids": [
+          "guichet_linguistic_leave"
+        ]
+      },
+      {
+        "name": "Continuing vocational training co-funding",
+        "jurisdiction": "Luxembourg",
+        "relevance": "possible",
+        "eligibility_notes": "General company training co-funding exists; product-level eligibility for the bundle should be checked.",
+        "source_ids": [
+          "guichet_cvt"
+        ]
+      }
+    ],
+    "competitors_or_substitutes": [
+      {
+        "name": "INLL",
+        "type": "direct",
+        "notes": "Public language-learning and certification institution in Luxembourg.",
+        "source_ids": [
+          "inll_institute"
+        ]
+      },
+      {
+        "name": "Prolingua",
+        "type": "direct",
+        "notes": "Private language school with French, German, Luxembourgish and other course offerings in Luxembourg.",
+        "source_ids": [
+          "prolingua_courses"
+        ]
+      },
+      {
+        "name": "Citizen's Pact / intercultural living-together modules",
+        "type": "substitute",
+        "notes": "Public civic integration modules cover part of the same integration job.",
+        "source_ids": [
+          "guichet_biergerpakt"
+        ]
+      }
+    ]
+  },
+  "dashboard_enrichment": {
+    "legal_claim_severity": {
+      "value": 2,
+      "reason": "This is mainly a training and reimbursement story, not a regulated-practice claim.",
+      "confidence": 0.79
+    },
+    "authority_needed_for_delivery": {
+      "value": 1,
+      "reason": "The program can be delivered without formal approval, though localisation matters.",
+      "confidence": 0.8
+    },
+    "authority_needed_for_claims": {
+      "value": 2,
+      "reason": "Claims about support routes, language leave and integration outcomes should be checked carefully.",
+      "confidence": 0.76
+    },
+    "proof_stack": [
+      {
+        "value": "buyer_acceptance",
+        "reason": "The employer must accept the bundle as worth buying instead of using separate providers.",
+        "confidence": 0.85
+      },
+      {
+        "value": "paid_pilot",
+        "reason": "A pilot with one relocation cohort would validate the bundle quickly.",
+        "confidence": 0.79
+      },
+      {
+        "value": "learning_progress",
+        "reason": "Participants should show better language and local-context understanding after the programme.",
+        "confidence": 0.72
+      }
+    ],
+    "proof_burden": {
+      "value": 3,
+      "reason": "Even though the offer is not regulated, it needs buyer acceptance and proof that the integration bundle is better than piecemeal alternatives.",
+      "confidence": 0.78
+    },
+    "dependency_types": [
+      {
+        "value": "country_localization",
+        "reason": "The whole product depends on Luxembourg-specific content and support routes.",
+        "confidence": 0.95
+      },
+      {
+        "value": "teacher_supply",
+        "reason": "The bundle requires language instructors capable of delivering relevant languages and levels.",
+        "confidence": 0.78
+      },
+      {
+        "value": "funding_eligibility",
+        "reason": "The sales story partly depends on linguistic leave and possibly company training co-funding.",
+        "confidence": 0.87
+      }
+    ],
+    "scope_variance_risk": {
+      "value": "medium",
+      "reason": "The current Luxembourg scope is coherent, but the product must fit very different employee backgrounds and employers.",
+      "confidence": 0.7
+    },
+    "expansion_variance_risk": {
+      "value": "high",
+      "reason": "The bundle is highly Luxembourg-specific; other countries would change language, civic and mobility rules.",
+      "confidence": 0.92
+    },
+    "subsidy_exists": {
+      "value": "yes",
+      "reason": "Linguistic leave and public company training co-funding exist in Luxembourg.",
+      "confidence": 0.9
+    },
+    "subsidy_eligibility_status": {
+      "value": "likely_eligible",
+      "reason": "The product is aligned with genuine language and integration support mechanisms, but the exact bundle still needs checking.",
+      "confidence": 0.71
+    },
+    "subsidy_conflict_flag": {
+      "value": true,
+      "reason": "The card mixes worker entitlement, company training co-funding and onboarding outcomes in a way that should not be treated as a single confirmed subsidy claim.",
+      "confidence": 0.81
+    },
+    "market_regulatory_context": {
+      "value": "lightly_regulated",
+      "reason": "This is an onboarding and integration product rather than a regulated-practice or certification route.",
+      "confidence": 0.88
+    }
+  },
+  "risk_map": {
+    "claim_language_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "Language and integration claims should stay grounded because the public support routes are real but not the same as a guaranteed outcome.",
+      "source_ids": [
+        "guichet_linguistic_leave",
+        "guichet_biergerpakt"
+      ]
+    },
+    "authority_dependency_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The bundle depends on local language and integration expertise rather than formal approval.",
+      "source_ids": [
+        "inll_institute",
+        "guichet_biergerpakt"
+      ]
+    },
+    "competitive_gap_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "Public and private substitutes already cover language and civic integration components.",
+      "source_ids": [
+        "inll_institute",
+        "prolingua_courses",
+        "guichet_biergerpakt"
+      ]
+    },
+    "numeric_claim_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The card uses population and ROI numbers that are not precisely supported by the public sources reviewed.",
+      "source_ids": [
+        "ec_labour_mobility_2025"
+      ]
+    },
+    "subsidy_conflict_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "The product combines several public support mechanisms, but the card presents them too simply.",
+      "source_ids": [
+        "guichet_linguistic_leave",
+        "guichet_cvt"
+      ]
+    },
+    "positioning_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "Without a sharper integration edge, the offer can become a generic language bundle.",
+      "source_ids": [
+        "inll_institute",
+        "prolingua_courses"
+      ]
+    }
+  },
+  "claim_conflicts": [
+    {
+      "claim_area": "competitor_gap",
+      "claim_text": "No one sells a single relocation language + integration package.",
+      "conflict_type": "external",
+      "severity": "high",
+      "what_is_wrong": "Public substitutes already combine language learning, civic integration and life-in-Luxembourg support.",
+      "source_ids": [
+        "inll_institute",
+        "prolingua_courses",
+        "guichet_biergerpakt"
+      ]
+    },
+    {
+      "claim_area": "numeric_claim",
+      "claim_text": "Cross-border workers make up 47% of Luxembourg workforce.",
+      "conflict_type": "ambiguity",
+      "severity": "medium",
+      "what_is_wrong": "The public 2025 report gives 45.1%, so the card is directionally right but not exact.",
+      "source_ids": [
+        "ec_labour_mobility_2025"
+      ]
+    }
+  ],
+  "recommended_manual_review": [
+    {
+      "field": "bundle-scope",
+      "reason": "Decide whether the product is mainly language, civic integration or relocation support."
+    },
+    {
+      "field": "subsidy-copy",
+      "reason": "Clarify which support route, if any, is used for the company-facing version."
+    },
+    {
+      "field": "turnover-logic",
+      "reason": "Validate the retention and ROI claims before using them in sales copy."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "guichet_linguistic_leave",
+      "title": "Linguistic leave",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/ressources-humaines/formation-professionnelle/conges-formation/conge-linguistique.html",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "guichet_biergerpakt",
+      "title": "Citizen's pact for intercultural living together - 'Biergerpakt'",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/citoyens/citoyennete/vivre-ensemble/pacte-citoyen.html",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "inll_institute",
+      "title": "Learn languages in a pleasant and welcoming environment",
+      "publisher": "INLL",
+      "url": "https://www.inll.lu/en/institut-en/",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "prolingua_courses",
+      "title": "Courses",
+      "publisher": "Prolingua Language Centre",
+      "url": "https://prolingua.lu/en/courses_25",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "ec_labour_mobility_2025",
+      "title": "Annual Report on Intra-EU Labour Mobility - 2025 edition",
+      "publisher": "European Commission / Futurium",
+      "url": "https://futurium.ec.europa.eu/en/border-focal-point-network/library/annual-report-intra-eu-labour-mobility-2025-edition",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "guichet_cvt",
+      "title": "Financial aid for in-company continuing vocational training",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/financement-aides/aides-emploi-recrutement-formation/formation-professionnelle-continue/fpc-entreprise.html",
+      "source_type": "government",
+      "reliability": "high"
+    }
+  ],
+  "quality_signals": {
+    "source_coverage_score": 0.8,
+    "unverified_claims_count": 5,
+    "field_confidence": {
+      "primary_buyer_type": 0.82,
+      "budget_owner": 0.75,
+      "legal_claim_severity": 0.79,
+      "authority_needed_for_delivery": 0.8,
+      "authority_needed_for_claims": 0.76,
+      "proof_burden": 0.78,
+      "scope_variance_risk": 0.7,
+      "expansion_variance_risk": 0.92,
+      "subsidy_exists": 0.9,
+      "subsidy_eligibility_status": 0.71,
+      "market_regulatory_context": 0.88
+    }
+  }
+}

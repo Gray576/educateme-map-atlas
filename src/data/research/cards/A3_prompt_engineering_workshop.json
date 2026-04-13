@@ -1,0 +1,473 @@
+{
+  "product_code": "A3",
+  "product_title": "Prompt Engineering Workshop",
+  "analysis_timestamp": "2026-04-13T09:23:26Z",
+  "product_summary": {
+    "one_sentence_summary": "Hands-on prompt engineering workshop for teams already using AI, framed around better output quality, repeatable prompts and internal best practices.",
+    "target_user": "Teams that already use ChatGPT or other LLM tools and need more reliable prompting habits.",
+    "core_pain": "Users can already access AI but their prompts are inconsistent, inefficient and hard to operationalise.",
+    "claimed_outcome": "Better prompt quality, a reusable prompt library and more consistent AI outputs for work tasks.",
+    "market_scope": {
+      "primary_market": "Luxembourg",
+      "country_scope": [
+        "Luxembourg"
+      ],
+      "profession_scope": [
+        "knowledge workers",
+        "cross-functional business teams"
+      ]
+    }
+  },
+  "buyer_analysis": {
+    "primary_buyer_type": {
+      "value": "employer",
+      "reason": "The workshop is likely bought by a company to improve how staff use AI tools at work.",
+      "confidence": 0.69
+    },
+    "secondary_buyer_types": [
+      {
+        "value": "hr_ld",
+        "reason": "HR/L&D can own team learning budgets for this type of workshop.",
+        "confidence": 0.63
+      },
+      {
+        "value": "mixed",
+        "reason": "Innovation, operations or function leads may also co-own the decision because the use case is productivity-driven.",
+        "confidence": 0.61
+      }
+    ],
+    "budget_owner": {
+      "value": "business_unit",
+      "reason": "The workshop is most naturally funded by the team or business unit that will use the prompts.",
+      "confidence": 0.66
+    },
+    "buyer_influencers": [
+      {
+        "value": "innovation",
+        "reason": "Teams exploring AI adoption are likely to be influenced by innovation or transformation stakeholders.",
+        "confidence": 0.7
+      },
+      {
+        "value": "security",
+        "reason": "Data-handling and safe-use concerns can block rollout if not addressed.",
+        "confidence": 0.74
+      },
+      {
+        "value": "legal",
+        "reason": "Prompt use for real work may require legal or privacy review if sensitive data is involved.",
+        "confidence": 0.72
+      },
+      {
+        "value": "hr_ld",
+        "reason": "HR/L&D may still influence training design and vendor selection.",
+        "confidence": 0.58
+      }
+    ]
+  },
+  "claim_extraction": {
+    "externally_checkable_claims": [
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "House of Training already offers prompt-engineering training in Luxembourg.",
+        "status": "verified",
+        "notes": "House of Training has a public prompt engineering course for financial-sector employees and broader ChatGPT/GenAI courses that cover prompt creation and practical use.",
+        "source_ids": [
+          "houseoftraining_prompt_finance",
+          "houseoftraining_chatgpt_business",
+          "houseoftraining_gen_ai_fundamentals"
+        ]
+      },
+      {
+        "claim_area": "competitor_gap",
+        "claim_text": "Free public guidance exists for generic prompt engineering.",
+        "status": "verified",
+        "notes": "OpenAI publishes free prompting guidance and Academy materials, which weakens any claim that prompt engineering knowledge is scarce or uniquely packaged.",
+        "source_ids": [
+          "openai_prompting"
+        ]
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "Practical prompt use should be combined with privacy and governance awareness.",
+        "status": "verified",
+        "notes": "The House of Training finance courses explicitly connect prompting with GDPR and AI Act requirements, and OpenAI guidance also assumes careful prompt design and context handling.",
+        "source_ids": [
+          "houseoftraining_prompt_finance",
+          "houseoftraining_ai_risk",
+          "openai_prompting"
+        ]
+      },
+      {
+        "claim_area": "subsidy",
+        "claim_text": "Luxembourg company training co-funding is relevant to this product category.",
+        "status": "verified",
+        "notes": "Guichet confirms co-funding for continuing vocational training in Luxembourg, subject to the usual exclusions.",
+        "source_ids": [
+          "guichet_cvt"
+        ]
+      }
+    ],
+    "internal_claims_unverified": [
+      {
+        "claim_area": "other",
+        "claim_text": "The workshop will deliver a company-specific prompt library of 30-50 tested prompts.",
+        "reason_unverified": "This is a proposed deliverable, not a public fact."
+      },
+      {
+        "claim_area": "other",
+        "claim_text": "Customization is the main differentiator, not knowledge.",
+        "reason_unverified": "This is a positioning interpretation, not an externally verified fact."
+      },
+      {
+        "claim_area": "subsidy",
+        "claim_text": "SME Package AI 70% applies to this workshop.",
+        "reason_unverified": "The reviewed sources do not prove that the exact AI-package claim applies to this product."
+      },
+      {
+        "claim_area": "numeric_claim",
+        "claim_text": "The workshop can be sold as a 1-2 day format with a prompt library outcome.",
+        "reason_unverified": "The duration and deliverable set are internal design choices rather than public facts."
+      }
+    ]
+  },
+  "external_research": {
+    "regulator_entities": [
+      {
+        "name": "European Commission AI Office",
+        "type": "regulator",
+        "relevance": "Provides AI literacy materials and the Article 4 context that makes safe prompt use relevant for employers.",
+        "source_ids": [
+          "eu_ai_literacy_qa",
+          "eu_ai_literacy_policy"
+        ]
+      }
+    ],
+    "framework_entities": [
+      {
+        "name": "AI Act Article 4",
+        "type": "law",
+        "relevance": "The broader AI literacy and safe-use environment in which this workshop sits.",
+        "source_ids": [
+          "eu_ai_literacy_qa"
+        ]
+      },
+      {
+        "name": "Prompting",
+        "type": "guidance",
+        "relevance": "Free public guidance on prompt design and best practices.",
+        "source_ids": [
+          "openai_prompting"
+        ]
+      }
+    ],
+    "funding_bodies": [
+      {
+        "name": "INFPC / Guichet.lu",
+        "type": "training_fund",
+        "relevance": "Relevant for Luxembourg company training co-funding.",
+        "source_ids": [
+          "guichet_cvt"
+        ]
+      }
+    ],
+    "approval_entities": [],
+    "regulatory_requirements": [
+      {
+        "requirement": "AI literacy obligations apply to providers and deployers of AI systems.",
+        "applies_to": "Organisations using AI systems in the EU",
+        "jurisdiction": "European Union",
+        "status": "confirmed",
+        "source_ids": [
+          "eu_ai_literacy_qa"
+        ]
+      }
+    ],
+    "subsidies_or_funding": [
+      {
+        "name": "Continuing vocational training co-funding",
+        "jurisdiction": "Luxembourg",
+        "relevance": "direct",
+        "eligibility_notes": "Available in principle for private-sector training plans, but product-level fit must be confirmed.",
+        "source_ids": [
+          "guichet_cvt"
+        ]
+      }
+    ],
+    "competitors_or_substitutes": [
+      {
+        "name": "House of Training - Prompt Engineering : Initiation & mise en pratique pour les employés du secteur financier",
+        "type": "direct",
+        "notes": "A public Luxembourg prompt-engineering product with compliance framing for finance staff.",
+        "source_ids": [
+          "houseoftraining_prompt_finance"
+        ]
+      },
+      {
+        "name": "House of Training - Entrepreneur augmenté grâce à ChatGPT",
+        "type": "direct",
+        "notes": "A practical ChatGPT course explicitly teaching prompt engineering and operational efficiency.",
+        "source_ids": [
+          "houseoftraining_chatgpt_business"
+        ]
+      },
+      {
+        "name": "OpenAI Academy - Prompting",
+        "type": "indirect",
+        "notes": "Free public prompting guidance substitutes for generic prompting knowledge.",
+        "source_ids": [
+          "openai_prompting"
+        ]
+      }
+    ]
+  },
+  "dashboard_enrichment": {
+    "legal_claim_severity": {
+      "value": 1,
+      "reason": "This is a productivity and skills workshop, so the legal claim is soft rather than regulated-practice level.",
+      "confidence": 0.73
+    },
+    "authority_needed_for_delivery": {
+      "value": 2,
+      "reason": "Hands-on AI training can be delivered internally, but privacy and governance review is advisable.",
+      "confidence": 0.82
+    },
+    "authority_needed_for_claims": {
+      "value": 2,
+      "reason": "Claims about reliable work outputs and safe use benefit from external SME review rather than pure self-assertion.",
+      "confidence": 0.79
+    },
+    "proof_stack": [
+      {
+        "value": "buyer_acceptance",
+        "reason": "The market is crowded with prompt-engineering content, so buyer willingness matters first.",
+        "confidence": 0.89
+      },
+      {
+        "value": "paid_pilot",
+        "reason": "A paid pilot will show whether the custom library is actually valued.",
+        "confidence": 0.8
+      },
+      {
+        "value": "learning_progress",
+        "reason": "Participants should demonstrate better prompt quality and more consistent outputs after training.",
+        "confidence": 0.77
+      }
+    ],
+    "proof_burden": {
+      "value": 3,
+      "reason": "Because generic knowledge is freely available, the product must prove customisation and buyer acceptance rather than just attendance.",
+      "confidence": 0.81
+    },
+    "dependency_types": [
+      {
+        "value": "data_privacy_review",
+        "reason": "Prompting on real business tasks can expose sensitive data or documents.",
+        "confidence": 0.88
+      },
+      {
+        "value": "country_localization",
+        "reason": "The workshop is Luxembourg-scoped and should use local examples and governance framing.",
+        "confidence": 0.72
+      },
+      {
+        "value": "expert_partner",
+        "reason": "An SME partner or reviewer helps keep the prompt library credible and safe.",
+        "confidence": 0.67
+      }
+    ],
+    "scope_variance_risk": {
+      "value": "medium",
+      "reason": "The current scope is a generic workshop for teams, but value will vary by function, data sensitivity and AI maturity.",
+      "confidence": 0.68
+    },
+    "expansion_variance_risk": {
+      "value": "high",
+      "reason": "Expanding to other countries or sectors changes privacy, language and governance expectations substantially.",
+      "confidence": 0.82
+    },
+    "subsidy_exists": {
+      "value": "yes",
+      "reason": "General company training co-funding exists in Luxembourg.",
+      "confidence": 0.9
+    },
+    "subsidy_eligibility_status": {
+      "value": "unclear",
+      "reason": "The general training route exists, but the exact AI-package claim for this workshop is not proven.",
+      "confidence": 0.74
+    },
+    "subsidy_conflict_flag": {
+      "value": true,
+      "reason": "The card should not present the subsidy claim as settled when the exact workshop-level fit is not verified.",
+      "confidence": 0.78
+    },
+    "market_regulatory_context": {
+      "value": "regulated_adjacent",
+      "reason": "Prompt engineering itself is not regulated, but the offer sits next to privacy, AI Act and safe-use concerns.",
+      "confidence": 0.87
+    }
+  },
+  "risk_map": {
+    "claim_language_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "Prompt-library and safe-use language is acceptable, but it should stay clear of overstating formal compliance effects.",
+      "source_ids": [
+        "openai_prompting",
+        "houseoftraining_prompt_finance"
+      ]
+    },
+    "authority_dependency_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "No formal authority is required, but privacy and governance review matter for real-work prompting.",
+      "source_ids": [
+        "houseoftraining_prompt_finance",
+        "houseoftraining_ai_risk"
+      ]
+    },
+    "competitive_gap_risk": {
+      "status": "present",
+      "severity": "high",
+      "reason": "Prompt-engineering content already exists in Luxembourg and free public guidance is available.",
+      "source_ids": [
+        "houseoftraining_prompt_finance",
+        "houseoftraining_chatgpt_business",
+        "openai_prompting"
+      ]
+    },
+    "numeric_claim_risk": {
+      "status": "present",
+      "severity": "low",
+      "reason": "The main number-based claims are internal design choices rather than public market facts.",
+      "source_ids": []
+    },
+    "subsidy_conflict_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "General co-funding exists, but the exact AI-package claim should not be assumed.",
+      "source_ids": [
+        "guichet_cvt"
+      ]
+    },
+    "positioning_risk": {
+      "status": "present",
+      "severity": "medium",
+      "reason": "Without tight customisation, the product can collapse into a generic prompt class that is easy to substitute.",
+      "source_ids": [
+        "openai_prompting",
+        "houseoftraining_chatgpt_business"
+      ]
+    }
+  },
+  "claim_conflicts": [
+    {
+      "claim_area": "competitor_gap",
+      "claim_text": "The market needs this workshop because no comparable prompt-engineering products exist locally.",
+      "conflict_type": "external",
+      "severity": "high",
+      "what_is_wrong": "House of Training already sells Luxembourg prompt-engineering and ChatGPT courses, and OpenAI provides free public prompting guidance.",
+      "source_ids": [
+        "houseoftraining_prompt_finance",
+        "houseoftraining_chatgpt_business",
+        "openai_prompting"
+      ]
+    }
+  ],
+  "recommended_manual_review": [
+    {
+      "field": "differentiation",
+      "reason": "Show a concrete customisation layer, not only generic prompt instruction."
+    },
+    {
+      "field": "data_policy",
+      "reason": "Define what kinds of client prompts and documents can be used safely in the workshop."
+    },
+    {
+      "field": "funding-route",
+      "reason": "Confirm whether the workshop belongs under general training co-funding only."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "openai_prompting",
+      "title": "Prompting",
+      "publisher": "OpenAI Academy",
+      "url": "https://academy.openai.com/public/clubs/work-users-ynjqu/resources/prompting",
+      "source_type": "other",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "houseoftraining_prompt_finance",
+      "title": "Prompt Engineering : Initiation & mise en pratique pour les employés du secteur financier",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/prompt-engineering-initiation-mise-en-pratique-pour-les-employes-du-secteur-financier-15850",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "houseoftraining_chatgpt_business",
+      "title": "Entrepreneur augmenté grâce à ChatGPT – Comprendre et intégrer l'IA dans votre stratégie d'entreprise",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/entrepreneur-augmente-grace-a-chatgpt-comprendre-et-integrer-l-ia-dans-votre-strategie-d-entreprise-12114",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "houseoftraining_gen_ai_fundamentals",
+      "title": "Generative artificial intelligences - Fundamentals",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/generative-artificial-intelligences-fundamentals-12375",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "houseoftraining_ai_risk",
+      "title": "Risk Management - Information Security, Data Protection and Artificial Intelligence",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/risk-management-information-security-data-protection-and-ai-14729",
+      "source_type": "company",
+      "reliability": "medium"
+    },
+    {
+      "source_id": "guichet_cvt",
+      "title": "Financial aid for in-company continuing vocational training",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/financement-aides/aides-emploi-recrutement-formation/formation-professionnelle-continue/fpc-entreprise.html",
+      "source_type": "government",
+      "reliability": "high"
+    },
+    {
+      "source_id": "eu_ai_literacy_qa",
+      "title": "AI Literacy - Questions & Answers",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+      "source_type": "official",
+      "reliability": "high"
+    },
+    {
+      "source_id": "eu_ai_literacy_policy",
+      "title": "AI talent, skills and literacy",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy",
+      "source_type": "official",
+      "reliability": "high"
+    }
+  ],
+  "quality_signals": {
+    "source_coverage_score": 0.7,
+    "unverified_claims_count": 4,
+    "field_confidence": {
+      "primary_buyer_type": 0.69,
+      "budget_owner": 0.66,
+      "legal_claim_severity": 0.73,
+      "authority_needed_for_delivery": 0.82,
+      "authority_needed_for_claims": 0.79,
+      "proof_burden": 0.81,
+      "scope_variance_risk": 0.68,
+      "expansion_variance_risk": 0.82,
+      "subsidy_exists": 0.9,
+      "subsidy_eligibility_status": 0.74,
+      "market_regulatory_context": 0.87
+    }
+  }
+}
