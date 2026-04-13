@@ -98,12 +98,15 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
 
   return (
     <main className="mx-auto max-w-[1540px] px-4 pb-6 pt-4 sm:px-5 lg:px-6">
-      <div className="flex flex-wrap items-start justify-between gap-4">
-        <div>
+      <div className="grid gap-3 md:grid-cols-[1fr_auto_1fr] md:items-start">
+        <div className="md:justify-self-start">
           <div className="inline-flex items-center rounded-md border border-border bg-card px-2.5 py-1 text-[11px] font-semibold tracking-[0.04em] text-foreground">
             EducateMe
           </div>
           <p className="mt-2 text-sm text-muted-foreground">Portfolio map · delivery × claim safety</p>
+        </div>
+        <div className="md:justify-self-center">
+          <ResearchScreenNav active="map" buildHref={buildHref} />
         </div>
         <div className="flex items-center gap-2">
           <Badge variant="secondary" className="rounded-md px-2.5 py-1 text-[11px]">
@@ -115,29 +118,30 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
         </div>
       </div>
 
-      <section className="mt-3 space-y-2">
-        <div className="space-y-0.5">
-          <p className="text-[11px] font-semibold uppercase tracking-[0.04em] text-muted-foreground">
-            Ranking lens
-          </p>
-          <p className="text-xs text-muted-foreground">
-            Same cards, different ranking formula depending on the decision goal.
-          </p>
-        </div>
-        <div className="flex flex-wrap items-center gap-3">
-        <ResearchScreenNav active="map" buildHref={buildHref} />
-        {PRESET_OPTIONS.map((item) => (
-          <Button
-            key={item.key}
-            variant={preset === item.key ? "default" : "outline"}
-            onClick={() => setPreset(item.key)}
-            className="h-7 rounded-full px-2.5 text-xs"
-            title={item.description}
-            aria-label={`${item.label}. ${item.description}`}
-          >
-            {item.label}
-          </Button>
-        ))}
+      <section className="mt-3">
+        <div className="space-y-2">
+          <div className="space-y-0.5">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.04em] text-muted-foreground">
+              Ranking lens
+            </p>
+            <p className="text-xs text-muted-foreground">
+              Same cards, different ranking formula depending on the decision goal.
+            </p>
+          </div>
+          <div className="flex flex-wrap items-center gap-2">
+            {PRESET_OPTIONS.map((item) => (
+              <Button
+                key={item.key}
+                variant={preset === item.key ? "default" : "outline"}
+                onClick={() => setPreset(item.key)}
+                className="h-7 rounded-full px-2.5 text-xs"
+                title={item.description}
+                aria-label={`${item.label}. ${item.description}`}
+              >
+                {item.label}
+              </Button>
+            ))}
+          </div>
         </div>
       </section>
 

@@ -36,13 +36,13 @@ function MetricRow({
   value: number;
 }) {
   return (
-    <div className="grid grid-cols-[minmax(0,1fr)_120px] items-center gap-2">
-      <div className="flex items-center gap-2 text-sm font-medium">
+    <div className="grid grid-cols-[minmax(0,1fr)_96px] items-center gap-2">
+      <div className="flex items-center gap-1.5 text-xs font-medium">
         <span>{label}</span>
-        <InfoHint label={label} description={description} widthClassName="w-56" />
+        <InfoHint label={label} description={description} widthClassName="w-48" />
       </div>
       <div className="flex justify-end">
-        <span className={cn("inline-flex min-w-20 justify-center rounded-lg px-2.5 py-1.5 text-sm font-semibold", scoreTone(value))}>
+        <span className={cn("inline-flex min-w-16 justify-center rounded-md px-2 py-1 text-xs font-semibold", scoreTone(value))}>
           {formatScore(value)}
         </span>
       </div>
@@ -61,8 +61,8 @@ function RawRow({
 }) {
   return (
     <div className="flex items-center justify-between gap-3 rounded-xl border border-border bg-background px-3 py-2.5">
-      <span className="text-sm font-medium">{label}</span>
-      <span className="text-sm font-semibold text-muted-foreground">
+      <span className="text-xs font-medium">{label}</span>
+      <span className="text-xs font-semibold text-muted-foreground">
         {value}
         {scale ?? ""}
       </span>
@@ -81,9 +81,9 @@ function DetailCard({
 }) {
   return (
     <div className="rounded-xl border border-border bg-background px-3 py-3">
-      <p className="text-xs uppercase tracking-[0.12em] text-muted-foreground">{label}</p>
-      <p className="mt-2 text-base font-semibold">{value}</p>
-      {hint ? <p className="mt-2 text-sm leading-6 text-muted-foreground">{hint}</p> : null}
+      <p className="text-[11px] uppercase tracking-[0.1em] text-muted-foreground">{label}</p>
+      <p className="mt-1.5 text-sm font-semibold">{value}</p>
+      {hint ? <p className="mt-1.5 text-xs leading-5 text-muted-foreground">{hint}</p> : null}
     </div>
   );
 }
@@ -115,17 +115,17 @@ export function ExplainabilityDrawer({
         className="absolute inset-0 bg-foreground/18 backdrop-blur-[1px]"
       />
 
-      <aside className="relative z-10 h-full w-full max-w-[700px] overflow-y-auto border-l border-border bg-background shadow-2xl">
-        <div className="sticky top-0 z-10 border-b border-border bg-background/96 px-4 py-4 backdrop-blur">
-          <div className="flex items-start justify-between gap-4">
+      <aside className="relative z-10 h-full w-full max-w-[560px] overflow-y-auto border-l border-border bg-background shadow-2xl">
+        <div className="sticky top-0 z-10 border-b border-border bg-background/96 px-3 py-3 backdrop-blur">
+          <div className="flex items-start justify-between gap-3">
             <div className="min-w-0">
-              <p className="text-sm font-medium uppercase tracking-[0.16em] text-muted-foreground">
+              <p className="text-[11px] font-medium uppercase tracking-[0.12em] text-muted-foreground">
                 Card audit · explainability drawer
               </p>
-              <h2 className="mt-1.5 text-2xl font-semibold tracking-tight">
+              <h2 className="mt-1 text-lg font-semibold tracking-tight">
                 {product.title} ({product.code})
               </h2>
-              <div className="mt-3 flex flex-wrap items-center gap-1.5">
+              <div className="mt-2 flex flex-wrap items-center gap-1.5">
                 <Badge variant="secondary" className="rounded-lg px-2.5 py-1 text-xs">
                   {product.marketBadge}
                 </Badge>
@@ -141,7 +141,7 @@ export function ExplainabilityDrawer({
                   Founder {formatScore(product.scores.founderRank)}
                 </span>
               </div>
-              <p className="mt-3 text-sm leading-6 text-muted-foreground">{product.shortSummary}</p>
+              <p className="mt-2 text-xs leading-5 text-muted-foreground">{product.shortSummary}</p>
             </div>
 
             <Button variant="outline" size="icon" onClick={onClose} aria-label="Close drawer">
@@ -149,33 +149,33 @@ export function ExplainabilityDrawer({
             </Button>
           </div>
 
-          <div className="mt-4 flex flex-wrap items-center gap-2">
-            <Button variant="outline" onClick={onPrevious} disabled={!onPrevious}>
+          <div className="mt-3 flex flex-wrap items-center gap-2">
+            <Button variant="outline" className="h-7 rounded-md px-2.5 text-xs" onClick={onPrevious} disabled={!onPrevious}>
               Previous
             </Button>
-            <Button variant="outline" onClick={onNext} disabled={!onNext}>
+            <Button variant="outline" className="h-7 rounded-md px-2.5 text-xs" onClick={onNext} disabled={!onNext}>
               Next
             </Button>
-            <span className="text-sm text-muted-foreground">
+            <span className="text-xs text-muted-foreground">
               Current lens: {getPresetLabel(preset)}
             </span>
           </div>
         </div>
 
-        <div className="space-y-4 px-4 py-4">
-          <section className="rounded-2xl border border-border bg-card p-4">
-            <h3 className="text-lg font-semibold">{reasoning.title}</h3>
-            <ul className="mt-3 space-y-1.5 text-sm leading-6 text-muted-foreground">
+        <div className="space-y-3 px-3 py-3">
+          <section className="rounded-md border border-border bg-card p-3">
+            <h3 className="text-sm font-semibold">{reasoning.title}</h3>
+            <ul className="mt-2 space-y-1 text-xs leading-5 text-muted-foreground">
               {reasoning.bullets.map((item) => (
                 <li key={item}>• {item}</li>
               ))}
             </ul>
           </section>
 
-          <section className="grid gap-4 xl:grid-cols-[minmax(0,1fr)_240px]">
-            <div className="rounded-2xl border border-border bg-card p-4">
-              <h3 className="text-lg font-semibold">Why it sits here</h3>
-              <div className="mt-4 space-y-3">
+          <section className="grid gap-3 xl:grid-cols-[minmax(0,1fr)_190px]">
+            <div className="rounded-md border border-border bg-card p-3">
+              <h3 className="text-sm font-semibold">Why it sits here</h3>
+              <div className="mt-3 space-y-2.5">
                 {COMPOSITE_METRICS.map((metric) => (
                   <MetricRow
                     key={metric.key}
@@ -187,10 +187,10 @@ export function ExplainabilityDrawer({
               </div>
             </div>
 
-            <div className="space-y-4">
-              <section className="rounded-2xl border border-border bg-card p-4">
-                <h3 className="text-lg font-semibold">Raw load factors</h3>
-                <div className="mt-3 space-y-2.5">
+            <div className="space-y-3">
+              <section className="rounded-md border border-border bg-card p-3">
+                <h3 className="text-sm font-semibold">Raw load factors</h3>
+                <div className="mt-2 space-y-2">
                   {RAW_LOAD_FACTORS.map((item) => (
                     <RawRow
                       key={item.key}
@@ -202,9 +202,9 @@ export function ExplainabilityDrawer({
                 </div>
               </section>
 
-              <section className="rounded-2xl border border-border bg-card p-4">
-                <h3 className="text-lg font-semibold">Data quality</h3>
-                <div className="mt-3 space-y-2.5 text-sm">
+              <section className="rounded-md border border-border bg-card p-3">
+                <h3 className="text-sm font-semibold">Data quality</h3>
+                <div className="mt-2 space-y-2 text-xs">
                   <div className="flex items-center justify-between gap-3">
                     <span className="text-muted-foreground">Source coverage</span>
                     <span className="font-semibold">{Math.round(product.qualitySignals.sourceCoverage * 100)}%</span>
@@ -230,9 +230,9 @@ export function ExplainabilityDrawer({
             </div>
           </section>
 
-          <section className="rounded-2xl border border-border bg-card p-4">
-            <h3 className="text-lg font-semibold">Dependencies</h3>
-            <div className="mt-3 flex flex-wrap gap-1.5">
+          <section className="rounded-md border border-border bg-card p-3">
+            <h3 className="text-sm font-semibold">Dependencies</h3>
+            <div className="mt-2 flex flex-wrap gap-1.5">
               {product.dependencyLabels.map((item: string) => (
                 <Badge key={item} variant="secondary" className="rounded-lg px-2.5 py-1 text-xs">
                   {item}
@@ -244,9 +244,9 @@ export function ExplainabilityDrawer({
             </div>
           </section>
 
-          <section className="rounded-2xl border border-border bg-card p-4">
-            <h3 className="text-lg font-semibold">Route and delivery context</h3>
-            <div className="mt-3 grid gap-3 md:grid-cols-2">
+          <section className="rounded-md border border-border bg-card p-3">
+            <h3 className="text-sm font-semibold">Route and delivery context</h3>
+            <div className="mt-2 grid gap-2.5 md:grid-cols-2">
               <DetailCard
                 label="Market bucket"
                 value={product.marketBadge}
@@ -278,8 +278,8 @@ export function ExplainabilityDrawer({
               />
             </div>
 
-            <div className="mt-4">
-              <p className="text-sm font-medium">Proof stack</p>
+            <div className="mt-3">
+              <p className="text-xs font-medium">Proof stack</p>
               <div className="mt-2.5 flex flex-wrap gap-1.5">
                 {product.proofStack.map((item) => (
                   <Badge key={item} variant="outline" className="rounded-lg px-2.5 py-1 text-xs">
@@ -293,9 +293,9 @@ export function ExplainabilityDrawer({
             </div>
           </section>
 
-          <section className="rounded-2xl border border-border bg-card p-4">
-            <h3 className="text-lg font-semibold">Buyer structure</h3>
-            <div className="mt-3 grid gap-3 md:grid-cols-2">
+          <section className="rounded-md border border-border bg-card p-3">
+            <h3 className="text-sm font-semibold">Buyer structure</h3>
+            <div className="mt-2 grid gap-2.5 md:grid-cols-2">
               <DetailCard
                 label="Primary buyer"
                 value={product.sourceCard.buyer_analysis.primary_buyer_type.value}
@@ -308,8 +308,8 @@ export function ExplainabilityDrawer({
               />
             </div>
 
-            <div className="mt-4">
-              <p className="text-sm font-medium">Secondary buyer types</p>
+            <div className="mt-3">
+              <p className="text-xs font-medium">Secondary buyer types</p>
               <div className="mt-2.5 flex flex-wrap gap-1.5">
                 {product.sourceCard.buyer_analysis.secondary_buyer_types.map((item) => (
                   <Badge key={`${item.value}-${item.reason}`} variant="secondary" className="rounded-lg px-2.5 py-1 text-xs">
@@ -322,8 +322,8 @@ export function ExplainabilityDrawer({
               </div>
             </div>
 
-            <div className="mt-4">
-              <p className="text-sm font-medium">Buyer influencers</p>
+            <div className="mt-3">
+              <p className="text-xs font-medium">Buyer influencers</p>
               <div className="mt-2.5 flex flex-wrap gap-1.5">
                 {product.sourceCard.buyer_analysis.buyer_influencers.map((item) => (
                   <Badge key={`${item.value}-${item.reason}`} variant="outline" className="rounded-lg px-2.5 py-1 text-xs">
@@ -337,22 +337,22 @@ export function ExplainabilityDrawer({
             </div>
           </section>
 
-          <section className="rounded-2xl border border-border bg-card p-4">
-            <h3 className="text-lg font-semibold">Top conflicts</h3>
-            <div className="mt-3 space-y-3">
+          <section className="rounded-md border border-border bg-card p-3">
+            <h3 className="text-sm font-semibold">Top conflicts</h3>
+            <div className="mt-2 space-y-2.5">
               {topConflicts.length > 0 ? (
                 topConflicts.map((conflict: FounderRowRecord["sourceCard"]["claim_conflicts"][number]) => (
-                  <article key={`${conflict.claim_area}-${conflict.claim_text}`} className="rounded-xl border border-border bg-background px-3 py-3">
+                  <article key={`${conflict.claim_area}-${conflict.claim_text}`} className="rounded-md border border-border bg-background px-3 py-2.5">
                     <div className="flex flex-wrap items-start justify-between gap-3">
                       <div>
-                        <p className="text-base font-semibold">{conflict.claim_area}</p>
-                        <p className="mt-1 text-sm text-muted-foreground">{conflict.claim_text}</p>
+                        <p className="text-sm font-semibold">{conflict.claim_area}</p>
+                        <p className="mt-1 text-xs text-muted-foreground">{conflict.claim_text}</p>
                       </div>
                       <span className={cn("inline-flex rounded-lg px-2.5 py-1 text-xs font-semibold", severityTone(conflict.severity))}>
                         {conflict.severity}
                       </span>
                     </div>
-                    <p className="mt-3 text-sm leading-6 text-muted-foreground">{conflict.what_is_wrong}</p>
+                    <p className="mt-2 text-xs leading-5 text-muted-foreground">{conflict.what_is_wrong}</p>
                   </article>
                 ))
               ) : (
