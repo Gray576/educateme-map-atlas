@@ -41,12 +41,14 @@ const STAGE_CLASS = {
 
 function SortButton({
   label,
+  description,
   column,
   sortState,
   onSort,
   align = "left",
 }: {
   label: string;
+  description: string;
   column: SortState["column"];
   sortState: SortState;
   onSort: (column: SortState["column"]) => void;
@@ -68,6 +70,8 @@ function SortButton({
     <button
       type="button"
       onClick={() => onSort(column)}
+      title={description}
+      aria-label={`${label}: ${description}`}
       className={cn(
         "flex w-full items-center gap-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-muted-foreground",
         align === "right" && "justify-end"
@@ -160,22 +164,36 @@ export function ProductTable({
             <tr className="border-b border-border">
               <th className="w-10 px-4 py-4" />
               <th className="px-3 py-4 text-left">
-                <SortButton label="Code" column="code" sortState={sortState} onSort={handleSort} />
+                <SortButton
+                  label="Code"
+                  description="Stable SKU code for scanning and cross-referencing products."
+                  column="code"
+                  sortState={sortState}
+                  onSort={handleSort}
+                />
               </th>
               <th className="px-3 py-4 text-left">
                 <SortButton
                   label="Product"
+                  description="Product name with Market and Model moved into pills to save decision space."
                   column="product"
                   sortState={sortState}
                   onSort={handleSort}
                 />
               </th>
               <th className="px-3 py-4 text-left">
-                <SortButton label="Stage" column="stage" sortState={sortState} onSort={handleSort} />
+                <SortButton
+                  label="Stage"
+                  description="Single lifecycle axis replacing the old overlapping status labels: Hypothesis → Ready → Piloting → Live."
+                  column="stage"
+                  sortState={sortState}
+                  onSort={handleSort}
+                />
               </th>
               <th className="px-3 py-4 text-right">
                 <SortButton
                   label="Time-to-ship"
+                  description="Weeks to first paying customer. Reframed from Readiness into a sortable shipping timeline."
                   column="timeToShip"
                   sortState={sortState}
                   onSort={handleSort}
@@ -185,6 +203,7 @@ export function ProductTable({
               <th className="px-3 py-4 text-right">
                 <SortButton
                   label="Venture"
+                  description="Σ(axis × venture-weight) × confidence. Measures how much this SKU can become a platform or strategic wedge."
                   column="venture"
                   sortState={sortState}
                   onSort={handleSort}
@@ -194,6 +213,7 @@ export function ProductTable({
               <th className="px-3 py-4 text-right">
                 <SortButton
                   label="Cashflow"
+                  description="Σ(axis × cashflow-weight) × confidence. Measures likelihood of putting money in the bank within roughly six months."
                   column="cashflow"
                   sortState={sortState}
                   onSort={handleSort}
@@ -203,6 +223,7 @@ export function ProductTable({
               <th className="px-3 py-4 text-right">
                 <SortButton
                   label="Δ"
+                  description="Difference between Venture and Cashflow scores. Positive means venture-only bet, negative means cashflow-first, near zero means universal winner."
                   column="delta"
                   sortState={sortState}
                   onSort={handleSort}
@@ -212,6 +233,7 @@ export function ProductTable({
               <th className="px-3 py-4 text-right">
                 <SortButton
                   label="Y1 Contribution"
+                  description="Year-one revenue adjusted by gross margin. Higher-quality cash beats a bigger but low-margin top line."
                   column="y1Contribution"
                   sortState={sortState}
                   onSort={handleSort}
@@ -221,6 +243,7 @@ export function ProductTable({
               <th className="px-3 py-4 text-left">
                 <SortButton
                   label="Bottleneck"
+                  description="Lowest blocking axis at a glance, like Distribution 1 or Team fit 2. Shows what limits progress right now."
                   column="bottleneck"
                   sortState={sortState}
                   onSort={handleSort}

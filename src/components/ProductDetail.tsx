@@ -32,11 +32,13 @@ const EXPAND_AXES: (keyof EnrichedProduct["axes"])[] = [
 
 function AxisCard({
   label,
+  description,
   value,
   suffix = "",
   accent = false,
 }: {
   label: string;
+  description: string;
   value: number;
   suffix?: string;
   accent?: boolean;
@@ -47,6 +49,8 @@ function AxisCard({
         "rounded-2xl border border-border bg-background px-3 py-3",
         accent && "border-primary/30 bg-primary/5"
       )}
+      title={description}
+      aria-label={`${label}: ${description}`}
     >
       <p className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">{label}</p>
       <p className="mt-1 text-lg font-semibold">
@@ -69,6 +73,19 @@ export function ProductDetail({ product, preset }: ProductDetailProps) {
               <AxisCard
                 key={axis}
                 label={getAxisLabel(axis)}
+                description={
+                  axis === "timeToShip"
+                    ? "Weeks to first paying customer. This is the sortable replacement for the old readiness badge."
+                    : axis === "studioLeverage"
+                    ? "How much this product reuses existing studio assets, curriculum, audience, or delivery machinery."
+                    : axis === "distribution"
+                    ? "Whether there is already a reliable channel to reach the buyer."
+                    : axis === "tamCeiling"
+                    ? "Annual revenue ceiling if this SKU works."
+                    : axis === "painMandate"
+                    ? "How hard the buyer is pushed by pain, regulation, or market pressure."
+                    : "How many months remain before the mandate or tailwind collapses."
+                }
                 value={product.axes[axis]}
                 suffix={axis === "timeToShip" ? "w" : axis === "halfLife" ? " mo" : ""}
                 accent={axis === "timeToShip" || axis === "painMandate"}
@@ -78,6 +95,19 @@ export function ProductDetail({ product, preset }: ProductDetailProps) {
               <AxisCard
                 key={axis}
                 label={getAxisLabel(axis)}
+                description={
+                  axis === "teamFit"
+                    ? "How well the current team can credibly build and deliver this."
+                    : axis === "manualEffort"
+                    ? "Delivery scalability. Higher means less painful manual work."
+                    : axis === "wedge"
+                    ? "Whether this SKU opens larger follow-on opportunities."
+                    : axis === "grossMargin"
+                    ? "Gross margin percentage used to convert Y1 revenue into Y1 contribution."
+                    : axis === "cacLtv"
+                    ? "Attractiveness of acquisition cost relative to lifetime value."
+                    : "Ability of this SKU to build a moat rather than just win one sale."
+                }
                 value={product.axes[axis]}
                 suffix={axis === "grossMargin" ? "%" : ""}
               />
@@ -86,7 +116,10 @@ export function ProductDetail({ product, preset }: ProductDetailProps) {
 
           <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
             <div className="rounded-2xl border border-border bg-background px-4 py-3">
-              <p className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
+              <p
+                className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground"
+                title="Operational countdown for expiring mandates or short-lived tailwinds. Creates urgency to decide now."
+              >
                 Half-life countdown
               </p>
               <p className="mt-1 text-lg font-semibold">{product.urgencyLabel}</p>
@@ -95,14 +128,20 @@ export function ProductDetail({ product, preset }: ProductDetailProps) {
               </p>
             </div>
             <div className="rounded-2xl border border-border bg-background px-4 py-3">
-              <p className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
+              <p
+                className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground"
+                title="Cash required before the first paying customer. Separate from manual effort."
+              >
                 Cost to launch
               </p>
               <p className="mt-1 text-lg font-semibold">{formatCurrency(product.costToLaunch)}</p>
               <p className="text-sm text-muted-foreground">Before first paying customer</p>
             </div>
             <div className="rounded-2xl border border-border bg-background px-4 py-3">
-              <p className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
+              <p
+                className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground"
+                title="Upstream products or capabilities that must be in place first."
+              >
                 Dependencies
               </p>
               <p className="mt-1 text-lg font-semibold">
@@ -113,7 +152,10 @@ export function ProductDetail({ product, preset }: ProductDetailProps) {
               </p>
             </div>
             <div className="rounded-2xl border border-border bg-background px-4 py-3">
-              <p className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
+              <p
+                className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground"
+                title="Mutually exclusive or overlapping SKUs that can cannibalize the same buyer if launched together."
+              >
                 Cannibalization
               </p>
               <p className="mt-1 text-lg font-semibold">
@@ -129,7 +171,10 @@ export function ProductDetail({ product, preset }: ProductDetailProps) {
 
           <div className="grid gap-3 lg:grid-cols-2">
             <div className="rounded-3xl border border-border bg-background p-4">
-              <p className="text-[11px] uppercase tracking-[0.22em] text-muted-foreground">
+              <p
+                className="text-[11px] uppercase tracking-[0.22em] text-muted-foreground"
+                title="The minimum axis score. This is the fastest way to see what blocks progress."
+              >
                 Bottleneck
               </p>
               <p className="mt-2 text-xl font-semibold">
@@ -138,7 +183,10 @@ export function ProductDetail({ product, preset }: ProductDetailProps) {
               <p className="mt-2 text-sm leading-6 text-muted-foreground">{product.nextAction}</p>
             </div>
             <div className="rounded-3xl border border-border bg-background p-4">
-              <p className="text-[11px] uppercase tracking-[0.22em] text-muted-foreground">
+              <p
+                className="text-[11px] uppercase tracking-[0.22em] text-muted-foreground"
+                title="Confidence is a weight, not a separate decision axis. Raw score is multiplied by confidence to get the final score."
+              >
                 Confidence breakdown
               </p>
               <div className="mt-2 grid gap-2 md:grid-cols-3">
@@ -161,7 +209,10 @@ export function ProductDetail({ product, preset }: ProductDetailProps) {
 
         <div className="space-y-4">
           <div className="rounded-3xl border border-border bg-background p-4">
-            <p className="text-[11px] uppercase tracking-[0.22em] text-muted-foreground">
+            <p
+              className="text-[11px] uppercase tracking-[0.22em] text-muted-foreground"
+              title="One atomic action that should raise the current bottleneck."
+            >
               Next action
             </p>
             <p className="mt-2 text-base font-semibold">{product.nextAction}</p>

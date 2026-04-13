@@ -62,10 +62,14 @@ const SORT_PRESETS: [Exclude<SortPreset, null>, string, string][] = [
 ];
 
 function Select({
+  label,
+  description,
   value,
   onChange,
   options,
 }: {
+  label: string;
+  description: string;
   value: string;
   onChange: (value: string) => void;
   options: readonly [string, string][];
@@ -74,6 +78,8 @@ function Select({
     <select
       value={value}
       onChange={(event) => onChange(event.target.value)}
+      title={`${label}: ${description}`}
+      aria-label={`${label}: ${description}`}
       className="h-9 rounded-full border border-border bg-background px-3 text-sm text-foreground shadow-sm outline-none transition focus-visible:border-ring focus-visible:ring-2 focus-visible:ring-ring/40"
     >
       {options.map(([optionValue, label]) => (
@@ -104,6 +110,8 @@ export function FilterBar({
               key={value}
               type="button"
               onClick={() => onPresetChange(value)}
+              title={hint}
+              aria-label={`${label}: ${hint}`}
               className={cn(
                 "rounded-full border px-4 py-2 text-left transition",
                 preset === value
@@ -132,6 +140,8 @@ export function FilterBar({
               variant={sortPreset === value ? "default" : "outline"}
               className="h-auto rounded-full px-3 py-2 text-left"
               onClick={() => onSortPreset(value)}
+              title={hint}
+              aria-label={`${label}: ${hint}`}
             >
               <span className="block text-xs font-semibold">{label}</span>
               <span
@@ -152,22 +162,30 @@ export function FilterBar({
             placeholder="Search code, product, blocker, action…"
             value={filters.search}
             onChange={(event) => set({ search: event.target.value })}
+            title="Search across code, product name, market, blocker, next action, and dependencies."
+            aria-label="Search across code, product name, market, blocker, next action, and dependencies."
             className="h-9 rounded-full"
           />
 
           <Select
+            label="Market"
+            description="Keep the market filter, but move Market out of its own table column."
             value={filters.market}
             onChange={(value) => set({ market: value as Filters["market"] })}
             options={MARKETS}
           />
 
           <Select
+            label="Model"
+            description="B2B, B2C, or B2B2C. Model belongs in filters and pills, not as a dedicated decision column."
             value={filters.model}
             onChange={(value) => set({ model: value as Filters["model"] })}
             options={MODELS}
           />
 
           <Select
+            label="Bottleneck type"
+            description="Show everything blocked by the same limiting axis, such as Distribution or Team fit."
             value={filters.bottleneckType}
             onChange={(value) =>
               set({ bottleneckType: value as Filters["bottleneckType"] })
@@ -176,6 +194,8 @@ export function FilterBar({
           />
 
           <Select
+            label="Dependencies resolved"
+            description="Filter between products that are ready to move and products still blocked by upstream dependencies."
             value={String(filters.dependenciesResolved)}
             onChange={(value) =>
               set({
@@ -191,6 +211,8 @@ export function FilterBar({
           />
 
           <Select
+            label="Score metric"
+            description="Switch the slider between Venture and Cashflow score ranges."
             value={filters.scoreMetric}
             onChange={(value) => set({ scoreMetric: value as Filters["scoreMetric"] })}
             options={[
@@ -213,6 +235,8 @@ export function FilterBar({
               step="0.1"
               value={filters.scoreMin}
               onChange={(event) => set({ scoreMin: Number(event.target.value) })}
+              title="Minimum score threshold for the selected metric."
+              aria-label="Minimum score threshold for the selected metric."
               className="mt-2 w-full accent-foreground"
             />
           </div>
@@ -222,6 +246,8 @@ export function FilterBar({
             variant={filters.urgentOnly ? "default" : "outline"}
             className="rounded-full px-4"
             onClick={() => set({ urgentOnly: !filters.urgentOnly })}
+            title="Urgent means half-life below 18 months, so the tailwind may disappear if we wait."
+            aria-label="Urgent means half-life below 18 months, so the tailwind may disappear if we wait."
           >
             Half-life &lt; 18 mo
           </Button>
