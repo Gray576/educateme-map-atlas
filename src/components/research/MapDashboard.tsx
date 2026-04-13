@@ -70,6 +70,7 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
     () => ({
       market: getUniqueOptions(products, "market"),
       buyer: getUniqueOptions(products, "buyer"),
+      archetype: getUniqueOptions(products, "archetype"),
       claims: getUniqueOptions(products, "claims"),
       subsidy: getUniqueOptions(products, "subsidy"),
       dependencies: getUniqueOptions(products, "dependencies"),
@@ -108,14 +109,7 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
         <div className="md:justify-self-center">
           <ResearchScreenNav active="map" buildHref={buildHref} />
         </div>
-        <div className="flex items-center gap-2">
-          <Badge variant="secondary" className="rounded-md px-2.5 py-1 text-[11px]">
-            Card data only
-          </Badge>
-          <Badge variant="outline" className="rounded-md px-2.5 py-1 text-[11px]">
-            v1
-          </Badge>
-        </div>
+        <div aria-hidden="true" className="hidden md:block" />
       </div>
 
       <section className="mt-3">
@@ -148,6 +142,7 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
       <section className="mt-2 flex flex-wrap gap-2">
         <SelectControl label="Market" value={filters.market} options={options.market} onChange={(value) => setFilters((current) => ({ ...current, market: value }))} />
         <SelectControl label="Buyer" value={filters.buyer} options={options.buyer} onChange={(value) => setFilters((current) => ({ ...current, buyer: value }))} />
+        <SelectControl label="Archetype" value={filters.archetype} options={options.archetype} onChange={(value) => setFilters((current) => ({ ...current, archetype: value }))} />
         <SelectControl label="Claims" value={filters.claims} options={options.claims} onChange={(value) => setFilters((current) => ({ ...current, claims: value }))} />
         <SelectControl label="Subsidy" value={filters.subsidy} options={options.subsidy} onChange={(value) => setFilters((current) => ({ ...current, subsidy: value }))} />
         <SelectControl label="Dependencies" value={filters.dependencies} options={options.dependencies} onChange={(value) => setFilters((current) => ({ ...current, dependencies: value }))} />

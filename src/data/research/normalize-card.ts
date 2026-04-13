@@ -6,6 +6,8 @@ import type {
   ResearchCard,
   VarianceRisk,
 } from "@/types";
+import { getArchetypeAssignment } from "@/data/research/archetypes";
+import { getOperatorMatrixEntry } from "@/data/research/operator-matrix";
 
 const EU_COUNTRIES = new Set([
   "austria",
@@ -190,6 +192,9 @@ export function normalizeResearchCard(card: ResearchCard): ProductRecord {
   const highConflictCount = getRiskCount(card, "high");
   const mediumConflictCount = getRiskCount(card, "medium");
 
+  const archetype = getArchetypeAssignment(card.product_code);
+  const operatorMatrix = getOperatorMatrixEntry(card.product_code);
+
   return {
     code: card.product_code,
     title: card.product_title,
@@ -199,6 +204,8 @@ export function normalizeResearchCard(card: ResearchCard): ProductRecord {
     buyerType: card.buyer_analysis.primary_buyer_type.value,
     buyerLabel: getBuyerLabel(card.buyer_analysis.primary_buyer_type.value),
     buyerClusterBadge: getBuyerCluster(card),
+    archetype,
+    operatorMatrix,
     primaryRouteCountry: maybePrimaryRouteCountry(card),
     deliveryLanguage: maybeDeliveryLanguage(card),
     regulatoryContextLabel: regulatoryContextLabel(card),

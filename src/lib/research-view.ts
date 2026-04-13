@@ -4,6 +4,7 @@ import type { PresetKey, ScoredProductRecord } from "@/types";
 export interface FounderFiltersState {
   market: string;
   buyer: string;
+  archetype: string;
   claims: string;
   subsidy: string;
   dependencies: string;
@@ -24,6 +25,7 @@ export function getDefaultFounderFilters(): FounderFiltersState {
   return {
     market: "all",
     buyer: "all",
+    archetype: "all",
     claims: "all",
     subsidy: "all",
     dependencies: "all",
@@ -35,6 +37,7 @@ export function getActiveFilterChips(filters: FounderFiltersState) {
 
   if (filters.market !== "all") chips.push({ key: "market", label: "Market", value: filters.market });
   if (filters.buyer !== "all") chips.push({ key: "buyer", label: "Buyer", value: filters.buyer });
+  if (filters.archetype !== "all") chips.push({ key: "archetype", label: "Archetype", value: filters.archetype });
   if (filters.claims !== "all") chips.push({ key: "claims", label: "Claims", value: filters.claims });
   if (filters.subsidy !== "all") chips.push({ key: "subsidy", label: "Subsidy", value: filters.subsidy });
   if (filters.dependencies !== "all") {
@@ -76,6 +79,7 @@ export function applyFounderFilters(
   return products.filter((product) => {
     if (filters.market !== "all" && product.marketBadge !== filters.market) return false;
     if (filters.buyer !== "all" && product.buyerClusterBadge !== filters.buyer) return false;
+    if (filters.archetype !== "all" && product.archetype.label !== filters.archetype) return false;
     if (filters.claims !== "all" && !product.claimLabels.includes(filters.claims)) return false;
     if (filters.subsidy !== "all" && product.subsidyLabel !== filters.subsidy) return false;
     if (filters.dependencies !== "all" && !product.dependencyLabels.includes(filters.dependencies)) {
@@ -131,18 +135,20 @@ export function assignBands(products: ScoredProductRecord[]): FounderRowRecord[]
 
 export function getUniqueOptions(
   products: ScoredProductRecord[],
-  key: "market" | "buyer" | "claims" | "dependencies" | "subsidy"
+  key: "market" | "buyer" | "archetype" | "claims" | "dependencies" | "subsidy"
 ) {
   const values =
     key === "market"
       ? products.map((product) => product.marketBadge)
       : key === "buyer"
         ? products.map((product) => product.buyerClusterBadge)
-        : key === "claims"
-          ? products.flatMap((product) => product.claimLabels)
-          : key === "dependencies"
-            ? products.flatMap((product) => product.dependencyLabels)
-            : products.map((product) => product.subsidyLabel);
+        : key === "archetype"
+          ? products.map((product) => product.archetype.label)
+          : key === "claims"
+            ? products.flatMap((product) => product.claimLabels)
+            : key === "dependencies"
+              ? products.flatMap((product) => product.dependencyLabels)
+              : products.map((product) => product.subsidyLabel);
 
   return [...new Set(values)].sort((a, b) => a.localeCompare(b));
 }
@@ -151,6 +157,7 @@ export function buildFounderSummary(rows: FounderRowRecord[], preset: PresetKey)
   const topThree = rows.slice(0, 3);
   const visibleMarkets = [...new Set(rows.map((item) => item.marketBadge))];
   const visibleBuyers = [...new Set(rows.map((item) => item.buyerClusterBadge))];
+  const visibleArchetypes = [...new Set(rows.map((item) => item.archetype.shortLabel))];
   const topAverage =
     topThree.length > 0
       ? topThree.reduce((sum, item) => sum + getScoreForPreset(item, preset), 0) / topThree.length
@@ -184,6 +191,7 @@ export function buildFounderSummary(rows: FounderRowRecord[], preset: PresetKey)
       `${rows.length} products in view`,
       `Markets represented: ${visibleMarkets.join(", ") || "none"}`,
       `Dominant buyer clusters: ${visibleBuyers.slice(0, 3).join(", ") || "none"}`,
+      `Product families: ${visibleArchetypes.slice(0, 3).join(", ") || "none"}`,
     ],
     reading: [
       topThree[0]
@@ -280,12 +288,14 @@ export function buildMapReading(points: MapPointRecord[]) {
 
   const markets = [...new Set(points.map((point) => point.marketBadge))];
   const buyers = [...new Set(points.map((point) => point.buyerClusterBadge))];
+  const archetypes = [...new Set(points.map((point) => point.archetype.shortLabel))];
 
   return {
     snapshot: [
       `${points.length} products in view`,
       `Markets represented: ${markets.join(", ") || "none"}`,
       `Dominant buyer clusters: ${buyers.slice(0, 3).join(", ") || "none"}`,
+      `Product families: ${archetypes.slice(0, 3).join(", ") || "none"}`,
     ],
     topRight,
     interesting,

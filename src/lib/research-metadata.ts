@@ -1,4 +1,4 @@
-import type { PresetKey, ProductRecord, ProductScores } from "@/types";
+import type { OperatorDifficulty, PresetKey, ProductRecord, ProductScores } from "@/types";
 
 export const PRESET_OPTIONS: Array<{ key: PresetKey; label: string; description: string }> = [
   {
@@ -30,6 +30,18 @@ export const PRESET_OPTIONS: Array<{ key: PresetKey; label: string; description:
 
 export function getPresetLabel(preset: PresetKey) {
   return PRESET_OPTIONS.find((item) => item.key === preset)?.label ?? preset;
+}
+
+export function getOperatorDifficultyLabel(level: OperatorDifficulty) {
+  if (level === "easy") return "Easy";
+  if (level === "hard") return "Hard";
+  return "Medium";
+}
+
+export function getOperatorDifficultyTone(level: OperatorDifficulty) {
+  if (level === "easy") return "bg-emerald-100 text-emerald-800";
+  if (level === "hard") return "bg-orange-100 text-orange-800";
+  return "bg-amber-100 text-amber-800";
 }
 
 export const COMPOSITE_METRICS: Array<{

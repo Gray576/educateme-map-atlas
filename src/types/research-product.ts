@@ -26,6 +26,43 @@ export type BuyerCluster =
   | "General"
   | "Unknown";
 
+export type ArchetypeId =
+  | "compliance_ai_training"
+  | "integration_onboarding"
+  | "core_language_programs"
+  | "diagnostics_capability_audit"
+  | "regulated_workforce_pathways_exam_prep"
+  | "channel_licensing_placement";
+
+export type OperatorDifficulty = "easy" | "medium" | "hard";
+
+export interface ArchetypeSignal {
+  field: string;
+  value: string;
+}
+
+export interface ArchetypeAssignment {
+  id: ArchetypeId;
+  label: string;
+  shortLabel: string;
+  confidence: number;
+  ruleApplied: string;
+  matchedKeywords: string[];
+  sourceSignals: ArchetypeSignal[];
+  operatorDifficulty: OperatorDifficulty;
+  operatorDifficultySourceLabel: string;
+}
+
+export interface OperatorMatrixEntry {
+  market: string;
+  stage: string;
+  archetype: string;
+  operatorDifficulty: string;
+  timeToSignal: string;
+  firstLaunchFit: string;
+  rationale: string;
+}
+
 export interface ProductRecord {
   code: string;
   title: string;
@@ -35,6 +72,8 @@ export interface ProductRecord {
   buyerType: BuyerType;
   buyerLabel: string;
   buyerClusterBadge: BuyerCluster;
+  archetype: ArchetypeAssignment;
+  operatorMatrix: OperatorMatrixEntry;
   primaryRouteCountry: string | null;
   deliveryLanguage: string | null;
   regulatoryContextLabel: string | null;

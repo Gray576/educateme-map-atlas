@@ -8,7 +8,7 @@ import { ResearchScreenNav } from "@/components/research/ResearchScreenNav";
 import { useResearchUrlState } from "@/components/research/useResearchUrlState";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { PRESET_OPTIONS } from "@/lib/research-metadata";
+import { getOperatorDifficultyLabel, getOperatorDifficultyTone, PRESET_OPTIONS } from "@/lib/research-metadata";
 import { assignBands, applyFounderFilters, buildFounderSummary, getActiveFilterChips, getDefaultFounderFilters, getScoreForPreset, getUniqueOptions, sortProductsByPreset } from "@/lib/research-view";
 import { cn } from "@/lib/utils";
 import type { ScoredProductRecord } from "@/types";
@@ -59,6 +59,34 @@ function SelectControl({
   );
 }
 
+function LensButton({
+  label,
+  description,
+  active,
+  onClick,
+}: {
+  label: string;
+  description: string;
+  active: boolean;
+  onClick: () => void;
+}) {
+  return (
+    <div className="group relative">
+      <Button
+        variant={active ? "default" : "outline"}
+        onClick={onClick}
+        className="h-7 rounded-full px-2.5 text-xs"
+        aria-label={`${label}. ${description}`}
+      >
+        {label}
+      </Button>
+      <div className="pointer-events-none absolute left-1/2 top-[calc(100%+0.45rem)] z-20 hidden w-52 -translate-x-1/2 rounded-xl border border-border/80 bg-popover px-3 py-2 text-xs leading-5 text-popover-foreground shadow-xl group-hover:block group-focus-within:block">
+        {description}
+      </div>
+    </div>
+  );
+}
+
 function ScorePill({ value }: { value: number }) {
   return (
     <span className={`inline-flex min-w-14 justify-center rounded-md px-2 py-1 text-xs font-semibold ${toneForScore(value)}`}>
@@ -75,6 +103,7 @@ export function FounderDashboard({ products }: { products: ScoredProductRecord[]
     () => ({
       market: getUniqueOptions(products, "market"),
       buyer: getUniqueOptions(products, "buyer"),
+      archetype: getUniqueOptions(products, "archetype"),
       claims: getUniqueOptions(products, "claims"),
       subsidy: getUniqueOptions(products, "subsidy"),
       dependencies: getUniqueOptions(products, "dependencies"),
@@ -111,14 +140,7 @@ export function FounderDashboard({ products }: { products: ScoredProductRecord[]
         <div className="md:justify-self-center">
           <ResearchScreenNav active="founder" buildHref={buildHref} />
         </div>
-        <div className="flex items-center gap-2">
-          <Badge variant="secondary" className="rounded-md px-2.5 py-1 text-[11px]">
-            Card data only
-          </Badge>
-          <Badge variant="outline" className="rounded-md px-2.5 py-1 text-[11px]">
-            v1
-          </Badge>
-        </div>
+        <div aria-hidden="true" className="hidden md:block" />
       </div>
 
       <section className="mt-3">
@@ -133,16 +155,13 @@ export function FounderDashboard({ products }: { products: ScoredProductRecord[]
           </div>
           <div className="flex flex-wrap items-center gap-2">
             {PRESET_OPTIONS.map((item) => (
-              <Button
+              <LensButton
                 key={item.key}
-                variant={preset === item.key ? "default" : "outline"}
+                label={item.label}
+                description={item.description}
+                active={preset === item.key}
                 onClick={() => setPreset(item.key)}
-                className="h-7 rounded-full px-2.5 text-xs"
-                title={item.description}
-                aria-label={`${item.label}. ${item.description}`}
-              >
-                {item.label}
-              </Button>
+              />
             ))}
           </div>
         </div>
@@ -160,6 +179,12 @@ export function FounderDashboard({ products }: { products: ScoredProductRecord[]
           value={filters.buyer}
           options={options.buyer}
           onChange={(value) => setFilters((current) => ({ ...current, buyer: value }))}
+        />
+        <SelectControl
+          label="Archetype"
+          value={filters.archetype}
+          options={options.archetype}
+          onChange={(value) => setFilters((current) => ({ ...current, archetype: value }))}
         />
         <SelectControl
           label="Claims"
@@ -244,6 +269,24 @@ export function FounderDashboard({ products }: { products: ScoredProductRecord[]
                         {product.subsidyStateBadge}
                       </Badge>
                     ) : null}
+                  </div>
+                  <div className="mt-1.5 flex flex-wrap items-center gap-1.5">
+                    <Badge
+                      variant="outline"
+                      title={product.archetype.label}
+                      className="rounded-[10px] px-2.5 py-0.5 text-[11px] text-muted-foreground"
+                    >
+                      {product.archetype.shortLabel}
+                    </Badge>
+                    <span
+                      title={`Operator guide: ${product.archetype.operatorDifficultySourceLabel}`}
+                      className={cn(
+                        "inline-flex rounded-[10px] px-2.5 py-0.5 text-[11px] font-medium",
+                        getOperatorDifficultyTone(product.archetype.operatorDifficulty)
+                      )}
+                    >
+                      {getOperatorDifficultyLabel(product.archetype.operatorDifficulty)}
+                    </span>
                   </div>
                   <p className="mt-1 max-w-3xl text-xs leading-5 text-muted-foreground">
                     {product.shortSummary}

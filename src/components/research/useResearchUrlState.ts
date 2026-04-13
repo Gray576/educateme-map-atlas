@@ -22,6 +22,7 @@ function parseFilters(searchParams: URLSearchParams): FounderFiltersState {
   return {
     market: searchParams.get("market") ?? defaults.market,
     buyer: searchParams.get("buyer") ?? defaults.buyer,
+    archetype: searchParams.get("archetype") ?? defaults.archetype,
     claims: searchParams.get("claims") ?? defaults.claims,
     subsidy: searchParams.get("subsidy") ?? defaults.subsidy,
     dependencies: searchParams.get("dependencies") ?? defaults.dependencies,
