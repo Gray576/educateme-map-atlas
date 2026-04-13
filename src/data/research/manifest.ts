@@ -1,0 +1,28 @@
+export const RESEARCH_CARD_CODES = [
+  "A1",
+  "A2",
+  "A3",
+  "A4",
+  "A5",
+  "A6",
+  "A7",
+  "A8",
+  "A9",
+  "A10",
+  "B1",
+  "B2",
+  "B3",
+  "B4",
+  "B5",
+  "B6",
+  "C1",
+  "L1",
+  "L2",
+  "L3",
+  "L4",
+  "L5",
+  "L6",
+  "L7",
+] as const;
+
+export type ResearchCardCode = (typeof RESEARCH_CARD_CODES)[number];

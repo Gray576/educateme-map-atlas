@@ -1,0 +1,347 @@
+"use client";
+
+import { useEffect, useMemo } from "react";
+
+import { ExplainabilityDrawer } from "@/components/research/ExplainabilityDrawer";
+import { ResearchActiveFilters } from "@/components/research/ResearchActiveFilters";
+import { ResearchScreenNav } from "@/components/research/ResearchScreenNav";
+import { useResearchUrlState } from "@/components/research/useResearchUrlState";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { PRESET_OPTIONS } from "@/lib/research-metadata";
+import { assignBands, applyFounderFilters, buildFounderSummary, getActiveFilterChips, getDefaultFounderFilters, getScoreForPreset, getUniqueOptions, sortProductsByPreset } from "@/lib/research-view";
+import { cn } from "@/lib/utils";
+import type { ScoredProductRecord } from "@/types";
+
+function formatScore(value: number) {
+  return value.toFixed(1);
+}
+
+function toneForScore(score: number) {
+  if (score >= 70) return "bg-emerald-100 text-emerald-800";
+  if (score >= 45) return "bg-amber-100 text-amber-800";
+  return "bg-rose-100 text-rose-800";
+}
+
+function toneForBand(band: "top" | "mid" | "low") {
+  if (band === "top") return "bg-emerald-100 text-emerald-800";
+  if (band === "mid") return "bg-amber-100 text-amber-800";
+  return "bg-rose-100 text-rose-800";
+}
+
+function SelectControl({
+  label,
+  value,
+  options,
+  onChange,
+}: {
+  label: string;
+  value: string;
+  options: string[];
+  onChange: (value: string) => void;
+}) {
+  return (
+    <label className="flex items-center gap-2 rounded-full border border-border bg-card px-3 py-2 text-sm">
+      <span className="text-muted-foreground">{label}:</span>
+      <select
+        value={value}
+        onChange={(event) => onChange(event.target.value)}
+        className="bg-transparent outline-none"
+      >
+        <option value="all">all</option>
+        {options.map((option) => (
+          <option key={option} value={option}>
+            {option}
+          </option>
+        ))}
+      </select>
+    </label>
+  );
+}
+
+function ScorePill({ value }: { value: number }) {
+  return (
+    <span className={`inline-flex min-w-20 justify-center rounded-xl px-3 py-2 text-sm font-semibold ${toneForScore(value)}`}>
+      {formatScore(value)}
+    </span>
+  );
+}
+
+export function FounderDashboard({ products }: { products: ScoredProductRecord[] }) {
+  const { preset, setPreset, filters, setFilters, selectedCode, setSelectedCode, buildHref } =
+    useResearchUrlState();
+
+  const options = useMemo(
+    () => ({
+      market: getUniqueOptions(products, "market"),
+      buyer: getUniqueOptions(products, "buyer"),
+      claims: getUniqueOptions(products, "claims"),
+      subsidy: getUniqueOptions(products, "subsidy"),
+      dependencies: getUniqueOptions(products, "dependencies"),
+    }),
+    [products]
+  );
+
+  const rows = useMemo(() => {
+    const filtered = applyFounderFilters(products, filters);
+    const sorted = sortProductsByPreset(filtered, preset);
+    return assignBands(sorted);
+  }, [filters, preset, products]);
+  const activeFilterChips = useMemo(() => getActiveFilterChips(filters), [filters]);
+
+  const summary = useMemo(() => buildFounderSummary(rows, preset), [rows, preset]);
+  const selectedIndex = rows.findIndex((item) => item.code === selectedCode);
+  const selectedProduct = selectedIndex >= 0 ? rows[selectedIndex] : null;
+
+  useEffect(() => {
+    if (selectedCode && !rows.some((item) => item.code === selectedCode)) {
+      setSelectedCode(null);
+    }
+  }, [rows, selectedCode, setSelectedCode]);
+
+  return (
+    <main className="mx-auto max-w-[1540px] px-6 py-6">
+      <div className="flex flex-wrap items-start justify-between gap-4">
+        <div>
+          <h1 className="text-5xl font-semibold tracking-tight">EducateMe · Hypothesis Sorting</h1>
+          <p className="mt-2 text-2xl text-muted-foreground">Founder view · ranked table</p>
+        </div>
+        <div className="flex items-center gap-2">
+          <Badge variant="secondary" className="rounded-2xl px-4 py-2 text-sm">
+            Card data only
+          </Badge>
+          <Badge variant="outline" className="rounded-2xl px-4 py-2 text-sm">
+            v1
+          </Badge>
+        </div>
+      </div>
+
+      <section className="mt-6 flex flex-wrap items-center gap-3">
+        <ResearchScreenNav active="founder" buildHref={buildHref} />
+      </section>
+
+      <section className="mt-4 flex flex-wrap items-center gap-3">
+        {PRESET_OPTIONS.map((item) => (
+          <Button
+            key={item.key}
+            variant={preset === item.key ? "default" : "outline"}
+            size="lg"
+            onClick={() => setPreset(item.key)}
+            className="rounded-2xl px-6"
+          >
+            {item.label}
+          </Button>
+        ))}
+      </section>
+
+      <section className="mt-5 flex flex-wrap gap-3">
+        <SelectControl
+          label="Market"
+          value={filters.market}
+          options={options.market}
+          onChange={(value) => setFilters((current) => ({ ...current, market: value }))}
+        />
+        <SelectControl
+          label="Buyer"
+          value={filters.buyer}
+          options={options.buyer}
+          onChange={(value) => setFilters((current) => ({ ...current, buyer: value }))}
+        />
+        <SelectControl
+          label="Claims"
+          value={filters.claims}
+          options={options.claims}
+          onChange={(value) => setFilters((current) => ({ ...current, claims: value }))}
+        />
+        <SelectControl
+          label="Subsidy"
+          value={filters.subsidy}
+          options={options.subsidy}
+          onChange={(value) => setFilters((current) => ({ ...current, subsidy: value }))}
+        />
+        <SelectControl
+          label="Dependencies"
+          value={filters.dependencies}
+          options={options.dependencies}
+          onChange={(value) => setFilters((current) => ({ ...current, dependencies: value }))}
+        />
+        <Button
+          variant="ghost"
+          size="lg"
+          onClick={() => setFilters(getDefaultFounderFilters())}
+          className="rounded-2xl px-5"
+        >
+          Reset filters
+        </Button>
+      </section>
+
+      <ResearchActiveFilters count={rows.length} total={products.length} chips={activeFilterChips} />
+
+      <section className="mt-6 grid gap-5 xl:grid-cols-[minmax(0,1fr)_340px]">
+        <div className={cn(
+          "rounded-[30px] border border-border bg-card p-5 shadow-[0_18px_50px_-40px_rgba(15,23,42,0.28)] transition-opacity",
+          selectedProduct && "opacity-65"
+        )}>
+          <div className="grid grid-cols-[90px_minmax(0,1fr)_110px_110px_110px_110px_110px] gap-3 px-4 pb-4 text-sm font-semibold text-muted-foreground">
+            <div>Band</div>
+            <div>Product</div>
+            <div className="text-right">Founder</div>
+            <div className="text-right">Delivery</div>
+            <div className="text-right">Claims</div>
+            <div className="text-right">Evidence</div>
+            <div className="text-right">Proof</div>
+          </div>
+
+          <div className="space-y-4">
+            {rows.map((product) => (
+              <article
+                key={product.code}
+                role="button"
+                tabIndex={0}
+                onClick={() => setSelectedCode(product.code)}
+                onKeyDown={(event) => {
+                  if (event.key === "Enter" || event.key === " ") {
+                    event.preventDefault();
+                    setSelectedCode(product.code);
+                  }
+                }}
+                className="grid grid-cols-[90px_minmax(0,1fr)_110px_110px_110px_110px_110px] gap-3 rounded-[28px] border border-border bg-background px-4 py-5"
+              >
+                <div className="flex items-center">
+                  <span className={`inline-flex rounded-2xl px-4 py-2 text-sm font-semibold ${toneForBand(product.band)}`}>
+                    {product.band[0]!.toUpperCase() + product.band.slice(1)}
+                  </span>
+                </div>
+
+                <div className="min-w-0">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <h2 className="truncate text-2xl font-semibold">
+                      {product.code} {product.title}
+                    </h2>
+                  </div>
+                  <div className="mt-3 flex flex-wrap items-center gap-2">
+                    <Badge variant="secondary" className="rounded-xl px-3 py-1 text-sm">
+                      {product.marketBadge}
+                    </Badge>
+                    <Badge variant="secondary" className="rounded-xl px-3 py-1 text-sm">
+                      {product.buyerClusterBadge}
+                    </Badge>
+                    {product.subsidyStateBadge ? (
+                      <Badge variant="outline" className="rounded-xl px-3 py-1 text-sm">
+                        {product.subsidyStateBadge}
+                      </Badge>
+                    ) : null}
+                  </div>
+                  <p className="mt-3 max-w-3xl text-lg leading-7 text-muted-foreground">
+                    {product.shortSummary}
+                  </p>
+                </div>
+
+                <div className="flex items-start justify-end">
+                  <ScorePill value={product.scores.founderRank} />
+                </div>
+                <div className="flex items-start justify-end">
+                  <ScorePill value={product.scores.deliveryEase} />
+                </div>
+                <div className="flex items-start justify-end">
+                  <ScorePill value={product.scores.claimSafety} />
+                </div>
+                <div className="flex items-start justify-end">
+                  <ScorePill value={product.scores.evidenceConfidence} />
+                </div>
+                <div className="flex items-start justify-end">
+                  <ScorePill value={product.scores.proofSimplicity} />
+                </div>
+              </article>
+            ))}
+
+            {rows.length === 0 ? (
+              <div className="rounded-[28px] border border-dashed border-border px-6 py-12 text-center text-muted-foreground">
+                No products match the current filters.
+              </div>
+            ) : null}
+          </div>
+        </div>
+
+        <aside className={cn(
+          "rounded-[30px] border border-border bg-card p-6 shadow-[0_18px_50px_-40px_rgba(15,23,42,0.28)] transition-opacity",
+          selectedProduct && "opacity-65"
+        )}>
+          <h2 className="text-4xl font-semibold">{summary.title}</h2>
+          <p className="mt-3 text-lg leading-7 text-muted-foreground">{summary.description}</p>
+
+          <div className="mt-8">
+            <h3 className="text-2xl font-semibold">Top of current view</h3>
+            <div className="mt-4 space-y-4">
+              {summary.topThree.map((product) => (
+                <div key={product.code} className="rounded-2xl border border-border bg-background px-4 py-4">
+                  <div className="flex items-start justify-between gap-3">
+                    <div>
+                      <p className="text-xl font-semibold">
+                        {product.rankIndex} {product.code}
+                      </p>
+                      <p className="mt-1 text-sm text-muted-foreground">{product.title}</p>
+                    </div>
+                    <span className={`inline-flex rounded-2xl px-3 py-1.5 text-sm font-semibold ${toneForBand(product.band)}`}>
+                      {getScoreForPreset(product, preset).toFixed(1)}
+                    </span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="mt-8">
+            <h3 className="text-2xl font-semibold">Snapshot</h3>
+            <ul className="mt-4 space-y-2 text-base leading-7 text-muted-foreground">
+              {summary.snapshot.map((item) => (
+                <li key={item}>• {item}</li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="mt-8">
+            <h3 className="text-2xl font-semibold">Current reading</h3>
+            <ul className="mt-4 space-y-2 text-base leading-7 text-muted-foreground">
+              {summary.reading.map((item) => (
+                <li key={item}>• {item}</li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="mt-8">
+            <h3 className="text-2xl font-semibold">Banding logic</h3>
+            <div className="mt-4 space-y-3">
+              <div className="inline-flex rounded-2xl bg-emerald-100 px-4 py-2 text-sm font-semibold text-emerald-800">
+                Top band
+              </div>
+              <div className="inline-flex rounded-2xl bg-amber-100 px-4 py-2 text-sm font-semibold text-amber-800">
+                Middle band
+              </div>
+              <div className="inline-flex rounded-2xl bg-rose-100 px-4 py-2 text-sm font-semibold text-rose-800">
+                Lower band
+              </div>
+              <p className="text-base leading-7 text-muted-foreground">
+                Band is rendered from the current sorted results only. It is not stored in card data.
+              </p>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <ExplainabilityDrawer
+        product={selectedProduct}
+        preset={preset}
+        onClose={() => setSelectedCode(null)}
+        onPrevious={
+          selectedIndex > 0 ? () => setSelectedCode(rows[selectedIndex - 1]!.code) : undefined
+        }
+        onNext={
+          selectedIndex >= 0 && selectedIndex < rows.length - 1
+            ? () => setSelectedCode(rows[selectedIndex + 1]!.code)
+            : undefined
+        }
+      />
+    </main>
+  );
+}
