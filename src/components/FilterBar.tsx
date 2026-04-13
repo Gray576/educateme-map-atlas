@@ -150,7 +150,7 @@ export function FilterBar({
         ))}
       </div>
 
-      <div className="grid gap-2 xl:grid-cols-[minmax(260px,1.4fr)_repeat(5,minmax(170px,1fr))]">
+      <div className="grid gap-2 md:grid-cols-2 xl:grid-cols-[minmax(260px,1.45fr)_repeat(5,minmax(150px,1fr))]">
         <label className="flex h-12 items-center gap-3 rounded-xl border border-border bg-card px-4">
           <Search className="h-4 w-4 text-muted-foreground" />
           <input
@@ -200,7 +200,7 @@ export function FilterBar({
         />
       </div>
 
-      <div className="grid gap-2 xl:grid-cols-[minmax(360px,1fr)_auto_auto] xl:items-center">
+      <div className="grid gap-2 md:grid-cols-[minmax(0,1fr)_auto] xl:grid-cols-[minmax(360px,1fr)_auto_auto] xl:items-center">
         <div className="flex items-center gap-4 rounded-xl px-1 py-1">
           <div className="flex min-w-[180px] items-center gap-2 text-[13px] text-muted-foreground">
             <span>Min. {filters.scoreMetric}</span>
