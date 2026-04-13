@@ -4,6 +4,7 @@ import {
   formatScore,
   getAxisLabel,
 } from "@/lib/decision";
+import type { ReactNode } from "react";
 import { InfoHint } from "@/components/ui/info-hint";
 import { cn } from "@/lib/utils";
 import type { EnrichedProduct, Preset } from "@/types";
@@ -47,18 +48,40 @@ function AxisCard({
   return (
     <div
       className={cn(
-        "rounded-2xl border border-border/70 bg-background/80 px-3 py-2.5",
-        accent && "border-primary/30 bg-primary/5"
+        "rounded-xl border border-border bg-card px-3 py-2",
+        accent && "border-primary/20 bg-blue-50/40"
       )}
     >
-      <p className="flex items-center gap-1 text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
+      <p className="flex items-center gap-1 text-[10px] font-medium uppercase tracking-[0.08em] text-muted-foreground">
         <span>{label}</span>
         <InfoHint label={label} description={description} />
       </p>
-      <p className="mt-1 text-base font-semibold">
+      <p className="mt-1 text-sm font-semibold text-foreground">
         {value}
         {suffix}
       </p>
+    </div>
+  );
+}
+
+function DetailCard({
+  title,
+  description,
+  children,
+  compact = false,
+}: {
+  title: string;
+  description?: string;
+  children: ReactNode;
+  compact?: boolean;
+}) {
+  return (
+    <div className={cn("rounded-xl border border-border bg-card px-3 py-2.5", compact && "px-3 py-2")}>
+      <p className="flex items-center gap-1 text-[10px] font-medium uppercase tracking-[0.08em] text-muted-foreground">
+        <span>{title}</span>
+        {description ? <InfoHint label={title} description={description} /> : null}
+      </p>
+      <div className="mt-1.5">{children}</div>
     </div>
   );
 }
@@ -67,10 +90,10 @@ export function ProductDetail({ product, preset }: ProductDetailProps) {
   const breakdown = confidenceBreakdown(product, preset);
 
   return (
-    <div className="space-y-4 border-t border-border/70 px-4 py-4">
-      <div className="grid gap-4 xl:grid-cols-[1.5fr_1fr]">
-        <div className="space-y-4">
-          <div className="grid gap-2.5 md:grid-cols-2 xl:grid-cols-3">
+    <div className="border-t border-border bg-muted/10 px-4 py-3">
+      <div className="grid gap-3 xl:grid-cols-[1.6fr_0.95fr]">
+        <div className="space-y-3">
+          <div className="grid gap-2 md:grid-cols-2 xl:grid-cols-3">
             {PRIMARY_AXES.map((axis) => (
               <AxisCard
                 key={axis}
@@ -116,55 +139,43 @@ export function ProductDetail({ product, preset }: ProductDetailProps) {
             ))}
           </div>
 
-          <div className="grid gap-2.5 md:grid-cols-2 xl:grid-cols-4">
-            <div className="rounded-2xl border border-border/70 bg-background/80 px-3 py-2.5">
-              <p className="flex items-center gap-1 text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
-                <span>Half-life countdown</span>
-                <InfoHint
-                  label="Half-life countdown"
-                  description="Operational countdown for expiring mandates or short-lived tailwinds. Creates urgency to decide now."
-                />
-              </p>
-              <p className="mt-1 text-base font-semibold">{product.urgencyLabel}</p>
+          <div className="grid gap-2 md:grid-cols-2 xl:grid-cols-4">
+            <DetailCard
+              title="Half-life countdown"
+              description="Operational countdown for expiring mandates or short-lived tailwinds. Creates urgency to decide now."
+              compact
+            >
+              <p className="text-sm font-semibold text-foreground">{product.urgencyLabel}</p>
               <p className="text-[11px] text-muted-foreground">
                 {product.deadline ? `Deadline ${product.deadline}` : "Using strategic half-life"}
               </p>
-            </div>
-            <div className="rounded-2xl border border-border/70 bg-background/80 px-3 py-2.5">
-              <p className="flex items-center gap-1 text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
-                <span>Cost to launch</span>
-                <InfoHint
-                  label="Cost to launch"
-                  description="Cash required before the first paying customer. Separate from manual effort."
-                />
-              </p>
-              <p className="mt-1 text-base font-semibold">{formatCurrency(product.costToLaunch)}</p>
+            </DetailCard>
+            <DetailCard
+              title="Cost to launch"
+              description="Cash required before the first paying customer. Separate from manual effort."
+              compact
+            >
+              <p className="text-sm font-semibold text-foreground">{formatCurrency(product.costToLaunch)}</p>
               <p className="text-[11px] text-muted-foreground">Before first paying customer</p>
-            </div>
-            <div className="rounded-2xl border border-border/70 bg-background/80 px-3 py-2.5">
-              <p className="flex items-center gap-1 text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
-                <span>Dependencies</span>
-                <InfoHint
-                  label="Dependencies"
-                  description="Upstream products or capabilities that must be in place first."
-                />
-              </p>
-              <p className="mt-1 text-base font-semibold">
+            </DetailCard>
+            <DetailCard
+              title="Dependencies"
+              description="Upstream products or capabilities that must be in place first."
+              compact
+            >
+              <p className="text-sm font-semibold text-foreground">
                 {product.dependencies.length > 0 ? product.dependencies.join(", ") : "None"}
               </p>
               <p className="text-[11px] text-muted-foreground">
                 {product.dependenciesResolved ? "Ready to move" : "Blocked until dependencies clear"}
               </p>
-            </div>
-            <div className="rounded-2xl border border-border/70 bg-background/80 px-3 py-2.5">
-              <p className="flex items-center gap-1 text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
-                <span>Cannibalization</span>
-                <InfoHint
-                  label="Cannibalization"
-                  description="Mutually exclusive or overlapping SKUs that can cannibalize the same buyer if launched together."
-                />
-              </p>
-              <p className="mt-1 text-base font-semibold">
+            </DetailCard>
+            <DetailCard
+              title="Cannibalization"
+              description="Mutually exclusive or overlapping SKUs that can cannibalize the same buyer if launched together."
+              compact
+            >
+              <p className="text-sm font-semibold text-foreground">
                 {product.cannibalizationCluster ?? "Independent"}
               </p>
               <p className="text-[11px] text-muted-foreground">
@@ -172,93 +183,69 @@ export function ProductDetail({ product, preset }: ProductDetailProps) {
                   ? "Do not launch this cluster all at once"
                   : "No active conflict flagged"}
               </p>
-            </div>
+            </DetailCard>
           </div>
 
-          <div className="grid gap-2.5 lg:grid-cols-2">
-            <div className="rounded-3xl border border-border/70 bg-background/80 p-3.5">
-              <p className="flex items-center gap-1 text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
-                <span>Bottleneck</span>
-                <InfoHint
-                  label="Bottleneck"
-                  description="The minimum axis score. This is the fastest way to see what blocks progress."
-                />
-              </p>
-              <p className="mt-2 text-lg font-semibold">
+          <div className="grid gap-2 lg:grid-cols-2">
+            <DetailCard
+              title="Bottleneck"
+              description="The minimum axis score. This is the fastest way to see what blocks progress."
+            >
+              <p className="text-sm font-semibold text-foreground">
                 {product.bottleneck.label} {product.bottleneck.value}
               </p>
-              <p className="mt-2 text-[12px] leading-5 text-muted-foreground">{product.nextAction}</p>
-            </div>
-            <div className="rounded-3xl border border-border/70 bg-background/80 p-3.5">
-              <p className="flex items-center gap-1 text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
-                <span>Confidence breakdown</span>
-                <InfoHint
-                  label="Confidence breakdown"
-                  description="Confidence is a weight, not a separate decision axis. Raw score is multiplied by confidence to get the final score."
-                />
-              </p>
-              <div className="mt-2 grid gap-2 md:grid-cols-3">
+              <p className="mt-1.5 text-[12px] leading-5 text-muted-foreground">{product.nextAction}</p>
+            </DetailCard>
+            <DetailCard
+              title="Confidence breakdown"
+              description="Confidence is a weight, not a separate decision axis. Raw score is multiplied by confidence to get the final score."
+            >
+              <div className="grid gap-2 md:grid-cols-3">
                 <div>
                   <p className="text-[11px] text-muted-foreground">Raw score</p>
-                  <p className="text-base font-semibold">{formatScore(breakdown.raw)}</p>
+                  <p className="text-sm font-semibold text-foreground">{formatScore(breakdown.raw)}</p>
                 </div>
                 <div>
                   <p className="text-[11px] text-muted-foreground">Confidence</p>
-                  <p className="text-base font-semibold">{Math.round(product.confidence)}%</p>
+                  <p className="text-sm font-semibold text-foreground">{Math.round(product.confidence)}%</p>
                 </div>
                 <div>
                   <p className="text-[11px] text-muted-foreground">Adjusted</p>
-                  <p className="text-base font-semibold">{formatScore(breakdown.adjusted)}</p>
+                  <p className="text-sm font-semibold text-foreground">{formatScore(breakdown.adjusted)}</p>
                 </div>
               </div>
-            </div>
+            </DetailCard>
           </div>
         </div>
 
-        <div className="space-y-3">
-          <div className="rounded-3xl border border-border/70 bg-background/80 p-3.5">
-            <p className="flex items-center gap-1 text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
-              <span>Next action</span>
-              <InfoHint
-                label="Next action"
-                description="One atomic action that should raise the current bottleneck."
-              />
-            </p>
-            <p className="mt-2 text-sm font-semibold leading-5">{product.nextAction}</p>
+        <div className="space-y-2">
+          <DetailCard
+            title="Next action"
+            description="One atomic action that should raise the current bottleneck."
+          >
+            <p className="text-sm font-semibold leading-5 text-foreground">{product.nextAction}</p>
             <p className="mt-1.5 text-[12px] text-muted-foreground">
               This is the smallest move likely to lift the current bottleneck.
             </p>
-          </div>
+          </DetailCard>
 
-          <div className="rounded-3xl border border-border/70 bg-background/80 p-3.5">
-            <p className="text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
-              Target audience
-            </p>
-            <p className="mt-2 text-[12px] leading-5">{product.details.targetAudience}</p>
-          </div>
+          <DetailCard title="Target audience">
+            <p className="text-[12px] leading-5 text-foreground">{product.details.targetAudience}</p>
+          </DetailCard>
 
-          <div className="rounded-3xl border border-border/70 bg-background/80 p-3.5">
-            <p className="text-[11px] uppercase tracking-[0.18em] text-muted-foreground">JTBD</p>
-            <blockquote className="mt-2 border-l-2 border-primary pl-3 text-[12px] italic leading-5 text-muted-foreground">
+          <DetailCard title="JTBD">
+            <blockquote className="border-l-2 border-border pl-3 text-[12px] italic leading-5 text-muted-foreground">
               {product.details.jtbd}
             </blockquote>
-          </div>
+          </DetailCard>
 
-          <div className="rounded-3xl border border-border/70 bg-background/80 p-3.5">
-            <p className="text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
-              Deliverables
-            </p>
-            <p className="mt-2 text-[12px] leading-5 text-muted-foreground">
-              {product.details.deliverables}
-            </p>
-          </div>
+          <DetailCard title="Deliverables">
+            <p className="text-[12px] leading-5 text-muted-foreground">{product.details.deliverables}</p>
+          </DetailCard>
 
-          <div className="rounded-3xl border border-border/70 bg-background/80 p-3.5">
-            <p className="text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
-              Upsell path
-            </p>
-            <p className="mt-2 text-[12px] leading-5 text-muted-foreground">{product.upsell}</p>
-          </div>
+          <DetailCard title="Upsell path">
+            <p className="text-[12px] leading-5 text-muted-foreground">{product.upsell}</p>
+          </DetailCard>
         </div>
       </div>
     </div>
