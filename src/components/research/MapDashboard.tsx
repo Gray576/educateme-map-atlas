@@ -115,7 +115,11 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
         </div>
       </div>
 
-      <section className="mt-3 flex flex-wrap items-center gap-3">
+      <section className="mt-3 space-y-2">
+        <p className="text-xs text-muted-foreground">
+          Ranking lens: switch the current scoring emphasis without changing the underlying product set.
+        </p>
+        <div className="flex flex-wrap items-center gap-3">
         <ResearchScreenNav active="map" buildHref={buildHref} />
         {PRESET_OPTIONS.map((item) => (
           <Button
@@ -123,10 +127,13 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
             variant={preset === item.key ? "default" : "outline"}
             onClick={() => setPreset(item.key)}
             className="h-7 rounded-full px-2.5 text-xs"
+            title={item.description}
+            aria-label={`${item.label}. ${item.description}`}
           >
             {item.label}
           </Button>
         ))}
+        </div>
       </section>
 
       <section className="mt-2 flex flex-wrap gap-2">

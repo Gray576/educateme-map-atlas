@@ -1,11 +1,31 @@
 import type { PresetKey, ProductRecord, ProductScores } from "@/types";
 
-export const PRESET_OPTIONS: Array<{ key: PresetKey; label: string }> = [
-  { key: "founder", label: "Founder" },
-  { key: "delivery", label: "Delivery" },
-  { key: "claims", label: "Claims" },
-  { key: "evidence", label: "Evidence" },
-  { key: "expansion", label: "Expansion" },
+export const PRESET_OPTIONS: Array<{ key: PresetKey; label: string; description: string }> = [
+  {
+    key: "founder",
+    label: "Founder",
+    description: "Balanced founder lens: favors products that look more launchable, clearer and safer overall.",
+  },
+  {
+    key: "delivery",
+    label: "Delivery",
+    description: "Delivery lens: surfaces products that look easier to ship with fewer setup dependencies.",
+  },
+  {
+    key: "claims",
+    label: "Claims",
+    description: "Claims lens: prioritizes safer messaging and lower legal or authority burden.",
+  },
+  {
+    key: "evidence",
+    label: "Evidence",
+    description: "Evidence lens: rewards stronger source coverage, cleaner support and fewer weak claims.",
+  },
+  {
+    key: "expansion",
+    label: "Expansion",
+    description: "Expansion lens: highlights products that look more portable across adjacent markets or segments.",
+  },
 ];
 
 export function getPresetLabel(preset: PresetKey) {

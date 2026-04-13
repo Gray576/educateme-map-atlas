@@ -12,11 +12,11 @@ export function ResearchScreenNav({
   buildHref: (path: string) => string;
 }) {
   return (
-    <div className="flex items-center gap-0.5 rounded-md bg-secondary p-0.5">
+    <div className="inline-grid grid-cols-3 rounded-full bg-secondary p-1">
       <Link href={buildHref("/")}>
         <span
           className={cn(
-            "inline-flex rounded px-2.5 py-1 text-xs font-medium transition-all",
+            "inline-flex min-w-[104px] items-center justify-center rounded-full px-4 py-2 text-sm font-medium transition-all",
             active === "founder"
               ? "bg-foreground text-background shadow-sm"
               : "text-muted-foreground hover:text-foreground"
@@ -28,7 +28,7 @@ export function ResearchScreenNav({
       <Link href={buildHref("/compare")}>
         <span
           className={cn(
-            "inline-flex rounded px-2.5 py-1 text-xs font-medium transition-all",
+            "inline-flex min-w-[104px] items-center justify-center rounded-full px-4 py-2 text-sm font-medium transition-all",
             active === "compare"
               ? "bg-foreground text-background shadow-sm"
               : "text-muted-foreground hover:text-foreground"
@@ -40,7 +40,7 @@ export function ResearchScreenNav({
       <Link href={buildHref("/map")}>
         <span
           className={cn(
-            "inline-flex rounded px-2.5 py-1 text-xs font-medium transition-all",
+            "inline-flex min-w-[104px] items-center justify-center rounded-full px-4 py-2 text-sm font-medium transition-all",
             active === "map"
               ? "bg-foreground text-background shadow-sm"
               : "text-muted-foreground hover:text-foreground"
