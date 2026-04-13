@@ -81,7 +81,7 @@ function Select({
       onChange={(event) => onChange(event.target.value)}
       title={`${label}: ${description}`}
       aria-label={`${label}: ${description}`}
-      className="h-9 rounded-full border border-border bg-background px-3 text-sm text-foreground shadow-sm outline-none transition focus-visible:border-ring focus-visible:ring-2 focus-visible:ring-ring/40"
+      className="h-7 rounded-full border border-border bg-background px-3 text-[13px] text-foreground shadow-sm outline-none transition focus-visible:border-ring focus-visible:ring-2 focus-visible:ring-ring/40"
     >
       {options.map(([optionValue, label]) => (
         <option key={optionValue} value={optionValue}>
@@ -103,8 +103,8 @@ export function FilterBar({
   const set = (patch: Partial<Filters>) => onChange({ ...filters, ...patch });
 
   return (
-    <section className="rounded-[24px] border border-border/70 bg-card/85 p-3 shadow-[0_12px_30px_-24px_rgba(14,37,33,0.34)] backdrop-blur">
-      <div className="flex flex-col gap-3">
+    <section className="rounded-[22px] border border-border/70 bg-card/85 p-2.5 shadow-[0_12px_30px_-24px_rgba(14,37,33,0.34)] backdrop-blur">
+      <div className="flex flex-col gap-2">
         <div className="flex flex-wrap items-center gap-1.5">
           {PRESETS.map(([value, label, hint]) => (
             <button
@@ -112,13 +112,13 @@ export function FilterBar({
               type="button"
               onClick={() => onPresetChange(value)}
               className={cn(
-                "rounded-full border px-3 py-1.5 text-left transition",
+                "rounded-full border px-2.5 py-1 text-left transition",
                 preset === value
                   ? "border-primary/70 bg-primary text-primary-foreground shadow-sm"
                   : "border-border/80 bg-background/80 text-foreground hover:bg-muted"
               )}
             >
-              <span className="flex items-center gap-1 text-sm font-semibold">
+              <span className="flex items-center gap-1 text-[13px] font-semibold">
                 {label}
                 <InfoHint
                   label={label}
@@ -136,7 +136,7 @@ export function FilterBar({
               key={value}
               size="sm"
               variant={sortPreset === value ? "default" : "outline"}
-              className="h-auto rounded-full px-2.5 py-1.5 text-left"
+              className="h-auto rounded-full px-2 py-1 text-left"
               onClick={() => onSortPreset(value)}
             >
               <span className="flex items-center gap-1 text-[11px] font-semibold">
@@ -151,13 +151,13 @@ export function FilterBar({
           ))}
         </div>
 
-        <div className="grid gap-2 lg:grid-cols-[minmax(0,1.2fr)_repeat(5,minmax(0,0.86fr))]">
+        <div className="grid gap-1.5 lg:grid-cols-[minmax(0,1.25fr)_repeat(5,minmax(0,0.84fr))]">
           <Input
             type="search"
             placeholder="Search code, product, blocker, action…"
             value={filters.search}
             onChange={(event) => set({ search: event.target.value })}
-            className="h-8 rounded-full bg-background/80 text-sm"
+            className="h-7 rounded-full bg-background/80 px-3 text-[13px]"
           />
 
           <Select
@@ -215,8 +215,8 @@ export function FilterBar({
           />
         </div>
 
-        <div className="grid gap-2 lg:grid-cols-[minmax(0,1fr)_auto_auto] lg:items-center">
-          <div className="rounded-3xl border border-border/80 bg-background/80 px-3 py-2.5">
+        <div className="grid gap-1.5 lg:grid-cols-[minmax(0,1fr)_auto_auto] lg:items-center">
+          <div className="rounded-3xl border border-border/80 bg-background/80 px-3 py-2">
             <div className="flex items-center justify-between text-xs text-muted-foreground">
               <span className="flex items-center gap-1">
                 Minimum {filters.scoreMetric} score
@@ -241,7 +241,7 @@ export function FilterBar({
           <Button
             size="sm"
             variant={filters.urgentOnly ? "default" : "outline"}
-            className="rounded-full px-4"
+            className="rounded-full px-3"
             onClick={() => set({ urgentOnly: !filters.urgentOnly })}
           >
             Half-life &lt; 18 mo
@@ -250,7 +250,7 @@ export function FilterBar({
           <Button
             size="sm"
             variant="outline"
-            className="rounded-full px-4"
+            className="rounded-full px-3"
             onClick={() =>
               onChange({
                 ...filters,

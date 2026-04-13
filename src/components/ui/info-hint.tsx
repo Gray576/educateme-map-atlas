@@ -8,6 +8,7 @@ interface InfoHintProps {
   description: string;
   className?: string;
   side?: "left" | "right";
+  widthClassName?: string;
 }
 
 export function InfoHint({
@@ -15,6 +16,7 @@ export function InfoHint({
   description,
   className,
   side = "left",
+  widthClassName = "w-64",
 }: InfoHintProps) {
   return (
     <span className={cn("group relative inline-flex items-center", className)}>
@@ -27,7 +29,8 @@ export function InfoHint({
       </span>
       <span
         className={cn(
-          "pointer-events-none absolute top-[calc(100%+0.45rem)] z-30 hidden w-64 rounded-2xl border border-border/80 bg-popover px-3 py-2 text-xs normal-case leading-5 text-popover-foreground shadow-xl group-hover:block group-focus-within:block",
+          "pointer-events-none absolute top-[calc(100%+0.45rem)] z-30 hidden max-w-[min(18rem,calc(100vw-2rem))] rounded-2xl border border-border/80 bg-popover px-3 py-2 text-xs normal-case leading-5 text-popover-foreground shadow-xl group-hover:block group-focus-within:block",
+          widthClassName,
           side === "right" ? "right-0" : "left-0"
         )}
       >

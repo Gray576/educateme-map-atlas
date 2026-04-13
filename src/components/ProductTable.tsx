@@ -46,6 +46,7 @@ function SortButton({
   sortState,
   onSort,
   align = "left",
+  hintSide,
 }: {
   label: string;
   description: string;
@@ -53,6 +54,7 @@ function SortButton({
   sortState: SortState;
   onSort: (column: SortState["column"]) => void;
   align?: "left" | "right";
+  hintSide?: "left" | "right";
 }) {
   const active = sortState.column === column;
   const icon = active ? (
@@ -76,7 +78,11 @@ function SortButton({
       )}
     >
       <span>{label}</span>
-      <InfoHint label={label} description={description} side={align === "right" ? "right" : "left"} />
+      <InfoHint
+        label={label}
+        description={description}
+        side={hintSide ?? (align === "right" ? "right" : "left")}
+      />
       {icon}
     </button>
   );
@@ -231,6 +237,7 @@ export function ProductTable({
                   column="bottleneck"
                   sortState={sortState}
                   onSort={handleSort}
+                  hintSide="right"
                 />
               </th>
             </tr>
