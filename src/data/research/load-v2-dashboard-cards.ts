@@ -23,6 +23,7 @@ import type {
   ProofBurden,
   ProofType,
   ReleaseStatus,
+  DataFieldEntry,
   ResearchCard,
   ResearchCardNormalizationOverlay,
   RequirementStatus,
@@ -183,6 +184,22 @@ function titleCase(value: string) {
   return value
     .replace(/[_-]+/g, " ")
     .replace(/\b\w/g, (char) => char.toUpperCase());
+}
+
+function humanizeFieldKey(value: string) {
+  return value
+    .replace(/[_-]+/g, " ")
+    .replace(/\b\w/g, (char) => char.toUpperCase());
+}
+
+function formatFieldValue(value: unknown): string {
+  if (Array.isArray(value)) {
+    return value.map((item) => formatFieldValue(item)).join(", ");
+  }
+  if (typeof value === "string") return value;
+  if (typeof value === "number" || typeof value === "boolean") return String(value);
+  if (value === null || value === undefined) return "—";
+  return JSON.stringify(value);
 }
 
 function confidenceToNumber(value: ConfidenceBand | "unknown" | undefined) {
@@ -999,6 +1016,22 @@ function deriveOperatorMatrix(
   };
 }
 
+function buildDataFieldEntries(
+  fieldMap: Record<string, DashboardFieldRecord>,
+  status: DataFieldEntry["status"]
+): DataFieldEntry[] {
+  return Object.entries(fieldMap).map(([key, field]) => ({
+    key,
+    label: humanizeFieldKey(key),
+    value: formatFieldValue(field.value),
+    status,
+    confidenceBand: field.confidence_band ?? "unknown",
+    claimRefCount: field.claim_refs?.length ?? 0,
+    sourceRefCount: field.source_refs?.length ?? 0,
+    omissionReason: field.omission_reason ?? null,
+  }));
+}
+
 async function resolveLatestRunDir() {
   const entries = await readdir(RESEARCH_RUNS_DIR, { withFileTypes: true });
   const runDirs = entries
@@ -1342,6 +1375,9 @@ function buildResearchCardFromArtifacts({
         demandPullConfidenceBand: commercial?.demand_pull?.confidence_band ?? "unknown",
         overallConfidenceBand: commercial?.collapsed_scores?.overall_confidence_band ?? "unknown",
         artifactFolder: folderName,
+        safeFieldEntries: buildDataFieldEntries(dashboard.safe_fields || {}, "verified"),
+        analystFieldEntries: buildDataFieldEntries(dashboard.analyst_only_fields || {}, "analyst"),
+        blockedFieldEntries: buildDataFieldEntries(dashboard.blocked_fields || {}, "manual"),
       },
     },
   };

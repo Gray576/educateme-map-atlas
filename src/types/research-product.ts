@@ -71,6 +71,19 @@ export interface ArchetypeGuideEntry {
   keyMetrics: string[];
 }
 
+export type DataFieldStatus = "verified" | "analyst" | "manual";
+
+export interface DataFieldEntry {
+  key: string;
+  label: string;
+  value: string;
+  status: DataFieldStatus;
+  confidenceBand: ConfidenceBand | "unknown";
+  claimRefCount: number;
+  sourceRefCount: number;
+  omissionReason: string | null;
+}
+
 export interface ProductRecord {
   code: string;
   title: string;
@@ -100,6 +113,9 @@ export interface ProductRecord {
   demandPullConfidenceBand: ConfidenceBand | "unknown";
   overallConfidenceBand: ConfidenceBand | "unknown";
   artifactFolder: string | null;
+  safeFieldEntries: DataFieldEntry[];
+  analystFieldEntries: DataFieldEntry[];
+  blockedFieldEntries: DataFieldEntry[];
   market: MarketBucket;
   marketBadge: MarketBucket;
   buyerType: BuyerType;
@@ -190,6 +206,9 @@ export interface ResearchCardNormalizationOverlay {
       | "demandPullConfidenceBand"
       | "overallConfidenceBand"
       | "artifactFolder"
+      | "safeFieldEntries"
+      | "analystFieldEntries"
+      | "blockedFieldEntries"
     >
   >;
 }

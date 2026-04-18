@@ -12,7 +12,7 @@ import {
 } from "@/lib/research-metadata";
 import { buildDrawerReasoning, type FounderRowRecord } from "@/lib/research-view";
 import { cn } from "@/lib/utils";
-import type { PresetKey } from "@/types";
+import type { DataFieldEntry, PresetKey } from "@/types";
 
 function formatScore(value: number) {
   return value.toFixed(1);
@@ -89,6 +89,186 @@ function DetailCard({
       <p className="mt-1.5 text-sm font-semibold">{value}</p>
       {hint ? <p className="mt-1.5 text-xs leading-5 text-muted-foreground">{hint}</p> : null}
     </div>
+  );
+}
+
+const FIELD_GUIDE: Record<
+  string,
+  {
+    label: string;
+    description: string;
+  }
+> = {
+  jurisdiction_scope: {
+    label: "География и юрисдикция",
+    description: "Где именно действует продукт или route. Важно, потому что регуляторика и go-to-market обычно ломаются именно на границе юрисдикций. Использовать как ограничение на copy, pricing и rollout.",
+  },
+  verified_requirements: {
+    label: "Подтвержденные требования",
+    description: "Какие официальные требования реально подтверждены источниками. Это основа для безопасного promise и product scope.",
+  },
+  approval_entities: {
+    label: "Органы / сущности одобрения",
+    description: "Кто именно контролирует, аккредитует или влияет на допустимость route. Нужно, чтобы не продавать то, что зависит от чужого approval без доказательства.",
+  },
+  regulatory_framework: {
+    label: "Регуляторная рамка",
+    description: "Какие законы, circulars, exam rules или guidelines определяют поле. Важно для claim safety и sequencing.",
+  },
+  verified_competitors: {
+    label: "Подтвержденные конкуренты",
+    description: "Не гипотеза о рынке, а реально найденные игроки. Использовать для понимания category reality, не как доказательство спроса само по себе.",
+  },
+  target_audience_summary: {
+    label: "Сводка по аудитории",
+    description: "Кому именно адресован продукт по surviving evidence. Это полезно для buyer framing, но часто остается analyst-only, если сформулировано как сводка, а не как прямой официальный факт.",
+  },
+  subsidy_eligibility: {
+    label: "Субсидии / eligibility",
+    description: "Можно ли опираться на субсидию или co-funding. Важно для economics и sales promise; если поле conflicted, его нельзя использовать в продающем copy.",
+  },
+  training_support_route: {
+    label: "Маршрут внешней поддержки обучения",
+    description: "Есть ли официальный или публичный route, через который продукт может быть supported, reimbursed или accepted. Полезно для GTM и price framing.",
+  },
+  hard_blockers: {
+    label: "Жесткие блокеры",
+    description: "Что прямо сейчас не дает безопасно поднять продукт в более высокий release status. Это не просто риск, а список ограничителей следующего шага.",
+  },
+  regulatory_context: {
+    label: "Регуляторный контекст",
+    description: "Краткая подтвержденная формулировка того, как regulatory context влияет на продукт. Использовать для scope и для понимания friction.",
+  },
+  cross_country_regulatory_context: {
+    label: "Кросс-страновой регуляторный контекст",
+    description: "Что меняется между странами. Важно для понимания, переносима ли гипотеза вообще.",
+  },
+};
+
+function getFieldGuide(entry: DataFieldEntry) {
+  return (
+    FIELD_GUIDE[entry.key] ?? {
+      label: entry.label,
+      description:
+        "Поле собрано в рамках research-v2. Смотри на цвет, confidence band и количество source/claim refs, чтобы понять, можно ли использовать это поле в дашборде, только как analyst note или оно требует ручного добора.",
+    }
+  );
+}
+
+function fieldStatusTone(status: DataFieldEntry["status"]) {
+  if (status === "verified") return "border-emerald-200 bg-emerald-50/80";
+  if (status === "analyst") return "border-sky-200 bg-sky-50/80";
+  return "border-orange-200 bg-orange-50/90";
+}
+
+function fieldStatusLabel(status: DataFieldEntry["status"]) {
+  if (status === "verified") return "Проверено";
+  if (status === "analyst") return "Аналитическое";
+  return "Собрать вручную";
+}
+
+function confidenceLabel(value: DataFieldEntry["confidenceBand"]) {
+  if (value === "high") return "Высокая";
+  if (value === "medium") return "Средняя";
+  if (value === "low") return "Низкая";
+  if (value === "blocked") return "Заблокировано";
+  return "Неизвестно";
+}
+
+function confidenceTone(value: DataFieldEntry["confidenceBand"]) {
+  if (value === "high") return "bg-emerald-100 text-emerald-800";
+  if (value === "medium") return "bg-amber-100 text-amber-800";
+  if (value === "low" || value === "blocked") return "bg-rose-100 text-rose-800";
+  return "bg-muted text-muted-foreground";
+}
+
+function LegendChip({
+  title,
+  description,
+  tone,
+}: {
+  title: string;
+  description: string;
+  tone: string;
+}) {
+  return (
+    <div className={cn("rounded-xl border px-3 py-3", tone)}>
+      <p className="text-sm font-semibold">{title}</p>
+      <p className="mt-1 text-xs leading-5 text-foreground/80">{description}</p>
+    </div>
+  );
+}
+
+function FieldEntryCard({ entry }: { entry: DataFieldEntry }) {
+  const guide = getFieldGuide(entry);
+
+  return (
+    <article className={cn("rounded-xl border px-3 py-3", fieldStatusTone(entry.status))}>
+      <div className="flex items-start justify-between gap-3">
+        <div className="min-w-0">
+          <div className="flex items-center gap-1.5">
+            <p className="text-[11px] uppercase tracking-[0.1em] text-muted-foreground">{guide.label}</p>
+            <InfoHint
+              label={guide.label}
+              description={guide.description}
+              widthClassName="w-72"
+              side="right"
+            />
+          </div>
+          <p className="mt-1.5 break-words text-sm font-semibold">{entry.value}</p>
+        </div>
+        <Badge variant="outline" className="rounded-lg px-2 py-1 text-[10px]">
+          {fieldStatusLabel(entry.status)}
+        </Badge>
+      </div>
+
+      <div className="mt-2 flex flex-wrap gap-1.5">
+        <span className={cn("inline-flex rounded-lg px-2 py-1 text-[10px] font-semibold", confidenceTone(entry.confidenceBand))}>
+          {confidenceLabel(entry.confidenceBand)}
+        </span>
+        <Badge variant="secondary" className="rounded-lg px-2 py-1 text-[10px]">
+          claims {entry.claimRefCount}
+        </Badge>
+        <Badge variant="secondary" className="rounded-lg px-2 py-1 text-[10px]">
+          sources {entry.sourceRefCount}
+        </Badge>
+      </div>
+
+      {entry.omissionReason ? (
+        <p className="mt-2 text-xs leading-5 text-muted-foreground">
+          {entry.status === "manual" ? "Почему не прошло:" : "Почему не выведено в основной слой:"} {entry.omissionReason}
+        </p>
+      ) : null}
+    </article>
+  );
+}
+
+function FieldGroup({
+  title,
+  description,
+  entries,
+}: {
+  title: string;
+  description: string;
+  entries: DataFieldEntry[];
+}) {
+  return (
+    <section className="rounded-md border border-border bg-card p-3">
+      <div className="flex items-center gap-2">
+        <h3 className="text-sm font-semibold">{title}</h3>
+        <Badge variant="outline" className="rounded-md px-2 py-0.5 text-[10px]">
+          {entries.length}
+        </Badge>
+      </div>
+      <p className="mt-1 text-xs leading-5 text-muted-foreground">{description}</p>
+      <div className="mt-3 space-y-2.5">
+        {entries.length > 0 ? (
+          entries.map((entry) => <FieldEntryCard key={`${entry.status}-${entry.key}`} entry={entry} />)
+        ) : (
+          <p className="text-xs text-muted-foreground">В этой группе сейчас нет полей.</p>
+        )}
+      </div>
+    </section>
   );
 }
 
@@ -239,6 +419,49 @@ export function ExplainabilityDrawer({
               />
             </div>
           </section>
+
+          <section className="rounded-md border border-border bg-card p-3">
+            <h3 className="text-sm font-semibold">Легенда доверия</h3>
+            <p className="mt-1 text-xs leading-5 text-muted-foreground">
+              Карточка теперь делится на три слоя: что подтверждено и безопасно для решений, что пока остается аналитическим,
+              и что еще требует ручного добора или внешнего подтверждения.
+            </p>
+            <div className="mt-3 grid gap-2.5">
+              <LegendChip
+                title="Светло-зеленый: проверено"
+                description="Поле прошло в dashboard-safe слой. Его можно использовать в решениях, copy и приоритизации, но все равно смотреть на конкретный source context."
+                tone="border-emerald-200 bg-emerald-50/80"
+              />
+              <LegendChip
+                title="Светло-голубой: аналитическое"
+                description="Поле полезно для мышления и сегментации, но это уже сжатая аналитическая формулировка, а не чистый публичный факт. Использовать как рабочую гипотезу, не как жесткое обещание."
+                tone="border-sky-200 bg-sky-50/80"
+              />
+              <LegendChip
+                title="Светло-оранжевый: собрать вручную"
+                description="Поле не прошло release gate или требует внешнего добора. Его нельзя использовать как подтвержденное. Это очередь на ручную валидацию."
+                tone="border-orange-200 bg-orange-50/90"
+              />
+            </div>
+          </section>
+
+          <FieldGroup
+            title="Проверенные собранные данные"
+            description="Это поля, которые survived fact-checking и попали в безопасный слой для дашборда."
+            entries={product.safeFieldEntries}
+          />
+
+          <FieldGroup
+            title="Аналитические поля"
+            description="Это собранные данные, которые полезны для понимания рынка и route, но пока оставлены как analyst-only."
+            entries={product.analystFieldEntries}
+          />
+
+          <FieldGroup
+            title="Поля для ручного добора"
+            description="Это поля, которые не прошли release gate и требуют ручной проверки, route-owner input или дополнительных источников."
+            entries={product.blockedFieldEntries}
+          />
 
           <section className="grid gap-3 xl:grid-cols-[minmax(0,1fr)_190px]">
             <div className="rounded-md border border-border bg-card p-3">
