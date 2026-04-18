@@ -123,18 +123,19 @@ function normalizeOneToFive(value: number | null) {
 }
 
 function weightedAverage(
-  entries: Array<{ value: number | null; weight: number }>
+  entries: Array<{ scoreValue: number; observed: boolean; weight: number }>
 ): { score: number | null; coverage: number } {
   const totalWeight = entries.reduce((sum, entry) => sum + entry.weight, 0);
-  const available = entries.filter((entry) => entry.value !== null);
-  const coveredWeight = available.reduce((sum, entry) => sum + entry.weight, 0);
+  const coveredWeight = entries
+    .filter((entry) => entry.observed)
+    .reduce((sum, entry) => sum + entry.weight, 0);
 
-  if (coveredWeight === 0 || totalWeight === 0) {
+  if (entries.length === 0 || totalWeight === 0) {
     return { score: null, coverage: 0 };
   }
 
   const weightedScore =
-    available.reduce((sum, entry) => sum + (entry.value ?? 0) * entry.weight, 0) / coveredWeight;
+    entries.reduce((sum, entry) => sum + entry.scoreValue * entry.weight, 0) / totalWeight;
 
   return {
     score: Math.max(0, Math.min(100, weightedScore)),
@@ -146,14 +147,30 @@ function getPlotSegment(product: ScoredProductRecord): PlotSegment {
   return product.quadrantSegment === "B2C" ? "B2C" : "B2B";
 }
 
+function scoreOrBaseline(value: number | null, baseline = 1) {
+  return normalizeOneToFive(value) ?? normalizeOneToFive(baseline) ?? 0;
+}
+
 function buildQuadrantPoint(product: ScoredProductRecord): QuadrantPoint {
   const velocityFromComposite = normalizeOneToFive(product.validationVelocityComposite);
   const pullFromComposite = normalizeOneToFive(product.demandPullComposite);
 
   const velocityParts = weightedAverage([
-    { value: normalizeOneToFive(product.validationVelocityScore), weight: 15 },
-    { value: normalizeOneToFive(product.timeToFirstEuroScore), weight: 10 },
-    { value: normalizeOneToFive(product.founderIndependenceScore), weight: 10 },
+    {
+      scoreValue: scoreOrBaseline(product.validationVelocityScore),
+      observed: product.validationVelocityScore !== null,
+      weight: 15,
+    },
+    {
+      scoreValue: scoreOrBaseline(product.timeToFirstEuroScore),
+      observed: product.timeToFirstEuroScore !== null,
+      weight: 10,
+    },
+    {
+      scoreValue: scoreOrBaseline(product.founderIndependenceScore),
+      observed: product.founderIndependenceScore !== null,
+      weight: 10,
+    },
   ]);
 
   const effectiveVelocity = velocityFromComposite ?? velocityParts.score ?? 0;
@@ -164,11 +181,31 @@ function buildQuadrantPoint(product: ScoredProductRecord): QuadrantPoint {
       : product.cacRealityScore ?? product.channelFitScore;
 
   const pullParts = weightedAverage([
-    { value: normalizeOneToFive(product.demandEvidenceScore), weight: 20 },
-    { value: normalizeOneToFive(product.willingnessToPayScore), weight: 15 },
-    { value: normalizeOneToFive(effectiveCac), weight: 15 },
-    { value: normalizeOneToFive(product.retentionStructureScore), weight: 10 },
-    { value: normalizeOneToFive(product.macroTrajectoryScore), weight: 5 },
+    {
+      scoreValue: scoreOrBaseline(product.demandEvidenceScore),
+      observed: product.demandEvidenceScore !== null,
+      weight: 20,
+    },
+    {
+      scoreValue: scoreOrBaseline(product.willingnessToPayScore),
+      observed: product.willingnessToPayScore !== null,
+      weight: 15,
+    },
+    {
+      scoreValue: scoreOrBaseline(effectiveCac),
+      observed: effectiveCac !== null,
+      weight: 15,
+    },
+    {
+      scoreValue: scoreOrBaseline(product.retentionStructureScore),
+      observed: product.retentionStructureScore !== null,
+      weight: 10,
+    },
+    {
+      scoreValue: scoreOrBaseline(product.macroTrajectoryScore),
+      observed: product.macroTrajectoryScore !== null,
+      weight: 5,
+    },
   ]);
 
   const effectivePull = pullFromComposite ?? pullParts.score ?? 0;
