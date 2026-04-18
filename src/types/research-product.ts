@@ -82,9 +82,22 @@ export interface ProductRecord {
   analystFieldCount: number;
   quadrantSegment: "B2B" | "B2C" | "B2B2C" | "mixed" | "unknown";
   validationModel: string | null;
+  estimatedCostToSignalEur: number | null;
+  estimatedDaysToSignal: number | null;
   validationVelocityScore: number | null;
   timeToFirstEuroScore: number | null;
+  founderIndependenceScore: number | null;
   regulatoryFrictionInverseScore: number | null;
+  retentionStructureScore: number | null;
+  demandEvidenceScore: number | null;
+  willingnessToPayScore: number | null;
+  cacRealityScore: number | null;
+  macroTrajectoryScore: number | null;
+  channelFitScore: number | null;
+  validationVelocityComposite: number | null;
+  demandPullComposite: number | null;
+  validationConfidenceBand: ConfidenceBand | "unknown";
+  demandPullConfidenceBand: ConfidenceBand | "unknown";
   overallConfidenceBand: ConfidenceBand | "unknown";
   artifactFolder: string | null;
   market: MarketBucket;
@@ -159,9 +172,22 @@ export interface ResearchCardNormalizationOverlay {
       | "analystFieldCount"
       | "quadrantSegment"
       | "validationModel"
+      | "estimatedCostToSignalEur"
+      | "estimatedDaysToSignal"
       | "validationVelocityScore"
       | "timeToFirstEuroScore"
+      | "founderIndependenceScore"
       | "regulatoryFrictionInverseScore"
+      | "retentionStructureScore"
+      | "demandEvidenceScore"
+      | "willingnessToPayScore"
+      | "cacRealityScore"
+      | "macroTrajectoryScore"
+      | "channelFitScore"
+      | "validationVelocityComposite"
+      | "demandPullComposite"
+      | "validationConfidenceBand"
+      | "demandPullConfidenceBand"
       | "overallConfidenceBand"
       | "artifactFolder"
     >

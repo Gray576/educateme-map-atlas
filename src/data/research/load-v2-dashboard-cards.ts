@@ -114,14 +114,28 @@ type CommercialValidationDoc = {
   quadrant_segment?: "B2B" | "B2C" | "B2B2C" | "mixed" | "unknown";
   validation_velocity?: {
     validation_model?: string;
+    estimated_cost_to_signal_eur?: number | null;
     estimated_days_to_signal?: number | null;
+    founder_independence_score_1_5?: number | null;
     testability_score_1_5?: number | null;
     time_to_first_euro_score_1_5?: number | null;
+    confidence_band?: ConfidenceBand | "unknown";
+  };
+  demand_pull?: {
+    demand_evidence_score_1_5?: number | null;
+    wtp_score_1_5?: number | null;
+    cac_reality_score_1_5?: number | null;
+    retention_structure_score_1_5?: number | null;
+    macro_trajectory_score_1_5?: number | null;
+    channel_fit_score_1_5?: number | null;
+    confidence_band?: ConfidenceBand | "unknown";
   };
   regulatory_context?: {
     regulatory_friction_inverse_score_1_5?: number | null;
   };
   collapsed_scores?: {
+    validation_velocity_composite?: number | null;
+    demand_pull_composite?: number | null;
     overall_confidence_band?: ConfidenceBand | "unknown";
   };
 };
@@ -1310,9 +1324,22 @@ function buildResearchCardFromArtifacts({
         analystFieldCount: analystKeys.length,
         quadrantSegment: segment,
         validationModel: commercial?.validation_velocity?.validation_model ?? null,
+        estimatedCostToSignalEur: commercial?.validation_velocity?.estimated_cost_to_signal_eur ?? null,
+        estimatedDaysToSignal: commercial?.validation_velocity?.estimated_days_to_signal ?? null,
         validationVelocityScore: commercial?.validation_velocity?.testability_score_1_5 ?? null,
         timeToFirstEuroScore: commercial?.validation_velocity?.time_to_first_euro_score_1_5 ?? null,
+        founderIndependenceScore: commercial?.validation_velocity?.founder_independence_score_1_5 ?? null,
         regulatoryFrictionInverseScore: commercial?.regulatory_context?.regulatory_friction_inverse_score_1_5 ?? null,
+        retentionStructureScore: commercial?.demand_pull?.retention_structure_score_1_5 ?? null,
+        demandEvidenceScore: commercial?.demand_pull?.demand_evidence_score_1_5 ?? null,
+        willingnessToPayScore: commercial?.demand_pull?.wtp_score_1_5 ?? null,
+        cacRealityScore: commercial?.demand_pull?.cac_reality_score_1_5 ?? null,
+        macroTrajectoryScore: commercial?.demand_pull?.macro_trajectory_score_1_5 ?? null,
+        channelFitScore: commercial?.demand_pull?.channel_fit_score_1_5 ?? null,
+        validationVelocityComposite: commercial?.collapsed_scores?.validation_velocity_composite ?? null,
+        demandPullComposite: commercial?.collapsed_scores?.demand_pull_composite ?? null,
+        validationConfidenceBand: commercial?.validation_velocity?.confidence_band ?? "unknown",
+        demandPullConfidenceBand: commercial?.demand_pull?.confidence_band ?? "unknown",
         overallConfidenceBand: commercial?.collapsed_scores?.overall_confidence_band ?? "unknown",
         artifactFolder: folderName,
       },

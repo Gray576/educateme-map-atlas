@@ -8,19 +8,34 @@ import { ResearchScreenNav } from "@/components/research/ResearchScreenNav";
 import { useResearchUrlState } from "@/components/research/useResearchUrlState";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ARCHETYPE_OPTIONS, getArchetypeVisual, PRESET_OPTIONS } from "@/lib/research-metadata";
+import { ARCHETYPE_OPTIONS, getArchetypeVisual } from "@/lib/research-metadata";
 import {
   assignBands,
   applyFounderFilters,
-  buildMapPoints,
-  buildMapReading,
   getActiveFilterChips,
   getDefaultFounderFilters,
   getUniqueOptions,
-  sortProductsByPreset,
 } from "@/lib/research-view";
 import { cn } from "@/lib/utils";
-import type { ScoredProductRecord } from "@/types";
+import type { ConfidenceBand, ScoredProductRecord } from "@/types";
+
+type PlotSegment = "B2B" | "B2C";
+
+type QuadrantPoint = {
+  code: string;
+  title: string;
+  releaseStatus: ScoredProductRecord["releaseStatus"];
+  quadrantSegment: ScoredProductRecord["quadrantSegment"];
+  archetype: ScoredProductRecord["archetype"];
+  product: ScoredProductRecord;
+  x: number;
+  y: number;
+  radius: number;
+  velocityCoverage: number;
+  pullCoverage: number;
+  plotSegment: PlotSegment;
+  missingSignals: string[];
+};
 
 function SelectControl({
   label,
@@ -52,8 +67,12 @@ function SelectControl({
   );
 }
 
-function formatScore(value: number) {
+function formatAxis(value: number) {
   return value.toFixed(0);
+}
+
+function formatCoverage(value: number) {
+  return `${Math.round(value * 100)}%`;
 }
 
 function ArchetypeLegendCard({
@@ -67,10 +86,7 @@ function ArchetypeLegendCard({
       style={{ backgroundColor: item.fill }}
       tabIndex={0}
     >
-      <span
-        className="h-2.5 w-2.5 rounded-full"
-        style={{ backgroundColor: item.text }}
-      />
+      <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: item.text }} />
       <span className="text-[11px] font-semibold leading-4" style={{ color: item.text }}>
         {item.legendLines[0]}
         <br />
@@ -84,9 +100,313 @@ function ArchetypeLegendCard({
   );
 }
 
+function clamp01(value: number) {
+  return Math.max(0, Math.min(1, value));
+}
+
+function confidenceBandTone(band: ConfidenceBand | "unknown") {
+  if (band === "high") return "bg-emerald-100 text-emerald-800";
+  if (band === "medium") return "bg-amber-100 text-amber-800";
+  if (band === "low" || band === "blocked") return "bg-rose-100 text-rose-800";
+  return "bg-muted text-muted-foreground";
+}
+
+function releaseTone(status: ScoredProductRecord["releaseStatus"]) {
+  if (status === "publish") return "bg-emerald-100 text-emerald-800";
+  if (status === "review") return "bg-amber-100 text-amber-800";
+  return "bg-rose-100 text-rose-800";
+}
+
+function normalizeOneToFive(value: number | null) {
+  if (value === null) return null;
+  return Math.max(0, Math.min(100, (value / 5) * 100));
+}
+
+function weightedAverage(
+  entries: Array<{ value: number | null; weight: number }>
+): { score: number | null; coverage: number } {
+  const totalWeight = entries.reduce((sum, entry) => sum + entry.weight, 0);
+  const available = entries.filter((entry) => entry.value !== null);
+  const coveredWeight = available.reduce((sum, entry) => sum + entry.weight, 0);
+
+  if (coveredWeight === 0 || totalWeight === 0) {
+    return { score: null, coverage: 0 };
+  }
+
+  const weightedScore =
+    available.reduce((sum, entry) => sum + (entry.value ?? 0) * entry.weight, 0) / coveredWeight;
+
+  return {
+    score: Math.max(0, Math.min(100, weightedScore)),
+    coverage: clamp01(coveredWeight / totalWeight),
+  };
+}
+
+function getPlotSegment(product: ScoredProductRecord): PlotSegment {
+  return product.quadrantSegment === "B2C" ? "B2C" : "B2B";
+}
+
+function buildQuadrantPoint(product: ScoredProductRecord): QuadrantPoint {
+  const velocityFromComposite = normalizeOneToFive(product.validationVelocityComposite);
+  const pullFromComposite = normalizeOneToFive(product.demandPullComposite);
+
+  const velocityParts = weightedAverage([
+    { value: normalizeOneToFive(product.validationVelocityScore), weight: 15 },
+    { value: normalizeOneToFive(product.timeToFirstEuroScore), weight: 10 },
+    { value: normalizeOneToFive(product.founderIndependenceScore), weight: 10 },
+  ]);
+
+  const effectiveVelocity = velocityFromComposite ?? velocityParts.score ?? 0;
+
+  const effectiveCac =
+    product.cacRealityScore !== null && product.channelFitScore !== null
+      ? (product.cacRealityScore + product.channelFitScore) / 2
+      : product.cacRealityScore ?? product.channelFitScore;
+
+  const pullParts = weightedAverage([
+    { value: normalizeOneToFive(product.demandEvidenceScore), weight: 20 },
+    { value: normalizeOneToFive(product.willingnessToPayScore), weight: 15 },
+    { value: normalizeOneToFive(effectiveCac), weight: 15 },
+    { value: normalizeOneToFive(product.retentionStructureScore), weight: 10 },
+    { value: normalizeOneToFive(product.macroTrajectoryScore), weight: 5 },
+  ]);
+
+  const effectivePull = pullFromComposite ?? pullParts.score ?? 0;
+  const safeRadius = 10 + Math.min(18, product.safeFieldCount * 1.4);
+
+  const missingSignals: string[] = [];
+  if (product.founderIndependenceScore === null) missingSignals.push("founder-independence");
+  if (product.demandEvidenceScore === null) missingSignals.push("demand evidence");
+  if (product.willingnessToPayScore === null) missingSignals.push("WTP");
+  if (product.cacRealityScore === null && product.channelFitScore === null) missingSignals.push("CAC / channel fit");
+
+  return {
+    code: product.code,
+    title: product.title,
+    releaseStatus: product.releaseStatus,
+    quadrantSegment: product.quadrantSegment,
+    archetype: product.archetype,
+    product,
+    x: effectiveVelocity,
+    y: effectivePull,
+    radius: safeRadius,
+    velocityCoverage: velocityParts.coverage,
+    pullCoverage: pullParts.coverage,
+    plotSegment: getPlotSegment(product),
+    missingSignals,
+  };
+}
+
+function sortQuadrantPoints(points: QuadrantPoint[]) {
+  return [...points].sort((left, right) => {
+    const rightScore = right.x + right.y;
+    const leftScore = left.x + left.y;
+    if (rightScore !== leftScore) return rightScore - leftScore;
+    return left.code.localeCompare(right.code);
+  });
+}
+
+function buildQuadrantReading(points: QuadrantPoint[]) {
+  const ordered = sortQuadrantPoints(points);
+  const firstWave = ordered[0] ?? null;
+  const reformulate =
+    [...points]
+      .filter((point) => point.y >= 50)
+      .sort((left, right) => left.x - right.x)[0] ?? null;
+  const contrarian =
+    [...points]
+      .filter((point) => point.x >= 50)
+      .sort((left, right) => right.x - right.y - (left.x - left.y))[0] ?? null;
+  const kill =
+    [...points].sort((left, right) => left.x + left.y - (right.x + right.y))[0] ?? null;
+  const avgPullCoverage =
+    points.length > 0 ? points.reduce((sum, point) => sum + point.pullCoverage, 0) / points.length : 0;
+
+  return {
+    firstWave,
+    reformulate,
+    contrarian,
+    kill,
+    avgPullCoverage,
+    snapshot: [
+      `${points.length} products in this plot`,
+      `Average pull coverage: ${formatCoverage(avgPullCoverage)}`,
+      `Release mix: ${[...new Set(points.map((point) => point.releaseStatus))].join(", ") || "none"}`,
+      `Archetypes: ${[...new Set(points.map((point) => point.archetype.shortLabel))].slice(0, 3).join(", ") || "none"}`,
+    ],
+  };
+}
+
+function QuadrantPlot({
+  label,
+  description,
+  points,
+  onSelect,
+}: {
+  label: string;
+  description: string;
+  points: QuadrantPoint[];
+  onSelect: (code: string) => void;
+}) {
+  const reading = buildQuadrantReading(points);
+
+  return (
+    <section className="rounded-md border border-border bg-card p-4">
+      <div className="flex flex-wrap items-start justify-between gap-3">
+        <div>
+          <h2 className="text-lg font-semibold">{label}</h2>
+          <p className="mt-1 text-sm text-muted-foreground">{description}</p>
+        </div>
+        <Badge variant="outline" className="rounded-md px-2.5 py-1 text-xs">
+          pull coverage {formatCoverage(reading.avgPullCoverage)}
+        </Badge>
+      </div>
+
+      <div className="mt-3 flex flex-wrap gap-2">
+        <Badge variant="outline" className="rounded-md px-2.5 py-1 text-xs">
+          X: Validation Velocity
+        </Badge>
+        <Badge variant="outline" className="rounded-md px-2.5 py-1 text-xs">
+          Y: Demand Pull
+        </Badge>
+        <Badge variant="outline" className="rounded-md px-2.5 py-1 text-xs">
+          Size: safe fields
+        </Badge>
+      </div>
+
+      <div className="mt-4 rounded-md border border-border bg-background p-3">
+        <svg viewBox="0 0 920 540" className="h-auto w-full">
+          <rect x="40" y="28" width="820" height="440" fill="#fbfaf6" stroke="#d8d4c8" />
+          <rect x="450" y="28" width="410" height="220" fill="#eef8f4" />
+          <rect x="40" y="28" width="410" height="220" fill="#fdf7e8" />
+          <rect x="450" y="248" width="410" height="220" fill="#eef5fb" />
+          <rect x="40" y="248" width="410" height="220" fill="#fdf0f3" />
+
+          {[25, 50, 75].map((tick) => (
+            <g key={`tick-${tick}`}>
+              <line x1={40 + tick * 8.2} y1={28} x2={40 + tick * 8.2} y2={468} stroke="#ddd7c8" />
+              <line x1={40} y1={468 - tick * 4.4} x2={860} y2={468 - tick * 4.4} stroke="#ddd7c8" />
+            </g>
+          ))}
+
+          <text x="52" y="44" fill="#5e7268" fontSize="14">Higher observable pull</text>
+          <text x="708" y="500" fill="#5e7268" fontSize="14">Faster validation velocity</text>
+          <text x="42" y="500" fill="#9a5363" fontSize="14">Harder / slower to validate</text>
+          <text x="52" y="458" fill="#9a5363" fontSize="14">Weaker observed pull</text>
+          <text x="500" y="64" fill="#126b56" fontSize="14" fontWeight="600">
+            First wave: high pull, fast signal
+          </text>
+          <text x="70" y="64" fill="#9b5f0b" fontSize="14" fontWeight="600">
+            Reformulate: high pull, slower test
+          </text>
+          <text x="500" y="430" fill="#295d9d" fontSize="14" fontWeight="600">
+            Contrarian: fast test, weaker pull
+          </text>
+          <text x="70" y="430" fill="#aa4f62" fontSize="14" fontWeight="600">
+            Kill or hold: low pull, slow signal
+          </text>
+
+          {points.map((point) => {
+            const cx = 40 + point.x * 8.2;
+            const cy = 468 - point.y * 4.4;
+            const tone = getArchetypeVisual(point.archetype.id);
+            const strokeWidth = 2 + (1 - point.pullCoverage) * 3;
+            const dash = point.pullCoverage < 0.5 ? "6 4" : undefined;
+
+            return (
+              <g
+                key={point.code}
+                role="button"
+                tabIndex={0}
+                onClick={() => onSelect(point.code)}
+                onKeyDown={(event) => {
+                  if (event.key === "Enter" || event.key === " ") {
+                    event.preventDefault();
+                    onSelect(point.code);
+                  }
+                }}
+                className="cursor-pointer"
+              >
+                <circle
+                  cx={cx}
+                  cy={cy}
+                  r={point.radius}
+                  fill={tone.fill}
+                  stroke={point.releaseStatus === "blocked" ? "#b42318" : tone.text}
+                  strokeWidth={strokeWidth}
+                  strokeDasharray={dash}
+                />
+                <text
+                  x={cx}
+                  y={cy + 3}
+                  textAnchor="middle"
+                  fill={tone.text}
+                  fontSize="14"
+                  fontWeight="700"
+                >
+                  {point.code}
+                </text>
+                <text
+                  x={cx}
+                  y={cy + point.radius + 18}
+                  textAnchor="middle"
+                  fill="#65736f"
+                  fontSize="11"
+                >
+                  {formatAxis(point.x)} · {formatAxis(point.y)}
+                </text>
+              </g>
+            );
+          })}
+        </svg>
+      </div>
+
+      <div className="mt-5 grid gap-3 md:grid-cols-2">
+        <section className="rounded-md border border-border bg-background px-3 py-2.5">
+          <h3 className="text-sm font-semibold">Reading</h3>
+          <div className="mt-3 space-y-3">
+            {reading.firstWave ? (
+              <div>
+                <p className="text-xs font-medium text-muted-foreground">First wave</p>
+                <p className="text-sm font-semibold">{reading.firstWave.code} {reading.firstWave.title}</p>
+              </div>
+            ) : null}
+            {reading.reformulate ? (
+              <div>
+                <p className="text-xs font-medium text-muted-foreground">Reformulate experiment</p>
+                <p className="text-sm font-semibold">{reading.reformulate.code} {reading.reformulate.title}</p>
+              </div>
+            ) : null}
+            {reading.contrarian ? (
+              <div>
+                <p className="text-xs font-medium text-muted-foreground">Second wave / contrarian</p>
+                <p className="text-sm font-semibold">{reading.contrarian.code} {reading.contrarian.title}</p>
+              </div>
+            ) : null}
+            {reading.kill ? (
+              <div>
+                <p className="text-xs font-medium text-muted-foreground">Kill / hold</p>
+                <p className="text-sm font-semibold">{reading.kill.code} {reading.kill.title}</p>
+              </div>
+            ) : null}
+          </div>
+        </section>
+
+        <section className="rounded-md border border-border bg-background px-3 py-2.5">
+          <h3 className="text-sm font-semibold">Snapshot</h3>
+          <ul className="mt-3 space-y-1.5 text-sm leading-6 text-muted-foreground">
+            {reading.snapshot.map((item) => (
+              <li key={item}>• {item}</li>
+            ))}
+          </ul>
+        </section>
+      </div>
+    </section>
+  );
+}
+
 export function MapDashboard({ products }: { products: ScoredProductRecord[] }) {
-  const { preset, setPreset, filters, setFilters, selectedCode, setSelectedCode, buildHref } =
-    useResearchUrlState();
+  const { filters, setFilters, selectedCode, setSelectedCode, buildHref } = useResearchUrlState();
 
   const options = useMemo(
     () => ({
@@ -102,24 +422,39 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
     [products]
   );
 
-  const rankedRows = useMemo(() => {
-    const filtered = applyFounderFilters(products, filters);
-    const sorted = sortProductsByPreset(filtered, preset);
-    return assignBands(sorted);
-  }, [filters, preset, products]);
+  const filteredProducts = useMemo(() => applyFounderFilters(products, filters), [filters, products]);
   const activeFilterChips = useMemo(() => getActiveFilterChips(filters), [filters]);
 
-  const points = useMemo(() => buildMapPoints(rankedRows), [rankedRows]);
-  const reading = useMemo(() => buildMapReading(points), [points]);
+  const orderedProducts = useMemo(
+    () =>
+      [...filteredProducts].sort((left, right) => {
+        const rightVelocity = right.validationVelocityComposite ?? right.validationVelocityScore ?? 0;
+        const leftVelocity = left.validationVelocityComposite ?? left.validationVelocityScore ?? 0;
+        const rightPull = right.demandPullComposite ?? right.demandEvidenceScore ?? right.retentionStructureScore ?? 0;
+        const leftPull = left.demandPullComposite ?? left.demandEvidenceScore ?? left.retentionStructureScore ?? 0;
+        const rightRank = rightVelocity + rightPull;
+        const leftRank = leftVelocity + leftPull;
+        if (rightRank !== leftRank) return rightRank - leftRank;
+        return left.code.localeCompare(right.code);
+      }),
+    [filteredProducts]
+  );
+  const orderedRows = useMemo(() => assignBands(orderedProducts), [orderedProducts]);
 
-  const selectedIndex = rankedRows.findIndex((item) => item.code === selectedCode);
-  const selectedProduct = selectedIndex >= 0 ? rankedRows[selectedIndex] : null;
+  const points = useMemo(() => orderedProducts.map(buildQuadrantPoint), [orderedProducts]);
+  const b2bPoints = useMemo(() => points.filter((point) => point.plotSegment === "B2B"), [points]);
+  const b2cPoints = useMemo(() => points.filter((point) => point.plotSegment === "B2C"), [points]);
+
+  const selectedIndex = orderedRows.findIndex((item) => item.code === selectedCode);
+  const selectedProduct = selectedIndex >= 0 ? orderedRows[selectedIndex] : null;
 
   useEffect(() => {
-    if (selectedCode && !rankedRows.some((item) => item.code === selectedCode)) {
+    if (selectedCode && !orderedRows.some((item) => item.code === selectedCode)) {
       setSelectedCode(null);
     }
-  }, [rankedRows, selectedCode, setSelectedCode]);
+  }, [orderedRows, selectedCode, setSelectedCode]);
+
+  const selectedPoint = points.find((point) => point.code === selectedCode) ?? null;
 
   return (
     <main className="mx-auto max-w-[1540px] px-4 pb-6 pt-4 sm:px-5 lg:px-6">
@@ -128,7 +463,7 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
           <div className="inline-flex items-center rounded-md border border-border bg-card px-2.5 py-1 text-[11px] font-semibold tracking-[0.04em] text-foreground">
             EducateMe
           </div>
-          <p className="mt-2 text-sm text-muted-foreground">Portfolio map · delivery × claim safety</p>
+          <p className="mt-2 text-sm text-muted-foreground">Quadrant map · validation velocity × demand pull</p>
         </div>
         <div className="md:justify-self-center">
           <ResearchScreenNav active="map" buildHref={buildHref} />
@@ -136,31 +471,15 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
         <div aria-hidden="true" className="hidden md:block" />
       </div>
 
-      <section className="mt-3">
-        <div className="space-y-2">
-          <div className="space-y-0.5">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.04em] text-muted-foreground">
-              Ranking lens
-            </p>
-            <p className="text-xs text-muted-foreground">
-              Same cards, different ranking formula depending on the decision goal.
-            </p>
-          </div>
-          <div className="flex flex-wrap items-center gap-2">
-            {PRESET_OPTIONS.map((item) => (
-              <Button
-                key={item.key}
-                variant={preset === item.key ? "default" : "outline"}
-                onClick={() => setPreset(item.key)}
-                className="h-7 rounded-full px-2.5 text-xs"
-                title={item.description}
-                aria-label={`${item.label}. ${item.description}`}
-              >
-                {item.label}
-              </Button>
-            ))}
-          </div>
-        </div>
+      <section className="mt-3 rounded-md border border-border bg-card px-4 py-3">
+        <p className="text-[11px] font-semibold uppercase tracking-[0.04em] text-muted-foreground">
+          Quadrant protocol
+        </p>
+        <p className="mt-1 text-sm text-muted-foreground">
+          This map no longer uses delivery-ease or claim-safety coordinates. X is the current validation velocity composite.
+          Y is demand pull from commercial validation. B2B and B2C are plotted separately. Dashed or heavier outlines mean the
+          pull side is still only partially filled before SEMrush.
+        </p>
       </section>
 
       <section className="mt-2 flex flex-wrap gap-2">
@@ -181,206 +500,97 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
         </Button>
       </section>
 
-      <ResearchActiveFilters count={rankedRows.length} total={products.length} chips={activeFilterChips} />
+      <ResearchActiveFilters count={filteredProducts.length} total={products.length} chips={activeFilterChips} />
 
-      <section className="mt-3 grid gap-3 xl:grid-cols-[minmax(0,1fr)_300px]">
-        <div className={cn(
-          "rounded-md border border-border bg-card p-4 transition-opacity",
-          selectedProduct && "opacity-65"
-        )}>
-          <div className="flex flex-wrap gap-2">
-            <Badge variant="outline" className="rounded-md px-2.5 py-1 text-xs">X: Delivery ease</Badge>
-            <Badge variant="outline" className="rounded-md px-2.5 py-1 text-xs">Y: Claim safety</Badge>
-            <Badge variant="outline" className="rounded-md px-2.5 py-1 text-xs">Size: Buyer clarity</Badge>
-          </div>
-
-          <div className="mt-3 flex flex-wrap gap-2 rounded-md border border-border bg-background px-3 py-3">
-            {ARCHETYPE_OPTIONS.map((item) => (
-              <ArchetypeLegendCard key={item.id} item={item} />
-            ))}
-          </div>
-
-          <div className="mt-4">
-            <div className="rounded-md border border-border bg-background p-3">
-              <svg viewBox="0 0 920 540" className="h-auto w-full">
-                <rect x="40" y="28" width="820" height="440" fill="#fbfaf6" stroke="#d8d4c8" />
-                <rect x="450" y="28" width="410" height="220" fill="#eef8f4" />
-                <rect x="40" y="248" width="410" height="220" fill="#fdf0f3" />
-
-                {[25, 50, 75].map((tick) => (
-                  <g key={`v-${tick}`}>
-                    <line x1={40 + tick * 8.2} y1={28} x2={40 + tick * 8.2} y2={468} stroke="#ddd7c8" />
-                    <line x1={40} y1={468 - tick * 4.4} x2={860} y2={468 - tick * 4.4} stroke="#ddd7c8" />
-                  </g>
-                ))}
-
-                <text x="52" y="44" fill="#5e7268" fontSize="14">Safer claims</text>
-                <text x="770" y="500" fill="#5e7268" fontSize="14">Easier to ship</text>
-                <text x="52" y="458" fill="#9a5363" fontSize="14">Riskier claims</text>
-                <text x="42" y="500" fill="#9a5363" fontSize="14">Harder to ship</text>
-                <text x="460" y="64" fill="#126b56" fontSize="14" fontWeight="600">
-                  Top-right: easiest to ship with safer claims
-                </text>
-                <text x="60" y="430" fill="#aa4f62" fontSize="14" fontWeight="600">
-                  Bottom-left: heavy setup and risky messaging
-                </text>
-
-                {points.map((point) => {
-                  const cx = 40 + point.x * 8.2;
-                  const cy = 468 - point.y * 4.4;
-                  const tone = getArchetypeVisual(point.archetype.id);
-
-                  return (
-                    <g
-                      key={point.code}
-                      role="button"
-                      tabIndex={0}
-                      onClick={() => setSelectedCode(point.code)}
-                      onKeyDown={(event) => {
-                        if (event.key === "Enter" || event.key === " ") {
-                          event.preventDefault();
-                          setSelectedCode(point.code);
-                        }
-                      }}
-                      className="cursor-pointer"
-                    >
-                      <circle
-                        cx={cx}
-                        cy={cy}
-                        r={point.radius}
-                        fill={tone.fill}
-                      />
-                      <text
-                        x={cx}
-                        y={cy + 3}
-                        textAnchor="middle"
-                        fill={tone.text}
-                        fontSize="14"
-                        fontWeight="700"
-                      >
-                        {point.code}
-                      </text>
-                      <text
-                        x={cx}
-                        y={cy + point.radius + 18}
-                        textAnchor="middle"
-                        fill="#65736f"
-                        fontSize="11"
-                      >
-                        {formatScore(point.scores.deliveryEase)} · {formatScore(point.scores.claimSafety)}
-                      </text>
-                    </g>
-                  );
-                })}
-              </svg>
-            </div>
-          </div>
+      <section className="mt-3 rounded-md border border-border bg-card p-4">
+        <div className="flex flex-wrap items-center gap-2">
+          <Badge variant="outline" className="rounded-md px-2.5 py-1 text-xs">
+            Velocity = Testability + Time-to-first-€ + Founder-independence
+          </Badge>
+          <Badge variant="outline" className="rounded-md px-2.5 py-1 text-xs">
+            Pull = Demand evidence + WTP + CAC reality + Retention
+          </Badge>
+          <Badge variant="outline" className="rounded-md px-2.5 py-1 text-xs">
+            Regulatory friction stays as a penalty note, not a Y-axis input
+          </Badge>
         </div>
 
-        <aside className={cn(
-          "rounded-md border border-border bg-card p-4 transition-opacity",
-          selectedProduct && "opacity-65"
-        )}>
-          <h2 className="text-lg font-semibold">Current sample reading</h2>
-          <p className="mt-2 text-sm leading-6 text-muted-foreground">
-            Same data, different angle: the map helps spot ship-now ideas versus heavier bets.
-          </p>
-
-          <div className="mt-5 space-y-3">
-            {reading.topRight ? (
-              <section className="rounded-md border border-border bg-background px-3 py-2.5">
-                <div className="flex items-start gap-3">
-                  <Badge variant="secondary" className="rounded-md px-2.5 py-1 text-[11px]">
-                    {reading.topRight.code}
-                  </Badge>
-                  <div>
-                    <div className="flex flex-wrap gap-1.5">
-                      <Badge variant="outline" className="rounded-md px-2 py-0.5 text-[10px]">
-                        {reading.topRight.releaseStatus}
-                      </Badge>
-                      <Badge variant="outline" className="rounded-md px-2 py-0.5 text-[10px]">
-                        {reading.topRight.quadrantSegment}
-                      </Badge>
-                    </div>
-                    <h3 className="text-sm font-semibold">Closest to “ship now”</h3>
-                    <p className="mt-1 text-sm leading-6 text-muted-foreground">
-                      High delivery ease and safer claim surface put this card nearest the top-right zone.
-                    </p>
-                  </div>
-                </div>
-              </section>
-            ) : null}
-
-            {reading.interesting ? (
-              <section className="rounded-md border border-border bg-background px-3 py-2.5">
-                <div className="flex items-start gap-3">
-                  <Badge variant="outline" className="rounded-md px-2.5 py-1 text-[11px]">
-                    {reading.interesting.code}
-                  </Badge>
-                  <div>
-                    <div className="flex flex-wrap gap-1.5">
-                      <Badge variant="outline" className="rounded-md px-2 py-0.5 text-[10px]">
-                        {reading.interesting.releaseStatus}
-                      </Badge>
-                      <Badge variant="outline" className="rounded-md px-2 py-0.5 text-[10px]">
-                        {reading.interesting.quadrantSegment}
-                      </Badge>
-                    </div>
-                    <h3 className="text-sm font-semibold">Interesting but heavier</h3>
-                    <p className="mt-1 text-sm leading-6 text-muted-foreground">
-                      Stronger buyer clarity is visible here, but delivery or claims still add friction.
-                    </p>
-                  </div>
-                </div>
-              </section>
-            ) : null}
-
-            {reading.bottomLeft ? (
-              <section className="rounded-md border border-border bg-background px-3 py-2.5">
-                <div className="flex items-start gap-3">
-                  <Badge variant="outline" className="rounded-md px-2.5 py-1 text-[11px]">
-                    {reading.bottomLeft.code}
-                  </Badge>
-                  <div>
-                    <div className="flex flex-wrap gap-1.5">
-                      <Badge variant="outline" className="rounded-md px-2 py-0.5 text-[10px]">
-                        {reading.bottomLeft.releaseStatus}
-                      </Badge>
-                      <Badge variant="outline" className="rounded-md px-2 py-0.5 text-[10px]">
-                        {reading.bottomLeft.quadrantSegment}
-                      </Badge>
-                    </div>
-                    <h3 className="text-sm font-semibold">Complex route logic</h3>
-                    <p className="mt-1 text-sm leading-6 text-muted-foreground">
-                      Lower delivery and claim scores pull this card toward the heavier bottom-left zone.
-                    </p>
-                  </div>
-                </div>
-              </section>
-            ) : null}
-          </div>
-
-          <div className="mt-5">
-            <h3 className="text-sm font-semibold uppercase tracking-[0.04em] text-muted-foreground">Snapshot</h3>
-            <ul className="mt-3 space-y-1.5 text-sm leading-6 text-muted-foreground">
-              {reading.snapshot.map((item) => (
-                <li key={item}>• {item}</li>
-              ))}
-            </ul>
-          </div>
-        </aside>
+        <div className="mt-3 flex flex-wrap gap-2">
+          {ARCHETYPE_OPTIONS.map((item) => (
+            <ArchetypeLegendCard key={item.id} item={item} />
+          ))}
+        </div>
       </section>
+
+      <section className="mt-3 space-y-3">
+        {b2bPoints.length > 0 ? (
+          <QuadrantPlot
+            label="B2B quadrant"
+            description="Enterprise, partner, and B2B2C motions are grouped here because the validation route starts with buyer conversations, pilots, or partner asks."
+            points={b2bPoints}
+            onSelect={setSelectedCode}
+          />
+        ) : null}
+
+        {b2cPoints.length > 0 ? (
+          <QuadrantPlot
+            label="B2C quadrant"
+            description="Direct learner motions are plotted separately because the validation mechanics are different from enterprise sales."
+            points={b2cPoints}
+            onSelect={setSelectedCode}
+          />
+        ) : null}
+
+        {b2bPoints.length === 0 && b2cPoints.length === 0 ? (
+          <div className="rounded-md border border-dashed border-border px-4 py-10 text-center text-muted-foreground">
+            No products match the current filters.
+          </div>
+        ) : null}
+      </section>
+
+      {selectedPoint ? (
+        <section className={cn("mt-3 rounded-md border border-border bg-card p-4", selectedProduct && "opacity-65")}>
+          <div className="flex flex-wrap items-start justify-between gap-3">
+            <div>
+              <h2 className="text-lg font-semibold">
+                Selected point: {selectedPoint.code} {selectedPoint.title}
+              </h2>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Velocity {formatAxis(selectedPoint.x)} · Pull {formatAxis(selectedPoint.y)} · Velocity coverage {formatCoverage(selectedPoint.velocityCoverage)} · Pull coverage {formatCoverage(selectedPoint.pullCoverage)}
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-1.5">
+              <Badge className={cn("rounded-md px-2.5 py-1 text-xs", releaseTone(selectedPoint.releaseStatus))}>
+                {selectedPoint.releaseStatus}
+              </Badge>
+              <Badge variant="outline" className="rounded-md px-2.5 py-1 text-xs">
+                {selectedPoint.quadrantSegment}
+              </Badge>
+              <Badge className={cn("rounded-md px-2.5 py-1 text-xs", confidenceBandTone(selectedPoint.product.demandPullConfidenceBand))}>
+                pull confidence {selectedPoint.product.demandPullConfidenceBand}
+              </Badge>
+            </div>
+          </div>
+
+          {selectedPoint.missingSignals.length > 0 ? (
+            <div className="mt-3 rounded-md border border-border bg-background px-3 py-2.5">
+              <p className="text-xs font-medium text-muted-foreground">Missing signals</p>
+              <p className="mt-1 text-sm">{selectedPoint.missingSignals.join(", ")}</p>
+            </div>
+          ) : null}
+        </section>
+      ) : null}
 
       <ExplainabilityDrawer
         product={selectedProduct}
-        preset={preset}
+        preset="founder"
         onClose={() => setSelectedCode(null)}
         onPrevious={
-          selectedIndex > 0 ? () => setSelectedCode(rankedRows[selectedIndex - 1]!.code) : undefined
+          selectedIndex > 0 ? () => setSelectedCode(orderedRows[selectedIndex - 1]!.code) : undefined
         }
         onNext={
-          selectedIndex >= 0 && selectedIndex < rankedRows.length - 1
-            ? () => setSelectedCode(rankedRows[selectedIndex + 1]!.code)
+          selectedIndex >= 0 && selectedIndex < orderedRows.length - 1
+            ? () => setSelectedCode(orderedRows[selectedIndex + 1]!.code)
             : undefined
         }
       />
