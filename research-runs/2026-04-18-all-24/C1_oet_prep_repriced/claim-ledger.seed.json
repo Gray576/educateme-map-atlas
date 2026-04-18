@@ -1,0 +1,116 @@
+{
+  "schema_version": "claim_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "C1",
+  "product_title": "OET Prep (repriced)",
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "exam",
+      "claim_text": "OET is accepted by key healthcare authorities in the UAE and for residency programs in Abu Dhabi and Dubai.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "oet_uae"
+      ],
+      "contradiction_flag": false,
+      "notes": "OET's UAE country page states that the test is accepted by key healthcare authorities in the UAE and by residency programs in Abu Dhabi and Dubai.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "recognition",
+      "claim_text": "OET is accepted worldwide by healthcare regulators, educational institutions and visa and immigration services.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "oet_acceptance_worldwide"
+      ],
+      "contradiction_flag": false,
+      "notes": "OET's official site states that the test is accepted worldwide by healthcare regulators, educational institutions and visa and immigration services.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "recognition",
+      "claim_text": "OET can help with migration or career advancement in the UK, Australia and the US.",
+      "legacy_status": "partially_verified",
+      "supporting_source_ids": [
+        "oet_acceptance_worldwide",
+        "oet_uae"
+      ],
+      "contradiction_flag": false,
+      "notes": "The official OET site supports global acceptance and country-specific recognition, but the card's specific use-case wording is still a broad inference.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_004",
+      "origin": "legacy_external_claim",
+      "category": "recognition",
+      "claim_text": "Learners need an OET certificate for DHA or DOH registration.",
+      "legacy_status": "partially_verified",
+      "supporting_source_ids": [
+        "oet_uae"
+      ],
+      "contradiction_flag": false,
+      "notes": "The reviewed sources show OET acceptance in UAE healthcare settings, but they do not prove that this package is sufficient for every registration path or that an OET certificate is universally mandatory.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_005",
+      "origin": "legacy_external_claim",
+      "category": "numeric_claim",
+      "claim_text": "94 leads exist from the UAE pilot.",
+      "legacy_status": "unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is an internal lead count and was not externally verified.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "94 leads exist from the UAE pilot.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is an internal funnel metric, not a public fact.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "Repricing from €349 to €149-199 fixes market fit.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is a commercial hypothesis, not an externally verified claim.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "The course is the right option for all UAE/GCC learners targeting OET.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The reviewed sources do not establish that this course is the best or only fit for the segment.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_004",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "Pass guarantee can be promised safely.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The OET test itself warns against guaranteed results; no public source reviewed supports a guarantee claim.",
+      "next_action": "treat as open question, not as fact"
+    }
+  ]
+}

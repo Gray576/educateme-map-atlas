@@ -1,0 +1,178 @@
+{
+  "schema_version": "field_decisions_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L3",
+  "product_title": "French for Work & Business",
+  "analysis_timestamp": "2026-04-18T16:25:00Z",
+  "field_decisions": [
+    {
+      "field_id": "jurisdiction_scope",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Luxembourg"
+      ],
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_007",
+        "claim_008"
+      ],
+      "source_refs": [
+        "guichet_fpc_2025",
+        "statec_regards_2025",
+        "prolingua_specialist_language",
+        "prolingua_tailor_made",
+        "inlingua_company_courses",
+        "berlitz_business_lux",
+        "inll_courses"
+      ],
+      "last_verified_at": "2026-04-18T16:25:00Z",
+      "reason": "All surviving evidence is Luxembourg-specific."
+    },
+    {
+      "field_id": "public_training_support_route",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "Luxembourg has a public company-training co-financing route with 15% base support, and salary-cost weighting can rise to 35% for eligible participants.",
+      "claim_refs": [
+        "claim_001",
+        "claim_002"
+      ],
+      "source_refs": [
+        "guichet_fpc_2025"
+      ],
+      "last_verified_at": "2026-04-18T16:25:00Z",
+      "reason": "This is the safe public subsidy layer, without overstating product eligibility."
+    },
+    {
+      "field_id": "workforce_context",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "In 2024 Luxembourg had 489,000 employees, and 47% were cross-border workers.",
+      "claim_refs": [
+        "claim_003"
+      ],
+      "source_refs": [
+        "statec_regards_2025"
+      ],
+      "last_verified_at": "2026-04-18T16:25:00Z",
+      "reason": "Safe official workforce context for the market narrative."
+    },
+    {
+      "field_id": "verified_competitors",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Prolingua specialist language",
+        "Prolingua tailor-made courses",
+        "inlingua Luxembourg",
+        "Berlitz Luxembourg",
+        "INLL"
+      ],
+      "claim_refs": [
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_007",
+        "claim_008"
+      ],
+      "source_refs": [
+        "prolingua_specialist_language",
+        "prolingua_tailor_made",
+        "inlingua_company_courses",
+        "berlitz_business_lux",
+        "inll_courses"
+      ],
+      "last_verified_at": "2026-04-18T16:25:00Z",
+      "reason": "The substitute landscape is already visible from public sources."
+    },
+    {
+      "field_id": "hard_blockers",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "The uniqueness claim is false; public specialist and company-tailored French substitutes already exist.",
+        "The public co-financing route does not by itself prove this exact course is eligible.",
+        "The rounded 228k-230k worker count should not replace the raw official 489k / 47% figures.",
+        "All proposed vertical variants are not publicly proven as launch-ready.",
+        "CEFR progress reports and recordings are not externally verified as a buyer proof standard."
+      ],
+      "claim_refs": [
+        "ext_001",
+        "ext_002",
+        "ext_003",
+        "int_001",
+        "int_002"
+      ],
+      "source_refs": [
+        "guichet_fpc_2025",
+        "statec_regards_2025",
+        "prolingua_specialist_language",
+        "prolingua_tailor_made",
+        "inlingua_company_courses",
+        "berlitz_business_lux"
+      ],
+      "last_verified_at": "2026-04-18T16:25:00Z",
+      "reason": "These are the main fail-closed constraints after the rerun."
+    },
+    {
+      "field_id": "target_audience_summary",
+      "status": "analyst_only",
+      "confidence_band": "medium",
+      "value": "Luxembourg employers and cross-border teams that need workplace French beyond generic classroom content.",
+      "claim_refs": [
+        "claim_001",
+        "claim_003"
+      ],
+      "source_refs": [
+        "guichet_fpc_2025",
+        "statec_regards_2025"
+      ],
+      "last_verified_at": "2026-04-18T16:25:00Z",
+      "omission_reason": "Reasonable synthesis, but still positioning rather than a default dashboard fact."
+    },
+    {
+      "field_id": "product_specific_cofunding_eligibility",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "ext_001"
+      ],
+      "source_refs": [
+        "guichet_fpc_2025"
+      ],
+      "last_verified_at": "2026-04-18T16:25:00Z",
+      "omission_reason": "The co-financing route exists, but exact eligibility for this course is not publicly evidenced."
+    },
+    {
+      "field_id": "all_verticals_ready",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "int_001"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T16:25:00Z",
+      "omission_reason": "Public evidence does not validate every proposed vertical as launch-ready."
+    },
+    {
+      "field_id": "buyer_proof_standard",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "int_002"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T16:25:00Z",
+      "omission_reason": "No external source proves CEFR reports and recordings are the required buyer proof layer."
+    }
+  ]
+}

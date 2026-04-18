@@ -1,0 +1,322 @@
+{
+  "schema_version": "research_card_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L7",
+  "product_title": "OET Medical Preparation (Doctors)",
+  "analysis_timestamp": "2026-04-18T21:49:18+04:00",
+  "release_status": "review",
+  "sources": [
+    {
+      "source_id": "oet_ecfmg",
+      "title": "OET for ECFMG Certification",
+      "publisher": "OET",
+      "url": "https://oet.com/en-us/ecfmg",
+      "authority_tier": "T3"
+    },
+    {
+      "source_id": "ecfmg_pathways_oet",
+      "title": "2026 Pathways | Assessment of Communication Skills, Including English Language Proficiency",
+      "publisher": "ECFMG",
+      "url": "https://www.ecfmg.org/certification-pathways/oet.html",
+      "authority_tier": "T1"
+    },
+    {
+      "source_id": "ecfmg_certification_factsheet",
+      "title": "ECFMG Certification Fact Sheet",
+      "publisher": "ECFMG",
+      "url": "https://pathways-staff.ecfmg.org/resources/CertificationFactSheet.pdf",
+      "authority_tier": "T1"
+    },
+    {
+      "source_id": "oet_uae",
+      "title": "United Arab Emirates",
+      "publisher": "OET",
+      "url": "https://oet.com/en-us/test/who-recognises-oet/recognising-organisations/united-arab-emirates",
+      "authority_tier": "T3"
+    },
+    {
+      "source_id": "oet_about_test",
+      "title": "What is the OET Test, where and how do I take it",
+      "publisher": "OET",
+      "url": "https://oet.com/en-us/about/the-test",
+      "authority_tier": "T3"
+    },
+    {
+      "source_id": "oet_sample_tests",
+      "title": "Free sample tests",
+      "publisher": "OET",
+      "url": "https://oet.com/preparation-portal/free-sample-tests/",
+      "authority_tier": "T3"
+    }
+  ],
+  "verified_jurisdictions": [
+    {
+      "jurisdiction": "United States",
+      "claim_ids": [
+        "c_001",
+        "c_002",
+        "c_003",
+        "c_004",
+        "c_005"
+      ],
+      "source_ids": [
+        "oet_ecfmg",
+        "ecfmg_pathways_oet",
+        "ecfmg_certification_factsheet"
+      ],
+      "quote_ids": [
+        "q_001",
+        "q_002",
+        "q_003",
+        "q_004",
+        "q_005",
+        "q_006"
+      ],
+      "last_verified_at": "2026-04-18T21:49:18+04:00"
+    },
+    {
+      "jurisdiction": "United Arab Emirates",
+      "claim_ids": [
+        "c_007",
+        "c_008"
+      ],
+      "source_ids": [
+        "oet_uae"
+      ],
+      "quote_ids": [
+        "q_007",
+        "q_008"
+      ],
+      "last_verified_at": "2026-04-18T21:49:18+04:00"
+    }
+  ],
+  "entities": [
+    {
+      "entity_name": "OET",
+      "entity_type": "exam_body",
+      "jurisdiction": "Global",
+      "source_ids": [
+        "oet_ecfmg",
+        "oet_uae",
+        "oet_about_test",
+        "oet_sample_tests"
+      ]
+    },
+    {
+      "entity_name": "ECFMG",
+      "entity_type": "certification_body",
+      "jurisdiction": "United States",
+      "source_ids": [
+        "ecfmg_pathways_oet",
+        "ecfmg_certification_factsheet"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "req_001",
+      "jurisdiction": "United States",
+      "authority": "ECFMG",
+      "requirement": "Pathways applicants must attain a satisfactory OET Medicine score to satisfy the communication-skills requirement for ECFMG Certification.",
+      "claim_ids": [
+        "c_003"
+      ],
+      "source_ids": [
+        "ecfmg_pathways_oet"
+      ],
+      "quote_ids": [
+        "q_003"
+      ]
+    },
+    {
+      "requirement_id": "req_002",
+      "jurisdiction": "United States",
+      "authority": "ECFMG",
+      "requirement": "For 2026 Pathways, applicants must score 350 in Listening, Reading, and Speaking and 300 in Writing in one OET Medicine administration.",
+      "claim_ids": [
+        "c_005"
+      ],
+      "source_ids": [
+        "ecfmg_pathways_oet"
+      ],
+      "quote_ids": [
+        "q_005"
+      ]
+    },
+    {
+      "requirement_id": "req_003",
+      "jurisdiction": "United Arab Emirates",
+      "authority": "OET recognition page",
+      "requirement": "OET is presented as accepted by key healthcare authorities in the UAE and for residency programs in Abu Dhabi and Dubai.",
+      "claim_ids": [
+        "c_007",
+        "c_008"
+      ],
+      "source_ids": [
+        "oet_uae"
+      ],
+      "quote_ids": [
+        "q_007",
+        "q_008"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "c_001",
+      "claim_text": "OET Medicine is the approved English language and communications skills test for International Medical Graduates applying for ECFMG certification.",
+      "status": "verified",
+      "source_ids": [
+        "oet_ecfmg"
+      ],
+      "quote_ids": [
+        "q_001"
+      ]
+    },
+    {
+      "claim_id": "c_002",
+      "claim_text": "OET Medicine is designed specifically for physicians.",
+      "status": "verified",
+      "source_ids": [
+        "oet_ecfmg"
+      ],
+      "quote_ids": [
+        "q_002"
+      ]
+    },
+    {
+      "claim_id": "c_003",
+      "claim_text": "Applicants who pursue one of ECFMG's Pathways are required to attain a satisfactory score on OET Medicine to satisfy the communication skills requirement for ECFMG Certification.",
+      "status": "verified",
+      "source_ids": [
+        "ecfmg_pathways_oet"
+      ],
+      "quote_ids": [
+        "q_003"
+      ]
+    },
+    {
+      "claim_id": "c_004",
+      "claim_text": "OET Medicine is only one of the requirements for completing an ECFMG Pathway.",
+      "status": "verified",
+      "source_ids": [
+        "ecfmg_pathways_oet"
+      ],
+      "quote_ids": [
+        "q_004"
+      ]
+    },
+    {
+      "claim_id": "c_005",
+      "claim_text": "For 2026 ECFMG Pathways, applicants must attain 350 on Listening, Reading, and Speaking and 300 on Writing in one OET Medicine test administration.",
+      "status": "verified",
+      "source_ids": [
+        "ecfmg_pathways_oet"
+      ],
+      "quote_ids": [
+        "q_005"
+      ]
+    },
+    {
+      "claim_id": "c_007",
+      "claim_text": "OET is accepted by key healthcare authorities in the UAE.",
+      "status": "verified",
+      "source_ids": [
+        "oet_uae"
+      ],
+      "quote_ids": [
+        "q_007"
+      ]
+    },
+    {
+      "claim_id": "c_008",
+      "claim_text": "OET is accepted for residency programs in Abu Dhabi and Dubai.",
+      "status": "verified",
+      "source_ids": [
+        "oet_uae"
+      ],
+      "quote_ids": [
+        "q_008"
+      ]
+    },
+    {
+      "claim_id": "c_009",
+      "claim_text": "OET has been developed specifically for 12 healthcare professions.",
+      "status": "verified",
+      "source_ids": [
+        "oet_about_test"
+      ],
+      "quote_ids": [
+        "q_009"
+      ]
+    },
+    {
+      "claim_id": "c_010",
+      "claim_text": "OET provides free and paid preparation resources, including courses, videos, guides, and sample tests.",
+      "status": "verified",
+      "source_ids": [
+        "oet_sample_tests"
+      ],
+      "quote_ids": [
+        "q_010"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Is GCC scope an intentional market boundary or only a legacy assumption?",
+    "Is there a public product page that evidences doctor-only cohorts, letter counts, or tutor qualifications?",
+    "Should marketing copy mention only the verified ECFMG Pathways route rather than broader international-recognition language?",
+    "How should premium doctor positioning be defended against OET's own free preparation resources?"
+  ],
+  "manual_review_items": [
+    "Keep ECFMG language narrow: OET Medicine is required for Pathways applicants, but the reviewed official materials do not support 'OET only'.",
+    "Do not publish GCC-wide scope without direct public evidence.",
+    "Do not publish curriculum counts, cohort exclusivity, or tutor-qualification claims without product-specific public proof.",
+    "Pressure-test premium doctor positioning against official free OET resources before release."
+  ],
+  "verification_summary": {
+    "verified_claims": 9,
+    "contradicted_claims": 1,
+    "blocked_claims": 4,
+    "high_risk_contradictions": 1,
+    "dashboard_ready": true,
+    "source_ids": [
+      "oet_ecfmg",
+      "ecfmg_pathways_oet",
+      "ecfmg_certification_factsheet",
+      "oet_uae",
+      "oet_about_test",
+      "oet_sample_tests"
+    ],
+    "claim_ids": [
+      "c_001",
+      "c_002",
+      "c_003",
+      "c_004",
+      "c_005",
+      "c_006",
+      "c_007",
+      "c_008",
+      "c_009",
+      "c_010",
+      "c_011",
+      "c_012",
+      "c_013",
+      "c_014"
+    ],
+    "last_verified_at": "2026-04-18T21:49:18+04:00"
+  },
+  "safe_fields": [
+    "product_code",
+    "product_title",
+    "analysis_timestamp",
+    "sources",
+    "verified_jurisdictions",
+    "entities",
+    "requirements",
+    "claims",
+    "open_questions",
+    "manual_review_items",
+    "verification_summary"
+  ]
+}

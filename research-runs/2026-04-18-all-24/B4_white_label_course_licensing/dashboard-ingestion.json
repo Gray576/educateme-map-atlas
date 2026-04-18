@@ -1,0 +1,70 @@
+{
+  "schema_version": "dashboard_ingestion_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B4",
+  "product_title": "White-Label Course Licensing",
+  "reviewed_at": "2026-04-18T12:56:38Z",
+  "release_status": "review",
+  "safe_fields": {
+    "jurisdiction_scope": {
+      "value": ["Luxembourg"],
+      "confidence_band": "high",
+      "claim_refs": ["v_005", "v_006", "v_007", "v_008"],
+      "source_refs": ["guichet_training_establishment", "lllc"],
+      "quote_refs": ["q_006", "q_007", "q_008", "q_009", "q_010"],
+      "last_verified_at": "2026-04-18T12:56:38Z"
+    },
+    "approval_entities": {
+      "value": [
+        "Institut national des langues Luxembourg (INLL)",
+        "Minister whose remit includes professional training",
+        "Luxembourg Lifelong Learning Center (LLLC)"
+      ],
+      "confidence_band": "high",
+      "claim_refs": ["v_003", "v_004", "v_005", "v_007", "v_008"],
+      "source_refs": ["inll_luxembourgish", "inll_trainings", "guichet_training_establishment", "lllc"],
+      "quote_refs": ["q_003", "q_004", "q_005", "q_006", "q_008", "q_009", "q_010"],
+      "last_verified_at": "2026-04-18T12:56:38Z"
+    },
+    "competitor_names": {
+      "value": ["INLL", "LLLC"],
+      "confidence_band": "high",
+      "claim_refs": ["v_001", "v_004", "v_007", "v_008"],
+      "source_refs": ["inll_luxembourgish", "inll_trainings", "lllc"],
+      "quote_refs": ["q_001", "q_004", "q_005", "q_009", "q_010"],
+      "last_verified_at": "2026-04-18T12:56:38Z"
+    },
+    "hard_blockers": {
+      "value": [
+        "Third-party training delivery outside the company in Luxembourg requires a business permit issued after ministerial approval."
+      ],
+      "confidence_band": "high",
+      "claim_refs": ["v_005", "v_006"],
+      "source_refs": ["guichet_training_establishment"],
+      "quote_refs": ["q_006", "q_007", "q_008"],
+      "last_verified_at": "2026-04-18T12:56:38Z"
+    }
+  },
+  "analyst_only_fields": {
+    "licensing_route": {
+      "value": "unknown",
+      "confidence_band": "blocked",
+      "omission_reason": "No public source proves whether B4 is pure IP licensing, training delivery, or a hybrid route."
+    },
+    "badge_external_recognition": {
+      "value": "unknown",
+      "confidence_band": "blocked",
+      "omission_reason": "No official or publicly recognized credential source was found for 'Educateme Certified'."
+    },
+    "market_size_or_demand": {
+      "value": "unknown",
+      "confidence_band": "blocked",
+      "omission_reason": "No search-volume, market-size, or Belgium-demand evidence was collected for the exact offer."
+    }
+  },
+  "verification_summary": {
+    "verified_claim_count": 8,
+    "contradicted_claim_count": 1,
+    "blocked_claim_count": 0
+  }
+}

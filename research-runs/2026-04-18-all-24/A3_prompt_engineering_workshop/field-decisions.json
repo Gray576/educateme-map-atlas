@@ -1,0 +1,190 @@
+{
+  "schema_version": "field_decisions_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A3",
+  "product_title": "Prompt Engineering Workshop",
+  "analysis_timestamp": "2026-04-18T17:48:33Z",
+  "field_decisions": [
+    {
+      "field_id": "jurisdiction_scope",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Luxembourg",
+        "EU"
+      ],
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_008"
+      ],
+      "source_refs": [
+        "eu_ai_literacy_qa",
+        "guichet_cvt",
+        "houseoftraining_prompt_finance",
+        "houseoftraining_chatgpt_business",
+        "houseoftraining_ai_risk"
+      ],
+      "last_verified_at": "2026-04-18T17:48:33Z",
+      "reason": "The product is Luxembourg-facing, while the regulatory context comes from the EU AI Act."
+    },
+    {
+      "field_id": "regulatory_context",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "Article 4 requires AI providers and deployers to ensure sufficient AI literacy; the obligation applies from 2 February 2025 and supervision/enforcement starts from 3 August 2026.",
+      "claim_refs": [
+        "claim_001",
+        "claim_002"
+      ],
+      "source_refs": [
+        "eu_ai_literacy_qa"
+      ],
+      "last_verified_at": "2026-04-18T17:48:33Z",
+      "reason": "The Commission FAQ gives the narrow wording and the safe timing split."
+    },
+    {
+      "field_id": "training_support_route",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "Luxembourg company-training support exists at scheme level: the State contributes to employer training plans, with 15% base aid and 35% salary-cost weighting for certain eligible participants.",
+      "claim_refs": [
+        "claim_003",
+        "claim_004"
+      ],
+      "source_refs": [
+        "guichet_cvt"
+      ],
+      "last_verified_at": "2026-04-18T17:48:33Z",
+      "reason": "This is defensible route-level context without overstating workshop-level eligibility."
+    },
+    {
+      "field_id": "verified_competitors",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "House of Training - Prompt Engineering (finance-sector e-learning)",
+        "House of Training - Entrepreneur augmente grace a ChatGPT",
+        "OpenAI Academy prompting resource",
+        "House of Training - AI risk / data protection / AI course"
+      ],
+      "claim_refs": [
+        "claim_005",
+        "claim_006",
+        "claim_007",
+        "claim_008"
+      ],
+      "source_refs": [
+        "houseoftraining_prompt_finance",
+        "houseoftraining_chatgpt_business",
+        "openai_prompting",
+        "houseoftraining_ai_risk"
+      ],
+      "last_verified_at": "2026-04-18T17:48:33Z",
+      "reason": "The public landscape already includes local paid prompt-adjacent offers and free public prompting guidance."
+    },
+    {
+      "field_id": "hard_blockers",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "No empty-market or knowledge-scarcity claim survives; public local courses and free public prompting guidance already exist.",
+        "The rerun proves only scheme-level Luxembourg training support, not workshop-level subsidy eligibility.",
+        "The proposed prompt-library deliverable is still an internal promise, not an evidenced fact.",
+        "Customization as the main differentiator remains a thesis, not a verified truth-layer field.",
+        "The exact 1-2 day format and output bundle remain unverified product design choices."
+      ],
+      "claim_refs": [
+        "ext_001",
+        "ext_002",
+        "ext_004",
+        "int_001",
+        "int_002",
+        "int_003",
+        "int_004"
+      ],
+      "source_refs": [
+        "houseoftraining_prompt_finance",
+        "houseoftraining_chatgpt_business",
+        "openai_prompting",
+        "guichet_cvt"
+      ],
+      "last_verified_at": "2026-04-18T17:48:33Z",
+      "reason": "These are the fail-closed limits that remain after falsification."
+    },
+    {
+      "field_id": "target_audience_summary",
+      "status": "analyst_only",
+      "confidence_band": "medium",
+      "value": "Luxembourg employers already using AI tools and wanting more structured prompt practice within a governance-aware setting.",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_008"
+      ],
+      "source_refs": [
+        "eu_ai_literacy_qa",
+        "guichet_cvt",
+        "houseoftraining_ai_risk"
+      ],
+      "last_verified_at": "2026-04-18T17:48:33Z",
+      "omission_reason": "Useful synthesis, but still partly inferential for the exact workshop."
+    },
+    {
+      "field_id": "product_specific_subsidy_eligibility",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "ext_004",
+        "int_003"
+      ],
+      "source_refs": [
+        "guichet_cvt"
+      ],
+      "last_verified_at": "2026-04-18T17:48:33Z",
+      "omission_reason": "Public support routes exist, but this exact workshop's eligibility was not evidenced."
+    },
+    {
+      "field_id": "prompt_library_deliverable",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "int_001"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T17:48:33Z",
+      "omission_reason": "The 30-50 tested prompts deliverable is not a public fact."
+    },
+    {
+      "field_id": "customization_differentiator",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "int_002"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T17:48:33Z",
+      "omission_reason": "The rerun did not find public evidence proving customization is the winning wedge."
+    },
+    {
+      "field_id": "exact_workshop_format",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "int_004"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T17:48:33Z",
+      "omission_reason": "The 1-2 day format and prompt-library outcome are internal design choices, not verified facts."
+    }
+  ]
+}

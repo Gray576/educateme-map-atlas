@@ -1,0 +1,147 @@
+{
+  "schema_version": "field_decisions_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L4",
+  "product_title": "Custom Corporate Language Programs",
+  "analysis_timestamp": "2026-04-18T17:55:32Z",
+  "field_decisions": [
+    {
+      "field_id": "jurisdiction_scope",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Luxembourg"
+      ],
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_005"
+      ],
+      "source_refs": [
+        "guichet_fpc_2025",
+        "prolingua_tailor_made",
+        "inlingua_adults",
+        "berlitz_business_lux"
+      ],
+      "last_verified_at": "2026-04-18T17:55:32Z",
+      "reason": "All surviving evidence is Luxembourg-specific."
+    },
+    {
+      "field_id": "public_training_support_route",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "Luxembourg company-training co-financing exists at scheme level, with 15% base aid and 35% salary-cost weighting for certain eligible participants.",
+      "claim_refs": [
+        "claim_001",
+        "claim_002"
+      ],
+      "source_refs": [
+        "guichet_fpc_2025"
+      ],
+      "last_verified_at": "2026-04-18T17:55:32Z",
+      "reason": "The public route is real, but only at scheme level."
+    },
+    {
+      "field_id": "verified_competitors",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Prolingua tailor-made courses",
+        "inlingua Luxembourg",
+        "Berlitz for Business"
+      ],
+      "claim_refs": [
+        "claim_003",
+        "claim_004",
+        "claim_005"
+      ],
+      "source_refs": [
+        "prolingua_tailor_made",
+        "inlingua_adults",
+        "berlitz_business_lux"
+      ],
+      "last_verified_at": "2026-04-18T17:55:32Z",
+      "reason": "The public market already shows tailored delivery, multilingual scope and HR-facing corporate offers."
+    },
+    {
+      "field_id": "hard_blockers",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Scheme-level Luxembourg co-financing exists, but exact eligibility for this service is unproven.",
+        "No public source proves that any Ministry-of-Education certification implies INFPC eligibility.",
+        "The compound competitor story overreaches: freelancer tracking and an exhaustive substitute map are not verified.",
+        "Multilingual delivery and flexible scheduling are not unique on public evidence; the analytics edge remains unproven."
+      ],
+      "claim_refs": [
+        "ext_001",
+        "ext_002",
+        "int_001",
+        "int_002"
+      ],
+      "source_refs": [
+        "guichet_fpc_2025",
+        "prolingua_tailor_made",
+        "inlingua_adults",
+        "berlitz_business_lux"
+      ],
+      "last_verified_at": "2026-04-18T17:55:32Z",
+      "reason": "These are the fail-closed limits of the rerun."
+    },
+    {
+      "field_id": "target_audience_summary",
+      "status": "analyst_only",
+      "confidence_band": "medium",
+      "value": "Luxembourg HR and employer buyers seeking broad corporate language delivery with flexible scheduling and reporting expectations.",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_005"
+      ],
+      "source_refs": [
+        "guichet_fpc_2025",
+        "prolingua_tailor_made",
+        "inlingua_adults",
+        "berlitz_business_lux"
+      ],
+      "last_verified_at": "2026-04-18T17:55:32Z",
+      "omission_reason": "Useful synthesis, but still partly inferential for the exact service."
+    },
+    {
+      "field_id": "product_specific_funding_eligibility",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "ext_001",
+        "int_001"
+      ],
+      "source_refs": [
+        "guichet_fpc_2025"
+      ],
+      "last_verified_at": "2026-04-18T17:55:32Z",
+      "omission_reason": "Route-level co-financing exists, but service-level eligibility is not proven."
+    },
+    {
+      "field_id": "unique_delivery_edge",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "ext_002",
+        "int_002"
+      ],
+      "source_refs": [
+        "prolingua_tailor_made",
+        "inlingua_adults",
+        "berlitz_business_lux"
+      ],
+      "last_verified_at": "2026-04-18T17:55:32Z",
+      "omission_reason": "Public evidence already shows tailored and flexible competing offers, while the analytics layer is not externally proven."
+    }
+  ]
+}

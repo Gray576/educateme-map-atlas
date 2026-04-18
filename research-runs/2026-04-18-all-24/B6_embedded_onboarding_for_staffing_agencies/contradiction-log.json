@@ -1,0 +1,72 @@
+{
+  "schema_version": "contradiction_log_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B6",
+  "product_title": "Embedded Onboarding for Staffing Agencies",
+  "analysis_timestamp": "2026-04-18T13:06:04Z",
+  "contradictions": [],
+  "open_issues": [
+    {
+      "claim_id": "claim_009",
+      "claim_text": "RPO market growing 15.4% CAGR.",
+      "status": "blocked",
+      "issue_type": "numeric_source_policy",
+      "resolution": "review",
+      "notes": "A public secondary market estimate exists, but strict v2 needs a primary or official statistical source before this can be promoted."
+    },
+    {
+      "claim_id": "claim_010",
+      "claim_text": "Agencies can charge €1,500 more per placement with language included.",
+      "status": "unverified",
+      "issue_type": "pricing_uplift_missing",
+      "resolution": "review",
+      "notes": "No public source reviewed confirmed this uplift."
+    },
+    {
+      "claim_id": "claim_011",
+      "claim_text": "A turnkey package can be bundled into the agency placement fee.",
+      "status": "unverified",
+      "issue_type": "business_model_hypothesis",
+      "resolution": "review",
+      "notes": "This remains a business-model assumption."
+    },
+    {
+      "claim_id": "int_001",
+      "claim_text": "Y1 revenue can reach €50–80K.",
+      "status": "unclear",
+      "issue_type": "internal_projection",
+      "resolution": "review",
+      "notes": "Internal planning figure only."
+    },
+    {
+      "claim_id": "int_003",
+      "claim_text": "The product can be delivered as a new independent certified route without partner/accreditation work.",
+      "status": "unclear",
+      "issue_type": "route_strategy_unresolved",
+      "resolution": "blocked",
+      "notes": "No public evidence supports a free-standing certified route."
+    }
+  ],
+  "falsification_searches": [
+    {
+      "query": "\"staffing agencies\" onboarding language training Benelux",
+      "result": "Search surfaced multiple affirmative public pages in Belgium, Luxembourg, Germany, and Ireland. The concept exists; the product-specific packaging does not."
+    },
+    {
+      "query": "\"Recruitment Process Outsourcing\" 15.4% CAGR",
+      "result": "Public secondary market snippets repeat the figure, but the evidence is not primary-source-safe and other public estimates vary materially."
+    },
+    {
+      "query": "\"€1,500\" language included placement fee",
+      "result": "No public source confirmed the uplift."
+    }
+  ],
+  "summary": {
+    "checked_claim_count": 14,
+    "contradicted_count": 0,
+    "open_issue_count": 5,
+    "verified_claim_count": 8,
+    "unverified_claim_count": 3,
+    "unclear_claim_count": 3
+  }
+}

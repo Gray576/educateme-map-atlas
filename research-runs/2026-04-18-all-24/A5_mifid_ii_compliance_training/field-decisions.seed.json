@@ -1,0 +1,26 @@
+{
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A5",
+  "field_decisions": [
+    {
+      "field_id": "jurisdiction_scope",
+      "legacy_value": [
+        "Luxembourg"
+      ],
+      "status": "pending_reverification",
+      "reason": "Legacy scope exists but has not been revalidated under v2 rules."
+    },
+    {
+      "field_id": "target_audience_summary",
+      "legacy_value": "Financial institutions and staff under CSSF prudential supervision who provide investment information or advice.",
+      "status": "analyst_only_until_reverified",
+      "reason": "Target audience phrasing is informative but usually inferential."
+    },
+    {
+      "field_id": "safe_dashboard_fields",
+      "legacy_value": null,
+      "status": "blocked_until_v2_claim_verification",
+      "reason": "No safe dashboard projection should be emitted from a bootstrap seed."
+    }
+  ]
+}

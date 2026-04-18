@@ -1,0 +1,114 @@
+{
+  "schema_version": "claim_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A8",
+  "product_title": "B2B Language Proficiency Audit",
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "other",
+      "claim_text": "CEFR-aligned language assessment and reporting is a valid structure for workplace language testing.",
+      "legacy_status": "partially_verified",
+      "supporting_source_ids": [
+        "cefr_council_of_europe",
+        "pearson_versant",
+        "pipplet_standard",
+        "allingua_home",
+        "allingua_approach"
+      ],
+      "contradiction_flag": false,
+      "notes": "CEFR-based corporate assessment products exist, and Allingua, Pearson and Pipplet explicitly position their tests around workplace assessment and CEFR reporting. The exact combined audit product is still an internal product design.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "numeric_claim",
+      "claim_text": "78% of employers use language tests.",
+      "legacy_status": "unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "No primary source reviewed here confirmed this exact figure.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "Pearson, Cambridge and Pipplet are generic, English-focused competitors.",
+      "legacy_status": "contradicted",
+      "supporting_source_ids": [
+        "pearson_versant",
+        "cambridge_linguaskill",
+        "pipplet_about",
+        "pipplet_standard",
+        "allingua_home",
+        "allingua_approach"
+      ],
+      "contradiction_flag": true,
+      "notes": "Pearson and Pipplet both offer broader multilingual assessment routes and CEFR-aligned reporting; Allingua also offers adaptive testing in 29 languages with HR reporting. The market is not English-only.",
+      "next_action": "falsify fully and rewrite or drop"
+    },
+    {
+      "claim_id": "ext_004",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "Nobody does a Luxembourg-specific trilingual language audit.",
+      "legacy_status": "contradicted",
+      "supporting_source_ids": [
+        "allingua_home",
+        "allingua_approach",
+        "pipplet_about",
+        "pearson_versant"
+      ],
+      "contradiction_flag": true,
+      "notes": "The absolute uniqueness claim is too strong because multilingual assessment and reporting products already exist in Luxembourg, even if no identical trilingual Luxembourg-specific package was found.",
+      "next_action": "falsify fully and rewrite or drop"
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "scope_fit",
+      "claim_text": "A mini-audit can work as a free lead magnet.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is a go-to-market hypothesis, not an externally verified fact.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "The product will cover 20-100 employees per audit.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is a design choice from the card and was not externally verified.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "Margin will be 70-75%.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "Margin is an internal commercial estimate, not a public fact.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_004",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "A pilot with three companies is enough to validate the framework.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is an execution plan, not an externally checkable statement.",
+      "next_action": "treat as open question, not as fact"
+    }
+  ]
+}

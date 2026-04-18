@@ -1,0 +1,244 @@
+{
+  "schema_version": "field_decisions_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B1",
+  "product_title": "German for Nurses (B1->B2 Pflege Sprint)",
+  "analysis_timestamp": "2026-04-18T14:01:02Z",
+  "field_decisions": [
+    {
+      "field_id": "jurisdiction_scope",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Germany"
+      ],
+      "claim_refs": [
+        "claim_003",
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_007",
+        "claim_008"
+      ],
+      "source_refs": [
+        "makeit_nursing_route",
+        "ba_nursing_shortage_2024",
+        "ba_nurses_2025",
+        "bamf_deutsch_beruf"
+      ],
+      "last_verified_at": "2026-04-18T14:01:02Z",
+      "reason": "All surviving evidence is Germany-specific."
+    },
+    {
+      "field_id": "nursing_language_requirement_context",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "Germany generally requires B2 German for nursing work, while nursing trainees from abroad may need B1 or B2 depending on the federal state.",
+      "claim_refs": [
+        "claim_003"
+      ],
+      "source_refs": [
+        "makeit_nursing_route"
+      ],
+      "last_verified_at": "2026-04-18T14:01:02Z",
+      "reason": "This is the narrowest defensible route-threshold summary for the product context."
+    },
+    {
+      "field_id": "verified_exam_routes",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "telc Deutsch B1-B2 Pflege",
+        "Goethe-Test PRO Pflege"
+      ],
+      "claim_refs": [
+        "claim_001",
+        "claim_002"
+      ],
+      "source_refs": [
+        "telc_pflege",
+        "goethe_pflege",
+        "goethe_pflege_results"
+      ],
+      "last_verified_at": "2026-04-18T14:01:02Z",
+      "reason": "Both routes are directly evidenced by the exam bodies."
+    },
+    {
+      "field_id": "market_need_stat",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "The Federal Employment Agency reported 35,000 average nursing vacancies in 2023, 270,000 foreign-national qualified nurses (16%) in 2023, and an 18% foreign-worker share in nursing professions in 2025.",
+      "claim_refs": [
+        "claim_004",
+        "claim_005",
+        "claim_006"
+      ],
+      "source_refs": [
+        "ba_nursing_shortage_2024",
+        "ba_nurses_2025"
+      ],
+      "last_verified_at": "2026-04-18T14:01:02Z",
+      "reason": "These are the cleanest dated official market and workforce figures found in the rerun."
+    },
+    {
+      "field_id": "public_language_support_route",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "BAMF occupational German support includes certificate courses and specialist-language-exam preparation for recognition, including healthcare use cases.",
+      "claim_refs": [
+        "claim_007"
+      ],
+      "source_refs": [
+        "bamf_deutsch_beruf"
+      ],
+      "last_verified_at": "2026-04-18T14:01:02Z",
+      "reason": "This is a real public ecosystem route, but not proof of product-specific eligibility."
+    },
+    {
+      "field_id": "public_nursing_recruitment_route",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "Official German nursing recruitment routes include Triple Win for India (Kerala and Telangana), Indonesia, the Philippines and Tunisia, with German-language and specialist nursing-course support.",
+      "claim_refs": [
+        "claim_008"
+      ],
+      "source_refs": [
+        "makeit_nursing_route"
+      ],
+      "last_verified_at": "2026-04-18T14:01:02Z",
+      "reason": "This is directly stated on the official nursing route page and is relevant context for origin-country targeting."
+    },
+    {
+      "field_id": "hard_blockers",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "No public source shows that an 8-12 week sprint is enough for most nurses to reach the required proof route.",
+        "The 300K+ / 17.8% foreign-nurse claim is contradicted by current BA figures.",
+        "Product-specific eligibility under BAMF or BA-linked routes is unverified.",
+        "The India-Morocco-Brazil recruiting-route claim is contradicted by current official programme pages.",
+        "No defensible market-gap or family-income conversion proof survived the rerun."
+      ],
+      "claim_refs": [
+        "int_001",
+        "int_002",
+        "claim_007",
+        "claim_008",
+        "ext_006",
+        "int_003",
+        "int_004"
+      ],
+      "source_refs": [
+        "ba_nursing_shortage_2024",
+        "ba_nurses_2025",
+        "bamf_deutsch_beruf",
+        "makeit_nursing_route",
+        "makeit_projects"
+      ],
+      "last_verified_at": "2026-04-18T14:01:02Z",
+      "reason": "These are the main fail-closed reasons the product stays in review."
+    },
+    {
+      "field_id": "target_audience_summary",
+      "status": "analyst_only",
+      "confidence_band": "medium",
+      "value": "International nurses and employer or recruitment partners preparing candidates for German nursing entry, training, or recognition routes.",
+      "claim_refs": [
+        "claim_003",
+        "claim_007",
+        "claim_008"
+      ],
+      "source_refs": [
+        "makeit_nursing_route",
+        "bamf_deutsch_beruf"
+      ],
+      "last_verified_at": "2026-04-18T14:01:02Z",
+      "omission_reason": "Useful positioning context, but still a synthesis rather than a product-safe fact."
+    },
+    {
+      "field_id": "sprint_sufficiency",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "int_001",
+        "oq_002"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T14:01:02Z",
+      "omission_reason": "No public evidence proves that an 8-12 week sprint is enough for most learners to hit the required route threshold."
+    },
+    {
+      "field_id": "product_specific_programme_eligibility",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "claim_007",
+        "claim_008",
+        "oq_003"
+      ],
+      "source_refs": [
+        "bamf_deutsch_beruf",
+        "makeit_nursing_route"
+      ],
+      "last_verified_at": "2026-04-18T14:01:02Z",
+      "omission_reason": "Public BAMF and recruitment routes exist, but the rerun found no proof that B1 itself is part of or eligible under those programmes."
+    },
+    {
+      "field_id": "route_country_scope_marketing_claim",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "ext_006",
+        "oq_004"
+      ],
+      "source_refs": [
+        "makeit_nursing_route",
+        "makeit_projects"
+      ],
+      "last_verified_at": "2026-04-18T14:01:02Z",
+      "omission_reason": "The India-Morocco-Brazil framing is contradicted and cannot be used as safe country-scope copy."
+    },
+    {
+      "field_id": "inflated_foreign_nurse_count",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "int_002"
+      ],
+      "source_refs": [
+        "ba_nursing_shortage_2024",
+        "ba_nurses_2025"
+      ],
+      "last_verified_at": "2026-04-18T14:01:02Z",
+      "omission_reason": "The 300K+ / 17.8% figure did not survive current official verification."
+    },
+    {
+      "field_id": "market_gap_claim",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "int_003"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T14:01:02Z",
+      "omission_reason": "No exhaustive market scan was completed, so the absence-of-competition story remains unproven."
+    },
+    {
+      "field_id": "family_income_conversion_claim",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "int_004"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T14:01:02Z",
+      "omission_reason": "No external evidence was found for the family-income conversion framing."
+    }
+  ]
+}

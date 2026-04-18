@@ -1,0 +1,684 @@
+{
+  "schema_version": "research_card_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B6",
+  "product_title": "Embedded Onboarding for Staffing Agencies",
+  "analysis_timestamp": "2026-04-18T13:06:04Z",
+  "jurisdictions": [
+    "Belgium",
+    "Luxembourg",
+    "Netherlands",
+    "EU"
+  ],
+  "sources": [
+    {
+      "source_id": "eu_blue_card_belgium",
+      "title": "EU Blue card in Belgium",
+      "publisher": "European Commission - Migration and Home Affairs",
+      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-belgium_en",
+      "source_type": "official",
+      "authority_tier": "T1",
+      "jurisdiction": "Belgium",
+      "published_at": "2025-04-01",
+      "accessed_at": "2026-04-18T13:06:04Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "eu_blue_card_luxembourg",
+      "title": "EU Blue card in Luxembourg",
+      "publisher": "European Commission - Migration and Home Affairs",
+      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-luxembourg_en",
+      "source_type": "official",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": "2025-04-01",
+      "accessed_at": "2026-04-18T13:06:04Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "eu_blue_card_netherlands",
+      "title": "EU Blue card in the Netherlands",
+      "publisher": "European Commission - Migration and Home Affairs",
+      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-netherlands_en",
+      "source_type": "official",
+      "authority_tier": "T1",
+      "jurisdiction": "Netherlands",
+      "published_at": "2025-04-01",
+      "accessed_at": "2026-04-18T13:06:04Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "eu_blue_card_rules",
+      "title": "New EU Blue Card rules for highly qualified immigrants wishing to work in Europe",
+      "publisher": "European Parliament",
+      "url": "https://www.europarl.europa.eu/news/en/press-room/20210910IPR11915/carte-bleue-regles-pour-les-immigrants-qualifies-souhaitant-travailler-en-europe",
+      "source_type": "official",
+      "authority_tier": "T1",
+      "jurisdiction": "EU",
+      "published_at": "2021-09-15",
+      "accessed_at": "2026-04-18T13:06:04Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "blcc_general",
+      "title": "Flexible language training for professionals",
+      "publisher": "BLCC",
+      "url": "https://blcc.be/en/",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Belgium",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:06:04Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "blcc_recruitment",
+      "title": "Language courses for recruitment",
+      "publisher": "BLCC",
+      "url": "https://blcc.be/en/for-my-team/language-courses-for-recruitment",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Belgium",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:06:04Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "blcc_armonea",
+      "title": "Strategic language training in recruitment: Armonea",
+      "publisher": "BLCC",
+      "url": "https://blcc.be/en/case-study/strategic-language-training-in-recruitment-armonea",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Belgium",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:06:04Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "inlingua_luxembourg",
+      "title": "Language training for companies | inlingua Luxembourg",
+      "publisher": "inlingua Luxembourg",
+      "url": "https://www.inlingua.lu/en/entreprises",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:06:04Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "semantics_belgium",
+      "title": "Semantics Belgium | Corporate language courses",
+      "publisher": "Semantics Belgium",
+      "url": "https://www.semanticsbelgium.com/en",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Belgium",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:06:04Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "allingua_luxembourg",
+      "title": "What is our approach? - Allingua",
+      "publisher": "Allingua",
+      "url": "https://www.allingua.lu/en/approach/",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:06:04Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "charite_recruitment",
+      "title": "International recruitment of nurses",
+      "publisher": "Charité - Universitätsmedizin Berlin",
+      "url": "https://www.charite.de/en/international/archiv/for_physicians_and_nursing_staff/working_at_charite/international_recruitment_of_nurses",
+      "source_type": "public_institution",
+      "authority_tier": "T2",
+      "jurisdiction": "Germany",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:06:04Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "hse_relocation_faq",
+      "title": "International Recruitment - Relocation Package FAQ",
+      "publisher": "HSE",
+      "url": "https://www.hse.ie/eng/staff/resources/hr-circulars/hr-circular-001-2023-international-recruitment-relocation-package.pdf",
+      "source_type": "government_pdf",
+      "authority_tier": "T1",
+      "jurisdiction": "Ireland",
+      "published_at": "2023-01-01",
+      "accessed_at": "2026-04-18T13:06:04Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "bicortex_assignees",
+      "title": "Language Training for Assignees - BiCortex Languages",
+      "publisher": "BiCortex Languages",
+      "url": "https://bicortexlanguages.com/relocation/language-training-for-assignees/",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Global",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:06:04Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "marketresearch_rpo",
+      "title": "Recruitment Process Outsourcing (RPO)",
+      "publisher": "MarketResearch.com / Global Industry Analysts",
+      "url": "https://www.marketresearch.com/Global-Industry-Analysts-v1039/Recruitment-Process-Outsourcing-RPO-42600173/",
+      "source_type": "secondary_market_report",
+      "authority_tier": "T4",
+      "jurisdiction": "Global",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:06:04Z",
+      "language": "en",
+      "archive_url": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_001",
+      "origin": "v2_rederived_claim",
+      "category": "compliance",
+      "claim_text": "Belgium's EU Blue Card route allows a valid work contract or binding job offer for highly qualified employment with a duration of at least 6 months.",
+      "jurisdiction": "Belgium",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "eu_blue_card_belgium",
+        "eu_blue_card_rules"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_001",
+        "q_020"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is the safest public route fact for Belgium."
+    },
+    {
+      "claim_id": "claim_002",
+      "origin": "v2_rederived_claim",
+      "category": "compliance",
+      "claim_text": "Luxembourg's EU Blue Card route requires an employment contract of at least 6 months for highly qualified work.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "eu_blue_card_luxembourg",
+        "eu_blue_card_rules"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_002",
+        "q_020"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Luxembourg is the strongest official anchor for the Benelux wedge."
+    },
+    {
+      "claim_id": "claim_003",
+      "origin": "v2_rederived_claim",
+      "category": "numeric_claim",
+      "claim_text": "Luxembourg's EU Blue Card minimum salary threshold is 58,968 EUR.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "eu_blue_card_luxembourg"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_003"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Direct official numeric data point."
+    },
+    {
+      "claim_id": "claim_004",
+      "origin": "v2_rederived_claim",
+      "category": "compliance",
+      "claim_text": "The Netherlands' EU Blue Card route requires an employment contract for a highly qualified job for at least 12 months.",
+      "jurisdiction": "Netherlands",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "eu_blue_card_netherlands"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_005"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is the main country-level difference that matters for Benelux packaging."
+    },
+    {
+      "claim_id": "claim_005",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "Belgium and Luxembourg already have public corporate language-training offerings that can be delivered on-site, remotely, online, or blended.",
+      "jurisdiction": "Belgium and Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "blcc_general",
+        "inlingua_luxembourg",
+        "semantics_belgium",
+        "allingua_luxembourg"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_006",
+        "q_007",
+        "q_008",
+        "q_009"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "The market already contains multiple corporate language-training alternatives."
+    },
+    {
+      "claim_id": "claim_006",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "Recruitment-focussed language training exists in Belgium and is explicitly framed as helping companies recruit and train new employees.",
+      "jurisdiction": "Belgium",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "blcc_recruitment"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_010",
+        "q_011",
+        "q_012"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is the closest public analogue to the B6 concept."
+    },
+    {
+      "claim_id": "claim_007",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "Public onboarding and relocation-adjacent offerings already combine language training with intercultural support.",
+      "jurisdiction": "Germany, Belgium, Global",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "blcc_armonea",
+        "charite_recruitment",
+        "bicortex_assignees"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_013",
+        "q_014",
+        "q_015"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This supports the existence of the embedded onboarding pattern, even if the exact commercial packaging differs."
+    },
+    {
+      "claim_id": "claim_008",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "The HSE relocation package supports international candidates with flight and accommodation costs and certain upfront registration or language-testing costs.",
+      "jurisdiction": "Ireland",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "hse_relocation_faq"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_016",
+        "q_017",
+        "q_018"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is an adjacent public relocation route, not a Benelux-specific fact."
+    },
+    {
+      "claim_id": "claim_009",
+      "origin": "legacy_external_claim",
+      "category": "numeric_claim",
+      "claim_text": "RPO market growing 15.4% CAGR.",
+      "jurisdiction": "Global",
+      "status": "unverified",
+      "confidence_band": "low",
+      "supporting_source_ids": [
+        "marketresearch_rpo"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_019"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "A public secondary market estimate exists, but strict v2 requires a primary or official statistical source before this can be promoted."
+    },
+    {
+      "claim_id": "claim_010",
+      "origin": "legacy_external_claim",
+      "category": "numeric_claim",
+      "claim_text": "Agencies can charge €1,500 more per placement with language included.",
+      "jurisdiction": "Global",
+      "status": "unverified",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "No public source reviewed confirmed this uplift."
+    },
+    {
+      "claim_id": "claim_011",
+      "origin": "legacy_external_claim",
+      "category": "other",
+      "claim_text": "A turnkey package can be bundled into the agency placement fee.",
+      "jurisdiction": "Global",
+      "status": "unverified",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "This is a business-model hypothesis and remains unproved."
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "Y1 revenue can reach €50–80K.",
+      "jurisdiction": "Internal",
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Internal projection only."
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "Identify 2–3 staffing agencies in Luxembourg and Belgium and convert them into pilots.",
+      "jurisdiction": "Internal",
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Execution plan, not a public fact."
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "The product can be delivered as a new independent certified route without partner/accreditation work.",
+      "jurisdiction": "Internal",
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Public evidence does not support a free-standing certified route."
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "req_001",
+      "requirement": "Belgium and Luxembourg both require a work contract or binding offer of at least 6 months for the EU Blue Card route.",
+      "applies_to": "Cross-border hires into Belgium and Luxembourg",
+      "jurisdiction": "Belgium, Luxembourg",
+      "status": "confirmed",
+      "source_ids": [
+        "eu_blue_card_belgium",
+        "eu_blue_card_luxembourg",
+        "eu_blue_card_rules"
+      ],
+      "quote_ids": [
+        "q_001",
+        "q_002",
+        "q_020"
+      ]
+    },
+    {
+      "requirement_id": "req_002",
+      "requirement": "Luxembourg's EU Blue Card threshold is 58,968 EUR.",
+      "applies_to": "Luxembourg hires",
+      "jurisdiction": "Luxembourg",
+      "status": "confirmed",
+      "source_ids": [
+        "eu_blue_card_luxembourg"
+      ],
+      "quote_ids": [
+        "q_003"
+      ]
+    },
+    {
+      "requirement_id": "req_003",
+      "requirement": "The Netherlands requires a 12-month highly qualified job contract for the EU Blue Card route.",
+      "applies_to": "Netherlands hires",
+      "jurisdiction": "Netherlands",
+      "status": "confirmed",
+      "source_ids": [
+        "eu_blue_card_netherlands"
+      ],
+      "quote_ids": [
+        "q_005"
+      ]
+    },
+    {
+      "requirement_id": "req_004",
+      "requirement": "Corporate language training can be delivered on-site, remotely, online, or blended and can be tailored to employee needs.",
+      "applies_to": "Corporate onboarding support",
+      "jurisdiction": "Belgium, Luxembourg",
+      "status": "confirmed",
+      "source_ids": [
+        "blcc_general",
+        "inlingua_luxembourg",
+        "semantics_belgium",
+        "allingua_luxembourg"
+      ],
+      "quote_ids": [
+        "q_006",
+        "q_007",
+        "q_008",
+        "q_009"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "entity_001",
+      "name": "European Commission",
+      "kind": "regulator",
+      "jurisdiction": "EU",
+      "source_ids": [
+        "eu_blue_card_belgium",
+        "eu_blue_card_luxembourg",
+        "eu_blue_card_netherlands"
+      ]
+    },
+    {
+      "entity_id": "entity_002",
+      "name": "European Parliament",
+      "kind": "legislature",
+      "jurisdiction": "EU",
+      "source_ids": [
+        "eu_blue_card_rules"
+      ]
+    },
+    {
+      "entity_id": "entity_003",
+      "name": "BLCC",
+      "kind": "provider",
+      "jurisdiction": "Belgium",
+      "source_ids": [
+        "blcc_general",
+        "blcc_recruitment",
+        "blcc_armonea"
+      ]
+    },
+    {
+      "entity_id": "entity_004",
+      "name": "inlingua Luxembourg",
+      "kind": "provider",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "inlingua_luxembourg"
+      ]
+    },
+    {
+      "entity_id": "entity_005",
+      "name": "Semantics Belgium",
+      "kind": "provider",
+      "jurisdiction": "Belgium",
+      "source_ids": [
+        "semantics_belgium"
+      ]
+    },
+    {
+      "entity_id": "entity_006",
+      "name": "Allingua",
+      "kind": "provider",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "allingua_luxembourg"
+      ]
+    },
+    {
+      "entity_id": "entity_007",
+      "name": "Charité",
+      "kind": "public_institution",
+      "jurisdiction": "Germany",
+      "source_ids": [
+        "charite_recruitment"
+      ]
+    },
+    {
+      "entity_id": "entity_008",
+      "name": "HSE",
+      "kind": "government",
+      "jurisdiction": "Ireland",
+      "source_ids": [
+        "hse_relocation_faq"
+      ]
+    },
+    {
+      "entity_id": "entity_009",
+      "name": "BiCortex Languages",
+      "kind": "provider",
+      "jurisdiction": "Global",
+      "source_ids": [
+        "bicortex_assignees"
+      ]
+    }
+  ],
+  "competitors": [
+    {
+      "competitor_id": "comp_001",
+      "name": "BLCC",
+      "kind": "direct",
+      "source_ids": [
+        "blcc_general",
+        "blcc_recruitment",
+        "blcc_armonea"
+      ],
+      "notes": "Belgian corporate language-training provider with recruitment-focussed messaging."
+    },
+    {
+      "competitor_id": "comp_002",
+      "name": "inlingua Luxembourg",
+      "kind": "direct",
+      "source_ids": [
+        "inlingua_luxembourg"
+      ],
+      "notes": "Luxembourg corporate language-training provider with on-site and remote delivery."
+    },
+    {
+      "competitor_id": "comp_003",
+      "name": "Semantics Belgium",
+      "kind": "direct",
+      "source_ids": [
+        "semantics_belgium"
+      ],
+      "notes": "Belgian corporate language-training provider with blended and industry-specific offerings."
+    },
+    {
+      "competitor_id": "comp_004",
+      "name": "Allingua",
+      "kind": "direct",
+      "source_ids": [
+        "allingua_luxembourg"
+      ],
+      "notes": "Luxembourg provider with tailor-made on-site, online, and blended corporate training."
+    },
+    {
+      "competitor_id": "comp_005",
+      "name": "BiCortex Languages",
+      "kind": "direct",
+      "source_ids": [
+        "bicortex_assignees"
+      ],
+      "notes": "Relocation-focused language training with cross-cultural add-ons."
+    }
+  ],
+  "open_questions": [
+    {
+      "question_id": "oq_001",
+      "question": "Can B6 be sold as a staffing-agency add-on or does it need a partner route?",
+      "reason": "The public evidence shows the market pattern, but not the product's own monetization or accreditation route.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_002",
+      "question": "Is the €1,500 uplift real?",
+      "reason": "No public source confirmed the placement-fee uplift.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_003",
+      "question": "Is the RPO 15.4% CAGR figure primary-source-safe?",
+      "reason": "Only a secondary market-research snippet was found.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_004",
+      "question": "Should Netherlands stay in launch scope or be treated as expansion scope?",
+      "reason": "The Netherlands route exists, but the contract requirement differs from Belgium and Luxembourg.",
+      "blocking": true
+    }
+  ],
+  "verification_summary": {
+    "verified_claim_count": 8,
+    "partially_verified_claim_count": 0,
+    "unverified_claim_count": 3,
+    "contradicted_claim_count": 0,
+    "blocked_question_count": 4,
+    "official_source_count": 5,
+    "total_source_count": 14
+  }
+}

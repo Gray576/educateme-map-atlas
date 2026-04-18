@@ -1,0 +1,240 @@
+{
+  "schema_version": "research_v2_quote_fetch_report_v1",
+  "product_code": "A8",
+  "generated_at": "2026-04-18T12:58:12.667Z",
+  "source_count": 9,
+  "candidate_count": 38,
+  "source_reports": [
+    {
+      "source_id": "cefr_council_of_europe",
+      "title": "Contributing institutions - Common European Framework of Reference for Languages (CEFR)",
+      "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/institutions",
+      "status": "fetch_failed",
+      "http_status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "error": "HTTP 403",
+      "matched_claim_ids": [
+        "ext_001"
+      ],
+      "terms": [
+        "cefr",
+        "assessment",
+        "language",
+        "reporting",
+        "workplace",
+        "aligned",
+        "allingua",
+        "around",
+        "audit",
+        "based",
+        "combined",
+        "common"
+      ],
+      "candidate_count": 0
+    },
+    {
+      "source_id": "pearson_versant",
+      "title": "Versant by Pearson - Corporate English language learning",
+      "url": "https://www.pearson.com/languages/en-us/hr-professionals/versant.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001",
+        "ext_003",
+        "ext_004"
+      ],
+      "terms": [
+        "assessment",
+        "reporting",
+        "cefr",
+        "language",
+        "pearson",
+        "english",
+        "pipplet",
+        "aligned",
+        "allingua",
+        "audit",
+        "corporate",
+        "exist"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "pearson_versant_tests",
+      "title": "Versant, our tests",
+      "url": "https://www.pearson.com/languages/en-us/hr-professionals/versant/our-tests.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "tests",
+        "versant"
+      ],
+      "candidate_count": 4
+    },
+    {
+      "source_id": "cambridge_linguaskill",
+      "title": "Linguaskill is being enhanced",
+      "url": "https://www.cambridgeenglish.org/exams-and-tests/linguaskill/linguaskill-what-is-changing/",
+      "status": "fetch_failed",
+      "http_status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "error": "HTTP 404",
+      "matched_claim_ids": [
+        "ext_003"
+      ],
+      "terms": [
+        "english",
+        "pearson",
+        "pipplet",
+        "reporting",
+        "adaptive",
+        "aligned",
+        "allingua",
+        "assessment",
+        "broader",
+        "cambridge",
+        "cefr",
+        "competitors"
+      ],
+      "candidate_count": 0
+    },
+    {
+      "source_id": "pipplet_about",
+      "title": "About us - Team",
+      "url": "https://www.pipplet.com/about-us",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003",
+        "ext_004"
+      ],
+      "terms": [
+        "reporting",
+        "assessment",
+        "english",
+        "multilingual",
+        "pearson",
+        "pipplet",
+        "specific",
+        "trilingual",
+        "absolute",
+        "adaptive",
+        "aligned",
+        "allingua"
+      ],
+      "candidate_count": 3
+    },
+    {
+      "source_id": "pipplet_standard",
+      "title": "Online Language Assessment - Pipplet Standard",
+      "url": "https://www.pipplet.com/product/standard",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001",
+        "ext_003"
+      ],
+      "terms": [
+        "assessment",
+        "cefr",
+        "pipplet",
+        "reporting",
+        "language",
+        "pearson",
+        "aligned",
+        "allingua",
+        "english",
+        "testing",
+        "workplace",
+        "adaptive"
+      ],
+      "candidate_count": 6
+    },
+    {
+      "source_id": "pipplet_languages",
+      "title": "Over 40 Languages Assessed with Online Platform - Pipplet",
+      "url": "https://www.pipplet.com/features/languages",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "assessed",
+        "languages",
+        "online",
+        "over",
+        "pipplet",
+        "platform"
+      ],
+      "candidate_count": 1
+    },
+    {
+      "source_id": "allingua_home",
+      "title": "Professional language training",
+      "url": "https://www.allingua.lu/en/home/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001",
+        "ext_003",
+        "ext_004"
+      ],
+      "terms": [
+        "assessment",
+        "reporting",
+        "cefr",
+        "language",
+        "pearson",
+        "pipplet",
+        "aligned",
+        "allingua",
+        "audit",
+        "english",
+        "exist",
+        "multilingual"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "allingua_approach",
+      "title": "What is our approach?",
+      "url": "https://www.allingua.lu/en/approach/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001",
+        "ext_003",
+        "ext_004"
+      ],
+      "terms": [
+        "assessment",
+        "reporting",
+        "cefr",
+        "language",
+        "pearson",
+        "pipplet",
+        "aligned",
+        "allingua",
+        "audit",
+        "english",
+        "exist",
+        "multilingual"
+      ],
+      "candidate_count": 8
+    }
+  ]
+}

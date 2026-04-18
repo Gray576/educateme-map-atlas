@@ -1,0 +1,227 @@
+{
+  "schema_version": "claim_ledger_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B2",
+  "product_title": "Medical French for Nurses",
+  "analysis_timestamp": "2026-04-18T22:03:53+04:00",
+  "jurisdictions": [
+    "France",
+    "Belgium",
+    "Switzerland"
+  ],
+  "claims": [
+    {
+      "claim_id": "c_001",
+      "origin": "v2_rederived_claim",
+      "category": "regulatory_context",
+      "claim_text": "Regulated-profession rules differ across EU destination countries, and the destination country may require both recognition steps and language or professional-body checks before practice.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "eu_regulated_professions"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_001",
+        "q_002"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is a route-friction claim, not product demand proof."
+    },
+    {
+      "claim_id": "c_002",
+      "origin": "v2_rederived_claim",
+      "category": "regulatory_context",
+      "claim_text": "France's public guidance for regulated paramedical professions says the corresponding diploma/title is required and that European-holders may need authorisation to practise or an occasional-practice declaration.",
+      "jurisdiction": "France",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "france_paramedical"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_003",
+        "q_004"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Safe only as France route context. The reviewed source is not a nurse-specific market proof."
+    },
+    {
+      "claim_id": "c_003",
+      "origin": "v2_rederived_claim",
+      "category": "regulatory_context",
+      "claim_text": "France's diploma-recognition guidance says foreign-diploma recognition criteria differ depending on whether the profession is regulated, and regulated-profession procedures vary by profession and diploma origin.",
+      "jurisdiction": "France",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "france_diploma_recognition"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_006",
+        "q_007"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Supports the fail-closed view that France cannot be treated as a generic one-size-fits-all route."
+    },
+    {
+      "claim_id": "c_004",
+      "origin": "v2_rederived_claim",
+      "category": "language_requirement",
+      "claim_text": "Belgium requires foreign-trained healthcare professionals to show sufficient Dutch, French, or German in order to obtain a visa.",
+      "jurisdiction": "Belgium",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "belgium_visa_lang"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_008"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Direct official requirement."
+    },
+    {
+      "claim_id": "c_005",
+      "origin": "v2_rederived_claim",
+      "category": "language_requirement",
+      "claim_text": "Belgium's official table sets B2 for bachelor's-level nurses responsible for general care, and the authority says course-attendance certificates are not sufficient language proof.",
+      "jurisdiction": "Belgium",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "belgium_visa_lang"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_009",
+        "q_010"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is the strongest nurse-specific public requirement found in the rerun."
+    },
+    {
+      "claim_id": "c_006",
+      "origin": "v2_rederived_claim",
+      "category": "language_requirement",
+      "claim_text": "Switzerland requires recognition applications for foreign medical and psychology qualifications to be submitted in German, French, or Italian.",
+      "jurisdiction": "Switzerland",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "swiss_foph"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_011"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Safe as filing-language context only."
+    },
+    {
+      "claim_id": "c_007",
+      "origin": "v2_rederived_claim",
+      "category": "substitute_evidence",
+      "claim_text": "Publicly visible language providers already offer distance or online general/professional language courses, so a hard 'no substitutes exist' story is unsafe without a much broader market census.",
+      "jurisdiction": "Luxembourg / online",
+      "status": "verified",
+      "confidence_band": "medium",
+      "supporting_source_ids": [
+        "prolingua_tailor_made",
+        "inlingua_adults"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_012",
+        "q_013"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This does not prove a dedicated medical-French competitor; it only weakens the absence-of-alternatives narrative."
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "scope_fit",
+      "claim_text": "The same model can be applied to France, Belgium and Switzerland without material redesign.",
+      "jurisdiction": "France / Belgium / Switzerland",
+      "status": "contradicted",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [
+        "eu_regulated_professions",
+        "france_paramedical",
+        "france_diploma_recognition",
+        "belgium_visa_lang",
+        "swiss_foph"
+      ],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [
+        "q_001",
+        "q_002",
+        "q_004",
+        "q_005",
+        "q_007",
+        "q_011"
+      ],
+      "notes": "The rerun found materially different route mechanics across the three countries."
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "recognition",
+      "claim_text": "The product's certificate will be accepted for practice or recognition.",
+      "jurisdiction": "France / Belgium / Switzerland",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [
+        "eu_regulated_professions",
+        "belgium_visa_lang"
+      ],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [
+        "q_002",
+        "q_010"
+      ],
+      "notes": "Belgium explicitly says course attendance is insufficient, and no authority source in the rerun validates provider-issued certificate acceptance."
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "France needs 500K+ healthcare workers.",
+      "jurisdiction": "France",
+      "status": "unverified",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "No primary-source France workforce figure was re-verified in this rerun."
+    },
+    {
+      "claim_id": "ext_004",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "No dedicated online Medical French provider identified.",
+      "jurisdiction": "Market-wide",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [
+        "prolingua_tailor_made",
+        "inlingua_adults"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_012",
+        "q_013"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "The rerun found substitute evidence but did not complete an exhaustive market census, so the absence claim cannot survive."
+    }
+  ]
+}

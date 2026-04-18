@@ -1,0 +1,123 @@
+{
+  "schema_version": "contradiction_log_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B5",
+  "product_title": "Healthcare Recruitment Pipeline",
+  "generated_at": "2026-04-18T14:03:04Z",
+  "contradictions": [
+    {
+      "claim_id": "ext_005",
+      "claim_text": "No one does this for Luxembourg/Belgium.",
+      "status": "contradicted",
+      "severity": "high",
+      "contradiction_type": "empty_market_claim_false",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [
+        "lireco_about",
+        "charite_recruitment",
+        "hse_overseas_candidates"
+      ],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [
+        "q_008",
+        "q_009",
+        "q_010",
+        "q_011",
+        "q_012",
+        "q_013"
+      ],
+      "resolution": "blocked",
+      "notes": "European analogues already combine recruitment, language preparation, recognition sequencing, and relocation support."
+    }
+  ],
+  "open_issues": [
+    {
+      "claim_id": "ext_002",
+      "claim_text": "When an agency recruits nurses for the EU, they need a language training component in the pipeline.",
+      "status": "blocked",
+      "issue_type": "market_need_not_proved",
+      "resolution": "blocked",
+      "notes": "Official sources prove route requirements, not the necessity of this exact bundled solution."
+    },
+    {
+      "claim_id": "ext_003",
+      "claim_text": "Deliverable: language certificate.",
+      "status": "blocked",
+      "issue_type": "certificate_acceptance_not_proved",
+      "resolution": "blocked",
+      "notes": "Belgium explicitly rejects simple course-attendance proof, and the product does not name an accepted certification route."
+    },
+    {
+      "claim_id": "ext_004",
+      "claim_text": "EU/Erasmus+ potential.",
+      "status": "unverified",
+      "issue_type": "generic_funding_not_product_eligibility",
+      "resolution": "review",
+      "notes": "WHO/Europe mentions Erasmus+ as a broad complementary instrument, not as direct proof for this commercial pipeline."
+    },
+    {
+      "claim_id": "ext_006",
+      "claim_text": "Europe needs 950K health workers by 2030.",
+      "status": "blocked",
+      "issue_type": "numeric_wording_mismatch",
+      "resolution": "review",
+      "notes": "The safe wording is 'nearly 1 million health workers by 2030'."
+    },
+    {
+      "claim_id": "ext_007",
+      "claim_text": "Agencies spend £10–17K per nurse.",
+      "status": "blocked",
+      "issue_type": "cost_benchmark_not_transferable",
+      "resolution": "blocked",
+      "notes": "The located cost analogue is Irish, euro-denominated, and not a Benelux agency benchmark."
+    },
+    {
+      "claim_id": "ext_008",
+      "claim_text": "Language is the bottleneck.",
+      "status": "blocked",
+      "issue_type": "bottleneck_inference",
+      "resolution": "review",
+      "notes": "Language is clearly part of the route, but no source ranks it as the single binding bottleneck."
+    },
+    {
+      "claim_id": "int_001",
+      "claim_text": "This integrated pipeline format is needed by agencies recruiting nurses into the EU.",
+      "status": "unclear",
+      "issue_type": "product_necessity_unproven",
+      "resolution": "blocked",
+      "notes": "Needs primary buyer evidence, not desk research only."
+    },
+    {
+      "claim_id": "int_002",
+      "claim_text": "Credential recognition support from this product will materially improve recognition outcomes.",
+      "status": "unclear",
+      "issue_type": "outcome_lift_unproven",
+      "resolution": "blocked",
+      "notes": "No provider-specific outcome evidence exists in public sources."
+    },
+    {
+      "claim_id": "int_003",
+      "claim_text": "The product's language certificate would be sufficient or accepted for destination-country practice pathways.",
+      "status": "blocked",
+      "issue_type": "accepted_certificate_route_unknown",
+      "resolution": "blocked",
+      "notes": "Accepted proof is route-specific and the product does not yet name a regulator-recognised exam path."
+    },
+    {
+      "claim_id": "int_004",
+      "claim_text": "Placement support and ongoing coaching will materially improve hiring or retention outcomes.",
+      "status": "unclear",
+      "issue_type": "outcome_lift_unproven",
+      "resolution": "blocked",
+      "notes": "No public evidence proves this product-level effect."
+    }
+  ],
+  "summary": {
+    "checked_claim_count": 18,
+    "contradicted_count": 1,
+    "open_issue_count": 10,
+    "verified_claim_count": 7,
+    "unverified_claim_count": 1,
+    "unclear_claim_count": 4
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "schema_version": "research_v2_quote_fetch_report_v1",
+  "product_code": "B5",
+  "generated_at": "2026-04-18T12:58:27.561Z",
+  "source_count": 11,
+  "candidate_count": 63,
+  "source_reports": [
+    {
+      "source_id": "eu_regulated_professions",
+      "title": "Regulated professions",
+      "url": "https://europa.eu/youreurope/citizens/work/professional-qualifications/regulated-professions/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001"
+      ],
+      "terms": [
+        "country",
+        "destination",
+        "part",
+        "recognition",
+        "regulated",
+        "credential",
+        "foreign",
+        "licence",
+        "nurses",
+        "nursing",
+        "pathway",
+        "profession"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "directive_2005_36",
+      "title": "Directive 2005/36/EC on the recognition of professional qualifications",
+      "url": "https://eur-lex.europa.eu/eli/dir/2005/36/2025-07-10/eng",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001"
+      ],
+      "terms": [
+        "recognition",
+        "country",
+        "destination",
+        "part",
+        "2005",
+        "credential",
+        "directive",
+        "foreign",
+        "licence",
+        "nurses",
+        "nursing",
+        "pathway"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "lux_health_professions",
+      "title": "Regulated healthcare professions",
+      "url": "https://guichet.public.lu/en/entreprises/creation-developpement/profession/autres-professions-liberales/profession-sante-reglementees.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001",
+        "ext_002",
+        "ext_003",
+        "ext_008"
+      ],
+      "terms": [
+        "language",
+        "regulated",
+        "part",
+        "proof",
+        "recognition",
+        "accepted",
+        "belgium",
+        "certificate",
+        "clearly",
+        "component",
+        "country",
+        "destination"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "belgium_foreign_diploma_visa",
+      "title": "Visa for a foreign diploma",
+      "url": "https://www.health.belgium.be/fr/professionnels/professionnels-sante/sante-humaine/professions-sante/acces-aux-professions-soins-sante/demander-visa-diplome-etranger",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001",
+        "ext_002",
+        "ext_003",
+        "ext_008"
+      ],
+      "terms": [
+        "language",
+        "part",
+        "proof",
+        "recognition",
+        "regulated",
+        "accepted",
+        "belgium",
+        "certificate",
+        "clearly",
+        "component",
+        "country",
+        "destination"
+      ],
+      "candidate_count": 5
+    },
+    {
+      "source_id": "who_europe_nurse_shortage",
+      "title": "Unsafe nurse staffing in European Region can harm patients and drive nurses out of the profession",
+      "url": "https://www.who.int/europe/news/item/18-02-2026-unsafe-nurse-staffing-in-european-region-can-harm-patients-and-drive-nurses-out-of-the-profession",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_004",
+        "ext_006"
+      ],
+      "terms": [
+        "europe",
+        "2030",
+        "950k",
+        "erasmus",
+        "exact",
+        "health",
+        "region",
+        "workers",
+        "area",
+        "card",
+        "clearly",
+        "close"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "erasmus_plus_partnerships",
+      "title": "Partnerships for cooperation",
+      "url": "https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-organisations/cooperation-among-organisations-and-institutions/partnerships-for-cooperation",
+      "status": "fetch_failed",
+      "http_status": 503,
+      "content_type": "text/html; charset=UTF-8",
+      "error": "HTTP 503",
+      "matched_claim_ids": [
+        "ext_004"
+      ],
+      "terms": [
+        "cooperation",
+        "erasmus",
+        "area",
+        "clearly",
+        "commercial",
+        "confirm",
+        "direct",
+        "eligibility",
+        "europe",
+        "exact",
+        "explicitly",
+        "funds"
+      ],
+      "candidate_count": 0
+    },
+    {
+      "source_id": "lireco_about",
+      "title": "About Lireco",
+      "url": "https://lireco.se/en/about-lireco/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_005"
+      ],
+      "terms": [
+        "recruitment",
+        "international",
+        "lireco",
+        "relocation",
+        "belgium",
+        "charit",
+        "empty",
+        "integrated",
+        "language",
+        "market",
+        "markets",
+        "model"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "charite_recruitment",
+      "title": "International recruitment of nurses",
+      "url": "https://www.charite.de/en/international/archiv/for_physicians_and_nursing_staff/working_at_charite/international_recruitment_of_nurses",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_005"
+      ],
+      "terms": [
+        "recruitment",
+        "international",
+        "relocation",
+        "belgium",
+        "charit",
+        "empty",
+        "integrated",
+        "language",
+        "lireco",
+        "market",
+        "markets",
+        "model"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "hse_relocation_package",
+      "title": "HSE International / Returning Emigrants Recruitment Relocation Package",
+      "url": "https://about.hse.ie/publications/question-from-deputy-sorca-clarke-pq-1668-26/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_005"
+      ],
+      "terms": [
+        "recruitment",
+        "international",
+        "relocation",
+        "package",
+        "belgium",
+        "charit",
+        "emigrants",
+        "empty",
+        "integrated",
+        "language",
+        "lireco",
+        "market"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "hse_overseas_candidates",
+      "title": "Overseas Candidates",
+      "url": "https://www.hse.ie/eng/staff/jobs/overseas-candidates/",
+      "status": "fetched_no_matches",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_005"
+      ],
+      "terms": [
+        "recruitment",
+        "international",
+        "relocation",
+        "belgium",
+        "candidates",
+        "charit",
+        "empty",
+        "integrated",
+        "language",
+        "lireco",
+        "market",
+        "markets"
+      ],
+      "candidate_count": 0
+    },
+    {
+      "source_id": "hse_pq_61870",
+      "title": "PQ/61870/21 on international nurse recruitment costings",
+      "url": "https://www.hse.ie/eng/about/personalpq/pq/2021-pq-responses/december-2021/pq-61870-21-ivana-bacik.pdf",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_007"
+      ],
+      "terms": [
+        "international",
+        "nurse",
+        "official",
+        "recruitment",
+        "61870",
+        "agencies",
+        "agency",
+        "another",
+        "card",
+        "case",
+        "confirmed",
+        "cost"
+      ],
+      "candidate_count": 2
+    }
+  ]
+}

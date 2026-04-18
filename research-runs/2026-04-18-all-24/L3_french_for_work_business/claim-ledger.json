@@ -1,0 +1,247 @@
+{
+  "schema_version": "claim_ledger_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L3",
+  "product_title": "French for Work & Business",
+  "analysis_timestamp": "2026-04-18T16:25:00Z",
+  "jurisdictions": [
+    "Luxembourg"
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_001",
+      "origin": "v2_rederived_claim",
+      "category": "funding",
+      "claim_text": "Luxembourg has a public company-training co-financing route under which the state contributes to employer training plans and the base training aid can reach 15% of annual investment.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_fpc_2025"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_001",
+        "q_002"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Public training-support route exists, but this does not prove product-specific eligibility."
+    },
+    {
+      "claim_id": "claim_002",
+      "origin": "v2_rederived_claim",
+      "category": "funding",
+      "claim_text": "The state participation rises to 35% of salary costs for eligible participants, including certain employees without recognised diplomas and employees older than 45.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_fpc_2025"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_003"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is a public route fact, not a product-specific eligibility verdict."
+    },
+    {
+      "claim_id": "claim_003",
+      "origin": "v2_rederived_claim",
+      "category": "market_context",
+      "claim_text": "In 2024 Luxembourg had 489,000 employees, and 47% were cross-border workers.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "statec_regards_2025"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_004"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Safe official workforce context; the rounded 228k-230k derivative should not be treated as the primary fact."
+    },
+    {
+      "claim_id": "claim_004",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "Prolingua publicly offers specialist language training tied to multiple business sectors including banking, finance, insurance, hospital and care, industry, construction, business, and transport.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "prolingua_specialist_language"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_005"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Direct evidence against uniqueness."
+    },
+    {
+      "claim_id": "claim_005",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "Prolingua publicly offers tailor-made company courses delivered in-company, at Prolingua premises, or at a distance.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "prolingua_tailor_made"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_006"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Direct corporate-language-training substitute."
+    },
+    {
+      "claim_id": "claim_006",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "inlingua Luxembourg publicly sells language courses for enterprises and adults, including French.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "inlingua_company_courses"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_007"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Direct substitute."
+    },
+    {
+      "claim_id": "claim_007",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "Berlitz Luxembourg publicly markets corporate language solutions for companies.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "berlitz_business_lux"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_008"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Another direct business-language substitute."
+    },
+    {
+      "claim_id": "claim_008",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "INLL publicly offers general language courses in Luxembourg, making it a public substitute for non-specialised French learning needs.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "medium",
+      "supporting_source_ids": [
+        "inll_courses"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_009"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Public substitute for more generic language-learning demand."
+    },
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "funding",
+      "claim_text": "INFPC co-financing of 15-35% is relevant to this product.",
+      "jurisdiction": "Luxembourg",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [
+        "guichet_fpc_2025"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_001",
+        "q_002",
+        "q_003"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "The public co-financing route exists, but product-specific eligibility for this exact course is still not evidenced."
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "numeric_claim",
+      "claim_text": "47% of Luxembourg employees are cross-border workers, implying roughly 228k-230k people in 2024.",
+      "jurisdiction": "Luxembourg",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [
+        "statec_regards_2025"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_004"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "The safe official wording is 489,000 employees and 47% cross-border workers. The rounded worker count is a derivative, not the primary fact."
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "Nobody does sector-specialized French plus INFPC support.",
+      "jurisdiction": "Luxembourg",
+      "status": "contradicted",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [
+        "prolingua_specialist_language",
+        "prolingua_tailor_made",
+        "inlingua_company_courses",
+        "berlitz_business_lux"
+      ],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [
+        "q_005",
+        "q_006",
+        "q_007",
+        "q_008"
+      ],
+      "notes": "The market already contains specialist and company-tailored French alternatives."
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "scope_fit",
+      "claim_text": "Industry-specific variants for finance, IT, retail, healthcare and public sector are fully ready.",
+      "jurisdiction": "Internal",
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "The public evidence supports the general specialist-language concept, not readiness of all five variants."
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "CEFR progress reports and session recordings are sufficient proof of learning for buyers.",
+      "jurisdiction": "Internal",
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Plausible reporting outputs, but not externally verified as a proof standard."
+    }
+  ]
+}

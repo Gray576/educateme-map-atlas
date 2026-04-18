@@ -1,0 +1,188 @@
+{
+  "schema_version": "field_decisions_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A2",
+  "product_title": "AI Productivity Day",
+  "analysis_timestamp": "2026-04-18T13:39:48Z",
+  "field_decisions": [
+    {
+      "field_id": "jurisdiction_scope",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Luxembourg",
+        "EU"
+      ],
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_007"
+      ],
+      "source_refs": [
+        "eu_ai_literacy_qa",
+        "eu_ai_literacy_policy",
+        "guichet_cvt",
+        "lifelonglearning_training_aid",
+        "guichet_training_establishment",
+        "lifelonglearning_approved_provider",
+        "houseoftraining_gen_ai_fundamentals",
+        "houseoftraining_chatgpt_business"
+      ],
+      "last_verified_at": "2026-04-18T13:39:48Z",
+      "reason": "The product sits in Luxembourg while the strongest regulatory context comes from EU AI literacy guidance."
+    },
+    {
+      "field_id": "regulatory_context",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "EU AI Act Article 4 requires AI literacy for providers and deployers; Commission guidance says companies using ChatGPT should inform staff about risks such as hallucination and can tailor literacy training to sectors and job profiles.",
+      "claim_refs": [
+        "claim_001",
+        "claim_002"
+      ],
+      "source_refs": [
+        "eu_ai_literacy_qa",
+        "eu_ai_literacy_policy"
+      ],
+      "last_verified_at": "2026-04-18T13:39:48Z",
+      "reason": "This is direct official EU guidance and survives contradiction search."
+    },
+    {
+      "field_id": "training_support_route",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "Luxembourg company-training co-funding exists for private-sector training plans, with a 15% base rate and a 35% wage-cost rate for qualifying participants.",
+      "claim_refs": [
+        "claim_003",
+        "claim_004"
+      ],
+      "source_refs": [
+        "guichet_cvt",
+        "lifelonglearning_training_aid"
+      ],
+      "last_verified_at": "2026-04-18T13:39:48Z",
+      "reason": "Scheme-level support is directly documented by official Luxembourg sources."
+    },
+    {
+      "field_id": "verified_competitors",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "House of Training"
+      ],
+      "claim_refs": [
+        "claim_006",
+        "claim_007"
+      ],
+      "source_refs": [
+        "houseoftraining_gen_ai_fundamentals",
+        "houseoftraining_chatgpt_business"
+      ],
+      "last_verified_at": "2026-04-18T13:39:48Z",
+      "reason": "Direct public course pages confirm an existing Luxembourg practical-AI training competitor."
+    },
+    {
+      "field_id": "hard_blockers",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Empty-market positioning is contradicted by public Luxembourg competitor pages.",
+        "Product-specific Luxembourg co-funding eligibility is not proven.",
+        "The delivery route depends on whether A2 falls under Luxembourg training-provider approval/business-permit rules.",
+        "Promised workflow-count and 30-day ROI outcomes remain internal hypotheses."
+      ],
+      "claim_refs": [
+        "claim_005",
+        "claim_008",
+        "claim_009",
+        "claim_010",
+        "claim_011",
+        "claim_012"
+      ],
+      "source_refs": [
+        "guichet_cvt",
+        "lifelonglearning_training_aid",
+        "guichet_training_establishment",
+        "lifelonglearning_approved_provider",
+        "houseoftraining_gen_ai_fundamentals",
+        "houseoftraining_chatgpt_business"
+      ],
+      "last_verified_at": "2026-04-18T13:39:48Z",
+      "reason": "These are the remaining fail-closed constraints after the rerun."
+    },
+    {
+      "field_id": "product_approval_route",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "claim_005"
+      ],
+      "source_refs": [
+        "guichet_training_establishment",
+        "lifelonglearning_approved_provider"
+      ],
+      "last_verified_at": "2026-04-18T13:39:48Z",
+      "omission_reason": "Official approval rules exist, but the exact A2 operator status is not publicly verified."
+    },
+    {
+      "field_id": "product_specific_cofunding_eligibility",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "claim_009"
+      ],
+      "source_refs": [
+        "guichet_cvt",
+        "lifelonglearning_training_aid"
+      ],
+      "last_verified_at": "2026-04-18T13:39:48Z",
+      "omission_reason": "Official sources prove a general route, not that this exact workshop clears it."
+    },
+    {
+      "field_id": "differentiation_claim",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "claim_008",
+        "claim_012"
+      ],
+      "source_refs": [
+        "houseoftraining_gen_ai_fundamentals",
+        "houseoftraining_chatgpt_business"
+      ],
+      "last_verified_at": "2026-04-18T13:39:48Z",
+      "omission_reason": "The empty-market version is contradicted and the uniqueness version remains unproven."
+    },
+    {
+      "field_id": "promised_workflow_count",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "claim_010"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T13:39:48Z",
+      "omission_reason": "No public evidence proves a 5-10 workflow output promise."
+    },
+    {
+      "field_id": "promised_30_day_roi",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "claim_011"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T13:39:48Z",
+      "omission_reason": "No public evidence proves a 30-day ROI outcome."
+    }
+  ]
+}

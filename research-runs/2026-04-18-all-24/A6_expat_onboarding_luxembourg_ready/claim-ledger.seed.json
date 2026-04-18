@@ -1,0 +1,132 @@
+{
+  "schema_version": "claim_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A6",
+  "product_title": "Expat Onboarding 'Luxembourg Ready'",
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "subsidy",
+      "claim_text": "Luxembourg has a linguistic leave scheme of up to 200 hours for language courses.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "guichet_linguistic_leave"
+      ],
+      "contradiction_flag": false,
+      "notes": "Guichet states that linguistic leave exists and can be used for language learning under defined conditions.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "scope_fit",
+      "claim_text": "The citizen's pact for intercultural living together includes introductory modules for people living or working in Luxembourg.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "guichet_biergerpakt"
+      ],
+      "contradiction_flag": false,
+      "notes": "The Biergerpakt page says signatories can access information and training modules about intercultural living together and everyday life in Luxembourg.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "Luxembourg already has public and private substitutes for language and integration support.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "inll_institute",
+        "prolingua_courses",
+        "guichet_biergerpakt"
+      ],
+      "contradiction_flag": false,
+      "notes": "INLL offers public language learning and certification, Prolingua offers private language courses, and Guichet publishes civic integration modules.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_004",
+      "origin": "legacy_external_claim",
+      "category": "numeric_claim",
+      "claim_text": "Cross-border workers make up about 47% of Luxembourg's workforce.",
+      "legacy_status": "partially_verified",
+      "supporting_source_ids": [
+        "ec_labour_mobility_2025"
+      ],
+      "contradiction_flag": false,
+      "notes": "A 2025 EU labour mobility report says Luxembourg’s cross-border worker share is 45.1%, so the card’s 47% figure is directionally right but not exact.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_005",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "No one sells a single relocation language + integration package.",
+      "legacy_status": "contradicted",
+      "supporting_source_ids": [
+        "inll_institute",
+        "prolingua_courses",
+        "guichet_biergerpakt"
+      ],
+      "contradiction_flag": true,
+      "notes": "The public substitutes already combine language learning, civic integration and work/life-in-country support, so the absolute uniqueness claim is too strong.",
+      "next_action": "falsify fully and rewrite or drop"
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "12,000 immigrants per year.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "No public source reviewed here confirmed the exact figure.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "220K cross-border workers.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The public source reviewed gives a different share-based statistic rather than this exact count.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "40% turnover reduction and 8x ROI.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is internal commercial math, not an externally verified result.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_004",
+      "origin": "legacy_internal_claim",
+      "category": "scope_fit",
+      "claim_text": "The product's language certificate or Sproochtest readiness evaluation has external acceptance value.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The reviewed public sources do not confirm that this new product’s deliverables have official recognition.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_005",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "Companies assemble this piecemeal today.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is a market interpretation, not a public fact.",
+      "next_action": "treat as open question, not as fact"
+    }
+  ]
+}

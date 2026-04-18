@@ -1,0 +1,176 @@
+{
+  "schema_version": "dashboard_ingestion_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L1",
+  "product_title": "Sproochtest Preparation",
+  "reviewed_at": "2026-04-18T14:00:45Z",
+  "release_status": "review",
+  "safe_fields": {
+    "jurisdiction_scope": {
+      "value": [
+        "Luxembourg"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_007",
+        "claim_008",
+        "claim_009"
+      ],
+      "source_refs": [
+        "guichet_naturalisation",
+        "guichet_conditions_prealables",
+        "men_citizenship_courses",
+        "inll_faq",
+        "etic_sproochentest",
+        "prolingua_nationality_courses",
+        "luxlanguages_sproochentest_individual",
+        "luxlessons_course"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z"
+    },
+    "official_requirements": {
+      "value": "Naturalisation applicants must provide both a Luxembourgish language test pass certificate and a Vivre ensemble course or exam certificate.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_001"
+      ],
+      "source_refs": [
+        "guichet_naturalisation"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z"
+    },
+    "exam_structure": {
+      "value": "The official Sproochentest is taken at INLL, tests A2 oral expression and B1 oral understanding, and preparatory courses are organised by INLL, the Service de la formation des adultes, and partners.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_002"
+      ],
+      "source_refs": [
+        "men_citizenship_courses"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z"
+    },
+    "official_certificate_scope": {
+      "value": "INLL states that the Sproochentest is the only recognised nationality certification and that the certificate is valid for an unlimited period.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_003"
+      ],
+      "source_refs": [
+        "inll_faq"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z"
+    },
+    "conditional_reimbursement_route": {
+      "value": "The Sproochentest registration fee is EUR 75, and reimbursement claims for the test and approved-course fees can only be filed after the nationality application has been submitted.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_004"
+      ],
+      "source_refs": [
+        "guichet_conditions_prealables"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z"
+    },
+    "official_course_approval_route": {
+      "value": "For recognised nationality-law Luxembourgish courses, the provider must be SFA-run or ministerially accredited, and qualifying certificates receive an official article-28 seal.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_005"
+      ],
+      "source_refs": [
+        "men_citizenship_courses"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z"
+    },
+    "verified_competitors": {
+      "value": [
+        "ETIC",
+        "Prolingua",
+        "Lux'Languages",
+        "LuxLessons"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_006",
+        "claim_007",
+        "claim_008",
+        "claim_009"
+      ],
+      "source_refs": [
+        "etic_sproochentest",
+        "prolingua_nationality_courses",
+        "luxlanguages_sproochentest_individual",
+        "luxlessons_course"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z"
+    },
+    "hard_blockers": {
+      "value": [
+        "No public evidence in this rerun proves that L1 itself has ministerial accreditation or article-28-compliant status.",
+        "Reimbursement copy must distinguish the EUR 75 test fee from conditional approved-course reimbursement.",
+        "The market is not empty; no-competitor or pure-upsell framing is contradicted.",
+        "Pass-rate, market-rank, waitlist, and demand-strength claims remain unverified."
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "ext_003",
+        "ext_004",
+        "int_001",
+        "int_002",
+        "int_003",
+        "int_004",
+        "int_005"
+      ],
+      "source_refs": [
+        "guichet_conditions_prealables",
+        "men_citizenship_courses",
+        "etic_sproochentest",
+        "prolingua_nationality_courses",
+        "luxlanguages_sproochentest_individual",
+        "luxlessons_course"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z"
+    }
+  },
+  "analyst_only_fields": {
+    "target_audience_summary": {
+      "value": "Adults preparing for Luxembourg naturalisation are the clearest verified audience for L1.",
+      "confidence_band": "medium",
+      "omission_reason": "Audience phrasing is a synthesis from official-route evidence, not a direct product fact."
+    },
+    "pricing_context": {
+      "value": "Observed public alternatives span free-tier messaging through roughly 745-980 EUR paid offers, but scopes vary too much to anchor a safe dashboard price claim for L1.",
+      "confidence_band": "low",
+      "omission_reason": "Useful analyst context only; not safe as a product pricing benchmark."
+    }
+  },
+  "blocked_fields": {
+    "product_specific_reimbursability": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "Official eligibility rules are known, but no proof was found that L1 itself qualifies."
+    },
+    "market_leadership": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "No public evidence proves a pass-rate or rank advantage."
+    },
+    "pure_upsell_positioning": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "The public record contradicts the no-competitor framing."
+    }
+  },
+  "verification_summary": {
+    "verified_claim_count": 9,
+    "contradicted_claim_count": 1,
+    "blocked_question_count": 7
+  }
+}

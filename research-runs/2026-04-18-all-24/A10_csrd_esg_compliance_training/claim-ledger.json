@@ -1,0 +1,230 @@
+{
+  "schema_version": "claim_ledger_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A10",
+  "product_title": "CSRD/ESG Compliance Training",
+  "analysis_timestamp": "2026-04-18T12:56:35Z",
+  "jurisdictions": [
+    "Luxembourg",
+    "EU"
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_001",
+      "category": "deadline",
+      "claim_text": "The European Commission's stop-the-clock Directive postpones CSRD reporting requirements for companies first due to report for financial years 2025 or 2026.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "ec_csrd_reporting",
+        "ec_omnibus_package"
+      ],
+      "supporting_quote_ids": [
+        "q_001",
+        "q_002"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "This directly blocks any copy that frames wave-two/wave-three timing as immediate. The two-year delay implies 2028 for the affected waves."
+    },
+    {
+      "claim_id": "claim_002",
+      "category": "market_context",
+      "claim_text": "The VSME recommendation is meant to reduce SME burden by helping SMEs answer sustainability-information requests from large companies and financial institutions in their value chains.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "ec_vsme_recommendation",
+        "ec_omnibus_package"
+      ],
+      "supporting_quote_ids": [
+        "q_003",
+        "q_004"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "This is the safer demand framing for SMEs."
+    },
+    {
+      "claim_id": "claim_003",
+      "category": "funding",
+      "claim_text": "Luxembourg's company-training co-funding scheme provides aid equal to 15% of the annual amount invested in training for eligible private-sector companies.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "infpc_cofunding"
+      ],
+      "supporting_quote_ids": [
+        "q_005"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Scheme-level funding exists, but product-specific eligibility remains open."
+    },
+    {
+      "claim_id": "claim_004",
+      "category": "funding",
+      "claim_text": "Luxembourg's company-training co-funding can rise to 35% of eligible wage costs for participants meeting the listed age or qualification criteria.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_training_aid"
+      ],
+      "supporting_quote_ids": [
+        "q_006"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "This is a general co-funding rule, not a product-specific approval."
+    },
+    {
+      "claim_id": "claim_005",
+      "category": "competitor",
+      "claim_text": "House of Training offers a face-to-face VSME training in French for SMEs; the public page lists 8h and 505 EUR.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "houseoftraining_vsme"
+      ],
+      "supporting_quote_ids": [
+        "q_007",
+        "q_008"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Direct evidence that the market already contains French SME-oriented sustainability training."
+    },
+    {
+      "claim_id": "claim_006",
+      "category": "competitor",
+      "claim_text": "House of Training offers a CSRD/ESRS training in French; the public page lists 40h plus a 2h exam, 1,750 EUR, and a certificate co-signed by House of Sustainability.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "houseoftraining_csrd_esrs"
+      ],
+      "supporting_quote_ids": [
+        "q_009",
+        "q_010"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Direct CSRD competitor evidence."
+    },
+    {
+      "claim_id": "claim_007",
+      "category": "competitor",
+      "claim_text": "PwC Luxembourg offers CSRD double-materiality training in English, French, or German as a 4h intra-company course.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "pwc_csrd_dma"
+      ],
+      "supporting_quote_ids": [
+        "q_011"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "This directly refutes the language-gap claim."
+    },
+    {
+      "claim_id": "claim_008",
+      "category": "competitor",
+      "claim_text": "House of Training also offers an English-language sustainability and ESG regulations course covering CSRD, ESRS, Taxonomy, and CS3D for CSR managers and executives.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "houseoftraining_intro_esg"
+      ],
+      "supporting_quote_ids": [
+        "q_012"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "This broadens the competitive set beyond one CSRD module."
+    },
+    {
+      "claim_id": "ext_001",
+      "category": "deadline",
+      "claim_text": "CSRD Wave 2 reporting is needed now for the card's target SME segment.",
+      "jurisdiction": "EU",
+      "status": "contradicted",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [
+        "ec_csrd_reporting",
+        "ec_omnibus_package"
+      ],
+      "contradicting_quote_ids": [
+        "q_001",
+        "q_002"
+      ],
+      "notes": "The official EU pages show a two-year postponement for the affected waves. The urgency claim should be rewritten around value-chain readiness and VSME, not immediate wave-two compliance."
+    },
+    {
+      "claim_id": "ext_002",
+      "category": "competitor_gap",
+      "claim_text": "No French or German CSRD training exists for Luxembourg SMEs.",
+      "jurisdiction": "Luxembourg",
+      "status": "contradicted",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [
+        "houseoftraining_vsme",
+        "houseoftraining_csrd_esrs",
+        "pwc_csrd_dma"
+      ],
+      "contradicting_quote_ids": [
+        "q_007",
+        "q_009",
+        "q_011"
+      ],
+      "notes": "House of Training and PwC Luxembourg both publish French and/or German CSRD-related training."
+    }
+  ],
+  "open_questions": [
+    {
+      "question_id": "oq_001",
+      "question": "Is the proposed A10 offer itself eligible for Luxembourg company-training co-funding without bespoke adjustment?",
+      "reason": "Scheme-level funding exists, but product-specific eligibility has not been proven.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_002",
+      "question": "Should the product be framed as a standalone course, a course-plus-template offer, or a partner-led advisory offer?",
+      "reason": "This is a commercial design decision rather than a public fact.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_003",
+      "question": "Is there any public evidence that A10 has a dedicated certification or accreditation route?",
+      "reason": "No product-specific accreditation evidence was found in the public sources reviewed.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_004",
+      "question": "Should the target audience be narrowed to SMEs in value chains, or kept broad for CSR/compliance/finance staff?",
+      "reason": "The value-chain wedge is supported by public context, but the final audience choice remains a strategy call.",
+      "blocking": true
+    }
+  ],
+  "verification_summary": {
+    "verified_claim_count": 8,
+    "partially_verified_claim_count": 0,
+    "unverified_claim_count": 0,
+    "contradicted_claim_count": 2,
+    "blocked_question_count": 4,
+    "official_source_count": 5,
+    "total_source_count": 8
+  }
+}

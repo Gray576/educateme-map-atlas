@@ -1,0 +1,114 @@
+{
+  "schema_version": "commercial_validation_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A8",
+  "product_title": "B2B Language Proficiency Audit",
+  "quadrant_segment": "B2B",
+  "validation_velocity": {
+    "validation_model": "10 custdev interviews + 2 pilot asks + 1 paid pilot proposal",
+    "binary_pass_signal": "At least 2 qualified buyers accept a paid or structured pilot conversation within the test window.",
+    "binary_kill_signal": "No qualified buyer accepts a pilot conversation or pilot proposal within the test window.",
+    "estimated_cost_to_signal_eur": 3000,
+    "estimated_days_to_signal": 30,
+    "estimated_days_to_first_euro": 30,
+    "founder_independence_score_1_5": null,
+    "testability_score_1_5": 3,
+    "time_to_first_euro_score_1_5": 3,
+    "confidence_band": "medium",
+    "derivation_basis": "Protocol-derived from segment, approval-route complexity, buyer motion, and current validation/citation gaps.",
+    "evidence_refs": {
+      "source_ids": [],
+      "claim_ids": []
+    },
+    "notes": "validation queue severity 12; citation status ready"
+  },
+  "demand_pull": {
+    "demand_evidence_score_1_5": null,
+    "wtp_score_1_5": null,
+    "cac_reality_score_1_5": null,
+    "retention_structure_score_1_5": 2,
+    "macro_trajectory_score_1_5": null,
+    "channel_fit_score_1_5": null,
+    "confidence_band": "low",
+    "derivation_basis": "Only offer structure and currently sourced competitor/numeric claims are available. SEMrush, paid search, and traffic observables are intentionally missing.",
+    "evidence_refs": {
+      "source_ids": [
+        "pearson_versant",
+        "cambridge_linguaskill",
+        "pipplet_about",
+        "pipplet_standard",
+        "allingua_home",
+        "allingua_approach"
+      ],
+      "claim_ids": [
+        "ext_002",
+        "ext_003",
+        "ext_004"
+      ]
+    },
+    "notes": "Retention structure is filled from the product format. Demand, WTP, CAC, macro, and channel-fit remain unfilled until SEMrush and distribution evidence are collected."
+  },
+  "regulatory_context": {
+    "regulatory_friction_inverse_score_1_5": 5,
+    "confidence_band": "medium",
+    "derivation_basis": "Derived from confirmed regulatory requirements, approval entities, and current contradiction/risk density in the evidence-backed card.",
+    "evidence_refs": {
+      "source_ids": [],
+      "claim_ids": []
+    },
+    "notes": "2 high-severity risk flags remain in the current card"
+  },
+  "semrush_snapshot": {
+    "market": "LUX",
+    "database": "",
+    "language": "",
+    "keyword_buckets": {
+      "head_terms": [
+        "B2B Language Proficiency Audit",
+        "B2B Language Proficiency Audit LUX"
+      ],
+      "commercial_modifiers": [
+        "luxembourg",
+        "b2b"
+      ],
+      "problem_intent": [
+        "firms need objective language"
+      ],
+      "competitor_route": [
+        "Versant by Pearson",
+        "Cambridge Linguaskill",
+        "Pipplet",
+        "Allingua L-testing"
+      ]
+    },
+    "metrics": {
+      "keyword_count_total": null,
+      "keyword_count_commercial": null,
+      "volume_sum": null,
+      "volume_sum_commercial": null,
+      "avg_cpc": null,
+      "max_cpc": null,
+      "avg_competitive_density": null,
+      "high_intent_keyword_count": null,
+      "paid_competitor_count": null
+    },
+    "top_paid_competitors": [],
+    "observed_price_points": [],
+    "serp_feature_notes": "",
+    "traffic_analytics_notes": ""
+  },
+  "portfolio_tags": {
+    "niche": "B2B Language Proficiency Audit / other",
+    "persona": "mixed",
+    "channel_primary": "",
+    "channel_secondary": "",
+    "price_point": "enterprise-ticket",
+    "delivery_mode": "audit / assessment"
+  },
+  "collapsed_scores": {
+    "validation_velocity_composite": 3,
+    "demand_pull_composite": null,
+    "overall_confidence_band": "low",
+    "confidence_reason": "Validation velocity is partially populated, but founder-independence, demand observables, and SEMrush-backed pull metrics are still missing."
+  }
+}

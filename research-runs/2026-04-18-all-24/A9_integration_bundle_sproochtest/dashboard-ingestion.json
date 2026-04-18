@@ -1,0 +1,201 @@
+{
+  "schema_version": "dashboard_ingestion_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A9",
+  "product_title": "Integration Bundle (Sproochtest+)",
+  "reviewed_at": "2026-04-18T14:00:45Z",
+  "release_status": "review",
+  "safe_fields": {
+    "jurisdiction_scope": {
+      "value": [
+        "Luxembourg"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_007",
+        "claim_008",
+        "claim_009",
+        "claim_010"
+      ],
+      "source_refs": [
+        "guichet_naturalisation",
+        "guichet_conditions_prealables",
+        "men_citizenship_courses",
+        "inll_faq",
+        "etic_sproochentest",
+        "prolingua_nationality_courses",
+        "luxlanguages_sproochentest_individual",
+        "luxlessons_course"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z"
+    },
+    "official_nationality_route": {
+      "value": "Luxembourg naturalisation requires both language proof and a Vivre ensemble certificate, and the official citizenship route consists of the INLL Sproochentest plus the Vivre ensemble course or test.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_004"
+      ],
+      "source_refs": [
+        "guichet_naturalisation",
+        "men_citizenship_courses"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z"
+    },
+    "official_exam_and_credential": {
+      "value": "The Sproochentest is run by INLL, assessed at A2 speaking and B1 listening, and INLL treats it as the only recognised certification for nationality applications.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_002",
+        "claim_003"
+      ],
+      "source_refs": [
+        "men_citizenship_courses",
+        "inll_faq"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z"
+    },
+    "official_integration_route": {
+      "value": "Luxembourg already has an official 24-hour Vivre ensemble course or exam route covering civic rights, institutions, history, and European integration, with online courses offered in English.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_004"
+      ],
+      "source_refs": [
+        "men_citizenship_courses"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z"
+    },
+    "conditional_reimbursement_route": {
+      "value": "Guichet fixes the Sproochentest fee at EUR 75 and confirms a conditional reimbursement route for Sproochentest and approved-course fees only after the nationality application is filed.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_005"
+      ],
+      "source_refs": [
+        "guichet_conditions_prealables"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z"
+    },
+    "official_approval_route": {
+      "value": "For the 20-year residence route, only SFA-run or ministerially accredited Article 28 courses qualify, and validated course certificates receive an official seal.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_006"
+      ],
+      "source_refs": [
+        "men_citizenship_courses"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z"
+    },
+    "verified_alternatives": {
+      "value": [
+        "INLL / SFA preparatory route",
+        "ETIC",
+        "Prolingua",
+        "Lux'Languages",
+        "LuxLessons"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_002",
+        "claim_007",
+        "claim_008",
+        "claim_009",
+        "claim_010"
+      ],
+      "source_refs": [
+        "men_citizenship_courses",
+        "etic_sproochentest",
+        "prolingua_nationality_courses",
+        "luxlanguages_sproochentest_individual",
+        "luxlessons_course"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z"
+    },
+    "hard_blockers": {
+      "value": [
+        "The legacy reimbursement line is too compressed; only the EUR 75 test fee and a conditional reimbursement route are cleanly supported",
+        "No public proof was found that A9 itself is an approved or reimbursable Article 28 course",
+        "No public proof was found that any A9-issued certificate has official value in the nationality process",
+        "The uniqueness or pure-upsell claim is contradicted by public and private alternatives",
+        "The HR-onboarding buyer route remains unverified in external evidence"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "ext_003",
+        "ext_004",
+        "int_001",
+        "int_002",
+        "int_003",
+        "int_004"
+      ],
+      "source_refs": [
+        "guichet_conditions_prealables",
+        "men_citizenship_courses",
+        "inll_faq",
+        "etic_sproochentest",
+        "prolingua_nationality_courses",
+        "luxlanguages_sproochentest_individual",
+        "luxlessons_course"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z"
+    }
+  },
+  "analyst_only_fields": {
+    "target_audience_summary": {
+      "value": "Nationality candidates are the clearest verified audience; HR onboarding remains a plausible but unverified secondary use case.",
+      "confidence_band": "medium",
+      "omission_reason": "The nationality route is evidenced, but the employer-buyer layer is still inferential."
+    },
+    "pricing_context": {
+      "value": "Observed public alternatives range from a free online tier to 745-980 EUR paid preparation offers, but the scopes are too mixed for a safe dashboard price anchor.",
+      "confidence_band": "low",
+      "omission_reason": "Useful analyst context only; the offers are not close enough in scope to anchor a safe price claim for A9."
+    }
+  },
+  "blocked_fields": {
+    "product_bundle_scope": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "The rerun verified the surrounding route context, not the exact boundary of A9 itself."
+    },
+    "product_support_route_eligibility": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "Official route conditions are known, but no A9-specific approval or reimbursement proof was found."
+    },
+    "product_certificate_official_value": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "Official standing was verified for INLL and validated Article 28 certificates, not for any A9-issued deliverable."
+    },
+    "reimbursement_cap_dashboard_copy": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "The official route survives, but the clean primary-source 750-euro cap message did not."
+    },
+    "hr_onboarding_demand": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "No external demand or buyer-route evidence was verified for the HR positioning."
+    },
+    "unique_market_gap_claim": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "The whitespace claim is contradicted by verified public and private alternatives."
+    }
+  },
+  "verification_summary": {
+    "verified_claim_count": 10,
+    "contradicted_claim_count": 2,
+    "blocked_question_count": 5
+  }
+}

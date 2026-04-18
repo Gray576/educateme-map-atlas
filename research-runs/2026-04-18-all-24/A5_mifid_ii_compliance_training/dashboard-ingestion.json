@@ -1,0 +1,123 @@
+{
+  "schema_version": "dashboard_ingestion_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A5",
+  "product_title": "MiFID II Compliance Training",
+  "reviewed_at": "2026-04-18T12:56:57Z",
+  "release_status": "blocked",
+  "safe_fields": {
+    "jurisdiction_scope": {
+      "value": [
+        "Luxembourg",
+        "EU"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "ext_001",
+        "ext_002"
+      ],
+      "source_refs": [
+        "cssf_17670",
+        "cssf_mifid_page",
+        "esma_knowledge_competence"
+      ],
+      "last_verified_at": "2026-04-18T12:56:57Z"
+    },
+    "approval_entities": {
+      "value": [
+        "CSSF",
+        "ESMA"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "ext_001",
+        "ext_002"
+      ],
+      "source_refs": [
+        "cssf_17670",
+        "cssf_training_list_pdf",
+        "esma_knowledge_competence"
+      ],
+      "last_verified_at": "2026-04-18T12:56:57Z"
+    },
+    "regulatory_framework": {
+      "value": [
+        "MiFID II",
+        "Circular CSSF 17/670",
+        "ESMA Guidelines for the assessment of knowledge and competence"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "ext_001"
+      ],
+      "source_refs": [
+        "cssf_17670",
+        "cssf_mifid_page",
+        "esma_knowledge_competence"
+      ],
+      "last_verified_at": "2026-04-18T12:56:57Z"
+    },
+    "verified_requirements": {
+      "value": [
+        "Firms should ensure staff providing relevant services possess the necessary knowledge and competence.",
+        "CSSF publishes the list of bodies providing external training within Circular 17/670."
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "ext_001",
+        "ext_002"
+      ],
+      "source_refs": [
+        "esma_knowledge_competence",
+        "cssf_training_list",
+        "cssf_training_list_pdf"
+      ],
+      "last_verified_at": "2026-04-18T12:56:57Z"
+    },
+    "verified_competitors": {
+      "value": [
+        "House of Training",
+        "HACA Partners",
+        "Lefebvre-Dalloz Compétences SAS",
+        "Deloitte Tax & Consulting S.à.r.l.",
+        "EFPA Luxembourg",
+        "First Finance SAS",
+        "PricewaterhouseCoopers Academy S.à.r.l."
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "ext_002",
+        "ext_003"
+      ],
+      "source_refs": [
+        "cssf_training_list_pdf"
+      ],
+      "last_verified_at": "2026-04-18T12:56:57Z"
+    }
+  },
+  "analyst_only_fields": {
+    "target_audience_summary": {
+      "value": "Persons under CSSF prudential supervision who provide investment advice or information on financial instruments, investment services or ancillary services.",
+      "confidence_band": "medium",
+      "omission_reason": "Directly evidenced, but still a synthesized summary and not promoted to the default dashboard."
+    },
+    "delivery_languages": {
+      "value": [
+        "English",
+        "French"
+      ],
+      "confidence_band": "medium",
+      "omission_reason": "Directly evidenced on the incumbent page, but not promoted to the default dashboard."
+    },
+    "subsidy_eligibility": {
+      "value": "conflicted",
+      "confidence_band": "blocked",
+      "omission_reason": "Guichet exclusion conflicts with provider co-financing copy."
+    }
+  },
+  "verification_summary": {
+    "verified_claim_count": 4,
+    "contradicted_claim_count": 2,
+    "blocked_question_count": 5
+  }
+}

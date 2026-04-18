@@ -1,0 +1,200 @@
+{
+  "schema_version": "field_decisions_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A1",
+  "product_title": "AI Literacy Workshop",
+  "analysis_timestamp": "2026-04-18T13:45:00Z",
+  "field_decisions": [
+    {
+      "field_id": "jurisdiction_scope",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Luxembourg",
+        "EU"
+      ],
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_007",
+        "claim_008",
+        "claim_009"
+      ],
+      "source_refs": [
+        "eu_ai_literacy_policy",
+        "eu_ai_literacy_qa",
+        "guichet_cvt",
+        "fit4ai",
+        "eurostat_ai_2023",
+        "houseoftraining_ai_fundamentals",
+        "houseoftraining_ai_act_course",
+        "houseoftraining_ai_risk"
+      ],
+      "last_verified_at": "2026-04-18T13:45:00Z",
+      "reason": "The product is Luxembourg-facing, while the core regulatory context is EU Article 4."
+    },
+    {
+      "field_id": "regulatory_context",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "Article 4 already applies to providers and deployers from 2 February 2025, and supervision/enforcement starts in August 2026.",
+      "claim_refs": [
+        "claim_001",
+        "claim_002"
+      ],
+      "source_refs": [
+        "eu_ai_literacy_policy",
+        "eu_ai_literacy_qa"
+      ],
+      "last_verified_at": "2026-04-18T13:45:00Z",
+      "reason": "The official Commission pages support the narrower obligation wording and the split between current applicability and later enforcement."
+    },
+    {
+      "field_id": "training_support_route",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "Luxembourg company-training co-funding exists, and Fit 4 AI publicly covers the assessment/roadmap phase at 50% consultancy cost coverage; neither source proves this exact workshop is eligible.",
+      "claim_refs": [
+        "claim_003",
+        "claim_004",
+        "claim_005"
+      ],
+      "source_refs": [
+        "guichet_cvt",
+        "fit4ai"
+      ],
+      "last_verified_at": "2026-04-18T13:45:00Z",
+      "reason": "Scheme-level support routes are directly public, but product-level eligibility still stays blocked."
+    },
+    {
+      "field_id": "market_adoption_stat",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "Luxembourg recorded 14.4% enterprise AI use in 2023.",
+      "claim_refs": [
+        "claim_006"
+      ],
+      "source_refs": [
+        "eurostat_ai_2023"
+      ],
+      "last_verified_at": "2026-04-18T13:45:00Z",
+      "reason": "Eurostat provides a direct Luxembourg adoption statistic."
+    },
+    {
+      "field_id": "verified_competitors",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "House of Training"
+      ],
+      "claim_refs": [
+        "claim_007",
+        "claim_008",
+        "claim_009"
+      ],
+      "source_refs": [
+        "houseoftraining_ai_fundamentals",
+        "houseoftraining_ai_act_course",
+        "houseoftraining_ai_risk"
+      ],
+      "last_verified_at": "2026-04-18T13:45:00Z",
+      "reason": "Public Luxembourg House of Training pages are enough to falsify the exclusivity story."
+    },
+    {
+      "field_id": "target_audience_summary",
+      "status": "analyst_only",
+      "confidence_band": "medium",
+      "value": "Luxembourg employers deploying or allowing AI tools, especially HR/L&D and compliance-adjacent stakeholders.",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_006"
+      ],
+      "source_refs": [
+        "eu_ai_literacy_policy",
+        "eu_ai_literacy_qa",
+        "guichet_cvt",
+        "eurostat_ai_2023"
+      ],
+      "last_verified_at": "2026-04-18T13:45:00Z",
+      "omission_reason": "This is a useful synthesis from verified context, but still partly inferential for the exact offer."
+    },
+    {
+      "field_id": "commercial_pricing_context",
+      "status": "analyst_only",
+      "confidence_band": "low",
+      "value": "Visible Luxembourg competitor prices for short AI courses cluster around 175-180 EUR.",
+      "claim_refs": [
+        "claim_007",
+        "claim_008",
+        "claim_009"
+      ],
+      "source_refs": [
+        "houseoftraining_ai_fundamentals",
+        "houseoftraining_ai_act_course",
+        "houseoftraining_ai_risk"
+      ],
+      "last_verified_at": "2026-04-18T13:45:00Z",
+      "omission_reason": "Useful context only; it does not establish a safe price or revenue model for A1."
+    },
+    {
+      "field_id": "product_certificate_significance",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "oq_001"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T13:45:00Z",
+      "omission_reason": "No public authority or buyer-side source was found proving external compliance significance for the workshop certificate."
+    },
+    {
+      "field_id": "audit_documentation_sufficiency",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "oq_002"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T13:45:00Z",
+      "omission_reason": "No regulator or programme source confirms that the workshop documentation is sufficient for compliance or audit use."
+    },
+    {
+      "field_id": "product_specific_ai_package_eligibility",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "oq_003"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T13:45:00Z",
+      "omission_reason": "Public support routes exist, but the exact workshop-level eligibility claim was not proven."
+    },
+    {
+      "field_id": "exclusive_market_gap_claim",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "ext_006",
+        "oq_004"
+      ],
+      "source_refs": [
+        "houseoftraining_ai_fundamentals",
+        "houseoftraining_ai_act_course",
+        "houseoftraining_ai_risk"
+      ],
+      "last_verified_at": "2026-04-18T13:45:00Z",
+      "omission_reason": "The exclusivity story was contradicted by public Luxembourg competitor pages."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": "research_v2_quote_fetch_report_v1",
+  "product_code": "B3",
+  "generated_at": "2026-04-18T12:58:24.178Z",
+  "source_count": 4,
+  "candidate_count": 24,
+  "source_reports": [
+    {
+      "source_id": "eu_ai_act",
+      "title": "Regulation (EU) 2024/1689 (AI Act)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001",
+        "ext_005"
+      ],
+      "terms": [
+        "applies",
+        "deployers",
+        "providers",
+        "systems",
+        "1689",
+        "2024",
+        "acting",
+        "actors",
+        "article",
+        "basis",
+        "behalf",
+        "companies"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "ai_literacy_qna",
+      "title": "AI Literacy - Questions & Answers",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001",
+        "ext_002",
+        "ext_005"
+      ],
+      "terms": [
+        "literacy",
+        "systems",
+        "applies",
+        "context",
+        "deployers",
+        "measures",
+        "providers",
+        "acting",
+        "actors",
+        "answers",
+        "article",
+        "basis"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "houseoftraining_ai_fundamentals",
+      "title": "Intelligences artificielles génératives - Fondamentaux",
+      "url": "https://houseoftraining.lu/en_GB/training/intelligences-artificielles-generatives-fondamentaux-12374",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003"
+      ],
+      "terms": [
+        "face",
+        "fundamentals",
+        "house",
+        "artificielles",
+        "fondamentaux",
+        "french",
+        "generative",
+        "generic",
+        "intelligences",
+        "lists",
+        "literacy",
+        "offers"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "elements_ai_pdf",
+      "title": "Course Description: Elements of AI: Building AI Syllabus and Learning Objectives",
+      "url": "https://buildingai.elementsofai.com/buildingai_objectives.pdf",
+      "status": "fetch_failed",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "error": "Unsupported content-type: application/pdf",
+      "matched_claim_ids": [
+        "ext_004"
+      ],
+      "terms": [
+        "attendance",
+        "description",
+        "elements",
+        "exams",
+        "online",
+        "requirements",
+        "building",
+        "completed",
+        "free",
+        "learning",
+        "objectives",
+        "states"
+      ],
+      "candidate_count": 0
+    }
+  ]
+}

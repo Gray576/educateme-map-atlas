@@ -3,6 +3,7 @@ import type {
   BuyerType,
   MarketBucket,
   ProductRecord,
+  ResearchCardNormalizationOverlay,
   ResearchCard,
   VarianceRisk,
 } from "@/types";
@@ -187,18 +188,34 @@ function scoreLevel(risk: VarianceRisk) {
   }
 }
 
-export function normalizeResearchCard(card: ResearchCard): ProductRecord {
+export function normalizeResearchCard(
+  card: ResearchCard,
+  overlay: ResearchCardNormalizationOverlay = {}
+): ProductRecord {
   const fieldConfidence = Object.values(card.quality_signals.field_confidence);
   const highConflictCount = getRiskCount(card, "high");
   const mediumConflictCount = getRiskCount(card, "medium");
 
-  const archetype = getArchetypeAssignment(card.product_code);
-  const operatorMatrix = getOperatorMatrixEntry(card.product_code);
+  const sourceCard = overlay.sourceCard ?? card;
+  const archetype = overlay.archetype ?? getArchetypeAssignment(card.product_code);
+  const operatorMatrix = overlay.operatorMatrix ?? getOperatorMatrixEntry(card.product_code);
 
   return {
     code: card.product_code,
     title: card.product_title,
-    sourceCard: card,
+    sourceCard,
+    dataSource: overlay.productMeta?.dataSource ?? "legacy_card",
+    releaseStatus: overlay.productMeta?.releaseStatus ?? "review",
+    safeFieldCount: overlay.productMeta?.safeFieldCount ?? 0,
+    blockedFieldCount: overlay.productMeta?.blockedFieldCount ?? 0,
+    analystFieldCount: overlay.productMeta?.analystFieldCount ?? 0,
+    quadrantSegment: overlay.productMeta?.quadrantSegment ?? "unknown",
+    validationModel: overlay.productMeta?.validationModel ?? null,
+    validationVelocityScore: overlay.productMeta?.validationVelocityScore ?? null,
+    timeToFirstEuroScore: overlay.productMeta?.timeToFirstEuroScore ?? null,
+    regulatoryFrictionInverseScore: overlay.productMeta?.regulatoryFrictionInverseScore ?? null,
+    overallConfidenceBand: overlay.productMeta?.overallConfidenceBand ?? "unknown",
+    artifactFolder: overlay.productMeta?.artifactFolder ?? null,
     market: getMarketBucket(card),
     marketBadge: getMarketBucket(card),
     buyerType: card.buyer_analysis.primary_buyer_type.value,

@@ -1,0 +1,67 @@
+{
+  "schema_version": "source_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B4",
+  "sources": [
+    {
+      "source_id": "inll_laf",
+      "title": "LAF - Lëtzebuergesch als Friemsprooch",
+      "publisher": "Institut national des langues Luxembourg",
+      "url": "https://www.inll.lu/fr/laf/",
+      "source_type": "exam_body",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "inll_courses",
+      "title": "Our language courses",
+      "publisher": "Institut national des langues Luxembourg",
+      "url": "https://www.inll.lu/en/courses/",
+      "source_type": "exam_body",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "inll_luxembourgish",
+      "title": "Learn to speak Luxembourgish with our language courses",
+      "publisher": "Institut national des langues Luxembourg",
+      "url": "https://www.inll.lu/en/languages/luxembourgish/",
+      "source_type": "exam_body",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "guichet_training_establishment",
+      "title": "Manager of a continuing professional training establishment",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/creation-developpement/autorisation-etablissement/commerce/organisme-formation-continue.html",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "lllc",
+      "title": "Luxembourg Lifelong Learning Center (LLLC)",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/organismes/organismes_citoyens/luxembourg-lifelong-learning-center-.html",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    }
+  ]
+}

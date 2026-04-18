@@ -1,0 +1,229 @@
+{
+  "schema_version": "field_decisions_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L1",
+  "product_title": "Sproochtest Preparation",
+  "analysis_timestamp": "2026-04-18T14:00:45Z",
+  "field_decisions": [
+    {
+      "field_id": "jurisdiction_scope",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Luxembourg"
+      ],
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_007",
+        "claim_008",
+        "claim_009"
+      ],
+      "source_refs": [
+        "guichet_naturalisation",
+        "guichet_conditions_prealables",
+        "men_citizenship_courses",
+        "inll_faq",
+        "etic_sproochentest",
+        "prolingua_nationality_courses",
+        "luxlanguages_sproochentest_individual",
+        "luxlessons_course"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z",
+      "reason": "All verified route and market facts are Luxembourg-specific."
+    },
+    {
+      "field_id": "official_requirements",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "Naturalisation applicants must provide both a Luxembourgish language test pass certificate and a Vivre ensemble course or exam certificate.",
+      "claim_refs": [
+        "claim_001"
+      ],
+      "source_refs": [
+        "guichet_naturalisation"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z",
+      "reason": "Most important official route fact."
+    },
+    {
+      "field_id": "exam_structure",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "The official Sproochentest is taken at INLL, tests A2 oral expression and B1 oral understanding, and preparatory courses are organised by INLL, the Service de la formation des adultes, and partners.",
+      "claim_refs": [
+        "claim_002"
+      ],
+      "source_refs": [
+        "men_citizenship_courses"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z",
+      "reason": "Direct official exam-design and prep-route wording."
+    },
+    {
+      "field_id": "official_certificate_scope",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "INLL states that the Sproochentest is the only recognised nationality certification and that the certificate is valid for an unlimited period.",
+      "claim_refs": [
+        "claim_003"
+      ],
+      "source_refs": [
+        "inll_faq"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z",
+      "reason": "Cleanest way to separate official exam value from private prep-course credentials."
+    },
+    {
+      "field_id": "conditional_reimbursement_route",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "The Sproochentest registration fee is EUR 75, and reimbursement claims for the test and approved-course fees can only be filed after the nationality application has been submitted.",
+      "claim_refs": [
+        "claim_004"
+      ],
+      "source_refs": [
+        "guichet_conditions_prealables"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z",
+      "reason": "Safe official wording without unsupported simplification."
+    },
+    {
+      "field_id": "official_course_approval_route",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "For recognised nationality-law Luxembourgish courses, the provider must be SFA-run or ministerially accredited, and qualifying certificates receive an official article-28 seal.",
+      "claim_refs": [
+        "claim_005"
+      ],
+      "source_refs": [
+        "men_citizenship_courses"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z",
+      "reason": "Critical limiter for any official-course or reimbursement positioning."
+    },
+    {
+      "field_id": "verified_competitors",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "ETIC",
+        "Prolingua",
+        "Lux'Languages",
+        "LuxLessons"
+      ],
+      "claim_refs": [
+        "claim_006",
+        "claim_007",
+        "claim_008",
+        "claim_009"
+      ],
+      "source_refs": [
+        "etic_sproochentest",
+        "prolingua_nationality_courses",
+        "luxlanguages_sproochentest_individual",
+        "luxlessons_course"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z",
+      "reason": "The market already has multiple live private prep alternatives."
+    },
+    {
+      "field_id": "hard_blockers",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "No public evidence in this rerun proves that L1 itself has ministerial accreditation or article-28-compliant status.",
+        "Reimbursement copy must distinguish the EUR 75 test fee from conditional approved-course reimbursement.",
+        "The market is not empty; no-competitor or pure-upsell framing is contradicted.",
+        "Pass-rate, market-rank, waitlist, and demand-strength claims remain unverified."
+      ],
+      "claim_refs": [
+        "ext_003",
+        "ext_004",
+        "int_001",
+        "int_002",
+        "int_003",
+        "int_004",
+        "int_005"
+      ],
+      "source_refs": [
+        "guichet_conditions_prealables",
+        "men_citizenship_courses",
+        "etic_sproochentest",
+        "prolingua_nationality_courses",
+        "luxlanguages_sproochentest_individual",
+        "luxlessons_course"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z",
+      "reason": "These are the remaining publication risks after the rerun."
+    },
+    {
+      "field_id": "target_audience_summary",
+      "status": "analyst_only",
+      "confidence_band": "medium",
+      "value": "Adults preparing for Luxembourg naturalisation are the clearest verified audience for L1.",
+      "claim_refs": [
+        "claim_001",
+        "claim_002"
+      ],
+      "source_refs": [
+        "guichet_naturalisation",
+        "men_citizenship_courses"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z",
+      "omission_reason": "Reasonable synthesis, but still audience framing rather than a direct public fact."
+    },
+    {
+      "field_id": "product_specific_reimbursability",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "claim_005",
+        "ext_003"
+      ],
+      "source_refs": [
+        "men_citizenship_courses",
+        "guichet_conditions_prealables"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z",
+      "omission_reason": "Official eligibility rules are known, but no proof was found that L1 itself qualifies."
+    },
+    {
+      "field_id": "market_leadership",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "int_001",
+        "int_002"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T14:00:45Z",
+      "omission_reason": "No public evidence proves a pass-rate or rank advantage."
+    },
+    {
+      "field_id": "pure_upsell_positioning",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "ext_004"
+      ],
+      "source_refs": [
+        "men_citizenship_courses",
+        "etic_sproochentest",
+        "prolingua_nationality_courses",
+        "luxlanguages_sproochentest_individual",
+        "luxlessons_course"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z",
+      "omission_reason": "The public record contradicts the no-competitor framing."
+    }
+  ],
+  "release_status": "review"
+}

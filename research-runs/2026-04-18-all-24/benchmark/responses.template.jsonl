@@ -1,0 +1,1 @@
+{"task_id":"A10_ext_001","system_id":"system_under_test","verdict":"supported","answer_text":"Short answer grounded in cited evidence.","confidence_band":"medium","citations":[{"source_id_or_url":"https://example.com/source","quote_text":"Exact supporting quote or exact structured fact.","location":"page / section / anchor","is_official_source":true}]}

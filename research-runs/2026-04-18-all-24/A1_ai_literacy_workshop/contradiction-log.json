@@ -1,0 +1,54 @@
+{
+  "schema_version": "contradiction_log_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A1",
+  "product_title": "AI Literacy Workshop",
+  "analysis_timestamp": "2026-04-18T13:45:00Z",
+  "contradictions": [
+    {
+      "contradiction_id": "c_001",
+      "claim_id": "ext_002",
+      "claim_text": "The AI literacy obligation becomes a compliance concern only by August 2026.",
+      "status": "contradicted",
+      "contradicting_source_ids": [
+        "eu_ai_literacy_qa"
+      ],
+      "contradicting_quote_ids": [
+        "q_002",
+        "q_003"
+      ],
+      "resolution": "Rewrite the timing message. The obligation already applies from 2 February 2025; August 2026 is the supervision and enforcement window.",
+      "why_it_matters": "A single hard deadline would overstate the timing and distort urgency in the dashboard."
+    },
+    {
+      "contradiction_id": "c_002",
+      "claim_id": "ext_006",
+      "claim_text": "This is the only Luxembourg offer combining EU AI Act compliance, hands-on practice, and audit-style documentation.",
+      "status": "contradicted",
+      "contradicting_source_ids": [
+        "houseoftraining_ai_fundamentals",
+        "houseoftraining_ai_act_course",
+        "houseoftraining_ai_risk"
+      ],
+      "contradicting_quote_ids": [
+        "q_010",
+        "q_011",
+        "q_012",
+        "q_013",
+        "q_014"
+      ],
+      "resolution": "Drop the exclusivity claim. Public Luxembourg alternatives already cover AI fundamentals, EU AI Act compliance framing, and hands-on AI exercises in adjacent risk/data-protection contexts.",
+      "why_it_matters": "The old wedge would misstate the competitive landscape."
+    }
+  ],
+  "falsification_searches": [
+    {
+      "query": "\"AI literacy\" \"August 2026\" Article 4 AI Act enforcement",
+      "result": "The European Commission Q&A shows the obligation already applies from 2 February 2025 and enforcement begins in August 2026."
+    },
+    {
+      "query": "site:houseoftraining.lu Luxembourg AI Act training AI fundamentals risk management artificial intelligence",
+      "result": "House of Training publishes multiple Luxembourg AI offers that refute the exclusivity claim."
+    }
+  ]
+}

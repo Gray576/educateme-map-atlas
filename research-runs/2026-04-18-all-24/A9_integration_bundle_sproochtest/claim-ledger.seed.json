@@ -1,0 +1,114 @@
+{
+  "schema_version": "claim_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A9",
+  "product_title": "Integration Bundle (Sproochtest+)",
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "exam",
+      "claim_text": "The Sproochentest is the official Luxembourgish language exam required for nationality.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "guichet_naturalisation",
+        "inll_sproochentest"
+      ],
+      "contradiction_flag": false,
+      "notes": "Guichet and INLL both confirm that the Sproochentest is the official language exam used in the nationality procedure.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "exam",
+      "claim_text": "The Sproochentest requires oral expression at A2 and listening comprehension at B1.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "inll_sproochentest",
+        "guichet_sproochentest_pdf"
+      ],
+      "contradiction_flag": false,
+      "notes": "INLL and official registration material confirm the A2 oral expression and B1 listening structure.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "funding",
+      "claim_text": "Language course fees can be reimbursed by the State up to 750 euros, and Sproochentest registration fees can be reimbursed up to 75 euros after a successful exam in the nationality procedure.",
+      "legacy_status": "partially_verified",
+      "supporting_source_ids": [
+        "guichet_conditions_prealables",
+        "guichet_naturalisation",
+        "guichet_sproochentest_pdf",
+        "etic_sproochentest",
+        "luxlanguages_sproochentest_individual"
+      ],
+      "contradiction_flag": false,
+      "notes": "Official Guichet material confirms reimbursement routes for course and exam fees, while ETIC and Lux'Languages state the 750 euro and 75 euro amounts. The card compresses multiple reimbursement rules into one simple amount claim.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_004",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "No integration bundle competitor exists.",
+      "legacy_status": "contradicted",
+      "supporting_source_ids": [
+        "inll_sproochentest",
+        "etic_sproochentest",
+        "luxlanguages_sproochentest_group",
+        "prolingua_luxembourgish",
+        "luxlessons_home"
+      ],
+      "contradiction_flag": true,
+      "notes": "There are already official and private Sproochentest preparation offers, plus language and integration-adjacent alternatives in Luxembourg. The market is not empty, even if this exact bundle format was not matched one-for-one.",
+      "next_action": "falsify fully and rewrite or drop"
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "competitor_gap",
+      "claim_text": "Educateme is already #1 in Sproochtest, so this is a pure upsell.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "Market leadership and pure-upsell positioning are internal commercial claims, not public facts.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "scope_fit",
+      "claim_text": "No new traffic is needed because existing students are enough.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is a go-to-market assumption that has not been externally verified.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "The bundle can be launched with only about 2K of investment.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is an internal estimate, not a public fact.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_004",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "The product is low risk.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "Risk is a judgment, not a verifiable external fact.",
+      "next_action": "treat as open question, not as fact"
+    }
+  ]
+}

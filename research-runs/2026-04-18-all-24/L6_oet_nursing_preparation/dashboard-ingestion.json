@@ -1,0 +1,147 @@
+{
+  "schema_version": "dashboard_ingestion_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L6",
+  "product_title": "OET Nursing Preparation",
+  "reviewed_at": "2026-04-18T17:09:56+04:00",
+  "release_status": "review",
+  "safe_fields": {
+    "jurisdiction_scope": {
+      "value": [
+        "United Arab Emirates",
+        "United Kingdom",
+        "Australia"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "c_002",
+        "c_003",
+        "c_004",
+        "c_005",
+        "c_006",
+        "c_007"
+      ],
+      "source_refs": [
+        "oet_uae",
+        "doh_residency",
+        "dha_residency",
+        "nmc_oet",
+        "nmba_registration_standard"
+      ],
+      "last_verified_at": "2026-04-18T17:09:56+04:00"
+    },
+    "verified_entities": {
+      "value": [
+        "OET",
+        "Dubai Health Authority",
+        "Department of Health Abu Dhabi",
+        "Nursing and Midwifery Council",
+        "Nursing and Midwifery Board of Australia"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "c_001",
+        "c_002",
+        "c_003",
+        "c_004",
+        "c_005",
+        "c_006",
+        "c_007",
+        "c_008",
+        "c_009"
+      ],
+      "source_refs": [
+        "oet_about_test",
+        "oet_uae",
+        "oet_sample_tests",
+        "dha_residency",
+        "doh_residency",
+        "nmc_oet",
+        "nmba_registration_standard"
+      ],
+      "last_verified_at": "2026-04-18T17:09:56+04:00"
+    },
+    "verified_requirements": {
+      "value": [
+        "Abu Dhabi residency: OET >= C for international graduates.",
+        "Dubai residency: OET = 300 (C+ in all categories).",
+        "UK NMC registration: reading/listening/speaking >= B and writing >= C+.",
+        "Australia NMBA registration: minimum B in each of the four components."
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "c_004",
+        "c_005",
+        "c_006",
+        "c_007"
+      ],
+      "source_refs": [
+        "doh_residency",
+        "dha_residency",
+        "nmc_oet",
+        "nmba_registration_standard"
+      ],
+      "last_verified_at": "2026-04-18T17:09:56+04:00"
+    },
+    "hard_blockers": {
+      "value": [
+        "UAE route language cannot use a universal Grade B threshold.",
+        "GCC-wide scope is not publicly verified.",
+        "Pass guarantee and curriculum-design claims are not externally verified."
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "c_010",
+        "c_011",
+        "c_012",
+        "c_013",
+        "c_014",
+        "c_015"
+      ],
+      "source_refs": [
+        "dha_residency",
+        "doh_residency"
+      ],
+      "last_verified_at": "2026-04-18T17:09:56+04:00"
+    }
+  },
+  "analyst_only_fields": {
+    "open_questions": {
+      "value": [
+        "Is GCC scope an intentional market boundary or only a legacy assumption?",
+        "Should marketing copy mention UK/Australia only at the jurisdiction-specific threshold level?",
+        "Are the 15-24 corrected letters and cohort size still active course-design facts?",
+        "Is any pass guarantee currently part of the live offer?"
+      ],
+      "confidence_band": "medium",
+      "omission_reason": "Useful for audit follow-up, but these are open questions rather than dashboard-safe facts."
+    }
+  },
+  "blocked_fields": {
+    "marketing_route_language": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "Universal B-grade wording is contradicted for UAE regulators."
+    },
+    "gcc_scope": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "Public verification reached UAE, UK, and Australia only; GCC-wide scope remains unproven."
+    },
+    "pass_guarantee": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "No public source supports guarantee language."
+    },
+    "curriculum_letter_count_and_cohort_size": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "These are internal course-design assumptions, not externally verified facts."
+    }
+  },
+  "verification_summary": {
+    "verified_claim_count": 9,
+    "contradicted_claim_count": 2,
+    "blocked_question_count": 5
+  }
+}

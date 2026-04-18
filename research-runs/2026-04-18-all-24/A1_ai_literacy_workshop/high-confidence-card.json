@@ -1,0 +1,349 @@
+{
+  "schema_version": "research_card_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A1",
+  "product_title": "AI Literacy Workshop",
+  "analysis_timestamp": "2026-04-18T13:45:00Z",
+  "jurisdictions": [
+    "Luxembourg",
+    "EU"
+  ],
+  "sources": [
+    {
+      "source_id": "eu_ai_literacy_policy",
+      "title": "AI talent, skills and literacy",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy",
+      "source_type": "official",
+      "authority_tier": "T1",
+      "jurisdiction": "EU",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:45:00Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "eu_ai_literacy_qa",
+      "title": "AI Literacy - Questions & Answers",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+      "source_type": "official",
+      "authority_tier": "T1",
+      "jurisdiction": "EU",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:45:00Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "guichet_cvt",
+      "title": "Financial aid for in-company continuing vocational training",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/financement-aides/aides-emploi-recrutement-formation/formation-professionnelle-continue/fpc-entreprise.html",
+      "source_type": "government",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": "2019-01-09",
+      "accessed_at": "2026-04-18T13:45:00Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "fit4ai",
+      "title": "Fit 4 AI",
+      "publisher": "Luxinnovation",
+      "url": "https://luxinnovation.lu/fit-4-ai",
+      "source_type": "public_agency",
+      "authority_tier": "T2",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:45:00Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "eurostat_ai_2023",
+      "title": "8% of EU enterprises used AI technologies in 2023",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20240529-2",
+      "source_type": "government",
+      "authority_tier": "T1",
+      "jurisdiction": "EU",
+      "published_at": "2024-05-29",
+      "accessed_at": "2026-04-18T13:45:00Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "houseoftraining_ai_fundamentals",
+      "title": "Generative artificial intelligences - Fundamentals",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/generative-artificial-intelligences-fundamentals-12375",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:45:00Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "houseoftraining_ai_act_course",
+      "title": "How to Navigate the European Union Artificial Intelligence Act (EU AI Act)",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/how-to-navigate-the-european-union-artificial-intelligence-act-eu-ai-act-14526",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:45:00Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "houseoftraining_ai_risk",
+      "title": "Risk Management - Information Security, Data Protection and Artificial Intelligence",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/risk-management-information-security-data-protection-and-artificial-intelligence-14729",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:45:00Z",
+      "language": "en",
+      "archive_url": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_001",
+      "category": "regulatory_requirement",
+      "claim_text": "Article 4 of the AI Act has applied since 2 February 2025 and requires providers and deployers of AI systems to ensure a sufficient level of AI literacy of their staff and other persons acting on their behalf.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "eu_ai_literacy_policy"
+      ],
+      "supporting_quote_ids": [
+        "q_001"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "claim_002",
+      "category": "deadline",
+      "claim_text": "The AI literacy obligation already applies, while supervision and enforcement begin in August 2026.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "eu_ai_literacy_qa"
+      ],
+      "supporting_quote_ids": [
+        "q_002",
+        "q_003"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "claim_003",
+      "category": "funding",
+      "claim_text": "Luxembourg State support exists for business vocational training plans.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_cvt"
+      ],
+      "supporting_quote_ids": [
+        "q_004"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "claim_004",
+      "category": "funding",
+      "claim_text": "Luxembourg company-training financial aid is available to private-sector businesses legally established in Luxembourg, and it excludes mandatory continuing training for regulated professions.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_cvt"
+      ],
+      "supporting_quote_ids": [
+        "q_005",
+        "q_006"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "claim_005",
+      "category": "funding",
+      "claim_text": "Fit 4 AI is a real Luxembourg SME support route that offers co-financing for an AI assessment and roadmap phase, including 50% consultancy cost coverage.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "fit4ai"
+      ],
+      "supporting_quote_ids": [
+        "q_007",
+        "q_008"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "claim_006",
+      "category": "market_context",
+      "claim_text": "Eurostat reported that 14.4% of Luxembourg enterprises with 10 or more employees used AI technologies in 2023.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "eurostat_ai_2023"
+      ],
+      "supporting_quote_ids": [
+        "q_009"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "claim_007",
+      "category": "competitor",
+      "claim_text": "House of Training publicly offers a 4h face-to-face AI fundamentals course in English for 175 EUR.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "houseoftraining_ai_fundamentals"
+      ],
+      "supporting_quote_ids": [
+        "q_010"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "claim_008",
+      "category": "competitor",
+      "claim_text": "House of Training publicly offers a 4h distance-learning EU AI Act course in English for 175 EUR, and its programme explicitly includes the framework and compliance implications of the EU AI Act.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "houseoftraining_ai_act_course"
+      ],
+      "supporting_quote_ids": [
+        "q_011",
+        "q_012"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "claim_009",
+      "category": "competitor",
+      "claim_text": "House of Training publicly offers a 4h AI risk, data protection, and artificial intelligence course in both face-to-face and distance-learning formats, with hands-on AI tool exercises.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "houseoftraining_ai_risk"
+      ],
+      "supporting_quote_ids": [
+        "q_013",
+        "q_014"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "ext_002",
+      "category": "deadline",
+      "claim_text": "The AI literacy obligation becomes a compliance concern only by August 2026.",
+      "jurisdiction": "EU",
+      "status": "contradicted",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [
+        "eu_ai_literacy_qa"
+      ],
+      "contradicting_quote_ids": [
+        "q_002",
+        "q_003"
+      ]
+    },
+    {
+      "claim_id": "ext_006",
+      "category": "competitor_gap",
+      "claim_text": "This is the only Luxembourg offer combining EU AI Act compliance, hands-on practice, and audit-style documentation.",
+      "jurisdiction": "Luxembourg",
+      "status": "contradicted",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [
+        "houseoftraining_ai_fundamentals",
+        "houseoftraining_ai_act_course",
+        "houseoftraining_ai_risk"
+      ],
+      "contradicting_quote_ids": [
+        "q_010",
+        "q_011",
+        "q_012",
+        "q_013",
+        "q_014"
+      ]
+    }
+  ],
+  "open_questions": [
+    {
+      "question_id": "oq_001",
+      "question": "Does the proposed workshop certificate have any official or buyer-recognised compliance significance beyond proof of attendance?",
+      "reason": "No public authority source confirmed external standing for the certificate.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_002",
+      "question": "Can the workshop's documentation be marketed as compliance or audit evidence?",
+      "reason": "No regulator or public funding source confirmed that claim.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_003",
+      "question": "Is this exact workshop eligible for Fit 4 AI or any AI-specific subsidy route, as opposed to general company-training co-funding?",
+      "reason": "Scheme-level support exists, but product-specific eligibility was not publicly proven.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_004",
+      "question": "What differentiation remains once the exclusivity claim is removed and House of Training is treated as a verified competitor?",
+      "reason": "The remaining wedge likely depends on targeting, packaging, or customization rather than on a unique market gap.",
+      "blocking": true
+    }
+  ],
+  "verification_summary": {
+    "verified_claim_count": 9,
+    "partially_verified_claim_count": 0,
+    "unverified_claim_count": 0,
+    "contradicted_claim_count": 2,
+    "blocked_question_count": 4,
+    "official_source_count": 5,
+    "total_source_count": 8
+  },
+  "safe_fields": [
+    "jurisdiction_scope",
+    "regulatory_context",
+    "training_support_route",
+    "market_adoption_stat",
+    "verified_competitors"
+  ]
+}

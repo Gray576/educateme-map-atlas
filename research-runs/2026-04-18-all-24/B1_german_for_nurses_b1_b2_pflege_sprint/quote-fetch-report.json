@@ -1,0 +1,241 @@
+{
+  "schema_version": "research_v2_quote_fetch_report_v1",
+  "product_code": "B1",
+  "generated_at": "2026-04-18T12:58:18.732Z",
+  "source_count": 9,
+  "candidate_count": 67,
+  "source_reports": [
+    {
+      "source_id": "ba_nursing_shortage_2024",
+      "title": "Nursing staff in Germany: mostly female, part-time and in more demand than ever before",
+      "url": "https://www.arbeitsagentur.de/en/press/2024-19-nursing-staff-in-germany-mostly-female-part-time-and-in-more-demand-than-ever-before",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003",
+        "ext_004"
+      ],
+      "terms": [
+        "2023",
+        "nursing",
+        "germany",
+        "2025",
+        "foreign",
+        "nurses",
+        "reported",
+        "sector",
+        "vacancies",
+        "300k",
+        "agency",
+        "average"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "ba_nurses_2025",
+      "title": "Nurses Day",
+      "url": "https://www.arbeitsagentur.de/en/press/2025-21-nurses-day-most-new-nurses-are-from-foreign-countries",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_004"
+      ],
+      "terms": [
+        "nurses",
+        "2023",
+        "2025",
+        "foreign",
+        "300k",
+        "card",
+        "figure",
+        "germany",
+        "national",
+        "nationals",
+        "nursing",
+        "overall"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "telc_pflege",
+      "title": "telc Deutsch B1-B2 Pflege",
+      "url": "https://www.telc.net/sprachpruefungen/zertifikatspruefung/deutsch/telc-deutsch-b1b2-pflege/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001"
+      ],
+      "terms": [
+        "telc",
+        "deutsch",
+        "exam",
+        "nursing",
+        "pflege",
+        "certifies",
+        "competence",
+        "exists",
+        "language",
+        "listening",
+        "proves",
+        "reading"
+      ],
+      "candidate_count": 7
+    },
+    {
+      "source_id": "goethe_pflege",
+      "title": "Goethe-Test PRO Pflege",
+      "url": "https://www.goethe.de/ins/de/de/fku/gtp.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_002"
+      ],
+      "terms": [
+        "goethe",
+        "pflege",
+        "proof",
+        "test",
+        "accepted",
+        "bamf",
+        "exam",
+        "exists",
+        "foreign",
+        "german",
+        "language",
+        "nursing"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "goethe_pflege_results",
+      "title": "Informationen zu den Prüfungsergebnissen - Goethe-Test PRO Pflege Deutsch für Pflegeberufe",
+      "url": "https://www.goethe.de/de/spr/prf/pes/papf.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_002"
+      ],
+      "terms": [
+        "goethe",
+        "pflege",
+        "proof",
+        "test",
+        "accepted",
+        "bamf",
+        "deutsch",
+        "exam",
+        "exists",
+        "foreign",
+        "fungsergebnissen",
+        "german"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "bamf_deufoev",
+      "title": "Verordnung über die berufsbezogene Deutschsprachförderung (DeuFöV)",
+      "url": "https://www.bamf.de/SharedDocs/Anlagen/DE/Integration/Berufsbezsprachf-ESF-BAMF/BSK-Rechtsgrundlagen/vo-berufsbezogene-deutschsprachfoerderung.html?nn=279612",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_005"
+      ],
+      "terms": [
+        "bamf",
+        "deuf",
+        "german",
+        "language",
+        "support",
+        "assigns",
+        "backed",
+        "berufsbezogene",
+        "deutschsprachf",
+        "exists",
+        "implementation",
+        "occupational"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "triplewin_makeit",
+      "title": "Recruiting nursing professionals from abroad for the German labour market",
+      "url": "https://www.make-it-in-germany.com/en/recruiting-nursing-professionals-from-abroad-for-the-german-labour-market",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_006"
+      ],
+      "terms": [
+        "brazil",
+        "india",
+        "morocco",
+        "recruiting",
+        "abroad",
+        "agreements",
+        "arrangements",
+        "bilateral",
+        "define",
+        "german",
+        "indonesia",
+        "labour"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "triplewin_projects",
+      "title": "Current projects for recruiting skilled workers",
+      "url": "https://www.make-it-in-germany.com/en/looking-for-foreign-professionals/support/projects",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_006"
+      ],
+      "terms": [
+        "brazil",
+        "india",
+        "morocco",
+        "recruiting",
+        "agreements",
+        "arrangements",
+        "bilateral",
+        "current",
+        "define",
+        "indonesia",
+        "philippines",
+        "projects"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "makeit_nursing",
+      "title": "Nursing professionals",
+      "url": "https://www.make-it-in-germany.com/en/working-in-germany/professions-in-demand/nursing",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "nursing",
+        "professionals"
+      ],
+      "candidate_count": 4
+    }
+  ]
+}

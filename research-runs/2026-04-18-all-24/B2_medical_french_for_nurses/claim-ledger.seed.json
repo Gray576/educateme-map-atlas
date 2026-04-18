@@ -1,0 +1,107 @@
+{
+  "schema_version": "claim_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B2",
+  "product_title": "Medical French for Nurses",
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "recognition",
+      "claim_text": "France requires recognition or authorization to exercise for foreign-trained paramedical professions.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "france_paramedical",
+        "france_diploma_recognition"
+      ],
+      "contradiction_flag": false,
+      "notes": "Service-Public states that regulated paramedical professions require the corresponding diploma or authorization to exercise in France.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "recognition",
+      "claim_text": "Belgium requires foreign-trained healthcare professionals to obtain a visa and prove sufficient language knowledge; B2 applies to nurses at bachelor's level.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "belgium_visa_lang",
+        "belgium_irsg"
+      ],
+      "contradiction_flag": false,
+      "notes": "Belgian FPS Public Health states that nurses need a visa and that B2 is the required language level for the relevant bachelor's-level healthcare professions.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "recognition",
+      "claim_text": "Switzerland requires foreign medical and psychology qualifications to be submitted in a national language.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "swiss_foph"
+      ],
+      "contradiction_flag": false,
+      "notes": "The Swiss FOPH states that applications must be submitted in German, French or Italian.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_004",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "No dedicated online Medical French provider identified.",
+      "legacy_status": "unverified",
+      "supporting_source_ids": [
+        "prolingua_tailor_made",
+        "inlingua_company_courses"
+      ],
+      "contradiction_flag": false,
+      "notes": "The reviewed public sources show strong substitutes and general language providers, but not an exhaustive market census of online medical French offers.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "France needs 500K+ healthcare workers.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "No primary official source reviewed confirmed this figure in the context of this product.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "scope_fit",
+      "claim_text": "The same model can be applied to France, Belgium and Switzerland without material redesign.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The public evidence shows the countries have different recognition and language rules.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "recognition",
+      "claim_text": "The product's certificate will be accepted for practice or recognition.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "Acceptance depends on the destination authority, not on the provider's course label.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_004",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "The market lacks a dedicated online Medical French alternative.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The reviewed sources do not provide an exhaustive market census.",
+      "next_action": "treat as open question, not as fact"
+    }
+  ]
+}

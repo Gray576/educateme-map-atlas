@@ -1,0 +1,68 @@
+{
+  "schema_version": "contradiction_log_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A4",
+  "product_title": "AI for Finance & Compliance",
+  "analysis_timestamp": "2026-04-18T13:37:35Z",
+  "contradictions": [
+    {
+      "contradiction_id": "c_001",
+      "claim_id": "ext_001",
+      "claim_text": "A4 can be positioned as satisfying a CSSF- or AI-Act-mandated finance-specific governance structure or mandatory training requirement.",
+      "status": "contradicted",
+      "contradicting_source_ids": [
+        "cssf_ai_thematic_review",
+        "eu_ai_literacy_qa"
+      ],
+      "contradicting_quote_ids": [
+        "q_001",
+        "q_007",
+        "q_008",
+        "q_009"
+      ],
+      "resolution": "Keep the framing narrow: Article 4 creates an AI literacy obligation for providers and deployers, and the CSSF/BCL report shows finance-sector relevance, but neither source creates a finance-specific mandated governance board or one mandatory course format.",
+      "why_it_matters": "The legacy framing overstates the legal posture and would create unnecessary compliance risk in sales copy."
+    },
+    {
+      "contradiction_id": "c_002",
+      "claim_id": "ext_002",
+      "claim_text": "A4 is the only multilingual Luxembourg finance-sector provider with AI Act or compliance framing.",
+      "status": "contradicted",
+      "contradicting_source_ids": [
+        "houseoftraining_finance_ai_license",
+        "houseoftraining_ai_risk",
+        "houseoftraining_prompt_finance"
+      ],
+      "contradicting_quote_ids": [
+        "q_016",
+        "q_017",
+        "q_018",
+        "q_019"
+      ],
+      "resolution": "Drop the uniqueness claim. Public House of Training pages already show multiple Luxembourg finance-sector AI offerings with AI Act, GDPR, and compliance framing.",
+      "why_it_matters": "The competitor landscape is not empty, so any launch positioning must compete on packaging or execution rather than on false market absence."
+    }
+  ],
+  "falsification_searches": [
+    {
+      "query": "\"AI literacy\" \"financial services\" \"AI governance board\"",
+      "result": "The AI Office Q&A contradicts any claim that a specific governance structure or finance-specific template is mandated under Article 4."
+    },
+    {
+      "query": "\"Luxembourg\" \"financial sector\" \"AI Act\" training",
+      "result": "House of Training public pages contradict the uniqueness claim by showing multiple finance-sector AI/compliance courses."
+    },
+    {
+      "query": "\"Fit 4 AI\" training 30% Luxembourg",
+      "result": "The reviewed public page proves a co-financed assessment/roadmap route and 50% consultancy-cost coverage, but not product-specific training eligibility or any 30% product rate."
+    }
+  ],
+  "summary": {
+    "checked_claim_count": 15,
+    "contradicted_count": 2,
+    "open_issue_count": 4,
+    "verified_claim_count": 9,
+    "unverified_claim_count": 1,
+    "unclear_claim_count": 3
+  }
+}

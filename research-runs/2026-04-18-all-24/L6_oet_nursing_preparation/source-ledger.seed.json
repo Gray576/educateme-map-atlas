@@ -1,0 +1,55 @@
+{
+  "schema_version": "source_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L6",
+  "sources": [
+    {
+      "source_id": "oet_uae",
+      "title": "United Arab Emirates",
+      "publisher": "OET",
+      "url": "https://oet.com/en-us/test/who-recognises-oet/recognising-organisations/united-arab-emirates",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "oet_acceptance_worldwide",
+      "title": "What is the OET Test, where and how do I take it",
+      "publisher": "OET",
+      "url": "https://oet.com/en-us/about/the-test",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "oet_intro_courses",
+      "title": "OET homepage",
+      "publisher": "OET",
+      "url": "https://oet.com/en-us/",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "oet_sample_tests",
+      "title": "OET free sample tests",
+      "publisher": "OET",
+      "url": "https://oet.com/preparation-portal/free-sample-tests/",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    }
+  ]
+}

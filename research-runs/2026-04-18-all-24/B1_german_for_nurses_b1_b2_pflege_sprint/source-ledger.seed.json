@@ -1,0 +1,115 @@
+{
+  "schema_version": "source_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B1",
+  "sources": [
+    {
+      "source_id": "ba_nursing_shortage_2024",
+      "title": "Nursing staff in Germany: mostly female, part-time and in more demand than ever before",
+      "publisher": "Federal Employment Agency",
+      "url": "https://www.arbeitsagentur.de/en/press/2024-19-nursing-staff-in-germany-mostly-female-part-time-and-in-more-demand-than-ever-before",
+      "source_type": "official",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "ba_nurses_2025",
+      "title": "Nurses Day",
+      "publisher": "Federal Employment Agency",
+      "url": "https://www.arbeitsagentur.de/en/press/2025-21-nurses-day-most-new-nurses-are-from-foreign-countries",
+      "source_type": "official",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "telc_pflege",
+      "title": "telc Deutsch B1-B2 Pflege",
+      "publisher": "telc",
+      "url": "https://www.telc.net/sprachpruefungen/zertifikatspruefung/deutsch/telc-deutsch-b1b2-pflege/",
+      "source_type": "exam_body",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "goethe_pflege",
+      "title": "Goethe-Test PRO Pflege",
+      "publisher": "Goethe-Institut",
+      "url": "https://www.goethe.de/ins/de/de/fku/gtp.html",
+      "source_type": "exam_body",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "goethe_pflege_results",
+      "title": "Informationen zu den Prüfungsergebnissen - Goethe-Test PRO Pflege Deutsch für Pflegeberufe",
+      "publisher": "Goethe-Institut",
+      "url": "https://www.goethe.de/de/spr/prf/pes/papf.html",
+      "source_type": "exam_body",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "bamf_deufoev",
+      "title": "Verordnung über die berufsbezogene Deutschsprachförderung (DeuFöV)",
+      "publisher": "BAMF",
+      "url": "https://www.bamf.de/SharedDocs/Anlagen/DE/Integration/Berufsbezsprachf-ESF-BAMF/BSK-Rechtsgrundlagen/vo-berufsbezogene-deutschsprachfoerderung.html?nn=279612",
+      "source_type": "official",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "triplewin_makeit",
+      "title": "Recruiting nursing professionals from abroad for the German labour market",
+      "publisher": "Make it in Germany",
+      "url": "https://www.make-it-in-germany.com/en/recruiting-nursing-professionals-from-abroad-for-the-german-labour-market",
+      "source_type": "official",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "triplewin_projects",
+      "title": "Current projects for recruiting skilled workers",
+      "publisher": "Make it in Germany",
+      "url": "https://www.make-it-in-germany.com/en/looking-for-foreign-professionals/support/projects",
+      "source_type": "official",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "makeit_nursing",
+      "title": "Nursing professionals",
+      "publisher": "Make it in Germany",
+      "url": "https://www.make-it-in-germany.com/en/working-in-germany/professions-in-demand/nursing",
+      "source_type": "official",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    }
+  ]
+}

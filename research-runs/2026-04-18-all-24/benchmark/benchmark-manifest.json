@@ -1,0 +1,17 @@
+{
+  "schema_version": "research_v2_benchmark_manifest_v1",
+  "run_id": "2026-04-18-all-24",
+  "generated_at": "2026-04-18T13:02:36.638Z",
+  "task_count": 96,
+  "products": 24,
+  "task_type_breakdown": {
+    "claim_verification": 96
+  },
+  "status_breakdown": {
+    "contradicted": 19,
+    "verified": 38,
+    "partially_verified": 17,
+    "unverified": 18,
+    "internal_unverified": 4
+  }
+}

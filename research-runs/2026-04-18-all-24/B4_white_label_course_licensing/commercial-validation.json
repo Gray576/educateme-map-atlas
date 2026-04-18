@@ -1,0 +1,117 @@
+{
+  "schema_version": "commercial_validation_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B4",
+  "product_title": "White-Label Course Licensing",
+  "quadrant_segment": "B2B",
+  "validation_velocity": {
+    "validation_model": "10 custdev interviews + 3 partner-route calls + 2 pilot asks + route validation",
+    "binary_pass_signal": "At least 2 qualified buyers accept a paid or structured pilot conversation and 1 credible partner or route owner agrees to proceed.",
+    "binary_kill_signal": "No qualified buyer accepts a pilot conversation and no credible partner or route owner agrees to proceed.",
+    "estimated_cost_to_signal_eur": 5100,
+    "estimated_days_to_signal": 60,
+    "estimated_days_to_first_euro": 60,
+    "founder_independence_score_1_5": null,
+    "testability_score_1_5": 1,
+    "time_to_first_euro_score_1_5": 1,
+    "confidence_band": "medium",
+    "derivation_basis": "Protocol-derived from segment, approval-route complexity, buyer motion, and current validation/citation gaps.",
+    "evidence_refs": {
+      "source_ids": [],
+      "claim_ids": [
+        "ext_002"
+      ]
+    },
+    "notes": "validation queue severity 14; citation status ready; partner motion present; regulatory route present"
+  },
+  "demand_pull": {
+    "demand_evidence_score_1_5": null,
+    "wtp_score_1_5": null,
+    "cac_reality_score_1_5": null,
+    "retention_structure_score_1_5": 4,
+    "macro_trajectory_score_1_5": null,
+    "channel_fit_score_1_5": null,
+    "confidence_band": "low",
+    "derivation_basis": "Only offer structure and currently sourced competitor/numeric claims are available. SEMrush, paid search, and traffic observables are intentionally missing.",
+    "evidence_refs": {
+      "source_ids": [
+        "inll_laf",
+        "inll_courses",
+        "lllc"
+      ],
+      "claim_ids": [
+        "ext_003",
+        "ext_004"
+      ]
+    },
+    "notes": "Retention structure is filled from the product format. Demand, WTP, CAC, macro, and channel-fit remain unfilled until SEMrush and distribution evidence are collected."
+  },
+  "regulatory_context": {
+    "regulatory_friction_inverse_score_1_5": 2,
+    "confidence_band": "medium",
+    "derivation_basis": "Derived from confirmed regulatory requirements, approval entities, and current contradiction/risk density in the evidence-backed card.",
+    "evidence_refs": {
+      "source_ids": [],
+      "claim_ids": [
+        "ext_002"
+      ]
+    },
+    "notes": "2 confirmed regulatory requirements in current card; 1 approval or accepted-provider routes already shape delivery claims; 1 high-severity risk flags remain in the current card"
+  },
+  "semrush_snapshot": {
+    "market": "EU",
+    "database": "",
+    "language": "",
+    "keyword_buckets": {
+      "head_terms": [
+        "White-Label Course Licensing",
+        "White-Label Course Licensing EU"
+      ],
+      "commercial_modifiers": [
+        "white label curriculum",
+        "course licensing",
+        "luxembourg",
+        "b2b"
+      ],
+      "problem_intent": [
+        "language curriculum license",
+        "training content license",
+        "potential licensees want ready"
+      ],
+      "competitor_route": [
+        "INLL Luxembourgish courses and LAF certification",
+        "Luxembourg Lifelong Learning Center (LLLC)",
+        "Business permit for continuing professional training establishment route"
+      ]
+    },
+    "metrics": {
+      "keyword_count_total": null,
+      "keyword_count_commercial": null,
+      "volume_sum": null,
+      "volume_sum_commercial": null,
+      "avg_cpc": null,
+      "max_cpc": null,
+      "avg_competitive_density": null,
+      "high_intent_keyword_count": null,
+      "paid_competitor_count": null
+    },
+    "top_paid_competitors": [],
+    "observed_price_points": [],
+    "serp_feature_notes": "",
+    "traffic_analytics_notes": ""
+  },
+  "portfolio_tags": {
+    "niche": "White-Label Course Licensing / other",
+    "persona": "partner",
+    "channel_primary": "",
+    "channel_secondary": "",
+    "price_point": "enterprise-ticket",
+    "delivery_mode": "licensing"
+  },
+  "collapsed_scores": {
+    "validation_velocity_composite": 1,
+    "demand_pull_composite": null,
+    "overall_confidence_band": "low",
+    "confidence_reason": "Validation velocity is partially populated, but founder-independence, demand observables, and SEMrush-backed pull metrics are still missing."
+  }
+}

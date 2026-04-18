@@ -1,0 +1,185 @@
+{
+  "schema_version": "field_decisions_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A9",
+  "product_title": "Integration Bundle (Sproochtest+)",
+  "analysis_timestamp": "2026-04-18T14:00:45Z",
+  "field_decisions": [
+    {
+      "field_id": "jurisdiction_scope",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Luxembourg"
+      ],
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_005",
+        "claim_006"
+      ],
+      "source_refs": [
+        "guichet_naturalisation",
+        "guichet_conditions_prealables",
+        "men_citizenship_courses",
+        "inll_faq"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z",
+      "reason": "All verified route facts are Luxembourg-specific."
+    },
+    {
+      "field_id": "official_requirements",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "The nationality route requires a Sproochentest pass certificate plus completion of the 'Vivre ensemble au Grand-Duché de Luxembourg' course or exam.",
+      "claim_refs": [
+        "claim_001"
+      ],
+      "source_refs": [
+        "guichet_naturalisation"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z",
+      "reason": "Most important official route fact."
+    },
+    {
+      "field_id": "exam_structure",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "The Sproochentest tests A2 oral expression and B1 oral understanding, is the only recognised certification for nationality, and remains valid for an unlimited period.",
+      "claim_refs": [
+        "claim_002",
+        "claim_003"
+      ],
+      "source_refs": [
+        "men_citizenship_courses",
+        "inll_faq"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z",
+      "reason": "This is the cleanest fact layer for the exam itself."
+    },
+    {
+      "field_id": "reimbursement_route",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "The Sproochentest fee is EUR 75. Reimbursement for the test and approved course fees is conditional and can only be claimed after the nationality application has been submitted.",
+      "claim_refs": [
+        "claim_005",
+        "claim_006"
+      ],
+      "source_refs": [
+        "guichet_conditions_prealables",
+        "men_citizenship_courses"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z",
+      "reason": "Safe wording separates the fee fact from the approval conditions."
+    },
+    {
+      "field_id": "verified_competitors",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "ETIC",
+        "Prolingua",
+        "Lux'Languages",
+        "LuxLessons"
+      ],
+      "claim_refs": [
+        "claim_007",
+        "claim_008",
+        "claim_009",
+        "claim_010"
+      ],
+      "source_refs": [
+        "etic_sproochentest",
+        "prolingua_nationality_courses",
+        "luxlanguages_sproochentest_individual",
+        "luxlessons_course"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z",
+      "reason": "The market already has multiple live prep offers."
+    },
+    {
+      "field_id": "hard_blockers",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "The market is not empty; official and private prep alternatives already exist.",
+        "Reimbursement copy must distinguish the 75 euro test fee from conditional approved-course reimbursement.",
+        "Pure-upsell, no-new-traffic, low-risk, and 2K launch-cost claims are internal assumptions, not verified facts."
+      ],
+      "claim_refs": [
+        "ext_003",
+        "ext_004",
+        "int_001",
+        "int_002",
+        "int_003",
+        "int_004"
+      ],
+      "source_refs": [
+        "guichet_conditions_prealables",
+        "men_citizenship_courses",
+        "etic_sproochentest",
+        "prolingua_nationality_courses",
+        "luxlanguages_sproochentest_individual",
+        "luxlessons_course"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z",
+      "reason": "These are the remaining publication risks after the rerun."
+    },
+    {
+      "field_id": "target_audience_summary",
+      "status": "analyst_only",
+      "confidence_band": "medium",
+      "value": "Naturalisation candidates and Luxembourg newcomers who want Sproochentest preparation plus civic-orientation support.",
+      "claim_refs": [
+        "claim_001",
+        "claim_004"
+      ],
+      "source_refs": [
+        "guichet_naturalisation",
+        "men_citizenship_courses"
+      ],
+      "last_verified_at": "2026-04-18T14:00:45Z",
+      "omission_reason": "Reasonable synthesis, but still positioning rather than a direct public fact."
+    },
+    {
+      "field_id": "market_leadership",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "int_001"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T14:00:45Z",
+      "omission_reason": "No public evidence proves category leadership."
+    },
+    {
+      "field_id": "pure_upsell_positioning",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "int_001",
+        "int_002"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T14:00:45Z",
+      "omission_reason": "Existing-funnel sufficiency is an internal GTM assumption."
+    },
+    {
+      "field_id": "launch_cost_estimate",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "int_003"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T14:00:45Z",
+      "omission_reason": "The 2K launch estimate is not externally verifiable."
+    }
+  ]
+}

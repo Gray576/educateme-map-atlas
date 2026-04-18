@@ -1,0 +1,108 @@
+{
+  "schema_version": "claim_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B3",
+  "product_title": "AI Literacy (EU-wide remote)",
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "mandate",
+      "claim_text": "AI Act Article 4 requires providers and deployers of AI systems to take measures ensuring sufficient AI literacy of staff and other persons acting on their behalf.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "eu_ai_act",
+        "ai_literacy_qna"
+      ],
+      "contradiction_flag": false,
+      "notes": "This is the core regulatory basis for the product.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "compliance",
+      "claim_text": "AI literacy measures should reflect technical knowledge, experience, education, training and the context in which AI systems are used.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "ai_literacy_qna"
+      ],
+      "contradiction_flag": false,
+      "notes": "The Commission's AI literacy Q&A makes the context-sensitive interpretation explicit.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "House of Training offers practical AI fundamentals training that can substitute for generic AI literacy workshops.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "houseoftraining_ai_fundamentals"
+      ],
+      "contradiction_flag": false,
+      "notes": "House of Training publicly lists a 4h face-to-face generative AI fundamentals course in French.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_004",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "Elements of AI is a free online substitute with no attendance requirements or exams.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "elements_ai_pdf"
+      ],
+      "contradiction_flag": false,
+      "notes": "The course description states that it is completed online with no attendance requirements or exams.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_005",
+      "origin": "legacy_external_claim",
+      "category": "numeric_claim",
+      "claim_text": "EU-wide coverage applies to all companies.",
+      "legacy_status": "contradicted",
+      "supporting_source_ids": [
+        "eu_ai_act",
+        "ai_literacy_qna"
+      ],
+      "contradiction_flag": true,
+      "notes": "The AI Act applies to providers and deployers of AI systems and related actors in scope, not to every company in the EU by default.",
+      "next_action": "falsify fully and rewrite or drop"
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "competitor_gap",
+      "claim_text": "Most AI literacy training is English-only.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The reviewed substitutes include a French public offering and a multilingual corporate market example, so the blanket language claim is not proven.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "scope_fit",
+      "claim_text": "EU-wide remote delivery is enough to solve the buyer's AI literacy problem.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The product may still need local policy and country-context adaptation.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "The multilingual FR/DE/EN angle is a durable geographic advantage.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The advantage is plausible but not externally established.",
+      "next_action": "treat as open question, not as fact"
+    }
+  ]
+}

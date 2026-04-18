@@ -1,0 +1,116 @@
+{
+  "schema_version": "claim_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L7",
+  "product_title": "OET Medical Preparation (Doctors)",
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "exam",
+      "claim_text": "OET Medicine is the approved English language and communications skills test for International Medical Graduates applying for ECFMG certification.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "oet_ecfmg"
+      ],
+      "contradiction_flag": false,
+      "notes": "OET's official ECFMG page states this directly.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "exam",
+      "claim_text": "OET Medicine is designed specifically for physicians and is an essential step in ECFMG's Pathways program.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "oet_ecfmg"
+      ],
+      "contradiction_flag": false,
+      "notes": "The official ECFMG page says OET Medicine is designed specifically for physicians and is an essential step in the Pathways program.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "recognition",
+      "claim_text": "OET is accepted by healthcare regulators in the UAE and recognized by healthcare regulators, educational institutions and visa and immigration services worldwide.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "oet_acceptance_worldwide",
+        "oet_uae"
+      ],
+      "contradiction_flag": false,
+      "notes": "The official OET site supports broad acceptance, and the UAE country page shows acceptance in Abu Dhabi and Dubai contexts.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_004",
+      "origin": "legacy_external_claim",
+      "category": "other",
+      "claim_text": "ECFMG now requires OET only and has dropped IELTS.",
+      "legacy_status": "unverified",
+      "supporting_source_ids": [
+        "oet_ecfmg"
+      ],
+      "contradiction_flag": false,
+      "notes": "The reviewed official sources confirm OET Medicine is approved and essential for Pathways, but they do not establish the broader 'OET only' framing.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_005",
+      "origin": "legacy_external_claim",
+      "category": "numeric_claim",
+      "claim_text": "The curriculum includes 24 corrected medical letters and uses doctor-exclusive cohorts only.",
+      "legacy_status": "unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "These are internal course-design choices and were not externally verified.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "ECFMG now requires OET only and has dropped IELTS.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The official sources reviewed do not prove the broader exclusion claim.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "The curriculum includes 24 corrected medical letters and uses doctor-exclusive cohorts only.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "These are internal design choices, not public facts.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "A premium 1:1 format is necessary for doctors.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "No public source reviewed proves that this format is required rather than merely preferred.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_004",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "The tutor network is fully MD/MBBS + OET certified and sufficient for the target market.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "Tutor qualifications and adequacy were not externally verified.",
+      "next_action": "treat as open question, not as fact"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "schema_version": "research_v2_quote_fetch_report_v1",
+  "product_code": "B6",
+  "generated_at": "2026-04-18T12:58:28.384Z",
+  "source_count": 7,
+  "candidate_count": 42,
+  "source_reports": [
+    {
+      "source_id": "eu_blue_card_portal",
+      "title": "EU Blue Card",
+      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card_en",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "blue",
+        "card"
+      ],
+      "candidate_count": 4
+    },
+    {
+      "source_id": "eu_blue_card_rules",
+      "title": "New EU Blue Card rules for highly qualified immigrants wishing to work in Europe",
+      "url": "https://www.europarl.europa.eu/news/en/press-room/20210910IPR11915/carte-bleue-regles-pour-les-immigrants-qualifies-souhaitant-travailler-en-europe",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003",
+        "ext_004",
+        "ext_005"
+      ],
+      "terms": [
+        "blue",
+        "card",
+        "framework",
+        "revised",
+        "contract",
+        "rules",
+        "agency",
+        "allows",
+        "applies",
+        "because",
+        "broad",
+        "changes"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "eu_blue_card_luxembourg",
+      "title": "EU Blue card in Luxembourg",
+      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-luxembourg_en",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003",
+        "ext_004",
+        "ext_005"
+      ],
+      "terms": [
+        "blue",
+        "card",
+        "framework",
+        "revised",
+        "contract",
+        "agency",
+        "allows",
+        "applies",
+        "because",
+        "broad",
+        "changes",
+        "commission"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "lireco_about",
+      "title": "Recruitment and Language Training for Swedish Healthcare",
+      "url": "https://lireco.se/en/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "healthcare",
+        "language",
+        "recruitment",
+        "swedish"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "charite_recruitment",
+      "title": "International recruitment of nurses",
+      "url": "https://www.charite.de/en/international/archiv/for_physicians_and_nursing_staff/working_at_charite/international_recruitment_of_nurses",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "international",
+        "nurses",
+        "recruitment"
+      ],
+      "candidate_count": 6
+    },
+    {
+      "source_id": "hse_relocation_package",
+      "title": "HSE International / Returning Emigrants Recruitment Relocation Package",
+      "url": "https://about.hse.ie/publications/question-from-deputy-sorca-clarke-pq-1668-26/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "emigrants",
+        "international",
+        "package",
+        "recruitment",
+        "relocation",
+        "returning"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "hse_overseas_candidates",
+      "title": "Overseas candidates",
+      "url": "https://www.hse.ie/eng/staff/jobs/overseas-candidates/",
+      "status": "fetched_no_matches",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "candidates",
+        "overseas"
+      ],
+      "candidate_count": 0
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "schema_version": "research_v2_quote_fetch_report_v1",
+  "product_code": "A9",
+  "generated_at": "2026-04-18T12:58:17.514Z",
+  "source_count": 11,
+  "candidate_count": 61,
+  "source_reports": [
+    {
+      "source_id": "guichet_naturalisation",
+      "title": "Acquiring Luxembourgish nationality by naturalisation",
+      "url": "https://guichet.public.lu/en/citoyens/citoyennete/nationalite-luxembourgeoise/acquisition-recouvrement/naturalisation.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001",
+        "ext_003"
+      ],
+      "terms": [
+        "exam",
+        "nationality",
+        "fees",
+        "language",
+        "official",
+        "sproochentest",
+        "euro",
+        "euros",
+        "guichet",
+        "luxembourgish",
+        "procedure",
+        "reimbursed"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "guichet_conditions_prealables",
+      "title": "Conditions préalables à l'acquisition volontaire de la nationalité",
+      "url": "https://guichet.public.lu/content/guichet/fr/citoyens/citoyennete/nationalite-luxembourgeoise/acquisition-recouvrement/conditions-prealables.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003"
+      ],
+      "terms": [
+        "fees",
+        "euro",
+        "euros",
+        "exam",
+        "reimbursed",
+        "reimbursement",
+        "state",
+        "acquisition",
+        "after",
+        "alables",
+        "amount",
+        "amounts"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "guichet_sproochentest_pdf",
+      "title": "Fiche d'inscription au test en vue de l'admission a la naturalisation",
+      "url": "https://guichet.public.lu/dam-assets/catalogue-formulaires/nationalite/inscription-test-naturalisation/inscription-test-naturalisation-fr.pdf",
+      "status": "fetch_failed",
+      "http_status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "error": "HTTP 404",
+      "matched_claim_ids": [
+        "ext_002",
+        "ext_003"
+      ],
+      "terms": [
+        "fees",
+        "euro",
+        "euros",
+        "exam",
+        "expression",
+        "listening",
+        "material",
+        "official",
+        "oral",
+        "registration",
+        "reimbursed",
+        "reimbursement"
+      ],
+      "candidate_count": 0
+    },
+    {
+      "source_id": "inll_sproochentest",
+      "title": "Sproochentest: déi lëtzebuergesch Nationalitéit erhalen",
+      "url": "https://www.inll.lu/lu/sproochentest-2/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001",
+        "ext_002",
+        "ext_004"
+      ],
+      "terms": [
+        "sproochentest",
+        "official",
+        "language",
+        "bundle",
+        "confirm",
+        "exam",
+        "expression",
+        "inll",
+        "integration",
+        "listening",
+        "nationality",
+        "oral"
+      ],
+      "candidate_count": 6
+    },
+    {
+      "source_id": "etic_sproochentest",
+      "title": "Home | ETIC Sproochentest",
+      "url": "https://sproochentest.etic.lu/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003",
+        "ext_004"
+      ],
+      "terms": [
+        "fees",
+        "sproochentest",
+        "bundle",
+        "etic",
+        "euro",
+        "euros",
+        "exam",
+        "integration",
+        "language",
+        "official",
+        "reimbursed",
+        "reimbursement"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "etic_sproochentest_de",
+      "title": "Startseite | Sproochentest",
+      "url": "https://sproochentest.etic.lu/?lang=de",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "sproochentest",
+        "startseite"
+      ],
+      "candidate_count": 4
+    },
+    {
+      "source_id": "luxlanguages_sproochentest_individual",
+      "title": "Preparation au Sproochentest individuelle 100 % personnalisee",
+      "url": "https://www.luxlanguages.lu/produit/preparation-au-sproochentest/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003"
+      ],
+      "terms": [
+        "fees",
+        "euro",
+        "euros",
+        "exam",
+        "reimbursed",
+        "reimbursement",
+        "sproochentest",
+        "state",
+        "after",
+        "amount",
+        "amounts",
+        "card"
+      ],
+      "candidate_count": 5
+    },
+    {
+      "source_id": "luxlanguages_sproochentest_group",
+      "title": "Preparation au Sproochentest Groupe fevrier",
+      "url": "https://www.luxlanguages.lu/produit/preparation-au-sproochentest-groupe-fevrier/",
+      "status": "fetch_failed",
+      "http_status": 404,
+      "content_type": "text/html; charset=UTF-8",
+      "error": "HTTP 404",
+      "matched_claim_ids": [
+        "ext_004"
+      ],
+      "terms": [
+        "bundle",
+        "integration",
+        "preparation",
+        "sproochentest",
+        "adjacent",
+        "alternatives",
+        "competitor",
+        "empty",
+        "even",
+        "exact",
+        "exists",
+        "fevrier"
+      ],
+      "candidate_count": 0
+    },
+    {
+      "source_id": "prolingua_luxembourgish",
+      "title": "Luxembourgish courses - Prolingua Language Centre",
+      "url": "https://prolingua.lu/en/courses_25/langue/luxembourgish_9",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_004"
+      ],
+      "terms": [
+        "bundle",
+        "integration",
+        "language",
+        "adjacent",
+        "alternatives",
+        "centre",
+        "competitor",
+        "courses",
+        "empty",
+        "even",
+        "exact",
+        "exists"
+      ],
+      "candidate_count": 6
+    },
+    {
+      "source_id": "prolingua_luxembourgish_offers",
+      "title": "Luxembourgish courses under the nationality law provisions",
+      "url": "https://prolingua.lu/en/offers_37/luxembourgish-courses_11/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "courses",
+        "luxembourgish",
+        "nationality",
+        "provisions"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "luxlessons_home",
+      "title": "Learn Luxembourgish Online Fast",
+      "url": "https://www.luxlessons.lu/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_004"
+      ],
+      "terms": [
+        "bundle",
+        "integration",
+        "adjacent",
+        "alternatives",
+        "competitor",
+        "empty",
+        "even",
+        "exact",
+        "exists",
+        "fast",
+        "format",
+        "language"
+      ],
+      "candidate_count": 8
+    }
+  ]
+}

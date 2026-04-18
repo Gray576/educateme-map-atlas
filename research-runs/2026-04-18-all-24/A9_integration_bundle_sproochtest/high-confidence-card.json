@@ -1,0 +1,657 @@
+{
+  "schema_version": "research_card_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A9",
+  "product_title": "Integration Bundle (Sproochtest+)",
+  "analysis_timestamp": "2026-04-18T14:00:45Z",
+  "jurisdictions": [
+    "Luxembourg"
+  ],
+  "sources": [
+    {
+      "source_id": "guichet_naturalisation",
+      "title": "Acquiring Luxembourgish nationality by naturalisation",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/citoyens/citoyennete/nationalite-luxembourgeoise/acquisition-recouvrement/naturalisation.html/1000",
+      "source_type": "government",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": "2022-03-21",
+      "accessed_at": "2026-04-18T14:00:45Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "guichet_conditions_prealables",
+      "title": "Prerequisites for voluntary acquisition of nationality",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/citoyens/citoyennete/nationalite-luxembourgeoise/acquisition-recouvrement/conditions-prealables.html",
+      "source_type": "government",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": "2025-05-23",
+      "accessed_at": "2026-04-18T14:00:45Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "men_citizenship_courses",
+      "title": "Courses and exams to obtain Luxembourg citizenship",
+      "publisher": "Ministry of Education, Children and Youth",
+      "url": "https://men.public.lu/en/systeme-educatif/formation-adultes/integration-nationalite/cours-examen.html",
+      "source_type": "official",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": "2026-03-24",
+      "accessed_at": "2026-04-18T14:00:45Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "inll_sproochentest",
+      "title": "Sproochtentest: obtaining Luxembourg nationality",
+      "publisher": "Institut national des langues Luxembourg (INLL)",
+      "url": "https://www.inll.lu/en/sproochentest-en/",
+      "source_type": "public_institution",
+      "authority_tier": "T2",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T14:00:45Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "inll_faq",
+      "title": "FAQ - inl",
+      "publisher": "Institut national des langues Luxembourg (INLL)",
+      "url": "https://www.inll.lu/en/faq-en/",
+      "source_type": "public_institution",
+      "authority_tier": "T2",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T14:00:45Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "etic_sproochentest",
+      "title": "Home | ETIC SPROOCHENTEST",
+      "publisher": "ETIC",
+      "url": "https://sproochentest.etic.lu/",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T14:00:45Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "prolingua_nationality_courses",
+      "title": "Offers & Discounts | Luxembourgish Courses for residents",
+      "publisher": "Prolingua Language Centre",
+      "url": "https://prolingua.lu/en/offers_37/luxembourgish-courses_11/",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T14:00:45Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "luxlanguages_sproochentest_individual",
+      "title": "Préparation au Sproochentest en individuel",
+      "publisher": "Lux'Languages",
+      "url": "https://www.luxlanguages.lu/en/produit/preparation-au-sproochentest-en-individuel/",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T14:00:45Z",
+      "language": "fr",
+      "archive_url": null
+    },
+    {
+      "source_id": "luxlessons_course",
+      "title": "Luxembourgish Language Course",
+      "publisher": "LuxLessons",
+      "url": "https://www.luxlessons.lu/luxembourgish-course",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T14:00:45Z",
+      "language": "en",
+      "archive_url": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_001",
+      "origin": "v2_rederived_claim",
+      "category": "regulatory_requirement",
+      "claim_text": "Luxembourg naturalisation applicants must provide both a Luxembourgish language test pass certificate and a Vivre ensemble course or test certificate.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_naturalisation"
+      ],
+      "supporting_quote_ids": [
+        "q_001",
+        "q_002"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Core official requirement."
+    },
+    {
+      "claim_id": "claim_002",
+      "origin": "v2_rederived_claim",
+      "category": "exam",
+      "claim_text": "The official Sproochentest is run at INLL for citizenship applicants, assessed at A2 speaking and B1 listening, and preparatory courses are organised by INLL, the SFA, and partners.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "men_citizenship_courses"
+      ],
+      "supporting_quote_ids": [
+        "q_003"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Public route plus exam spec."
+    },
+    {
+      "claim_id": "claim_003",
+      "origin": "v2_rederived_claim",
+      "category": "credential",
+      "claim_text": "INLL states that the Sproochentest is the only recognised certification for applying for Luxembourgish nationality, and the certificate remains valid for an unlimited period.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "inll_faq"
+      ],
+      "supporting_quote_ids": [
+        "q_004",
+        "q_005"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Official standing sits with the INLL result."
+    },
+    {
+      "claim_id": "claim_004",
+      "origin": "v2_rederived_claim",
+      "category": "integration_program",
+      "claim_text": "Luxembourg already has an official 24-hour Vivre ensemble course or exam route covering civic rights, institutions, history, and European integration, and online courses are offered in English.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "men_citizenship_courses"
+      ],
+      "supporting_quote_ids": [
+        "q_006",
+        "q_007"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Official overlap with the bundle's civic-integration framing."
+    },
+    {
+      "claim_id": "claim_005",
+      "origin": "v2_rederived_claim",
+      "category": "funding",
+      "claim_text": "Guichet sets the Sproochentest registration fee at EUR 75 and confirms a conditional reimbursement route for Sproochentest fees and approved-course fees that can only be claimed after the nationality application is submitted.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_conditions_prealables"
+      ],
+      "supporting_quote_ids": [
+        "q_008",
+        "q_009"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Conditional route only."
+    },
+    {
+      "claim_id": "claim_006",
+      "origin": "v2_rederived_claim",
+      "category": "approval_route",
+      "claim_text": "For the 20-year residence route, qualifying Article 28 Luxembourgish courses must be run by the SFA or a ministerially accredited provider, and validated certificates are returned with an official seal.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "men_citizenship_courses"
+      ],
+      "supporting_quote_ids": [
+        "q_010",
+        "q_011"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Approval boundary."
+    },
+    {
+      "claim_id": "claim_007",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "ETIC publicly sells 100% online Sproochentest preparation plans at EUR 980 per year or EUR 96 per month, while stating that official exam registration is handled separately through INLL.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "etic_sproochentest"
+      ],
+      "supporting_quote_ids": [
+        "q_012",
+        "q_013"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Live private prep offer."
+    },
+    {
+      "claim_id": "claim_008",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "Prolingua publicly offers accredited nationality-law Luxembourgish course packages, including a group-course package at EUR 745.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "prolingua_nationality_courses"
+      ],
+      "supporting_quote_ids": [
+        "q_014"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Accredited private alternative."
+    },
+    {
+      "claim_id": "claim_009",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "Lux'Languages publicly offers an individual online Sproochentest preparation course at EUR 750 for 17 hours and only promises an attendance certificate.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "luxlanguages_sproochentest_individual"
+      ],
+      "supporting_quote_ids": [
+        "q_015",
+        "q_016"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Private prep offer with non-official certificate framing."
+    },
+    {
+      "claim_id": "claim_010",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "LuxLessons publicly markets a 100% online Luxembourgish course with intensive Sproochentest prep and citizenship positioning.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "luxlessons_course"
+      ],
+      "supporting_quote_ids": [
+        "q_018",
+        "q_019",
+        "q_020"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Another live market alternative."
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "funding",
+      "claim_text": "Language course fees can be reimbursed by the State up to 750 euros, and Sproochentest registration fees can be reimbursed up to 75 euros after a successful exam in the nationality procedure.",
+      "jurisdiction": "Luxembourg",
+      "status": "contradicted",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [
+        "guichet_conditions_prealables",
+        "luxlanguages_sproochentest_individual"
+      ],
+      "contradicting_quote_ids": [
+        "q_008",
+        "q_009",
+        "q_017"
+      ],
+      "notes": "Legacy reimbursement copy stays closed."
+    },
+    {
+      "claim_id": "ext_004",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "No integration bundle competitor exists.",
+      "jurisdiction": "Luxembourg",
+      "status": "contradicted",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [
+        "men_citizenship_courses",
+        "etic_sproochentest",
+        "prolingua_nationality_courses",
+        "luxlanguages_sproochentest_individual",
+        "luxlessons_course"
+      ],
+      "contradicting_quote_ids": [
+        "q_003",
+        "q_012",
+        "q_013",
+        "q_014",
+        "q_015",
+        "q_018",
+        "q_019",
+        "q_020"
+      ],
+      "notes": "Whitespace claim stays closed."
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "competitor_gap",
+      "claim_text": "Educateme is already #1 in Sproochtest, so this is a pure upsell.",
+      "jurisdiction": "Luxembourg",
+      "status": "unclear",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "No market-share proof found."
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "go_to_market",
+      "claim_text": "No new traffic is needed because existing students are enough.",
+      "jurisdiction": null,
+      "status": "unverified",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Commercial assumption only."
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "The bundle can be launched with only about 2K of investment.",
+      "jurisdiction": null,
+      "status": "unverified",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Internal estimate only."
+    },
+    {
+      "claim_id": "int_004",
+      "origin": "legacy_internal_claim",
+      "category": "risk",
+      "claim_text": "The product is low risk.",
+      "jurisdiction": null,
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Risk judgment remains open."
+    },
+    {
+      "claim_id": "int_005",
+      "origin": "v2_rederived_internal_question",
+      "category": "approval_route",
+      "claim_text": "A9's own Luxembourgish-language component can qualify as an approved or validated Article 28 nationality course.",
+      "jurisdiction": "Luxembourg",
+      "status": "unclear",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "No A9-specific approval proof."
+    },
+    {
+      "claim_id": "int_006",
+      "origin": "v2_rederived_internal_question",
+      "category": "credential",
+      "claim_text": "An A9-issued certificate or bundle completion would have official value in a nationality application.",
+      "jurisdiction": "Luxembourg",
+      "status": "unclear",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "No A9-specific official standing found."
+    },
+    {
+      "claim_id": "int_007",
+      "origin": "v2_rederived_internal_question",
+      "category": "demand",
+      "claim_text": "HR onboarding is a proven second buyer route for this bundle.",
+      "jurisdiction": "Luxembourg",
+      "status": "unverified",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "No buyer-demand proof found."
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "req_001",
+      "requirement": "Naturalisation applicants must provide a Luxembourgish language test pass certificate and a Vivre ensemble course or test certificate.",
+      "applies_to": "Adults applying for Luxembourg naturalisation",
+      "jurisdiction": "Luxembourg",
+      "status": "confirmed",
+      "source_ids": [
+        "guichet_naturalisation"
+      ],
+      "quote_ids": [
+        "q_001",
+        "q_002"
+      ]
+    },
+    {
+      "requirement_id": "req_002",
+      "requirement": "The official Sproochentest route runs through INLL at A2 speaking and B1 listening, and INLL treats it as the only recognised nationality certification.",
+      "applies_to": "Nationality applicants required to prove Luxembourgish language ability",
+      "jurisdiction": "Luxembourg",
+      "status": "confirmed",
+      "source_ids": [
+        "men_citizenship_courses",
+        "inll_faq"
+      ],
+      "quote_ids": [
+        "q_003",
+        "q_004",
+        "q_005"
+      ]
+    },
+    {
+      "requirement_id": "req_003",
+      "requirement": "Reimbursement claims for the Sproochentest fee and approved-course fees are conditional and can only be filed after the nationality application is submitted.",
+      "applies_to": "Nationality applicants seeking reimbursement",
+      "jurisdiction": "Luxembourg",
+      "status": "confirmed",
+      "source_ids": [
+        "guichet_conditions_prealables"
+      ],
+      "quote_ids": [
+        "q_008",
+        "q_009"
+      ]
+    },
+    {
+      "requirement_id": "req_004",
+      "requirement": "Article 28 course routes depend on SFA or ministerially accredited providers and official certificate validation.",
+      "applies_to": "Residents using the 20-year residence course route",
+      "jurisdiction": "Luxembourg",
+      "status": "confirmed",
+      "source_ids": [
+        "men_citizenship_courses"
+      ],
+      "quote_ids": [
+        "q_010",
+        "q_011"
+      ]
+    }
+  ],
+  "competitors": [
+    {
+      "competitor_id": "comp_001",
+      "name": "INLL / SFA preparatory route",
+      "kind": "public_preparation_route",
+      "source_ids": [
+        "men_citizenship_courses"
+      ],
+      "notes": "Official preparatory route around the Sproochentest."
+    },
+    {
+      "competitor_id": "comp_002",
+      "name": "ETIC",
+      "kind": "private_sproochentest_provider",
+      "source_ids": [
+        "etic_sproochentest"
+      ],
+      "notes": "Online paid Sproochentest preparation."
+    },
+    {
+      "competitor_id": "comp_003",
+      "name": "Prolingua Language Centre",
+      "kind": "private_accredited_provider",
+      "source_ids": [
+        "prolingua_nationality_courses"
+      ],
+      "notes": "Accredited nationality-law course packages."
+    },
+    {
+      "competitor_id": "comp_004",
+      "name": "Lux'Languages",
+      "kind": "private_sproochentest_provider",
+      "source_ids": [
+        "luxlanguages_sproochentest_individual"
+      ],
+      "notes": "Individual online Sproochentest preparation."
+    },
+    {
+      "competitor_id": "comp_005",
+      "name": "LuxLessons",
+      "kind": "private_online_course",
+      "source_ids": [
+        "luxlessons_course"
+      ],
+      "notes": "Citizenship-oriented online Luxembourgish course with intensive test prep."
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "entity_001",
+      "name": "Ministry of Justice",
+      "kind": "government_ministry",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "guichet_naturalisation",
+        "guichet_conditions_prealables"
+      ]
+    },
+    {
+      "entity_id": "entity_002",
+      "name": "Institut national des langues Luxembourg (INLL)",
+      "kind": "public_language_centre",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "men_citizenship_courses",
+        "inll_sproochentest",
+        "inll_faq"
+      ]
+    },
+    {
+      "entity_id": "entity_003",
+      "name": "Service de la formation des adultes (SFA)",
+      "kind": "government_adult_education_service",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "men_citizenship_courses"
+      ]
+    },
+    {
+      "entity_id": "entity_004",
+      "name": "Ministry of Education, Children and Youth",
+      "kind": "government_ministry",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "men_citizenship_courses"
+      ]
+    }
+  ],
+  "open_questions": [
+    {
+      "question_id": "oq_001",
+      "question": "What is the actual A9 boundary: Sproochentest prep only, prep plus Vivre ensemble-style civic content, or a broader HR onboarding bundle?",
+      "reason": "The rerun verified the surrounding route context, not the exact bundle boundary.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_002",
+      "question": "Can any part of A9 qualify as an approved or reimbursable nationality-law course under the Article 28 route?",
+      "reason": "Official approval rules are clear, but no A9-specific accreditation evidence was found.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_003",
+      "question": "Does any A9-issued certificate or completion record have official standing in the nationality process?",
+      "reason": "Official standing was verified for INLL and validated Article 28 certificates, not for A9.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_004",
+      "question": "Is the legacy reimbursement message safe enough to publish with a single numeric course-fee cap?",
+      "reason": "The official route survives, but the 750-euro cap wording did not survive as a clean primary-source dashboard statement.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_005",
+      "question": "What differentiator remains once official routes and private alternatives are treated as real competitors?",
+      "reason": "The remaining wedge likely depends on packaging, customer proof, or delivery model rather than an empty market.",
+      "blocking": true
+    }
+  ],
+  "verification_summary": {
+    "verified_claim_count": 10,
+    "partially_verified_claim_count": 0,
+    "unverified_claim_count": 3,
+    "contradicted_claim_count": 2,
+    "blocked_question_count": 5,
+    "official_source_count": 5,
+    "total_source_count": 9
+  }
+}

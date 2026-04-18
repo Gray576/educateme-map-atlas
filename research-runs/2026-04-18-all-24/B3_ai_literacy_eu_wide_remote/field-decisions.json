@@ -1,0 +1,209 @@
+{
+  "schema_version": "field_decisions_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B3",
+  "product_title": "AI Literacy (EU-wide remote)",
+  "analysis_timestamp": "2026-04-18T14:01:28Z",
+  "field_decisions": [
+    {
+      "field_id": "jurisdiction_scope",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "EU"
+      ],
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_007",
+        "claim_008",
+        "claim_010",
+        "claim_011"
+      ],
+      "source_refs": [
+        "ai_literacy_qna",
+        "elements_ai_helsinki_news",
+        "elements_ai_course_description",
+        "elements_ai_eu_platform"
+      ],
+      "last_verified_at": "2026-04-18T14:01:28Z",
+      "reason": "The surviving regulatory and substitute evidence is safely framed at EU level."
+    },
+    {
+      "field_id": "regulatory_context",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "Article 4 applies to providers and deployers of AI systems, requires context-sensitive AI literacy measures, does not mandate a one-size-fits-all training format, certificate, sector template, or governance structure, and already applies from 2 February 2025 with enforcement beginning in August 2026.",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_007"
+      ],
+      "source_refs": [
+        "ai_literacy_qna"
+      ],
+      "last_verified_at": "2026-04-18T14:01:28Z",
+      "reason": "This is the narrowest safe synthesis of the Commission guidance."
+    },
+    {
+      "field_id": "verified_substitutes",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "House of Training",
+        "Elements of AI"
+      ],
+      "claim_refs": [
+        "claim_009",
+        "claim_010",
+        "claim_011"
+      ],
+      "source_refs": [
+        "houseoftraining_ai_fundamentals",
+        "elements_ai_helsinki_news",
+        "elements_ai_course_description",
+        "elements_ai_eu_platform"
+      ],
+      "last_verified_at": "2026-04-18T14:01:28Z",
+      "reason": "The rerun directly verified both a paid French alternative and a free multilingual EU-wide alternative."
+    },
+    {
+      "field_id": "hard_blockers",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Legacy all-companies scope copy is wrong; Article 4 is not a blanket requirement for every EU company",
+        "The English-only market-gap claim is not established after finding French and multilingual substitutes",
+        "EU-wide remote delivery as a complete solution is unproven without country- and context-specific evidence",
+        "The FR/DE/EN positioning is not yet a durable moat because Elements of AI already covers those languages",
+        "Any product-specific certificate, documentation, or governance-artifact value remains unverified beyond the Commission's baseline"
+      ],
+      "claim_refs": [
+        "ext_005",
+        "int_001",
+        "int_002",
+        "int_003",
+        "oq_002",
+        "oq_003",
+        "oq_004"
+      ],
+      "source_refs": [
+        "ai_literacy_qna",
+        "houseoftraining_ai_fundamentals",
+        "elements_ai_helsinki_news",
+        "elements_ai_course_description",
+        "elements_ai_eu_platform"
+      ],
+      "last_verified_at": "2026-04-18T14:01:28Z",
+      "reason": "These are the concrete fail-closed reasons the product stays in review."
+    },
+    {
+      "field_id": "target_audience_summary",
+      "status": "analyst_only",
+      "confidence_band": "medium",
+      "value": "EU providers and deployers of AI systems, especially HR L&D, compliance, and operating teams that need a practical Article 4 literacy layer.",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_007",
+        "claim_008"
+      ],
+      "source_refs": [
+        "ai_literacy_qna"
+      ],
+      "last_verified_at": "2026-04-18T14:01:28Z",
+      "omission_reason": "This is a useful synthesis from the verified regulatory context, but it is still a positioning inference rather than a default dashboard fact."
+    },
+    {
+      "field_id": "localization_risk",
+      "status": "analyst_only",
+      "confidence_band": "medium",
+      "value": "The official guidance points toward context-sensitive implementation, so country and use-case adaptation may matter more than the product's current EU-wide generic framing implies.",
+      "claim_refs": [
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_008",
+        "int_002"
+      ],
+      "source_refs": [
+        "ai_literacy_qna"
+      ],
+      "last_verified_at": "2026-04-18T14:01:28Z",
+      "omission_reason": "This is an analyst interpretation of the surviving evidence, not a direct dashboard-safe fact."
+    },
+    {
+      "field_id": "universal_eu_company_scope",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "ext_005"
+      ],
+      "source_refs": [
+        "ai_literacy_qna"
+      ],
+      "last_verified_at": "2026-04-18T14:01:28Z",
+      "omission_reason": "The Commission source contradicts any blanket all-companies scope statement."
+    },
+    {
+      "field_id": "product_problem_solution_fit",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "int_002",
+        "oq_001",
+        "oq_003"
+      ],
+      "source_refs": [
+        "ai_literacy_qna"
+      ],
+      "last_verified_at": "2026-04-18T14:01:28Z",
+      "omission_reason": "No reviewed source proves that a single remote EU-wide format fully solves buyer needs across contexts."
+    },
+    {
+      "field_id": "multilingual_advantage_claim",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "int_001",
+        "int_003",
+        "oq_004"
+      ],
+      "source_refs": [
+        "houseoftraining_ai_fundamentals",
+        "elements_ai_helsinki_news",
+        "elements_ai_course_description",
+        "elements_ai_eu_platform"
+      ],
+      "last_verified_at": "2026-04-18T14:01:28Z",
+      "omission_reason": "The rerun found both French and multilingual substitutes, so the language-based moat is not yet proven."
+    },
+    {
+      "field_id": "product_compliance_artifact_value",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "claim_005",
+        "claim_006",
+        "oq_002"
+      ],
+      "source_refs": [
+        "ai_literacy_qna"
+      ],
+      "last_verified_at": "2026-04-18T14:01:28Z",
+      "omission_reason": "The reviewed guidance does not prove that any B3-issued certificate, documentation pack, or governance artifact carries independent compliance significance."
+    }
+  ]
+}

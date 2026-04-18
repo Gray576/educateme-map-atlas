@@ -1,0 +1,134 @@
+{
+  "schema_version": "dashboard_ingestion_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L7",
+  "product_title": "OET Medical Preparation (Doctors)",
+  "reviewed_at": "2026-04-18T21:49:18+04:00",
+  "release_status": "review",
+  "safe_fields": {
+    "jurisdiction_scope": {
+      "value": [
+        "United States",
+        "United Arab Emirates"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "c_001",
+        "c_003",
+        "c_005",
+        "c_007",
+        "c_008"
+      ],
+      "source_refs": [
+        "oet_ecfmg",
+        "ecfmg_pathways_oet",
+        "oet_uae"
+      ],
+      "last_verified_at": "2026-04-18T21:49:18+04:00"
+    },
+    "verified_entities": {
+      "value": [
+        "OET",
+        "ECFMG"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "c_001",
+        "c_002",
+        "c_003",
+        "c_004",
+        "c_005",
+        "c_007",
+        "c_008",
+        "c_009",
+        "c_010"
+      ],
+      "source_refs": [
+        "oet_ecfmg",
+        "ecfmg_pathways_oet",
+        "ecfmg_certification_factsheet",
+        "oet_uae",
+        "oet_about_test",
+        "oet_sample_tests"
+      ],
+      "last_verified_at": "2026-04-18T21:49:18+04:00"
+    },
+    "verified_requirements": {
+      "value": [
+        "ECFMG Pathways applicants must attain a satisfactory OET Medicine score for the communication-skills requirement.",
+        "For 2026 ECFMG Pathways, the minimum scores are 350 in Listening, Reading, and Speaking and 300 in Writing.",
+        "OET is accepted by key healthcare authorities in the UAE.",
+        "OET is accepted for residency programs in Abu Dhabi and Dubai."
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "c_003",
+        "c_005",
+        "c_007",
+        "c_008"
+      ],
+      "source_refs": [
+        "ecfmg_pathways_oet",
+        "oet_uae"
+      ],
+      "last_verified_at": "2026-04-18T21:49:18+04:00"
+    },
+    "hard_blockers": {
+      "value": [
+        "Do not publish the claim that ECFMG now requires OET only and has dropped IELTS.",
+        "Do not publish GCC-wide scope; only UAE plus the US ECFMG route context were verified.",
+        "Do not publish curriculum counts, doctor-only cohorts, or tutor-qualification claims without product-specific public evidence.",
+        "Doctor-premium positioning still needs proof against OET's own free preparation resources."
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "c_006",
+        "c_010",
+        "c_011",
+        "c_012",
+        "c_013",
+        "c_014"
+      ],
+      "source_refs": [
+        "ecfmg_pathways_oet",
+        "ecfmg_certification_factsheet",
+        "oet_sample_tests"
+      ],
+      "last_verified_at": "2026-04-18T21:49:18+04:00"
+    }
+  },
+  "analyst_only_fields": {
+    "target_audience_summary": {
+      "value": "Doctors pursuing OET Medicine in verified UAE or ECFMG-related route contexts.",
+      "confidence_band": "medium",
+      "omission_reason": "Useful synthesis, but still not a dashboard-default fact."
+    }
+  },
+  "blocked_fields": {
+    "gcc_scope": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "No public evidence supports GCC-wide route coverage."
+    },
+    "ecfmg_oet_only_language": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "Official ECFMG materials contradict the 'OET only' framing."
+    },
+    "curriculum_and_cohort_claims": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "No public source supports the 24-letter or doctor-exclusive cohort claims."
+    },
+    "doctor_premium_positioning": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "No public evidence proves the proposed delivery model or tutor-qualification differentiator."
+    }
+  },
+  "verification_summary": {
+    "verified_claim_count": 9,
+    "contradicted_claim_count": 1,
+    "blocked_question_count": 4
+  }
+}

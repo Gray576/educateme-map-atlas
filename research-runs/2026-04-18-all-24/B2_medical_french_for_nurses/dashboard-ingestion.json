@@ -1,0 +1,147 @@
+{
+  "schema_version": "dashboard_ingestion_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B2",
+  "product_title": "Medical French for Nurses",
+  "reviewed_at": "2026-04-18T22:03:53+04:00",
+  "release_status": "blocked",
+  "safe_fields": {
+    "jurisdiction_scope": {
+      "value": [
+        "France",
+        "Belgium",
+        "Switzerland"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "c_002",
+        "c_003",
+        "c_004",
+        "c_005",
+        "c_006"
+      ],
+      "source_refs": [
+        "france_paramedical",
+        "france_diploma_recognition",
+        "belgium_visa_lang",
+        "swiss_foph"
+      ],
+      "last_verified_at": "2026-04-18T22:03:53+04:00"
+    },
+    "cross_country_regulatory_context": {
+      "value": "Recognition and language-proof rules vary by destination country; this opportunity cannot be framed as one generic pan-European nursing-language route.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "c_001",
+        "int_001"
+      ],
+      "source_refs": [
+        "eu_regulated_professions"
+      ],
+      "last_verified_at": "2026-04-18T22:03:53+04:00"
+    },
+    "france_route_context": {
+      "value": "France's public guidance for regulated paramedical professions requires the corresponding diploma/title, and route handling varies by profession and diploma origin.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "c_002",
+        "c_003"
+      ],
+      "source_refs": [
+        "france_paramedical",
+        "france_diploma_recognition"
+      ],
+      "last_verified_at": "2026-04-18T22:03:53+04:00"
+    },
+    "belgium_language_requirement_context": {
+      "value": "Belgium requires foreign-trained healthcare professionals to prove Dutch, French, or German for a visa; bachelor's-level nurses responsible for general care are mapped to B2, and simple course-attendance certificates are not sufficient.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "c_004",
+        "c_005"
+      ],
+      "source_refs": [
+        "belgium_visa_lang"
+      ],
+      "last_verified_at": "2026-04-18T22:03:53+04:00"
+    },
+    "switzerland_application_language_requirement": {
+      "value": "Swiss recognition applications for foreign medical and psychology qualifications must be filed in German, French, or Italian.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "c_006"
+      ],
+      "source_refs": [
+        "swiss_foph"
+      ],
+      "last_verified_at": "2026-04-18T22:03:53+04:00"
+    },
+    "hard_blockers": {
+      "value": [
+        "France, Belgium, and Switzerland do not share one uniform compliance path.",
+        "No authority source in the rerun validates a provider-issued course certificate for practice or recognition.",
+        "Belgium explicitly rejects course-attendance certificates as sufficient proof.",
+        "The France evidence set here is route context, not a nurse-specific market-validation pack.",
+        "The legacy 500K+ France workforce claim did not survive re-verification.",
+        "The market-gap story remains unproven because no exhaustive competitor census was completed."
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "int_001",
+        "int_002",
+        "int_003",
+        "ext_004",
+        "c_005"
+      ],
+      "source_refs": [
+        "eu_regulated_professions",
+        "france_paramedical",
+        "france_diploma_recognition",
+        "belgium_visa_lang",
+        "swiss_foph",
+        "prolingua_tailor_made",
+        "inlingua_adults"
+      ],
+      "last_verified_at": "2026-04-18T22:03:53+04:00"
+    }
+  },
+  "analyst_only_fields": {
+    "target_audience_summary": {
+      "value": "International nurses and staffing or employer partners targeting regulated French-speaking healthcare routes.",
+      "confidence_band": "medium",
+      "omission_reason": "Positioning synthesis, not a dashboard-safe fact."
+    }
+  },
+  "blocked_fields": {
+    "product_certificate_acceptance": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "No reviewed authority source shows that a provider-issued course certificate is accepted for practice or recognition."
+    },
+    "unified_three_country_offer": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "The rerun shows country-specific route mechanics, so a single undifferentiated France-Belgium-Switzerland offer is unsafe."
+    },
+    "france_workforce_shortage_number": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "No primary-source France number was verified for the legacy 500K+ claim."
+    },
+    "market_gap_claim": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "The rerun found substitutes but did not complete an exhaustive dedicated-medical-French competitor scan."
+    },
+    "france_nurse_specific_requirement_pack": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "The France evidence in this rerun is route-context material, not a clean nurse-specific requirement pack."
+    }
+  },
+  "verification_summary": {
+    "verified_claim_count": 7,
+    "contradicted_claim_count": 1,
+    "blocked_or_unverified_claim_count": 3
+  }
+}

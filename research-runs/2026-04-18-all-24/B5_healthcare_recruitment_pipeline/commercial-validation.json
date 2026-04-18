@@ -1,0 +1,113 @@
+{
+  "schema_version": "commercial_validation_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B5",
+  "product_title": "Healthcare Recruitment Pipeline",
+  "quadrant_segment": "B2B2C",
+  "validation_velocity": {
+    "validation_model": "10 custdev interviews + 2 pilot asks + authority-route validation",
+    "binary_pass_signal": "At least 2 qualified buyers accept a paid or structured pilot conversation and the required route or authority constraint appears workable.",
+    "binary_kill_signal": "No qualified buyer accepts a pilot conversation or the required route constraint blocks delivery economics.",
+    "estimated_cost_to_signal_eur": 3500,
+    "estimated_days_to_signal": 60,
+    "estimated_days_to_first_euro": 45,
+    "founder_independence_score_1_5": null,
+    "testability_score_1_5": 1,
+    "time_to_first_euro_score_1_5": 2,
+    "confidence_band": "medium",
+    "derivation_basis": "Protocol-derived from segment, approval-route complexity, buyer motion, and current validation/citation gaps.",
+    "evidence_refs": {
+      "source_ids": [],
+      "claim_ids": []
+    },
+    "notes": "validation queue severity 4; citation status ready; regulatory route present"
+  },
+  "demand_pull": {
+    "demand_evidence_score_1_5": null,
+    "wtp_score_1_5": null,
+    "cac_reality_score_1_5": null,
+    "retention_structure_score_1_5": 3,
+    "macro_trajectory_score_1_5": null,
+    "channel_fit_score_1_5": null,
+    "confidence_band": "low",
+    "derivation_basis": "Only offer structure and currently sourced competitor/numeric claims are available. SEMrush, paid search, and traffic observables are intentionally missing.",
+    "evidence_refs": {
+      "source_ids": [
+        "lireco_about",
+        "charite_recruitment",
+        "hse_relocation_package",
+        "hse_overseas_candidates",
+        "who_europe_nurse_shortage",
+        "hse_pq_61870"
+      ],
+      "claim_ids": [
+        "ext_005",
+        "ext_006",
+        "ext_007"
+      ]
+    },
+    "notes": "Retention structure is filled from the product format. Demand, WTP, CAC, macro, and channel-fit remain unfilled until SEMrush and distribution evidence are collected."
+  },
+  "regulatory_context": {
+    "regulatory_friction_inverse_score_1_5": 2,
+    "confidence_band": "medium",
+    "derivation_basis": "Derived from confirmed regulatory requirements, approval entities, and current contradiction/risk density in the evidence-backed card.",
+    "evidence_refs": {
+      "source_ids": [],
+      "claim_ids": []
+    },
+    "notes": "4 confirmed regulatory requirements in current card; 4 high-severity risk flags remain in the current card"
+  },
+  "semrush_snapshot": {
+    "market": "EU",
+    "database": "",
+    "language": "",
+    "keyword_buckets": {
+      "head_terms": [
+        "Healthcare Recruitment Pipeline",
+        "Healthcare Recruitment Pipeline EU"
+      ],
+      "commercial_modifiers": [
+        "luxembourg",
+        "b2b2c"
+      ],
+      "problem_intent": [
+        "employers and recruiters face"
+      ],
+      "competitor_route": [
+        "LiReco",
+        "Charité international recruitment of nurses",
+        "HSE international recruitment and relocation package"
+      ]
+    },
+    "metrics": {
+      "keyword_count_total": null,
+      "keyword_count_commercial": null,
+      "volume_sum": null,
+      "volume_sum_commercial": null,
+      "avg_cpc": null,
+      "max_cpc": null,
+      "avg_competitive_density": null,
+      "high_intent_keyword_count": null,
+      "paid_competitor_count": null
+    },
+    "top_paid_competitors": [],
+    "observed_price_points": [],
+    "serp_feature_notes": "",
+    "traffic_analytics_notes": ""
+  },
+  "portfolio_tags": {
+    "niche": "Healthcare Recruitment Pipeline / recognition",
+    "persona": "staffing_agency",
+    "channel_primary": "",
+    "channel_secondary": "",
+    "price_point": "low-ticket",
+    "delivery_mode": "bundle"
+  },
+  "collapsed_scores": {
+    "validation_velocity_composite": 1.5,
+    "demand_pull_composite": null,
+    "overall_confidence_band": "low",
+    "confidence_reason": "Validation velocity is partially populated, but founder-independence, demand observables, and SEMrush-backed pull metrics are still missing."
+  }
+}

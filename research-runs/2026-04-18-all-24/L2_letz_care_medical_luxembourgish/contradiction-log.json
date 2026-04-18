@@ -1,0 +1,45 @@
+{
+  "schema_version": "contradiction_log_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L2",
+  "product_title": "Lëtz Care - Medical Luxembourgish",
+  "analysis_timestamp": "2026-04-18T13:02:36Z",
+  "contradictions": [
+    {
+      "contradiction_id": "c_001",
+      "claim_id": "claim_009",
+      "claim_text": "Only specialized medical Luxembourgish program in Luxembourg; no competitor exists.",
+      "status": "contradicted",
+      "contradicting_source_ids": [
+        "allingua_offer",
+        "prolingua_courses",
+        "prolingua_professionals",
+        "luxlessons_home"
+      ],
+      "contradicting_quote_ids": [
+        "q_006",
+        "q_007",
+        "q_008",
+        "q_009",
+        "q_010",
+        "q_011"
+      ],
+      "resolution": "Drop the uniqueness claim. Public Luxembourg providers already offer Luxembourgish and professional language training, including healthcare-oriented language positioning.",
+      "why_it_matters": "The market-gap hook is not defensible and would misstate the competitive landscape."
+    }
+  ],
+  "falsification_searches": [
+    {
+      "query": "\"medical Luxembourgish\" Luxembourg training",
+      "result": "No credible exclusive program signal survived; substitutes exist in Luxembourgish professional language training."
+    },
+    {
+      "query": "\"Luxembourgish\" \"medical and healthcare sector\" language training Luxembourg",
+      "result": "Public provider pages showed healthcare-oriented language training positioning."
+    },
+    {
+      "query": "\"Luxembourgish\" corporate clients language course Luxembourg",
+      "result": "Public Luxembourg providers offer Luxembourgish courses and business/professional language services."
+    }
+  ]
+}

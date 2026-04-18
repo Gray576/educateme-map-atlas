@@ -1,0 +1,181 @@
+{
+  "schema_version": "field_decisions_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L7",
+  "product_title": "OET Medical Preparation (Doctors)",
+  "analysis_timestamp": "2026-04-18T21:49:18+04:00",
+  "field_decisions": [
+    {
+      "field_id": "jurisdiction_scope",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "United States",
+        "United Arab Emirates"
+      ],
+      "claim_refs": [
+        "c_001",
+        "c_003",
+        "c_005",
+        "c_007",
+        "c_008"
+      ],
+      "source_refs": [
+        "oet_ecfmg",
+        "ecfmg_pathways_oet",
+        "oet_uae"
+      ],
+      "last_verified_at": "2026-04-18T21:49:18+04:00",
+      "reason": "These are the only route contexts that cleared strict public verification."
+    },
+    {
+      "field_id": "verified_entities",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "OET",
+        "ECFMG"
+      ],
+      "claim_refs": [
+        "c_001",
+        "c_002",
+        "c_003",
+        "c_004",
+        "c_005",
+        "c_007",
+        "c_008",
+        "c_009",
+        "c_010"
+      ],
+      "source_refs": [
+        "oet_ecfmg",
+        "ecfmg_pathways_oet",
+        "oet_uae",
+        "oet_about_test",
+        "oet_sample_tests"
+      ],
+      "last_verified_at": "2026-04-18T21:49:18+04:00",
+      "reason": "Only directly evidenced exam and certification entities are retained."
+    },
+    {
+      "field_id": "verified_requirements",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "ECFMG Pathways applicants must attain a satisfactory OET Medicine score for the communication-skills requirement.",
+        "For 2026 ECFMG Pathways, the minimum scores are 350 in Listening, Reading, and Speaking and 300 in Writing.",
+        "OET is accepted by key healthcare authorities in the UAE.",
+        "OET is accepted for residency programs in Abu Dhabi and Dubai."
+      ],
+      "claim_refs": [
+        "c_003",
+        "c_005",
+        "c_007",
+        "c_008"
+      ],
+      "source_refs": [
+        "ecfmg_pathways_oet",
+        "oet_uae"
+      ],
+      "last_verified_at": "2026-04-18T21:49:18+04:00",
+      "reason": "These are the only route-safe operational facts that survived quote-level review."
+    },
+    {
+      "field_id": "hard_blockers",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Do not publish the claim that ECFMG now requires OET only and has dropped IELTS.",
+        "Do not publish GCC-wide scope; only UAE plus the US ECFMG route context were verified.",
+        "Do not publish curriculum counts, doctor-only cohorts, or tutor-qualification claims without product-specific public evidence.",
+        "Doctor-premium positioning still needs proof against OET's own free preparation resources."
+      ],
+      "claim_refs": [
+        "c_006",
+        "c_010",
+        "c_011",
+        "c_012",
+        "c_013",
+        "c_014"
+      ],
+      "source_refs": [
+        "ecfmg_pathways_oet",
+        "ecfmg_certification_factsheet",
+        "oet_sample_tests"
+      ],
+      "last_verified_at": "2026-04-18T21:49:18+04:00",
+      "reason": "These are the remaining fail-closed constraints after the rerun."
+    },
+    {
+      "field_id": "target_audience_summary",
+      "status": "analyst_only",
+      "confidence_band": "medium",
+      "value": "Doctors pursuing OET Medicine in verified UAE or ECFMG-related route contexts.",
+      "claim_refs": [
+        "c_002",
+        "c_003",
+        "c_007",
+        "c_008"
+      ],
+      "source_refs": [
+        "oet_ecfmg",
+        "ecfmg_pathways_oet",
+        "oet_uae"
+      ],
+      "last_verified_at": "2026-04-18T21:49:18+04:00",
+      "omission_reason": "Reasonable synthesis, but still not a dashboard-default fact."
+    },
+    {
+      "field_id": "gcc_scope",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "c_014"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T21:49:18+04:00",
+      "omission_reason": "No public evidence supports GCC-wide route coverage."
+    },
+    {
+      "field_id": "ecfmg_oet_only_language",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "c_006"
+      ],
+      "source_refs": [
+        "ecfmg_pathways_oet",
+        "ecfmg_certification_factsheet"
+      ],
+      "last_verified_at": "2026-04-18T21:49:18+04:00",
+      "omission_reason": "Official ECFMG materials contradict the 'OET only' framing."
+    },
+    {
+      "field_id": "curriculum_and_cohort_claims",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "c_011"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T21:49:18+04:00",
+      "omission_reason": "No public source supports the 24-letter or doctor-exclusive cohort claims."
+    },
+    {
+      "field_id": "doctor_premium_positioning",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "c_012",
+        "c_013"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T21:49:18+04:00",
+      "omission_reason": "No public evidence proves the proposed delivery model or tutor-qualification differentiator."
+    }
+  ]
+}

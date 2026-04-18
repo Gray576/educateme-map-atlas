@@ -1,0 +1,115 @@
+{
+  "schema_version": "source_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L2",
+  "sources": [
+    {
+      "source_id": "guichet_healthcare_professions",
+      "title": "Regulated healthcare professions",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/creation-developpement/profession/autres-professions-sante-reglementees/profession-sante-reglementees.html",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "guichet_foreign_health_professional",
+      "title": "Declaration of provision of services by a foreign health professional",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/sectoriel/sante/autres-professions-sante-reglementees/declaration-prestations-service-professionnel-sante.html",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "guichet_medical_practitioners",
+      "title": "General and specialist medical practitioners",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/sectoriel/sante/medecins/medecin-generaliste-specialiste.html",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "infpc_cofunding",
+      "title": "Co-funding of company training",
+      "publisher": "INFPC",
+      "url": "https://www.infpc.lu/cofinancement-de-la-formation/en",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "lifelong_learning_cofunding",
+      "title": "Cofunding of training in companies",
+      "publisher": "lifelong-learning.lu",
+      "url": "https://www.lifelong-learning.lu/entreprises/cofinancement/en",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "allingua_home",
+      "title": "Professional language training",
+      "publisher": "Allingua",
+      "url": "https://www.allingua.lu/en/home/",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "allingua_approach",
+      "title": "What is our approach?",
+      "publisher": "Allingua",
+      "url": "https://www.allingua.lu/approche/",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "prolingua_home",
+      "title": "Accueil - Prolingua Language Centre",
+      "publisher": "Prolingua",
+      "url": "https://prolingua.lu/",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "luxlessons_home",
+      "title": "Learn Luxembourgish Online Fast",
+      "publisher": "LuxLessons",
+      "url": "https://www.luxlessons.lu/",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    }
+  ]
+}

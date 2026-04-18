@@ -1,0 +1,92 @@
+{
+  "schema_version": "contradiction_log_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L1",
+  "product_title": "Sproochtest Preparation",
+  "analysis_timestamp": "2026-04-18T14:00:45Z",
+  "contradictions": [
+    {
+      "contradiction_id": "ctr_001",
+      "claim_id": "ext_004",
+      "claim_text": "Educateme is already #1 in Sproochtest, so this is a pure upsell with no real competitor pressure.",
+      "status": "contradicted",
+      "severity": "high",
+      "contradiction_type": "market_counterexample",
+      "contradicting_source_ids": [
+        "men_citizenship_courses",
+        "etic_sproochentest",
+        "prolingua_nationality_courses",
+        "luxlanguages_sproochentest_individual",
+        "luxlessons_course"
+      ],
+      "contradicting_quote_ids": [
+        "q_002",
+        "q_009",
+        "q_010",
+        "q_011",
+        "q_012",
+        "q_014",
+        "q_015",
+        "q_016"
+      ],
+      "resolution": "Contradicted. Official preparatory routes and multiple live private offers already exist, so empty-market or no-pressure language must be dropped.",
+      "blocking_effect": "Blocks any dashboard or narrative field that depends on uniqueness, monopoly, or pure-upsell framing.",
+      "notes": "This falsifies the broad market-gap claim rather than ranking provider quality."
+    }
+  ],
+  "open_issues": [
+    {
+      "claim_id": "ext_003",
+      "claim_text": "The State can reimburse up to 750 euros for approved Luxembourgish language course fees, and the Sproochentest fee can also be reimbursed after success.",
+      "status": "blocked",
+      "issue_type": "reimbursement_copy_compresses_conditions",
+      "resolution": "Use the exact conditional wording from Guichet instead of a simplified cap-driven marketing line.",
+      "notes": "The route is real, but the reviewed record only cleanly supports the EUR 75 test fee plus post-application reimbursement conditions."
+    },
+    {
+      "claim_id": "int_001",
+      "claim_text": "98% pass rate.",
+      "status": "unclear",
+      "issue_type": "provider_performance_unproven",
+      "resolution": "blocked",
+      "notes": "No independent evidence reviewed."
+    },
+    {
+      "claim_id": "int_002",
+      "claim_text": "Top-3 private provider in Luxembourg.",
+      "status": "unclear",
+      "issue_type": "market_rank_unproven",
+      "resolution": "blocked",
+      "notes": "No public ranking basis reviewed."
+    },
+    {
+      "claim_id": "int_003",
+      "claim_text": "INLL is free but has waitlists.",
+      "status": "unclear",
+      "issue_type": "ops_claim_unverified",
+      "resolution": "blocked",
+      "notes": "Waitlist conditions were not established in the current source set."
+    },
+    {
+      "claim_id": "int_004",
+      "claim_text": "Prolingua has a lower pass rate.",
+      "status": "unclear",
+      "issue_type": "competitor_comparison_unproven",
+      "resolution": "blocked",
+      "notes": "No independent pass-rate comparison was found."
+    },
+    {
+      "claim_id": "int_005",
+      "claim_text": "Established brand and strong demand with waiting list.",
+      "status": "unclear",
+      "issue_type": "demand_claim_unproven",
+      "resolution": "blocked",
+      "notes": "No external evidence reviewed for demand, waitlist depth, or brand strength."
+    }
+  ],
+  "summary": {
+    "contradiction_count": 1,
+    "unresolved_t1_contradictions": 1,
+    "blocking_contradictions": 1
+  }
+}

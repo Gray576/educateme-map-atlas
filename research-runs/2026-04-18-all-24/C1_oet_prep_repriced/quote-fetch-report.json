@@ -1,0 +1,96 @@
+{
+  "schema_version": "research_v2_quote_fetch_report_v1",
+  "product_code": "C1",
+  "generated_at": "2026-04-18T12:58:29.744Z",
+  "source_count": 4,
+  "candidate_count": 22,
+  "source_reports": [
+    {
+      "source_id": "oet_uae",
+      "title": "United Arab Emirates",
+      "url": "https://oet.com/en-us/test/who-recognises-oet/recognising-organisations/united-arab-emirates",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001",
+        "ext_003",
+        "ext_004"
+      ],
+      "terms": [
+        "healthcare",
+        "acceptance",
+        "accepted",
+        "authorities",
+        "certificate",
+        "country",
+        "dhabi",
+        "dubai",
+        "programs",
+        "registration",
+        "residency",
+        "specific"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "oet_acceptance_worldwide",
+      "title": "What is the OET Test, where and how do I take it",
+      "url": "https://oet.com/en-us/about/the-test",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_002",
+        "ext_003"
+      ],
+      "terms": [
+        "accepted",
+        "educational",
+        "healthcare",
+        "immigration",
+        "institutions",
+        "official",
+        "regulators",
+        "services",
+        "site",
+        "specific",
+        "test",
+        "visa"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "oet_intro_courses",
+      "title": "OET homepage",
+      "url": "https://oet.com/en-us/",
+      "status": "fetched_no_matches",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "homepage"
+      ],
+      "candidate_count": 0
+    },
+    {
+      "source_id": "oet_sample_tests",
+      "title": "How to prepare for the OET Test and why is it important",
+      "url": "https://oet.com/preparation-portal/free-sample-tests/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "important",
+        "prepare",
+        "test"
+      ],
+      "candidate_count": 6
+    }
+  ]
+}

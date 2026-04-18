@@ -1,0 +1,268 @@
+{
+  "schema_version": "claim_ledger_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A7",
+  "product_title": "Professional French (sector-specific)",
+  "analysis_timestamp": "2026-04-18T14:05:00Z",
+  "jurisdictions": [
+    "Luxembourg"
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_001",
+      "category": "funding",
+      "claim_text": "Luxembourg company-training co-funding exists at 15% of annual training investment for eligible private-sector companies established in the country.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "infpc_cofunding",
+        "lifelong_learning_cofunding"
+      ],
+      "supporting_quote_ids": [
+        "q_003",
+        "q_005"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "This is scheme-level support and does not by itself prove product-level eligibility."
+    },
+    {
+      "claim_id": "claim_002",
+      "category": "funding",
+      "claim_text": "The public company-training co-funding route includes an extra 20% salary-cost weighting for specified employee categories.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "infpc_cofunding",
+        "lifelong_learning_cofunding"
+      ],
+      "supporting_quote_ids": [
+        "q_004",
+        "q_005"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "This is safer than translating the rule into a generic '35%' shortcut without the exact salary-cost context."
+    },
+    {
+      "claim_id": "claim_003",
+      "category": "market_context",
+      "claim_text": "STATEC reports 229.1 thousand non-resident cross-border wage-earners and 487 thousand wage-earners in Luxembourg in 2024.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "statec_luxembourg_in_figures_2025"
+      ],
+      "supporting_quote_ids": [
+        "q_001",
+        "q_002"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "The raw official figures are safe. Derived ratios should be stated carefully depending on denominator."
+    },
+    {
+      "claim_id": "claim_004",
+      "category": "competitor",
+      "claim_text": "Prolingua publicly offers French in tailor-made professional orientation, business language, specialist language, and specific-objective course formats.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "prolingua_courses"
+      ],
+      "supporting_quote_ids": [
+        "q_006"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "This directly weakens any claim that the market lacks sector- or work-oriented French training."
+    },
+    {
+      "claim_id": "claim_005",
+      "category": "competitor",
+      "claim_text": "Prolingua explicitly markets language training for businesses that want colleagues to enhance their language skills as part of their work.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "prolingua_professionals"
+      ],
+      "supporting_quote_ids": [
+        "q_007"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "This is direct B2B workplace-language positioning."
+    },
+    {
+      "claim_id": "claim_006",
+      "category": "competitor",
+      "claim_text": "INLL publicly offers French courses, including intensive courses for professional purposes with four classes per week, 200-minute classes, and an eight-week duration.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "inll_french"
+      ],
+      "supporting_quote_ids": [
+        "q_008",
+        "q_009"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "The source is an INLL French page search snippet, which is sufficient to prove the existence of a public French-for-professional-purposes offer."
+    },
+    {
+      "claim_id": "claim_007",
+      "category": "competitor",
+      "claim_text": "Allingua states that its Luxembourg language-training programmes are designed to strengthen participants' language skills in a professional context.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "medium",
+      "supporting_source_ids": [
+        "allingua_offer"
+      ],
+      "supporting_quote_ids": [
+        "q_010"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "This broadens the competitor set, although it is less French-specific than the Prolingua/INLL evidence."
+    },
+    {
+      "claim_id": "ext_002",
+      "category": "numeric",
+      "claim_text": "There are 228K cross-border workers in the Luxembourg market.",
+      "jurisdiction": "Luxembourg",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [
+        "statec_luxembourg_in_figures_2025"
+      ],
+      "contradicting_quote_ids": [
+        "q_001"
+      ],
+      "notes": "The official 2024 figure retained in the rerun is 229.1 thousand non-resident cross-border wage-earners. The legacy number is close but not exact enough for the truth layer."
+    },
+    {
+      "claim_id": "ext_003",
+      "category": "numeric",
+      "claim_text": "About 47% of the workforce is cross-border.",
+      "jurisdiction": "Luxembourg",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [
+        "statec_luxembourg_in_figures_2025"
+      ],
+      "contradicting_quote_ids": [
+        "q_001",
+        "q_002"
+      ],
+      "notes": "The raw official figures imply a share near 47% of wage-earners, but the exact denominator behind 'workforce' is ambiguous, so the card phrasing stays blocked."
+    },
+    {
+      "claim_id": "ext_004",
+      "category": "competitor_gap",
+      "claim_text": "Nobody does sector-specialized French plus INFPC co-funding positioning.",
+      "jurisdiction": "Luxembourg",
+      "status": "contradicted",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [
+        "prolingua_courses",
+        "prolingua_professionals",
+        "inll_french",
+        "allingua_offer",
+        "infpc_cofunding",
+        "lifelong_learning_cofunding"
+      ],
+      "contradicting_quote_ids": [
+        "q_003",
+        "q_005",
+        "q_006",
+        "q_007",
+        "q_008",
+        "q_009",
+        "q_010"
+      ],
+      "notes": "Professional and specialist French offers already exist in Luxembourg, and the co-funding mechanism exists independently of this product."
+    },
+    {
+      "claim_id": "int_001",
+      "category": "positioning",
+      "claim_text": "Sector-specific French is the right wedge because it is more valuable than general French.",
+      "jurisdiction": "Luxembourg",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "This remains a product strategy hypothesis rather than a verified external fact."
+    },
+    {
+      "claim_id": "int_002",
+      "category": "readiness",
+      "claim_text": "Teachers are ready and the LMS is ready.",
+      "jurisdiction": "Luxembourg",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Operational readiness is internal and was not independently verified."
+    },
+    {
+      "claim_id": "int_003",
+      "category": "go_to_market",
+      "claim_text": "A pilot on existing B2B clients is a low-risk next step.",
+      "jurisdiction": "Luxembourg",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "This is an execution judgment, not an externally checkable fact."
+    }
+  ],
+  "open_questions": [
+    {
+      "question_id": "oq_001",
+      "question": "Does the proposed curriculum materially differentiate itself from existing Luxembourg professional French offers?",
+      "reason": "The market is not empty, so sector packaging needs proof at the curriculum and outcomes level.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_002",
+      "question": "Is the operational co-funding path already defined for the exact employer and employee profile this product targets?",
+      "reason": "The scheme exists, but product-level routing still depends on the actual buyer/employer setup.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_003",
+      "question": "Should workforce messaging use wage-earners, domestic employment, or another denominator?",
+      "reason": "The exact 47% language is not safe unless the denominator is explicitly fixed.",
+      "blocking": true
+    }
+  ],
+  "verification_summary": {
+    "verified_claim_count": 7,
+    "partially_verified_claim_count": 0,
+    "unverified_claim_count": 0,
+    "contradicted_claim_count": 1,
+    "blocked_question_count": 3,
+    "official_source_count": 4,
+    "total_source_count": 8
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schema_version": "contradiction_log_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A6",
+  "product_title": "Expat Onboarding 'Luxembourg Ready'",
+  "analysis_timestamp": "2026-04-18T17:45:00Z",
+  "contradictions": [
+    {
+      "contradiction_id": "c_001",
+      "claim_id": "ext_004",
+      "claim_text": "Cross-border workers make up about 47% of Luxembourg's workforce.",
+      "status": "contradicted",
+      "contradicting_source_ids": [
+        "ec_labour_mobility_2025"
+      ],
+      "contradicting_quote_ids": [
+        "q_017"
+      ],
+      "resolution": "Replace the rounded 47% copy with the verified 45.1% figure from the European Commission page, or omit the number from the dashboard.",
+      "why_it_matters": "Strict v2 should not preserve a numeric claim when an official source provides a different exact value."
+    },
+    {
+      "contradiction_id": "c_002",
+      "claim_id": "ext_005",
+      "claim_text": "No one sells a single relocation language + integration package.",
+      "status": "contradicted",
+      "contradicting_source_ids": [
+        "guichet_biergerpakt",
+        "inll_institute",
+        "prolingua_courses"
+      ],
+      "contradicting_quote_ids": [
+        "q_006",
+        "q_013",
+        "q_015",
+        "q_016"
+      ],
+      "resolution": "Drop the uniqueness claim. Luxembourg already has public and private alternatives covering core language and integration components.",
+      "why_it_matters": "The legacy wedge overstates whitespace in a market where language and integration support already exist."
+    }
+  ],
+  "open_issues": [
+    {
+      "claim_id": "int_001",
+      "claim_text": "12,000 immigrants per year.",
+      "status": "unverified",
+      "issue_type": "numeric_claim_unverified",
+      "resolution": "review",
+      "notes": "No primary Luxembourg migration source was verified in this rerun."
+    },
+    {
+      "claim_id": "int_002",
+      "claim_text": "220K cross-border workers.",
+      "status": "unverified",
+      "issue_type": "numeric_claim_unverified",
+      "resolution": "review",
+      "notes": "The reviewed source confirmed the workforce share, not this exact headcount."
+    },
+    {
+      "claim_id": "int_003",
+      "claim_text": "40% turnover reduction and 8x ROI.",
+      "status": "unverified",
+      "issue_type": "roi_claim_unverified",
+      "resolution": "blocked",
+      "notes": "No public or first-party evidence reviewed here substantiates these outcomes."
+    },
+    {
+      "claim_id": "int_004",
+      "claim_text": "The product's language certificate or Sproochtest readiness evaluation has external acceptance value.",
+      "status": "unclear",
+      "issue_type": "certificate_acceptance_unverified",
+      "resolution": "blocked",
+      "notes": "The rerun found recognized public routes at INLL, not acceptance evidence for A6's own deliverables."
+    },
+    {
+      "claim_id": "int_005",
+      "claim_text": "Companies assemble this piecemeal today.",
+      "status": "unclear",
+      "issue_type": "market_interpretation",
+      "resolution": "review",
+      "notes": "Public alternatives exist, but the exact piecemeal buying pattern was not directly evidenced."
+    }
+  ],
+  "falsification_searches": [
+    {
+      "query": "\"Luxembourg\" expat onboarding language integration package",
+      "result": "The absolute uniqueness claim failed. Biergerpakt, INLL, and Prolingua all surfaced direct public evidence for language and or integration support."
+    },
+    {
+      "query": "\"45.1%\" Luxembourg workforce cross-border workers",
+      "result": "The European Commission labour-mobility page confirmed 45.1% as the exact workforce-share figure."
+    },
+    {
+      "query": "\"linguistic leave\" Luxembourg 200 hours",
+      "result": "Guichet confirmed a 200-hour cap and provider and eligibility constraints specific to Luxembourgish courses."
+    }
+  ],
+  "summary": {
+    "checked_claim_count": 19,
+    "contradicted_count": 2,
+    "open_issue_count": 5,
+    "verified_claim_count": 12,
+    "unverified_claim_count": 3,
+    "unclear_claim_count": 2
+  }
+}

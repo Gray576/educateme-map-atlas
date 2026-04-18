@@ -1,0 +1,127 @@
+{
+  "schema_version": "source_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A7",
+  "sources": [
+    {
+      "source_id": "statec_luxembourg_in_figures_2025",
+      "title": "Luxembourg in Figures 2025",
+      "publisher": "STATEC",
+      "url": "https://statistiques.public.lu/dam-assets/catalogue-publications/luxembourg-en-chiffres/2025/luxembourg-in-figures-2025.pdf",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "infpc_cofunding",
+      "title": "Co-funding of company training",
+      "publisher": "INFPC",
+      "url": "https://www.infpc.lu/cofinancement-de-la-formation/en",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "lifelong_learning_cofunding",
+      "title": "Cofunding of training in companies",
+      "publisher": "lifelong-learning.lu",
+      "url": "https://www.lifelong-learning.lu/entreprises/cofinancement/en",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "prolingua_courses",
+      "title": "Courses - Prolingua Language Centre",
+      "publisher": "Prolingua",
+      "url": "https://prolingua.lu/en/courses_25",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "prolingua_professionals",
+      "title": "Professionals - Prolingua Language Centre",
+      "publisher": "Prolingua",
+      "url": "https://prolingua.lu/en/professionals_35",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "prolingua_french",
+      "title": "French courses - Prolingua Language Centre",
+      "publisher": "Prolingua",
+      "url": "https://prolingua.lu/en/courses_25/langue/french_7/",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "inll_french",
+      "title": "Learn to speak French with our language courses",
+      "publisher": "INLL",
+      "url": "https://www.inll.lu/en/languages/french",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "inll_courses",
+      "title": "Our language courses",
+      "publisher": "INLL",
+      "url": "https://www.inll.lu/en/courses/",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "allingua_home",
+      "title": "Professional language training",
+      "publisher": "Allingua",
+      "url": "https://www.allingua.lu/en/home/",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "allingua_offer",
+      "title": "Our Language Training Solutions in Luxembourg",
+      "publisher": "Allingua",
+      "url": "https://www.allingua.lu/en/offer/",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    }
+  ]
+}

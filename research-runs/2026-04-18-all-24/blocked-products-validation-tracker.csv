@@ -1,0 +1,13 @@
+product_code,product_title,current_release_status,workstream,goal,required_artifact,status
+A5,MiFID II Compliance Training,blocked,route_owner,Resolve certificate or accreditation path,Written route-owner or accredited-partner confirmation,todo
+A5,MiFID II Compliance Training,blocked,subsidy_legal,Resolve co-funding wording,Written official or qualified legal confirmation,todo
+A5,MiFID II Compliance Training,blocked,buyer_validation,Confirm regulated-firm demand,Buyer follow-up or pilot signal,todo
+B2,Medical French for Nurses,blocked,wedge_selection,Choose first-country wedge,Explicit country decision,todo
+B2,Medical French for Nurses,blocked,route_owner,Validate chosen-country language or recognition path,Official route clarification,todo
+B2,Medical French for Nurses,blocked,buyer_validation,Confirm demand for country-specific offer,Buyer or recruiter written signal,todo
+B5,Healthcare Recruitment Pipeline,blocked,route_design,Split Belgium and Luxembourg workflows,Route map with authority support,todo
+B5,Healthcare Recruitment Pipeline,blocked,buyer_validation,Prove agencies or employers buy the bundle,Pilot scope or LOI,todo
+B5,Healthcare Recruitment Pipeline,blocked,pricing_funding,Validate price anchor or remove it,Price evidence or explicit removal decision,todo
+B6,Embedded Onboarding for Staffing Agencies,blocked,buyer_model,Choose add-on vs bundle vs service-line model,Buyer interview evidence,todo
+B6,Embedded Onboarding for Staffing Agencies,blocked,partner_route,Clarify partner or accreditation need,Written partner or route-owner answer,todo
+B6,Embedded Onboarding for Staffing Agencies,blocked,commercial_proof,Validate uplift and attach-rate,Pilot economics or buyer estimate,todo

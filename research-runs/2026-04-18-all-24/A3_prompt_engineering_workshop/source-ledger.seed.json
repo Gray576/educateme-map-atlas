@@ -1,0 +1,103 @@
+{
+  "schema_version": "source_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A3",
+  "sources": [
+    {
+      "source_id": "openai_prompting",
+      "title": "Prompting",
+      "publisher": "OpenAI Academy",
+      "url": "https://academy.openai.com/public/clubs/work-users-ynjqu/resources/prompting",
+      "source_type": "other",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T4",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "houseoftraining_prompt_finance",
+      "title": "Prompt Engineering : Initiation & mise en pratique pour les employés du secteur financier",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/prompt-engineering-initiation-mise-en-pratique-pour-les-employes-du-secteur-financier-15850",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "houseoftraining_chatgpt_business",
+      "title": "Entrepreneur augmenté grâce à ChatGPT – Comprendre et intégrer l'IA dans votre stratégie d'entreprise",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/entrepreneur-augmente-grace-a-chatgpt-comprendre-et-integrer-l-ia-dans-votre-strategie-d-entreprise-12114",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "houseoftraining_gen_ai_fundamentals",
+      "title": "Generative artificial intelligences - Fundamentals",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/generative-artificial-intelligences-fundamentals-12375",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "houseoftraining_ai_risk",
+      "title": "Risk Management - Information Security, Data Protection and Artificial Intelligence",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/risk-management-information-security-data-protection-and-ai-14729",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "guichet_cvt",
+      "title": "Financial aid for in-company continuing vocational training",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/financement-aides/aides-emploi-recrutement-formation/formation-professionnelle-continue/fpc-entreprise.html",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "eu_ai_literacy_qa",
+      "title": "AI Literacy - Questions & Answers",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+      "source_type": "official",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "eu_ai_literacy_policy",
+      "title": "AI talent, skills and literacy",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy",
+      "source_type": "official",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    }
+  ]
+}

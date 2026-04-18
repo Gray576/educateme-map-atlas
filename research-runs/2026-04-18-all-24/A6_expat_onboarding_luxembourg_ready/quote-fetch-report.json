@@ -1,0 +1,165 @@
+{
+  "schema_version": "research_v2_quote_fetch_report_v1",
+  "product_code": "A6",
+  "generated_at": "2026-04-18T12:58:07.884Z",
+  "source_count": 6,
+  "candidate_count": 48,
+  "source_reports": [
+    {
+      "source_id": "guichet_linguistic_leave",
+      "title": "Linguistic leave",
+      "url": "https://guichet.public.lu/en/entreprises/ressources-humaines/formation-professionnelle/conges-formation/conge-linguistique.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001"
+      ],
+      "terms": [
+        "leave",
+        "linguistic",
+        "language",
+        "conditions",
+        "courses",
+        "defined",
+        "exists",
+        "guichet",
+        "hours",
+        "learning",
+        "scheme",
+        "states"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "guichet_biergerpakt",
+      "title": "Citizen's pact for intercultural living together - 'Biergerpakt'",
+      "url": "https://guichet.public.lu/en/citoyens/citoyennete/vivre-ensemble/pacte-citoyen.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_002",
+        "ext_003",
+        "ext_005"
+      ],
+      "terms": [
+        "language",
+        "integration",
+        "living",
+        "intercultural",
+        "modules",
+        "together",
+        "biergerpakt",
+        "citizen",
+        "civic",
+        "learning",
+        "life",
+        "offers"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "inll_institute",
+      "title": "Learn languages in a pleasant and welcoming environment",
+      "url": "https://www.inll.lu/en/institut-en/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003",
+        "ext_005"
+      ],
+      "terms": [
+        "language",
+        "integration",
+        "civic",
+        "learning",
+        "offers",
+        "private",
+        "substitutes",
+        "support",
+        "absolute",
+        "certification",
+        "combine",
+        "country"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "prolingua_courses",
+      "title": "Courses",
+      "url": "https://prolingua.lu/en/courses_25",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003",
+        "ext_005"
+      ],
+      "terms": [
+        "language",
+        "integration",
+        "civic",
+        "courses",
+        "learning",
+        "offers",
+        "private",
+        "substitutes",
+        "support",
+        "absolute",
+        "certification",
+        "combine"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "ec_labour_mobility_2025",
+      "title": "Annual Report on Intra-EU Labour Mobility - 2025 edition",
+      "url": "https://futurium.ec.europa.eu/en/border-focal-point-network/library/annual-report-intra-eu-labour-mobility-2025-edition",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_004"
+      ],
+      "terms": [
+        "2025",
+        "border",
+        "cross",
+        "labour",
+        "mobility",
+        "report",
+        "annual",
+        "card",
+        "directionally",
+        "edition",
+        "exact",
+        "figure"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "guichet_cvt",
+      "title": "Financial aid for in-company continuing vocational training",
+      "url": "https://guichet.public.lu/en/entreprises/financement-aides/aides-emploi-recrutement-formation/formation-professionnelle-continue/fpc-entreprise.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "company",
+        "continuing",
+        "financial",
+        "vocational"
+      ],
+      "candidate_count": 8
+    }
+  ]
+}

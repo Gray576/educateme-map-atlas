@@ -1,0 +1,115 @@
+{
+  "schema_version": "source_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A8",
+  "sources": [
+    {
+      "source_id": "cefr_council_of_europe",
+      "title": "Contributing institutions - Common European Framework of Reference for Languages (CEFR)",
+      "publisher": "Council of Europe",
+      "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/institutions",
+      "source_type": "official",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "pearson_versant",
+      "title": "Versant by Pearson - Corporate English language learning",
+      "publisher": "Pearson",
+      "url": "https://www.pearson.com/languages/en-us/hr-professionals/versant.html",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "pearson_versant_tests",
+      "title": "Versant, our tests",
+      "publisher": "Pearson",
+      "url": "https://www.pearson.com/languages/en-us/hr-professionals/versant/our-tests.html",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "cambridge_linguaskill",
+      "title": "Linguaskill is being enhanced",
+      "publisher": "Cambridge English",
+      "url": "https://www.cambridgeenglish.org/exams-and-tests/linguaskill/linguaskill-what-is-changing/",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "pipplet_about",
+      "title": "About us - Team",
+      "publisher": "Pipplet",
+      "url": "https://www.pipplet.com/about-us",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "pipplet_standard",
+      "title": "Online Language Assessment - Pipplet Standard",
+      "publisher": "Pipplet",
+      "url": "https://www.pipplet.com/product/standard",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "pipplet_languages",
+      "title": "Over 40 Languages Assessed with Online Platform - Pipplet",
+      "publisher": "Pipplet",
+      "url": "https://www.pipplet.com/features/languages",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "allingua_home",
+      "title": "Professional language training",
+      "publisher": "Allingua",
+      "url": "https://www.allingua.lu/en/home/",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "allingua_approach",
+      "title": "What is our approach?",
+      "publisher": "Allingua",
+      "url": "https://www.allingua.lu/en/approach/",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    }
+  ]
+}

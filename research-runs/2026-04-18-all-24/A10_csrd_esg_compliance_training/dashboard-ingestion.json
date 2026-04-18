@@ -1,0 +1,115 @@
+{
+  "schema_version": "dashboard_ingestion_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A10",
+  "product_title": "CSRD/ESG Compliance Training",
+  "reviewed_at": "2026-04-18T12:56:35Z",
+  "release_status": "review",
+  "safe_fields": {
+    "jurisdiction_scope": {
+      "value": [
+        "Luxembourg",
+        "EU"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_007",
+        "claim_008"
+      ],
+      "source_refs": [
+        "ec_csrd_reporting",
+        "ec_omnibus_package",
+        "ec_vsme_recommendation",
+        "infpc_cofunding",
+        "guichet_training_aid",
+        "houseoftraining_vsme",
+        "houseoftraining_csrd_esrs",
+        "houseoftraining_intro_esg",
+        "pwc_csrd_dma"
+      ],
+      "last_verified_at": "2026-04-18T12:56:35Z"
+    },
+    "regulatory_context": {
+      "value": "CSRD wave-two/wave-three reporting is postponed by two years, and VSME is intended to ease SME value-chain requests.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_001",
+        "claim_002"
+      ],
+      "source_refs": [
+        "ec_csrd_reporting",
+        "ec_omnibus_package",
+        "ec_vsme_recommendation"
+      ],
+      "last_verified_at": "2026-04-18T12:56:35Z"
+    },
+    "verified_competitors": {
+      "value": [
+        "House of Training",
+        "PwC Luxembourg"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_005",
+        "claim_006",
+        "claim_007",
+        "claim_008"
+      ],
+      "source_refs": [
+        "houseoftraining_vsme",
+        "houseoftraining_csrd_esrs",
+        "houseoftraining_intro_esg",
+        "pwc_csrd_dma"
+      ],
+      "last_verified_at": "2026-04-18T12:56:35Z"
+    },
+    "training_support_route": {
+      "value": "Luxembourg company-training co-funding exists at 15%, with a 35% wage-cost uplift for qualifying participants.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_003",
+        "claim_004"
+      ],
+      "source_refs": [
+        "infpc_cofunding",
+        "guichet_training_aid"
+      ],
+      "last_verified_at": "2026-04-18T12:56:35Z"
+    }
+  },
+  "analyst_only_fields": {
+    "target_audience_summary": {
+      "value": "SMEs facing value-chain sustainability requests, plus CSR, compliance, and finance staff.",
+      "confidence_band": "medium",
+      "omission_reason": "This is a useful synthesis, but it is still partly inferential and should not be treated as default dashboard truth."
+    },
+    "commercial_pricing_context": {
+      "value": "Competitor public prices range from 300 EUR to 1,750 EUR, but this does not establish a safe price for A10.",
+      "confidence_band": "low",
+      "omission_reason": "Price anchoring is useful context, but it remains too inferential to ship as truth."
+    }
+  },
+  "blocked_fields": {
+    "product_delivery_model": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "Standalone course vs course-plus-template vs partner-led advisory remains a product-design choice, not a public fact."
+    },
+    "product_accreditation_route": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "No public evidence was found that A10 itself has a dedicated certification or accreditation route."
+    }
+  },
+  "verification_summary": {
+    "verified_claim_count": 8,
+    "contradicted_claim_count": 0,
+    "blocked_question_count": 4
+  }
+}

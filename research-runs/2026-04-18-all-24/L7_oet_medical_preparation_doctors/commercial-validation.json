@@ -1,0 +1,107 @@
+{
+  "schema_version": "commercial_validation_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L7",
+  "product_title": "OET Medical Preparation (Doctors)",
+  "quadrant_segment": "B2C",
+  "validation_velocity": {
+    "validation_model": "Landing page + pre-sale + 10 customer interviews + 1 paid cohort test",
+    "binary_pass_signal": "At least 5 qualified leads reach checkout or paid deposit intent and at least 2 commit within the test window.",
+    "binary_kill_signal": "Paid traffic and outreach fail to produce at least 2 qualified checkout or deposit signals in the test window.",
+    "estimated_cost_to_signal_eur": 2000,
+    "estimated_days_to_signal": 30,
+    "estimated_days_to_first_euro": 30,
+    "founder_independence_score_1_5": null,
+    "testability_score_1_5": 3,
+    "time_to_first_euro_score_1_5": 3,
+    "confidence_band": "medium",
+    "derivation_basis": "Protocol-derived from segment, approval-route complexity, buyer motion, and current validation/citation gaps.",
+    "evidence_refs": {
+      "source_ids": [],
+      "claim_ids": []
+    },
+    "notes": "validation queue severity 4; citation status ready; regulatory route present"
+  },
+  "demand_pull": {
+    "demand_evidence_score_1_5": null,
+    "wtp_score_1_5": null,
+    "cac_reality_score_1_5": null,
+    "retention_structure_score_1_5": 2,
+    "macro_trajectory_score_1_5": null,
+    "channel_fit_score_1_5": null,
+    "confidence_band": "low",
+    "derivation_basis": "Only offer structure and currently sourced competitor/numeric claims are available. SEMrush, paid search, and traffic observables are intentionally missing.",
+    "evidence_refs": {
+      "source_ids": [],
+      "claim_ids": [
+        "ext_005"
+      ]
+    },
+    "notes": "Retention structure is filled from the product format. Demand, WTP, CAC, macro, and channel-fit remain unfilled until SEMrush and distribution evidence are collected."
+  },
+  "regulatory_context": {
+    "regulatory_friction_inverse_score_1_5": 2,
+    "confidence_band": "medium",
+    "derivation_basis": "Derived from confirmed regulatory requirements, approval entities, and current contradiction/risk density in the evidence-backed card.",
+    "evidence_refs": {
+      "source_ids": [],
+      "claim_ids": []
+    },
+    "notes": "3 confirmed regulatory requirements in current card; 4 high-severity risk flags remain in the current card"
+  },
+  "semrush_snapshot": {
+    "market": "GCC",
+    "database": "",
+    "language": "",
+    "keyword_buckets": {
+      "head_terms": [
+        "OET Medical Preparation (Doctors)",
+        "OET Medical Preparation (Doctors) GCC"
+      ],
+      "commercial_modifiers": [
+        "oet preparation course",
+        "oet prep",
+        "luxembourg",
+        "b2c"
+      ],
+      "problem_intent": [
+        "nursing oet preparation",
+        "doctor oet preparation",
+        "doctors need high quality"
+      ],
+      "competitor_route": [
+        "Intro to OET Medicine course for doctors",
+        "OET free sample tests"
+      ]
+    },
+    "metrics": {
+      "keyword_count_total": null,
+      "keyword_count_commercial": null,
+      "volume_sum": null,
+      "volume_sum_commercial": null,
+      "avg_cpc": null,
+      "max_cpc": null,
+      "avg_competitive_density": null,
+      "high_intent_keyword_count": null,
+      "paid_competitor_count": null
+    },
+    "top_paid_competitors": [],
+    "observed_price_points": [],
+    "serp_feature_notes": "",
+    "traffic_analytics_notes": ""
+  },
+  "portfolio_tags": {
+    "niche": "OET Medical Preparation (Doctors) / exam",
+    "persona": "individual",
+    "channel_primary": "",
+    "channel_secondary": "",
+    "price_point": "mid-ticket",
+    "delivery_mode": "prep course"
+  },
+  "collapsed_scores": {
+    "validation_velocity_composite": 3,
+    "demand_pull_composite": null,
+    "overall_confidence_band": "low",
+    "confidence_reason": "Validation velocity is partially populated, but founder-independence, demand observables, and SEMrush-backed pull metrics are still missing."
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schema_version": "claim_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A1",
+  "product_title": "AI Literacy Workshop",
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "mandate",
+      "claim_text": "The AI Act requires providers and deployers of AI systems to ensure a sufficient level of AI literacy among relevant staff and people acting on their behalf.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "eu_ai_literacy_qa",
+        "eu_ai_literacy_policy"
+      ],
+      "contradiction_flag": false,
+      "notes": "The Commission states that Article 4 applies to providers and deployers and requires measures to ensure sufficient AI literacy.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "deadline",
+      "claim_text": "The AI literacy obligation becomes a compliance concern by August 2026.",
+      "legacy_status": "partially_verified",
+      "supporting_source_ids": [
+        "eu_ai_literacy_qa",
+        "eu_ai_act_start"
+      ],
+      "contradiction_flag": false,
+      "notes": "The obligation already applies from 2 February 2025; supervision and enforcement by national market surveillance authorities start in August 2026. The card compresses that timeline into one deadline.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "subsidy",
+      "claim_text": "Luxembourg employer training co-funding via INFPC / Guichet exists and is relevant to training products.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "guichet_cvt"
+      ],
+      "contradiction_flag": false,
+      "notes": "Guichet states that private-sector businesses in Luxembourg can apply for co-funding of continuing vocational training, with exclusions for mandatory regulated-profession training.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_004",
+      "origin": "legacy_external_claim",
+      "category": "subsidy",
+      "claim_text": "Luxinnovation Fit 4 AI / AI support exists as a public AI support route.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "fit4ai"
+      ],
+      "contradiction_flag": false,
+      "notes": "Luxinnovation publicly offers Fit 4 AI support. The reviewed public material does not prove that this exact workshop format is directly eligible on the card's terms.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_005",
+      "origin": "legacy_external_claim",
+      "category": "numeric_claim",
+      "claim_text": "14.4% of Luxembourg enterprises used AI technologies in 2023.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "eurostat_ai_2023"
+      ],
+      "contradiction_flag": false,
+      "notes": "Eurostat reports Luxembourg as one of the highest adopters in the EU at 14.4% for 2023.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_006",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "Only provider combining EU AI Act compliance + hands-on practice + audit documentation.",
+      "legacy_status": "contradicted",
+      "supporting_source_ids": [
+        "houseoftraining_ai_fundamentals",
+        "houseoftraining_ai_act_course",
+        "houseoftraining_ai_risk"
+      ],
+      "contradiction_flag": true,
+      "notes": "House of Training already offers Luxembourg AI training that combines AI Act framing, practical AI use and data-protection/risk content, so the exclusivity claim is too strong.",
+      "next_action": "falsify fully and rewrite or drop"
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "The AI Literacy Certificate has external compliance significance.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "No public source reviewed shows that a provider-issued certificate from this workshop has official regulatory standing.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "Audit-ready documentation from this workshop is sufficient for compliance use.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "No public source reviewed confirms regulator or authority acceptance of this product's documentation.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "77% of employers plan AI upskilling.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "No primary public source confirming this exact figure was found in the review.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_004",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "Fine up to €7.5M.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The reviewed sources do not confirm this amount as it is used in the card's compliance framing.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_005",
+      "origin": "legacy_internal_claim",
+      "category": "subsidy",
+      "claim_text": "SME Package AI 70% (up to €17,500) applies to this workshop.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "Public AI support exists, but the workshop-level eligibility claim is not directly confirmed by the reviewed sources.",
+      "next_action": "treat as open question, not as fact"
+    }
+  ]
+}

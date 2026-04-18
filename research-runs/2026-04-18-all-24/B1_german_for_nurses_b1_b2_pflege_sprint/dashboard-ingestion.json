@@ -1,0 +1,161 @@
+{
+  "schema_version": "dashboard_ingestion_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B1",
+  "product_title": "German for Nurses (B1->B2 Pflege Sprint)",
+  "reviewed_at": "2026-04-18T14:01:02Z",
+  "release_status": "review",
+  "safe_fields": {
+    "jurisdiction_scope": {
+      "value": [
+        "Germany"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_003",
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_007",
+        "claim_008"
+      ],
+      "source_refs": [
+        "makeit_nursing_route",
+        "ba_nursing_shortage_2024",
+        "ba_nurses_2025",
+        "bamf_deutsch_beruf"
+      ],
+      "last_verified_at": "2026-04-18T14:01:02Z"
+    },
+    "nursing_language_requirement_context": {
+      "value": "Germany generally requires B2 German for nursing work, while nursing trainees from abroad may need B1 or B2 depending on the federal state.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_003"
+      ],
+      "source_refs": [
+        "makeit_nursing_route"
+      ],
+      "last_verified_at": "2026-04-18T14:01:02Z"
+    },
+    "verified_exam_routes": {
+      "value": [
+        "telc Deutsch B1-B2 Pflege",
+        "Goethe-Test PRO Pflege"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_001",
+        "claim_002"
+      ],
+      "source_refs": [
+        "telc_pflege",
+        "goethe_pflege",
+        "goethe_pflege_results"
+      ],
+      "last_verified_at": "2026-04-18T14:01:02Z"
+    },
+    "market_need_stat": {
+      "value": "The Federal Employment Agency reported 35,000 average nursing vacancies in 2023, 270,000 foreign-national qualified nurses (16%) in 2023, and an 18% foreign-worker share in nursing professions in 2025.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_004",
+        "claim_005",
+        "claim_006"
+      ],
+      "source_refs": [
+        "ba_nursing_shortage_2024",
+        "ba_nurses_2025"
+      ],
+      "last_verified_at": "2026-04-18T14:01:02Z"
+    },
+    "public_language_support_route": {
+      "value": "BAMF occupational German support includes certificate courses and specialist-language-exam preparation for recognition, including healthcare use cases.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_007"
+      ],
+      "source_refs": [
+        "bamf_deutsch_beruf"
+      ],
+      "last_verified_at": "2026-04-18T14:01:02Z"
+    },
+    "public_nursing_recruitment_route": {
+      "value": "Official German nursing recruitment routes include Triple Win for India (Kerala and Telangana), Indonesia, the Philippines and Tunisia, with German-language and specialist nursing-course support.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_008"
+      ],
+      "source_refs": [
+        "makeit_nursing_route"
+      ],
+      "last_verified_at": "2026-04-18T14:01:02Z"
+    },
+    "hard_blockers": {
+      "value": [
+        "No public source shows that an 8-12 week sprint is enough for most nurses to reach the required proof route.",
+        "The 300K+ / 17.8% foreign-nurse claim is contradicted by current BA figures.",
+        "Product-specific eligibility under BAMF or BA-linked routes is unverified.",
+        "The India-Morocco-Brazil recruiting-route claim is contradicted by current official programme pages.",
+        "No defensible market-gap or family-income conversion proof survived the rerun."
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "int_001",
+        "int_002",
+        "claim_007",
+        "claim_008",
+        "ext_006",
+        "int_003",
+        "int_004"
+      ],
+      "source_refs": [
+        "ba_nursing_shortage_2024",
+        "ba_nurses_2025",
+        "bamf_deutsch_beruf",
+        "makeit_nursing_route",
+        "makeit_projects"
+      ],
+      "last_verified_at": "2026-04-18T14:01:02Z"
+    }
+  },
+  "analyst_only_fields": {
+    "target_audience_summary": {
+      "value": "International nurses and employer or recruitment partners preparing candidates for German nursing entry, training, or recognition routes.",
+      "confidence_band": "medium",
+      "omission_reason": "Useful positioning context, but still a synthesis rather than a product-safe fact."
+    }
+  },
+  "blocked_fields": {
+    "sprint_sufficiency": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "No public evidence proves that an 8-12 week sprint is enough for most learners to hit the required route threshold."
+    },
+    "product_specific_programme_eligibility": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "Public BAMF and recruitment routes exist, but the rerun found no proof that B1 itself is part of or eligible under those programmes."
+    },
+    "route_country_scope_marketing_claim": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "The India-Morocco-Brazil framing is contradicted and cannot be used as safe country-scope copy."
+    },
+    "inflated_foreign_nurse_count": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "The 300K+ / 17.8% figure did not survive current official verification."
+    },
+    "market_gap_and_conversion_claims": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "No exhaustive market-gap proof or external validation for the family-income conversion framing was found."
+    }
+  },
+  "verification_summary": {
+    "verified_claim_count": 8,
+    "contradicted_claim_count": 2,
+    "blocked_question_count": 4
+  }
+}

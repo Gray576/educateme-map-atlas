@@ -1,0 +1,65 @@
+{
+  "schema_version": "contradiction_log_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B3",
+  "product_title": "AI Literacy (EU-wide remote)",
+  "analysis_timestamp": "2026-04-18T14:01:28Z",
+  "contradictions": [
+    {
+      "contradiction_id": "c_001",
+      "claim_id": "ext_005",
+      "claim_text": "EU-wide coverage applies to all companies.",
+      "status": "contradicted",
+      "contradicting_source_ids": [
+        "ai_literacy_qna"
+      ],
+      "contradicting_quote_ids": [
+        "q_001",
+        "q_007",
+        "q_009"
+      ],
+      "resolution": "Rewrite the scope message. Article 4 applies to providers, deployers, and other in-scope actors, and it can also reach some actors outside the EU when their systems are used in the Union or affect people in the Union.",
+      "why_it_matters": "Leaving the legacy wording in place would materially overstate the addressable compliance market."
+    }
+  ],
+  "open_issues": [
+    {
+      "claim_id": "int_001",
+      "claim_text": "Most AI literacy training is English-only.",
+      "status": "unclear",
+      "issue_type": "market_language_claim",
+      "resolution": "review",
+      "notes": "The rerun surfaced a French paid alternative and a multilingual EU public alternative, so the blanket language-gap claim cannot be treated as a fact."
+    },
+    {
+      "claim_id": "int_002",
+      "claim_text": "EU-wide remote delivery is enough to solve the buyer's AI literacy problem.",
+      "status": "unclear",
+      "issue_type": "product_fit_unverified",
+      "resolution": "blocked",
+      "notes": "No reviewed source proves that one remote format is sufficient across country, sector, and use-context differences."
+    },
+    {
+      "claim_id": "int_003",
+      "claim_text": "The multilingual FR/DE/EN angle is a durable geographic advantage.",
+      "status": "unclear",
+      "issue_type": "differentiation_unverified",
+      "resolution": "blocked",
+      "notes": "Elements of AI already offers English, French, and German among many other languages, and House of Training provides a French paid alternative."
+    }
+  ],
+  "falsification_searches": [
+    {
+      "query": "\"AI literacy\" \"all companies\" Article 4 AI Act",
+      "result": "The Commission Q&A narrows the obligation to providers, deployers, and other in-scope actors rather than every EU company."
+    },
+    {
+      "query": "\"Elements of AI\" multilingual English French German free self-paced",
+      "result": "The EU Digital Skills and Jobs Platform and University of Helsinki sources show a free multilingual self-paced substitute with EU country coverage."
+    },
+    {
+      "query": "\"House of Training\" \"Intelligences artificielles generatives - Fondamentaux\"",
+      "result": "House of Training publicly lists a paid 4h French face-to-face AI fundamentals course, which weakens any blanket language-gap story."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": "contradiction_log_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A5",
+  "product_title": "MiFID II Compliance Training",
+  "generated_at": "2026-04-18T12:56:57Z",
+  "contradictions": [
+    {
+      "claim_id": "ext_004",
+      "claim_text": "CSSF Circular 17/670 mandates 60h training.",
+      "status": "contradicted",
+      "severity": "high",
+      "contradiction_type": "false_fixed_hour_mandate",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [
+        "esma_knowledge_competence",
+        "houseoftraining_mifid_cert"
+      ],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [
+        "q_esma_001",
+        "q_hot_004",
+        "q_hot_005"
+      ],
+      "resolution": "blocked",
+      "notes": "The regulator material frames the issue as knowledge-and-competence criteria, and the incumbent CSSF-accredited route is published as 61h/69h rather than a universal 60h."
+    },
+    {
+      "claim_id": "ext_005",
+      "claim_text": "INFPC 15-35% applies to this product.",
+      "status": "contradicted",
+      "severity": "high",
+      "contradiction_type": "subsidy_eligibility_conflict",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [
+        "guichet_cvt",
+        "houseoftraining_mifid_cert"
+      ],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [
+        "q_guichet_001",
+        "q_hot_005"
+      ],
+      "resolution": "blocked",
+      "notes": "Guichet excludes mandatory regulated-profession training; the provider page claims co-financing eligibility. The product-level claim cannot be released."
+    }
+  ],
+  "open_issues": [
+    {
+      "claim_id": "ext_007",
+      "claim_text": "No DE/PT/IT providers exist.",
+      "status": "blocked",
+      "issue_type": "market_scan_incomplete",
+      "resolution": "review",
+      "notes": "No exhaustive language-specific competitor census was established."
+    },
+    {
+      "claim_id": "ext_008",
+      "claim_text": "CSSF deadline June 30, 2026.",
+      "status": "unverified",
+      "issue_type": "deadline_not_proved",
+      "resolution": "review",
+      "notes": "Only an exam session date on 30 June 2026 was found."
+    },
+    {
+      "claim_id": "ext_009",
+      "claim_text": "All financial sector employees providing investment services (73K in Luxembourg).",
+      "status": "unverified",
+      "issue_type": "numeric_source_missing",
+      "resolution": "review",
+      "notes": "No primary statistical source was confirmed."
+    },
+    {
+      "claim_id": "int_001",
+      "claim_text": "This proposed product can issue a CSSF-accredited completion certificate.",
+      "status": "unclear",
+      "issue_type": "product_specific_accreditation_unproven",
+      "resolution": "blocked",
+      "notes": "Only the incumbent route is publicly evidenced."
+    },
+    {
+      "claim_id": "int_005",
+      "claim_text": "The product can be delivered as a new independent certified route without partner/accreditation work.",
+      "status": "unclear",
+      "issue_type": "route_strategy_unresolved",
+      "resolution": "blocked",
+      "notes": "The reviewed sources point to a controlled accredited ecosystem, not a free-standing new route."
+    }
+  ],
+  "summary": {
+    "checked_claim_count": 9,
+    "contradicted_count": 2,
+    "open_issue_count": 5,
+    "verified_claim_count": 4,
+    "unverified_claim_count": 3,
+    "unclear_claim_count": 5
+  }
+}

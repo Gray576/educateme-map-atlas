@@ -1,0 +1,59 @@
+{
+  "schema_version": "dashboard_ingestion_v2",
+  "run_id": "run_2026_04_18_example",
+  "product_code": "A5",
+  "product_title": "MiFID II Compliance Training",
+  "reviewed_at": "2026-04-18T12:10:00Z",
+  "release_status": "review",
+  "safe_fields": {
+    "jurisdiction_scope": {
+      "value": [
+        "Luxembourg",
+        "EU"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_001"
+      ],
+      "source_refs": [
+        "cssf_17670",
+        "cssf_training_list"
+      ],
+      "last_verified_at": "2026-04-18T12:00:00Z"
+    },
+    "approval_entities": {
+      "value": [
+        "CSSF"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_001"
+      ],
+      "source_refs": [
+        "cssf_17670"
+      ],
+      "last_verified_at": "2026-04-18T12:00:00Z"
+    },
+    "hard_blockers": {
+      "value": [
+        "Product-specific accredited route not yet verified"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T12:00:00Z"
+    }
+  },
+  "analyst_only_fields": {
+    "target_audience_summary": {
+      "value": "All financial sector employees providing investment services",
+      "confidence_band": "medium",
+      "omission_reason": "Not safe for default dashboard because the exact audience size remains under-evidenced."
+    }
+  },
+  "verification_summary": {
+    "verified_claim_count": 1,
+    "contradicted_claim_count": 0,
+    "blocked_question_count": 1
+  }
+}

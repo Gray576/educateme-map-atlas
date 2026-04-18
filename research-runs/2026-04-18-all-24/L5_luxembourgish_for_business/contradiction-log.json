@@ -1,0 +1,60 @@
+{
+  "schema_version": "contradiction_log_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L5",
+  "product_title": "Luxembourgish for Business",
+  "analysis_timestamp": "2026-04-18T18:04:05Z",
+  "contradictions": [
+    {
+      "contradiction_id": "c_001",
+      "claim_id": "int_001",
+      "claim_text": "The product's CEFR certification is sufficient for official needs.",
+      "status": "contradicted",
+      "contradicting_source_ids": [
+        "inll_luxembourgish",
+        "inll_faq"
+      ],
+      "contradicting_quote_ids": [
+        "q_003",
+        "q_004",
+        "q_005"
+      ],
+      "resolution": "Separate official certification routes from ordinary course completion. Do not market a provider-issued CEFR-style certificate as automatically sufficient for nationality or other official needs.",
+      "why_it_matters": "This is the main truth-layer risk in the card: blending learning progress with official recognition."
+    }
+  ],
+  "open_issues": [
+    {
+      "claim_id": "ext_004",
+      "claim_text": "INLL courses do not give a certificate valid for a nationality application.",
+      "status": "blocked",
+      "issue_type": "legacy_wording_overstates_safe_fact",
+      "resolution": "Use the narrower FAQ wording about article-28 nationality courses instead.",
+      "notes": "The official distinction is real, but the exact legacy sentence is broader than the safest evidence."
+    },
+    {
+      "claim_id": "int_002",
+      "claim_text": "INLL is free, overcrowded and generic.",
+      "status": "unclear",
+      "issue_type": "compound_ops_claim_unproven",
+      "resolution": "blocked",
+      "notes": "Only a free public self-learning route is evidenced."
+    },
+    {
+      "claim_id": "int_003",
+      "claim_text": "Luxembourgish demand is rising because of integration requirements.",
+      "status": "unclear",
+      "issue_type": "demand_growth_unproven",
+      "resolution": "blocked",
+      "notes": "No primary demand-growth metric was found in the rerun."
+    }
+  ],
+  "summary": {
+    "checked_claim_count": 12,
+    "contradicted_count": 1,
+    "open_issue_count": 3,
+    "verified_claim_count": 7,
+    "unverified_claim_count": 0,
+    "unclear_claim_count": 2
+  }
+}

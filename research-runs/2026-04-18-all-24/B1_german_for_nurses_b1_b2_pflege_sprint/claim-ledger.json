@@ -1,0 +1,248 @@
+{
+  "schema_version": "claim_ledger_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B1",
+  "product_title": "German for Nurses (B1->B2 Pflege Sprint)",
+  "analysis_timestamp": "2026-04-18T14:01:02Z",
+  "jurisdictions": [
+    "Germany"
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_001",
+      "origin": "v2_rederived_claim",
+      "category": "exam",
+      "claim_text": "telc Deutsch B1-B2 Pflege is a nursing-specific German exam whose certificate demonstrates reading, listening, writing and speaking competence at levels B1 and B2.",
+      "jurisdiction": "Germany",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "telc_pflege"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_001",
+        "q_002"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is strong exam-route context, not proof that the proposed sprint is sufficient for most learners."
+    },
+    {
+      "claim_id": "claim_002",
+      "origin": "v2_rederived_claim",
+      "category": "exam",
+      "claim_text": "Goethe-Test PRO Pflege is a nursing-focused B2 proof route recognised by the BAMF and the German Foreign Office, and the overall B2 result requires all four exam parts to be passed at at least B2.",
+      "jurisdiction": "Germany",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "goethe_pflege",
+        "goethe_pflege_results"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_003",
+        "q_004",
+        "q_005"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "The safe framing is that this is a recognised B2 route; it does not by itself prove buyer acceptance of the product."
+    },
+    {
+      "claim_id": "claim_003",
+      "origin": "v2_rederived_claim",
+      "category": "requirement",
+      "claim_text": "For regulated nursing work in Germany, German language skills at least at B2 are generally required; for nursing trainees from abroad, the required level can be B1 or B2 depending on the federal state.",
+      "jurisdiction": "Germany",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "makeit_nursing_route"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_006",
+        "q_007"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This matters because the product title spans B1 to B2, but the public route is not one single universal threshold."
+    },
+    {
+      "claim_id": "claim_004",
+      "origin": "v2_rederived_claim",
+      "category": "market_context",
+      "claim_text": "The Federal Employment Agency reported average nursing-sector vacancies of 35,000 in 2023 and only 44 jobseekers per 100 registered qualified nursing jobs.",
+      "jurisdiction": "Germany",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "ba_nursing_shortage_2024"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_008",
+        "q_009"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is the strongest current official shortage signal found in the rerun."
+    },
+    {
+      "claim_id": "claim_005",
+      "origin": "v2_rederived_claim",
+      "category": "numeric_claim",
+      "claim_text": "The Federal Employment Agency reported 270,000 foreign-national qualified nurses in Germany in 2023, equal to 16% of qualified nurses.",
+      "jurisdiction": "Germany",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "ba_nursing_shortage_2024"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_010"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Keep the date attached to the figure. This is safer than using a timeless 300K+ claim."
+    },
+    {
+      "claim_id": "claim_006",
+      "origin": "v2_rederived_claim",
+      "category": "numeric_claim",
+      "claim_text": "By 9 May 2025, the Federal Employment Agency said the proportion of foreign workers in nursing professions was 18%.",
+      "jurisdiction": "Germany",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "ba_nurses_2025"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_011"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is a later percentage update, not proof of a 300K+ stock figure."
+    },
+    {
+      "claim_id": "claim_007",
+      "origin": "v2_rederived_claim",
+      "category": "public_support_route",
+      "claim_text": "BAMF-administered occupational German support includes certificate courses and specialist-language-exam preparation that can support recognition of foreign qualifications, including in healthcare.",
+      "jurisdiction": "Germany",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "bamf_deutsch_beruf"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_012",
+        "q_013"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This proves the ecosystem route exists. It does not prove the B1 product itself is eligible or reimbursable."
+    },
+    {
+      "claim_id": "claim_008",
+      "origin": "v2_rederived_claim",
+      "category": "public_recruitment_route",
+      "claim_text": "Official German nursing recruitment routes include the Triple Win programme for nurses from India (Kerala and Telangana), Indonesia, the Philippines and Tunisia, with German-language and specialist nursing-course support.",
+      "jurisdiction": "Germany",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "makeit_nursing_route"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_014",
+        "q_015"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is public route context only. It does not prove that B1 is embedded in Triple Win or any official programme."
+    },
+    {
+      "claim_id": "ext_006",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "Bilateral agreements with India, Morocco and Brazil define the recruiting route.",
+      "jurisdiction": "Germany",
+      "status": "contradicted",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [
+        "makeit_nursing_route",
+        "makeit_projects"
+      ],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [
+        "q_014",
+        "q_016",
+        "q_017",
+        "q_018"
+      ],
+      "notes": "The official nursing route names India, Indonesia, the Philippines and Tunisia. Brazil and Morocco appear on other public projects, not as the defining nursing route."
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "scope_fit",
+      "claim_text": "An 8-12 week sprint is enough for most nurses to reach the required route proof.",
+      "jurisdiction": "Germany",
+      "status": "unclear",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "The rerun verifies route thresholds and exam types, but not product efficacy or median learner progress."
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "300K+ foreign nurses already work in Germany (17.8%).",
+      "jurisdiction": "Germany",
+      "status": "contradicted",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [
+        "ba_nursing_shortage_2024",
+        "ba_nurses_2025"
+      ],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [
+        "q_010",
+        "q_011"
+      ],
+      "notes": "The safest public formulation is 270,000 and 16% in 2023, plus an 18% share in 2025. The combined 300K+ / 17.8% line did not survive."
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "No strong online-first healthcare German brand exists.",
+      "jurisdiction": "Germany",
+      "status": "unclear",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "No exhaustive market scan was completed in this strict rerun, so the absence claim cannot be published."
+    },
+    {
+      "claim_id": "int_004",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "The family-income framing is a reliable conversion lever.",
+      "jurisdiction": null,
+      "status": "unclear",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "This is a commercial hypothesis, not a public fact established in the rerun."
+    }
+  ]
+}

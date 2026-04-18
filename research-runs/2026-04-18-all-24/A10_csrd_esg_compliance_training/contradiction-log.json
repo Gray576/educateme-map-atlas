@@ -1,0 +1,53 @@
+{
+  "schema_version": "contradiction_log_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A10",
+  "product_title": "CSRD/ESG Compliance Training",
+  "analysis_timestamp": "2026-04-18T12:56:35Z",
+  "contradictions": [
+    {
+      "contradiction_id": "c_001",
+      "claim_id": "ext_001",
+      "claim_text": "CSRD Wave 2 reporting is needed now for the card's target SME segment.",
+      "status": "contradicted",
+      "contradicting_source_ids": [
+        "ec_csrd_reporting",
+        "ec_omnibus_package"
+      ],
+      "contradicting_quote_ids": [
+        "q_001",
+        "q_002"
+      ],
+      "resolution": "Rewrite the timing message. The public EU sources show a two-year postponement for companies scheduled to report as of 2026 or 2027, so the product should not imply that wave-two timing is immediate.",
+      "why_it_matters": "The legacy urgency hook is stale and would overstate current regulatory pressure."
+    },
+    {
+      "contradiction_id": "c_002",
+      "claim_id": "ext_002",
+      "claim_text": "No French or German CSRD training exists for Luxembourg SMEs.",
+      "status": "contradicted",
+      "contradicting_source_ids": [
+        "houseoftraining_vsme",
+        "houseoftraining_csrd_esrs",
+        "pwc_csrd_dma"
+      ],
+      "contradicting_quote_ids": [
+        "q_007",
+        "q_009",
+        "q_011"
+      ],
+      "resolution": "Drop the market-gap claim. Public Luxembourg providers already offer French and German CSRD-related training.",
+      "why_it_matters": "This gap claim is not defensible and would misstate the competitive landscape."
+    }
+  ],
+  "falsification_searches": [
+    {
+      "query": "\"CSRD\" Luxembourg French German training",
+      "result": "Contradicted by House of Training and PwC Luxembourg public pages."
+    },
+    {
+      "query": "\"stop the clock\" CSRD 2026 2027 2028 European Commission",
+      "result": "Contradicted by official European Commission pages describing a two-year postponement."
+    }
+  ]
+}

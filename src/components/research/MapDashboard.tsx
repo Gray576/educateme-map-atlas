@@ -63,8 +63,9 @@ function ArchetypeLegendCard({
 }) {
   return (
     <div
-      className="flex min-w-[112px] items-center gap-2 rounded-md px-2 py-1.5"
+      className="group relative flex min-w-[112px] items-center gap-2 rounded-md px-2 py-1.5"
       style={{ backgroundColor: item.fill }}
+      tabIndex={0}
     >
       <span
         className="h-2.5 w-2.5 rounded-full"
@@ -75,6 +76,10 @@ function ArchetypeLegendCard({
         <br />
         {item.legendLines[1]}
       </span>
+
+      <div className="pointer-events-none absolute left-0 top-full z-30 mt-2 w-[260px] rounded-lg border border-border bg-popover px-3 py-2.5 opacity-0 shadow-lg transition-opacity duration-150 group-hover:opacity-100 group-focus-visible:opacity-100">
+        <p className="text-xs leading-5 text-foreground">{item.guide.whatItIs}</p>
+      </div>
     </div>
   );
 }
@@ -86,6 +91,8 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
   const options = useMemo(
     () => ({
       market: getUniqueOptions(products, "market"),
+      release: getUniqueOptions(products, "release"),
+      segment: getUniqueOptions(products, "segment"),
       buyer: getUniqueOptions(products, "buyer"),
       archetype: getUniqueOptions(products, "archetype"),
       claims: getUniqueOptions(products, "claims"),
@@ -158,6 +165,8 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
 
       <section className="mt-2 flex flex-wrap gap-2">
         <SelectControl label="Market" value={filters.market} options={options.market} onChange={(value) => setFilters((current) => ({ ...current, market: value }))} />
+        <SelectControl label="Release" value={filters.release} options={options.release} onChange={(value) => setFilters((current) => ({ ...current, release: value }))} />
+        <SelectControl label="Segment" value={filters.segment} options={options.segment} onChange={(value) => setFilters((current) => ({ ...current, segment: value }))} />
         <SelectControl label="Buyer" value={filters.buyer} options={options.buyer} onChange={(value) => setFilters((current) => ({ ...current, buyer: value }))} />
         <SelectControl label="Archetype" value={filters.archetype} options={options.archetype} onChange={(value) => setFilters((current) => ({ ...current, archetype: value }))} />
         <SelectControl label="Claims" value={filters.claims} options={options.claims} onChange={(value) => setFilters((current) => ({ ...current, claims: value }))} />
@@ -285,6 +294,14 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
                     {reading.topRight.code}
                   </Badge>
                   <div>
+                    <div className="flex flex-wrap gap-1.5">
+                      <Badge variant="outline" className="rounded-md px-2 py-0.5 text-[10px]">
+                        {reading.topRight.releaseStatus}
+                      </Badge>
+                      <Badge variant="outline" className="rounded-md px-2 py-0.5 text-[10px]">
+                        {reading.topRight.quadrantSegment}
+                      </Badge>
+                    </div>
                     <h3 className="text-sm font-semibold">Closest to “ship now”</h3>
                     <p className="mt-1 text-sm leading-6 text-muted-foreground">
                       High delivery ease and safer claim surface put this card nearest the top-right zone.
@@ -301,6 +318,14 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
                     {reading.interesting.code}
                   </Badge>
                   <div>
+                    <div className="flex flex-wrap gap-1.5">
+                      <Badge variant="outline" className="rounded-md px-2 py-0.5 text-[10px]">
+                        {reading.interesting.releaseStatus}
+                      </Badge>
+                      <Badge variant="outline" className="rounded-md px-2 py-0.5 text-[10px]">
+                        {reading.interesting.quadrantSegment}
+                      </Badge>
+                    </div>
                     <h3 className="text-sm font-semibold">Interesting but heavier</h3>
                     <p className="mt-1 text-sm leading-6 text-muted-foreground">
                       Stronger buyer clarity is visible here, but delivery or claims still add friction.
@@ -317,6 +342,14 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
                     {reading.bottomLeft.code}
                   </Badge>
                   <div>
+                    <div className="flex flex-wrap gap-1.5">
+                      <Badge variant="outline" className="rounded-md px-2 py-0.5 text-[10px]">
+                        {reading.bottomLeft.releaseStatus}
+                      </Badge>
+                      <Badge variant="outline" className="rounded-md px-2 py-0.5 text-[10px]">
+                        {reading.bottomLeft.quadrantSegment}
+                      </Badge>
+                    </div>
                     <h3 className="text-sm font-semibold">Complex route logic</h3>
                     <p className="mt-1 text-sm leading-6 text-muted-foreground">
                       Lower delivery and claim scores pull this card toward the heavier bottom-left zone.

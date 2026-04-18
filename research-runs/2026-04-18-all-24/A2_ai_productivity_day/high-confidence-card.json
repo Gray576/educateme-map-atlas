@@ -1,0 +1,479 @@
+{
+  "schema_version": "research_card_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A2",
+  "product_title": "AI Productivity Day",
+  "analysis_timestamp": "2026-04-18T13:39:48Z",
+  "jurisdictions": [
+    "Luxembourg",
+    "EU"
+  ],
+  "sources": [
+    {
+      "source_id": "eu_ai_literacy_qa",
+      "title": "AI Literacy - Questions & Answers",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+      "source_type": "official",
+      "authority_tier": "T1",
+      "jurisdiction": "EU",
+      "published_at": "2025-11-19",
+      "accessed_at": "2026-04-18T13:39:48Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "eu_ai_literacy_policy",
+      "title": "AI talent, skills and literacy",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy",
+      "source_type": "official",
+      "authority_tier": "T1",
+      "jurisdiction": "EU",
+      "published_at": "2025-12-04",
+      "accessed_at": "2026-04-18T13:39:48Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "guichet_cvt",
+      "title": "Financial aid for in-company continuing vocational training",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/financement-aides/aides-emploi-recrutement-formation/formation-professionnelle-continue/fpc-entreprise.html",
+      "source_type": "government",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": "2019-01-09",
+      "accessed_at": "2026-04-18T13:39:48Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "lifelonglearning_training_aid",
+      "title": "Training aid for companies",
+      "publisher": "lifelong-learning.lu / INFPC",
+      "url": "https://www.lifelong-learning.lu/entreprises/aides-formation-entreprise/en",
+      "source_type": "public_portal",
+      "authority_tier": "T2",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:39:48Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "guichet_training_establishment",
+      "title": "Manager of a continuing professional training establishment",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/creation-developpement/autorisation-etablissement/commerce/organisme-formation-continue.html",
+      "source_type": "government",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": "2023-11-27",
+      "accessed_at": "2026-04-18T13:39:48Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "lifelonglearning_approved_provider",
+      "title": "Become an approved training provider",
+      "publisher": "lifelong-learning.lu / INFPC",
+      "url": "https://www.lifelong-learning.lu/professionnels-de-la-formation/devenir-organisme-de-formation-agree/en",
+      "source_type": "public_portal",
+      "authority_tier": "T2",
+      "jurisdiction": "Luxembourg",
+      "published_at": "2026-04-17",
+      "accessed_at": "2026-04-18T13:39:48Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "houseoftraining_gen_ai_fundamentals",
+      "title": "Generative artificial intelligences - Fundamentals",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/generative-artificial-intelligences-fundamentals-12375",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:39:48Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "houseoftraining_chatgpt_business",
+      "title": "Entrepreneur augmenté grâce à ChatGPT – Comprendre et intégrer l'IA dans votre stratégie d'entreprise",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/entrepreneur-augmente-grace-a-chatgpt-comprendre-et-integrer-l-ia-dans-votre-strategie-d-entreprise-12114",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:39:48Z",
+      "language": "fr",
+      "archive_url": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_001",
+      "origin": "v2_rederived_claim",
+      "category": "compliance",
+      "claim_text": "Article 4 of the EU AI Act requires providers and deployers of AI systems to ensure a sufficient level of AI literacy for staff and other persons dealing with AI systems on their behalf.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "eu_ai_literacy_qa",
+        "eu_ai_literacy_policy"
+      ],
+      "supporting_quote_ids": [
+        "q_001",
+        "q_002"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Verified with official European Commission sources."
+    },
+    {
+      "claim_id": "claim_002",
+      "origin": "v2_rederived_claim",
+      "category": "compliance",
+      "claim_text": "The Commission says companies using ChatGPT for tasks such as advertisement writing or translation should inform staff about risks such as hallucination, and AI literacy training can be tailored to sectors and job profiles.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "eu_ai_literacy_qa",
+        "eu_ai_literacy_policy"
+      ],
+      "supporting_quote_ids": [
+        "q_003",
+        "q_004"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Verified with official European Commission sources."
+    },
+    {
+      "claim_id": "claim_003",
+      "origin": "v2_rederived_claim",
+      "category": "funding",
+      "claim_text": "Luxembourg private-sector companies can obtain State financial support for employee training through the in-company continuing vocational training co-funding route.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_cvt",
+        "lifelonglearning_training_aid"
+      ],
+      "supporting_quote_ids": [
+        "q_005",
+        "q_006"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Verified at scheme level only."
+    },
+    {
+      "claim_id": "claim_004",
+      "origin": "v2_rederived_claim",
+      "category": "funding",
+      "claim_text": "The public Luxembourg company-training aid route states support amounts to 15% of the annual amount invested, with a 35% wage-cost rate for participants meeting specific age or qualification criteria.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_cvt",
+        "lifelonglearning_training_aid"
+      ],
+      "supporting_quote_ids": [
+        "q_006",
+        "q_007"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Verified at scheme level only."
+    },
+    {
+      "claim_id": "claim_005",
+      "origin": "v2_rederived_claim",
+      "category": "compliance",
+      "claim_text": "In Luxembourg, providing continuing professional training to third parties outside the company triggers a permit or ministerial-authorisation route for local private training bodies, while foreign training bodies rely on home-country authorisation unless they set up in Luxembourg.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_training_establishment",
+        "lifelonglearning_approved_provider"
+      ],
+      "supporting_quote_ids": [
+        "q_008",
+        "q_009"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Verified route fact; product-specific applicability remains open."
+    },
+    {
+      "claim_id": "claim_006",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "House of Training publishes a face-to-face generative-AI fundamentals course in Luxembourg and cross-sells a 32H 'Generative AI toolbox - ChatGPT & Cies' offer.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "houseoftraining_gen_ai_fundamentals"
+      ],
+      "supporting_quote_ids": [
+        "q_010",
+        "q_011",
+        "q_012"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Direct public competitor evidence."
+    },
+    {
+      "claim_id": "claim_007",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "House of Training publishes a face-to-face ChatGPT-for-business course that includes a small-group prompt workshop and brainstorming on integrating ChatGPT into the participant's business context.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "houseoftraining_chatgpt_business"
+      ],
+      "supporting_quote_ids": [
+        "q_013",
+        "q_014"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Direct public competitor evidence."
+    },
+    {
+      "claim_id": "claim_008",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "Nobody in Luxembourg offers this format.",
+      "jurisdiction": "Luxembourg",
+      "status": "contradicted",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [
+        "houseoftraining_gen_ai_fundamentals",
+        "houseoftraining_chatgpt_business"
+      ],
+      "contradicting_quote_ids": [
+        "q_010",
+        "q_012",
+        "q_013",
+        "q_014"
+      ],
+      "notes": "The empty-market version of the positioning does not survive."
+    },
+    {
+      "claim_id": "claim_009",
+      "origin": "legacy_internal_claim",
+      "category": "subsidy",
+      "claim_text": "SME Package AI 70% applies to this workshop.",
+      "jurisdiction": "Luxembourg",
+      "status": "unverified",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "No public evidence reviewed proved this workshop-specific funding claim."
+    },
+    {
+      "claim_id": "claim_010",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "The workshop should deliver 5-10 ready AI workflows for the team.",
+      "jurisdiction": "Luxembourg",
+      "status": "unverified",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "No public evidence reviewed proved this product promise."
+    },
+    {
+      "claim_id": "claim_011",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "The workshop can show AI ROI in 30 days.",
+      "jurisdiction": "Luxembourg",
+      "status": "unverified",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "No public evidence reviewed proved this timeline claim."
+    },
+    {
+      "claim_id": "claim_012",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "This is the unique 'work on your tasks' AI format in Luxembourg.",
+      "jurisdiction": "Luxembourg",
+      "status": "unclear",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [
+        "houseoftraining_gen_ai_fundamentals",
+        "houseoftraining_chatgpt_business"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Uniqueness remains unproven even though the empty-market variant is contradicted."
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "req_001",
+      "requirement": "Providers and deployers of AI systems must ensure a sufficient level of AI literacy for relevant staff and persons acting on their behalf.",
+      "applies_to": "Organisations providing or deploying AI systems",
+      "jurisdiction": "EU",
+      "status": "confirmed",
+      "source_ids": [
+        "eu_ai_literacy_qa",
+        "eu_ai_literacy_policy"
+      ],
+      "quote_ids": [
+        "q_001",
+        "q_002",
+        "q_003",
+        "q_004"
+      ]
+    },
+    {
+      "requirement_id": "req_002",
+      "requirement": "Luxembourg company-training co-funding is accessed through a training-plan application route and has official rate rules.",
+      "applies_to": "Private-sector companies in Luxembourg",
+      "jurisdiction": "Luxembourg",
+      "status": "confirmed",
+      "source_ids": [
+        "guichet_cvt",
+        "lifelonglearning_training_aid"
+      ],
+      "quote_ids": [
+        "q_005",
+        "q_006",
+        "q_007"
+      ]
+    },
+    {
+      "requirement_id": "req_003",
+      "requirement": "Training delivered to third parties outside the company in Luxembourg may require a permit or ministerial-authorisation route depending on provider status.",
+      "applies_to": "Continuing professional training providers operating in Luxembourg",
+      "jurisdiction": "Luxembourg",
+      "status": "confirmed",
+      "source_ids": [
+        "guichet_training_establishment",
+        "lifelonglearning_approved_provider"
+      ],
+      "quote_ids": [
+        "q_008",
+        "q_009"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "entity_001",
+      "name": "European Commission / AI Office",
+      "kind": "regulator",
+      "jurisdiction": "EU",
+      "source_ids": [
+        "eu_ai_literacy_qa",
+        "eu_ai_literacy_policy"
+      ]
+    },
+    {
+      "entity_id": "entity_002",
+      "name": "INFPC",
+      "kind": "public_body",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "guichet_cvt",
+        "lifelonglearning_training_aid",
+        "lifelonglearning_approved_provider"
+      ]
+    },
+    {
+      "entity_id": "entity_003",
+      "name": "Ministry of Education, Children and Youth",
+      "kind": "public_authority",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "lifelonglearning_training_aid",
+        "lifelonglearning_approved_provider"
+      ]
+    },
+    {
+      "entity_id": "entity_004",
+      "name": "Ministry of the Economy",
+      "kind": "public_authority",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "guichet_training_establishment",
+        "lifelonglearning_approved_provider"
+      ]
+    }
+  ],
+  "competitors": [
+    {
+      "competitor_id": "comp_001",
+      "name": "House of Training",
+      "kind": "direct",
+      "source_ids": [
+        "houseoftraining_gen_ai_fundamentals",
+        "houseoftraining_chatgpt_business"
+      ],
+      "notes": "Direct public evidence exists for practical generative-AI and ChatGPT business training in Luxembourg."
+    }
+  ],
+  "open_questions": [
+    {
+      "question_id": "oq_001",
+      "question": "Is A2 delivered through a route that requires Luxembourg training-provider approval, or does it rely on an exception or foreign-provider status?",
+      "reason": "Official Luxembourg approval rules exist, but the product's exact operator status is not public.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_002",
+      "question": "Is this exact workshop eligible for Luxembourg company-training co-funding, or only the broader company training plan is?",
+      "reason": "Official sources prove the scheme exists, but not A2-specific eligibility.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_003",
+      "question": "What privacy, confidentiality, and governance guardrails apply when using client tasks or data inside the workshop?",
+      "reason": "EU AI literacy guidance emphasizes risk-aware and context-aware use, but no product-specific safeguards are publicly documented.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_004",
+      "question": "What evidence-backed differentiation remains once the empty-market and uniqueness claims are removed?",
+      "reason": "Public competitor pages already show practical workshops and business-context exercises in Luxembourg.",
+      "blocking": true
+    }
+  ],
+  "verification_summary": {
+    "verified_claim_count": 7,
+    "partially_verified_claim_count": 0,
+    "unverified_claim_count": 3,
+    "contradicted_claim_count": 1,
+    "blocked_question_count": 4,
+    "official_source_count": 6,
+    "total_source_count": 8
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "schema_version": "claim_ledger_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B3",
+  "product_title": "AI Literacy (EU-wide remote)",
+  "analysis_timestamp": "2026-04-18T14:01:28Z",
+  "jurisdictions": [
+    "EU"
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_001",
+      "origin": "v2_rederived_claim",
+      "category": "mandate",
+      "claim_text": "Article 4 of the AI Act requires providers and deployers of AI systems to ensure a sufficient level of AI literacy for staff and other persons dealing with AI systems on their behalf.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "ai_literacy_qna"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_001"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is the safest primary-source formulation of the obligation."
+    },
+    {
+      "claim_id": "claim_002",
+      "origin": "v2_rederived_claim",
+      "category": "compliance",
+      "claim_text": "Article 4 measures are context-sensitive and should take into account technical knowledge, experience, education, training, and the context in which AI systems are used.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "ai_literacy_qna"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_002"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This directly weakens any generic one-size-fits-all product promise."
+    },
+    {
+      "claim_id": "claim_003",
+      "origin": "v2_rederived_claim",
+      "category": "compliance",
+      "claim_text": "The AI Office does not intend to impose strict requirements or mandatory trainings for Article 4 AI literacy.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "ai_literacy_qna"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_003"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is the main fail-closed guardrail against overstating a workshop format."
+    },
+    {
+      "claim_id": "claim_004",
+      "origin": "v2_rederived_claim",
+      "category": "compliance",
+      "claim_text": "The AI Office does not impose AI literacy requirements for specific sectors.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "ai_literacy_qna"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_004"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This matters because an EU-wide offer cannot safely imply a sector-specific template from the Commission guidance alone."
+    },
+    {
+      "claim_id": "claim_005",
+      "origin": "v2_rederived_claim",
+      "category": "compliance",
+      "claim_text": "The Commission Q&A says there is no need for a certificate and that organisations can keep an internal record of trainings and/or other guiding initiatives.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "ai_literacy_qna"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_005"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Useful for fail-closed positioning because it does not validate any product-issued certificate as a required compliance artifact."
+    },
+    {
+      "claim_id": "claim_006",
+      "origin": "v2_rederived_claim",
+      "category": "compliance",
+      "claim_text": "No specific governance structure is mandated to comply with Article 4 of the AI Act.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "ai_literacy_qna"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_006"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This blocks any stronger governance-board or audit-structure promise from being treated as regulatory fact."
+    },
+    {
+      "claim_id": "claim_007",
+      "origin": "v2_rederived_claim",
+      "category": "deadline",
+      "claim_text": "The Article 4 AI literacy obligation already applies from 2 February 2025, while supervision and enforcement begin in August 2026.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "ai_literacy_qna"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_007",
+        "q_008"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "The Q&A uses both 3 August 2026 and 2 August 2026 wording, so the safe dashboard phrasing is August 2026 rather than one hard day."
+    },
+    {
+      "claim_id": "claim_008",
+      "origin": "v2_rederived_claim",
+      "category": "jurisdiction",
+      "claim_text": "The AI Act's legal framework applies to public and private actors inside and outside the EU when the AI system is placed on the Union market, used in the Union, or impacts people located in the Union.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "ai_literacy_qna"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_009"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This clarifies why the product can talk about EU scope without claiming every company is automatically in scope."
+    },
+    {
+      "claim_id": "claim_009",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "House of Training publicly offers a 4h face-to-face French generative-AI fundamentals course for 175 EUR, which is a real paid substitute for generic AI literacy training.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "houseoftraining_ai_fundamentals"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_010"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is enough to block a blanket language-gap or substitute-free story."
+    },
+    {
+      "claim_id": "claim_010",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "The University of Helsinki's Elements of AI course is free and open to all, and it offers basic AI understanding without requiring prior AI or coding knowledge.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "elements_ai_helsinki_news"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_011"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is direct evidence that a public low-friction substitute already exists."
+    },
+    {
+      "claim_id": "claim_011",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "Elements of AI is a free, self-paced multilingual EU-scoped substitute that is completed online and has no attendance requirements or exams.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "elements_ai_course_description",
+        "elements_ai_eu_platform"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_012",
+        "q_013",
+        "q_014"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is the strongest public counterexample to any attendance-based or FR DE EN-only differentiation story."
+    },
+    {
+      "claim_id": "ext_005",
+      "origin": "legacy_external_claim",
+      "category": "scope_fit",
+      "claim_text": "EU-wide coverage applies to all companies.",
+      "jurisdiction": "EU",
+      "status": "contradicted",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [
+        "ai_literacy_qna"
+      ],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [
+        "q_001",
+        "q_007",
+        "q_009"
+      ],
+      "notes": "The reviewed Commission guidance limits the Article 4 story to providers, deployers, and other in-scope actors rather than every EU company by default."
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "competitor_gap",
+      "claim_text": "Most AI literacy training is English-only.",
+      "jurisdiction": "EU",
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "The rerun surfaced a French paid alternative and a multilingual EU public alternative, so the blanket language-gap claim is not established."
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "scope_fit",
+      "claim_text": "EU-wide remote delivery is enough to solve the buyer's AI literacy problem.",
+      "jurisdiction": "EU",
+      "status": "unclear",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "The official guidance is context-sensitive and does not prove that one remote format solves country-, sector-, and use-case-specific needs."
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "competitor_gap",
+      "claim_text": "The multilingual FR/DE/EN angle is a durable geographic advantage.",
+      "jurisdiction": "EU",
+      "status": "unclear",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "The rerun found multilingual public substitute coverage that already includes English, French, and German."
+    }
+  ],
+  "open_questions": [
+    {
+      "question_id": "oq_001",
+      "question": "Which member-state policy contexts and buyer environments are actually in scope for version one of the workshop?",
+      "reason": "The Commission guidance is EU-wide, but Article 4 implementation is explicitly context-sensitive.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_002",
+      "question": "Does the product promise only training, or does it also promise documentation, certification, or governance artifacts beyond the Commission's baseline?",
+      "reason": "The Q&A says no certificate or specific governance structure is required, so any stronger artifact claim needs separate proof.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_003",
+      "question": "Is a remote EU-wide format commercially credible without country- and context-specific adaptation?",
+      "reason": "The surviving evidence shows a context-sensitive obligation, not proof that a single remote format is sufficient for all buyer situations.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_004",
+      "question": "Can the FR/DE/EN positioning survive a stricter competitor scan after multilingual substitutes like Elements of AI are accounted for?",
+      "reason": "The rerun already surfaced multilingual public coverage and a French paid substitute.",
+      "blocking": true
+    }
+  ],
+  "verification_summary": {
+    "verified_claim_count": 11,
+    "partially_verified_claim_count": 0,
+    "unverified_claim_count": 0,
+    "contradicted_claim_count": 1,
+    "blocked_question_count": 4,
+    "official_source_count": 4,
+    "total_source_count": 5
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "source_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A6",
+  "sources": [
+    {
+      "source_id": "guichet_linguistic_leave",
+      "title": "Linguistic leave",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/ressources-humaines/formation-professionnelle/conges-formation/conge-linguistique.html",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "guichet_biergerpakt",
+      "title": "Citizen's pact for intercultural living together - 'Biergerpakt'",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/citoyens/citoyennete/vivre-ensemble/pacte-citoyen.html",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "inll_institute",
+      "title": "Learn languages in a pleasant and welcoming environment",
+      "publisher": "INLL",
+      "url": "https://www.inll.lu/en/institut-en/",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "prolingua_courses",
+      "title": "Courses",
+      "publisher": "Prolingua Language Centre",
+      "url": "https://prolingua.lu/en/courses_25",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "ec_labour_mobility_2025",
+      "title": "Annual Report on Intra-EU Labour Mobility - 2025 edition",
+      "publisher": "European Commission / Futurium",
+      "url": "https://futurium.ec.europa.eu/en/border-focal-point-network/library/annual-report-intra-eu-labour-mobility-2025-edition",
+      "source_type": "official",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "guichet_cvt",
+      "title": "Financial aid for in-company continuing vocational training",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/financement-aides/aides-emploi-recrutement-formation/formation-professionnelle-continue/fpc-entreprise.html",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    }
+  ]
+}

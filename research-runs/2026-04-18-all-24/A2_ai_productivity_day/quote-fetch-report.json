@@ -1,0 +1,179 @@
+{
+  "schema_version": "research_v2_quote_fetch_report_v1",
+  "product_code": "A2",
+  "generated_at": "2026-04-18T12:57:54.020Z",
+  "source_count": 7,
+  "candidate_count": 50,
+  "source_reports": [
+    {
+      "source_id": "eu_ai_literacy_qa",
+      "title": "AI Literacy - Questions & Answers",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "answers",
+        "literacy",
+        "questions"
+      ],
+      "candidate_count": 6
+    },
+    {
+      "source_id": "eu_ai_literacy_policy",
+      "title": "AI talent, skills and literacy",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "literacy",
+        "skills",
+        "talent"
+      ],
+      "candidate_count": 6
+    },
+    {
+      "source_id": "guichet_cvt",
+      "title": "Financial aid for in-company continuing vocational training",
+      "url": "https://guichet.public.lu/en/entreprises/financement-aides/aides-emploi-recrutement-formation/formation-professionnelle-continue/fpc-entreprise.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003"
+      ],
+      "terms": [
+        "company",
+        "continuing",
+        "funding",
+        "vocational",
+        "businesses",
+        "category",
+        "confirms",
+        "exclusions",
+        "financial",
+        "guichet",
+        "relevant",
+        "subject"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "houseoftraining_gen_ai_fundamentals",
+      "title": "Generative artificial intelligences - Fundamentals",
+      "url": "https://www.houseoftraining.lu/en_GB/training/generative-artificial-intelligences-fundamentals-12375",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001",
+        "ext_002"
+      ],
+      "terms": [
+        "generative",
+        "market",
+        "offers",
+        "angle",
+        "artificial",
+        "broadly",
+        "chatgpt",
+        "courses",
+        "customisation",
+        "default",
+        "differentiator",
+        "efficiency"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "houseoftraining_chatgpt_business",
+      "title": "Entrepreneur augmenté grâce à ChatGPT – Comprendre et intégrer l'IA dans votre stratégie d'entreprise",
+      "url": "https://www.houseoftraining.lu/en_GB/training/entrepreneur-augmente-grace-a-chatgpt-comprendre-et-integrer-l-ia-dans-votre-strategie-d-entreprise-12114",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001",
+        "ext_002"
+      ],
+      "terms": [
+        "chatgpt",
+        "market",
+        "offers",
+        "angle",
+        "augment",
+        "broadly",
+        "comprendre",
+        "courses",
+        "customisation",
+        "dans",
+        "default",
+        "differentiator"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "houseoftraining_ai_risk",
+      "title": "Risk Management - Information Security, Data Protection and Artificial Intelligence",
+      "url": "https://www.houseoftraining.lu/en_GB/training/risk-management-information-security-data-protection-and-ai-14729",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_004"
+      ],
+      "terms": [
+        "data",
+        "practical",
+        "artificial",
+        "awareness",
+        "considerations",
+        "courses",
+        "finance",
+        "governance",
+        "guidance",
+        "handled",
+        "handling",
+        "house"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "openai_prompting",
+      "title": "Prompting",
+      "url": "https://academy.openai.com/public/clubs/work-users-ynjqu/resources/prompting",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_002",
+        "ext_004"
+      ],
+      "terms": [
+        "practical",
+        "angle",
+        "awareness",
+        "broadly",
+        "considerations",
+        "courses",
+        "customisation",
+        "data",
+        "default",
+        "differentiator",
+        "even",
+        "examples"
+      ],
+      "candidate_count": 6
+    }
+  ]
+}

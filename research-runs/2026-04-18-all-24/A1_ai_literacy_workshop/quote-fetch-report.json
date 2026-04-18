@@ -1,0 +1,284 @@
+{
+  "schema_version": "research_v2_quote_fetch_report_v1",
+  "product_code": "A1",
+  "generated_at": "2026-04-18T12:57:51.481Z",
+  "source_count": 11,
+  "candidate_count": 82,
+  "source_reports": [
+    {
+      "source_id": "eu_ai_literacy_qa",
+      "title": "AI Literacy - Questions & Answers",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001",
+        "ext_002"
+      ],
+      "terms": [
+        "literacy",
+        "2026",
+        "applies",
+        "august",
+        "deployers",
+        "ensure",
+        "obligation",
+        "providers",
+        "requires",
+        "sufficient",
+        "2025",
+        "acting"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "eu_ai_literacy_policy",
+      "title": "AI talent, skills and literacy",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001"
+      ],
+      "terms": [
+        "literacy",
+        "deployers",
+        "ensure",
+        "providers",
+        "requires",
+        "sufficient",
+        "acting",
+        "among",
+        "applies",
+        "article",
+        "behalf",
+        "commission"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "eu_ai_act_start",
+      "title": "First rules of the Artificial Intelligence Act are now applicable",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/first-rules-artificial-intelligence-act-are-now-applicable",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_002"
+      ],
+      "terms": [
+        "2026",
+        "august",
+        "obligation",
+        "2025",
+        "applicable",
+        "applies",
+        "artificial",
+        "authorities",
+        "becomes",
+        "card",
+        "compliance",
+        "compresses"
+      ],
+      "candidate_count": 7
+    },
+    {
+      "source_id": "eu_ai_literacy_repository",
+      "title": "Repository of AI literacy practices",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/repository-ai-literacy-practices",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "literacy",
+        "practices",
+        "repository"
+      ],
+      "candidate_count": 6
+    },
+    {
+      "source_id": "guichet_cvt",
+      "title": "Financial aid for in-company continuing vocational training",
+      "url": "https://guichet.public.lu/en/entreprises/financement-aides/aides-emploi-recrutement-formation/formation-professionnelle-continue/fpc-entreprise.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003"
+      ],
+      "terms": [
+        "continuing",
+        "funding",
+        "guichet",
+        "vocational",
+        "apply",
+        "businesses",
+        "company",
+        "employer",
+        "exclusions",
+        "exists",
+        "financial",
+        "infpc"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "fit4ai",
+      "title": "Fit 4 AI",
+      "url": "https://luxinnovation.lu/fit-4-ai",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_004"
+      ],
+      "terms": [
+        "support",
+        "luxinnovation",
+        "card",
+        "directly",
+        "eligible",
+        "exact",
+        "exists",
+        "format",
+        "material",
+        "offers",
+        "prove",
+        "publicly"
+      ],
+      "candidate_count": 5
+    },
+    {
+      "source_id": "eurostat_ai_2023",
+      "title": "8% of EU enterprises used AI technologies in 2023",
+      "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20240529-2",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_005"
+      ],
+      "terms": [
+        "2023",
+        "enterprises",
+        "technologies",
+        "used",
+        "adopters",
+        "eurostat",
+        "highest",
+        "reports"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "houseoftraining_ai_fundamentals",
+      "title": "Generative artificial intelligences - Fundamentals",
+      "url": "https://www.houseoftraining.lu/en_GB/training/generative-artificial-intelligences-fundamentals-12375",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_006"
+      ],
+      "terms": [
+        "artificial",
+        "audit",
+        "combines",
+        "combining",
+        "compliance",
+        "content",
+        "data",
+        "documentation",
+        "exclusivity",
+        "framing",
+        "fundamentals",
+        "generative"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "houseoftraining_ai_act_course",
+      "title": "How to Navigate the European Union Artificial Intelligence Act (EU AI Act)",
+      "url": "https://www.houseoftraining.lu/en_GB/training/how-to-navigate-the-european-union-artificial-intelligence-act-eu-ai-act-14526",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_006"
+      ],
+      "terms": [
+        "artificial",
+        "audit",
+        "combines",
+        "combining",
+        "compliance",
+        "content",
+        "data",
+        "documentation",
+        "european",
+        "exclusivity",
+        "framing",
+        "hands"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "houseoftraining_ai_finance_licence",
+      "title": "AI Driving Licence for Financial Sector Employees (AI Act Compliant)",
+      "url": "https://www.houseoftraining.lu/en_GB/training/ai-driving-licence-for-financial-sector-employees-ai-act-compliant-15927",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "compliant",
+        "driving",
+        "employees",
+        "financial",
+        "licence",
+        "sector"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "houseoftraining_ai_risk",
+      "title": "Risk Management - Information Security, Data Protection and Artificial Intelligence",
+      "url": "https://www.houseoftraining.lu/en_GB/training/risk-management-information-security-data-protection-and-ai-14729",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_006"
+      ],
+      "terms": [
+        "data",
+        "protection",
+        "risk",
+        "artificial",
+        "audit",
+        "combines",
+        "combining",
+        "compliance",
+        "content",
+        "documentation",
+        "exclusivity",
+        "framing"
+      ],
+      "candidate_count": 8
+    }
+  ]
+}

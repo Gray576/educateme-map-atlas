@@ -1,0 +1,138 @@
+{
+  "schema_version": "research_v2_quote_fetch_report_v1",
+  "product_code": "B4",
+  "generated_at": "2026-04-18T12:58:25.651Z",
+  "source_count": 5,
+  "candidate_count": 34,
+  "source_reports": [
+    {
+      "source_id": "inll_laf",
+      "title": "LAF - Lëtzebuergesch als Friemsprooch",
+      "url": "https://www.inll.lu/fr/laf/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001",
+        "ext_003"
+      ],
+      "terms": [
+        "certification",
+        "courses",
+        "curricula",
+        "licensing",
+        "luxembourgish",
+        "center",
+        "create",
+        "else",
+        "empty",
+        "exact",
+        "exist",
+        "existing"
+      ],
+      "candidate_count": 2
+    },
+    {
+      "source_id": "inll_courses",
+      "title": "Our language courses",
+      "url": "https://www.inll.lu/en/courses/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001",
+        "ext_003"
+      ],
+      "terms": [
+        "certification",
+        "courses",
+        "curricula",
+        "language",
+        "licensing",
+        "luxembourgish",
+        "center",
+        "create",
+        "else",
+        "empty",
+        "exact",
+        "exist"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "inll_luxembourgish",
+      "title": "Learn to speak Luxembourgish with our language courses",
+      "url": "https://www.inll.lu/en/languages/luxembourgish/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_006"
+      ],
+      "terms": [
+        "demand",
+        "language",
+        "licensing",
+        "luxembourgish",
+        "belgium",
+        "border",
+        "confirm",
+        "continuing",
+        "courses",
+        "exact",
+        "learn",
+        "learning"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "guichet_training_establishment",
+      "title": "Manager of a continuing professional training establishment",
+      "url": "https://guichet.public.lu/en/entreprises/creation-developpement/autorisation-etablissement/commerce/organisme-formation-continue.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "continuing",
+        "establishment",
+        "manager",
+        "professional"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "lllc",
+      "title": "Luxembourg Lifelong Learning Center (LLLC)",
+      "url": "https://guichet.public.lu/en/entreprises/organismes/organismes_citoyens/luxembourg-lifelong-learning-center-.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001",
+        "ext_003",
+        "ext_006"
+      ],
+      "terms": [
+        "licensing",
+        "certification",
+        "learning",
+        "luxembourgish",
+        "center",
+        "courses",
+        "curricula",
+        "demand",
+        "exact",
+        "language",
+        "lifelong",
+        "market"
+      ],
+      "candidate_count": 8
+    }
+  ]
+}

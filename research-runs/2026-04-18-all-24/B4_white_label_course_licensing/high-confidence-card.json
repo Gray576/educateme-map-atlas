@@ -1,0 +1,283 @@
+{
+  "schema_version": "research_card_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B4",
+  "product_title": "White-Label Course Licensing",
+  "analysis_timestamp": "2026-04-18T12:56:38Z",
+  "jurisdictions": ["Luxembourg"],
+  "sources": [
+    {
+      "source_id": "inll_luxembourgish",
+      "title": "Learn to speak Luxembourgish with our language courses",
+      "publisher": "Institut national des langues Luxembourg",
+      "url": "https://www.inll.lu/en/languages/luxembourgish/",
+      "source_type": "official_provider",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T12:56:38Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "inll_trainings",
+      "title": "Trainings - inl",
+      "publisher": "Institut national des langues Luxembourg",
+      "url": "https://www.inll.lu/en/trainings/",
+      "source_type": "official_provider",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T12:56:38Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "guichet_training_establishment",
+      "title": "Manager of a continuing professional training establishment",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/creation-developpement/autorisation-etablissement/commerce/organisme-formation-continue.html",
+      "source_type": "government",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T12:56:38Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "lllc",
+      "title": "Luxembourg Lifelong Learning Center (LLLC)",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/organismes/organismes_citoyens/luxembourg-lifelong-learning-center-.html",
+      "source_type": "public_institution",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T12:56:38Z",
+      "language": "en",
+      "archive_url": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "v_001",
+      "category": "course",
+      "claim_text": "INLL offers Luxembourgish language courses.",
+      "status": "verified",
+      "supporting_source_ids": ["inll_luxembourgish"],
+      "supporting_quote_ids": ["q_001"],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "v_002",
+      "category": "certification",
+      "claim_text": "INLL's Luxembourgish course catalog includes LaF levels A2, B1, B2, and C1.",
+      "status": "verified",
+      "supporting_source_ids": ["inll_luxembourgish"],
+      "supporting_quote_ids": ["q_002"],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "v_003",
+      "category": "certification",
+      "claim_text": "INLL is the official provider of the Sproochentest Lëtzebuergesch.",
+      "status": "verified",
+      "supporting_source_ids": ["inll_luxembourgish"],
+      "supporting_quote_ids": ["q_003"],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "v_004",
+      "category": "training",
+      "claim_text": "INLL offers training programs focused on adult education, including ZLLL and CELVP.",
+      "status": "verified",
+      "supporting_source_ids": ["inll_trainings"],
+      "supporting_quote_ids": ["q_004", "q_005"],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "v_005",
+      "category": "regulation",
+      "claim_text": "A manager of a continuing professional training establishment in Luxembourg must hold a business permit issued after ministerial approval.",
+      "status": "verified",
+      "supporting_source_ids": ["guichet_training_establishment"],
+      "supporting_quote_ids": ["q_006", "q_008"],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "v_006",
+      "category": "regulation",
+      "claim_text": "The permit is only required for the provision of training to third parties outside the company.",
+      "status": "verified",
+      "supporting_source_ids": ["guichet_training_establishment"],
+      "supporting_quote_ids": ["q_007"],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "v_007",
+      "category": "institution",
+      "claim_text": "LLLC is the continuing vocational training centre run by the Chamber of Employees.",
+      "status": "verified",
+      "supporting_source_ids": ["lllc"],
+      "supporting_quote_ids": ["q_009"],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "v_008",
+      "category": "institution",
+      "claim_text": "LLLC offers general short-term training courses, specialised training, higher education programmes, and professional certification programmes.",
+      "status": "verified",
+      "supporting_source_ids": ["lllc"],
+      "supporting_quote_ids": ["q_010"],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "ext_001",
+      "category": "other",
+      "claim_text": "Existing curricula can be packaged for licensing to third-party schools and NGOs.",
+      "status": "unverified",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "ext_002",
+      "category": "accreditation",
+      "claim_text": "Educateme Certified badge is an official or externally recognised credential.",
+      "status": "unverified",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "ext_003",
+      "category": "competitor_gap",
+      "claim_text": "No one else can create Luxembourg language curricula at this quality.",
+      "status": "contradicted",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": ["inll_luxembourgish", "inll_trainings", "lllc"],
+      "contradicting_quote_ids": ["q_001", "q_004", "q_009", "q_010"]
+    },
+    {
+      "claim_id": "ext_004",
+      "category": "numeric_claim",
+      "claim_text": "Y1 revenue can reach €25-150K.",
+      "status": "unverified",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "ext_005",
+      "category": "other",
+      "claim_text": "Near-zero marginal cost after packaging.",
+      "status": "unverified",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "ext_006",
+      "category": "other",
+      "claim_text": "Belgium and border-region demand is sufficient to sustain a licensing offer.",
+      "status": "unverified",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "req_001",
+      "requirement": "A business permit and ministerial approval are required for training establishments providing training to third parties outside the company.",
+      "applies_to": "Training-delivery route",
+      "jurisdiction": "Luxembourg",
+      "status": "confirmed",
+      "source_ids": ["guichet_training_establishment"],
+      "quote_ids": ["q_006", "q_007", "q_008"]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "entity_001",
+      "name": "Institut national des langues Luxembourg (INLL)",
+      "kind": "official_provider",
+      "jurisdiction": "Luxembourg",
+      "source_ids": ["inll_luxembourgish", "inll_trainings"]
+    },
+    {
+      "entity_id": "entity_002",
+      "name": "Minister whose remit includes professional training",
+      "kind": "approving_authority",
+      "jurisdiction": "Luxembourg",
+      "source_ids": ["guichet_training_establishment"]
+    },
+    {
+      "entity_id": "entity_003",
+      "name": "Luxembourg Lifelong Learning Center (LLLC)",
+      "kind": "public_provider",
+      "jurisdiction": "Luxembourg",
+      "source_ids": ["lllc"]
+    }
+  ],
+  "competitors": [
+    {
+      "competitor_id": "comp_001",
+      "name": "INLL",
+      "kind": "incumbent_provider",
+      "source_ids": ["inll_luxembourgish", "inll_trainings"],
+      "notes": "Direct public provider of Luxembourgish courses and teacher training."
+    },
+    {
+      "competitor_id": "comp_002",
+      "name": "LLLC",
+      "kind": "incumbent_provider",
+      "source_ids": ["lllc"],
+      "notes": "Direct public continuing-education provider."
+    }
+  ],
+  "open_questions": [
+    {
+      "question_id": "oq_001",
+      "question": "Is the offer pure IP/content licensing, or does it include training delivery to third parties outside the company?",
+      "reason": "The permit route changes materially if the product is a delivery business rather than a licensing business.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_002",
+      "question": "Is Educateme Certified externally recognized by any public authority or recognized provider?",
+      "reason": "No public evidence found for external recognition.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_003",
+      "question": "Is Belgium scope actually in scope, or should the product stay Luxembourg-only until there is evidence?",
+      "reason": "Belgium was named in the brief but not verified in the public sources collected here.",
+      "blocking": false
+    }
+  ],
+  "verification_summary": {
+    "verified_claim_count": 8,
+    "unverified_claim_count": 5,
+    "contradicted_claim_count": 1,
+    "unclear_claim_count": 3,
+    "blocked_question_count": 3,
+    "official_source_count": 4,
+    "total_source_count": 4
+  }
+}

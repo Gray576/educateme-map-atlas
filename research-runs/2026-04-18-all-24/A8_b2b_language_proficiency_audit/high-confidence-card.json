@@ -1,0 +1,364 @@
+{
+  "schema_version": "research_card_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A8",
+  "product_title": "B2B Language Proficiency Audit",
+  "analysis_timestamp": "2026-04-18T13:04:48Z",
+  "sources": [
+    {
+      "source_id": "cefr_council_of_europe",
+      "title": "Assessment - Common European Framework of Reference for Languages (CEFR)",
+      "publisher": "Council of Europe",
+      "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/assessment",
+      "source_type": "official",
+      "authority_tier": "T1",
+      "jurisdiction": "international",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:04:48Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "cambridge_workplace_exams",
+      "title": "Workplace English exams | Cambridge English",
+      "publisher": "Cambridge English",
+      "url": "https://www.cambridgeenglish.org/educators-organisations/accept-verify-exams/employers/workplace-english-exams/",
+      "source_type": "exam_body",
+      "authority_tier": "T2",
+      "jurisdiction": "international",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:04:48Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "cambridge_skills_test_business",
+      "title": "Cambridge English Skills Test Business - reliable English testing",
+      "publisher": "Cambridge English",
+      "url": "https://www.cambridgeenglish.org/exams-and-tests/cambridge-english-skills-test/business/",
+      "source_type": "exam_body",
+      "authority_tier": "T2",
+      "jurisdiction": "international",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:04:48Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "pearson_versant",
+      "title": "Versant by Pearson - Corporate English language learning",
+      "publisher": "Pearson",
+      "url": "https://www.pearson.com/languages/hr-professionals/versant.html",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "international",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:04:48Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "allingua_about",
+      "title": "What is our approach? - Allingua",
+      "publisher": "Allingua",
+      "url": "https://www.allingua.lu/en/about-allingua/",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:04:48Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "pipplet_luxembourgish",
+      "title": "Online Luxembourgish Proficiency Tests for Organizations - Pipplet",
+      "publisher": "Pipplet",
+      "url": "https://www.pipplet.com/languages/luxembourgish",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:04:48Z",
+      "language": "en",
+      "archive_url": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "category": "other",
+      "claim_text": "CEFR-aligned language assessment and reporting is a valid structure for workplace language testing.",
+      "jurisdiction": "international",
+      "status": "verified",
+      "supporting_source_ids": [
+        "cefr_council_of_europe",
+        "cambridge_workplace_exams",
+        "cambridge_skills_test_business",
+        "allingua_about",
+        "pipplet_luxembourgish"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_cefr_001",
+        "q_cambridge_wp_001",
+        "q_cambridge_cs_001",
+        "q_cambridge_cs_002",
+        "q_allingua_002",
+        "q_allingua_003",
+        "q_pipplet_001",
+        "q_pipplet_003"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Supported by official CEFR guidance and multiple workplace assessment products."
+    },
+    {
+      "claim_id": "ext_002",
+      "category": "numeric_claim",
+      "claim_text": "78% of employers use language tests.",
+      "jurisdiction": "international",
+      "status": "unverified",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "No primary public source confirmed the exact number."
+    },
+    {
+      "claim_id": "ext_003",
+      "category": "competitor_gap",
+      "claim_text": "Pearson, Cambridge and Pipplet are generic, English-focused competitors.",
+      "jurisdiction": "international",
+      "status": "contradicted",
+      "supporting_source_ids": [
+        "pearson_versant",
+        "cambridge_workplace_exams",
+        "cambridge_skills_test_business"
+      ],
+      "contradicting_source_ids": [
+        "allingua_about",
+        "pipplet_luxembourgish"
+      ],
+      "supporting_quote_ids": [
+        "q_pearson_versant_001",
+        "q_pearson_versant_002",
+        "q_cambridge_wp_001",
+        "q_cambridge_cs_001"
+      ],
+      "contradicting_quote_ids": [
+        "q_allingua_001",
+        "q_allingua_002",
+        "q_allingua_003",
+        "q_pipplet_001",
+        "q_pipplet_002",
+        "q_pipplet_003"
+      ],
+      "notes": "Pearson and Cambridge are English-centered, but the blanket claim fails because Pipplet and Allingua are multilingual and Luxembourg-linked."
+    },
+    {
+      "claim_id": "ext_004",
+      "category": "competitor_gap",
+      "claim_text": "Nobody does a Luxembourg-specific trilingual language audit.",
+      "jurisdiction": "Luxembourg",
+      "status": "contradicted",
+      "supporting_source_ids": [
+        "allingua_about",
+        "pipplet_luxembourgish"
+      ],
+      "contradicting_source_ids": [
+        "allingua_about",
+        "pipplet_luxembourgish"
+      ],
+      "supporting_quote_ids": [
+        "q_allingua_001",
+        "q_allingua_002",
+        "q_allingua_003",
+        "q_pipplet_001",
+        "q_pipplet_002",
+        "q_pipplet_003"
+      ],
+      "contradicting_quote_ids": [
+        "q_allingua_001",
+        "q_allingua_002",
+        "q_allingua_003",
+        "q_pipplet_001",
+        "q_pipplet_002",
+        "q_pipplet_003"
+      ],
+      "notes": "The claim is absolute and too strong. The rerun found Luxembourg-based multilingual testing/reporting already in market."
+    },
+    {
+      "claim_id": "int_001",
+      "category": "scope_fit",
+      "claim_text": "A mini-audit can work as a free lead magnet.",
+      "jurisdiction": "internal",
+      "status": "unclear",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Internal hypothesis, not externally checkable."
+    },
+    {
+      "claim_id": "int_002",
+      "category": "numeric_claim",
+      "claim_text": "The product will cover 20-100 employees per audit.",
+      "jurisdiction": "internal",
+      "status": "unclear",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Internal design choice, not a public fact."
+    },
+    {
+      "claim_id": "int_003",
+      "category": "numeric_claim",
+      "claim_text": "Margin will be 70-75%.",
+      "jurisdiction": "internal",
+      "status": "unclear",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Internal commercial estimate, not externally verified."
+    },
+    {
+      "claim_id": "int_004",
+      "category": "other",
+      "claim_text": "A pilot with three companies is enough to validate the framework.",
+      "jurisdiction": "internal",
+      "status": "unclear",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Execution plan, not an externally checkable statement."
+    }
+  ],
+  "requirements": [],
+  "entities": [
+    {
+      "entity_id": "entity_001",
+      "name": "Council of Europe",
+      "kind": "official body",
+      "jurisdiction": "international",
+      "source_ids": [
+        "cefr_council_of_europe"
+      ]
+    },
+    {
+      "entity_id": "entity_002",
+      "name": "Cambridge English",
+      "kind": "exam body",
+      "jurisdiction": "international",
+      "source_ids": [
+        "cambridge_workplace_exams",
+        "cambridge_skills_test_business"
+      ]
+    },
+    {
+      "entity_id": "entity_003",
+      "name": "Pearson",
+      "kind": "company",
+      "jurisdiction": "international",
+      "source_ids": [
+        "pearson_versant"
+      ]
+    },
+    {
+      "entity_id": "entity_004",
+      "name": "Allingua",
+      "kind": "company",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "allingua_about"
+      ]
+    },
+    {
+      "entity_id": "entity_005",
+      "name": "Pipplet",
+      "kind": "company",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "pipplet_luxembourgish"
+      ]
+    }
+  ],
+  "competitors": [
+    {
+      "competitor_id": "comp_001",
+      "name": "Versant by Pearson",
+      "kind": "direct",
+      "source_ids": [
+        "pearson_versant"
+      ],
+      "notes": "English-focused business language testing with reporting."
+    },
+    {
+      "competitor_id": "comp_002",
+      "name": "Cambridge English Skills Test Business",
+      "kind": "direct",
+      "source_ids": [
+        "cambridge_workplace_exams",
+        "cambridge_skills_test_business"
+      ],
+      "notes": "Workplace English testing with CEFR reporting."
+    },
+    {
+      "competitor_id": "comp_003",
+      "name": "Allingua",
+      "kind": "direct",
+      "source_ids": [
+        "allingua_about"
+      ],
+      "notes": "Luxembourg-based multilingual corporate language training and testing."
+    },
+    {
+      "competitor_id": "comp_004",
+      "name": "Pipplet Luxembourgish Proficiency Tests for Organizations",
+      "kind": "direct",
+      "source_ids": [
+        "pipplet_luxembourgish"
+      ],
+      "notes": "Luxembourgish organizational testing with CEFR-aligned reports."
+    }
+  ],
+  "open_questions": [
+    {
+      "question_id": "oq_001",
+      "question": "Can the 78% employer language-test statistic be sourced from a primary public survey?",
+      "reason": "No primary source confirmed it in this rerun.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_002",
+      "question": "Is the A8 offer publicly scoped to Luxembourg, or is that only a legacy/internal framing?",
+      "reason": "No public product page or external source directly proved the scope.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_003",
+      "question": "What exact CEFR rubric and psychometric method will justify the per-employee diagnostic output?",
+      "reason": "The structural pattern is verified, but the product-specific rubric is not.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_004",
+      "question": "Should the uniqueness claim be rewritten to remove the absolute 'nobody does' framing?",
+      "reason": "Contradiction search found Luxembourg-linked alternatives.",
+      "blocking": true
+    }
+  ],
+  "verification_summary": {
+    "verified_claim_count": 1,
+    "partially_verified_claim_count": 0,
+    "unverified_claim_count": 1,
+    "contradicted_claim_count": 2,
+    "unclear_claim_count": 4,
+    "blocked_question_count": 4,
+    "official_source_count": 2,
+    "total_source_count": 6,
+    "total_quote_count": 12
+  }
+}

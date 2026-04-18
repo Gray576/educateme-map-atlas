@@ -1,0 +1,116 @@
+{
+  "schema_version": "claim_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B6",
+  "product_title": "Embedded Onboarding for Staffing Agencies",
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "compliance",
+      "claim_text": "A turnkey language package increases an agency's value proposition and fee.",
+      "legacy_status": "unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is a commercial hypothesis; no public source reviewed validates the price uplift for this exact offer.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "numeric_claim",
+      "claim_text": "RPO market growing 15.4% CAGR.",
+      "legacy_status": "unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "No public source reviewed confirmed this market-growth figure for the relevant segment.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "numeric_claim",
+      "claim_text": "EU Blue Card issuances grew 300%.",
+      "legacy_status": "unverified",
+      "supporting_source_ids": [
+        "eu_blue_card_luxembourg",
+        "eu_blue_card_rules"
+      ],
+      "contradiction_flag": false,
+      "notes": "The reviewed public sources show EU Blue Card rule changes and Luxembourg issuance counts, but not this exact growth statistic.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_004",
+      "origin": "legacy_external_claim",
+      "category": "compliance",
+      "claim_text": "The revised EU Blue Card framework lowers thresholds and allows a 6-month contract.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "eu_blue_card_rules",
+        "eu_blue_card_luxembourg"
+      ],
+      "contradiction_flag": false,
+      "notes": "European Commission materials on the revised Blue Card framework state that the contract duration requirement is six months and that Luxembourg applies the revised threshold.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_005",
+      "origin": "legacy_external_claim",
+      "category": "other",
+      "claim_text": "More workers need integration because Blue Card rules are looser.",
+      "legacy_status": "partially_verified",
+      "supporting_source_ids": [
+        "eu_blue_card_rules",
+        "eu_blue_card_luxembourg"
+      ],
+      "contradiction_flag": false,
+      "notes": "The Blue Card framework is indeed more flexible, but the link to a broad increase in agency demand is an inference, not a directly verified market result.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_006",
+      "origin": "legacy_external_claim",
+      "category": "other",
+      "claim_text": "A turnkey package can be bundled into the agency placement fee.",
+      "legacy_status": "unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is a business-model assumption and was not externally verified for this specific product.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "Agencies can charge €1,500 more per placement with language included.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "No public source reviewed confirmed this pricing uplift.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "Y1 revenue can reach €50–80K.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is an internal projection, not an externally verified market fact.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "Identify 2–3 staffing agencies in Luxembourg and Belgium and convert them into pilots.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is an execution plan, not a public fact.",
+      "next_action": "treat as open question, not as fact"
+    }
+  ]
+}

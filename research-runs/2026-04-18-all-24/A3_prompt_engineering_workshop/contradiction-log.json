@@ -1,0 +1,78 @@
+{
+  "schema_version": "contradiction_log_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A3",
+  "product_title": "Prompt Engineering Workshop",
+  "analysis_timestamp": "2026-04-18T17:48:33Z",
+  "contradictions": [
+    {
+      "contradiction_id": "c_001",
+      "claim_id": "oq_001",
+      "claim_text": "No comparable prompt-engineering products exist locally in Luxembourg.",
+      "status": "contradicted",
+      "contradicting_source_ids": [
+        "houseoftraining_prompt_finance",
+        "houseoftraining_chatgpt_business",
+        "openai_prompting"
+      ],
+      "contradicting_quote_ids": [
+        "q_006",
+        "q_007",
+        "q_008",
+        "q_009"
+      ],
+      "resolution": "Drop any empty-market or knowledge-scarcity wedge. The defensible angle has to be product-specific customisation or delivery execution, not access to prompting know-how.",
+      "why_it_matters": "Without this falsification step, the dashboard would overstate differentiation and demand certainty."
+    }
+  ],
+  "open_issues": [
+    {
+      "claim_id": "ext_004",
+      "claim_text": "Luxembourg company training co-funding is relevant to this product category.",
+      "status": "blocked",
+      "issue_type": "product_specific_eligibility_unproven",
+      "resolution": "blocked",
+      "notes": "Scheme-level co-funding exists, but workshop-level eligibility remains unproven."
+    },
+    {
+      "claim_id": "int_001",
+      "claim_text": "The workshop will deliver a company-specific prompt library of 30-50 tested prompts.",
+      "status": "unclear",
+      "issue_type": "deliverable_not_publicly_proven",
+      "resolution": "blocked",
+      "notes": "Keep this out of the truth layer until the deliverable exists and is evidenced."
+    },
+    {
+      "claim_id": "int_002",
+      "claim_text": "Customization is the main differentiator, not knowledge.",
+      "status": "unclear",
+      "issue_type": "positioning_thesis_unproven",
+      "resolution": "review",
+      "notes": "This may be commercially true, but public evidence does not establish it."
+    },
+    {
+      "claim_id": "int_003",
+      "claim_text": "SME Package AI 70% applies to this workshop.",
+      "status": "blocked",
+      "issue_type": "specific_subsidy_route_unproven",
+      "resolution": "blocked",
+      "notes": "No public source in the rerun proved the exact AI package applicability."
+    },
+    {
+      "claim_id": "int_004",
+      "claim_text": "The workshop can be sold as a 1-2 day format with a prompt library outcome.",
+      "status": "unclear",
+      "issue_type": "product_format_not_publicly_proven",
+      "resolution": "blocked",
+      "notes": "The quoted public evidence speaks to competitor formats, not this workshop design."
+    }
+  ],
+  "summary": {
+    "checked_claim_count": 12,
+    "contradicted_count": 1,
+    "open_issue_count": 5,
+    "verified_claim_count": 8,
+    "unverified_claim_count": 0,
+    "unclear_claim_count": 3
+  }
+}

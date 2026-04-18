@@ -1,0 +1,149 @@
+{
+  "schema_version": "dashboard_ingestion_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A6",
+  "product_title": "Expat Onboarding 'Luxembourg Ready'",
+  "reviewed_at": "2026-04-18T17:45:00Z",
+  "release_status": "review",
+  "safe_fields": {
+    "jurisdiction_scope": {
+      "value": [
+        "Luxembourg"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_007",
+        "claim_008",
+        "claim_009",
+        "claim_010",
+        "claim_011",
+        "claim_012"
+      ],
+      "source_refs": [
+        "guichet_linguistic_leave",
+        "guichet_biergerpakt",
+        "guichet_cvt",
+        "inll_institute",
+        "prolingua_courses",
+        "ec_labour_mobility_2025"
+      ],
+      "last_verified_at": "2026-04-18T17:45:00Z"
+    },
+    "public_support_routes": {
+      "value": "Luxembourg has linguistic leave for eligible Luxembourgish courses and a separate company-training co-funding route for eligible private-sector training, but A6's own eligibility under either route is not yet proven.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_005",
+        "claim_006"
+      ],
+      "source_refs": [
+        "guichet_linguistic_leave",
+        "guichet_cvt"
+      ],
+      "last_verified_at": "2026-04-18T17:45:00Z"
+    },
+    "public_integration_route": {
+      "value": "Biergerpakt is a voluntary public programme for adults who live or work in Luxembourg, with introductory and advanced modules covering language, civic participation, administrative procedures, and life in Luxembourg.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_003",
+        "claim_004"
+      ],
+      "source_refs": [
+        "guichet_biergerpakt"
+      ],
+      "last_verified_at": "2026-04-18T17:45:00Z"
+    },
+    "verified_competitors": {
+      "value": [
+        "Institut national des langues Luxembourg (INLL)",
+        "Prolingua Language Centre",
+        "Biergerpakt programme"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_007",
+        "claim_008",
+        "claim_009",
+        "claim_010",
+        "claim_012"
+      ],
+      "source_refs": [
+        "inll_institute",
+        "prolingua_courses",
+        "guichet_biergerpakt"
+      ],
+      "last_verified_at": "2026-04-18T17:45:00Z"
+    },
+    "hard_blockers": {
+      "value": [
+        "Legacy 47% workforce-share copy is wrong; the verified figure is 45.1%",
+        "The absolute uniqueness claim is contradicted by public and private alternatives",
+        "Product-specific eligibility under linguistic leave or CVT co-funding is unverified",
+        "Any A6-issued certificate or Sproochtest-readiness evaluation has no verified external acceptance value",
+        "Turnover-reduction and ROI claims are unverified"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "ext_004",
+        "ext_005",
+        "int_003",
+        "int_004"
+      ],
+      "source_refs": [
+        "ec_labour_mobility_2025",
+        "guichet_biergerpakt",
+        "inll_institute",
+        "prolingua_courses"
+      ],
+      "last_verified_at": "2026-04-18T17:45:00Z"
+    }
+  },
+  "analyst_only_fields": {
+    "workforce_signal": {
+      "value": "The European Commission page says cross-border workers make up 45.1% of Luxembourg's workforce.",
+      "confidence_band": "medium",
+      "omission_reason": "This is useful context, but it remains a single-source numeric signal and not a default dashboard field for A6."
+    },
+    "target_audience_summary": {
+      "value": "HR teams, mobility managers, and relocated employees entering Luxembourg's multilingual and cross-border context.",
+      "confidence_band": "medium",
+      "omission_reason": "This is a synthesis of the surrounding public context rather than a directly stated product fact."
+    }
+  },
+  "blocked_fields": {
+    "product_bundle_scope": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "The rerun verified routes and substitutes around A6, not the exact bundle boundary of A6 itself."
+    },
+    "product_support_route_eligibility": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "Official scheme-level routes exist, but A6's own eligibility under linguistic leave or CVT co-funding is not publicly verified."
+    },
+    "product_certificate_acceptance": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "Recognized public routes were found at INLL, not for any A6-issued certificate or assessment."
+    },
+    "roi_claims": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "The turnover-reduction and ROI claims have no verified evidence in this rerun."
+    }
+  },
+  "verification_summary": {
+    "verified_claim_count": 12,
+    "contradicted_claim_count": 2,
+    "blocked_question_count": 5
+  }
+}

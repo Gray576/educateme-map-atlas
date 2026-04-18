@@ -1,0 +1,141 @@
+{
+  "schema_version": "dashboard_ingestion_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B6",
+  "product_title": "Embedded Onboarding for Staffing Agencies",
+  "reviewed_at": "2026-04-18T13:06:04Z",
+  "release_status": "blocked",
+  "safe_fields": {
+    "jurisdiction_scope": {
+      "value": [
+        "Belgium",
+        "Luxembourg",
+        "Netherlands",
+        "EU"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_004"
+      ],
+      "source_refs": [
+        "eu_blue_card_belgium",
+        "eu_blue_card_luxembourg",
+        "eu_blue_card_netherlands",
+        "eu_blue_card_rules"
+      ],
+      "last_verified_at": "2026-04-18T13:06:04Z"
+    },
+    "regulatory_context": {
+      "value": "EU Blue Card / highly-qualified-worker routes exist in Belgium, Luxembourg, and the Netherlands; Belgium and Luxembourg allow 6-month contracts, while the Netherlands requires 12 months.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_004"
+      ],
+      "source_refs": [
+        "eu_blue_card_belgium",
+        "eu_blue_card_luxembourg",
+        "eu_blue_card_netherlands",
+        "eu_blue_card_rules"
+      ],
+      "last_verified_at": "2026-04-18T13:06:04Z"
+    },
+    "verified_competitors": {
+      "value": [
+        "BLCC",
+        "inlingua Luxembourg",
+        "Semantics Belgium",
+        "Allingua",
+        "BiCortex Languages"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_005",
+        "claim_006",
+        "claim_007"
+      ],
+      "source_refs": [
+        "blcc_general",
+        "blcc_recruitment",
+        "blcc_armonea",
+        "inlingua_luxembourg",
+        "semantics_belgium",
+        "allingua_luxembourg",
+        "bicortex_assignees"
+      ],
+      "last_verified_at": "2026-04-18T13:06:04Z"
+    },
+    "hard_blockers": {
+      "value": [
+        "RPO market growth figure is not primary-source-safe",
+        "Placement uplift of €1,500 is unverified",
+        "Bundling the offer into the agency placement fee is unproven",
+        "Product-specific partner or accreditation route is unknown"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_009",
+        "claim_010",
+        "claim_011",
+        "int_003"
+      ],
+      "source_refs": [
+        "marketresearch_rpo"
+      ],
+      "last_verified_at": "2026-04-18T13:06:04Z"
+    }
+  },
+  "analyst_only_fields": {
+    "target_audience_summary": {
+      "value": "Staffing and relocation agencies placing cross-border or non-EU workers into Belgium, Luxembourg, and the Netherlands, especially where language or cultural onboarding is a barrier.",
+      "confidence_band": "medium",
+      "omission_reason": "Useful synthesis, but still inferential and not a default dashboard fact."
+    },
+    "delivery_pattern": {
+      "value": [
+        "on-site",
+        "remote",
+        "online",
+        "blended",
+        "boot-camp style"
+      ],
+      "confidence_band": "medium",
+      "omission_reason": "The market pattern is visible, but the product's own delivery design is not public truth."
+    }
+  },
+  "blocked_fields": {
+    "commercial_model": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "Whether the product is a bundle, add-on, or separate service line is still a strategy decision, not a verified fact."
+    },
+    "pricing_uplift": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "The €1,500 uplift has no public proof."
+    },
+    "market_size": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "The only located public figure is a secondary market-research snippet, which fails the strict numeric-policy bar."
+    },
+    "product_delivery_model": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "No public evidence establishes whether B6 can be delivered as a free-standing certified route."
+    },
+    "partner_route_requirement": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "No public evidence establishes whether B6 needs a partner or accreditation route."
+    }
+  },
+  "verification_summary": {
+    "verified_claim_count": 8,
+    "contradicted_claim_count": 0,
+    "blocked_question_count": 4
+  }
+}

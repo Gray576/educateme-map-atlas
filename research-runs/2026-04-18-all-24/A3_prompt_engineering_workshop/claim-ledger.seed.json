@@ -1,0 +1,108 @@
+{
+  "schema_version": "claim_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A3",
+  "product_title": "Prompt Engineering Workshop",
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "House of Training already offers prompt-engineering training in Luxembourg.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "houseoftraining_prompt_finance",
+        "houseoftraining_chatgpt_business",
+        "houseoftraining_gen_ai_fundamentals"
+      ],
+      "contradiction_flag": false,
+      "notes": "House of Training has a public prompt engineering course for financial-sector employees and broader ChatGPT/GenAI courses that cover prompt creation and practical use.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "Free public guidance exists for generic prompt engineering.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "openai_prompting"
+      ],
+      "contradiction_flag": false,
+      "notes": "OpenAI publishes free prompting guidance and Academy materials, which weakens any claim that prompt engineering knowledge is scarce or uniquely packaged.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "other",
+      "claim_text": "Practical prompt use should be combined with privacy and governance awareness.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "houseoftraining_prompt_finance",
+        "houseoftraining_ai_risk",
+        "openai_prompting"
+      ],
+      "contradiction_flag": false,
+      "notes": "The House of Training finance courses explicitly connect prompting with GDPR and AI Act requirements, and OpenAI guidance also assumes careful prompt design and context handling.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_004",
+      "origin": "legacy_external_claim",
+      "category": "subsidy",
+      "claim_text": "Luxembourg company training co-funding is relevant to this product category.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "guichet_cvt"
+      ],
+      "contradiction_flag": false,
+      "notes": "Guichet confirms co-funding for continuing vocational training in Luxembourg, subject to the usual exclusions.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "The workshop will deliver a company-specific prompt library of 30-50 tested prompts.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is a proposed deliverable, not a public fact.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "Customization is the main differentiator, not knowledge.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is a positioning interpretation, not an externally verified fact.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "subsidy",
+      "claim_text": "SME Package AI 70% applies to this workshop.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The reviewed sources do not prove that the exact AI-package claim applies to this product.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_004",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "The workshop can be sold as a 1-2 day format with a prompt library outcome.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The duration and deliverable set are internal design choices rather than public facts.",
+      "next_action": "treat as open question, not as fact"
+    }
+  ]
+}

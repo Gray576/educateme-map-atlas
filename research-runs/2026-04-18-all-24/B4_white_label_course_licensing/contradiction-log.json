@@ -1,0 +1,26 @@
+{
+  "schema_version": "contradiction_log_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B4",
+  "analysis_timestamp": "2026-04-18T12:56:38Z",
+  "contradictions": [
+    {
+      "contradiction_id": "ctr_001",
+      "claim_id": "ext_003",
+      "claim_text": "No one else can create Luxembourg language curricula at this quality.",
+      "status": "unresolved",
+      "severity": "high",
+      "contradiction_type": "market_counterexample",
+      "contradicting_source_ids": ["inll_luxembourgish", "inll_trainings", "lllc"],
+      "contradicting_quote_ids": ["q_001", "q_004", "q_009", "q_010"],
+      "resolution": "Contradicted on the absolute claim: public incumbents already offer Luxembourgish courses and trainer education, so the market is not empty. The 'quality' qualifier remains unmeasured and should be dropped rather than inferred.",
+      "blocking_effect": "Blocks any dashboard field that depends on monopoly or no-competition language.",
+      "notes": "This is a hard falsification of the broad market-gap claim, not a ranking of pedagogical quality."
+    }
+  ],
+  "summary": {
+    "contradiction_count": 1,
+    "unresolved_t1_contradictions": 1,
+    "blocking_contradictions": 1
+  }
+}

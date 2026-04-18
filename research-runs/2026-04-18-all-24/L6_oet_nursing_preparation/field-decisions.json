@@ -1,0 +1,135 @@
+{
+  "schema_version": "research_v2_field_decisions_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L6",
+  "generated_at": "2026-04-18T17:09:56+04:00",
+  "safe_fields": [
+    "product_code",
+    "product_title",
+    "analysis_timestamp",
+    "sources",
+    "claims",
+    "requirements",
+    "entities",
+    "verified_jurisdictions",
+    "open_questions",
+    "manual_review_items",
+    "verification_summary"
+  ],
+  "field_decisions": [
+    {
+      "field_id": "product_code",
+      "decision": "keep_dashboard",
+      "confidence_band": "high",
+      "reason": "Canonical metadata."
+    },
+    {
+      "field_id": "product_title",
+      "decision": "keep_dashboard",
+      "confidence_band": "high",
+      "reason": "Canonical metadata."
+    },
+    {
+      "field_id": "analysis_timestamp",
+      "decision": "keep_dashboard",
+      "confidence_band": "high",
+      "reason": "Explicit run timestamp."
+    },
+    {
+      "field_id": "sources",
+      "decision": "keep_dashboard",
+      "confidence_band": "high",
+      "reason": "Evidence-first provenance is allowed and required."
+    },
+    {
+      "field_id": "claims",
+      "decision": "keep_dashboard",
+      "confidence_band": "high",
+      "reason": "Only atomic, source-backed claims are included."
+    },
+    {
+      "field_id": "requirements",
+      "decision": "keep_dashboard",
+      "confidence_band": "high",
+      "reason": "All included requirements are quoted from primary official sources."
+    },
+    {
+      "field_id": "entities",
+      "decision": "keep_dashboard",
+      "confidence_band": "high",
+      "reason": "Regulators and exam body names are directly evidenced."
+    },
+    {
+      "field_id": "verified_jurisdictions",
+      "decision": "keep_dashboard",
+      "confidence_band": "high",
+      "reason": "Only jurisdictions directly supported by evidence are retained."
+    },
+    {
+      "field_id": "open_questions",
+      "decision": "keep_dashboard",
+      "confidence_band": "medium",
+      "reason": "Open questions are transparent blockers, not truth claims."
+    },
+    {
+      "field_id": "manual_review_items",
+      "decision": "keep_dashboard",
+      "confidence_band": "high",
+      "reason": "Reviewer notes are part of the audit trail."
+    },
+    {
+      "field_id": "verification_summary",
+      "decision": "keep_dashboard",
+      "confidence_band": "high",
+      "reason": "Summary is derived from claim-level evidence."
+    },
+    {
+      "field_id": "jurisdiction_scope",
+      "decision": "partial",
+      "confidence_band": "medium",
+      "reason": "UAE, UK, and Australia are verified as regulatory contexts, but GCC-wide scope is not directly verified."
+    },
+    {
+      "field_id": "target_audience_summary",
+      "decision": "drop",
+      "confidence_band": "low",
+      "reason": "The UAE/GCC nurse audience framing is inferential and not directly source-backed."
+    },
+    {
+      "field_id": "pass_guarantee",
+      "decision": "drop",
+      "confidence_band": "blocked",
+      "reason": "No public source supports a guarantee claim."
+    },
+    {
+      "field_id": "curriculum_letter_count",
+      "decision": "drop",
+      "confidence_band": "blocked",
+      "reason": "Internal course-design metric with no public verification."
+    },
+    {
+      "field_id": "cohort_size",
+      "decision": "drop",
+      "confidence_band": "blocked",
+      "reason": "Internal course-design metric with no public verification."
+    },
+    {
+      "field_id": "marketing_route_language",
+      "decision": "drop",
+      "confidence_band": "blocked",
+      "reason": "Universal B-grade wording is contradicted for UAE and too broad for release."
+    },
+    {
+      "field_id": "doctor_only_cohort_differentiator",
+      "decision": "drop",
+      "confidence_band": "blocked",
+      "reason": "This positioning belongs to another product and is not evidenced here."
+    },
+    {
+      "field_id": "delivery_language",
+      "decision": "drop",
+      "confidence_band": "blocked",
+      "reason": "No public source directly states the delivery language."
+    }
+  ]
+}

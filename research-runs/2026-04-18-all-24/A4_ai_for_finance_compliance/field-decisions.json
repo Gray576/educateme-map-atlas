@@ -1,0 +1,214 @@
+{
+  "schema_version": "field_decisions_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A4",
+  "product_title": "AI for Finance & Compliance",
+  "analysis_timestamp": "2026-04-18T13:37:35Z",
+  "field_decisions": [
+    {
+      "field_id": "jurisdiction_scope",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Luxembourg",
+        "EU"
+      ],
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_005",
+        "claim_006"
+      ],
+      "source_refs": [
+        "cssf_ai_thematic_review",
+        "eu_ai_literacy_qa",
+        "eu_ai_act_start",
+        "guichet_cvt",
+        "fit4ai"
+      ],
+      "last_verified_at": "2026-04-18T13:37:35Z",
+      "reason": "The product context is Luxembourg-specific, but the core legal frame is EU Article 4 AI literacy."
+    },
+    {
+      "field_id": "regulatory_context",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "Article 4 AI literacy duties already apply from 2 February 2025 to providers and deployers of AI systems, while the CSSF/BCL thematic review shows why AI governance, explainability, ethics, bias, fairness, and auditability matter in Luxembourg finance. The reviewed EU guidance does not impose a finance-specific template or governance board.",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004"
+      ],
+      "source_refs": [
+        "cssf_ai_thematic_review",
+        "eu_ai_literacy_qa",
+        "eu_ai_act_start"
+      ],
+      "last_verified_at": "2026-04-18T13:37:35Z",
+      "reason": "This is the narrowest defensible regulatory synthesis from the official sources."
+    },
+    {
+      "field_id": "verified_competitors",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "House of Training"
+      ],
+      "claim_refs": [
+        "claim_007",
+        "claim_008",
+        "claim_009"
+      ],
+      "source_refs": [
+        "houseoftraining_finance_ai_license",
+        "houseoftraining_ai_risk",
+        "houseoftraining_prompt_finance"
+      ],
+      "last_verified_at": "2026-04-18T13:37:35Z",
+      "reason": "Public Luxembourg finance-sector AI courses are clearly available from House of Training."
+    },
+    {
+      "field_id": "training_support_route",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "Luxembourg company-training co-funding covers external training providers and offers 15% support, with a 35% wage-cost uplift for qualifying participants.",
+      "claim_refs": [
+        "claim_005"
+      ],
+      "source_refs": [
+        "guichet_cvt"
+      ],
+      "last_verified_at": "2026-04-18T13:37:35Z",
+      "reason": "This is directly stated on the Luxembourg government page and does not depend on product-specific interpretation."
+    },
+    {
+      "field_id": "hard_blockers",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Product-specific Fit 4 AI applicability is unverified",
+        "No public CSSF, CNPD, or accreditation route was found for A4 itself",
+        "The 461+ Luxembourg financial-institutions count is unverified",
+        "The 20-30% operational cost-reduction claim is unverified",
+        "AML/KYC automation and audit-documentation deliverables remain product-design claims"
+      ],
+      "claim_refs": [
+        "ext_003",
+        "int_001",
+        "int_002",
+        "int_003"
+      ],
+      "source_refs": [
+        "fit4ai"
+      ],
+      "last_verified_at": "2026-04-18T13:37:35Z",
+      "reason": "These are the main fail-closed reasons that keep the product in review."
+    },
+    {
+      "field_id": "target_audience_summary",
+      "status": "analyst_only",
+      "confidence_band": "medium",
+      "value": "Luxembourg banks, funds, PSFs, insurers, and adjacent compliance, risk, and operations teams using or evaluating AI.",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_004",
+        "claim_007",
+        "claim_008",
+        "claim_009"
+      ],
+      "source_refs": [
+        "cssf_ai_thematic_review",
+        "eu_ai_literacy_qa",
+        "houseoftraining_finance_ai_license",
+        "houseoftraining_ai_risk",
+        "houseoftraining_prompt_finance"
+      ],
+      "last_verified_at": "2026-04-18T13:37:35Z",
+      "omission_reason": "Useful positioning context, but still partly inferential and not a default dashboard fact."
+    },
+    {
+      "field_id": "possible_ai_support_route",
+      "status": "analyst_only",
+      "confidence_band": "medium",
+      "value": "Fit 4 AI is a real Luxembourg SME assessment-and-roadmap route with co-financing, but the reviewed page does not prove that A4 itself is eligible or that any 30% training rate applies.",
+      "claim_refs": [
+        "claim_006",
+        "ext_003"
+      ],
+      "source_refs": [
+        "fit4ai"
+      ],
+      "last_verified_at": "2026-04-18T13:37:35Z",
+      "omission_reason": "The public route exists, but product-level fit remains unverified."
+    },
+    {
+      "field_id": "product_delivery_model",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "oq_001",
+        "int_003"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T13:37:35Z",
+      "omission_reason": "Training-only versus training-plus-consulting remains a product-design decision, not a public fact."
+    },
+    {
+      "field_id": "product_specific_subsidy_eligibility",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "oq_002",
+        "ext_003"
+      ],
+      "source_refs": [
+        "fit4ai",
+        "guichet_cvt"
+      ],
+      "last_verified_at": "2026-04-18T13:37:35Z",
+      "omission_reason": "The public support routes exist, but the reviewed sources do not prove that A4 itself qualifies."
+    },
+    {
+      "field_id": "product_accreditation_route",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "oq_003"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T13:37:35Z",
+      "omission_reason": "No public CSSF, CNPD, or other accreditation / endorsement route was found for the product itself."
+    },
+    {
+      "field_id": "numeric_buyer_count",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "int_001"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T13:37:35Z",
+      "omission_reason": "The 461+ Luxembourg financial-institutions figure was not re-verified with a primary source."
+    },
+    {
+      "field_id": "cost_reduction_claim",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "int_002"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T13:37:35Z",
+      "omission_reason": "The 20-30% operational cost-reduction claim has no public evidence in this rerun."
+    }
+  ]
+}

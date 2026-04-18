@@ -1,0 +1,178 @@
+{
+  "schema_version": "research_v2_quote_fetch_report_v1",
+  "product_code": "L5",
+  "generated_at": "2026-04-18T12:58:42.384Z",
+  "source_count": 8,
+  "candidate_count": 64,
+  "source_reports": [
+    {
+      "source_id": "guichet_ling_leave",
+      "title": "Linguistic leave",
+      "url": "https://guichet.public.lu/en/citoyens/travail/conges-jours-feries/formation-professionnelle/conge-linguistique.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001",
+        "ext_002"
+      ],
+      "terms": [
+        "leave",
+        "courses",
+        "linguistic",
+        "luxembourgish",
+        "eligible",
+        "hours",
+        "institutions",
+        "across",
+        "approved",
+        "associations",
+        "bodies",
+        "career"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "inll_luxembourgish",
+      "title": "Learn to speak Luxembourgish with our language courses",
+      "url": "https://www.inll.lu/en/languages/luxembourgish/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003",
+        "ext_004"
+      ],
+      "terms": [
+        "inll",
+        "luxembourgish",
+        "courses",
+        "application",
+        "body",
+        "certificate",
+        "certificates",
+        "certification",
+        "diplomas",
+        "language",
+        "national",
+        "nationality"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "inll_courses",
+      "title": "Language courses that focus on the power of dialogue",
+      "url": "https://www.inll.lu/en/courses/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "courses",
+        "dialogue",
+        "focus",
+        "language",
+        "power"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "inll_free_course",
+      "title": "Initiation à la langue luxembourgeoise dans le contexte professionnel",
+      "url": "https://www.inll.lu/fr/formation-en-auto-apprentissage-de-la-langue-luxembourgeoise/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "contexte",
+        "dans",
+        "initiation",
+        "langue",
+        "luxembourgeoise",
+        "professionnel"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "prolingua_tailor_made",
+      "title": "Tailor-made courses in your company, at Prolingua's premises or at a distance",
+      "url": "https://prolingua.lu/en/courses_25?category=individual",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "company",
+        "courses",
+        "distance",
+        "made",
+        "premises",
+        "prolingua",
+        "tailor"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "inlingua_adults",
+      "title": "Cours de langues pour adultes",
+      "url": "https://www.inlingua.lu/adultes",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "adultes",
+        "cours",
+        "langues",
+        "pour"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "guichet_fpc_2025",
+      "title": "Aides à la formation professionnelle continue en entreprise",
+      "url": "https://guichet.public.lu/fr/entreprises/financement-aides/aides-emploi-recrutement-formation/formation-professionnelle-continue/fpc-entreprise.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "aides",
+        "continue",
+        "entreprise",
+        "formation",
+        "professionnelle"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "infpc_guichet",
+      "title": "Institut national pour le développement de la formation professionnelle continue (INFPC)",
+      "url": "https://guichet.public.lu/fr/entreprises/organismes/organismes_citoyens/institut-national-formation-continue.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "continue",
+        "formation",
+        "infpc",
+        "institut",
+        "national",
+        "pour",
+        "professionnelle",
+        "veloppement"
+      ],
+      "candidate_count": 8
+    }
+  ]
+}

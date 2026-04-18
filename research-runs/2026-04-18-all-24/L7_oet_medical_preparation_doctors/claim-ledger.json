@@ -1,0 +1,257 @@
+{
+  "schema_version": "claim_ledger_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L7",
+  "product_title": "OET Medical Preparation (Doctors)",
+  "analysis_timestamp": "2026-04-18T21:49:18+04:00",
+  "jurisdictions": [
+    "United States",
+    "United Arab Emirates"
+  ],
+  "claims": [
+    {
+      "claim_id": "c_001",
+      "origin": "rederived_from_ext_001",
+      "category": "exam",
+      "claim_text": "OET Medicine is the approved English language and communications skills test for International Medical Graduates applying for ECFMG certification.",
+      "jurisdiction": "United States",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "oet_ecfmg"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_001"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Directly stated on the official OET ECFMG page."
+    },
+    {
+      "claim_id": "c_002",
+      "origin": "rederived_from_ext_002",
+      "category": "exam",
+      "claim_text": "OET Medicine is designed specifically for physicians.",
+      "jurisdiction": "United States",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "oet_ecfmg"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_002"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Directly stated on the official OET ECFMG page."
+    },
+    {
+      "claim_id": "c_003",
+      "origin": "rederived_from_ext_002",
+      "category": "regulatory_requirement",
+      "claim_text": "Applicants who pursue one of ECFMG's Pathways are required to attain a satisfactory score on OET Medicine to satisfy the communication skills requirement for ECFMG Certification.",
+      "jurisdiction": "United States",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "ecfmg_pathways_oet"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_003"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Directly stated on the official ECFMG 2026 Pathways page."
+    },
+    {
+      "claim_id": "c_004",
+      "origin": "rederived_from_ext_004",
+      "category": "regulatory_requirement",
+      "claim_text": "OET Medicine is only one of the requirements for completing an ECFMG Pathway.",
+      "jurisdiction": "United States",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "ecfmg_pathways_oet"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_004"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This narrows the Pathways claim and prevents overstatement."
+    },
+    {
+      "claim_id": "c_005",
+      "origin": "rederived_from_ext_002",
+      "category": "numeric_requirement",
+      "claim_text": "For 2026 ECFMG Pathways, applicants must attain 350 on Listening, Reading, and Speaking and 300 on Writing in one OET Medicine test administration.",
+      "jurisdiction": "United States",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "ecfmg_pathways_oet"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_005"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Current 2026 Pathways threshold from the official ECFMG page."
+    },
+    {
+      "claim_id": "c_006",
+      "origin": "rederived_from_ext_004",
+      "category": "contradiction_check",
+      "claim_text": "The legacy claim 'ECFMG now requires OET only and has dropped IELTS' is not safe to publish because official ECFMG materials still recognize a valid former Step 2 CS route alongside the OET Pathway route.",
+      "jurisdiction": "United States",
+      "status": "contradicted",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [
+        "ecfmg_pathways_oet",
+        "ecfmg_certification_factsheet"
+      ],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [
+        "q_004",
+        "q_006"
+      ],
+      "notes": "The 'OET only' part is contradicted by official ECFMG materials. This rerun also found no official support for the added 'dropped IELTS' wording."
+    },
+    {
+      "claim_id": "c_007",
+      "origin": "rederived_from_ext_003",
+      "category": "recognition",
+      "claim_text": "OET is accepted by key healthcare authorities in the UAE.",
+      "jurisdiction": "United Arab Emirates",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "oet_uae"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_007"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Official OET UAE recognition page."
+    },
+    {
+      "claim_id": "c_008",
+      "origin": "rederived_from_ext_003",
+      "category": "recognition",
+      "claim_text": "OET is accepted for residency programs in Abu Dhabi and Dubai.",
+      "jurisdiction": "United Arab Emirates",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "oet_uae"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_008"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Official OET UAE recognition page."
+    },
+    {
+      "claim_id": "c_009",
+      "origin": "rederived_from_ext_003",
+      "category": "exam",
+      "claim_text": "OET has been developed specifically for 12 healthcare professions.",
+      "jurisdiction": "Global",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "oet_about_test"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_009"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Global exam-context fact from the official OET overview."
+    },
+    {
+      "claim_id": "c_010",
+      "origin": "rederived_for_manual_review",
+      "category": "competitor_context",
+      "claim_text": "OET provides free and paid preparation resources, including courses, videos, guides, and sample tests.",
+      "jurisdiction": "Global",
+      "status": "verified",
+      "confidence_band": "medium",
+      "supporting_source_ids": [
+        "oet_sample_tests"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_010"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Useful only as pricing-pressure context; not a direct substitute-quality claim."
+    },
+    {
+      "claim_id": "c_011",
+      "origin": "ext_005",
+      "category": "curriculum_detail",
+      "claim_text": "The curriculum includes 24 corrected medical letters and uses doctor-exclusive cohorts only.",
+      "jurisdiction": "Internal",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "No public source support was found."
+    },
+    {
+      "claim_id": "c_012",
+      "origin": "int_003",
+      "category": "positioning",
+      "claim_text": "A premium 1:1 format is necessary for doctors.",
+      "jurisdiction": "Internal",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "No public source proves that this delivery format is necessary rather than optional."
+    },
+    {
+      "claim_id": "c_013",
+      "origin": "int_004",
+      "category": "team_qualification",
+      "claim_text": "The tutor network is fully MD/MBBS plus OET certified and sufficient for the target market.",
+      "jurisdiction": "Internal",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "No public verification found."
+    },
+    {
+      "claim_id": "c_014",
+      "origin": "legacy_scope",
+      "category": "market_scope",
+      "claim_text": "The publicly verified market scope for this product is GCC-wide.",
+      "jurisdiction": "GCC",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Public verification reached the UAE plus the US ECFMG route context, not GCC-wide coverage."
+    }
+  ],
+  "summary": {
+    "verified": 9,
+    "contradicted": 1,
+    "blocked": 4,
+    "total": 14
+  }
+}

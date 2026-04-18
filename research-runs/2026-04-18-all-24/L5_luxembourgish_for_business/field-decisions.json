@@ -1,0 +1,174 @@
+{
+  "schema_version": "field_decisions_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L5",
+  "product_title": "Luxembourgish for Business",
+  "analysis_timestamp": "2026-04-18T18:04:05Z",
+  "field_decisions": [
+    {
+      "field_id": "jurisdiction_scope",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Luxembourg"
+      ],
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_007"
+      ],
+      "source_refs": [
+        "guichet_ling_leave",
+        "inll_luxembourgish",
+        "inll_faq",
+        "inll_free_course",
+        "prolingua_tailor_made",
+        "inlingua_adults"
+      ],
+      "last_verified_at": "2026-04-18T18:04:05Z",
+      "reason": "All surviving evidence is Luxembourg-specific."
+    },
+    {
+      "field_id": "linguistic_leave_route",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "Luxembourg linguistic leave is capped at 200 hours in two stages, and eligible Luxembourgish courses must come from recognised or approved provider categories.",
+      "claim_refs": [
+        "claim_001",
+        "claim_002"
+      ],
+      "source_refs": [
+        "guichet_ling_leave"
+      ],
+      "last_verified_at": "2026-04-18T18:04:05Z",
+      "reason": "This is the cleanest official funding/leave route for the category."
+    },
+    {
+      "field_id": "official_certification_context",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "INLL is the national certification body for Luxembourgish and the official Sproochentest provider, but the FAQ says the article-28 nationality courses are organised by the Adult Education Service or its contracted providers.",
+      "claim_refs": [
+        "claim_003",
+        "claim_004"
+      ],
+      "source_refs": [
+        "inll_luxembourgish",
+        "inll_faq"
+      ],
+      "last_verified_at": "2026-04-18T18:04:05Z",
+      "reason": "This is the crucial separation between official proof routes and ordinary courses."
+    },
+    {
+      "field_id": "public_and_private_learning_routes",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "INLL free self-learning route for workplace Luxembourgish",
+        "Prolingua tailored company delivery",
+        "inlingua year-round multilingual delivery"
+      ],
+      "claim_refs": [
+        "claim_005",
+        "claim_006",
+        "claim_007"
+      ],
+      "source_refs": [
+        "inll_free_course",
+        "prolingua_tailor_made",
+        "inlingua_adults"
+      ],
+      "last_verified_at": "2026-04-18T18:04:05Z",
+      "reason": "The public/private landscape is already visible without inventing demand or leadership claims."
+    },
+    {
+      "field_id": "hard_blockers",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "A provider-issued CEFR-style certificate should not be marketed as automatically sufficient for official needs.",
+        "The narrow safe fact is that INLL does not offer the specific nationality-law article-28 courses; broader certificate-validity wording remains unsafe.",
+        "Only a free public self-learning route is evidenced for INLL; overcrowding and genericity are not.",
+        "No primary evidence in the rerun proves rising Luxembourgish demand for this exact product."
+      ],
+      "claim_refs": [
+        "ext_004",
+        "int_001",
+        "int_002",
+        "int_003"
+      ],
+      "source_refs": [
+        "inll_luxembourgish",
+        "inll_faq",
+        "inll_free_course"
+      ],
+      "last_verified_at": "2026-04-18T18:04:05Z",
+      "reason": "These are the remaining fail-closed risks after the rerun."
+    },
+    {
+      "field_id": "target_audience_summary",
+      "status": "analyst_only",
+      "confidence_band": "medium",
+      "value": "Luxembourg employees and employers needing workplace Luxembourgish while navigating official leave and recognition constraints.",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_005"
+      ],
+      "source_refs": [
+        "guichet_ling_leave",
+        "inll_luxembourgish",
+        "inll_free_course"
+      ],
+      "last_verified_at": "2026-04-18T18:04:05Z",
+      "omission_reason": "Useful synthesis, but still partly inferential for the exact product."
+    },
+    {
+      "field_id": "official_sufficiency_of_product_certificate",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "ext_004",
+        "int_001"
+      ],
+      "source_refs": [
+        "inll_luxembourgish",
+        "inll_faq"
+      ],
+      "last_verified_at": "2026-04-18T18:04:05Z",
+      "omission_reason": "The rerun does not support treating a product certificate as automatically valid for official needs."
+    },
+    {
+      "field_id": "inll_overcrowding_or_genericity",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "int_002"
+      ],
+      "source_refs": [
+        "inll_free_course"
+      ],
+      "last_verified_at": "2026-04-18T18:04:05Z",
+      "omission_reason": "Only the existence of a free public route is evidenced."
+    },
+    {
+      "field_id": "demand_growth_story",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "int_003"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T18:04:05Z",
+      "omission_reason": "No primary demand-growth metric survived the rerun."
+    }
+  ]
+}

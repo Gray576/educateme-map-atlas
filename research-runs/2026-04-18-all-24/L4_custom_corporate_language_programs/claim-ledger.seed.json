@@ -1,0 +1,58 @@
+{
+  "schema_version": "claim_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L4",
+  "product_title": "Custom Corporate Language Programs",
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "funding",
+      "claim_text": "INFPC co-financing of 15-35% is relevant to this product.",
+      "legacy_status": "partially_verified",
+      "supporting_source_ids": [
+        "guichet_fpc_2025"
+      ],
+      "contradiction_flag": false,
+      "notes": "General Luxembourg company training co-financing exists and can reach 15% with a 35% uplift for certain employees. Product-level eligibility still depends on the exact plan and provider setup.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "Berlitz is global, Prolingua is local and freelancers do not provide structured tracking.",
+      "legacy_status": "partially_verified",
+      "supporting_source_ids": [
+        "berlitz_business_lux",
+        "prolingua_tailor_made",
+        "inlingua_company_courses"
+      ],
+      "contradiction_flag": false,
+      "notes": "Berlitz and Prolingua clearly offer corporate language services. The 'freelancers do not provide structured tracking' part is not directly verified and should not be treated as fact.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "accreditation",
+      "claim_text": "Ministry of Education certified implies INFPC eligibility.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "No public source reviewed confirms this provider-specific certification route.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "scope_fit",
+      "claim_text": "LMS analytics, multilingual delivery and flexible scheduling together create a unique edge.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The public market contains similar flexibility and tailored delivery; the exact edge is not externally established.",
+      "next_action": "treat as open question, not as fact"
+    }
+  ]
+}

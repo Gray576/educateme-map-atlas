@@ -1,0 +1,67 @@
+{
+  "schema_version": "dashboard_ingestion_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A8",
+  "product_title": "B2B Language Proficiency Audit",
+  "reviewed_at": "2026-04-18T13:04:48Z",
+  "release_status": "review",
+  "safe_fields": {
+    "verification_summary": {
+      "value": {
+        "verified_claim_count": 1,
+        "partially_verified_claim_count": 0,
+        "unverified_claim_count": 1,
+        "contradicted_claim_count": 2,
+        "unclear_claim_count": 4,
+        "blocked_question_count": 4
+      },
+      "confidence_band": "high",
+      "claim_refs": [
+        "ext_001",
+        "ext_002",
+        "ext_003",
+        "ext_004",
+        "int_001",
+        "int_002",
+        "int_003",
+        "int_004"
+      ],
+      "source_refs": [
+        "cefr_council_of_europe",
+        "cambridge_workplace_exams",
+        "cambridge_skills_test_business",
+        "pearson_versant",
+        "allingua_about",
+        "pipplet_luxembourgish"
+      ],
+      "last_verified_at": "2026-04-18T13:04:48Z"
+    },
+    "hard_blockers": {
+      "value": [
+        "The numeric claim \"78% of employers use language tests\" remains unsupported by a primary public source.",
+        "The blanket competitor framing is contradicted because Pipplet and Allingua are multilingual and not English-only.",
+        "The absolute uniqueness claim is contradicted because Luxembourg-based multilingual testing and reporting already exists."
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "ext_002",
+        "ext_003",
+        "ext_004"
+      ],
+      "source_refs": [
+        "pearson_versant",
+        "cambridge_workplace_exams",
+        "cambridge_skills_test_business",
+        "allingua_about",
+        "pipplet_luxembourgish"
+      ],
+      "last_verified_at": "2026-04-18T13:04:48Z"
+    }
+  },
+  "verification_summary": {
+    "verified_claim_count": 1,
+    "contradicted_claim_count": 2,
+    "unverified_claim_count": 1,
+    "blocked_question_count": 4
+  }
+}

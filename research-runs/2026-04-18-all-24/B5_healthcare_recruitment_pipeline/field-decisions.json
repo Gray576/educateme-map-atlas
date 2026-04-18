@@ -1,0 +1,222 @@
+{
+  "schema_version": "field_decisions_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B5",
+  "product_title": "Healthcare Recruitment Pipeline",
+  "analysis_timestamp": "2026-04-18T14:03:04Z",
+  "field_decisions": [
+    {
+      "field_id": "jurisdiction_scope",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Belgium",
+        "Luxembourg",
+        "EU"
+      ],
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003"
+      ],
+      "source_refs": [
+        "eu_regulated_professions",
+        "lux_health_professions",
+        "belgium_foreign_diploma_visa"
+      ],
+      "last_verified_at": "2026-04-18T14:03:04Z",
+      "reason": "The product hypothesis is Benelux-facing, but the verified route facts are country-specific and EU-regulated."
+    },
+    {
+      "field_id": "regulatory_context",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "Nursing is a regulated-profession route. Destination-country recognition or permission-to-practise applies before work can start, and route compliance cannot be collapsed into a generic training offer.",
+      "claim_refs": [
+        "claim_001"
+      ],
+      "source_refs": [
+        "eu_regulated_professions",
+        "lux_health_professions"
+      ],
+      "last_verified_at": "2026-04-18T14:03:04Z",
+      "reason": "This is the core fact that survived all source checks."
+    },
+    {
+      "field_id": "verified_language_requirements",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "Luxembourg requires language proof and a B2 certificate if no other accepted proof is available; Belgium requires sufficient Dutch, French, or German and explicitly says a simple course-attendance certificate is not enough.",
+      "claim_refs": [
+        "claim_002",
+        "claim_003"
+      ],
+      "source_refs": [
+        "lux_health_professions",
+        "belgium_foreign_diploma_visa"
+      ],
+      "last_verified_at": "2026-04-18T14:03:04Z",
+      "reason": "This is the most decision-useful route fact for product design."
+    },
+    {
+      "field_id": "workforce_shortage_context",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "WHO/Europe says the region faces an expected shortage of nearly 1 million health workers by 2030.",
+      "claim_refs": [
+        "claim_004"
+      ],
+      "source_refs": [
+        "who_europe_nurse_shortage"
+      ],
+      "last_verified_at": "2026-04-18T14:03:04Z",
+      "reason": "Safe macro context only; it should not be treated as local demand proof."
+    },
+    {
+      "field_id": "verified_market_analogues",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "LiReco",
+        "Charité international recruitment of nurses",
+        "HSE international recruitment relocation package"
+      ],
+      "claim_refs": [
+        "claim_005",
+        "claim_006",
+        "claim_007"
+      ],
+      "source_refs": [
+        "lireco_about",
+        "charite_recruitment",
+        "hse_overseas_candidates"
+      ],
+      "last_verified_at": "2026-04-18T14:03:04Z",
+      "reason": "These public analogues disprove empty-market wording and show the category pattern already exists."
+    },
+    {
+      "field_id": "hard_blockers",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "The legacy exclusivity claim is false; adjacent European models already combine recruitment, language, recognition, and relocation.",
+        "The product cannot claim a generic language certificate outcome; Belgium explicitly rejects simple course-attendance proof.",
+        "Luxembourg and Belgium route mechanics differ materially and should not be sold as one undifferentiated operational path.",
+        "Erasmus+ is only a broad policy funding mention here, not direct proof that this commercial pipeline is eligible.",
+        "The £10–17K per nurse cost range is not Benelux-primary-source-safe."
+      ],
+      "claim_refs": [
+        "ext_003",
+        "ext_004",
+        "ext_005",
+        "ext_006",
+        "ext_007",
+        "ext_008",
+        "int_003"
+      ],
+      "source_refs": [
+        "belgium_foreign_diploma_visa",
+        "who_europe_nurse_shortage",
+        "lireco_about",
+        "charite_recruitment",
+        "hse_overseas_candidates",
+        "hse_pq_61870"
+      ],
+      "last_verified_at": "2026-04-18T14:03:04Z",
+      "reason": "These are the main reasons the card remains blocked for release."
+    },
+    {
+      "field_id": "target_audience_summary",
+      "status": "analyst_only",
+      "confidence_band": "medium",
+      "value": "Recruitment agencies and hospital employers placing foreign-trained nurses into Belgium and Luxembourg, with nurses as the route participants.",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003"
+      ],
+      "source_refs": [
+        "eu_regulated_professions",
+        "lux_health_professions",
+        "belgium_foreign_diploma_visa"
+      ],
+      "last_verified_at": "2026-04-18T14:03:04Z",
+      "omission_reason": "Reasonable synthesis, but still not a default dashboard truth field."
+    },
+    {
+      "field_id": "product_certificate_acceptance",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "ext_003",
+        "int_003"
+      ],
+      "source_refs": [
+        "lux_health_professions",
+        "belgium_foreign_diploma_visa"
+      ],
+      "last_verified_at": "2026-04-18T14:03:04Z",
+      "omission_reason": "The product does not yet identify a route-recognised exam or certificate path."
+    },
+    {
+      "field_id": "commercial_model",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "ext_002",
+        "int_001",
+        "int_004"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T14:03:04Z",
+      "omission_reason": "Desk research does not prove agencies need or will buy this exact bundled service."
+    },
+    {
+      "field_id": "pricing_benchmark",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "ext_007",
+        "int_006"
+      ],
+      "source_refs": [
+        "hse_pq_61870"
+      ],
+      "last_verified_at": "2026-04-18T14:03:04Z",
+      "omission_reason": "Only a weak Irish analogue was located; Benelux pricing evidence is missing."
+    },
+    {
+      "field_id": "erasmus_route",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "ext_004"
+      ],
+      "source_refs": [
+        "who_europe_nurse_shortage"
+      ],
+      "last_verified_at": "2026-04-18T14:03:04Z",
+      "omission_reason": "Broad policy funding references do not prove this offer fits an actual Erasmus+ application route."
+    },
+    {
+      "field_id": "unified_benelux_route",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "claim_002",
+        "claim_003"
+      ],
+      "source_refs": [
+        "lux_health_professions",
+        "belgium_foreign_diploma_visa"
+      ],
+      "last_verified_at": "2026-04-18T14:03:04Z",
+      "omission_reason": "Luxembourg and Belgium language-proof mechanics differ enough that one generic route description is unsafe."
+    }
+  ]
+}

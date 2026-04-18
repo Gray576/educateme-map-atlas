@@ -1,0 +1,100 @@
+{
+  "schema_version": "research_card_v2",
+  "run_id": "run_2026_04_18_example",
+  "product_code": "A5",
+  "product_title": "MiFID II Compliance Training",
+  "analysis_timestamp": "2026-04-18T12:00:00Z",
+  "jurisdictions": [
+    "Luxembourg",
+    "EU"
+  ],
+  "sources": [
+    {
+      "source_id": "cssf_17670",
+      "title": "Circular CSSF 17/670",
+      "publisher": "CSSF",
+      "url": "https://www.cssf.lu/en/Document/circular-cssf-17-670/",
+      "source_type": "regulator",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T11:40:00Z",
+      "language": "en",
+      "archive_url": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_001",
+      "category": "accreditation",
+      "claim_text": "CSSF maintains a list of bodies providing external training under Circular 17/670.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "supporting_source_ids": [
+        "cssf_17670",
+        "cssf_training_list"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "quote_001",
+        "quote_002"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Verified with regulator sources."
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "req_001",
+      "requirement": "External training bodies can be listed by CSSF for the Circular 17/670 route.",
+      "applies_to": "Bodies proposing external training",
+      "jurisdiction": "Luxembourg",
+      "status": "confirmed",
+      "source_ids": [
+        "cssf_training_list"
+      ],
+      "quote_ids": [
+        "quote_003"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "entity_001",
+      "name": "CSSF",
+      "kind": "regulator",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "cssf_17670"
+      ]
+    }
+  ],
+  "competitors": [
+    {
+      "competitor_id": "comp_001",
+      "name": "House of Training",
+      "kind": "direct",
+      "source_ids": [
+        "houseoftraining_mifid_cert"
+      ],
+      "notes": "Direct evidence exists for this provider."
+    }
+  ],
+  "open_questions": [
+    {
+      "question_id": "oq_001",
+      "question": "Can this proposed product issue a CSSF-accredited certificate directly, or only through a partner route?",
+      "reason": "No product-specific accreditation evidence found.",
+      "blocking": true
+    }
+  ],
+  "verification_summary": {
+    "verified_claim_count": 1,
+    "partially_verified_claim_count": 0,
+    "unverified_claim_count": 0,
+    "contradicted_claim_count": 0,
+    "blocked_question_count": 1,
+    "official_source_count": 1,
+    "total_source_count": 1
+  }
+}

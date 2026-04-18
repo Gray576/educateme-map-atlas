@@ -1,0 +1,30 @@
+{
+  "schema_version": "research_v2_benchmark_score_report_v1",
+  "generated_at": "2026-04-18T11:33:50.448Z",
+  "run_id": "2026-04-18-all-24",
+  "response_path": "/Users/sergey/Desktop/educateme-map/research-runs/2026-04-18-all-24/benchmark/responses.jsonl",
+  "adjudication_path": "/Users/sergey/Desktop/educateme-map/research-runs/2026-04-18-all-24/benchmark/adjudication.csv",
+  "structural": {
+    "task_count": 96,
+    "answered_task_count": 0,
+    "coverage_ratio": 0,
+    "valid_verdict_count": 0,
+    "valid_verdict_ratio": 0,
+    "responses_with_citations": 0,
+    "responses_with_quotes": 0,
+    "responses_with_confidence": 0,
+    "avg_citations_per_response": null,
+    "response_errors": []
+  },
+  "adjudicated": {
+    "filled_rows": 0,
+    "metrics": {
+      "verdict_accuracy": null,
+      "citation_precision": null,
+      "quote_grounding": null,
+      "source_tier_compliance": null,
+      "answer_completeness": null,
+      "confidence_calibration": null
+    }
+  }
+}

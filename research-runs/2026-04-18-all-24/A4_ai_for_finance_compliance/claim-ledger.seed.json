@@ -1,0 +1,120 @@
+{
+  "schema_version": "claim_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A4",
+  "product_title": "AI for Finance & Compliance",
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "compliance",
+      "claim_text": "The CSSF has published a thematic review on the use of Artificial Intelligence in the Luxembourg financial sector.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "cssf_ai_thematic_review"
+      ],
+      "contradiction_flag": false,
+      "notes": "The CSSF and BCL published a thematic report on AI use, challenges and risks in the Luxembourg financial sector.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "mandate",
+      "claim_text": "AI Act literacy and governance concerns apply to finance teams using AI.",
+      "legacy_status": "partially_verified",
+      "supporting_source_ids": [
+        "eu_ai_literacy_qa",
+        "cssf_ai_thematic_review"
+      ],
+      "contradiction_flag": false,
+      "notes": "The AI Act literacy obligation applies to providers and deployers, while CSSF materials show that AI use in finance raises governance, explainability, auditability and ethics concerns. The card overstates this as a direct finance-specific mandate.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "Only multilingual provider with CSSF focus.",
+      "legacy_status": "contradicted",
+      "supporting_source_ids": [
+        "houseoftraining_finance_ai_license",
+        "houseoftraining_ai_risk",
+        "houseoftraining_prompt_finance"
+      ],
+      "contradiction_flag": true,
+      "notes": "House of Training already offers Luxembourg finance AI training, including an AI Act-compliant financial-sector course and AI risk/data-protection courses.",
+      "next_action": "falsify fully and rewrite or drop"
+    },
+    {
+      "claim_id": "ext_004",
+      "origin": "legacy_external_claim",
+      "category": "subsidy",
+      "claim_text": "Luxembourg company training co-funding exists and may be relevant.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "guichet_cvt"
+      ],
+      "contradiction_flag": false,
+      "notes": "Guichet confirms continuing-vocational-training co-funding for companies in Luxembourg.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_005",
+      "origin": "legacy_external_claim",
+      "category": "subsidy",
+      "claim_text": "Fit 4 AI provides relevant public AI support.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "fit4ai"
+      ],
+      "contradiction_flag": false,
+      "notes": "Luxinnovation publicly offers Fit 4 AI support, but the reviewed sources do not prove that the training product itself fits the support route described in the card.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "There are 461+ financial institutions in Luxembourg.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "No primary source reviewed here confirmed the exact figure.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "The training can cut operational costs by 20-30%.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is an internal business hypothesis, not an externally verified fact.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "The product can deliver an AI governance framework, AML/KYC automation setup and audit documentation as standard deliverables.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "These are product design claims rather than public facts.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_004",
+      "origin": "legacy_internal_claim",
+      "category": "subsidy",
+      "claim_text": "Fit 4 AI 50%/30% applies to this training product.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "Public Fit 4 AI support exists, but the reviewed sources do not confirm this exact training fit or percentage claim.",
+      "next_action": "treat as open question, not as fact"
+    }
+  ]
+}

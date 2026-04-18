@@ -1,0 +1,279 @@
+{
+  "schema_version": "research_v2_quote_fetch_report_v1",
+  "product_code": "A5",
+  "generated_at": "2026-04-18T12:58:05.954Z",
+  "source_count": 11,
+  "candidate_count": 88,
+  "source_reports": [
+    {
+      "source_id": "cssf_17670",
+      "title": "Circular CSSF 17/670",
+      "url": "https://www.cssf.lu/en/Document/circular-cssf-17-670/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001",
+        "ext_004"
+      ],
+      "terms": [
+        "circular",
+        "cssf",
+        "certification",
+        "competence",
+        "criteria",
+        "external",
+        "framework",
+        "knowledge",
+        "learning",
+        "mifid",
+        "optional",
+        "sets"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "cssf_training_list",
+      "title": "List of bodies providing external training within the meaning of Circular CSSF 17/670",
+      "url": "https://www.cssf.lu/en/Document/list-of-bodies-providing-external-training-within-the-meaning-of-circular-cssf-17-670/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_002"
+      ],
+      "terms": [
+        "cssf",
+        "list",
+        "bodies",
+        "circular",
+        "external",
+        "meaning",
+        "providing",
+        "maintains",
+        "mifid",
+        "page",
+        "points",
+        "priips"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "cssf_mifid_page",
+      "title": "MiFID II/PRIIPs",
+      "url": "https://www.cssf.lu/en/mifid-ii-priips/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_002"
+      ],
+      "terms": [
+        "cssf",
+        "list",
+        "mifid",
+        "priips",
+        "bodies",
+        "circular",
+        "external",
+        "maintains",
+        "meaning",
+        "page",
+        "points",
+        "providing"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "esma_knowledge_competence",
+      "title": "Guidelines for the assessment of knowledge and competence",
+      "url": "https://www.esma.europa.eu/document/guidelines-assessment-knowledge-and-competence",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001"
+      ],
+      "terms": [
+        "competence",
+        "knowledge",
+        "circular",
+        "criteria",
+        "cssf",
+        "external",
+        "framework",
+        "mifid",
+        "sets",
+        "assessment",
+        "explicitly",
+        "guidelines"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "esma_press_release",
+      "title": "ESMA publishes Final Report on MiFID II Guidelines on assessment and knowledge of competence",
+      "url": "https://www.esma.europa.eu/lt/press-news/esma-news/esma-publishes-final-report-mifid-ii-guidelines-assessment-and-knowledge",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "assessment",
+        "competence",
+        "esma",
+        "final",
+        "guidelines",
+        "knowledge",
+        "mifid",
+        "publishes",
+        "report"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "houseoftraining_mifid_cert",
+      "title": "MiFID II Certification | CSSF accredited programme",
+      "url": "https://www.houseoftraining.lu/en_GB/training/mifid-ii-certification-en-fr-3499",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003",
+        "ext_004",
+        "ext_005",
+        "ext_006",
+        "ext_008"
+      ],
+      "terms": [
+        "certification",
+        "cssf",
+        "house",
+        "mifid",
+        "accredited",
+        "deadline",
+        "learning",
+        "optional",
+        "page",
+        "path",
+        "programme",
+        "reviewed"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "houseoftraining_mifid_blog",
+      "title": "MiFID II Certification",
+      "url": "https://www.houseoftraining.lu/en_GB/blog/actualites-1/mifid-ii-certification-79",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003",
+        "ext_004"
+      ],
+      "terms": [
+        "certification",
+        "cssf",
+        "house",
+        "mifid",
+        "learning",
+        "optional",
+        "path",
+        "accreditation",
+        "accredited",
+        "card",
+        "circular",
+        "current"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "houseoftraining_mifid_overview_en",
+      "title": "MiFID II - Overview of International Financial Markets (EN)",
+      "url": "https://www.houseoftraining.lu/en_GB/training/mifid-ii-overview-of-international-financial-markets-en-3503",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "financial",
+        "international",
+        "markets",
+        "mifid",
+        "overview"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "houseoftraining_mifid_overview_fr",
+      "title": "MiFID II - Overview of International Financial Markets (FR)",
+      "url": "https://www.houseoftraining.lu/en_GB/training/mifid-ii-overview-of-international-financial-markets-fr-3512",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "financial",
+        "international",
+        "markets",
+        "mifid",
+        "overview"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "houseoftraining_mifid_risk",
+      "title": "MiFID II - Risk, Compliance, Regulations (EN)",
+      "url": "https://www.houseoftraining.lu/en_GB/training/mifid-ii-risk-compliance-regulations-en-3509",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "compliance",
+        "mifid",
+        "regulations",
+        "risk"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "guichet_cvt",
+      "title": "Financial aid for in-company continuing vocational training",
+      "url": "https://guichet.public.lu/en/entreprises/financement-aides/aides-emploi-recrutement-formation/formation-professionnelle-continue/fpc-entreprise.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_005"
+      ],
+      "terms": [
+        "continuing",
+        "says",
+        "applies",
+        "apply",
+        "company",
+        "conflicted",
+        "eligible",
+        "financial",
+        "financing",
+        "funding",
+        "guichet",
+        "house"
+      ],
+      "candidate_count": 8
+    }
+  ]
+}

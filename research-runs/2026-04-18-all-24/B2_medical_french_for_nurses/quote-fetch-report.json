@@ -1,0 +1,248 @@
+{
+  "schema_version": "research_v2_quote_fetch_report_v1",
+  "product_code": "B2",
+  "generated_at": "2026-04-18T12:58:21.107Z",
+  "source_count": 10,
+  "candidate_count": 70,
+  "source_reports": [
+    {
+      "source_id": "france_paramedical",
+      "title": "Peut-on exercer une profession paramédicale en France avec un diplôme étranger ?",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F3141",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001"
+      ],
+      "terms": [
+        "france",
+        "authorization",
+        "exercise",
+        "paramedical",
+        "professions",
+        "avec",
+        "corresponding",
+        "dicale",
+        "dipl",
+        "diploma",
+        "exercer",
+        "foreign"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "france_diploma_recognition",
+      "title": "Faire reconnaître en France un diplôme obtenu à l'étranger",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F463",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001"
+      ],
+      "terms": [
+        "france",
+        "authorization",
+        "exercise",
+        "paramedical",
+        "professions",
+        "corresponding",
+        "dipl",
+        "diploma",
+        "faire",
+        "foreign",
+        "obtenu",
+        "recognition"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "belgium_visa_lang",
+      "title": "Want to apply for a visa with a foreign diploma?",
+      "url": "https://www.health.belgium.be/en/node/2180",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_002"
+      ],
+      "terms": [
+        "level",
+        "visa",
+        "bachelor",
+        "foreign",
+        "healthcare",
+        "language",
+        "nurses",
+        "applies",
+        "apply",
+        "belgian",
+        "belgium",
+        "diploma"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "belgium_irsg",
+      "title": "Infirmier responsable des soins généraux (IRSG)",
+      "url": "https://www.health.belgium.be/fr/professionnels/professionnels-sante/sante-humaine/professions-sante/acces-aux-professions-soins-sante/praticiens-lart-infirmier/infirmier-responsable-soins-generaux-irsg",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_002"
+      ],
+      "terms": [
+        "level",
+        "bachelor",
+        "healthcare",
+        "language",
+        "nurses",
+        "visa",
+        "applies",
+        "belgian",
+        "belgium",
+        "foreign",
+        "health",
+        "infirmier"
+      ],
+      "candidate_count": 6
+    },
+    {
+      "source_id": "swiss_foph",
+      "title": "Submit applications for foreign qualifications in the medical and psychology professions",
+      "url": "https://www.bag.admin.ch/en/submit-applications-for-foreign-qualifications-in-the-medical-and-psychology-professions",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003"
+      ],
+      "terms": [
+        "applications",
+        "foreign",
+        "medical",
+        "psychology",
+        "qualifications",
+        "submitted",
+        "foph",
+        "french",
+        "german",
+        "italian",
+        "language",
+        "national"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "eu_professions",
+      "title": "Regulated professions",
+      "url": "https://europa.eu/youreurope/citizens/work/professional-qualifications/regulated-professions/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "professions",
+        "regulated"
+      ],
+      "candidate_count": 4
+    },
+    {
+      "source_id": "prolingua_tailor_made",
+      "title": "Tailor-made courses in your company, at Prolingua's premises or at a distance",
+      "url": "https://prolingua.lu/en/courses_25?category=individual",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_004"
+      ],
+      "terms": [
+        "french",
+        "medical",
+        "online",
+        "census",
+        "company",
+        "courses",
+        "dedicated",
+        "distance",
+        "exhaustive",
+        "general",
+        "identified",
+        "language"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "prolingua_specialist_language",
+      "title": "Tailor-made courses / Specialist language",
+      "url": "https://prolingua.lu/en/courses_25/specialist-language_8/english_5",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "courses",
+        "language",
+        "made",
+        "specialist",
+        "tailor"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "inlingua_company_courses",
+      "title": "Cours de langues pros & particuliers Luxembourg",
+      "url": "https://www.inlingua.lu/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_004"
+      ],
+      "terms": [
+        "french",
+        "medical",
+        "online",
+        "census",
+        "cours",
+        "dedicated",
+        "exhaustive",
+        "general",
+        "identified",
+        "language",
+        "langues",
+        "market"
+      ],
+      "candidate_count": 4
+    },
+    {
+      "source_id": "inlingua_adults",
+      "title": "Cours de langues pour adultes",
+      "url": "https://www.inlingua.lu/adultes",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "adultes",
+        "cours",
+        "langues",
+        "pour"
+      ],
+      "candidate_count": 8
+    }
+  ]
+}

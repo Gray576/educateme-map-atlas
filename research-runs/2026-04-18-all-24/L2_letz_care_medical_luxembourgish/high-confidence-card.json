@@ -1,0 +1,452 @@
+{
+  "schema_version": "research_card_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L2",
+  "product_title": "Lëtz Care - Medical Luxembourgish",
+  "analysis_timestamp": "2026-04-18T13:02:36Z",
+  "jurisdictions": [
+    "Luxembourg"
+  ],
+  "sources": [
+    {
+      "source_id": "guichet_foreign_health_professional",
+      "title": "Declaration of provision of services by a foreign health professional",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/sectoriel/sante/autres-professions-sante-reglementees/declaration-prestations-service-professionnel-sante.html",
+      "source_type": "government",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:02:36Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "guichet_medical_practitioners",
+      "title": "General and specialist medical practitioners",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/sectoriel/sante/medecins/medecin-generaliste-specialiste.html",
+      "source_type": "government",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:02:36Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "infpc_cofunding",
+      "title": "Co-funding of training in companies",
+      "publisher": "INFPC",
+      "url": "https://www.infpc.lu/cofinancement-de-la-formation/en",
+      "source_type": "government",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:02:36Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "guichet_training_aid",
+      "title": "Financial aid for in-company continuing vocational training",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/financement-aides/aides-emploi-recrutement-formation/formation-professionnelle-continue/fpc-entreprise.html",
+      "source_type": "government",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": "2019-01-09",
+      "accessed_at": "2026-04-18T13:02:36Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "allingua_offer",
+      "title": "Our Language Training Solutions in Luxembourg",
+      "publisher": "Allingua",
+      "url": "https://www.allingua.lu/en/offer/",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:02:36Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "prolingua_courses",
+      "title": "Courses - Prolingua Language Centre",
+      "publisher": "Prolingua",
+      "url": "https://prolingua.lu/en/courses_25/",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:02:36Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "prolingua_professionals",
+      "title": "Professionals - Prolingua Language Centre",
+      "publisher": "Prolingua",
+      "url": "https://prolingua.lu/en/professionals_35/",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:02:36Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "luxlessons_home",
+      "title": "Learn Luxembourgish Online Fast",
+      "publisher": "LuxLessons",
+      "url": "https://www.luxlessons.lu/",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T13:02:36Z",
+      "language": "en",
+      "archive_url": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_001",
+      "category": "compliance",
+      "claim_text": "Service providers must possess the language skills necessary to exercise their profession in Luxembourg.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_foreign_health_professional"
+      ],
+      "supporting_quote_ids": [
+        "q_001"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Baseline compliance requirement."
+    },
+    {
+      "claim_id": "claim_002",
+      "category": "compliance",
+      "claim_text": "If a foreign health professional's mother tongue is not French, German or Luxembourgish, proof of language skills is required, and the minimum French or German proficiency is B2.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_foreign_health_professional"
+      ],
+      "supporting_quote_ids": [
+        "q_002"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Specific proof-and-level rule."
+    },
+    {
+      "claim_id": "claim_003",
+      "category": "compliance",
+      "claim_text": "General and specialist medical practitioners who cannot supply other proof must present a B2 language certificate from an approved test centre, and INLL is the approved examination centre in Luxembourg.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_medical_practitioners"
+      ],
+      "supporting_quote_ids": [
+        "q_003"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Doctor-specific route."
+    },
+    {
+      "claim_id": "claim_004",
+      "category": "funding",
+      "claim_text": "Luxembourg's company-training co-funding scheme provides aid equal to 15% of the annual amount invested in training for eligible private-sector companies.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "infpc_cofunding"
+      ],
+      "supporting_quote_ids": [
+        "q_004"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Scheme-level funding route."
+    },
+    {
+      "claim_id": "claim_005",
+      "category": "funding",
+      "claim_text": "Luxembourg's in-company training aid can rise to 35% of wage costs for participants who satisfy the listed criteria at the start of training.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_training_aid"
+      ],
+      "supporting_quote_ids": [
+        "q_005"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "General uplift rule."
+    },
+    {
+      "claim_id": "claim_006",
+      "category": "competitor",
+      "claim_text": "Allingua offers language training solutions in Luxembourg, with Luxembourgish among its languages and Medical and healthcare sector among its request sectors.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "allingua_offer"
+      ],
+      "supporting_quote_ids": [
+        "q_006",
+        "q_007",
+        "q_008"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Public substitute with healthcare-oriented positioning."
+    },
+    {
+      "claim_id": "claim_007",
+      "category": "competitor",
+      "claim_text": "Prolingua offers Luxembourgish course options and professional-tailored language solutions for businesses and professionals.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "prolingua_courses",
+        "prolingua_professionals"
+      ],
+      "supporting_quote_ids": [
+        "q_009",
+        "q_010"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Public substitute with Luxembourgish and business delivery."
+    },
+    {
+      "claim_id": "claim_008",
+      "category": "competitor",
+      "claim_text": "LuxLessons offers a Luxembourgish language course and says it teaches private and corporate clients.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "luxlessons_home"
+      ],
+      "supporting_quote_ids": [
+        "q_011"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Additional public substitute."
+    },
+    {
+      "claim_id": "claim_009",
+      "category": "competitor_gap",
+      "claim_text": "Only specialized medical Luxembourgish program in Luxembourg; no competitor exists.",
+      "jurisdiction": "Luxembourg",
+      "status": "contradicted",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [
+        "allingua_offer",
+        "prolingua_courses",
+        "prolingua_professionals",
+        "luxlessons_home"
+      ],
+      "contradicting_quote_ids": [
+        "q_006",
+        "q_007",
+        "q_008",
+        "q_009",
+        "q_010",
+        "q_011"
+      ],
+      "notes": "Absolute uniqueness claim is not defensible."
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "req_001",
+      "requirement": "Healthcare service providers in Luxembourg must possess the language skills necessary to exercise their profession.",
+      "applies_to": "Foreign and local healthcare service providers",
+      "jurisdiction": "Luxembourg",
+      "status": "confirmed",
+      "source_ids": [
+        "guichet_foreign_health_professional"
+      ],
+      "quote_ids": [
+        "q_001"
+      ]
+    },
+    {
+      "requirement_id": "req_002",
+      "requirement": "Foreign health professionals whose mother tongue is not French, German or Luxembourgish must provide proof, and French or German proficiency must reach B2.",
+      "applies_to": "Foreign health professionals",
+      "jurisdiction": "Luxembourg",
+      "status": "confirmed",
+      "source_ids": [
+        "guichet_foreign_health_professional"
+      ],
+      "quote_ids": [
+        "q_002"
+      ]
+    },
+    {
+      "requirement_id": "req_003",
+      "requirement": "General and specialist medical practitioners may need B2 proof from an approved centre, with INLL approved in Luxembourg.",
+      "applies_to": "General and specialist medical practitioners",
+      "jurisdiction": "Luxembourg",
+      "status": "confirmed",
+      "source_ids": [
+        "guichet_medical_practitioners"
+      ],
+      "quote_ids": [
+        "q_003"
+      ]
+    },
+    {
+      "requirement_id": "req_004",
+      "requirement": "Luxembourg company-training co-funding exists at 15% and can rise to 35% for qualifying wage costs.",
+      "applies_to": "Eligible private-sector companies and qualifying participants",
+      "jurisdiction": "Luxembourg",
+      "status": "confirmed",
+      "source_ids": [
+        "infpc_cofunding",
+        "guichet_training_aid"
+      ],
+      "quote_ids": [
+        "q_004",
+        "q_005"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "entity_001",
+      "name": "Guichet.lu",
+      "kind": "government_portal",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "guichet_foreign_health_professional",
+        "guichet_medical_practitioners",
+        "guichet_training_aid"
+      ]
+    },
+    {
+      "entity_id": "entity_002",
+      "name": "INLL",
+      "kind": "approved_examination_centre",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "guichet_medical_practitioners"
+      ]
+    },
+    {
+      "entity_id": "entity_003",
+      "name": "INFPC",
+      "kind": "funding_body",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "infpc_cofunding"
+      ]
+    },
+    {
+      "entity_id": "entity_004",
+      "name": "Allingua",
+      "kind": "competitor",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "allingua_offer"
+      ]
+    },
+    {
+      "entity_id": "entity_005",
+      "name": "Prolingua",
+      "kind": "competitor",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "prolingua_courses",
+        "prolingua_professionals"
+      ]
+    },
+    {
+      "entity_id": "entity_006",
+      "name": "LuxLessons",
+      "kind": "competitor",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "luxlessons_home"
+      ]
+    }
+  ],
+  "competitors": [
+    {
+      "competitor_id": "comp_001",
+      "name": "Allingua",
+      "kind": "direct",
+      "source_ids": [
+        "allingua_offer"
+      ]
+    },
+    {
+      "competitor_id": "comp_002",
+      "name": "Prolingua",
+      "kind": "direct",
+      "source_ids": [
+        "prolingua_courses",
+        "prolingua_professionals"
+      ]
+    },
+    {
+      "competitor_id": "comp_003",
+      "name": "LuxLessons",
+      "kind": "direct",
+      "source_ids": [
+        "luxlessons_home"
+      ]
+    }
+  ],
+  "open_questions": [
+    {
+      "question_id": "oq_001",
+      "question": "Is there any public evidence that this product has a dedicated certification or accreditation route?",
+      "reason": "No product-specific accreditation route was found in the public sources reviewed.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_002",
+      "question": "Should the offer be framed as patient-communication support, compliance support, or a general workplace language course?",
+      "reason": "That positioning choice is not a public fact and remains a commercial decision.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_003",
+      "question": "Do we have an external outcome metric for patient communication or safety that can be cited publicly?",
+      "reason": "No direct outcome evidence was found for this product.",
+      "blocking": true
+    }
+  ],
+  "verification_summary": {
+    "verified_claim_count": 8,
+    "contradicted_claim_count": 1,
+    "blocked_question_count": 3,
+    "official_source_count": 4,
+    "total_source_count": 8
+  }
+}

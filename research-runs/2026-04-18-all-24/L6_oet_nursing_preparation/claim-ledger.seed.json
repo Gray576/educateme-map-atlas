@@ -1,0 +1,114 @@
+{
+  "schema_version": "claim_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L6",
+  "product_title": "OET Nursing Preparation",
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "exam",
+      "claim_text": "OET is accepted by key healthcare authorities in the UAE and for residency programs in Abu Dhabi and Dubai.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "oet_uae"
+      ],
+      "contradiction_flag": false,
+      "notes": "OET's UAE country page states that the test is accepted by key healthcare authorities in the UAE and by residency programs in Abu Dhabi and Dubai.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "recognition",
+      "claim_text": "OET is accepted worldwide by healthcare regulators, educational institutions and visa and immigration services.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "oet_acceptance_worldwide"
+      ],
+      "contradiction_flag": false,
+      "notes": "OET's official site states broad global acceptance.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "recognition",
+      "claim_text": "Learners need OET Grade B to register with DHA or DOH or migrate to the UK or Australia.",
+      "legacy_status": "unverified",
+      "supporting_source_ids": [
+        "oet_uae",
+        "oet_acceptance_worldwide"
+      ],
+      "contradiction_flag": false,
+      "notes": "The reviewed sources confirm acceptance, but not the exact Grade B threshold or that this course's certificate is sufficient for the stated routes.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_004",
+      "origin": "legacy_external_claim",
+      "category": "numeric_claim",
+      "claim_text": "The curriculum requires 15-24 corrected letters and a max cohort of 10.",
+      "legacy_status": "unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "These are internal design choices, not externally verified market facts.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_005",
+      "origin": "legacy_external_claim",
+      "category": "other",
+      "claim_text": "Pass guarantee / 90-90 rule.",
+      "legacy_status": "unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "No public source reviewed supports a guarantee claim for this kind of exam-prep offer.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "recognition",
+      "claim_text": "Learners need OET Grade B to register with DHA or DOH or migrate to the UK or Australia.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The reviewed sources support acceptance but not the precise threshold or universal requirement.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "The curriculum requires 15-24 corrected letters and a max cohort of 10.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "These are course design assumptions, not public facts.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "Pass guarantee / 90-90 rule.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "A guarantee is not externally supported and is risky marketing language.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_004",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "Doctor-exclusive cohorts never mixed with nurses is a differentiator for this nurses product.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "That positioning belongs to the doctor-specific offer and does not prove this product's value.",
+      "next_action": "treat as open question, not as fact"
+    }
+  ]
+}

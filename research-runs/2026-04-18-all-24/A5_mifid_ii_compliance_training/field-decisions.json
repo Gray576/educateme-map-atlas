@@ -1,0 +1,172 @@
+{
+  "schema_version": "field_decisions_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A5",
+  "analysis_timestamp": "2026-04-18T12:56:57Z",
+  "field_decisions": [
+    {
+      "field_id": "jurisdiction_scope",
+      "decision": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Luxembourg",
+        "EU"
+      ],
+      "claim_refs": [
+        "ext_001",
+        "ext_002"
+      ],
+      "source_refs": [
+        "cssf_17670",
+        "cssf_mifid_page",
+        "esma_knowledge_competence"
+      ],
+      "last_verified_at": "2026-04-18T12:56:57Z",
+      "reason": "The product sits inside the Luxembourg CSSF MiFID II framework and the underlying ESMA guidance is EU-level."
+    },
+    {
+      "field_id": "approval_entities",
+      "decision": "safe",
+      "confidence_band": "high",
+      "value": [
+        "CSSF",
+        "ESMA"
+      ],
+      "claim_refs": [
+        "ext_001",
+        "ext_002"
+      ],
+      "source_refs": [
+        "cssf_17670",
+        "cssf_training_list_pdf",
+        "esma_knowledge_competence"
+      ],
+      "last_verified_at": "2026-04-18T12:56:57Z",
+      "reason": "CSSF publishes the circular and the external-training list; ESMA publishes the underlying competence guidelines."
+    },
+    {
+      "field_id": "regulatory_framework",
+      "decision": "safe",
+      "confidence_band": "high",
+      "value": [
+        "MiFID II",
+        "Circular CSSF 17/670",
+        "ESMA Guidelines for the assessment of knowledge and competence"
+      ],
+      "claim_refs": [
+        "ext_001"
+      ],
+      "source_refs": [
+        "cssf_17670",
+        "cssf_mifid_page",
+        "esma_knowledge_competence"
+      ],
+      "last_verified_at": "2026-04-18T12:56:57Z",
+      "reason": "The regulatory frame is explicitly named in the official sources."
+    },
+    {
+      "field_id": "verified_requirements",
+      "decision": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Firms should ensure staff providing relevant services possess the necessary knowledge and competence.",
+        "CSSF publishes the list of bodies providing external training within Circular 17/670."
+      ],
+      "claim_refs": [
+        "ext_001",
+        "ext_002"
+      ],
+      "source_refs": [
+        "esma_knowledge_competence",
+        "cssf_training_list",
+        "cssf_training_list_pdf"
+      ],
+      "last_verified_at": "2026-04-18T12:56:57Z",
+      "reason": "Both requirements are directly grounded in official regulator sources."
+    },
+    {
+      "field_id": "verified_competitors",
+      "decision": "safe",
+      "confidence_band": "high",
+      "value": [
+        "House of Training",
+        "HACA Partners",
+        "Lefebvre-Dalloz Compétences SAS",
+        "Deloitte Tax & Consulting S.à.r.l.",
+        "EFPA Luxembourg",
+        "First Finance SAS",
+        "PricewaterhouseCoopers Academy S.à.r.l."
+      ],
+      "claim_refs": [
+        "ext_002",
+        "ext_003"
+      ],
+      "source_refs": [
+        "cssf_training_list_pdf"
+      ],
+      "last_verified_at": "2026-04-18T12:56:57Z",
+      "reason": "These providers are explicitly listed by the CSSF as external training bodies."
+    },
+    {
+      "field_id": "target_audience_summary",
+      "decision": "analyst_only",
+      "confidence_band": "medium",
+      "value": "Persons under CSSF prudential supervision who provide investment advice or information on financial instruments, investment services or ancillary services.",
+      "claim_refs": [
+        "ext_006"
+      ],
+      "source_refs": [
+        "houseoftraining_mifid_cert"
+      ],
+      "last_verified_at": "2026-04-18T12:56:57Z",
+      "reason": "Directly evidenced, but still a synthesized summary and not promoted to the default dashboard."
+    },
+    {
+      "field_id": "delivery_languages",
+      "decision": "analyst_only",
+      "confidence_band": "medium",
+      "value": [
+        "English",
+        "French"
+      ],
+      "claim_refs": [
+        "ext_006"
+      ],
+      "source_refs": [
+        "houseoftraining_mifid_cert"
+      ],
+      "last_verified_at": "2026-04-18T12:56:57Z",
+      "reason": "Directly evidenced on the incumbent page, but not promoted to the default dashboard."
+    },
+    {
+      "field_id": "subsidy_eligibility",
+      "decision": "blocked",
+      "confidence_band": "blocked",
+      "value": "conflicted",
+      "claim_refs": [
+        "ext_005"
+      ],
+      "source_refs": [
+        "guichet_cvt",
+        "houseoftraining_mifid_cert"
+      ],
+      "last_verified_at": "2026-04-18T12:56:57Z",
+      "reason": "Guichet exclusion and provider co-financing copy conflict at the product level."
+    },
+    {
+      "field_id": "product_specific_accreditation",
+      "decision": "blocked",
+      "confidence_band": "blocked",
+      "value": "unknown",
+      "claim_refs": [
+        "int_001"
+      ],
+      "source_refs": [
+        "houseoftraining_mifid_cert",
+        "cssf_training_list_pdf"
+      ],
+      "last_verified_at": "2026-04-18T12:56:57Z",
+      "reason": "Only the incumbent route is evidenced; product-specific accreditation is not proven."
+    }
+  ]
+}

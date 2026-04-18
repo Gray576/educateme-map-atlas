@@ -1,0 +1,152 @@
+{
+  "schema_version": "field_decisions_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B4",
+  "analysis_timestamp": "2026-04-18T12:56:38Z",
+  "field_decisions": [
+    {
+      "field_id": "jurisdiction_scope",
+      "value": ["Luxembourg"],
+      "status": "keep",
+      "confidence_band": "high",
+      "claim_refs": ["v_005", "v_006", "v_007", "v_008"],
+      "source_refs": ["guichet_training_establishment", "lllc"],
+      "quote_refs": ["q_006", "q_007", "q_008", "q_009", "q_010"],
+      "evidence_profile": {
+        "authority": "high",
+        "corroboration": "multi_source",
+        "directness": "high",
+        "consistency": "high",
+        "freshness": "high",
+        "inference_burden": "low"
+      },
+      "last_verified_at": "2026-04-18T12:56:38Z",
+      "notes": "Belgium scope was not verified, so it is excluded from the default dashboard projection."
+    },
+    {
+      "field_id": "approval_entities",
+      "value": [
+        "Institut national des langues Luxembourg (INLL)",
+        "Minister whose remit includes professional training",
+        "Luxembourg Lifelong Learning Center (LLLC)"
+      ],
+      "status": "keep",
+      "confidence_band": "high",
+      "claim_refs": ["v_003", "v_004", "v_005", "v_007", "v_008"],
+      "source_refs": ["inll_luxembourgish", "inll_trainings", "guichet_training_establishment", "lllc"],
+      "quote_refs": ["q_003", "q_004", "q_005", "q_006", "q_008", "q_009", "q_010"],
+      "evidence_profile": {
+        "authority": "high",
+        "corroboration": "multi_source",
+        "directness": "high",
+        "consistency": "high",
+        "freshness": "high",
+        "inference_burden": "low"
+      },
+      "last_verified_at": "2026-04-18T12:56:38Z",
+      "notes": "These are verified entities, not an exhaustive ecosystem map."
+    },
+    {
+      "field_id": "competitor_names",
+      "value": ["INLL", "LLLC"],
+      "status": "keep",
+      "confidence_band": "high",
+      "claim_refs": ["v_001", "v_004", "v_007", "v_008"],
+      "source_refs": ["inll_luxembourgish", "inll_trainings", "lllc"],
+      "quote_refs": ["q_001", "q_004", "q_005", "q_009", "q_010"],
+      "evidence_profile": {
+        "authority": "high",
+        "corroboration": "multi_source",
+        "directness": "high",
+        "consistency": "high",
+        "freshness": "high",
+        "inference_burden": "low"
+      },
+      "last_verified_at": "2026-04-18T12:56:38Z",
+      "notes": "These are direct public incumbents / alternative providers, not a full market census."
+    },
+    {
+      "field_id": "hard_blockers",
+      "value": [
+        "Third-party training delivery outside the company in Luxembourg requires a business permit issued after ministerial approval."
+      ],
+      "status": "keep",
+      "confidence_band": "high",
+      "claim_refs": ["v_005", "v_006"],
+      "source_refs": ["guichet_training_establishment"],
+      "quote_refs": ["q_006", "q_007", "q_008"],
+      "evidence_profile": {
+        "authority": "high",
+        "corroboration": "single_source",
+        "directness": "high",
+        "consistency": "high",
+        "freshness": "high",
+        "inference_burden": "low"
+      },
+      "last_verified_at": "2026-04-18T12:56:38Z",
+      "notes": "This does not block pure IP licensing, but it blocks any training-delivery interpretation until the route is clarified."
+    },
+    {
+      "field_id": "product_specific_licensing_route",
+      "value": "unknown",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "claim_refs": ["ext_001", "int_002"],
+      "source_refs": [],
+      "quote_refs": [],
+      "evidence_profile": {
+        "authority": "none",
+        "corroboration": "none",
+        "directness": "none",
+        "consistency": "unknown",
+        "freshness": "unknown",
+        "inference_burden": "high"
+      },
+      "last_verified_at": "2026-04-18T12:56:38Z",
+      "omission_reason": "No public source proves whether B4 is pure IP licensing, training delivery, or a hybrid route."
+    },
+    {
+      "field_id": "badge_external_recognition",
+      "value": "unknown",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "claim_refs": ["ext_002", "int_001"],
+      "source_refs": [],
+      "quote_refs": [],
+      "evidence_profile": {
+        "authority": "none",
+        "corroboration": "none",
+        "directness": "none",
+        "consistency": "unknown",
+        "freshness": "unknown",
+        "inference_burden": "high"
+      },
+      "last_verified_at": "2026-04-18T12:56:38Z",
+      "omission_reason": "No official or publicly recognized credential source was found for 'Educateme Certified'."
+    },
+    {
+      "field_id": "market_size_or_demand",
+      "value": "unknown",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "claim_refs": ["ext_006", "ext_004"],
+      "source_refs": [],
+      "quote_refs": [],
+      "evidence_profile": {
+        "authority": "none",
+        "corroboration": "none",
+        "directness": "none",
+        "consistency": "unknown",
+        "freshness": "unknown",
+        "inference_burden": "high"
+      },
+      "last_verified_at": "2026-04-18T12:56:38Z",
+      "omission_reason": "No search-volume, market-size, or Belgium-demand evidence was collected for the exact offer."
+    }
+  ],
+  "release_status": "review",
+  "release_notes": [
+    "High-confidence fields exist for Luxembourg jurisdiction, public-provider context, and the training-permit blocker.",
+    "The product-specific licensing route remains blocked, so the dashboard should not publish this as a ready offer."
+  ]
+}

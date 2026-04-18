@@ -1,0 +1,97 @@
+{
+  "schema_version": "claim_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L2",
+  "product_title": "Lëtz Care - Medical Luxembourgish",
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "compliance",
+      "claim_text": "Healthcare professionals in Luxembourg must have the language skills needed to practise, and if their mother tongue is not French, German or Luxembourgish they must provide proof; the minimum French or German level is B2 and an approved examination centre may be required.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "guichet_healthcare_professions",
+        "guichet_foreign_health_professional",
+        "guichet_medical_practitioners"
+      ],
+      "contradiction_flag": false,
+      "notes": "Guichet explicitly states the language-skill requirement and the B2 / INLL proof route for healthcare professionals.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "funding",
+      "claim_text": "INFPC company training co-financing exists at 15% with a 35% salary-cost increase for some participants.",
+      "legacy_status": "partially_verified",
+      "supporting_source_ids": [
+        "infpc_cofunding",
+        "lifelong_learning_cofunding"
+      ],
+      "contradiction_flag": false,
+      "notes": "The funding route exists and the structure is public, but product-level eligibility still depends on the employer profile and final training structure.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "Only specialized medical Luxembourgish program in Luxembourg; no competitor exists.",
+      "legacy_status": "contradicted",
+      "supporting_source_ids": [
+        "allingua_home",
+        "allingua_offer",
+        "prolingua_home",
+        "luxlessons_home"
+      ],
+      "contradiction_flag": true,
+      "notes": "The absolute claim is not defensible because Luxembourg already has professional Luxembourgish and tailored corporate language providers, plus general Luxembourgish courses. Even if no identical 'medical Luxembourgish' clone was found, the market clearly has substitutes.",
+      "next_action": "falsify fully and rewrite or drop"
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "scope_fit",
+      "claim_text": "Medical Luxembourgish improves patient safety and satisfaction.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is a plausible outcome claim, but no provider-specific evidence was reviewed.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "Healthcare staffing shortages make the product urgent because many staff are non-Luxembourgish speakers.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is a market inference rather than a public fact about this offer.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "Curriculum is complete and piloting is already underway.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is an internal readiness claim, not a public fact.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_004",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "Cross-sell with AI Healthcare at a 15% bundle discount.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is an internal commercial design choice.",
+      "next_action": "treat as open question, not as fact"
+    }
+  ]
+}

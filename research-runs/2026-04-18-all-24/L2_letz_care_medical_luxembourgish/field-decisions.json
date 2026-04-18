@@ -1,0 +1,153 @@
+{
+  "schema_version": "field_decisions_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L2",
+  "product_title": "Lëtz Care - Medical Luxembourgish",
+  "analysis_timestamp": "2026-04-18T13:02:36Z",
+  "field_decisions": [
+    {
+      "field_id": "jurisdiction_scope",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Luxembourg"
+      ],
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_007",
+        "claim_008",
+        "claim_009"
+      ],
+      "source_refs": [
+        "guichet_foreign_health_professional",
+        "guichet_medical_practitioners",
+        "infpc_cofunding",
+        "guichet_training_aid",
+        "allingua_offer",
+        "prolingua_courses",
+        "prolingua_professionals",
+        "luxlessons_home"
+      ],
+      "last_verified_at": "2026-04-18T13:02:36Z",
+      "reason": "Every verified public source in the rerun is Luxembourg-specific."
+    },
+    {
+      "field_id": "regulatory_context",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "Healthcare service providers must prove necessary language skills, and medical practitioners can use B2/INLL proof routes in Luxembourg.",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003"
+      ],
+      "source_refs": [
+        "guichet_foreign_health_professional",
+        "guichet_medical_practitioners"
+      ],
+      "last_verified_at": "2026-04-18T13:02:36Z",
+      "reason": "Direct official Guichet evidence exists and the wording is not speculative."
+    },
+    {
+      "field_id": "verified_competitors",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Allingua",
+        "Prolingua",
+        "LuxLessons"
+      ],
+      "claim_refs": [
+        "claim_006",
+        "claim_007",
+        "claim_008"
+      ],
+      "source_refs": [
+        "allingua_offer",
+        "prolingua_courses",
+        "prolingua_professionals",
+        "luxlessons_home"
+      ],
+      "last_verified_at": "2026-04-18T13:02:36Z",
+      "reason": "Public provider pages directly show Luxembourgish and professional language offers."
+    },
+    {
+      "field_id": "training_support_route",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "Luxembourg company-training co-funding exists at 15%, with a 35% wage-cost uplift for qualifying participants.",
+      "claim_refs": [
+        "claim_004",
+        "claim_005"
+      ],
+      "source_refs": [
+        "infpc_cofunding",
+        "guichet_training_aid"
+      ],
+      "last_verified_at": "2026-04-18T13:02:36Z",
+      "reason": "Scheme-level support is directly documented, but product-specific eligibility remains open."
+    },
+    {
+      "field_id": "target_audience_summary",
+      "status": "analyst_only",
+      "confidence_band": "medium",
+      "value": "Healthcare employers and frontline staff in Luxembourg who need practical Luxembourgish for patient-facing work.",
+      "claim_refs": [
+        "claim_001",
+        "claim_006",
+        "claim_007",
+        "claim_008"
+      ],
+      "source_refs": [
+        "guichet_foreign_health_professional",
+        "allingua_offer",
+        "prolingua_courses",
+        "prolingua_professionals",
+        "luxlessons_home"
+      ],
+      "last_verified_at": "2026-04-18T13:02:36Z",
+      "omission_reason": "Useful synthesis, but still partly inferential and not safe as default dashboard truth."
+    },
+    {
+      "field_id": "product_delivery_model",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "oq_002"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T13:02:36Z",
+      "omission_reason": "Standalone course vs compliance support vs broader workplace language course remains a product-design decision, not a public fact."
+    },
+    {
+      "field_id": "product_accreditation_route",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "oq_001"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T13:02:36Z",
+      "omission_reason": "No public evidence was found that this product itself has a dedicated certification or accreditation route."
+    },
+    {
+      "field_id": "impact_outcome_claim",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "oq_003"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T13:02:36Z",
+      "omission_reason": "No direct external outcome evidence was found for patient communication, safety, or satisfaction."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": "contradiction_log_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L3",
+  "product_title": "French for Work & Business",
+  "generated_at": "2026-04-18T16:25:00Z",
+  "contradictions": [
+    {
+      "claim_id": "ext_003",
+      "claim_text": "Nobody does sector-specialized French plus INFPC support.",
+      "status": "contradicted",
+      "severity": "high",
+      "contradiction_type": "empty_market_claim_false",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [
+        "prolingua_specialist_language",
+        "prolingua_tailor_made",
+        "inlingua_company_courses",
+        "berlitz_business_lux"
+      ],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [
+        "q_005",
+        "q_006",
+        "q_007",
+        "q_008"
+      ],
+      "resolution": "blocked",
+      "notes": "Public specialist and company-tailored French substitutes already exist."
+    }
+  ],
+  "open_issues": [
+    {
+      "claim_id": "ext_001",
+      "claim_text": "INFPC co-financing of 15-35% is relevant to this product.",
+      "status": "blocked",
+      "issue_type": "product_specific_eligibility_unproven",
+      "resolution": "blocked",
+      "notes": "The public route exists, but exact eligibility for this course still depends on the training plan and buyer setup."
+    },
+    {
+      "claim_id": "ext_002",
+      "claim_text": "47% of Luxembourg employees are cross-border workers, implying roughly 228k-230k people in 2024.",
+      "status": "blocked",
+      "issue_type": "derived_numeric_not_primary_fact",
+      "resolution": "review",
+      "notes": "Use the raw official figures rather than the rounded derivative."
+    },
+    {
+      "claim_id": "int_001",
+      "claim_text": "Industry-specific variants for finance, IT, retail, healthcare and public sector are fully ready.",
+      "status": "unclear",
+      "issue_type": "all_verticals_not_proved",
+      "resolution": "blocked",
+      "notes": "Public evidence does not validate every proposed vertical as launch-ready."
+    },
+    {
+      "claim_id": "int_002",
+      "claim_text": "CEFR progress reports and session recordings are sufficient proof of learning for buyers.",
+      "status": "unclear",
+      "issue_type": "proof_standard_unproven",
+      "resolution": "blocked",
+      "notes": "No external source establishes these outputs as a formal proof standard."
+    }
+  ],
+  "summary": {
+    "checked_claim_count": 13,
+    "contradicted_count": 1,
+    "open_issue_count": 4,
+    "verified_claim_count": 8,
+    "unverified_claim_count": 0,
+    "unclear_claim_count": 2
+  }
+}

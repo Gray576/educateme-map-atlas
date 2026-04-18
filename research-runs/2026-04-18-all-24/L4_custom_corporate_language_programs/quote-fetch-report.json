@@ -1,0 +1,173 @@
+{
+  "schema_version": "research_v2_quote_fetch_report_v1",
+  "product_code": "L4",
+  "generated_at": "2026-04-18T12:58:40.433Z",
+  "source_count": 7,
+  "candidate_count": 48,
+  "source_reports": [
+    {
+      "source_id": "guichet_fpc_2025",
+      "title": "Aides à la formation professionnelle continue en entreprise",
+      "url": "https://guichet.public.lu/fr/entreprises/financement-aides/aides-emploi-recrutement-formation/formation-professionnelle-continue/fpc-entreprise.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001"
+      ],
+      "terms": [
+        "financing",
+        "aides",
+        "certain",
+        "company",
+        "continue",
+        "depends",
+        "eligibility",
+        "employees",
+        "entreprise",
+        "exact",
+        "exists",
+        "formation"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "infpc_guichet",
+      "title": "Institut national pour le développement de la formation professionnelle continue (INFPC)",
+      "url": "https://guichet.public.lu/fr/entreprises/organismes/organismes_citoyens/institut-national-formation-continue.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "continue",
+        "formation",
+        "infpc",
+        "institut",
+        "national",
+        "pour",
+        "professionnelle",
+        "veloppement"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "prolingua_tailor_made",
+      "title": "Tailor-made courses in your company, at Prolingua's premises or at a distance",
+      "url": "https://prolingua.lu/en/courses_25?category=individual",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_002"
+      ],
+      "terms": [
+        "prolingua",
+        "berlitz",
+        "freelancers",
+        "provide",
+        "structured",
+        "tracking",
+        "clearly",
+        "company",
+        "corporate",
+        "courses",
+        "directly",
+        "distance"
+      ],
+      "candidate_count": 6
+    },
+    {
+      "source_id": "prolingua_specialist_language",
+      "title": "Tailor-made courses / Specialist language",
+      "url": "https://prolingua.lu/en/courses_25/specialist-language_8/english_5",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "courses",
+        "language",
+        "made",
+        "specialist",
+        "tailor"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "inlingua_company_courses",
+      "title": "Cours de langues pros & particuliers Luxembourg",
+      "url": "https://www.inlingua.lu/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_002"
+      ],
+      "terms": [
+        "berlitz",
+        "freelancers",
+        "prolingua",
+        "provide",
+        "structured",
+        "tracking",
+        "clearly",
+        "corporate",
+        "cours",
+        "directly",
+        "fact",
+        "global"
+      ],
+      "candidate_count": 2
+    },
+    {
+      "source_id": "inlingua_adults",
+      "title": "Cours de langues pour adultes",
+      "url": "https://www.inlingua.lu/adultes",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "adultes",
+        "cours",
+        "langues",
+        "pour"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "berlitz_business_lux",
+      "title": "Learn a language at our language institute | Berlitz",
+      "url": "https://www.berlitz.com/en-lu",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_002"
+      ],
+      "terms": [
+        "berlitz",
+        "language",
+        "freelancers",
+        "prolingua",
+        "provide",
+        "structured",
+        "tracking",
+        "clearly",
+        "corporate",
+        "directly",
+        "fact",
+        "global"
+      ],
+      "candidate_count": 8
+    }
+  ]
+}

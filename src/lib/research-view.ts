@@ -3,6 +3,8 @@ import type { PresetKey, ScoredProductRecord } from "@/types";
 
 export interface FounderFiltersState {
   market: string;
+  release: string;
+  segment: string;
   buyer: string;
   archetype: string;
   claims: string;
@@ -24,6 +26,8 @@ export interface MapPointRecord extends FounderRowRecord {
 export function getDefaultFounderFilters(): FounderFiltersState {
   return {
     market: "all",
+    release: "all",
+    segment: "all",
     buyer: "all",
     archetype: "all",
     claims: "all",
@@ -36,6 +40,8 @@ export function getActiveFilterChips(filters: FounderFiltersState) {
   const chips: Array<{ key: keyof FounderFiltersState; label: string; value: string }> = [];
 
   if (filters.market !== "all") chips.push({ key: "market", label: "Market", value: filters.market });
+  if (filters.release !== "all") chips.push({ key: "release", label: "Release", value: filters.release });
+  if (filters.segment !== "all") chips.push({ key: "segment", label: "Segment", value: filters.segment });
   if (filters.buyer !== "all") chips.push({ key: "buyer", label: "Buyer", value: filters.buyer });
   if (filters.archetype !== "all") chips.push({ key: "archetype", label: "Archetype", value: filters.archetype });
   if (filters.claims !== "all") chips.push({ key: "claims", label: "Claims", value: filters.claims });
@@ -78,6 +84,8 @@ export function applyFounderFilters(
 ) {
   return products.filter((product) => {
     if (filters.market !== "all" && product.marketBadge !== filters.market) return false;
+    if (filters.release !== "all" && product.releaseStatus !== filters.release) return false;
+    if (filters.segment !== "all" && product.quadrantSegment !== filters.segment) return false;
     if (filters.buyer !== "all" && product.buyerClusterBadge !== filters.buyer) return false;
     if (filters.archetype !== "all" && product.archetype.label !== filters.archetype) return false;
     if (filters.claims !== "all" && !product.claimLabels.includes(filters.claims)) return false;
@@ -135,11 +143,15 @@ export function assignBands(products: ScoredProductRecord[]): FounderRowRecord[]
 
 export function getUniqueOptions(
   products: ScoredProductRecord[],
-  key: "market" | "buyer" | "archetype" | "claims" | "dependencies" | "subsidy"
+  key: "market" | "release" | "segment" | "buyer" | "archetype" | "claims" | "dependencies" | "subsidy"
 ) {
   const values =
     key === "market"
       ? products.map((product) => product.marketBadge)
+      : key === "release"
+        ? products.map((product) => product.releaseStatus)
+        : key === "segment"
+          ? products.map((product) => product.quadrantSegment)
       : key === "buyer"
         ? products.map((product) => product.buyerClusterBadge)
         : key === "archetype"
@@ -156,6 +168,8 @@ export function getUniqueOptions(
 export function buildFounderSummary(rows: FounderRowRecord[], preset: PresetKey) {
   const topThree = rows.slice(0, 3);
   const visibleMarkets = [...new Set(rows.map((item) => item.marketBadge))];
+  const visibleReleases = [...new Set(rows.map((item) => item.releaseStatus))];
+  const visibleSegments = [...new Set(rows.map((item) => item.quadrantSegment))];
   const visibleBuyers = [...new Set(rows.map((item) => item.buyerClusterBadge))];
   const visibleArchetypes = [...new Set(rows.map((item) => item.archetype.shortLabel))];
   const topAverage =
@@ -190,6 +204,8 @@ export function buildFounderSummary(rows: FounderRowRecord[], preset: PresetKey)
     snapshot: [
       `${rows.length} products in view`,
       `Markets represented: ${visibleMarkets.join(", ") || "none"}`,
+      `Release states: ${visibleReleases.join(", ") || "none"}`,
+      `Segments: ${visibleSegments.join(", ") || "none"}`,
       `Dominant buyer clusters: ${visibleBuyers.slice(0, 3).join(", ") || "none"}`,
       `Product families: ${visibleArchetypes.slice(0, 3).join(", ") || "none"}`,
     ],
@@ -287,6 +303,8 @@ export function buildMapReading(points: MapPointRecord[]) {
       .sort((left, right) => right.scores.buyerClarity - left.scores.buyerClarity)[0] ?? null;
 
   const markets = [...new Set(points.map((point) => point.marketBadge))];
+  const releases = [...new Set(points.map((point) => point.releaseStatus))];
+  const segments = [...new Set(points.map((point) => point.quadrantSegment))];
   const buyers = [...new Set(points.map((point) => point.buyerClusterBadge))];
   const archetypes = [...new Set(points.map((point) => point.archetype.shortLabel))];
 
@@ -294,6 +312,8 @@ export function buildMapReading(points: MapPointRecord[]) {
     snapshot: [
       `${points.length} products in view`,
       `Markets represented: ${markets.join(", ") || "none"}`,
+      `Release states: ${releases.join(", ") || "none"}`,
+      `Segments: ${segments.join(", ") || "none"}`,
       `Dominant buyer clusters: ${buyers.slice(0, 3).join(", ") || "none"}`,
       `Product families: ${archetypes.slice(0, 3).join(", ") || "none"}`,
     ],

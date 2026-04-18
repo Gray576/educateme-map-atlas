@@ -1,0 +1,72 @@
+{
+  "schema_version": "claim_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L3",
+  "product_title": "French for Work & Business",
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "funding",
+      "claim_text": "INFPC co-financing of 15-35% is relevant to this product.",
+      "legacy_status": "partially_verified",
+      "supporting_source_ids": [
+        "guichet_fpc_2025"
+      ],
+      "contradiction_flag": false,
+      "notes": "Luxembourg company training co-financing exists, with 15% support and a 35% uplift for certain employees. Product-level eligibility for this exact course is not independently confirmed.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "numeric_claim",
+      "claim_text": "47% of Luxembourg employees are cross-border workers, implying roughly 228k-230k people in 2024.",
+      "legacy_status": "partially_verified",
+      "supporting_source_ids": [
+        "statec_regards_2025"
+      ],
+      "contradiction_flag": false,
+      "notes": "STATEC reported 489,000 employees in Luxembourg in 2024, of whom 47% were cross-border workers. The 228k figure is a rounded derivation, not the explicit official number.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "Nobody does sector-specialized French plus INFPC support.",
+      "legacy_status": "contradicted",
+      "supporting_source_ids": [
+        "prolingua_specialist_language",
+        "prolingua_tailor_made",
+        "inlingua_company_courses",
+        "berlitz_business_lux"
+      ],
+      "contradiction_flag": true,
+      "notes": "Public substitutes exist for company-tailored and specialist language courses in Luxembourg, including Prolingua and inlingua. The absolute uniqueness claim is not defensible from the reviewed evidence.",
+      "next_action": "falsify fully and rewrite or drop"
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "scope_fit",
+      "claim_text": "Industry-specific variants for finance, IT, retail, healthcare and public sector are fully ready.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The source card describes these variants, but the public evidence reviewed does not validate that all five variants are already production-ready.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "CEFR progress reports and session recordings are sufficient proof of learning for buyers.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "Those are plausible training outputs, but no external source proves they are accepted as a formal proof standard.",
+      "next_action": "treat as open question, not as fact"
+    }
+  ]
+}

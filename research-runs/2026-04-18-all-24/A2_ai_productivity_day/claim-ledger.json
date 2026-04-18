@@ -1,0 +1,241 @@
+{
+  "schema_version": "claim_ledger_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A2",
+  "product_title": "AI Productivity Day",
+  "analysis_timestamp": "2026-04-18T13:39:48Z",
+  "jurisdictions": [
+    "Luxembourg",
+    "EU"
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_001",
+      "origin": "v2_rederived_claim",
+      "category": "compliance",
+      "claim_text": "Article 4 of the EU AI Act requires providers and deployers of AI systems to ensure a sufficient level of AI literacy for staff and other persons dealing with AI systems on their behalf.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "eu_ai_literacy_qa",
+        "eu_ai_literacy_policy"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_001",
+        "q_002"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is the safest public regulatory context for employer AI-training demand."
+    },
+    {
+      "claim_id": "claim_002",
+      "origin": "v2_rederived_claim",
+      "category": "compliance",
+      "claim_text": "The Commission says companies using ChatGPT for tasks such as advertisement writing or translation should inform staff about risks such as hallucination, and AI literacy training can be tailored to sectors and job profiles.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "eu_ai_literacy_qa",
+        "eu_ai_literacy_policy"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_003",
+        "q_004"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This supports the risk-aware framing of workplace AI training without implying any A2-specific approval."
+    },
+    {
+      "claim_id": "claim_003",
+      "origin": "v2_rederived_claim",
+      "category": "funding",
+      "claim_text": "Luxembourg private-sector companies can obtain State financial support for employee training through the in-company continuing vocational training co-funding route.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_cvt",
+        "lifelonglearning_training_aid"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_005",
+        "q_006"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Scheme-level support exists, but the exact workshop's eligibility is still not proven."
+    },
+    {
+      "claim_id": "claim_004",
+      "origin": "v2_rederived_claim",
+      "category": "funding",
+      "claim_text": "The public Luxembourg company-training aid route states support amounts to 15% of the annual amount invested, with a 35% wage-cost rate for participants meeting specific age or qualification criteria.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_cvt",
+        "lifelonglearning_training_aid"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_006",
+        "q_007"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is a scheme-level funding fact, not a workshop-level approval."
+    },
+    {
+      "claim_id": "claim_005",
+      "origin": "v2_rederived_claim",
+      "category": "compliance",
+      "claim_text": "In Luxembourg, providing continuing professional training to third parties outside the company triggers a permit or ministerial-authorisation route for local private training bodies, while foreign training bodies rely on home-country authorisation unless they set up in Luxembourg.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_training_establishment",
+        "lifelonglearning_approved_provider"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_008",
+        "q_009"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This creates a real route-check for A2, but the product's exact operator status is still unknown."
+    },
+    {
+      "claim_id": "claim_006",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "House of Training publishes a face-to-face generative-AI fundamentals course in Luxembourg and cross-sells a 32H 'Generative AI toolbox - ChatGPT & Cies' offer.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "houseoftraining_gen_ai_fundamentals"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_010",
+        "q_011",
+        "q_012"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Direct public evidence that Luxembourg already has practical generative-AI training offers."
+    },
+    {
+      "claim_id": "claim_007",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "House of Training publishes a face-to-face ChatGPT-for-business course that includes a small-group prompt workshop and brainstorming on integrating ChatGPT into the participant's business context.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "houseoftraining_chatgpt_business"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_013",
+        "q_014"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is the strongest public evidence against an empty-market framing."
+    },
+    {
+      "claim_id": "claim_008",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "Nobody in Luxembourg offers this format.",
+      "jurisdiction": "Luxembourg",
+      "status": "contradicted",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [
+        "houseoftraining_gen_ai_fundamentals",
+        "houseoftraining_chatgpt_business"
+      ],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [
+        "q_010",
+        "q_012",
+        "q_013",
+        "q_014"
+      ],
+      "notes": "The public Luxembourg market is not empty. Exact real-task customisation may still differentiate A2, but the empty-market claim does not survive contradiction search."
+    },
+    {
+      "claim_id": "claim_009",
+      "origin": "legacy_internal_claim",
+      "category": "subsidy",
+      "claim_text": "SME Package AI 70% applies to this workshop.",
+      "jurisdiction": "Luxembourg",
+      "status": "unverified",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Official sources confirm a general company-training co-funding route, but not a 70% AI-specific package for this workshop."
+    },
+    {
+      "claim_id": "claim_010",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "The workshop should deliver 5-10 ready AI workflows for the team.",
+      "jurisdiction": "Luxembourg",
+      "status": "unverified",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "This is a product-design promise, not a publicly verified fact."
+    },
+    {
+      "claim_id": "claim_011",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "The workshop can show AI ROI in 30 days.",
+      "jurisdiction": "Luxembourg",
+      "status": "unverified",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "No public evidence reviewed supports a 30-day ROI timeline for this offer."
+    },
+    {
+      "claim_id": "claim_012",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "This is the unique 'work on your tasks' AI format in Luxembourg.",
+      "jurisdiction": "Luxembourg",
+      "status": "unclear",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [
+        "houseoftraining_gen_ai_fundamentals",
+        "houseoftraining_chatgpt_business"
+      ],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Public competitor pages already show practical workshops and business-context exercises, but they do not fully reveal whether anyone exactly replicates A2's real-task customisation. Uniqueness remains unproven."
+    }
+  ],
+  "summary": {
+    "checked_claim_count": 12,
+    "verified_count": 7,
+    "contradicted_count": 1,
+    "unverified_count": 3,
+    "unclear_count": 1,
+    "open_issue_count": 4
+  }
+}

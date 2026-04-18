@@ -1,0 +1,188 @@
+{
+  "schema_version": "claim_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B5",
+  "product_title": "Healthcare Recruitment Pipeline",
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "recognition",
+      "claim_text": "Credential recognition is part of the pathway for foreign-trained nurses.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "eu_regulated_professions",
+        "directive_2005_36",
+        "lux_health_professions",
+        "belgium_foreign_diploma_visa"
+      ],
+      "contradiction_flag": false,
+      "notes": "Nursing is a regulated profession and destination-country recognition or licence steps are part of the route, subject to qualification type and destination-country rules.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "other",
+      "claim_text": "When an agency recruits nurses for the EU, they need a language training component in the pipeline.",
+      "legacy_status": "partially_verified",
+      "supporting_source_ids": [
+        "lux_health_professions",
+        "belgium_foreign_diploma_visa"
+      ],
+      "contradiction_flag": false,
+      "notes": "Language proof is clearly required in Luxembourg and Belgium for regulated nursing routes, but the reviewed sources do not show that an external training component in this exact bundled format is mandatory.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "other",
+      "claim_text": "Deliverable: language certificate.",
+      "legacy_status": "unverified",
+      "supporting_source_ids": [
+        "lux_health_professions",
+        "belgium_foreign_diploma_visa"
+      ],
+      "contradiction_flag": false,
+      "notes": "Official routes require specific language levels and accepted proof formats, but the product card does not specify whether its certificate would be accepted for licensing, recognition or visa purposes.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_004",
+      "origin": "legacy_external_claim",
+      "category": "funding",
+      "claim_text": "EU/Erasmus+ potential.",
+      "legacy_status": "partially_verified",
+      "supporting_source_ids": [
+        "erasmus_plus_partnerships",
+        "who_europe_nurse_shortage"
+      ],
+      "contradiction_flag": false,
+      "notes": "Erasmus+ clearly funds cooperation and training projects, and WHO/Europe explicitly notes workforce-mobility initiatives in this area. The reviewed sources do not confirm direct eligibility for this exact commercial recruitment-and-placement pipeline.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_005",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "No one does this for Luxembourg/Belgium.",
+      "legacy_status": "contradicted",
+      "supporting_source_ids": [
+        "lireco_about",
+        "charite_recruitment",
+        "hse_relocation_package",
+        "hse_overseas_candidates"
+      ],
+      "contradiction_flag": true,
+      "notes": "LiReco publicly markets an integrated recruitment, language training and relocation model, Charité runs international nurse recruitment, and HSE offers an international recruitment and relocation package. The market is not empty.",
+      "next_action": "falsify fully and rewrite or drop"
+    },
+    {
+      "claim_id": "ext_006",
+      "origin": "legacy_external_claim",
+      "category": "numeric_claim",
+      "claim_text": "Europe needs 950K health workers by 2030.",
+      "legacy_status": "partially_verified",
+      "supporting_source_ids": [
+        "who_europe_nurse_shortage"
+      ],
+      "contradiction_flag": false,
+      "notes": "WHO/Europe says the region faces an expected shortage of nearly 1 million health workers by 2030. The card's 950K figure is directionally close but not the exact wording in the source.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_007",
+      "origin": "legacy_external_claim",
+      "category": "numeric_claim",
+      "claim_text": "Agencies spend £10–17K per nurse.",
+      "legacy_status": "partially_verified",
+      "supporting_source_ids": [
+        "hse_pq_61870"
+      ],
+      "contradiction_flag": false,
+      "notes": "An official HSE response documented a €10,000 agency fee per international nurse and total international recruitment costs of €15,500 in one case. The card's sterling-denominated range is not directly confirmed and the official evidence is from another country and cost structure.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_008",
+      "origin": "legacy_external_claim",
+      "category": "other",
+      "claim_text": "Language is the bottleneck.",
+      "legacy_status": "partially_verified",
+      "supporting_source_ids": [
+        "lux_health_professions",
+        "belgium_foreign_diploma_visa"
+      ],
+      "contradiction_flag": false,
+      "notes": "Language proof is clearly part of the regulated route in Luxembourg and Belgium, but the wording remains an interpretive summary rather than a measured official classification.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "This integrated pipeline format is needed by agencies recruiting nurses into the EU.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The reviewed sources show route constraints, not a mandatory need for this exact product format.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "recognition",
+      "claim_text": "Credential recognition support from this product will materially improve recognition outcomes.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "No public source reviewed verifies this provider-specific capability or outcome effect.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "The product's language certificate would be sufficient or accepted for destination-country practice pathways.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The card does not specify an accepted exam or authority-recognised certificate route.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_004",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "Placement support and ongoing coaching will materially improve hiring or retention outcomes.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is a plausible product hypothesis, but no external evidence specific to this product was found.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_005",
+      "origin": "legacy_internal_claim",
+      "category": "competitor_gap",
+      "claim_text": "No one does this for Luxembourg/Belgium.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The claim is contradicted by adjacent European models and direct substitutes, but the exact Benelux market was not exhaustively mapped.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_006",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "Y1 revenue at 20 placements can reach €100–240K.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is an internal business projection, not an externally verifiable market fact.",
+      "next_action": "treat as open question, not as fact"
+    }
+  ]
+}

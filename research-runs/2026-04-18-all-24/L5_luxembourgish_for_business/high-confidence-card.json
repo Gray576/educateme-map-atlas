@@ -1,0 +1,268 @@
+{
+  "schema_version": "research_card_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L5",
+  "product_title": "Luxembourgish for Business",
+  "analysis_timestamp": "2026-04-18T18:04:05Z",
+  "jurisdictions": [
+    "Luxembourg"
+  ],
+  "sources": [
+    {
+      "source_id": "guichet_ling_leave",
+      "title": "Linguistic leave",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/citoyens/travail/conges-jours-feries/formation-professionnelle/conge-linguistique.html",
+      "source_type": "government",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": "2022-09-15",
+      "accessed_at": "2026-04-18T18:04:05Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "inll_luxembourgish",
+      "title": "Learn to speak Luxembourgish with our language courses",
+      "publisher": "INLL",
+      "url": "https://www.inll.lu/en/languages/luxembourgish/",
+      "source_type": "public_institution",
+      "authority_tier": "T2",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T18:04:05Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "inll_faq",
+      "title": "FAQ - inl",
+      "publisher": "INLL",
+      "url": "https://www.inll.lu/en/faq-en/",
+      "source_type": "public_institution",
+      "authority_tier": "T2",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T18:04:05Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "inll_free_course",
+      "title": "Initiation à la langue luxembourgeoise dans le contexte professionnel",
+      "publisher": "INLL",
+      "url": "https://www.inll.lu/fr/formation-en-auto-apprentissage-de-la-langue-luxembourgeoise/",
+      "source_type": "public_institution",
+      "authority_tier": "T2",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T18:04:05Z",
+      "language": "fr",
+      "archive_url": null
+    },
+    {
+      "source_id": "prolingua_tailor_made",
+      "title": "Tailor-made courses - Prolingua Language Centre",
+      "publisher": "Prolingua",
+      "url": "https://prolingua.lu/en/courses_25?category=individual",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T18:04:05Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "inlingua_adults",
+      "title": "Centre de langues destiné aux adultes Luxembourg",
+      "publisher": "inlingua Luxembourg",
+      "url": "https://www.inlingua.lu/adultes",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T18:04:05Z",
+      "language": "fr",
+      "archive_url": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_001",
+      "category": "funding",
+      "claim_text": "Luxembourg linguistic leave is capped at 200 hours per beneficiary across a professional career and must be split into two stages of 80 to 120 hours each.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_ling_leave"
+      ],
+      "supporting_quote_ids": [
+        "q_001"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "claim_002",
+      "category": "funding",
+      "claim_text": "Eligible Luxembourgish courses for linguistic leave must come from recognised or approved provider categories.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_ling_leave"
+      ],
+      "supporting_quote_ids": [
+        "q_002"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "claim_003",
+      "category": "recognition",
+      "claim_text": "INLL is recognised as the national certification body for Luxembourgish diplomas and certificates and is the official provider of the Sproochentest for nationality.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "inll_luxembourgish"
+      ],
+      "supporting_quote_ids": [
+        "q_003",
+        "q_004"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "claim_004",
+      "category": "recognition",
+      "claim_text": "INLL does not offer the specific nationality-law courses under article 28; those are organised by the Adult Education Service or its contracted service providers.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "inll_faq"
+      ],
+      "supporting_quote_ids": [
+        "q_005"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "claim_005",
+      "category": "public_learning_route",
+      "claim_text": "INLL offers a free, publicly accessible self-learning route for Luxembourgish in a professional context.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "inll_free_course"
+      ],
+      "supporting_quote_ids": [
+        "q_006"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "claim_006",
+      "category": "competitor",
+      "claim_text": "Prolingua publicly offers tailor-made language courses in-company, at its premises, or at a distance.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "prolingua_tailor_made"
+      ],
+      "supporting_quote_ids": [
+        "q_007"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "claim_007",
+      "category": "competitor",
+      "claim_text": "inlingua Luxembourg publicly offers year-round language courses across languages, levels and objectives, delivered at its school, on client premises, or online.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "inlingua_adults"
+      ],
+      "supporting_quote_ids": [
+        "q_008"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "ext_004",
+      "category": "recognition",
+      "claim_text": "INLL courses do not give a certificate valid for a nationality application.",
+      "jurisdiction": "Luxembourg",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [
+        "inll_faq"
+      ],
+      "supporting_quote_ids": [
+        "q_005"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "int_001",
+      "category": "scope_fit",
+      "claim_text": "The product's CEFR certification is sufficient for official needs.",
+      "jurisdiction": "Internal",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [
+        "inll_luxembourgish",
+        "inll_faq"
+      ],
+      "contradicting_quote_ids": [
+        "q_003",
+        "q_004",
+        "q_005"
+      ]
+    },
+    {
+      "claim_id": "int_002",
+      "category": "other",
+      "claim_text": "INLL is free, overcrowded and generic.",
+      "jurisdiction": "Internal",
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [
+        "inll_free_course"
+      ],
+      "supporting_quote_ids": [
+        "q_006"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "int_003",
+      "category": "scope_fit",
+      "claim_text": "Luxembourgish demand is rising because of integration requirements.",
+      "jurisdiction": "Internal",
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    }
+  ]
+}

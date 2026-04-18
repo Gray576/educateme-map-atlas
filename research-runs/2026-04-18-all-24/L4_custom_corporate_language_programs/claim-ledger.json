@@ -1,0 +1,179 @@
+{
+  "schema_version": "claim_ledger_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L4",
+  "product_title": "Custom Corporate Language Programs",
+  "analysis_timestamp": "2026-04-18T17:55:32Z",
+  "jurisdictions": [
+    "Luxembourg"
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_001",
+      "origin": "v2_rederived_claim",
+      "category": "funding",
+      "claim_text": "Luxembourg company-training co-financing can cover 15% of annual training investment.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_fpc_2025"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_001"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is route-level support only, not proof that the exact service qualifies."
+    },
+    {
+      "claim_id": "claim_002",
+      "origin": "v2_rederived_claim",
+      "category": "funding",
+      "claim_text": "Luxembourg company-training co-financing can rise to 35% of salary costs for certain eligible participants.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_fpc_2025"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_002"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Again, this is a scheme fact rather than product-level eligibility."
+    },
+    {
+      "claim_id": "claim_003",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "Prolingua publicly offers tailor-made corporate language courses in-company, at its premises, or at a distance.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "prolingua_tailor_made"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_003"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Direct evidence against a uniqueness story based on tailored delivery."
+    },
+    {
+      "claim_id": "claim_004",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "inlingua Luxembourg publicly offers year-round language courses across languages, levels and objectives, delivered at its school, on client premises, or online with a la carte scheduling.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "inlingua_adults"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_004"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Direct evidence that flexible scheduling and multilingual delivery already exist publicly in the market."
+    },
+    {
+      "claim_id": "claim_005",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "Berlitz Luxembourg publicly markets corporate language solutions for HR teams and companies sponsoring employee language training.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "berlitz_business_lux"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_005"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This confirms a broad corporate-language competitor landscape."
+    },
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "funding",
+      "claim_text": "INFPC co-financing of 15-35% is relevant to this product.",
+      "jurisdiction": "Luxembourg",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [
+        "guichet_fpc_2025"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_001",
+        "q_002"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "The co-financing route exists, but exact relevance to this service depends on the client plan and provider setup."
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "Berlitz is global, Prolingua is local and freelancers do not provide structured tracking.",
+      "jurisdiction": "Luxembourg",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [
+        "prolingua_tailor_made",
+        "inlingua_adults",
+        "berlitz_business_lux"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_003",
+        "q_004",
+        "q_005"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "The public sources verify competitor existence and delivery flexibility, but not the freelancer-tracking claim or an exhaustive substitute map."
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "accreditation",
+      "claim_text": "Ministry of Education certified implies INFPC eligibility.",
+      "jurisdiction": "Internal",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "No public source in the rerun established this certification-to-eligibility shortcut."
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "scope_fit",
+      "claim_text": "LMS analytics, multilingual delivery and flexible scheduling together create a unique edge.",
+      "jurisdiction": "Internal",
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [
+        "prolingua_tailor_made",
+        "inlingua_adults",
+        "berlitz_business_lux"
+      ],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [
+        "q_003",
+        "q_004",
+        "q_005"
+      ],
+      "notes": "The market clearly already offers multilingual and flexible corporate delivery; the analytics component remains unproven and the total uniqueness thesis is not safe."
+    }
+  ]
+}

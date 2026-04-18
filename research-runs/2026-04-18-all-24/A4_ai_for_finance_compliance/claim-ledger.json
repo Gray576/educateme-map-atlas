@@ -1,0 +1,328 @@
+{
+  "schema_version": "claim_ledger_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A4",
+  "product_title": "AI for Finance & Compliance",
+  "analysis_timestamp": "2026-04-18T13:37:35Z",
+  "jurisdictions": [
+    "Luxembourg",
+    "EU"
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_001",
+      "origin": "v2_rederived_claim",
+      "category": "compliance",
+      "claim_text": "CSSF and BCL published a joint thematic report on AI in the Luxembourg financial sector that highlights adoption challenges and AI trustworthiness topics such as explainability, ethics, bias, fairness, and auditability.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "cssf_ai_thematic_review"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_001",
+        "q_002"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Strong regulator context, but this is a thematic review rather than a product-specific mandate."
+    },
+    {
+      "claim_id": "claim_002",
+      "origin": "v2_rederived_claim",
+      "category": "mandate",
+      "claim_text": "Article 4 of the AI Act requires providers and deployers of AI systems to ensure a sufficient level of AI literacy for staff and other persons dealing with AI systems on their behalf.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "eu_ai_literacy_qa"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_003",
+        "q_004"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is the safest AI Act training obligation framing for the product."
+    },
+    {
+      "claim_id": "claim_003",
+      "origin": "v2_rederived_claim",
+      "category": "deadline",
+      "claim_text": "The AI literacy obligation under Article 4 already applies from 2 February 2025, while supervision and enforcement start from 3 August 2026.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "eu_ai_literacy_qa",
+        "eu_ai_act_start"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_005",
+        "q_006"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "The current timing is important because the obligation already applies even though enforcement starts later."
+    },
+    {
+      "claim_id": "claim_004",
+      "origin": "v2_rederived_claim",
+      "category": "compliance",
+      "claim_text": "The AI Office does not impose strict or sector-specific AI literacy requirements, and no specific governance structure is mandated under Article 4 of the AI Act.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "eu_ai_literacy_qa"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_007",
+        "q_008",
+        "q_009"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This blocks any positioning that claims a finance-specific mandated governance board or one mandatory training format."
+    },
+    {
+      "claim_id": "claim_005",
+      "origin": "v2_rederived_claim",
+      "category": "funding",
+      "claim_text": "Luxembourg company-training co-funding covers external training providers and offers 15% support on annual training investment, with a 35% wage-cost uplift for qualifying participants.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_cvt"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_010",
+        "q_011",
+        "q_012"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This verifies a real public training-support route, but not product-specific eligibility."
+    },
+    {
+      "claim_id": "claim_006",
+      "origin": "v2_rederived_claim",
+      "category": "subsidy",
+      "claim_text": "Fit 4 AI offers eligible Luxembourg SMEs a public assessment-and-roadmap route with co-financing, including 50% of consultancy costs covered.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "fit4ai"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_013",
+        "q_014",
+        "q_015"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This proves the public programme exists, but it does not prove that A4 itself is an eligible training product under the route."
+    },
+    {
+      "claim_id": "claim_007",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "House of Training offers an AI Driving Licence course for financial-sector employees in Luxembourg, framed as AI Act compliant and adapted to the Luxembourg financial context.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "houseoftraining_finance_ai_license"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_016",
+        "q_017"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Direct competitor evidence against any uniqueness claim."
+    },
+    {
+      "claim_id": "claim_008",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "House of Training offers a banking-focused course that combines information security, data protection, and artificial intelligence with explicit GDPR, DORA, NIS2, and AI Act framing.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "houseoftraining_ai_risk"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_018"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This shows competitor depth beyond one entry-level course."
+    },
+    {
+      "claim_id": "claim_009",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "House of Training also offers a prompt-engineering course for financial-sector employees with GDPR and AI Act compliance framing and finance-specific case studies.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "houseoftraining_prompt_finance"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_019"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This further closes the legacy market-gap claim."
+    },
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "mandate",
+      "claim_text": "A4 can be positioned as satisfying a CSSF- or AI-Act-mandated finance-specific governance structure or mandatory training requirement.",
+      "jurisdiction": "Luxembourg, EU",
+      "status": "contradicted",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [
+        "cssf_ai_thematic_review",
+        "eu_ai_literacy_qa"
+      ],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [
+        "q_001",
+        "q_007",
+        "q_008",
+        "q_009"
+      ],
+      "notes": "The CSSF item is a thematic review, not a mandate, and the AI Office explicitly says no sector-specific requirements or governance structure are mandated under Article 4."
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "A4 is the only multilingual Luxembourg finance-sector provider with AI Act or compliance framing.",
+      "jurisdiction": "Luxembourg",
+      "status": "contradicted",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [
+        "houseoftraining_finance_ai_license",
+        "houseoftraining_ai_risk",
+        "houseoftraining_prompt_finance"
+      ],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [
+        "q_016",
+        "q_017",
+        "q_018",
+        "q_019"
+      ],
+      "notes": "House of Training already publishes multiple Luxembourg finance-sector AI courses with AI Act, GDPR, data-protection, and compliance framing."
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "subsidy",
+      "claim_text": "Fit 4 AI 50%/30% applies to this training product.",
+      "jurisdiction": "Luxembourg",
+      "status": "unverified",
+      "confidence_band": "low",
+      "supporting_source_ids": [
+        "fit4ai"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_013",
+        "q_014",
+        "q_015"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "The reviewed public page supports an SME assessment/roadmap route with 50% consultancy-cost coverage. It does not prove that A4 itself is eligible, nor that a 30% product-level rate applies."
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "There are 461+ financial institutions in Luxembourg.",
+      "jurisdiction": "Luxembourg",
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "No primary-source-safe count was re-verified in this rerun."
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "The training can cut operational costs by 20-30%.",
+      "jurisdiction": "Internal",
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "No public evidence reviewed in this rerun supports the cost-reduction figure."
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "The product can deliver an AI governance framework, AML/KYC automation setup and audit documentation as standard deliverables.",
+      "jurisdiction": "Internal",
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "These are product-design claims, not public facts verified by this rerun."
+    }
+  ],
+  "open_questions": [
+    {
+      "question_id": "oq_001",
+      "question": "Can A4 be sold as a pure training offer, or does it require consulting / implementation support to be commercially credible?",
+      "reason": "The public evidence supports training relevance, but not the product's delivery model.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_002",
+      "question": "Is A4 itself eligible for Luxembourg company-training co-funding, Fit 4 AI, both, or neither?",
+      "reason": "The public support routes exist, but product-specific routing remains unverified.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_003",
+      "question": "Is there any public CSSF, CNPD, or other accreditation / endorsement route for the product itself?",
+      "reason": "No product-specific approval or certification route was found in the reviewed sources.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_004",
+      "question": "Should the target audience be broad Luxembourg financial-sector staff using AI, or a narrower compliance / risk cohort?",
+      "reason": "The broad demand context is real, but the final wedge remains a strategy choice rather than a public fact.",
+      "blocking": true
+    }
+  ],
+  "verification_summary": {
+    "verified_claim_count": 9,
+    "partially_verified_claim_count": 0,
+    "unverified_claim_count": 1,
+    "contradicted_claim_count": 2,
+    "blocked_question_count": 4,
+    "official_source_count": 5,
+    "total_source_count": 8
+  }
+}

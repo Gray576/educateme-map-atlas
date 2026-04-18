@@ -141,3 +141,4 @@ export interface SortState {
 export * from "@/types/research-card";
 export * from "@/types/research-product";
 export * from "@/types/research-state";
+export * from "@/types/research-v2";

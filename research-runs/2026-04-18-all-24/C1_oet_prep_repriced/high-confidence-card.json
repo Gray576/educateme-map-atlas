@@ -1,0 +1,385 @@
+{
+  "schema_version": "research_card_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "C1",
+  "product_title": "OET Prep (repriced)",
+  "analysis_timestamp": "2026-04-18T17:09:56+04:00",
+  "jurisdictions": [
+    "United Arab Emirates",
+    "United Kingdom",
+    "Australia"
+  ],
+  "sources": [
+    {
+      "source_id": "oet_about_test",
+      "title": "What is the OET Test, where and how do I take it",
+      "publisher": "OET",
+      "url": "https://oet.com/en-us/about/the-test",
+      "source_type": "company_primary",
+      "authority_tier": "T3",
+      "jurisdiction": "Global",
+      "published_at": null,
+      "accessed_at": "2026-04-18T17:09:56+04:00",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "oet_uae",
+      "title": "United Arab Emirates",
+      "publisher": "OET",
+      "url": "https://oet.com/en-us/test/who-recognises-oet/recognising-organisations/united-arab-emirates",
+      "source_type": "company_primary",
+      "authority_tier": "T3",
+      "jurisdiction": "United Arab Emirates",
+      "published_at": null,
+      "accessed_at": "2026-04-18T17:09:56+04:00",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "oet_sample_tests",
+      "title": "Sample tests",
+      "publisher": "OET",
+      "url": "https://oet.com/en-us/ready/sample-tests",
+      "source_type": "company_primary",
+      "authority_tier": "T3",
+      "jurisdiction": "Global",
+      "published_at": null,
+      "accessed_at": "2026-04-18T17:09:56+04:00",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "dha_residency",
+      "title": "Dubai Programme for Health Specialties",
+      "publisher": "Dubai Health Authority",
+      "url": "https://dha.gov.ae/en/MedicalEducationandResearch/DubaiResidencyTrainingProgram",
+      "source_type": "government_program",
+      "authority_tier": "T1",
+      "jurisdiction": "Dubai, United Arab Emirates",
+      "published_at": null,
+      "accessed_at": "2026-04-18T17:09:56+04:00",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "doh_residency",
+      "title": "Medical Residency Program",
+      "publisher": "Department of Health Abu Dhabi",
+      "url": "https://www.doh.gov.ae/en/programs-initiatives/meed/advance-training-program/medical-residency-program",
+      "source_type": "government_program",
+      "authority_tier": "T1",
+      "jurisdiction": "Abu Dhabi, United Arab Emirates",
+      "published_at": "2026-04-18",
+      "accessed_at": "2026-04-18T17:09:56+04:00",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "nmc_oet",
+      "title": "OET - The Nursing and Midwifery Council",
+      "publisher": "Nursing and Midwifery Council",
+      "url": "https://www.nmc.org.uk/registration/joining-the-register/english-language-requirements/accepted-english-language-tests/oet/",
+      "source_type": "regulator",
+      "authority_tier": "T1",
+      "jurisdiction": "United Kingdom",
+      "published_at": "2024-03-08",
+      "accessed_at": "2026-04-18T17:09:56+04:00",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "nmba_registration_standard",
+      "title": "Nursing and Midwifery Board of Australia standard for registered nurses and midwives",
+      "publisher": "Nursing and Midwifery Board of Australia",
+      "url": "https://www.nursingmidwiferyboard.gov.au/documents/default.aspx?chksum=Qp0cmuAY5gYpR%2Fu3RJALHw%3D%3D&dbid=AP&record=WD15%2F16890",
+      "source_type": "regulator_document",
+      "authority_tier": "T1",
+      "jurisdiction": "Australia",
+      "published_at": "2025-03-18",
+      "accessed_at": "2026-04-18T17:09:56+04:00",
+      "language": "en",
+      "archive_url": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "c_001",
+      "category": "exam",
+      "claim_text": "OET is developed specifically for 12 healthcare professions.",
+      "jurisdiction": "Global",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "oet_about_test"
+      ],
+      "supporting_quote_ids": [
+        "q_001"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "c_002",
+      "category": "recognition",
+      "claim_text": "OET is accepted by key healthcare authorities in the UAE.",
+      "jurisdiction": "United Arab Emirates",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "oet_uae"
+      ],
+      "supporting_quote_ids": [
+        "q_002"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "c_003",
+      "category": "recognition",
+      "claim_text": "OET is accepted for residency programs in Abu Dhabi and Dubai.",
+      "jurisdiction": "United Arab Emirates",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "oet_uae"
+      ],
+      "supporting_quote_ids": [
+        "q_003"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "c_004",
+      "category": "recognition",
+      "claim_text": "OET is recognised and trusted by regulators, hospitals, and universities across multiple destination markets including the UK, US, Ireland, Australia, New Zealand, Dubai, and Singapore.",
+      "jurisdiction": "Global",
+      "status": "verified",
+      "confidence_band": "medium",
+      "supporting_source_ids": [
+        "oet_about_test"
+      ],
+      "supporting_quote_ids": [
+        "q_004"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "c_005",
+      "category": "regulatory_requirement",
+      "claim_text": "For DoH Abu Dhabi residency applications, international graduates need OET at least at grade C.",
+      "jurisdiction": "Abu Dhabi, United Arab Emirates",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "doh_residency"
+      ],
+      "supporting_quote_ids": [
+        "q_005"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "c_006",
+      "category": "regulatory_requirement",
+      "claim_text": "For DHA Dubai residency applications, OET is required at 300, equivalent to C+ in all categories.",
+      "jurisdiction": "Dubai, United Arab Emirates",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "dha_residency"
+      ],
+      "supporting_quote_ids": [
+        "q_006"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "c_007",
+      "category": "regulatory_requirement",
+      "claim_text": "The NMC accepts OET for nursing registration when reading, listening, and speaking are at least grade B and writing is at least grade C+.",
+      "jurisdiction": "United Kingdom",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "nmc_oet"
+      ],
+      "supporting_quote_ids": [
+        "q_007",
+        "q_008"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "c_008",
+      "category": "regulatory_requirement",
+      "claim_text": "The NMBA accepts OET for nursing and midwifery registration when each of the four components is at least grade B.",
+      "jurisdiction": "Australia",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "nmba_registration_standard"
+      ],
+      "supporting_quote_ids": [
+        "q_009"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "c_009",
+      "category": "competitor",
+      "claim_text": "OET provides free official sample tests for all 12 professions, which acts as a real free substitute for generic paid preparation.",
+      "jurisdiction": "Global",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "oet_sample_tests"
+      ],
+      "supporting_quote_ids": [
+        "q_010"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "ext_003",
+      "category": "recognition",
+      "claim_text": "OET can help with migration or career advancement in the UK, Australia and the US.",
+      "jurisdiction": "Global",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [
+        "oet_about_test"
+      ],
+      "supporting_quote_ids": [
+        "q_004"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "ext_004",
+      "category": "recognition",
+      "claim_text": "Learners need an OET certificate for DHA or DOH registration.",
+      "jurisdiction": "United Arab Emirates",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [
+        "oet_uae",
+        "doh_residency",
+        "dha_residency"
+      ],
+      "supporting_quote_ids": [
+        "q_002",
+        "q_003",
+        "q_005",
+        "q_006"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "ext_005",
+      "category": "numeric_claim",
+      "claim_text": "94 leads exist from the UAE pilot.",
+      "jurisdiction": "Internal",
+      "status": "unverified",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "int_001",
+      "category": "numeric_claim",
+      "claim_text": "94 leads exist from the UAE pilot.",
+      "jurisdiction": "Internal",
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "int_002",
+      "category": "other",
+      "claim_text": "Repricing from €349 to €149-199 fixes market fit.",
+      "jurisdiction": "Internal",
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "int_003",
+      "category": "other",
+      "claim_text": "The course is the right option for all UAE/GCC learners targeting OET.",
+      "jurisdiction": "GCC",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "int_004",
+      "category": "other",
+      "claim_text": "Pass guarantee can be promised safely.",
+      "jurisdiction": "Internal",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    }
+  ],
+  "open_questions": [
+    {
+      "question_id": "oq_001",
+      "question": "Should this product stay UAE-scoped in messaging rather than GCC-scoped?",
+      "reason": "Public verification did not extend to a generic GCC route.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_002",
+      "question": "Does the new price point actually beat the free official substitute set in conversion, not just in theory?",
+      "reason": "Repricing is still a commercial hypothesis.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_003",
+      "question": "Is the product selling official route clarity, or generic OET prep, or both?",
+      "reason": "The official route facts are clear, but the value proposition is still broad.",
+      "blocking": true
+    }
+  ],
+  "verification_summary": {
+    "verified_claim_count": 9,
+    "partially_verified_claim_count": 0,
+    "unverified_claim_count": 1,
+    "contradicted_claim_count": 0,
+    "blocked_question_count": 3,
+    "official_source_count": 4,
+    "total_source_count": 7
+  },
+  "safe_fields": [
+    "jurisdiction_scope",
+    "verified_entities",
+    "verified_requirements",
+    "free_official_substitutes",
+    "hard_blockers"
+  ]
+}

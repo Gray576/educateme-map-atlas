@@ -1,0 +1,124 @@
+{
+  "schema_version": "claim_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L1",
+  "product_title": "Sproochtest Preparation",
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "exam",
+      "claim_text": "The Sproochentest is the official Luxembourgish language exam required in the nationality procedure.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "guichet_naturalisation",
+        "inll_sproochentest"
+      ],
+      "contradiction_flag": false,
+      "notes": "Guichet and INLL confirm the test's role in the nationality route.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "exam",
+      "claim_text": "The test requires oral expression at A2 and listening comprehension at B1.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "inll_sproochentest"
+      ],
+      "contradiction_flag": false,
+      "notes": "INLL's official page sets the oral A2 and listening B1 structure.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "funding",
+      "claim_text": "The State can reimburse up to 750 euros for approved Luxembourgish language course fees, and the Sproochentest fee can also be reimbursed after success.",
+      "legacy_status": "partially_verified",
+      "supporting_source_ids": [
+        "guichet_conditions_prealables",
+        "guichet_naturalisation",
+        "guichet_sproochentest_pdf",
+        "etic_sproochentest",
+        "luxlanguages_sproochentest_individual"
+      ],
+      "contradiction_flag": false,
+      "notes": "Official Guichet guidance confirms reimbursement routes, while Lux'Languages and ETIC state the 750 euro amount and the test fee reimbursement. The card compresses separate fee and course rules into one line.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_004",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "Educateme is already #1 in Sproochtest, so this is a pure upsell with no real competitor pressure.",
+      "legacy_status": "contradicted",
+      "supporting_source_ids": [
+        "inll_sproochentest",
+        "etic_sproochentest",
+        "luxlanguages_sproochentest_group",
+        "prolingua_luxembourgish",
+        "luxlessons_home"
+      ],
+      "contradiction_flag": true,
+      "notes": "There are official and private alternatives in the same Sproochentest prep space, including INLL, ETIC, Lux'Languages, Prolingua and LuxLessons. The market is not empty.",
+      "next_action": "falsify fully and rewrite or drop"
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "98% pass rate.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is a provider claim that was not independently verified in the public sources reviewed.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "competitor_gap",
+      "claim_text": "Top-3 private provider in Luxembourg.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "Market rank is an internal positioning claim and needs independent proof.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "competitor_gap",
+      "claim_text": "INLL is free but has waitlists.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "A free public route exists, but waitlist conditions were not independently verified.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_004",
+      "origin": "legacy_internal_claim",
+      "category": "competitor_gap",
+      "claim_text": "Prolingua has a lower pass rate.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "Competitor pass-rate comparisons were not independently verified.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_005",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "Established brand and strong demand with waiting list.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is an internal commercial assessment rather than a public fact.",
+      "next_action": "treat as open question, not as fact"
+    }
+  ]
+}

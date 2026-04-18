@@ -1,0 +1,157 @@
+{
+  "schema_version": "field_decisions_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A8",
+  "product_title": "B2B Language Proficiency Audit",
+  "analysis_timestamp": "2026-04-18T13:04:48Z",
+  "field_decisions": [
+    {
+      "field_id": "verification_summary",
+      "status": "high",
+      "value": {
+        "verified_claim_count": 1,
+        "partially_verified_claim_count": 0,
+        "unverified_claim_count": 1,
+        "contradicted_claim_count": 2,
+        "unclear_claim_count": 4,
+        "total_claim_count": 8
+      },
+      "evidence_profile": {
+        "authority": "strong",
+        "corroboration": "strong",
+        "directness": "strong",
+        "consistency": "strong",
+        "freshness": "fresh",
+        "inference_burden": "low"
+      },
+      "source_refs": [
+        "cefr_council_of_europe",
+        "cambridge_workplace_exams",
+        "cambridge_skills_test_business",
+        "pearson_versant",
+        "allingua_about",
+        "pipplet_luxembourgish"
+      ],
+      "quote_refs": [
+        "q_cefr_001",
+        "q_cambridge_wp_001",
+        "q_cambridge_cs_001",
+        "q_cambridge_cs_002",
+        "q_pearson_versant_001",
+        "q_pearson_versant_002",
+        "q_allingua_001",
+        "q_allingua_002",
+        "q_allingua_003",
+        "q_pipplet_001",
+        "q_pipplet_002",
+        "q_pipplet_003"
+      ],
+      "claim_refs": [
+        "ext_001",
+        "ext_002",
+        "ext_003",
+        "ext_004",
+        "int_001",
+        "int_002",
+        "int_003",
+        "int_004"
+      ],
+      "last_verified_at": "2026-04-18T13:04:48Z"
+    },
+    {
+      "field_id": "hard_blockers",
+      "status": "high",
+      "value": [
+        "The numeric claim \"78% of employers use language tests\" remains unsupported by a primary public source.",
+        "The blanket competitor framing is contradicted because Pipplet and Allingua are multilingual and not English-only.",
+        "The absolute uniqueness claim is contradicted because Luxembourg-based multilingual testing and reporting already exists."
+      ],
+      "evidence_profile": {
+        "authority": "strong",
+        "corroboration": "strong",
+        "directness": "strong",
+        "consistency": "strong",
+        "freshness": "fresh",
+        "inference_burden": "low"
+      },
+      "source_refs": [
+        "pearson_versant",
+        "cambridge_workplace_exams",
+        "cambridge_skills_test_business",
+        "allingua_about",
+        "pipplet_luxembourgish"
+      ],
+      "quote_refs": [
+        "q_pearson_versant_001",
+        "q_pearson_versant_002",
+        "q_cambridge_wp_001",
+        "q_cambridge_cs_001",
+        "q_allingua_001",
+        "q_allingua_002",
+        "q_allingua_003",
+        "q_pipplet_001",
+        "q_pipplet_002",
+        "q_pipplet_003"
+      ],
+      "claim_refs": [
+        "ext_002",
+        "ext_003",
+        "ext_004"
+      ],
+      "last_verified_at": "2026-04-18T13:04:48Z"
+    },
+    {
+      "field_id": "jurisdiction_scope",
+      "status": "blocked",
+      "value": null,
+      "confidence_band": "blocked",
+      "evidence_profile": {
+        "authority": "mixed",
+        "corroboration": "insufficient",
+        "directness": "indirect",
+        "consistency": "partial",
+        "freshness": "fresh",
+        "inference_burden": "high"
+      },
+      "source_refs": [
+        "allingua_about",
+        "pipplet_luxembourgish"
+      ],
+      "quote_refs": [
+        "q_allingua_001",
+        "q_pipplet_001"
+      ],
+      "claim_refs": [],
+      "omission_reason": "The rerun found Luxembourg-linked competitors, but not a public product page or external source proving the exact A8 offer is publicly scoped to Luxembourg.",
+      "last_verified_at": "2026-04-18T13:04:48Z"
+    },
+    {
+      "field_id": "target_audience_summary",
+      "status": "analyst_only",
+      "value": "Multilingual corporate teams in Luxembourg, especially HR and managers.",
+      "confidence_band": "medium",
+      "evidence_profile": {
+        "authority": "mixed",
+        "corroboration": "partial",
+        "directness": "indirect",
+        "consistency": "partial",
+        "freshness": "fresh",
+        "inference_burden": "medium"
+      },
+      "source_refs": [
+        "allingua_about",
+        "pipplet_luxembourgish"
+      ],
+      "quote_refs": [
+        "q_allingua_001",
+        "q_allingua_002",
+        "q_allingua_003",
+        "q_pipplet_001",
+        "q_pipplet_002"
+      ],
+      "claim_refs": [],
+      "omission_reason": "Useful as analyst context, but not safe for default dashboard because it is synthesized from surrounding market sources rather than directly stated for A8.",
+      "last_verified_at": "2026-04-18T13:04:48Z"
+    }
+  ]
+}

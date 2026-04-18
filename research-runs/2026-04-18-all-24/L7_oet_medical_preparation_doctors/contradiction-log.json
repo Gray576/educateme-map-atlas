@@ -1,0 +1,24 @@
+{
+  "schema_version": "research_v2_contradiction_log_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L7",
+  "generated_at": "2026-04-18T21:49:18+04:00",
+  "contradictions": [
+    {
+      "contradiction_id": "ctr_001",
+      "claim_id": "c_006",
+      "claim_text": "The legacy claim 'ECFMG now requires OET only and has dropped IELTS' is not safe to publish because official ECFMG materials still recognize a valid former Step 2 CS route alongside the OET Pathway route.",
+      "status": "contradicted",
+      "conflicting_source_ids": [
+        "ecfmg_pathways_oet",
+        "ecfmg_certification_factsheet"
+      ],
+      "conflicting_quote_ids": [
+        "q_004",
+        "q_006"
+      ],
+      "conflict_summary": "Official ECFMG materials say OET Medicine is only one Pathway requirement and separately preserve a valid former Step 2 CS route, so the 'OET only' framing is false. The rerun also found no official source that supports the added 'dropped IELTS' wording.",
+      "resolution": "Do not publish the compound 'OET only / dropped IELTS' claim. Keep ECFMG route language narrow: OET Medicine is required for Pathways applicants, but it is not the only route stated in the current official materials reviewed."
+    }
+  ]
+}

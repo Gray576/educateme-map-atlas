@@ -1,0 +1,249 @@
+{
+  "schema_version": "research_v2_quote_fetch_report_v1",
+  "product_code": "A7",
+  "generated_at": "2026-04-18T12:58:09.807Z",
+  "source_count": 10,
+  "candidate_count": 64,
+  "source_reports": [
+    {
+      "source_id": "statec_luxembourg_in_figures_2025",
+      "title": "Luxembourg in Figures 2025",
+      "url": "https://statistiques.public.lu/dam-assets/catalogue-publications/luxembourg-en-chiffres/2025/luxembourg-in-figures-2025.pdf",
+      "status": "fetch_failed",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "error": "Unsupported content-type: application/pdf",
+      "matched_claim_ids": [
+        "ext_002",
+        "ext_003"
+      ],
+      "terms": [
+        "border",
+        "cross",
+        "2024",
+        "card",
+        "close",
+        "exact",
+        "figures",
+        "2025",
+        "228k",
+        "different",
+        "directionally",
+        "earners"
+      ],
+      "candidate_count": 0
+    },
+    {
+      "source_id": "infpc_cofunding",
+      "title": "Co-funding of company training",
+      "url": "https://www.infpc.lu/cofinancement-de-la-formation/en",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001",
+        "ext_004"
+      ],
+      "terms": [
+        "funding",
+        "company",
+        "french",
+        "exists",
+        "infpc",
+        "offers",
+        "professional",
+        "annual",
+        "business",
+        "cases",
+        "categories",
+        "confirm"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "lifelong_learning_cofunding",
+      "title": "Cofunding of training in companies",
+      "url": "https://www.lifelong-learning.lu/entreprises/cofinancement/en",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001",
+        "ext_004"
+      ],
+      "terms": [
+        "funding",
+        "company",
+        "french",
+        "exists",
+        "infpc",
+        "offers",
+        "professional",
+        "annual",
+        "business",
+        "cases",
+        "categories",
+        "cofunding"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "prolingua_courses",
+      "title": "Courses - Prolingua Language Centre",
+      "url": "https://prolingua.lu/en/courses_25",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_004"
+      ],
+      "terms": [
+        "french",
+        "courses",
+        "funding",
+        "language",
+        "offers",
+        "professional",
+        "prolingua",
+        "business",
+        "centre",
+        "company",
+        "defensible",
+        "exclusivity"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "prolingua_professionals",
+      "title": "Professionals - Prolingua Language Centre",
+      "url": "https://prolingua.lu/en/professionals_35",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_004"
+      ],
+      "terms": [
+        "french",
+        "funding",
+        "language",
+        "offers",
+        "professional",
+        "prolingua",
+        "business",
+        "centre",
+        "company",
+        "courses",
+        "defensible",
+        "exclusivity"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "prolingua_french",
+      "title": "French courses - Prolingua Language Centre",
+      "url": "https://prolingua.lu/en/courses_25/langue/french_7/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "centre",
+        "courses",
+        "french",
+        "language",
+        "prolingua"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "inll_french",
+      "title": "Learn to speak French with our language courses",
+      "url": "https://www.inll.lu/en/languages/french",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_004"
+      ],
+      "terms": [
+        "french",
+        "courses",
+        "funding",
+        "language",
+        "offers",
+        "professional",
+        "business",
+        "company",
+        "defensible",
+        "exclusivity",
+        "exist",
+        "exists"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "inll_courses",
+      "title": "Our language courses",
+      "url": "https://www.inll.lu/en/courses/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_004"
+      ],
+      "terms": [
+        "french",
+        "courses",
+        "funding",
+        "language",
+        "offers",
+        "professional",
+        "business",
+        "company",
+        "defensible",
+        "exclusivity",
+        "exist",
+        "exists"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "allingua_home",
+      "title": "Professional language training",
+      "url": "https://www.allingua.lu/en/home/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "language",
+        "professional"
+      ],
+      "candidate_count": 4
+    },
+    {
+      "source_id": "allingua_offer",
+      "title": "Our Language Training Solutions in Luxembourg",
+      "url": "https://www.allingua.lu/en/offer/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "language",
+        "solutions"
+      ],
+      "candidate_count": 4
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": "dashboard_ingestion_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L4",
+  "product_title": "Custom Corporate Language Programs",
+  "reviewed_at": "2026-04-18T17:55:32Z",
+  "release_status": "review",
+  "safe_fields": {
+    "jurisdiction_scope": {
+      "value": [
+        "Luxembourg"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_005"
+      ],
+      "source_refs": [
+        "guichet_fpc_2025",
+        "prolingua_tailor_made",
+        "inlingua_adults",
+        "berlitz_business_lux"
+      ],
+      "last_verified_at": "2026-04-18T17:55:32Z"
+    },
+    "public_training_support_route": {
+      "value": "Luxembourg company-training co-financing exists at scheme level, with 15% base aid and 35% salary-cost weighting for certain eligible participants.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_001",
+        "claim_002"
+      ],
+      "source_refs": [
+        "guichet_fpc_2025"
+      ],
+      "last_verified_at": "2026-04-18T17:55:32Z"
+    },
+    "verified_competitors": {
+      "value": [
+        "Prolingua tailor-made courses",
+        "inlingua Luxembourg",
+        "Berlitz for Business"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_003",
+        "claim_004",
+        "claim_005"
+      ],
+      "source_refs": [
+        "prolingua_tailor_made",
+        "inlingua_adults",
+        "berlitz_business_lux"
+      ],
+      "last_verified_at": "2026-04-18T17:55:32Z"
+    },
+    "hard_blockers": {
+      "value": [
+        "Scheme-level Luxembourg co-financing exists, but exact eligibility for this service is unproven.",
+        "No public source proves that any Ministry-of-Education certification implies INFPC eligibility.",
+        "The compound competitor story overreaches: freelancer tracking and an exhaustive substitute map are not verified.",
+        "Multilingual delivery and flexible scheduling are not unique on public evidence; the analytics edge remains unproven."
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "ext_001",
+        "ext_002",
+        "int_001",
+        "int_002"
+      ],
+      "source_refs": [
+        "guichet_fpc_2025",
+        "prolingua_tailor_made",
+        "inlingua_adults",
+        "berlitz_business_lux"
+      ],
+      "last_verified_at": "2026-04-18T17:55:32Z"
+    }
+  },
+  "analyst_only_fields": {
+    "target_audience_summary": {
+      "value": "Luxembourg HR and employer buyers seeking broad corporate language delivery with flexible scheduling and reporting expectations.",
+      "confidence_band": "medium",
+      "omission_reason": "Useful synthesis, but still partly inferential for the exact service."
+    }
+  },
+  "blocked_fields": {
+    "product_specific_funding_eligibility": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "Route-level co-financing exists, but service-level eligibility is not proven."
+    },
+    "unique_delivery_edge": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "Public evidence already shows tailored and flexible competing offers, while the analytics layer is not externally proven."
+    }
+  },
+  "verification_summary": {
+    "verified_claim_count": 5,
+    "contradicted_claim_count": 0,
+    "blocked_question_count": 3
+  }
+}

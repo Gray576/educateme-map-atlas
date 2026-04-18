@@ -9,6 +9,7 @@ import type {
   SubsidyExists,
   VarianceRisk,
 } from "@/types/research-card";
+import type { ConfidenceBand, ReleaseStatus } from "@/types/research-v2";
 
 export type MarketBucket = "LUX" | "EU" | "GCC";
 
@@ -74,6 +75,18 @@ export interface ProductRecord {
   code: string;
   title: string;
   sourceCard: ResearchCard;
+  dataSource: "legacy_card" | "research_v2_ingestion";
+  releaseStatus: ReleaseStatus;
+  safeFieldCount: number;
+  blockedFieldCount: number;
+  analystFieldCount: number;
+  quadrantSegment: "B2B" | "B2C" | "B2B2C" | "mixed" | "unknown";
+  validationModel: string | null;
+  validationVelocityScore: number | null;
+  timeToFirstEuroScore: number | null;
+  regulatoryFrictionInverseScore: number | null;
+  overallConfidenceBand: ConfidenceBand | "unknown";
+  artifactFolder: string | null;
   market: MarketBucket;
   marketBadge: MarketBucket;
   buyerType: BuyerType;
@@ -130,6 +143,29 @@ export interface ProductRecord {
   }>;
   scopeVarianceRisk: VarianceRisk;
   expansionVarianceRisk: VarianceRisk;
+}
+
+export interface ResearchCardNormalizationOverlay {
+  sourceCard?: ResearchCard;
+  archetype?: ArchetypeAssignment;
+  operatorMatrix?: OperatorMatrixEntry;
+  productMeta?: Partial<
+    Pick<
+      ProductRecord,
+      | "dataSource"
+      | "releaseStatus"
+      | "safeFieldCount"
+      | "blockedFieldCount"
+      | "analystFieldCount"
+      | "quadrantSegment"
+      | "validationModel"
+      | "validationVelocityScore"
+      | "timeToFirstEuroScore"
+      | "regulatoryFrictionInverseScore"
+      | "overallConfidenceBand"
+      | "artifactFolder"
+    >
+  >;
 }
 
 export interface ProductScores {

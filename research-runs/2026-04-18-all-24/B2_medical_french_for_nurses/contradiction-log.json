@@ -1,0 +1,59 @@
+{
+  "schema_version": "contradiction_log_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B2",
+  "product_title": "Medical French for Nurses",
+  "generated_at": "2026-04-18T22:03:53+04:00",
+  "contradictions": [
+    {
+      "claim_id": "int_001",
+      "claim_text": "The same model can be applied to France, Belgium and Switzerland without material redesign.",
+      "status": "contradicted",
+      "issue_type": "cross_country_route_divergence",
+      "resolution": "blocked",
+      "notes": "EU, France, Belgium, and Switzerland sources show materially different recognition and language-proof mechanics. A single undifferentiated route story is not source-safe."
+    }
+  ],
+  "open_issues": [
+    {
+      "claim_id": "int_002",
+      "claim_text": "The product's certificate will be accepted for practice or recognition.",
+      "status": "blocked",
+      "issue_type": "certificate_acceptance_unproved",
+      "resolution": "blocked",
+      "notes": "Belgium explicitly rejects course-attendance proof, and no rerun source validates provider-issued certificate acceptance in France, Belgium, or Switzerland."
+    },
+    {
+      "claim_id": "int_003",
+      "claim_text": "France needs 500K+ healthcare workers.",
+      "status": "unverified",
+      "issue_type": "numeric_claim_missing_primary_source",
+      "resolution": "blocked",
+      "notes": "No current primary France source was added to support the number."
+    },
+    {
+      "claim_id": "ext_004",
+      "claim_text": "No dedicated online Medical French provider identified.",
+      "status": "blocked",
+      "issue_type": "absence_claim_not_exhaustive",
+      "resolution": "review",
+      "notes": "Some substitute online/distance language provision is publicly visible, but the rerun did not perform a complete market census for dedicated medical French."
+    },
+    {
+      "claim_id": "c_002",
+      "claim_text": "France's public guidance for regulated paramedical professions says the corresponding diploma/title is required and that European-holders may need authorisation to practise or an occasional-practice declaration.",
+      "status": "verified_with_scope_limit",
+      "issue_type": "france_evidence_not_nurse_specific",
+      "resolution": "review",
+      "notes": "Safe for route context only. It should not be promoted into a nurse-specific promise without a stronger France nursing source."
+    }
+  ],
+  "summary": {
+    "checked_claim_count": 11,
+    "contradicted_count": 1,
+    "open_issue_count": 4,
+    "verified_claim_count": 7,
+    "unverified_claim_count": 1,
+    "blocked_claim_count": 3
+  }
+}

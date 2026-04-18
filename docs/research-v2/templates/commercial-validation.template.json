@@ -1,0 +1,109 @@
+{
+  "schema_version": "commercial_validation_v1",
+  "run_id": "run_2026_04_18_example",
+  "product_code": "A5",
+  "product_title": "MiFID II Compliance Training",
+  "quadrant_segment": "B2B",
+  "validation_velocity": {
+    "validation_model": "10 custdev interviews + 2 pilot asks + 1 partner-route validation",
+    "binary_pass_signal": "At least 2 qualified institutions agree to a paid or structured pilot conversation within the test window.",
+    "binary_kill_signal": "No qualified institution accepts a pilot conversation and no credible route partner agrees to explore delivery.",
+    "estimated_cost_to_signal_eur": 3500,
+    "estimated_days_to_signal": 30,
+    "estimated_days_to_first_euro": 45,
+    "founder_independence_score_1_5": null,
+    "testability_score_1_5": null,
+    "time_to_first_euro_score_1_5": null,
+    "confidence_band": "medium",
+    "derivation_basis": "protocol-derived from buyer motion, approval-route complexity, and current evidence gaps",
+    "evidence_refs": {
+      "source_ids": [
+        "cssf_17670",
+        "cssf_training_list"
+      ],
+      "claim_ids": [
+        "ext_001",
+        "ext_002",
+        "ext_004"
+      ]
+    },
+    "notes": "Values remain provisional until outreach and route assumptions are revalidated."
+  },
+  "demand_pull": {
+    "demand_evidence_score_1_5": null,
+    "wtp_score_1_5": null,
+    "cac_reality_score_1_5": null,
+    "retention_structure_score_1_5": null,
+    "macro_trajectory_score_1_5": null,
+    "channel_fit_score_1_5": null,
+    "confidence_band": "low",
+    "derivation_basis": "only source-backed category structure and current product format are available; SEMrush not collected yet",
+    "evidence_refs": {
+      "source_ids": [
+        "houseoftraining_mifid_cert"
+      ],
+      "claim_ids": [
+        "ext_003"
+      ]
+    },
+    "notes": "No SEMrush collection or competitor price census completed yet."
+  },
+  "regulatory_context": {
+    "regulatory_friction_inverse_score_1_5": null,
+    "confidence_band": "medium",
+    "derivation_basis": "derived from verified mandate/accreditation requirements and contradiction severity",
+    "evidence_refs": {
+      "source_ids": [
+        "cssf_17670",
+        "cssf_training_list",
+        "guichet_cvt"
+      ],
+      "claim_ids": [
+        "ext_001",
+        "ext_002",
+        "ext_005"
+      ]
+    },
+    "notes": "Must be derived from the evidence-first card and contradiction log, not guessed."
+  },
+  "semrush_snapshot": {
+    "market": "Luxembourg",
+    "database": "",
+    "language": "",
+    "keyword_buckets": {
+      "head_terms": [],
+      "commercial_modifiers": [],
+      "problem_intent": [],
+      "competitor_route": []
+    },
+    "metrics": {
+      "keyword_count_total": null,
+      "keyword_count_commercial": null,
+      "volume_sum": null,
+      "volume_sum_commercial": null,
+      "avg_cpc": null,
+      "max_cpc": null,
+      "avg_competitive_density": null,
+      "high_intent_keyword_count": null,
+      "paid_competitor_count": null
+    },
+    "top_paid_competitors": [],
+    "observed_price_points": [],
+    "serp_feature_notes": "",
+    "traffic_analytics_notes": ""
+  },
+  "portfolio_tags": {
+    "niche": "finance compliance training",
+    "persona": "regulated financial institution",
+    "channel_primary": "",
+    "channel_secondary": "",
+    "price_point": "mid-ticket B2B",
+    "delivery_mode": "training / pilot / partner route"
+  },
+  "collapsed_scores": {
+    "validation_velocity_composite": null,
+    "demand_pull_composite": null,
+    "overall_confidence_band": "low",
+    "confidence_reason": "SEMrush and real-world validation data not collected yet."
+  }
+}

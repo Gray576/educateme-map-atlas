@@ -1,0 +1,443 @@
+{
+  "schema_version": "research_card_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A5",
+  "product_title": "MiFID II Compliance Training",
+  "analysis_timestamp": "2026-04-18T12:56:57Z",
+  "jurisdictions": [
+    "Luxembourg",
+    "EU"
+  ],
+  "sources": [
+    {
+      "source_id": "cssf_17670",
+      "title": "Circular CSSF 17/670",
+      "publisher": "CSSF",
+      "url": "https://www.cssf.lu/en/Document/circular-cssf-17-670/",
+      "source_type": "regulator",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": "2017-10-13",
+      "accessed_at": "2026-04-18T12:56:57Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "cssf_training_list",
+      "title": "List of bodies providing external training within the meaning of Circular CSSF 17/670",
+      "publisher": "CSSF",
+      "url": "https://www.cssf.lu/en/Document/list-of-bodies-providing-external-training-within-the-meaning-of-circular-cssf-17-670/",
+      "source_type": "regulator",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": "2017-11-15",
+      "accessed_at": "2026-04-18T12:56:57Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "cssf_training_list_pdf",
+      "title": "Bodies providing external training",
+      "publisher": "CSSF",
+      "url": "https://www.cssf.lu/wp-content/uploads/Bodies_providing_external_training.pdf",
+      "source_type": "regulator_pdf",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": "2017-10-13",
+      "accessed_at": "2026-04-18T12:56:57Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "cssf_mifid_page",
+      "title": "MiFID II/PRIIPs",
+      "publisher": "CSSF",
+      "url": "https://www.cssf.lu/en/mifid-ii-priips/",
+      "source_type": "regulator",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T12:56:57Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "esma_knowledge_competence",
+      "title": "Guidelines for the assessment of knowledge and competence",
+      "publisher": "ESMA",
+      "url": "https://www.esma.europa.eu/sites/default/files/library/esma71-1154262120-153_guidelines_for_the_assessment_of_knowledge_and_competence_corrigendum.pdf",
+      "source_type": "regulator_pdf",
+      "authority_tier": "T1",
+      "jurisdiction": "EU",
+      "published_at": "2017-01-03",
+      "accessed_at": "2026-04-18T12:56:57Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "houseoftraining_mifid_cert",
+      "title": "MiFID II Certification | CSSF accredited programme",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/training/mifid-ii-certification-en-fr-3499",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T12:56:57Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "guichet_cvt",
+      "title": "Financial aid for in-company continuing vocational training",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/financement-aides/aides-emploi-recrutement-formation/formation-professionnelle-continue/fpc-entreprise.html",
+      "source_type": "government",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": "2019-01-09",
+      "accessed_at": "2026-04-18T12:56:57Z",
+      "language": "en",
+      "archive_url": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "category": "mandate",
+      "claim_text": "Circular CSSF 17/670 sets criteria for external training on knowledge and competence in the MiFID II framework.",
+      "status": "verified",
+      "supporting_source_ids": [
+        "cssf_17670",
+        "esma_knowledge_competence"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_cssf_001",
+        "q_esma_001",
+        "q_esma_002"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Official regulator sources define the framework and competence criteria."
+    },
+    {
+      "claim_id": "ext_002",
+      "category": "accreditation",
+      "claim_text": "CSSF maintains a list of bodies providing external training within the meaning of Circular 17/670.",
+      "status": "verified",
+      "supporting_source_ids": [
+        "cssf_training_list",
+        "cssf_training_list_pdf",
+        "cssf_mifid_page"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_cssf_002",
+        "q_cssf_003"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "CSSF publishes the list and the PDF snapshot names the listed bodies."
+    },
+    {
+      "claim_id": "ext_003",
+      "category": "accreditation",
+      "claim_text": "House of Training has a CSSF-accredited MiFID II certification path.",
+      "status": "verified",
+      "supporting_source_ids": [
+        "houseoftraining_mifid_cert",
+        "cssf_training_list_pdf"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_hot_001",
+        "q_cssf_003"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is an incumbent accredited route, not product-specific accreditation for A5."
+    },
+    {
+      "claim_id": "ext_004",
+      "category": "mandate",
+      "claim_text": "CSSF Circular 17/670 mandates 60h training.",
+      "status": "contradicted",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [
+        "esma_knowledge_competence",
+        "houseoftraining_mifid_cert"
+      ],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [
+        "q_esma_001",
+        "q_hot_004",
+        "q_hot_005"
+      ],
+      "notes": "No reviewed official source states a 60-hour mandate; the incumbent route is published as 61h and 69h."
+    },
+    {
+      "claim_id": "ext_005",
+      "category": "subsidy",
+      "claim_text": "INFPC 15-35% applies to this product.",
+      "status": "contradicted",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [
+        "guichet_cvt",
+        "houseoftraining_mifid_cert"
+      ],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [
+        "q_guichet_001",
+        "q_hot_005"
+      ],
+      "notes": "Product-level subsidy copy is unsafe because official co-funding guidance excludes mandatory regulated-profession training while the provider page asserts eligibility."
+    },
+    {
+      "claim_id": "ext_006",
+      "category": "competitor_gap",
+      "claim_text": "House of Training is FR/EN only.",
+      "status": "verified",
+      "supporting_source_ids": [
+        "houseoftraining_mifid_cert"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_hot_002",
+        "q_hot_003"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "The incumbent page states delivery in English or French."
+    },
+    {
+      "claim_id": "ext_007",
+      "category": "competitor_gap",
+      "claim_text": "No DE/PT/IT providers exist.",
+      "status": "unverified",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "An exhaustive competitor census was not performed."
+    },
+    {
+      "claim_id": "ext_008",
+      "category": "deadline",
+      "claim_text": "CSSF deadline June 30, 2026.",
+      "status": "unverified",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Only a provider exam slot dated 30 June 2026 was found."
+    },
+    {
+      "claim_id": "ext_009",
+      "category": "numeric_claim",
+      "claim_text": "All financial sector employees providing investment services (73K in Luxembourg).",
+      "status": "unverified",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "No primary statistical source was verified."
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "req_001",
+      "requirement": "Firms should ensure staff providing relevant services possess the necessary knowledge and competence.",
+      "status": "confirmed",
+      "source_ids": [
+        "esma_knowledge_competence"
+      ],
+      "quote_ids": [
+        "q_esma_001",
+        "q_esma_002"
+      ]
+    },
+    {
+      "requirement_id": "req_002",
+      "requirement": "CSSF publishes the list of bodies providing external training within Circular 17/670.",
+      "status": "confirmed",
+      "source_ids": [
+        "cssf_training_list",
+        "cssf_training_list_pdf"
+      ],
+      "quote_ids": [
+        "q_cssf_002",
+        "q_cssf_003"
+      ]
+    },
+    {
+      "requirement_id": "req_003",
+      "requirement": "State co-funding does not apply to mandatory continuing training legally required to practise a regulated profession.",
+      "status": "confirmed",
+      "source_ids": [
+        "guichet_cvt"
+      ],
+      "quote_ids": [
+        "q_guichet_001"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "entity_001",
+      "name": "CSSF",
+      "kind": "regulator",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "cssf_17670",
+        "cssf_mifid_page"
+      ]
+    },
+    {
+      "entity_id": "entity_002",
+      "name": "ESMA",
+      "kind": "regulator",
+      "jurisdiction": "EU",
+      "source_ids": [
+        "esma_knowledge_competence"
+      ]
+    },
+    {
+      "entity_id": "entity_003",
+      "name": "House of Training",
+      "kind": "provider",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "houseoftraining_mifid_cert"
+      ]
+    },
+    {
+      "entity_id": "entity_004",
+      "name": "Guichet.lu",
+      "kind": "government_portal",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "guichet_cvt"
+      ]
+    },
+    {
+      "entity_id": "entity_005",
+      "name": "INFPC",
+      "kind": "public_body",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "guichet_cvt"
+      ]
+    }
+  ],
+  "competitors": [
+    {
+      "competitor_id": "comp_001",
+      "name": "House of Training",
+      "kind": "direct",
+      "source_ids": [
+        "houseoftraining_mifid_cert",
+        "cssf_training_list_pdf"
+      ],
+      "notes": "CSSF-listed external training body with an accredited MiFID II route."
+    },
+    {
+      "competitor_id": "comp_002",
+      "name": "HACA Partners",
+      "kind": "incumbent",
+      "source_ids": [
+        "cssf_training_list_pdf"
+      ],
+      "notes": "Listed by CSSF as an external training body."
+    },
+    {
+      "competitor_id": "comp_003",
+      "name": "Lefebvre-Dalloz Compétences SAS",
+      "kind": "incumbent",
+      "source_ids": [
+        "cssf_training_list_pdf"
+      ],
+      "notes": "Listed by CSSF as an external training body."
+    },
+    {
+      "competitor_id": "comp_004",
+      "name": "Deloitte Tax & Consulting S.à.r.l.",
+      "kind": "incumbent",
+      "source_ids": [
+        "cssf_training_list_pdf"
+      ],
+      "notes": "Listed by CSSF as an external training body."
+    },
+    {
+      "competitor_id": "comp_005",
+      "name": "EFPA Luxembourg",
+      "kind": "incumbent",
+      "source_ids": [
+        "cssf_training_list_pdf"
+      ],
+      "notes": "Listed by CSSF as an external training body."
+    },
+    {
+      "competitor_id": "comp_006",
+      "name": "First Finance SAS",
+      "kind": "incumbent",
+      "source_ids": [
+        "cssf_training_list_pdf"
+      ],
+      "notes": "Listed by CSSF as an external training body."
+    },
+    {
+      "competitor_id": "comp_007",
+      "name": "PricewaterhouseCoopers Academy S.à.r.l.",
+      "kind": "incumbent",
+      "source_ids": [
+        "cssf_training_list_pdf"
+      ],
+      "notes": "Listed by CSSF as an external training body."
+    }
+  ],
+  "open_questions": [
+    {
+      "question_id": "oq_001",
+      "question": "Can A5 issue a CSSF-accredited completion certificate directly?",
+      "reason": "No product-specific accreditation evidence was found.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_002",
+      "question": "Is subsidy copy safe for A5 at product level?",
+      "reason": "Guichet exclusion and provider eligibility copy conflict.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_003",
+      "question": "Is there a real CSSF deadline on 30 June 2026?",
+      "reason": "Only a provider exam session date was found.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_004",
+      "question": "Is the 73K Luxembourg audience figure real?",
+      "reason": "No primary statistical source confirmed it.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_005",
+      "question": "Are there DE/PT/IT competitors that matter for the positioning claim?",
+      "reason": "No exhaustive market scan was completed.",
+      "blocking": true
+    }
+  ],
+  "manual_review_items": [
+    "Decide whether A5 should pursue its own CSSF route or only resell an incumbent route.",
+    "Remove or gate all subsidy copy until eligibility is proven at product level.",
+    "Do not present the 73K audience claim until a primary statistical source is found.",
+    "Do not present the June 30, 2026 date as a CSSF deadline without an official source.",
+    "Keep competitor-gap language out of public copy until a real market census exists."
+  ],
+  "verification_summary": {
+    "verified_claim_count": 4,
+    "partially_verified_claim_count": 0,
+    "unverified_claim_count": 3,
+    "contradicted_claim_count": 2,
+    "blocked_question_count": 5,
+    "official_source_count": 5,
+    "total_source_count": 6
+  }
+}

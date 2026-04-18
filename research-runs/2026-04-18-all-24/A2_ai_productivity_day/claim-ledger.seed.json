@@ -1,0 +1,108 @@
+{
+  "schema_version": "claim_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A2",
+  "product_title": "AI Productivity Day",
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "Nobody in Luxembourg offers this format.",
+      "legacy_status": "contradicted",
+      "supporting_source_ids": [
+        "houseoftraining_gen_ai_fundamentals",
+        "houseoftraining_chatgpt_business"
+      ],
+      "contradiction_flag": true,
+      "notes": "House of Training already offers practical generative-AI and ChatGPT courses in Luxembourg, including training focused on productivity and operational efficiency, so the market is not empty.",
+      "next_action": "falsify fully and rewrite or drop"
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "Generic AI examples are the market default.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "houseoftraining_gen_ai_fundamentals",
+        "houseoftraining_chatgpt_business",
+        "openai_prompting"
+      ],
+      "contradiction_flag": false,
+      "notes": "The public training pages reviewed are mostly general-purpose or broadly framed, which supports the idea that a real-task customisation angle is a genuine differentiator, even if not unique.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "subsidy",
+      "claim_text": "Luxembourg company training co-funding is relevant to this product category.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "guichet_cvt"
+      ],
+      "contradiction_flag": false,
+      "notes": "Guichet confirms that Luxembourg businesses can claim co-funding for continuing vocational training, subject to the usual exclusions.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "ext_004",
+      "origin": "legacy_external_claim",
+      "category": "other",
+      "claim_text": "Practical AI use should be handled with privacy and governance awareness.",
+      "legacy_status": "verified",
+      "supporting_source_ids": [
+        "houseoftraining_ai_risk",
+        "openai_prompting"
+      ],
+      "contradiction_flag": false,
+      "notes": "House of Training’s finance AI courses and OpenAI’s prompt guidance both show that practical AI usage is inseparable from safe-use and data-handling considerations.",
+      "next_action": "re-check quotes and freshness"
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "The workshop should deliver 5-10 ready AI workflows for the team.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is a product-design outcome, not a public fact, and no evidence reviewed proves the number in advance.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "Show AI ROI in 30 days.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The ROI timeline is an internal hypothesis, not an externally verified fact.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "subsidy",
+      "claim_text": "SME Package AI 70% applies to this workshop.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The reviewed sources do not prove workshop-level eligibility for the exact AI-package claim used in the card.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_004",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "This is the unique 'work on your tasks' AI format in Luxembourg.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The public evidence shows similar practical AI courses already exist, so the uniqueness framing is not reliable.",
+      "next_action": "treat as open question, not as fact"
+    }
+  ]
+}

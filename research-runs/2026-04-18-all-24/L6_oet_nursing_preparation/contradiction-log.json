@@ -1,0 +1,38 @@
+{
+  "schema_version": "research_v2_contradiction_log_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L6",
+  "generated_at": "2026-04-18T17:09:56+04:00",
+  "contradictions": [
+    {
+      "contradiction_id": "ctr_001",
+      "claim_id": "c_010",
+      "claim_text": "Learners need OET Grade B to register with DHA.",
+      "status": "contradicted",
+      "conflicting_source_ids": ["dha_residency"],
+      "conflicting_quote_ids": ["q_007"],
+      "conflict_summary": "The official DHA residency page requires OET=300 (C+ in all categories), not grade B.",
+      "resolution": "Block the universal B-grade wording for DHA and use the exact DHA threshold."
+    },
+    {
+      "contradiction_id": "ctr_002",
+      "claim_id": "c_011",
+      "claim_text": "Learners need OET Grade B to register with DoH Abu Dhabi.",
+      "status": "contradicted",
+      "conflicting_source_ids": ["doh_residency"],
+      "conflicting_quote_ids": ["q_006"],
+      "conflict_summary": "The official DoH Abu Dhabi residency page requires OET >= C for international graduates, not grade B.",
+      "resolution": "Block the universal B-grade wording for DoH Abu Dhabi and use the exact DoH threshold."
+    },
+    {
+      "contradiction_id": "ctr_003",
+      "claim_id": "c_012",
+      "claim_text": "Learners need OET Grade B to register with DHA or DoH or migrate to the UK or Australia.",
+      "status": "blocked",
+      "conflicting_source_ids": ["dha_residency", "doh_residency"],
+      "conflicting_quote_ids": ["q_006", "q_007"],
+      "conflict_summary": "The compound claim mixes two contradicted UAE subclaims with two verified UK/Australia subclaims and adds unsupported migration wording.",
+      "resolution": "Split into jurisdiction-specific facts; do not publish the compound statement."
+    }
+  ]
+}

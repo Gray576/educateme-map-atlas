@@ -6,7 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "research:v2:bootstrap": "node scripts/bootstrap-research-v2-run.mjs",
+    "research:v2:validate": "node scripts/validate-research-v2-run.mjs research-runs/2026-04-18-all-24",
+    "research:v2:search-plans": "node scripts/generate-research-v2-search-plans.mjs research-runs/2026-04-18-all-24",
+    "research:v2:quadrant-template": "node scripts/generate-quadrant-scorecard.mjs",
+    "research:v2:verify-citations": "node scripts/verify-research-v2-citations.mjs research-runs/2026-04-18-all-24",
+    "research:v2:build-benchmark": "node scripts/build-research-v2-benchmark.mjs research-runs/2026-04-18-all-24",
+    "research:v2:score-benchmark": "node scripts/score-research-v2-benchmark.mjs research-runs/2026-04-18-all-24",
+    "research:v2:commercial-layer": "node scripts/fill-commercial-validation-layer.mjs research-runs/2026-04-18-all-24",
+    "research:v2:quote-candidates": "node scripts/fetch-research-v2-quote-candidates.mjs research-runs/2026-04-18-all-24",
+    "research:v2:progress-summary": "node scripts/summarize-research-v2-progress.mjs research-runs/2026-04-18-all-24"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",

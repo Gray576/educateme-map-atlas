@@ -1,0 +1,594 @@
+{
+  "schema_version": "research_v2_seed_validation_report_v1",
+  "run_dir": "/Users/sergey/Desktop/educateme-map/research-runs/2026-04-18-all-24",
+  "generated_at": "2026-04-18T10:00:45.276Z",
+  "manifest_errors": [],
+  "summary_present": true,
+  "product_count": 24,
+  "products_with_errors": 1,
+  "products_with_warnings": 8,
+  "aggregate": {
+    "total_errors": 1,
+    "total_warnings": 8,
+    "total_claims": 209,
+    "total_sources": 194,
+    "total_contradicted_claims": 19,
+    "total_zero_source_external_claims": 15
+  },
+  "rerun_queue": [
+    {
+      "productFolder": "A10_csrd_esg_compliance_training",
+      "severityScore": 15,
+      "errors": 0,
+      "warnings": 1,
+      "contradictedClaims": 2,
+      "zeroSourceExternalClaims": 2,
+      "sourceCount": 10,
+      "claimCount": 9
+    },
+    {
+      "productFolder": "A5_mifid_ii_compliance_training",
+      "severityScore": 15,
+      "errors": 0,
+      "warnings": 1,
+      "contradictedClaims": 2,
+      "zeroSourceExternalClaims": 2,
+      "sourceCount": 11,
+      "claimCount": 14
+    },
+    {
+      "productFolder": "B4_white_label_course_licensing",
+      "severityScore": 14,
+      "errors": 0,
+      "warnings": 1,
+      "contradictedClaims": 1,
+      "zeroSourceExternalClaims": 3,
+      "sourceCount": 5,
+      "claimCount": 9
+    },
+    {
+      "productFolder": "A8_b2b_language_proficiency_audit",
+      "severityScore": 12,
+      "errors": 0,
+      "warnings": 1,
+      "contradictedClaims": 2,
+      "zeroSourceExternalClaims": 1,
+      "sourceCount": 9,
+      "claimCount": 8
+    },
+    {
+      "productFolder": "B6_embedded_onboarding_for_staffing_agencies",
+      "severityScore": 10,
+      "errors": 0,
+      "warnings": 1,
+      "contradictedClaims": 0,
+      "zeroSourceExternalClaims": 3,
+      "sourceCount": 7,
+      "claimCount": 9
+    },
+    {
+      "productFolder": "L2_letz_care_medical_luxembourgish",
+      "severityScore": 9,
+      "errors": 1,
+      "warnings": 0,
+      "contradictedClaims": 1,
+      "zeroSourceExternalClaims": 0,
+      "sourceCount": 9,
+      "claimCount": 7
+    },
+    {
+      "productFolder": "L6_oet_nursing_preparation",
+      "severityScore": 7,
+      "errors": 0,
+      "warnings": 1,
+      "contradictedClaims": 0,
+      "zeroSourceExternalClaims": 2,
+      "sourceCount": 4,
+      "claimCount": 9
+    },
+    {
+      "productFolder": "A1_ai_literacy_workshop",
+      "severityScore": 4,
+      "errors": 0,
+      "warnings": 0,
+      "contradictedClaims": 1,
+      "zeroSourceExternalClaims": 0,
+      "sourceCount": 11,
+      "claimCount": 11
+    },
+    {
+      "productFolder": "A2_ai_productivity_day",
+      "severityScore": 4,
+      "errors": 0,
+      "warnings": 0,
+      "contradictedClaims": 1,
+      "zeroSourceExternalClaims": 0,
+      "sourceCount": 7,
+      "claimCount": 8
+    },
+    {
+      "productFolder": "A4_ai_for_finance_compliance",
+      "severityScore": 4,
+      "errors": 0,
+      "warnings": 0,
+      "contradictedClaims": 1,
+      "zeroSourceExternalClaims": 0,
+      "sourceCount": 8,
+      "claimCount": 9
+    },
+    {
+      "productFolder": "A6_expat_onboarding_luxembourg_ready",
+      "severityScore": 4,
+      "errors": 0,
+      "warnings": 0,
+      "contradictedClaims": 1,
+      "zeroSourceExternalClaims": 0,
+      "sourceCount": 6,
+      "claimCount": 10
+    },
+    {
+      "productFolder": "A7_professional_french_sector_specific",
+      "severityScore": 4,
+      "errors": 0,
+      "warnings": 0,
+      "contradictedClaims": 1,
+      "zeroSourceExternalClaims": 0,
+      "sourceCount": 10,
+      "claimCount": 7
+    },
+    {
+      "productFolder": "A9_integration_bundle_sproochtest",
+      "severityScore": 4,
+      "errors": 0,
+      "warnings": 0,
+      "contradictedClaims": 1,
+      "zeroSourceExternalClaims": 0,
+      "sourceCount": 11,
+      "claimCount": 8
+    },
+    {
+      "productFolder": "B1_german_for_nurses_b1_b2_pflege_sprint",
+      "severityScore": 4,
+      "errors": 0,
+      "warnings": 0,
+      "contradictedClaims": 1,
+      "zeroSourceExternalClaims": 0,
+      "sourceCount": 9,
+      "claimCount": 10
+    },
+    {
+      "productFolder": "B3_ai_literacy_eu_wide_remote",
+      "severityScore": 4,
+      "errors": 0,
+      "warnings": 0,
+      "contradictedClaims": 1,
+      "zeroSourceExternalClaims": 0,
+      "sourceCount": 4,
+      "claimCount": 8
+    },
+    {
+      "productFolder": "B5_healthcare_recruitment_pipeline",
+      "severityScore": 4,
+      "errors": 0,
+      "warnings": 0,
+      "contradictedClaims": 1,
+      "zeroSourceExternalClaims": 0,
+      "sourceCount": 11,
+      "claimCount": 14
+    },
+    {
+      "productFolder": "C1_oet_prep_repriced",
+      "severityScore": 4,
+      "errors": 0,
+      "warnings": 1,
+      "contradictedClaims": 0,
+      "zeroSourceExternalClaims": 1,
+      "sourceCount": 4,
+      "claimCount": 9
+    },
+    {
+      "productFolder": "L1_sproochtest_preparation",
+      "severityScore": 4,
+      "errors": 0,
+      "warnings": 0,
+      "contradictedClaims": 1,
+      "zeroSourceExternalClaims": 0,
+      "sourceCount": 11,
+      "claimCount": 9
+    },
+    {
+      "productFolder": "L3_french_for_work_business",
+      "severityScore": 4,
+      "errors": 0,
+      "warnings": 0,
+      "contradictedClaims": 1,
+      "zeroSourceExternalClaims": 0,
+      "sourceCount": 9,
+      "claimCount": 5
+    },
+    {
+      "productFolder": "L7_oet_medical_preparation_doctors",
+      "severityScore": 4,
+      "errors": 0,
+      "warnings": 1,
+      "contradictedClaims": 0,
+      "zeroSourceExternalClaims": 1,
+      "sourceCount": 5,
+      "claimCount": 9
+    },
+    {
+      "productFolder": "A3_prompt_engineering_workshop",
+      "severityScore": 0,
+      "errors": 0,
+      "warnings": 0,
+      "contradictedClaims": 0,
+      "zeroSourceExternalClaims": 0,
+      "sourceCount": 8,
+      "claimCount": 8
+    },
+    {
+      "productFolder": "B2_medical_french_for_nurses",
+      "severityScore": 0,
+      "errors": 0,
+      "warnings": 0,
+      "contradictedClaims": 0,
+      "zeroSourceExternalClaims": 0,
+      "sourceCount": 10,
+      "claimCount": 8
+    },
+    {
+      "productFolder": "L4_custom_corporate_language_programs",
+      "severityScore": 0,
+      "errors": 0,
+      "warnings": 0,
+      "contradictedClaims": 0,
+      "zeroSourceExternalClaims": 0,
+      "sourceCount": 7,
+      "claimCount": 4
+    },
+    {
+      "productFolder": "L5_luxembourgish_for_business",
+      "severityScore": 0,
+      "errors": 0,
+      "warnings": 0,
+      "contradictedClaims": 0,
+      "zeroSourceExternalClaims": 0,
+      "sourceCount": 8,
+      "claimCount": 7
+    }
+  ],
+  "product_reports": [
+    {
+      "productFolder": "A10_csrd_esg_compliance_training",
+      "errors": [],
+      "warnings": [
+        "2 legacy external claims have zero supporting source ids"
+      ],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 9,
+        "contradictedClaims": 2,
+        "internalClaims": 4,
+        "zeroSourceExternalClaims": 2,
+        "sourceCount": 10
+      }
+    },
+    {
+      "productFolder": "A1_ai_literacy_workshop",
+      "errors": [],
+      "warnings": [],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 11,
+        "contradictedClaims": 1,
+        "internalClaims": 5,
+        "zeroSourceExternalClaims": 0,
+        "sourceCount": 11
+      }
+    },
+    {
+      "productFolder": "A2_ai_productivity_day",
+      "errors": [],
+      "warnings": [],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 8,
+        "contradictedClaims": 1,
+        "internalClaims": 4,
+        "zeroSourceExternalClaims": 0,
+        "sourceCount": 7
+      }
+    },
+    {
+      "productFolder": "A3_prompt_engineering_workshop",
+      "errors": [],
+      "warnings": [],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 8,
+        "contradictedClaims": 0,
+        "internalClaims": 4,
+        "zeroSourceExternalClaims": 0,
+        "sourceCount": 8
+      }
+    },
+    {
+      "productFolder": "A4_ai_for_finance_compliance",
+      "errors": [],
+      "warnings": [],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 9,
+        "contradictedClaims": 1,
+        "internalClaims": 4,
+        "zeroSourceExternalClaims": 0,
+        "sourceCount": 8
+      }
+    },
+    {
+      "productFolder": "A5_mifid_ii_compliance_training",
+      "errors": [],
+      "warnings": [
+        "2 legacy external claims have zero supporting source ids"
+      ],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 14,
+        "contradictedClaims": 2,
+        "internalClaims": 5,
+        "zeroSourceExternalClaims": 2,
+        "sourceCount": 11
+      }
+    },
+    {
+      "productFolder": "A6_expat_onboarding_luxembourg_ready",
+      "errors": [],
+      "warnings": [],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 10,
+        "contradictedClaims": 1,
+        "internalClaims": 5,
+        "zeroSourceExternalClaims": 0,
+        "sourceCount": 6
+      }
+    },
+    {
+      "productFolder": "A7_professional_french_sector_specific",
+      "errors": [],
+      "warnings": [],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 7,
+        "contradictedClaims": 1,
+        "internalClaims": 3,
+        "zeroSourceExternalClaims": 0,
+        "sourceCount": 10
+      }
+    },
+    {
+      "productFolder": "A8_b2b_language_proficiency_audit",
+      "errors": [],
+      "warnings": [
+        "1 legacy external claims have zero supporting source ids"
+      ],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 8,
+        "contradictedClaims": 2,
+        "internalClaims": 4,
+        "zeroSourceExternalClaims": 1,
+        "sourceCount": 9
+      }
+    },
+    {
+      "productFolder": "A9_integration_bundle_sproochtest",
+      "errors": [],
+      "warnings": [],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 8,
+        "contradictedClaims": 1,
+        "internalClaims": 4,
+        "zeroSourceExternalClaims": 0,
+        "sourceCount": 11
+      }
+    },
+    {
+      "productFolder": "B1_german_for_nurses_b1_b2_pflege_sprint",
+      "errors": [],
+      "warnings": [],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 10,
+        "contradictedClaims": 1,
+        "internalClaims": 4,
+        "zeroSourceExternalClaims": 0,
+        "sourceCount": 9
+      }
+    },
+    {
+      "productFolder": "B2_medical_french_for_nurses",
+      "errors": [],
+      "warnings": [],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 8,
+        "contradictedClaims": 0,
+        "internalClaims": 4,
+        "zeroSourceExternalClaims": 0,
+        "sourceCount": 10
+      }
+    },
+    {
+      "productFolder": "B3_ai_literacy_eu_wide_remote",
+      "errors": [],
+      "warnings": [],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 8,
+        "contradictedClaims": 1,
+        "internalClaims": 3,
+        "zeroSourceExternalClaims": 0,
+        "sourceCount": 4
+      }
+    },
+    {
+      "productFolder": "B4_white_label_course_licensing",
+      "errors": [],
+      "warnings": [
+        "3 legacy external claims have zero supporting source ids"
+      ],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 9,
+        "contradictedClaims": 1,
+        "internalClaims": 3,
+        "zeroSourceExternalClaims": 3,
+        "sourceCount": 5
+      }
+    },
+    {
+      "productFolder": "B5_healthcare_recruitment_pipeline",
+      "errors": [],
+      "warnings": [],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 14,
+        "contradictedClaims": 1,
+        "internalClaims": 6,
+        "zeroSourceExternalClaims": 0,
+        "sourceCount": 11
+      }
+    },
+    {
+      "productFolder": "B6_embedded_onboarding_for_staffing_agencies",
+      "errors": [],
+      "warnings": [
+        "3 legacy external claims have zero supporting source ids"
+      ],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 9,
+        "contradictedClaims": 0,
+        "internalClaims": 3,
+        "zeroSourceExternalClaims": 3,
+        "sourceCount": 7
+      }
+    },
+    {
+      "productFolder": "C1_oet_prep_repriced",
+      "errors": [],
+      "warnings": [
+        "1 legacy external claims have zero supporting source ids"
+      ],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 9,
+        "contradictedClaims": 0,
+        "internalClaims": 4,
+        "zeroSourceExternalClaims": 1,
+        "sourceCount": 4
+      }
+    },
+    {
+      "productFolder": "L1_sproochtest_preparation",
+      "errors": [],
+      "warnings": [],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 9,
+        "contradictedClaims": 1,
+        "internalClaims": 5,
+        "zeroSourceExternalClaims": 0,
+        "sourceCount": 11
+      }
+    },
+    {
+      "productFolder": "L2_letz_care_medical_luxembourgish",
+      "errors": [
+        "Claim ledger references missing source ids: allingua_offer"
+      ],
+      "warnings": [],
+      "unresolvedSourceRefs": [
+        "allingua_offer"
+      ],
+      "stats": {
+        "claimCount": 7,
+        "contradictedClaims": 1,
+        "internalClaims": 4,
+        "zeroSourceExternalClaims": 0,
+        "sourceCount": 9
+      }
+    },
+    {
+      "productFolder": "L3_french_for_work_business",
+      "errors": [],
+      "warnings": [],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 5,
+        "contradictedClaims": 1,
+        "internalClaims": 2,
+        "zeroSourceExternalClaims": 0,
+        "sourceCount": 9
+      }
+    },
+    {
+      "productFolder": "L4_custom_corporate_language_programs",
+      "errors": [],
+      "warnings": [],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 4,
+        "contradictedClaims": 0,
+        "internalClaims": 2,
+        "zeroSourceExternalClaims": 0,
+        "sourceCount": 7
+      }
+    },
+    {
+      "productFolder": "L5_luxembourgish_for_business",
+      "errors": [],
+      "warnings": [],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 7,
+        "contradictedClaims": 0,
+        "internalClaims": 3,
+        "zeroSourceExternalClaims": 0,
+        "sourceCount": 8
+      }
+    },
+    {
+      "productFolder": "L6_oet_nursing_preparation",
+      "errors": [],
+      "warnings": [
+        "2 legacy external claims have zero supporting source ids"
+      ],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 9,
+        "contradictedClaims": 0,
+        "internalClaims": 4,
+        "zeroSourceExternalClaims": 2,
+        "sourceCount": 4
+      }
+    },
+    {
+      "productFolder": "L7_oet_medical_preparation_doctors",
+      "errors": [],
+      "warnings": [
+        "1 legacy external claims have zero supporting source ids"
+      ],
+      "unresolvedSourceRefs": [],
+      "stats": {
+        "claimCount": 9,
+        "contradictedClaims": 0,
+        "internalClaims": 4,
+        "zeroSourceExternalClaims": 1,
+        "sourceCount": 5
+      }
+    }
+  ]
+}

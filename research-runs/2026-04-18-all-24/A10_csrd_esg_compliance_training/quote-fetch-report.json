@@ -1,0 +1,264 @@
+{
+  "schema_version": "research_v2_quote_fetch_report_v1",
+  "product_code": "A10",
+  "generated_at": "2026-04-18T12:57:48.096Z",
+  "source_count": 10,
+  "candidate_count": 54,
+  "source_reports": [
+    {
+      "source_id": "ec_sustainable_finance_2025",
+      "title": "Sustainable finance - European Commission newsletter",
+      "url": "https://finance.ec.europa.eu/news/sustainable-finance-2025-05-21_en",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001"
+      ],
+      "terms": [
+        "wave",
+        "card",
+        "commission",
+        "european",
+        "reporting",
+        "2026",
+        "2027",
+        "2028",
+        "clock",
+        "companies",
+        "csrd",
+        "delays"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "ec_csrd_omnibus_2025",
+      "title": "Omnibus package - European Commission",
+      "url": "https://finance.ec.europa.eu/news/omnibus-package-2025-04-01_en",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001"
+      ],
+      "terms": [
+        "wave",
+        "card",
+        "commission",
+        "european",
+        "reporting",
+        "2026",
+        "2027",
+        "2028",
+        "clock",
+        "companies",
+        "csrd",
+        "delays"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "ec_company_reporting_2025",
+      "title": "Corporate sustainability reporting",
+      "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001"
+      ],
+      "terms": [
+        "reporting",
+        "wave",
+        "card",
+        "2026",
+        "2027",
+        "2028",
+        "clock",
+        "commission",
+        "companies",
+        "corporate",
+        "csrd",
+        "delays"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "infpc_cofunding",
+      "title": "Co-funding of company training",
+      "url": "https://www.infpc.lu/cofinancement-de-la-formation/en",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003"
+      ],
+      "terms": [
+        "company",
+        "funding",
+        "checking",
+        "csrd",
+        "eligibility",
+        "exists",
+        "general",
+        "infpc",
+        "level",
+        "relevant",
+        "scheme",
+        "specific"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "lifelong_learning_cofunding",
+      "title": "Cofunding of training in companies",
+      "url": "https://www.lifelong-learning.lu/entreprises/cofinancement/en",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003"
+      ],
+      "terms": [
+        "checking",
+        "cofunding",
+        "companies",
+        "company",
+        "csrd",
+        "eligibility",
+        "exists",
+        "funding",
+        "general",
+        "infpc",
+        "level",
+        "relevant"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "houseoftraining_csrd_fr",
+      "title": "Maîtriser la CSRD et les normes ESRS - Formation pratique au rapport de durabilité",
+      "url": "https://www.houseoftraining.lu/en_GB/training/maitriser-la-csrd-et-les-normes-esrs-formation-pratique-au-rapport-de-durabilite-13057",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_002"
+      ],
+      "terms": [
+        "csrd",
+        "french",
+        "german",
+        "offers",
+        "double",
+        "durabilit",
+        "empty",
+        "english",
+        "esrs",
+        "exists",
+        "formation",
+        "house"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "houseoftraining_vsme",
+      "title": "Reporting simplifié de développement durable pour les PME - Norme VSME",
+      "url": "https://www.houseoftraining.lu/en_GB/training/reporting-simplifie-de-developpement-durable-pour-les-pme-norme-vsme-12866",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_002"
+      ],
+      "terms": [
+        "csrd",
+        "french",
+        "german",
+        "offers",
+        "double",
+        "durable",
+        "empty",
+        "english",
+        "exists",
+        "house",
+        "language",
+        "market"
+      ],
+      "candidate_count": 6
+    },
+    {
+      "source_id": "houseoftraining_esg_fr",
+      "title": "Reporting ESG - Évaluer la performance extra-financière d'une entreprise dans le cadre de la CSRD - LSMS",
+      "url": "https://www.houseoftraining.lu/training/reporting-esg-evaluer-la-performance-extra-financiere-dune-entreprise-dans-le-cadre-de-la-corporate-sustainability-reporting-directive-csrd-lsms-12261",
+      "status": "fetch_failed",
+      "http_status": 403,
+      "content_type": "text/html;charset=utf-8",
+      "error": "HTTP 403",
+      "matched_claim_ids": [],
+      "terms": [
+        "cadre",
+        "csrd",
+        "dans",
+        "entreprise",
+        "extra",
+        "financi",
+        "lsms",
+        "performance",
+        "reporting",
+        "valuer"
+      ],
+      "candidate_count": 0
+    },
+    {
+      "source_id": "pwc_csrd_dma",
+      "title": "CSRD: conducting the Double Materiality Assessment",
+      "url": "https://www.pwc.lu/en/pwcacademy/training-library/csrd-double-materiality-assessment.html",
+      "status": "fetch_failed",
+      "http_status": 403,
+      "content_type": "text/html",
+      "error": "HTTP 403",
+      "matched_claim_ids": [
+        "ext_002"
+      ],
+      "terms": [
+        "csrd",
+        "french",
+        "double",
+        "german",
+        "materiality",
+        "offers",
+        "assessment",
+        "conducting",
+        "empty",
+        "english",
+        "exists",
+        "house"
+      ],
+      "candidate_count": 0
+    },
+    {
+      "source_id": "pwc_csrd_reporting_service",
+      "title": "CSRD Reporting as a Service",
+      "url": "https://www.pwc.lu/en/sustainability-and-climate-change/csrd-reporting.html",
+      "status": "fetch_failed",
+      "http_status": 403,
+      "content_type": "text/html",
+      "error": "HTTP 403",
+      "matched_claim_ids": [],
+      "terms": [
+        "csrd",
+        "reporting",
+        "service"
+      ],
+      "candidate_count": 0
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": "dashboard_ingestion_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L2",
+  "product_title": "Lëtz Care - Medical Luxembourgish",
+  "reviewed_at": "2026-04-18T13:02:36Z",
+  "release_status": "review",
+  "safe_fields": {
+    "jurisdiction_scope": {
+      "value": [
+        "Luxembourg"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_007",
+        "claim_008",
+        "claim_009"
+      ],
+      "source_refs": [
+        "guichet_foreign_health_professional",
+        "guichet_medical_practitioners",
+        "infpc_cofunding",
+        "guichet_training_aid",
+        "allingua_offer",
+        "prolingua_courses",
+        "prolingua_professionals",
+        "luxlessons_home"
+      ],
+      "last_verified_at": "2026-04-18T13:02:36Z"
+    },
+    "regulatory_context": {
+      "value": "Healthcare service providers must prove necessary language skills, and medical practitioners can use B2/INLL proof routes in Luxembourg.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003"
+      ],
+      "source_refs": [
+        "guichet_foreign_health_professional",
+        "guichet_medical_practitioners"
+      ],
+      "last_verified_at": "2026-04-18T13:02:36Z"
+    },
+    "verified_competitors": {
+      "value": [
+        "Allingua",
+        "Prolingua",
+        "LuxLessons"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_006",
+        "claim_007",
+        "claim_008"
+      ],
+      "source_refs": [
+        "allingua_offer",
+        "prolingua_courses",
+        "prolingua_professionals",
+        "luxlessons_home"
+      ],
+      "last_verified_at": "2026-04-18T13:02:36Z"
+    },
+    "training_support_route": {
+      "value": "Luxembourg company-training co-funding exists at 15%, with a 35% wage-cost uplift for qualifying participants.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_004",
+        "claim_005"
+      ],
+      "source_refs": [
+        "infpc_cofunding",
+        "guichet_training_aid"
+      ],
+      "last_verified_at": "2026-04-18T13:02:36Z"
+    }
+  },
+  "analyst_only_fields": {
+    "target_audience_summary": {
+      "value": "Healthcare employers and frontline staff in Luxembourg who need practical Luxembourgish for patient-facing work.",
+      "confidence_band": "medium",
+      "omission_reason": "Useful synthesis, but still partly inferential and not safe as default dashboard truth."
+    }
+  },
+  "blocked_fields": {
+    "product_delivery_model": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "Standalone course vs compliance support vs broader workplace language course remains a product-design decision, not a public fact."
+    },
+    "product_accreditation_route": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "No public evidence was found that this product itself has a dedicated certification or accreditation route."
+    },
+    "impact_outcome_claim": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "No direct external outcome evidence was found for patient communication, safety, or satisfaction."
+    }
+  },
+  "verification_summary": {
+    "verified_claim_count": 8,
+    "contradicted_claim_count": 1,
+    "blocked_question_count": 3
+  }
+}

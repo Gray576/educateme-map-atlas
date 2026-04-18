@@ -102,6 +102,8 @@ export function FounderDashboard({ products }: { products: ScoredProductRecord[]
   const options = useMemo(
     () => ({
       market: getUniqueOptions(products, "market"),
+      release: getUniqueOptions(products, "release"),
+      segment: getUniqueOptions(products, "segment"),
       buyer: getUniqueOptions(products, "buyer"),
       archetype: getUniqueOptions(products, "archetype"),
       claims: getUniqueOptions(products, "claims"),
@@ -173,6 +175,18 @@ export function FounderDashboard({ products }: { products: ScoredProductRecord[]
           value={filters.market}
           options={options.market}
           onChange={(value) => setFilters((current) => ({ ...current, market: value }))}
+        />
+        <SelectControl
+          label="Release"
+          value={filters.release}
+          options={options.release}
+          onChange={(value) => setFilters((current) => ({ ...current, release: value }))}
+        />
+        <SelectControl
+          label="Segment"
+          value={filters.segment}
+          options={options.segment}
+          onChange={(value) => setFilters((current) => ({ ...current, segment: value }))}
         />
         <SelectControl
           label="Buyer"
@@ -258,6 +272,12 @@ export function FounderDashboard({ products }: { products: ScoredProductRecord[]
                     </h2>
                   </div>
                   <div className="mt-2 flex flex-wrap items-center gap-1.5">
+                    <Badge variant="outline" className="rounded-[10px] px-2.5 py-0.5 text-[11px]">
+                      {product.releaseStatus}
+                    </Badge>
+                    <Badge variant="outline" className="rounded-[10px] px-2.5 py-0.5 text-[11px]">
+                      {product.quadrantSegment}
+                    </Badge>
                     <Badge variant="secondary" className="rounded-[10px] border px-2.5 py-0.5 text-[11px] font-medium">
                       {product.marketBadge}
                     </Badge>
@@ -287,9 +307,18 @@ export function FounderDashboard({ products }: { products: ScoredProductRecord[]
                     >
                       {getOperatorDifficultyLabel(product.archetype.operatorDifficulty)}
                     </span>
+                    <Badge variant="secondary" className="rounded-[10px] border px-2.5 py-0.5 text-[11px] font-medium">
+                      safe {product.safeFieldCount}
+                    </Badge>
+                    <Badge variant="secondary" className="rounded-[10px] border px-2.5 py-0.5 text-[11px] font-medium">
+                      blocked {product.blockedFieldCount}
+                    </Badge>
                   </div>
                   <p className="mt-1 max-w-3xl text-xs leading-5 text-muted-foreground">
                     {product.shortSummary}
+                  </p>
+                  <p className="mt-1 text-[11px] text-muted-foreground">
+                    velocity {product.validationVelocityScore ?? "n/a"} · first € {product.timeToFirstEuroScore ?? "n/a"} · regulatory {product.regulatoryFrictionInverseScore ?? "n/a"} · confidence {product.overallConfidenceBand}
                   </p>
                 </div>
 

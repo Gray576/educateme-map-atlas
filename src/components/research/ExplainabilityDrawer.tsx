@@ -130,11 +130,23 @@ export function ExplainabilityDrawer({
                 {product.title} ({product.code})
               </h2>
               <div className="mt-2 flex flex-wrap items-center gap-1.5">
+                <Badge variant="outline" className="rounded-lg px-2.5 py-1 text-xs">
+                  {product.releaseStatus}
+                </Badge>
+                <Badge variant="outline" className="rounded-lg px-2.5 py-1 text-xs">
+                  {product.quadrantSegment}
+                </Badge>
                 <Badge variant="secondary" className="rounded-lg px-2.5 py-1 text-xs">
                   {product.marketBadge}
                 </Badge>
                 <Badge variant="secondary" className="rounded-lg px-2.5 py-1 text-xs">
                   {product.buyerClusterBadge}
+                </Badge>
+                <Badge variant="secondary" className="rounded-lg px-2.5 py-1 text-xs">
+                  safe {product.safeFieldCount}
+                </Badge>
+                <Badge variant="secondary" className="rounded-lg px-2.5 py-1 text-xs">
+                  blocked {product.blockedFieldCount}
                 </Badge>
                 {product.subsidyStateBadge ? (
                   <Badge variant="outline" className="rounded-lg px-2.5 py-1 text-xs">
@@ -174,6 +186,58 @@ export function ExplainabilityDrawer({
                 <li key={item}>• {item}</li>
               ))}
             </ul>
+          </section>
+
+          <section className="rounded-md border border-border bg-card p-3">
+            <h3 className="text-sm font-semibold">V2 release layer</h3>
+            <div className="mt-2 grid gap-2.5 md:grid-cols-2">
+              <DetailCard
+                label="Release status"
+                value={product.releaseStatus}
+                hint="Fail-closed release gate from the v2 research run."
+              />
+              <DetailCard
+                label="Segment"
+                value={product.quadrantSegment}
+                hint="Commercial validation segment used for experiment design and quadrant placement."
+              />
+              <DetailCard
+                label="Validation model"
+                value={product.validationModel ?? "Not yet specified"}
+              />
+              <DetailCard
+                label="Validation velocity"
+                value={
+                  product.validationVelocityScore !== null
+                    ? `${product.validationVelocityScore}/5`
+                    : "Not yet scored"
+                }
+              />
+              <DetailCard
+                label="Time to first €"
+                value={
+                  product.timeToFirstEuroScore !== null
+                    ? `${product.timeToFirstEuroScore}/5`
+                    : "Not yet scored"
+                }
+              />
+              <DetailCard
+                label="Regulatory friction (inverse)"
+                value={
+                  product.regulatoryFrictionInverseScore !== null
+                    ? `${product.regulatoryFrictionInverseScore}/5`
+                    : "Not yet scored"
+                }
+              />
+              <DetailCard
+                label="Overall confidence"
+                value={product.overallConfidenceBand}
+              />
+              <DetailCard
+                label="Safe vs blocked"
+                value={`${product.safeFieldCount} safe / ${product.blockedFieldCount} blocked`}
+              />
+            </div>
           </section>
 
           <section className="grid gap-3 xl:grid-cols-[minmax(0,1fr)_190px]">
@@ -334,6 +398,16 @@ export function ExplainabilityDrawer({
           <section className="rounded-md border border-border bg-card p-3">
             <h3 className="text-sm font-semibold">Buyer structure</h3>
             <div className="mt-2 grid gap-2.5 md:grid-cols-2">
+              <DetailCard
+                label="Current promise"
+                value={product.sourceCard.product_summary.claimed_outcome}
+                hint="Current promise after the v2 rerun removed unsafe or unverified framing."
+              />
+              <DetailCard
+                label="Core pain"
+                value={product.sourceCard.product_summary.core_pain}
+                hint="Problem framing that survived the current fact-checked pass."
+              />
               <DetailCard
                 label="Primary buyer"
                 value={product.sourceCard.buyer_analysis.primary_buyer_type.value}

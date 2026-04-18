@@ -1,0 +1,165 @@
+{
+  "schema_version": "research_v2_claim_ledger_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A8",
+  "product_title": "B2B Language Proficiency Audit",
+  "generated_at": "2026-04-18T13:04:48Z",
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "other",
+      "claim_text": "CEFR-aligned language assessment and reporting is a valid structure for workplace language testing.",
+      "legacy_status": "partially_verified",
+      "status": "verified",
+      "supporting_source_ids": [
+        "cefr_council_of_europe",
+        "cambridge_workplace_exams",
+        "cambridge_skills_test_business",
+        "allingua_about",
+        "pipplet_luxembourgish"
+      ],
+      "supporting_quote_ids": [
+        "q_cefr_001",
+        "q_cambridge_wp_001",
+        "q_cambridge_cs_001",
+        "q_cambridge_cs_002",
+        "q_allingua_002",
+        "q_allingua_003",
+        "q_pipplet_001",
+        "q_pipplet_003"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Verified by Council of Europe guidance plus Cambridge, Allingua, and Pipplet workplace/reporting pages."
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "numeric_claim",
+      "claim_text": "78% of employers use language tests.",
+      "legacy_status": "unverified",
+      "status": "unverified",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "No primary public source reviewed in this rerun confirmed this exact figure. Leave out of dashboard and treat as false until sourced."
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "Pearson, Cambridge and Pipplet are generic, English-focused competitors.",
+      "legacy_status": "contradicted",
+      "status": "contradicted",
+      "supporting_source_ids": [
+        "pearson_versant",
+        "cambridge_workplace_exams",
+        "cambridge_skills_test_business"
+      ],
+      "supporting_quote_ids": [
+        "q_pearson_versant_001",
+        "q_pearson_versant_002",
+        "q_cambridge_wp_001",
+        "q_cambridge_cs_001"
+      ],
+      "contradicting_source_ids": [
+        "allingua_about",
+        "pipplet_luxembourgish"
+      ],
+      "contradicting_quote_ids": [
+        "q_allingua_001",
+        "q_allingua_002",
+        "q_allingua_003",
+        "q_pipplet_001",
+        "q_pipplet_002",
+        "q_pipplet_003"
+      ],
+      "notes": "Pearson and Cambridge are English-centered, but Pipplet and Allingua are clearly multilingual and Luxembourg-linked. The blanket competitor framing fails."
+    },
+    {
+      "claim_id": "ext_004",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "Nobody does a Luxembourg-specific trilingual language audit.",
+      "legacy_status": "contradicted",
+      "status": "contradicted",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [
+        "allingua_about",
+        "pipplet_luxembourgish"
+      ],
+      "contradicting_quote_ids": [
+        "q_allingua_001",
+        "q_allingua_002",
+        "q_allingua_003",
+        "q_pipplet_001",
+        "q_pipplet_002",
+        "q_pipplet_003"
+      ],
+      "notes": "The absolute uniqueness claim is too strong. Luxembourg-based multilingual assessment and Luxembourgish organizational testing already exist, even if no exact clone of the proposed package was found."
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "scope_fit",
+      "claim_text": "A mini-audit can work as a free lead magnet.",
+      "legacy_status": "internal_unverified",
+      "status": "unclear",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Internal go-to-market hypothesis; not externally checkable."
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "The product will cover 20-100 employees per audit.",
+      "legacy_status": "internal_unverified",
+      "status": "unclear",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Internal design choice; not externally verified."
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "Margin will be 70-75%.",
+      "legacy_status": "internal_unverified",
+      "status": "unclear",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Internal commercial estimate; not a public fact."
+    },
+    {
+      "claim_id": "int_004",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "A pilot with three companies is enough to validate the framework.",
+      "legacy_status": "internal_unverified",
+      "status": "unclear",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Execution plan, not an externally checkable statement."
+    }
+  ],
+  "verification_summary": {
+    "verified_claim_count": 1,
+    "partially_verified_claim_count": 0,
+    "unverified_claim_count": 1,
+    "contradicted_claim_count": 2,
+    "unclear_claim_count": 4,
+    "total_claim_count": 8
+  }
+}

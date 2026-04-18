@@ -1,0 +1,66 @@
+{
+  "schema_version": "contradiction_log_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "C1",
+  "product_title": "OET Prep (repriced)",
+  "generated_at": "2026-04-18T17:09:56+04:00",
+  "contradictions": [],
+  "open_issues": [
+    {
+      "claim_id": "ext_003",
+      "claim_text": "OET can help with migration or career advancement in the UK, Australia and the US.",
+      "status": "blocked",
+      "issue_type": "outcome_language_too_broad",
+      "resolution": "review",
+      "notes": "Recognition context exists, but outcome phrasing is broader than the verified evidence."
+    },
+    {
+      "claim_id": "ext_004",
+      "claim_text": "Learners need an OET certificate for DHA or DOH registration.",
+      "status": "blocked",
+      "issue_type": "universal_route_wording_not_proved",
+      "resolution": "blocked",
+      "notes": "Official pages confirm pathway-specific thresholds, not a universal registration statement for all learners."
+    },
+    {
+      "claim_id": "ext_005",
+      "claim_text": "94 leads exist from the UAE pilot.",
+      "status": "unverified",
+      "issue_type": "internal_metric",
+      "resolution": "blocked",
+      "notes": "Not a public market fact."
+    },
+    {
+      "claim_id": "int_002",
+      "claim_text": "Repricing from €349 to €149-199 fixes market fit.",
+      "status": "unclear",
+      "issue_type": "pricing_hypothesis",
+      "resolution": "blocked",
+      "notes": "Needs real buyer or conversion evidence, not desk research."
+    },
+    {
+      "claim_id": "int_003",
+      "claim_text": "The course is the right option for all UAE/GCC learners targeting OET.",
+      "status": "blocked",
+      "issue_type": "gcc_scope_unproved",
+      "resolution": "blocked",
+      "notes": "Public verification only reached specific UAE, UK, and Australia pathways."
+    },
+    {
+      "claim_id": "int_004",
+      "claim_text": "Pass guarantee can be promised safely.",
+      "status": "blocked",
+      "issue_type": "guarantee_language_unproved",
+      "resolution": "blocked",
+      "notes": "No public evidence supports guarantee wording."
+    }
+  ],
+  "summary": {
+    "checked_claim_count": 15,
+    "contradicted_count": 0,
+    "open_issue_count": 6,
+    "verified_claim_count": 9,
+    "unverified_claim_count": 1,
+    "unclear_claim_count": 2
+  }
+}

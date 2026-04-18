@@ -1,0 +1,118 @@
+{
+  "schema_version": "claim_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A10",
+  "product_title": "CSRD/ESG Compliance Training",
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "deadline",
+      "claim_text": "CSRD Wave 2 reporting is needed now for the card's target SME segment.",
+      "legacy_status": "contradicted",
+      "supporting_source_ids": [
+        "ec_sustainable_finance_2025",
+        "ec_csrd_omnibus_2025",
+        "ec_company_reporting_2025"
+      ],
+      "contradiction_flag": true,
+      "notes": "The European Commission states that the 'stop the clock' proposal delays the reporting requirements for companies previously due to report as of 2026 or 2027 until 2028. That makes the card's 'now' framing materially misleading for wave-two / wave-three targets.",
+      "next_action": "falsify fully and rewrite or drop"
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "No French or German CSRD training exists for Luxembourg SMEs.",
+      "legacy_status": "contradicted",
+      "supporting_source_ids": [
+        "houseoftraining_csrd_fr",
+        "houseoftraining_vsme",
+        "pwc_csrd_dma"
+      ],
+      "contradiction_flag": true,
+      "notes": "House of Training offers CSRD and ESG-related modules in French, and PwC Luxembourg offers CSRD double-materiality training in English, French or German. The market is not language-empty.",
+      "next_action": "falsify fully and rewrite or drop"
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "funding",
+      "claim_text": "INFPC 15-35% is relevant to the product.",
+      "legacy_status": "partially_verified",
+      "supporting_source_ids": [
+        "infpc_cofunding",
+        "lifelong_learning_cofunding"
+      ],
+      "contradiction_flag": false,
+      "notes": "The general Luxembourg company-training co-funding scheme exists and the 15% / 35% structure is public, but product-level eligibility for this specific CSRD training still needs checking.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_004",
+      "origin": "legacy_external_claim",
+      "category": "numeric_claim",
+      "claim_text": "Big Four CSRD training costs more than 5,000 euros per person.",
+      "legacy_status": "unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The reviewed sources do not support this exact market-wide price anchor as stated.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_005",
+      "origin": "legacy_external_claim",
+      "category": "numeric_claim",
+      "claim_text": "CSRD Institute costs 995 euros and is English-only online.",
+      "legacy_status": "unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "No direct source confirming this exact competitor price and format was reviewed.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "scope_fit",
+      "claim_text": "SMEs in supply chains are the right wedge because large-client questionnaires create CSRD pressure.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is a market inference rather than a public fact.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "Educateme has zero ESG expertise and therefore needs an ESG consultancy partner.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is an internal capability assessment, not a public fact.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "A 50/50 revenue share with a content partner is the right commercial structure.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is an internal business-design decision.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_004",
+      "origin": "legacy_internal_claim",
+      "category": "deadline",
+      "claim_text": "The product can be launched in 2-3 months.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is a planning estimate rather than an externally verifiable fact.",
+      "next_action": "treat as open question, not as fact"
+    }
+  ]
+}

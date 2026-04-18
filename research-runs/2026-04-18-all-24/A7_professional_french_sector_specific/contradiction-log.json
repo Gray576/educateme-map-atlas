@@ -1,0 +1,44 @@
+{
+  "schema_version": "contradiction_log_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A7",
+  "product_title": "Professional French (sector-specific)",
+  "analysis_timestamp": "2026-04-18T14:05:00Z",
+  "contradictions": [
+    {
+      "contradiction_id": "c_001",
+      "claim_id": "ext_004",
+      "claim_text": "Nobody does sector-specialized French plus INFPC co-funding positioning.",
+      "status": "contradicted",
+      "contradicting_source_ids": [
+        "prolingua_courses",
+        "prolingua_professionals",
+        "inll_french",
+        "allingua_offer",
+        "infpc_cofunding",
+        "lifelong_learning_cofunding"
+      ],
+      "contradicting_quote_ids": [
+        "q_003",
+        "q_005",
+        "q_006",
+        "q_007",
+        "q_008",
+        "q_009",
+        "q_010"
+      ],
+      "resolution": "Drop the exclusivity positioning. Luxembourg already has public professional and workplace-oriented French providers, and the co-funding route is generic rather than unique to this product.",
+      "why_it_matters": "The old wedge would misstate the market and hide the real requirement: prove curriculum differentiation."
+    }
+  ],
+  "falsification_searches": [
+    {
+      "query": "Luxembourg professional French workplace training Prolingua INLL Allingua",
+      "result": "Contradicted by public Prolingua, INLL, and Allingua pages."
+    },
+    {
+      "query": "Luxembourg cross-border workers 2024 STATEC wage-earners 229.1 487",
+      "result": "Official STATEC figures support raw workforce numbers, but not the exact legacy 228K / 47% wording without denominator cleanup."
+    }
+  ]
+}

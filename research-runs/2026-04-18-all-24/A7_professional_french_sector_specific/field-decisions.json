@@ -1,0 +1,164 @@
+{
+  "schema_version": "field_decisions_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A7",
+  "product_title": "Professional French (sector-specific)",
+  "analysis_timestamp": "2026-04-18T14:05:00Z",
+  "field_decisions": [
+    {
+      "field_id": "jurisdiction_scope",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Luxembourg"
+      ],
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_007"
+      ],
+      "source_refs": [
+        "statec_luxembourg_in_figures_2025",
+        "infpc_cofunding",
+        "lifelong_learning_cofunding",
+        "prolingua_courses",
+        "prolingua_professionals",
+        "inll_french",
+        "allingua_offer"
+      ],
+      "last_verified_at": "2026-04-18T14:05:00Z",
+      "reason": "The product is explicitly Luxembourg-scoped and the verified evidence is country-specific."
+    },
+    {
+      "field_id": "training_support_route",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "Luxembourg company-training co-funding exists at 15% of annual training investment, with an extra 20% salary-cost weighting for qualifying participants.",
+      "claim_refs": [
+        "claim_001",
+        "claim_002"
+      ],
+      "source_refs": [
+        "infpc_cofunding",
+        "lifelong_learning_cofunding"
+      ],
+      "last_verified_at": "2026-04-18T14:05:00Z",
+      "reason": "The public co-funding route is directly documented, but product-level routing still remains operational rather than factual."
+    },
+    {
+      "field_id": "workforce_context",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": "STATEC reports 229.1k non-resident cross-border wage-earners and 487k wage-earners in 2024.",
+      "claim_refs": [
+        "claim_003"
+      ],
+      "source_refs": [
+        "statec_luxembourg_in_figures_2025"
+      ],
+      "last_verified_at": "2026-04-18T14:05:00Z",
+      "reason": "The raw official figures are safe, while the exact 47% framing remains denominator-sensitive."
+    },
+    {
+      "field_id": "verified_competitors",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Prolingua",
+        "INLL",
+        "Allingua"
+      ],
+      "claim_refs": [
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_007"
+      ],
+      "source_refs": [
+        "prolingua_courses",
+        "prolingua_professionals",
+        "inll_french",
+        "allingua_offer"
+      ],
+      "last_verified_at": "2026-04-18T14:05:00Z",
+      "reason": "Public Luxembourg professional-language offers already exist across private and public providers."
+    },
+    {
+      "field_id": "hard_blockers",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "The legacy exclusivity claim is contradicted by Prolingua, INLL, and Allingua.",
+        "The exact 228K / 47% card numbers should not be reused; only raw STATEC figures are safe.",
+        "Sector-specific differentiation still needs proof at the curriculum and outcomes level."
+      ],
+      "claim_refs": [
+        "ext_002",
+        "ext_003",
+        "ext_004",
+        "oq_001",
+        "oq_003"
+      ],
+      "source_refs": [
+        "statec_luxembourg_in_figures_2025",
+        "prolingua_courses",
+        "prolingua_professionals",
+        "inll_french",
+        "allingua_offer"
+      ],
+      "last_verified_at": "2026-04-18T14:05:00Z",
+      "reason": "These blockers are directly grounded in either public contradictions or unresolved denominator/product-definition gaps."
+    },
+    {
+      "field_id": "target_audience_summary",
+      "status": "analyst_only",
+      "confidence_band": "medium",
+      "value": "Cross-border employees and Luxembourg workplaces that need practical French in finance, healthcare, legal/admin, or IT contexts.",
+      "claim_refs": [
+        "claim_003",
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_007"
+      ],
+      "source_refs": [
+        "statec_luxembourg_in_figures_2025",
+        "prolingua_courses",
+        "prolingua_professionals",
+        "inll_french",
+        "allingua_offer"
+      ],
+      "last_verified_at": "2026-04-18T14:05:00Z",
+      "omission_reason": "This is still a strategy synthesis rather than a directly stated product fact."
+    },
+    {
+      "field_id": "sector_differentiation_strength",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "oq_001",
+        "int_001"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T14:05:00Z",
+      "omission_reason": "No public evidence proves that the proposed curriculum is materially more sector-specific than existing Luxembourg offers."
+    },
+    {
+      "field_id": "product_specific_funding_routing",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "oq_002"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T14:05:00Z",
+      "omission_reason": "The co-funding scheme exists, but the exact administrative routing for this product remains unproven."
+    }
+  ]
+}

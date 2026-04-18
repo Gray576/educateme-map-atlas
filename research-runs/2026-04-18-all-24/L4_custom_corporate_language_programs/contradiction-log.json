@@ -1,0 +1,50 @@
+{
+  "schema_version": "contradiction_log_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L4",
+  "product_title": "Custom Corporate Language Programs",
+  "analysis_timestamp": "2026-04-18T17:55:32Z",
+  "contradictions": [],
+  "open_issues": [
+    {
+      "claim_id": "ext_001",
+      "claim_text": "INFPC co-financing of 15-35% is relevant to this product.",
+      "status": "blocked",
+      "issue_type": "product_specific_eligibility_unproven",
+      "resolution": "blocked",
+      "notes": "The Luxembourg co-financing route exists, but public evidence does not prove this exact service qualifies."
+    },
+    {
+      "claim_id": "ext_002",
+      "claim_text": "Berlitz is global, Prolingua is local and freelancers do not provide structured tracking.",
+      "status": "blocked",
+      "issue_type": "compound_claim_overreaches_evidence",
+      "resolution": "blocked",
+      "notes": "Only the competitor existence and some delivery patterns are supported; the freelancer-tracking claim is not."
+    },
+    {
+      "claim_id": "int_001",
+      "claim_text": "Ministry of Education certified implies INFPC eligibility.",
+      "status": "blocked",
+      "issue_type": "certification_route_unproven",
+      "resolution": "blocked",
+      "notes": "The rerun found no public evidence that such certification automatically unlocks INFPC relevance."
+    },
+    {
+      "claim_id": "int_002",
+      "claim_text": "LMS analytics, multilingual delivery and flexible scheduling together create a unique edge.",
+      "status": "unclear",
+      "issue_type": "uniqueness_thesis_unproven",
+      "resolution": "review",
+      "notes": "Multilingual delivery and flexible scheduling already appear in public competitor pages; the analytics layer remains unproven."
+    }
+  ],
+  "summary": {
+    "checked_claim_count": 9,
+    "contradicted_count": 0,
+    "open_issue_count": 4,
+    "verified_claim_count": 5,
+    "unverified_claim_count": 0,
+    "unclear_claim_count": 1
+  }
+}

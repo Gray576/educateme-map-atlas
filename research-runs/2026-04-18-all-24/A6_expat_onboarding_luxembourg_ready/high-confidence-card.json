@@ -1,0 +1,581 @@
+{
+  "schema_version": "research_card_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A6",
+  "product_title": "Expat Onboarding 'Luxembourg Ready'",
+  "analysis_timestamp": "2026-04-18T17:45:00Z",
+  "jurisdictions": [
+    "Luxembourg"
+  ],
+  "sources": [
+    {
+      "source_id": "guichet_linguistic_leave",
+      "title": "Linguistic leave",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/ressources-humaines/formation-professionnelle/conges-formation/conge-linguistique.html",
+      "source_type": "government",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": "2022-09-15",
+      "accessed_at": "2026-04-18T17:45:00Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "guichet_biergerpakt",
+      "title": "Citizen's pact for intercultural living together - 'Biergerpakt'",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/citoyens/citoyennete/vivre-ensemble/pacte-citoyen.html",
+      "source_type": "government",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": "2024-01-02",
+      "accessed_at": "2026-04-18T17:45:00Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "guichet_cvt",
+      "title": "Financial aid for in-company continuing vocational training",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/financement-aides/aides-emploi-recrutement-formation/formation-professionnelle-continue/fpc-entreprise.html",
+      "source_type": "government",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": "2019-01-09",
+      "accessed_at": "2026-04-18T17:45:00Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "inll_institute",
+      "title": "Learn languages in a pleasant and welcoming environment",
+      "publisher": "Institut national des langues Luxembourg (INLL)",
+      "url": "https://www.inll.lu/en/institut-en/",
+      "source_type": "public_institution",
+      "authority_tier": "T2",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T17:45:00Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "prolingua_courses",
+      "title": "Courses",
+      "publisher": "Prolingua Language Centre",
+      "url": "https://prolingua.lu/en/courses_25/",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T17:45:00Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "ec_labour_mobility_2025",
+      "title": "Annual Report on Intra-EU Labour Mobility - 2025 edition",
+      "publisher": "European Commission / Futurium",
+      "url": "https://futurium.ec.europa.eu/en/border-focal-point-network/library/annual-report-intra-eu-labour-mobility-2025-edition",
+      "source_type": "official",
+      "authority_tier": "T1",
+      "jurisdiction": "EU",
+      "published_at": "2026-04-10",
+      "accessed_at": "2026-04-18T17:45:00Z",
+      "language": "en",
+      "archive_url": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_001",
+      "origin": "v2_rederived_claim",
+      "category": "subsidy",
+      "claim_text": "Luxembourg has a linguistic-leave route for Luxembourgish learning, and the total leave is capped at 200 hours.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_linguistic_leave"
+      ],
+      "supporting_quote_ids": [
+        "q_001",
+        "q_004"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Real public route; not proof of A6 product eligibility."
+    },
+    {
+      "claim_id": "claim_002",
+      "origin": "v2_rederived_claim",
+      "category": "subsidy",
+      "claim_text": "Linguistic leave is restricted to eligible Luxembourg-linked workers or self-employed people with at least 6 months, and only recognized or approved Luxembourgish courses qualify.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_linguistic_leave"
+      ],
+      "supporting_quote_ids": [
+        "q_002",
+        "q_003"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "This is the key product-eligibility constraint."
+    },
+    {
+      "claim_id": "claim_003",
+      "origin": "v2_rederived_claim",
+      "category": "integration_program",
+      "claim_text": "Biergerpakt is voluntary and open to any adult who lives or works in Luxembourg.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_biergerpakt"
+      ],
+      "supporting_quote_ids": [
+        "q_005"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Public integration route."
+    },
+    {
+      "claim_id": "claim_004",
+      "origin": "v2_rederived_claim",
+      "category": "integration_program",
+      "claim_text": "Biergerpakt's programme includes introductory life-in-Luxembourg and language modules, plus advanced modules for language learning, administrative procedures, and knowledge of life in Luxembourg.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_biergerpakt"
+      ],
+      "supporting_quote_ids": [
+        "q_006",
+        "q_007"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Direct official programme structure."
+    },
+    {
+      "claim_id": "claim_005",
+      "origin": "v2_rederived_claim",
+      "category": "funding",
+      "claim_text": "Luxembourg's in-company CVT co-funding route exists for eligible private-sector businesses legally established in Luxembourg and does not apply to mandatory continuing training required for regulated professions.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_cvt"
+      ],
+      "supporting_quote_ids": [
+        "q_008",
+        "q_009"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Scheme-level company support route only."
+    },
+    {
+      "claim_id": "claim_006",
+      "origin": "v2_rederived_claim",
+      "category": "funding",
+      "claim_text": "The CVT co-funding route pays 15% of annual training investment, rises to 35% for qualifying participant wage costs, and explicitly lists language courses and job-induction training among the examples.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_cvt"
+      ],
+      "supporting_quote_ids": [
+        "q_010",
+        "q_011"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Useful support-route context; product-specific fit remains open."
+    },
+    {
+      "claim_id": "claim_007",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "INLL is a public centre for adult language learning and certification in Luxembourg's expat and cross-border context.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "inll_institute"
+      ],
+      "supporting_quote_ids": [
+        "q_012"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Public substitute or partner-route candidate."
+    },
+    {
+      "claim_id": "claim_008",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "INLL says it facilitates social integration and intercultural exchange and offers adult courses in 13 languages.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "inll_institute"
+      ],
+      "supporting_quote_ids": [
+        "q_013"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Direct public alternative evidence."
+    },
+    {
+      "claim_id": "claim_009",
+      "origin": "v2_rederived_claim",
+      "category": "recognition_route",
+      "claim_text": "INLL's 'Sproochentest Letzebuergesch' is a public route that gives access to Luxembourg nationality.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "inll_institute"
+      ],
+      "supporting_quote_ids": [
+        "q_014"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Recognition attaches to the public route, not to A6."
+    },
+    {
+      "claim_id": "claim_010",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "Prolingua presents itself as the only EAQUALS accredited school in Luxembourg and offers group, intensive, and tailor-made courses including Luxembourgish, French, German, and English.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "prolingua_courses"
+      ],
+      "supporting_quote_ids": [
+        "q_015",
+        "q_016"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Direct private alternative evidence."
+    },
+    {
+      "claim_id": "claim_011",
+      "origin": "v2_rederived_claim",
+      "category": "numeric_claim",
+      "claim_text": "The European Commission's 2025 labour-mobility edition says cross-border workers make up 45.1% of Luxembourg's workforce.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "ec_labour_mobility_2025"
+      ],
+      "supporting_quote_ids": [
+        "q_017"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Single-source numeric context only."
+    },
+    {
+      "claim_id": "claim_012",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "Luxembourg already has public and private alternatives covering language and integration support, including Biergerpakt, INLL, and Prolingua.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_biergerpakt",
+        "inll_institute",
+        "prolingua_courses"
+      ],
+      "supporting_quote_ids": [
+        "q_006",
+        "q_013",
+        "q_015",
+        "q_016"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Safe synthesis from directly evidenced alternatives."
+    },
+    {
+      "claim_id": "ext_004",
+      "origin": "legacy_external_claim",
+      "category": "numeric_claim",
+      "claim_text": "Cross-border workers make up about 47% of Luxembourg's workforce.",
+      "jurisdiction": "Luxembourg",
+      "status": "contradicted",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [
+        "ec_labour_mobility_2025"
+      ],
+      "contradicting_quote_ids": [
+        "q_017"
+      ],
+      "notes": "Strict rerun replaces this with the verified 45.1% figure."
+    },
+    {
+      "claim_id": "ext_005",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "No one sells a single relocation language + integration package.",
+      "jurisdiction": "Luxembourg",
+      "status": "contradicted",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [
+        "guichet_biergerpakt",
+        "inll_institute",
+        "prolingua_courses"
+      ],
+      "contradicting_quote_ids": [
+        "q_006",
+        "q_013",
+        "q_015",
+        "q_016"
+      ],
+      "notes": "The uniqueness claim does not survive."
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "12,000 immigrants per year.",
+      "jurisdiction": "Luxembourg",
+      "status": "unverified",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "No verified source in this rerun."
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "220K cross-border workers.",
+      "jurisdiction": "Luxembourg",
+      "status": "unverified",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "The verified source confirmed share, not this exact count."
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "40% turnover reduction and 8x ROI.",
+      "jurisdiction": null,
+      "status": "unverified",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "No verified evidence in this rerun."
+    },
+    {
+      "claim_id": "int_004",
+      "origin": "legacy_internal_claim",
+      "category": "scope_fit",
+      "claim_text": "The product's language certificate or Sproochtest readiness evaluation has external acceptance value.",
+      "jurisdiction": "Luxembourg",
+      "status": "unclear",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Recognition was verified only for public INLL routes."
+    },
+    {
+      "claim_id": "int_005",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "Companies assemble this piecemeal today.",
+      "jurisdiction": "Luxembourg",
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "The buying-pattern claim was not directly evidenced."
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "req_001",
+      "requirement": "Linguistic leave is limited to eligible workers or self-employed people with a 6-month Luxembourg-linked activity history, and only recognized or approved Luxembourgish courses qualify.",
+      "applies_to": "Employees and self-employed or liberal professionals seeking linguistic leave",
+      "jurisdiction": "Luxembourg",
+      "status": "confirmed",
+      "source_ids": [
+        "guichet_linguistic_leave"
+      ],
+      "quote_ids": [
+        "q_002",
+        "q_003"
+      ]
+    },
+    {
+      "requirement_id": "req_002",
+      "requirement": "Biergerpakt is open to adults who live or work in Luxembourg and grants access to the intercultural living together programme.",
+      "applies_to": "Adults living or working in Luxembourg",
+      "jurisdiction": "Luxembourg",
+      "status": "confirmed",
+      "source_ids": [
+        "guichet_biergerpakt"
+      ],
+      "quote_ids": [
+        "q_005"
+      ]
+    },
+    {
+      "requirement_id": "req_003",
+      "requirement": "Company-training co-funding is available to eligible private-sector businesses legally established in Luxembourg; example eligible training includes language courses and job-induction training.",
+      "applies_to": "Private-sector businesses seeking Luxembourg CVT co-funding",
+      "jurisdiction": "Luxembourg",
+      "status": "confirmed",
+      "source_ids": [
+        "guichet_cvt"
+      ],
+      "quote_ids": [
+        "q_009",
+        "q_011"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "entity_001",
+      "name": "Ministry of Labour",
+      "kind": "government_department",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "guichet_linguistic_leave"
+      ]
+    },
+    {
+      "entity_id": "entity_002",
+      "name": "National Institute for the Development of Continuing Vocational Training (INFPC)",
+      "kind": "government_training_body",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "guichet_cvt"
+      ]
+    },
+    {
+      "entity_id": "entity_003",
+      "name": "Ministry of Family Affairs, Solidarity, Living Together and Reception of Refugees",
+      "kind": "government_ministry",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "guichet_biergerpakt"
+      ]
+    },
+    {
+      "entity_id": "entity_004",
+      "name": "Institut national des langues Luxembourg (INLL)",
+      "kind": "public_language_centre",
+      "jurisdiction": "Luxembourg",
+      "source_ids": [
+        "inll_institute"
+      ]
+    }
+  ],
+  "competitors": [
+    {
+      "competitor_id": "comp_001",
+      "name": "Institut national des langues Luxembourg (INLL)",
+      "kind": "public_alternative",
+      "source_ids": [
+        "inll_institute"
+      ],
+      "notes": "Public language-learning and certification route."
+    },
+    {
+      "competitor_id": "comp_002",
+      "name": "Prolingua Language Centre",
+      "kind": "private_alternative",
+      "source_ids": [
+        "prolingua_courses"
+      ],
+      "notes": "Private Luxembourg language-school alternative."
+    },
+    {
+      "competitor_id": "comp_003",
+      "name": "Biergerpakt programme",
+      "kind": "public_programme_alternative",
+      "source_ids": [
+        "guichet_biergerpakt"
+      ],
+      "notes": "Public intercultural-living-together route covering language and life-in-Luxembourg modules."
+    }
+  ],
+  "open_questions": [
+    {
+      "question_id": "oq_001",
+      "question": "What is the actual A6 bundle boundary: language training only, language plus civic integration, or a broader relocation-support offer?",
+      "reason": "The rerun verified the surrounding routes and substitutes, not the exact boundary of A6 itself.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_002",
+      "question": "Can any part of A6 qualify directly under Luxembourg's linguistic-leave rules?",
+      "reason": "The official route is limited to approved Luxembourgish courses for eligible workers; A6-specific qualification was not found.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_003",
+      "question": "Can A6 be sold as CVT-co-fundable external training or job-induction training under Luxembourg rules?",
+      "reason": "Scheme-level support exists, but product-specific fit for A6's full bundle remains unverified.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_004",
+      "question": "Does A6 need a partner route for recognized certification or Sproochentest readiness rather than issuing its own accepted deliverable?",
+      "reason": "Recognition was verified for INLL routes, not for A6's own certificate or assessment.",
+      "blocking": true
+    },
+    {
+      "question_id": "oq_005",
+      "question": "Are the turnover-reduction and ROI claims defensible with public or first-party evidence?",
+      "reason": "No verified evidence was found for those outcomes.",
+      "blocking": true
+    }
+  ],
+  "verification_summary": {
+    "verified_claim_count": 12,
+    "partially_verified_claim_count": 0,
+    "unverified_claim_count": 3,
+    "contradicted_claim_count": 2,
+    "blocked_question_count": 5,
+    "official_source_count": 5,
+    "total_source_count": 6
+  }
+}

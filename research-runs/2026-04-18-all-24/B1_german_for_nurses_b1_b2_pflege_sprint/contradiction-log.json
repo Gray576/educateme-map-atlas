@@ -1,0 +1,69 @@
+{
+  "schema_version": "contradiction_log_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B1",
+  "product_title": "German for Nurses (B1->B2 Pflege Sprint)",
+  "analysis_timestamp": "2026-04-18T14:01:02Z",
+  "contradictions": [
+    {
+      "contradiction_id": "c_001",
+      "claim_id": "ext_006",
+      "claim_text": "Bilateral agreements with India, Morocco and Brazil define the recruiting route.",
+      "status": "contradicted",
+      "contradicting_source_ids": [
+        "makeit_nursing_route",
+        "makeit_projects"
+      ],
+      "contradicting_quote_ids": [
+        "q_014",
+        "q_016",
+        "q_017",
+        "q_018"
+      ],
+      "resolution": "Keep the country framing narrow. The public nursing route is Triple Win with India (Kerala and Telangana), Indonesia, the Philippines and Tunisia; Brazil and Morocco appear on other programmes and should not be marketed as the defining nursing route.",
+      "why_it_matters": "The legacy country list collapses distinct German migration programmes into one nursing-sales story and would misroute targeting."
+    },
+    {
+      "contradiction_id": "c_002",
+      "claim_id": "int_002",
+      "claim_text": "300K+ foreign nurses already work in Germany (17.8%).",
+      "status": "contradicted",
+      "contradicting_source_ids": [
+        "ba_nursing_shortage_2024",
+        "ba_nurses_2025"
+      ],
+      "contradicting_quote_ids": [
+        "q_010",
+        "q_011"
+      ],
+      "resolution": "Use the dated official numbers instead: 270,000 foreign-national qualified nurses and 16% in 2023, plus an 18% share in nursing professions in 2025.",
+      "why_it_matters": "Inflated, timeless workforce copy weakens credibility and undermines the fail-closed standard."
+    }
+  ],
+  "falsification_searches": [
+    {
+      "query": "site:make-it-in-germany.com \"Triple Win\" nursing India Indonesia Philippines Tunisia",
+      "result": "The official nursing route page names the actual Triple Win nursing countries and does not support a Morocco/Brazil nursing-route claim."
+    },
+    {
+      "query": "site:make-it-in-germany.com Brazil India Vietnam Morocco recruiting skilled workers",
+      "result": "Brazil and Morocco appear on other public projects such as Hand in Hand and THAMM Plus, which confirms that the legacy country list conflated separate programmes."
+    },
+    {
+      "query": "site:arbeitsagentur.de/en/press nursing foreign workers 18 percent 270000",
+      "result": "The current BA pages support 270,000 and 16% in 2023, then 18% in 2025; they do not support 300K+ and 17.8% as one safe figure."
+    },
+    {
+      "query": "site:bamf.de Deutsch fuer den Beruf Gesundheitswesen Fachsprachpruefungen",
+      "result": "BAMF proves a real occupational-language support route for healthcare recognition, but not product-specific eligibility for B1."
+    }
+  ],
+  "summary": {
+    "checked_claim_count": 13,
+    "contradicted_count": 2,
+    "open_issue_count": 4,
+    "verified_claim_count": 8,
+    "unverified_claim_count": 0,
+    "unclear_claim_count": 3
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "contradiction_log_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A2",
+  "product_title": "AI Productivity Day",
+  "analysis_timestamp": "2026-04-18T13:39:48Z",
+  "contradictions": [
+    {
+      "contradiction_id": "c_001",
+      "claim_id": "claim_008",
+      "claim_text": "Nobody in Luxembourg offers this format.",
+      "status": "contradicted",
+      "contradicting_source_ids": [
+        "houseoftraining_gen_ai_fundamentals",
+        "houseoftraining_chatgpt_business"
+      ],
+      "contradicting_quote_ids": [
+        "q_010",
+        "q_012",
+        "q_013",
+        "q_014"
+      ],
+      "resolution": "Drop the empty-market positioning. Public Luxembourg course pages already show face-to-face generative-AI and ChatGPT business training with practical workshop elements.",
+      "why_it_matters": "The product cannot be released with a 'nobody offers this' claim. Any differentiation story must be narrower and evidence-backed."
+    }
+  ],
+  "falsification_searches": [
+    {
+      "query": "\"Luxembourg\" ChatGPT business training",
+      "result": "Returned public House of Training course pages showing practical ChatGPT business training."
+    },
+    {
+      "query": "\"Luxembourg\" generative AI training business",
+      "result": "Returned House of Training generative-AI fundamentals and related ChatGPT toolbox offers."
+    },
+    {
+      "query": "\"Luxembourg\" approved training provider continuing vocational training",
+      "result": "Returned official Guichet and lifelong-learning/INFPC pages showing a real approval/business-permit route for local training bodies."
+    }
+  ],
+  "summary": {
+    "checked_claim_count": 12,
+    "contradicted_count": 1,
+    "open_issue_count": 4,
+    "verified_claim_count": 7
+  }
+}

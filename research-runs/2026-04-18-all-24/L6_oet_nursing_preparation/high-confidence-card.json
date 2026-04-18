@@ -1,0 +1,252 @@
+{
+  "schema_version": "research_card_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "L6",
+  "product_title": "OET Nursing Preparation",
+  "analysis_timestamp": "2026-04-18T17:09:56+04:00",
+  "release_status": "review",
+  "sources": [
+    {
+      "source_id": "oet_about_test",
+      "title": "What is the OET Test, where and how do I take it",
+      "publisher": "OET",
+      "url": "https://oet.com/en-us/about/the-test",
+      "authority_tier": "T3"
+    },
+    {
+      "source_id": "oet_uae",
+      "title": "United Arab Emirates",
+      "publisher": "OET",
+      "url": "https://oet.com/en-us/test/who-recognises-oet/recognising-organisations/united-arab-emirates",
+      "authority_tier": "T3"
+    },
+    {
+      "source_id": "oet_sample_tests",
+      "title": "Sample tests",
+      "publisher": "OET",
+      "url": "https://oet.com/en-us/ready/sample-tests",
+      "authority_tier": "T3"
+    },
+    {
+      "source_id": "dha_residency",
+      "title": "Dubai Programme for Health Specialties",
+      "publisher": "Dubai Health Authority",
+      "url": "https://dha.gov.ae/en/MedicalEducationandResearch/DubaiResidencyTrainingProgram",
+      "authority_tier": "T1"
+    },
+    {
+      "source_id": "doh_residency",
+      "title": "Medical Residency Program",
+      "publisher": "Department of Health Abu Dhabi",
+      "url": "https://www.doh.gov.ae/en/programs-initiatives/meed/advance-training-program/medical-residency-program",
+      "authority_tier": "T1"
+    },
+    {
+      "source_id": "nmc_oet",
+      "title": "OET - The Nursing and Midwifery Council",
+      "publisher": "Nursing and Midwifery Council",
+      "url": "https://www.nmc.org.uk/registration/joining-the-register/english-language-requirements/accepted-english-language-tests/oet/",
+      "authority_tier": "T1"
+    },
+    {
+      "source_id": "nmba_registration_standard",
+      "title": "Nursing and Midwifery Board of Australia standard for registered nurses and midwives",
+      "publisher": "Nursing and Midwifery Board of Australia",
+      "url": "https://www.nursingmidwiferyboard.gov.au/documents/default.aspx?chksum=Qp0cmuAY5gYpR%2Fu3RJALHw%3D%3D&dbid=AP&record=WD15%2F16890",
+      "authority_tier": "T1"
+    }
+  ],
+  "verified_jurisdictions": [
+    {
+      "jurisdiction": "United Arab Emirates",
+      "claim_ids": ["c_002", "c_003", "c_004", "c_005"],
+      "source_ids": ["oet_uae", "doh_residency", "dha_residency"],
+      "quote_ids": ["q_002", "q_003", "q_006", "q_007"],
+      "last_verified_at": "2026-04-18T17:09:56+04:00"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "claim_ids": ["c_006"],
+      "source_ids": ["nmc_oet"],
+      "quote_ids": ["q_008", "q_009"],
+      "last_verified_at": "2026-04-18T17:09:56+04:00"
+    },
+    {
+      "jurisdiction": "Australia",
+      "claim_ids": ["c_007"],
+      "source_ids": ["nmba_registration_standard"],
+      "quote_ids": ["q_010"],
+      "last_verified_at": "2026-04-18T17:09:56+04:00"
+    }
+  ],
+  "entities": [
+    {
+      "entity_name": "OET",
+      "entity_type": "exam_body",
+      "jurisdiction": "Global",
+      "source_ids": ["oet_about_test", "oet_uae", "oet_sample_tests"]
+    },
+    {
+      "entity_name": "Dubai Health Authority",
+      "entity_type": "regulator",
+      "jurisdiction": "Dubai, United Arab Emirates",
+      "source_ids": ["dha_residency"]
+    },
+    {
+      "entity_name": "Department of Health Abu Dhabi",
+      "entity_type": "regulator",
+      "jurisdiction": "Abu Dhabi, United Arab Emirates",
+      "source_ids": ["doh_residency"]
+    },
+    {
+      "entity_name": "Nursing and Midwifery Council",
+      "entity_type": "regulator",
+      "jurisdiction": "United Kingdom",
+      "source_ids": ["nmc_oet"]
+    },
+    {
+      "entity_name": "Nursing and Midwifery Board of Australia",
+      "entity_type": "regulator",
+      "jurisdiction": "Australia",
+      "source_ids": ["nmba_registration_standard"]
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "req_001",
+      "jurisdiction": "Abu Dhabi, United Arab Emirates",
+      "authority": "Department of Health Abu Dhabi",
+      "requirement": "OET >= C for international graduates applying to residency",
+      "claim_ids": ["c_004"],
+      "source_ids": ["doh_residency"],
+      "quote_ids": ["q_006"]
+    },
+    {
+      "requirement_id": "req_002",
+      "jurisdiction": "Dubai, United Arab Emirates",
+      "authority": "Dubai Health Authority",
+      "requirement": "OET = 300 (C+ in all categories) for residency applicants",
+      "claim_ids": ["c_005"],
+      "source_ids": ["dha_residency"],
+      "quote_ids": ["q_007"]
+    },
+    {
+      "requirement_id": "req_003",
+      "jurisdiction": "United Kingdom",
+      "authority": "Nursing and Midwifery Council",
+      "requirement": "OET reading, listening, speaking >= B and writing >= C+",
+      "claim_ids": ["c_006"],
+      "source_ids": ["nmc_oet"],
+      "quote_ids": ["q_008", "q_009"]
+    },
+    {
+      "requirement_id": "req_004",
+      "jurisdiction": "Australia",
+      "authority": "Nursing and Midwifery Board of Australia",
+      "requirement": "OET minimum B in each of the four components",
+      "claim_ids": ["c_007"],
+      "source_ids": ["nmba_registration_standard"],
+      "quote_ids": ["q_010"]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "c_001",
+      "claim_text": "OET is developed specifically for 12 healthcare professions.",
+      "status": "verified",
+      "source_ids": ["oet_about_test"],
+      "quote_ids": ["q_001"]
+    },
+    {
+      "claim_id": "c_002",
+      "claim_text": "OET is accepted by key healthcare authorities in the UAE.",
+      "status": "verified",
+      "source_ids": ["oet_uae"],
+      "quote_ids": ["q_002"]
+    },
+    {
+      "claim_id": "c_003",
+      "claim_text": "OET is accepted for residency programs in Abu Dhabi and Dubai.",
+      "status": "verified",
+      "source_ids": ["oet_uae"],
+      "quote_ids": ["q_003"]
+    },
+    {
+      "claim_id": "c_004",
+      "claim_text": "For DoH Abu Dhabi residency applications, international graduates need OET at least at grade C.",
+      "status": "verified",
+      "source_ids": ["doh_residency"],
+      "quote_ids": ["q_006"]
+    },
+    {
+      "claim_id": "c_005",
+      "claim_text": "For DHA Dubai residency applications, OET is required at 300, equivalent to C+ in all categories.",
+      "status": "verified",
+      "source_ids": ["dha_residency"],
+      "quote_ids": ["q_007"]
+    },
+    {
+      "claim_id": "c_006",
+      "claim_text": "The NMC accepts OET for nursing registration when reading, listening, and speaking are at least grade B and writing is at least grade C+.",
+      "status": "verified",
+      "source_ids": ["nmc_oet"],
+      "quote_ids": ["q_008", "q_009"]
+    },
+    {
+      "claim_id": "c_007",
+      "claim_text": "The NMBA accepts OET for nursing and midwifery registration when each of the four components is at least grade B.",
+      "status": "verified",
+      "source_ids": ["nmba_registration_standard"],
+      "quote_ids": ["q_010"]
+    },
+    {
+      "claim_id": "c_008",
+      "claim_text": "OET official sample tests are available for nursing and all 12 professions.",
+      "status": "verified",
+      "source_ids": ["oet_sample_tests"],
+      "quote_ids": ["q_004"]
+    },
+    {
+      "claim_id": "c_009",
+      "claim_text": "OET reports a scaled score from 0 to 500 and a letter grade from E to A for each individual sub-test.",
+      "status": "verified",
+      "source_ids": ["oet_about_test"],
+      "quote_ids": ["q_005"]
+    }
+  ],
+  "open_questions": [
+    "Is GCC scope an intentional market boundary or only a legacy assumption?",
+    "Should marketing copy mention UK/Australia only at the jurisdiction-specific threshold level?",
+    "Are the 15-24 corrected letters and cohort size still active course-design facts?",
+    "Is any pass guarantee currently part of the live offer?"
+  ],
+  "manual_review_items": [
+    "Remove universal B-grade language from UAE copy.",
+    "Do not publish GCC-wide scope without direct public evidence.",
+    "Do not publish guarantee language without direct product evidence.",
+    "Keep doctor-only cohort language out of L6 unless separately evidenced."
+  ],
+  "verification_summary": {
+    "verified_claims": 9,
+    "contradicted_claims": 2,
+    "blocked_claims": 4,
+    "high_risk_contradictions": 1,
+    "dashboard_ready": true,
+    "source_ids": ["oet_about_test", "oet_uae", "oet_sample_tests", "dha_residency", "doh_residency", "nmc_oet", "nmba_registration_standard"],
+    "claim_ids": ["c_001", "c_002", "c_003", "c_004", "c_005", "c_006", "c_007", "c_008", "c_009", "c_010", "c_011", "c_012", "c_013", "c_014", "c_015"],
+    "last_verified_at": "2026-04-18T17:09:56+04:00"
+  },
+  "safe_fields": [
+    "product_code",
+    "product_title",
+    "analysis_timestamp",
+    "sources",
+    "verified_jurisdictions",
+    "entities",
+    "requirements",
+    "claims",
+    "open_questions",
+    "manual_review_items",
+    "verification_summary"
+  ]
+}

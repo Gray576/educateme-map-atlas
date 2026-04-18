@@ -70,6 +70,8 @@ export function CompareDashboard({ products }: { products: ScoredProductRecord[]
   const options = useMemo(
     () => ({
       market: getUniqueOptions(products, "market"),
+      release: getUniqueOptions(products, "release"),
+      segment: getUniqueOptions(products, "segment"),
       buyer: getUniqueOptions(products, "buyer"),
       archetype: getUniqueOptions(products, "archetype"),
       claims: getUniqueOptions(products, "claims"),
@@ -153,6 +155,8 @@ export function CompareDashboard({ products }: { products: ScoredProductRecord[]
 
       <section className="mt-2 flex flex-wrap gap-2">
         <SelectControl label="Market" value={filters.market} options={options.market} onChange={(value) => setFilters((current) => ({ ...current, market: value }))} />
+        <SelectControl label="Release" value={filters.release} options={options.release} onChange={(value) => setFilters((current) => ({ ...current, release: value }))} />
+        <SelectControl label="Segment" value={filters.segment} options={options.segment} onChange={(value) => setFilters((current) => ({ ...current, segment: value }))} />
         <SelectControl label="Buyer" value={filters.buyer} options={options.buyer} onChange={(value) => setFilters((current) => ({ ...current, buyer: value }))} />
         <SelectControl label="Archetype" value={filters.archetype} options={options.archetype} onChange={(value) => setFilters((current) => ({ ...current, archetype: value }))} />
         <SelectControl label="Claims" value={filters.claims} options={options.claims} onChange={(value) => setFilters((current) => ({ ...current, claims: value }))} />
@@ -191,10 +195,82 @@ export function CompareDashboard({ products }: { products: ScoredProductRecord[]
                       className="rounded-md border border-border bg-background px-3 py-2.5 text-left"
                     >
                       <p className="text-lg font-semibold">{product.code}</p>
-                      <p className="mt-1 truncate text-xs text-muted-foreground">{product.title}</p>
-                      <p className="mt-1 text-[11px] text-muted-foreground">{product.archetype.shortLabel}</p>
+                      <p className="mt-1 text-xs font-medium text-foreground">{product.title}</p>
+                      <div className="mt-2 flex flex-wrap gap-1.5">
+                        <Badge variant="outline" className="rounded-md px-2 py-0.5 text-[10px]">
+                          {product.releaseStatus}
+                        </Badge>
+                        <Badge variant="outline" className="rounded-md px-2 py-0.5 text-[10px]">
+                          {product.quadrantSegment}
+                        </Badge>
+                        <Badge variant="secondary" className="rounded-md px-2 py-0.5 text-[10px]">
+                          {product.marketBadge}
+                        </Badge>
+                        <Badge variant="secondary" className="rounded-md px-2 py-0.5 text-[10px]">
+                          {product.buyerClusterBadge}
+                        </Badge>
+                      </div>
+                      <p className="mt-2 line-clamp-3 text-[11px] leading-5 text-muted-foreground">
+                        {product.shortSummary}
+                      </p>
+                      <p className="mt-2 text-[11px] text-muted-foreground">
+                        {product.archetype.shortLabel} · safe {product.safeFieldCount} · blocked {product.blockedFieldCount}
+                      </p>
                     </button>
                   ))}
+                </div>
+
+                <div className="mt-6">
+                  <h2 className="text-sm font-semibold uppercase tracking-[0.04em] text-muted-foreground">Release layer</h2>
+                  <div className="mt-3 space-y-2.5">
+                    {[
+                      {
+                        key: "release",
+                        label: "Release status",
+                        description: "Current v2 gate state for what can be shown safely.",
+                        value: (product: ScoredProductRecord) => product.releaseStatus,
+                      },
+                      {
+                        key: "segment",
+                        label: "Segment",
+                        description: "Commercial validation segment used for validation design.",
+                        value: (product: ScoredProductRecord) => product.quadrantSegment,
+                      },
+                      {
+                        key: "buyer",
+                        label: "Buyer cluster",
+                        description: "Current buyer framing derived from the surviving v2 evidence.",
+                        value: (product: ScoredProductRecord) => product.buyerClusterBadge,
+                      },
+                      {
+                        key: "safe",
+                        label: "Safe fields",
+                        description: "High-confidence fields promoted into dashboard-safe copy.",
+                        value: (product: ScoredProductRecord) => String(product.safeFieldCount),
+                      },
+                      {
+                        key: "blocked",
+                        label: "Blocked fields",
+                        description: "Fields intentionally excluded from released copy until validated.",
+                        value: (product: ScoredProductRecord) => String(product.blockedFieldCount),
+                      },
+                    ].map((row) => (
+                      <div key={row.key} className="grid grid-cols-[168px_repeat(3,minmax(0,1fr))] gap-2 items-center">
+                        <div>
+                          <p className="text-xs font-medium">{row.label}</p>
+                          <p className="text-xs text-muted-foreground">{row.description}</p>
+                        </div>
+                        {compareProducts.map((product) => (
+                          <div
+                            key={`${product.code}-${row.key}`}
+                            className="rounded-md border border-border bg-background px-2.5 py-2 text-center text-sm font-semibold text-foreground"
+                          >
+                            {row.value(product)}
+                          </div>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
                 </div>
 
                 <div className="mt-6">

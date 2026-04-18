@@ -1,0 +1,139 @@
+{
+  "schema_version": "source_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A9",
+  "sources": [
+    {
+      "source_id": "guichet_naturalisation",
+      "title": "Acquiring Luxembourgish nationality by naturalisation",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/citoyens/citoyennete/nationalite-luxembourgeoise/acquisition-recouvrement/naturalisation.html",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "guichet_conditions_prealables",
+      "title": "Conditions préalables à l'acquisition volontaire de la nationalité",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/content/guichet/fr/citoyens/citoyennete/nationalite-luxembourgeoise/acquisition-recouvrement/conditions-prealables.html",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "guichet_sproochentest_pdf",
+      "title": "Fiche d'inscription au test en vue de l'admission a la naturalisation",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/dam-assets/catalogue-formulaires/nationalite/inscription-test-naturalisation/inscription-test-naturalisation-fr.pdf",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "inll_sproochentest",
+      "title": "Sproochentest: déi lëtzebuergesch Nationalitéit erhalen",
+      "publisher": "INLL",
+      "url": "https://www.inll.lu/lu/sproochentest-2/",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "etic_sproochentest",
+      "title": "Home | ETIC Sproochentest",
+      "publisher": "ETIC",
+      "url": "https://sproochentest.etic.lu/",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "etic_sproochentest_de",
+      "title": "Startseite | Sproochentest",
+      "publisher": "ETIC",
+      "url": "https://sproochentest.etic.lu/?lang=de",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "luxlanguages_sproochentest_individual",
+      "title": "Preparation au Sproochentest individuelle 100 % personnalisee",
+      "publisher": "Lux'Languages",
+      "url": "https://www.luxlanguages.lu/produit/preparation-au-sproochentest/",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "luxlanguages_sproochentest_group",
+      "title": "Preparation au Sproochentest Groupe fevrier",
+      "publisher": "Lux'Languages",
+      "url": "https://www.luxlanguages.lu/produit/preparation-au-sproochentest-groupe-fevrier/",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "prolingua_luxembourgish",
+      "title": "Luxembourgish courses - Prolingua Language Centre",
+      "publisher": "Prolingua",
+      "url": "https://prolingua.lu/en/courses_25/langue/luxembourgish_9",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "prolingua_luxembourgish_offers",
+      "title": "Luxembourgish courses under the nationality law provisions",
+      "publisher": "Prolingua",
+      "url": "https://prolingua.lu/en/offers_37/luxembourgish-courses_11/",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "luxlessons_home",
+      "title": "Learn Luxembourgish Online Fast",
+      "publisher": "LuxLessons",
+      "url": "https://www.luxlessons.lu/",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    }
+  ]
+}

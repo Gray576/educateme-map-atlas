@@ -1,0 +1,127 @@
+{
+  "schema_version": "source_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A10",
+  "sources": [
+    {
+      "source_id": "ec_sustainable_finance_2025",
+      "title": "Sustainable finance - European Commission newsletter",
+      "publisher": "European Commission",
+      "url": "https://finance.ec.europa.eu/news/sustainable-finance-2025-05-21_en",
+      "source_type": "official",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "ec_csrd_omnibus_2025",
+      "title": "Omnibus package - European Commission",
+      "publisher": "European Commission",
+      "url": "https://finance.ec.europa.eu/news/omnibus-package-2025-04-01_en",
+      "source_type": "official",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "ec_company_reporting_2025",
+      "title": "Corporate sustainability reporting",
+      "publisher": "European Commission",
+      "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+      "source_type": "official",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "infpc_cofunding",
+      "title": "Co-funding of company training",
+      "publisher": "INFPC",
+      "url": "https://www.infpc.lu/cofinancement-de-la-formation/en",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "lifelong_learning_cofunding",
+      "title": "Cofunding of training in companies",
+      "publisher": "lifelong-learning.lu",
+      "url": "https://www.lifelong-learning.lu/entreprises/cofinancement/en",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "houseoftraining_csrd_fr",
+      "title": "Maîtriser la CSRD et les normes ESRS - Formation pratique au rapport de durabilité",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/maitriser-la-csrd-et-les-normes-esrs-formation-pratique-au-rapport-de-durabilite-13057",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "houseoftraining_vsme",
+      "title": "Reporting simplifié de développement durable pour les PME - Norme VSME",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/reporting-simplifie-de-developpement-durable-pour-les-pme-norme-vsme-12866",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "houseoftraining_esg_fr",
+      "title": "Reporting ESG - Évaluer la performance extra-financière d'une entreprise dans le cadre de la CSRD - LSMS",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/training/reporting-esg-evaluer-la-performance-extra-financiere-dune-entreprise-dans-le-cadre-de-la-corporate-sustainability-reporting-directive-csrd-lsms-12261",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "pwc_csrd_dma",
+      "title": "CSRD: conducting the Double Materiality Assessment",
+      "publisher": "PwC Luxembourg",
+      "url": "https://www.pwc.lu/en/pwcacademy/training-library/csrd-double-materiality-assessment.html",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "pwc_csrd_reporting_service",
+      "title": "CSRD Reporting as a Service",
+      "publisher": "PwC Luxembourg",
+      "url": "https://www.pwc.lu/en/sustainability-and-climate-change/csrd-reporting.html",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    }
+  ]
+}

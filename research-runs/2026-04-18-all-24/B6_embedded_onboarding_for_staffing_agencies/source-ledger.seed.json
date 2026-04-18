@@ -1,0 +1,91 @@
+{
+  "schema_version": "source_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B6",
+  "sources": [
+    {
+      "source_id": "eu_blue_card_portal",
+      "title": "EU Blue Card",
+      "publisher": "European Commission - Migration and Home Affairs",
+      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card_en",
+      "source_type": "official",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "eu_blue_card_rules",
+      "title": "New EU Blue Card rules for highly qualified immigrants wishing to work in Europe",
+      "publisher": "European Parliament",
+      "url": "https://www.europarl.europa.eu/news/en/press-room/20210910IPR11915/carte-bleue-regles-pour-les-immigrants-qualifies-souhaitant-travailler-en-europe",
+      "source_type": "official",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "eu_blue_card_luxembourg",
+      "title": "EU Blue card in Luxembourg",
+      "publisher": "European Commission - Migration and Home Affairs",
+      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-luxembourg_en",
+      "source_type": "official",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "lireco_about",
+      "title": "Recruitment and Language Training for Swedish Healthcare",
+      "publisher": "LiReco",
+      "url": "https://lireco.se/en/",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "charite_recruitment",
+      "title": "International recruitment of nurses",
+      "publisher": "Charité – Universitätsmedizin Berlin",
+      "url": "https://www.charite.de/en/international/archiv/for_physicians_and_nursing_staff/working_at_charite/international_recruitment_of_nurses",
+      "source_type": "company",
+      "reliability_legacy": "medium",
+      "authority_tier_seed": "T3",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "hse_relocation_package",
+      "title": "HSE International / Returning Emigrants Recruitment Relocation Package",
+      "publisher": "HSE Career Hub",
+      "url": "https://about.hse.ie/publications/question-from-deputy-sorca-clarke-pq-1668-26/",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    },
+    {
+      "source_id": "hse_overseas_candidates",
+      "title": "Overseas candidates",
+      "publisher": "HSE.ie",
+      "url": "https://www.hse.ie/eng/staff/jobs/overseas-candidates/",
+      "source_type": "government",
+      "reliability_legacy": "high",
+      "authority_tier_seed": "T1",
+      "accessed_at": null,
+      "published_at": null,
+      "notes": "Seeded from legacy card. Re-classify during v2 rerun."
+    }
+  ]
+}

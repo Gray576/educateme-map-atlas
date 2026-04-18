@@ -1,0 +1,239 @@
+{
+  "schema_version": "research_v2_quote_fetch_report_v1",
+  "product_code": "L2",
+  "generated_at": "2026-04-18T12:58:37.005Z",
+  "source_count": 9,
+  "candidate_count": 54,
+  "source_reports": [
+    {
+      "source_id": "guichet_healthcare_professions",
+      "title": "Regulated healthcare professions",
+      "url": "https://guichet.public.lu/en/entreprises/creation-developpement/profession/autres-professions-sante-reglementees/profession-sante-reglementees.html",
+      "status": "fetch_failed",
+      "http_status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "error": "HTTP 404",
+      "matched_claim_ids": [
+        "ext_001"
+      ],
+      "terms": [
+        "healthcare",
+        "french",
+        "german",
+        "language",
+        "professionals",
+        "proof",
+        "approved",
+        "centre",
+        "examination",
+        "explicitly",
+        "guichet",
+        "inll"
+      ],
+      "candidate_count": 0
+    },
+    {
+      "source_id": "guichet_foreign_health_professional",
+      "title": "Declaration of provision of services by a foreign health professional",
+      "url": "https://guichet.public.lu/en/entreprises/sectoriel/sante/autres-professions-sante-reglementees/declaration-prestations-service-professionnel-sante.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001"
+      ],
+      "terms": [
+        "french",
+        "german",
+        "healthcare",
+        "language",
+        "professionals",
+        "proof",
+        "approved",
+        "centre",
+        "declaration",
+        "examination",
+        "explicitly",
+        "foreign"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "guichet_medical_practitioners",
+      "title": "General and specialist medical practitioners",
+      "url": "https://guichet.public.lu/en/entreprises/sectoriel/sante/medecins/medecin-generaliste-specialiste.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001"
+      ],
+      "terms": [
+        "french",
+        "german",
+        "healthcare",
+        "language",
+        "professionals",
+        "proof",
+        "approved",
+        "centre",
+        "examination",
+        "explicitly",
+        "general",
+        "guichet"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "infpc_cofunding",
+      "title": "Co-funding of company training",
+      "url": "https://www.infpc.lu/cofinancement-de-la-formation/en",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_002"
+      ],
+      "terms": [
+        "company",
+        "exists",
+        "funding",
+        "structure",
+        "cost",
+        "depends",
+        "eligibility",
+        "employer",
+        "final",
+        "financing",
+        "increase",
+        "infpc"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "lifelong_learning_cofunding",
+      "title": "Cofunding of training in companies",
+      "url": "https://www.lifelong-learning.lu/entreprises/cofinancement/en",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_002"
+      ],
+      "terms": [
+        "exists",
+        "structure",
+        "cofunding",
+        "companies",
+        "company",
+        "cost",
+        "depends",
+        "eligibility",
+        "employer",
+        "final",
+        "financing",
+        "funding"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "allingua_home",
+      "title": "Professional language training",
+      "url": "https://www.allingua.lu/en/home/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003"
+      ],
+      "terms": [
+        "luxembourgish",
+        "language",
+        "medical",
+        "professional",
+        "absolute",
+        "because",
+        "clearly",
+        "clone",
+        "competitor",
+        "corporate",
+        "courses",
+        "defensible"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "allingua_approach",
+      "title": "What is our approach?",
+      "url": "https://www.allingua.lu/approche/",
+      "status": "fetched_no_matches",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "approach"
+      ],
+      "candidate_count": 0
+    },
+    {
+      "source_id": "prolingua_home",
+      "title": "Accueil - Prolingua Language Centre",
+      "url": "https://prolingua.lu/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003"
+      ],
+      "terms": [
+        "luxembourgish",
+        "language",
+        "medical",
+        "absolute",
+        "accueil",
+        "because",
+        "centre",
+        "clearly",
+        "clone",
+        "competitor",
+        "corporate",
+        "courses"
+      ],
+      "candidate_count": 6
+    },
+    {
+      "source_id": "luxlessons_home",
+      "title": "Learn Luxembourgish Online Fast",
+      "url": "https://www.luxlessons.lu/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003"
+      ],
+      "terms": [
+        "luxembourgish",
+        "medical",
+        "absolute",
+        "because",
+        "clearly",
+        "clone",
+        "competitor",
+        "corporate",
+        "courses",
+        "defensible",
+        "even",
+        "exists"
+      ],
+      "candidate_count": 8
+    }
+  ]
+}

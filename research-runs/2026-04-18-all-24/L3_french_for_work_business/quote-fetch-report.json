@@ -1,0 +1,227 @@
+{
+  "schema_version": "research_v2_quote_fetch_report_v1",
+  "product_code": "L3",
+  "generated_at": "2026-04-18T12:58:39.195Z",
+  "source_count": 9,
+  "candidate_count": 64,
+  "source_reports": [
+    {
+      "source_id": "guichet_fpc_2025",
+      "title": "Aides à la formation professionnelle continue en entreprise",
+      "url": "https://guichet.public.lu/fr/entreprises/financement-aides/aides-emploi-recrutement-formation/formation-professionnelle-continue/fpc-entreprise.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_001"
+      ],
+      "terms": [
+        "financing",
+        "aides",
+        "certain",
+        "company",
+        "confirmed",
+        "continue",
+        "eligibility",
+        "employees",
+        "entreprise",
+        "exact",
+        "exists",
+        "formation"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "infpc_guichet",
+      "title": "Institut national pour le développement de la formation professionnelle continue (INFPC)",
+      "url": "https://guichet.public.lu/fr/entreprises/organismes/organismes_citoyens/institut-national-formation-continue.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "continue",
+        "formation",
+        "infpc",
+        "institut",
+        "national",
+        "pour",
+        "professionnelle",
+        "veloppement"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "statec_regards_2025",
+      "title": "Regards 01/25 - Panorama sur le monde du travail luxembourgeois à l’occasion du 1er Mai",
+      "url": "https://statistiques.public.lu/fr/actualites/2025/regards-01-25.html",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_002"
+      ],
+      "terms": [
+        "2024",
+        "228k",
+        "border",
+        "cross",
+        "employees",
+        "workers",
+        "230k",
+        "derivation",
+        "explicit",
+        "figure",
+        "implying",
+        "luxembourgeois"
+      ],
+      "candidate_count": 4
+    },
+    {
+      "source_id": "prolingua_specialist_language",
+      "title": "Tailor-made courses / Specialist language",
+      "url": "https://prolingua.lu/en/courses_25/specialist-language_8/english_5",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003"
+      ],
+      "terms": [
+        "courses",
+        "language",
+        "specialist",
+        "absolute",
+        "company",
+        "defensible",
+        "evidence",
+        "exist",
+        "french",
+        "including",
+        "infpc",
+        "inlingua"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "prolingua_tailor_made",
+      "title": "Tailor-made courses in your company, at Prolingua's premises or at a distance",
+      "url": "https://prolingua.lu/en/courses_25?category=individual",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003"
+      ],
+      "terms": [
+        "company",
+        "courses",
+        "prolingua",
+        "absolute",
+        "defensible",
+        "distance",
+        "evidence",
+        "exist",
+        "french",
+        "including",
+        "infpc",
+        "inlingua"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "inlingua_company_courses",
+      "title": "Cours de langues pros & particuliers Luxembourg",
+      "url": "https://www.inlingua.lu/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003"
+      ],
+      "terms": [
+        "absolute",
+        "company",
+        "cours",
+        "courses",
+        "defensible",
+        "evidence",
+        "exist",
+        "french",
+        "including",
+        "infpc",
+        "inlingua",
+        "language"
+      ],
+      "candidate_count": 4
+    },
+    {
+      "source_id": "inlingua_adults",
+      "title": "Cours de langues pour adultes",
+      "url": "https://www.inlingua.lu/adultes",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "adultes",
+        "cours",
+        "langues",
+        "pour"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "berlitz_business_lux",
+      "title": "Learn a language at our language institute | Berlitz",
+      "url": "https://www.berlitz.com/en-lu",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html",
+      "error": null,
+      "matched_claim_ids": [
+        "ext_003"
+      ],
+      "terms": [
+        "language",
+        "absolute",
+        "berlitz",
+        "company",
+        "courses",
+        "defensible",
+        "evidence",
+        "exist",
+        "french",
+        "including",
+        "infpc",
+        "inlingua"
+      ],
+      "candidate_count": 8
+    },
+    {
+      "source_id": "inll_courses",
+      "title": "Language courses that focus on the power of dialogue",
+      "url": "https://www.inll.lu/en/courses/",
+      "status": "candidate_quotes_found",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null,
+      "matched_claim_ids": [],
+      "terms": [
+        "courses",
+        "dialogue",
+        "focus",
+        "language",
+        "power"
+      ],
+      "candidate_count": 8
+    }
+  ]
+}

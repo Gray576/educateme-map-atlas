@@ -1,0 +1,289 @@
+{
+  "schema_version": "research_card_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A3",
+  "product_title": "Prompt Engineering Workshop",
+  "analysis_timestamp": "2026-04-18T17:48:33Z",
+  "jurisdictions": [
+    "Luxembourg",
+    "EU"
+  ],
+  "sources": [
+    {
+      "source_id": "eu_ai_literacy_qa",
+      "title": "AI Literacy - Questions & Answers",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+      "source_type": "official",
+      "authority_tier": "T1",
+      "jurisdiction": "EU",
+      "published_at": null,
+      "accessed_at": "2026-04-18T17:48:33Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "guichet_cvt",
+      "title": "Financial aid for in-company continuing vocational training",
+      "publisher": "Guichet.lu",
+      "url": "https://guichet.public.lu/en/entreprises/financement-aides/aides-emploi-recrutement-formation/formation-professionnelle-continue/fpc-entreprise.html",
+      "source_type": "government",
+      "authority_tier": "T1",
+      "jurisdiction": "Luxembourg",
+      "published_at": "2019-01-09",
+      "accessed_at": "2026-04-18T17:48:33Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "houseoftraining_prompt_finance",
+      "title": "Prompt Engineering : Initiation & mise en pratique pour les employés du secteur financier",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/prompt-engineering-initiation-mise-en-pratique-pour-les-employes-du-secteur-financier-15850",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T17:48:33Z",
+      "language": "fr",
+      "archive_url": null
+    },
+    {
+      "source_id": "houseoftraining_chatgpt_business",
+      "title": "Entrepreneur augmenté grâce à ChatGPT – Comprendre et intégrer l'IA dans votre stratégie d'entreprise",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/entrepreneur-augmente-grace-a-chatgpt-comprendre-et-integrer-l-ia-dans-votre-strategie-d-entreprise-12114",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T17:48:33Z",
+      "language": "fr",
+      "archive_url": null
+    },
+    {
+      "source_id": "houseoftraining_ai_risk",
+      "title": "Risk Management - Information Security, Data Protection and Artificial Intelligence",
+      "publisher": "House of Training",
+      "url": "https://www.houseoftraining.lu/en_GB/training/risk-management-information-security-data-protection-and-ai-14729",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T17:48:33Z",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "openai_prompting",
+      "title": "Prompting",
+      "publisher": "OpenAI Academy",
+      "url": "https://academy.openai.com/public/clubs/work-users-ynjqu/resources/prompting",
+      "source_type": "company",
+      "authority_tier": "T4",
+      "jurisdiction": "Global",
+      "published_at": "2025-08-06",
+      "accessed_at": "2026-04-18T17:48:33Z",
+      "language": "en",
+      "archive_url": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_001",
+      "category": "regulatory_requirement",
+      "claim_text": "Article 4 of the AI Act requires providers and deployers of AI systems to ensure a sufficient level of AI literacy of their staff and other persons dealing with AI systems on their behalf.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "eu_ai_literacy_qa"
+      ],
+      "supporting_quote_ids": [
+        "q_001"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "claim_002",
+      "category": "deadline",
+      "claim_text": "The AI literacy obligation already applies from 2 February 2025, while supervision and enforcement begin from 3 August 2026.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "eu_ai_literacy_qa"
+      ],
+      "supporting_quote_ids": [
+        "q_002"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "claim_003",
+      "category": "funding",
+      "claim_text": "Luxembourg has a public company-training support route under which the State contributes to employer training plans.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_cvt"
+      ],
+      "supporting_quote_ids": [
+        "q_003"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "claim_004",
+      "category": "funding",
+      "claim_text": "Luxembourg company-training aid can cover 15% of annual training investment, and the State contribution rises to 35% of wage costs for certain eligible participants.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_cvt"
+      ],
+      "supporting_quote_ids": [
+        "q_004",
+        "q_005"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "claim_005",
+      "category": "competitor",
+      "claim_text": "House of Training publicly offers a Luxembourg prompt-engineering course for financial-sector employees, delivered as a 1h15 e-learning format in French.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "houseoftraining_prompt_finance"
+      ],
+      "supporting_quote_ids": [
+        "q_006"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "claim_006",
+      "category": "competitor",
+      "claim_text": "House of Training publicly offers a Luxembourg ChatGPT business course whose objectives include designing effective prompts with a solid understanding of prompt engineering and integrating ChatGPT to improve operational efficiency.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "houseoftraining_chatgpt_business"
+      ],
+      "supporting_quote_ids": [
+        "q_007"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "claim_007",
+      "category": "public_guidance",
+      "claim_text": "OpenAI Academy publishes a free public prompting resource and defines prompt engineering as designing and refining input to help ChatGPT give the best possible answer.",
+      "jurisdiction": "Global",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "openai_prompting"
+      ],
+      "supporting_quote_ids": [
+        "q_008",
+        "q_009"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "claim_008",
+      "category": "governance_context",
+      "claim_text": "Public Luxembourg AI training already links prompting to privacy, bias, and governance concerns.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "houseoftraining_ai_risk"
+      ],
+      "supporting_quote_ids": [
+        "q_010"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "ext_004",
+      "category": "subsidy",
+      "claim_text": "Luxembourg company training co-funding is relevant to this product category.",
+      "jurisdiction": "Luxembourg",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [
+        "guichet_cvt"
+      ],
+      "supporting_quote_ids": [
+        "q_003",
+        "q_004",
+        "q_005"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "int_001",
+      "category": "other",
+      "claim_text": "The workshop will deliver a company-specific prompt library of 30-50 tested prompts.",
+      "jurisdiction": "Internal",
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "int_002",
+      "category": "other",
+      "claim_text": "Customization is the main differentiator, not knowledge.",
+      "jurisdiction": "Internal",
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "int_003",
+      "category": "subsidy",
+      "claim_text": "SME Package AI 70% applies to this workshop.",
+      "jurisdiction": "Luxembourg",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    },
+    {
+      "claim_id": "int_004",
+      "category": "numeric_claim",
+      "claim_text": "The workshop can be sold as a 1-2 day format with a prompt library outcome.",
+      "jurisdiction": "Internal",
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_source_ids": [],
+      "contradicting_quote_ids": []
+    }
+  ]
+}

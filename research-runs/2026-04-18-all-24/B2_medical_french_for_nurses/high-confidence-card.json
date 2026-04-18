@@ -1,0 +1,320 @@
+{
+  "schema_version": "research_card_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B2",
+  "product_title": "Medical French for Nurses",
+  "analysis_timestamp": "2026-04-18T22:03:53+04:00",
+  "release_status": "blocked",
+  "jurisdictions": [
+    "France",
+    "Belgium",
+    "Switzerland"
+  ],
+  "sources": [
+    {
+      "source_id": "eu_regulated_professions",
+      "title": "Regulated professions",
+      "publisher": "Your Europe / European Union",
+      "url": "https://europa.eu/youreurope/citizens/work/professional-qualifications/regulated-professions/",
+      "source_type": "official",
+      "authority_tier": "T1",
+      "jurisdiction": "EU",
+      "published_at": null,
+      "accessed_at": "2026-04-18T22:03:53+04:00",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "france_paramedical",
+      "title": "Peut-on exercer une profession paramédicale en France avec un diplôme étranger ?",
+      "publisher": "Service-Public.fr",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3141",
+      "source_type": "government",
+      "authority_tier": "T1",
+      "jurisdiction": "France",
+      "published_at": "2021-04-01",
+      "accessed_at": "2026-04-18T22:03:53+04:00",
+      "language": "fr",
+      "archive_url": null
+    },
+    {
+      "source_id": "france_diploma_recognition",
+      "title": "Faire reconnaître en France un diplôme obtenu à l'étranger",
+      "publisher": "Service-Public.fr",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F463",
+      "source_type": "government",
+      "authority_tier": "T1",
+      "jurisdiction": "France",
+      "published_at": "2025-04-17",
+      "accessed_at": "2026-04-18T22:03:53+04:00",
+      "language": "fr",
+      "archive_url": null
+    },
+    {
+      "source_id": "belgium_visa_lang",
+      "title": "Visa for a foreign diploma",
+      "publisher": "FPS Public Health",
+      "url": "https://www.health.belgium.be/en/professionals/health-professionals/human-health/gezondheidszorgberoepen/toegang-tot-gezondheidszorgberoepen/visa-foreign-diploma",
+      "source_type": "government",
+      "authority_tier": "T1",
+      "jurisdiction": "Belgium",
+      "published_at": null,
+      "accessed_at": "2026-04-18T22:03:53+04:00",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "swiss_foph",
+      "title": "Submit applications for foreign qualifications in the medical and psychology professions",
+      "publisher": "Federal Office of Public Health (FOPH)",
+      "url": "https://www.bag.admin.ch/en/submit-applications-for-foreign-qualifications-in-the-medical-and-psychology-professions",
+      "source_type": "government",
+      "authority_tier": "T1",
+      "jurisdiction": "Switzerland",
+      "published_at": null,
+      "accessed_at": "2026-04-18T22:03:53+04:00",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "prolingua_tailor_made",
+      "title": "Tailor-made courses in your company, at Prolingua's premises or at a distance",
+      "publisher": "Prolingua",
+      "url": "https://prolingua.lu/en/courses_25?category=individual",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T22:03:53+04:00",
+      "language": "en",
+      "archive_url": null
+    },
+    {
+      "source_id": "inlingua_adults",
+      "title": "Cours de langues pour adultes",
+      "publisher": "inlingua Luxembourg",
+      "url": "https://www.inlingua.lu/adultes",
+      "source_type": "company",
+      "authority_tier": "T3",
+      "jurisdiction": "Luxembourg",
+      "published_at": null,
+      "accessed_at": "2026-04-18T22:03:53+04:00",
+      "language": "fr",
+      "archive_url": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "c_001",
+      "category": "regulatory_context",
+      "claim_text": "Regulated-profession rules differ across EU destination countries, and the destination country may require both recognition steps and language or professional-body checks before practice.",
+      "jurisdiction": "EU",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "eu_regulated_professions"
+      ],
+      "supporting_quote_ids": [
+        "q_001",
+        "q_002"
+      ]
+    },
+    {
+      "claim_id": "c_002",
+      "category": "regulatory_context",
+      "claim_text": "France's public guidance for regulated paramedical professions says the corresponding diploma/title is required and that European-holders may need authorisation to practise or an occasional-practice declaration.",
+      "jurisdiction": "France",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "france_paramedical"
+      ],
+      "supporting_quote_ids": [
+        "q_003",
+        "q_004"
+      ]
+    },
+    {
+      "claim_id": "c_003",
+      "category": "regulatory_context",
+      "claim_text": "France's diploma-recognition guidance says foreign-diploma recognition criteria differ depending on whether the profession is regulated, and regulated-profession procedures vary by profession and diploma origin.",
+      "jurisdiction": "France",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "france_diploma_recognition"
+      ],
+      "supporting_quote_ids": [
+        "q_006",
+        "q_007"
+      ]
+    },
+    {
+      "claim_id": "c_004",
+      "category": "language_requirement",
+      "claim_text": "Belgium requires foreign-trained healthcare professionals to show sufficient Dutch, French, or German in order to obtain a visa.",
+      "jurisdiction": "Belgium",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "belgium_visa_lang"
+      ],
+      "supporting_quote_ids": [
+        "q_008"
+      ]
+    },
+    {
+      "claim_id": "c_005",
+      "category": "language_requirement",
+      "claim_text": "Belgium's official table sets B2 for bachelor's-level nurses responsible for general care, and the authority says course-attendance certificates are not sufficient language proof.",
+      "jurisdiction": "Belgium",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "belgium_visa_lang"
+      ],
+      "supporting_quote_ids": [
+        "q_009",
+        "q_010"
+      ]
+    },
+    {
+      "claim_id": "c_006",
+      "category": "language_requirement",
+      "claim_text": "Switzerland requires recognition applications for foreign medical and psychology qualifications to be submitted in German, French, or Italian.",
+      "jurisdiction": "Switzerland",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "swiss_foph"
+      ],
+      "supporting_quote_ids": [
+        "q_011"
+      ]
+    },
+    {
+      "claim_id": "c_007",
+      "category": "substitute_evidence",
+      "claim_text": "Publicly visible language providers already offer distance or online general/professional language courses, so a hard 'no substitutes exist' story is unsafe without a much broader market census.",
+      "jurisdiction": "Luxembourg / online",
+      "status": "verified",
+      "confidence_band": "medium",
+      "supporting_source_ids": [
+        "prolingua_tailor_made",
+        "inlingua_adults"
+      ],
+      "supporting_quote_ids": [
+        "q_012",
+        "q_013"
+      ]
+    },
+    {
+      "claim_id": "int_001",
+      "category": "scope_fit",
+      "claim_text": "The same model can be applied to France, Belgium and Switzerland without material redesign.",
+      "jurisdiction": "France / Belgium / Switzerland",
+      "status": "contradicted",
+      "confidence_band": "blocked",
+      "contradicting_source_ids": [
+        "eu_regulated_professions",
+        "france_paramedical",
+        "france_diploma_recognition",
+        "belgium_visa_lang",
+        "swiss_foph"
+      ],
+      "contradicting_quote_ids": [
+        "q_001",
+        "q_002",
+        "q_004",
+        "q_005",
+        "q_007",
+        "q_011"
+      ]
+    },
+    {
+      "claim_id": "int_002",
+      "category": "recognition",
+      "claim_text": "The product's certificate will be accepted for practice or recognition.",
+      "jurisdiction": "France / Belgium / Switzerland",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "contradicting_source_ids": [
+        "eu_regulated_professions",
+        "belgium_visa_lang"
+      ],
+      "contradicting_quote_ids": [
+        "q_002",
+        "q_010"
+      ]
+    },
+    {
+      "claim_id": "int_003",
+      "category": "numeric_claim",
+      "claim_text": "France needs 500K+ healthcare workers.",
+      "jurisdiction": "France",
+      "status": "unverified",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "supporting_quote_ids": []
+    },
+    {
+      "claim_id": "ext_004",
+      "category": "competitor_gap",
+      "claim_text": "No dedicated online Medical French provider identified.",
+      "jurisdiction": "Market-wide",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [
+        "prolingua_tailor_made",
+        "inlingua_adults"
+      ],
+      "supporting_quote_ids": [
+        "q_012",
+        "q_013"
+      ]
+    }
+  ],
+  "high_confidence_fields": {
+    "jurisdiction_scope": {
+      "value": [
+        "France",
+        "Belgium",
+        "Switzerland"
+      ],
+      "claim_refs": [
+        "c_002",
+        "c_003",
+        "c_004",
+        "c_005",
+        "c_006"
+      ]
+    },
+    "cross_country_regulatory_context": {
+      "value": "Recognition and language-proof rules vary by destination country; this opportunity cannot be framed as one generic pan-European nursing-language route.",
+      "claim_refs": [
+        "c_001",
+        "int_001"
+      ]
+    },
+    "belgium_language_requirement_context": {
+      "value": "Belgium requires foreign-trained healthcare professionals to prove Dutch, French, or German for a visa; bachelor's-level nurses responsible for general care are mapped to B2, and simple course-attendance certificates are not sufficient.",
+      "claim_refs": [
+        "c_004",
+        "c_005"
+      ]
+    },
+    "switzerland_application_language_requirement": {
+      "value": "Swiss recognition applications for foreign medical and psychology qualifications must be filed in German, French, or Italian.",
+      "claim_refs": [
+        "c_006"
+      ]
+    }
+  },
+  "summary": {
+    "release_recommendation": "blocked",
+    "safe_field_count": 6,
+    "verified_claim_count": 7,
+    "contradicted_claim_count": 1,
+    "blocked_or_unverified_claim_count": 3
+  }
+}

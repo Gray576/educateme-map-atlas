@@ -1,0 +1,118 @@
+{
+  "schema_version": "claim_ledger_seed_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "B4",
+  "product_title": "White-Label Course Licensing",
+  "claims": [
+    {
+      "claim_id": "ext_001",
+      "origin": "legacy_external_claim",
+      "category": "other",
+      "claim_text": "Existing curricula can be packaged for licensing to third-party schools and NGOs.",
+      "legacy_status": "unverified",
+      "supporting_source_ids": [
+        "inll_laf",
+        "inll_courses",
+        "lllc"
+      ],
+      "contradiction_flag": false,
+      "notes": "Public sources show Luxembourgish courses and certification routes exist, but they do not validate this exact licensing package.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_002",
+      "origin": "legacy_external_claim",
+      "category": "accreditation",
+      "claim_text": "Educateme Certified badge is an official or externally recognised credential.",
+      "legacy_status": "unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "No public source reviewed shows external recognition for the proposed badge.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "No one else can create Luxembourg language curricula at this quality.",
+      "legacy_status": "contradicted",
+      "supporting_source_ids": [
+        "inll_laf",
+        "inll_courses",
+        "lllc"
+      ],
+      "contradiction_flag": true,
+      "notes": "INLL runs Luxembourgish courses and issues the national LAF certification, and the Luxembourg Lifelong Learning Center also offers course and certification programs. The market is not empty.",
+      "next_action": "falsify fully and rewrite or drop"
+    },
+    {
+      "claim_id": "ext_004",
+      "origin": "legacy_external_claim",
+      "category": "numeric_claim",
+      "claim_text": "Y1 revenue can reach €25-150K.",
+      "legacy_status": "unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is an internal revenue projection, not a publicly verified market fact.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_005",
+      "origin": "legacy_external_claim",
+      "category": "other",
+      "claim_text": "Near-zero marginal cost after packaging.",
+      "legacy_status": "unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "No public source reviewed establishes the economics of this exact licensing package.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "ext_006",
+      "origin": "legacy_external_claim",
+      "category": "other",
+      "claim_text": "Belgium and border-region demand is sufficient to sustain a licensing offer.",
+      "legacy_status": "unverified",
+      "supporting_source_ids": [
+        "inll_luxembourgish",
+        "lllc"
+      ],
+      "contradiction_flag": false,
+      "notes": "Public sources confirm demand for Luxembourgish language learning and continuing training, but not the market size for this exact licensing motion.",
+      "next_action": "re-search and verify with stricter source tier rules"
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "accreditation",
+      "claim_text": "Educateme Certified badge will carry market weight.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "No official source shows external recognition for the badge.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "The curriculum packages are ready for third-party licensing as-is.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "The source card is a hypothesis; public evidence does not validate packaging maturity.",
+      "next_action": "treat as open question, not as fact"
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "Y1 revenue can reach €25-150K.",
+      "legacy_status": "internal_unverified",
+      "supporting_source_ids": [],
+      "contradiction_flag": false,
+      "notes": "This is an internal projection, not an externally verified market result.",
+      "next_action": "treat as open question, not as fact"
+    }
+  ]
+}

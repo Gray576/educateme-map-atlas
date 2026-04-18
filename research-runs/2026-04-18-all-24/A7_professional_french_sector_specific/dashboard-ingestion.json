@@ -1,0 +1,125 @@
+{
+  "schema_version": "dashboard_ingestion_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A7",
+  "product_title": "Professional French (sector-specific)",
+  "reviewed_at": "2026-04-18T14:05:00Z",
+  "release_status": "review",
+  "safe_fields": {
+    "jurisdiction_scope": {
+      "value": [
+        "Luxembourg"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_007"
+      ],
+      "source_refs": [
+        "statec_luxembourg_in_figures_2025",
+        "infpc_cofunding",
+        "lifelong_learning_cofunding",
+        "prolingua_courses",
+        "prolingua_professionals",
+        "inll_french",
+        "allingua_offer"
+      ],
+      "last_verified_at": "2026-04-18T14:05:00Z"
+    },
+    "training_support_route": {
+      "value": "Luxembourg company-training co-funding exists at 15% of annual training investment, with an extra 20% salary-cost weighting for qualifying participants.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_001",
+        "claim_002"
+      ],
+      "source_refs": [
+        "infpc_cofunding",
+        "lifelong_learning_cofunding"
+      ],
+      "last_verified_at": "2026-04-18T14:05:00Z"
+    },
+    "workforce_context": {
+      "value": "STATEC reports 229.1k non-resident cross-border wage-earners and 487k wage-earners in 2024.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_003"
+      ],
+      "source_refs": [
+        "statec_luxembourg_in_figures_2025"
+      ],
+      "last_verified_at": "2026-04-18T14:05:00Z"
+    },
+    "verified_competitors": {
+      "value": [
+        "Prolingua",
+        "INLL",
+        "Allingua"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_007"
+      ],
+      "source_refs": [
+        "prolingua_courses",
+        "prolingua_professionals",
+        "inll_french",
+        "allingua_offer"
+      ],
+      "last_verified_at": "2026-04-18T14:05:00Z"
+    },
+    "hard_blockers": {
+      "value": [
+        "The legacy exclusivity claim is contradicted by Prolingua, INLL, and Allingua.",
+        "The exact 228K / 47% card numbers should not be reused; only raw STATEC figures are safe.",
+        "Sector-specific differentiation still needs proof at the curriculum and outcomes level."
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "ext_002",
+        "ext_003",
+        "ext_004"
+      ],
+      "source_refs": [
+        "statec_luxembourg_in_figures_2025",
+        "prolingua_courses",
+        "prolingua_professionals",
+        "inll_french",
+        "allingua_offer"
+      ],
+      "last_verified_at": "2026-04-18T14:05:00Z"
+    }
+  },
+  "analyst_only_fields": {
+    "target_audience_summary": {
+      "value": "Cross-border employees and Luxembourg workplaces that need practical French in finance, healthcare, legal/admin, or IT contexts.",
+      "confidence_band": "medium",
+      "omission_reason": "Still a strategy synthesis rather than a directly stated market fact."
+    }
+  },
+  "blocked_fields": {
+    "sector_differentiation_strength": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "No public evidence proves that the proposed curriculum is materially more sector-specific than existing Luxembourg offers."
+    },
+    "product_specific_funding_routing": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "The co-funding scheme exists, but the exact administrative routing for this product remains unproven."
+    }
+  },
+  "verification_summary": {
+    "verified_claim_count": 7,
+    "contradicted_claim_count": 1,
+    "blocked_question_count": 3
+  }
+}

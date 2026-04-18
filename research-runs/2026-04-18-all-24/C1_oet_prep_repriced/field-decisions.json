@@ -1,0 +1,194 @@
+{
+  "schema_version": "field_decisions_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "C1",
+  "product_title": "OET Prep (repriced)",
+  "analysis_timestamp": "2026-04-18T17:09:56+04:00",
+  "field_decisions": [
+    {
+      "field_id": "jurisdiction_scope",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "United Arab Emirates",
+        "United Kingdom",
+        "Australia"
+      ],
+      "claim_refs": [
+        "c_002",
+        "c_003",
+        "c_005",
+        "c_006",
+        "c_007",
+        "c_008"
+      ],
+      "source_refs": [
+        "oet_uae",
+        "doh_residency",
+        "dha_residency",
+        "nmc_oet",
+        "nmba_registration_standard"
+      ],
+      "last_verified_at": "2026-04-18T17:09:56+04:00",
+      "reason": "These are the only jurisdictions that cleared strict public verification."
+    },
+    {
+      "field_id": "verified_entities",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "OET",
+        "Dubai Health Authority",
+        "Department of Health Abu Dhabi",
+        "Nursing and Midwifery Council",
+        "Nursing and Midwifery Board of Australia"
+      ],
+      "claim_refs": [
+        "c_001",
+        "c_002",
+        "c_003",
+        "c_005",
+        "c_006",
+        "c_007",
+        "c_008",
+        "c_009"
+      ],
+      "source_refs": [
+        "oet_about_test",
+        "oet_uae",
+        "oet_sample_tests",
+        "dha_residency",
+        "doh_residency",
+        "nmc_oet",
+        "nmba_registration_standard"
+      ],
+      "last_verified_at": "2026-04-18T17:09:56+04:00",
+      "reason": "These are the only clearly evidenced entities in the route."
+    },
+    {
+      "field_id": "verified_requirements",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "Abu Dhabi residency: OET >= C for international graduates.",
+        "Dubai residency: OET = 300 (C+ in all categories).",
+        "UK NMC registration: reading/listening/speaking >= B and writing >= C+.",
+        "Australia NMBA registration: minimum B in each of the four components."
+      ],
+      "claim_refs": [
+        "c_005",
+        "c_006",
+        "c_007",
+        "c_008"
+      ],
+      "source_refs": [
+        "doh_residency",
+        "dha_residency",
+        "nmc_oet",
+        "nmba_registration_standard"
+      ],
+      "last_verified_at": "2026-04-18T17:09:56+04:00",
+      "reason": "These are the route-safe threshold facts."
+    },
+    {
+      "field_id": "free_official_substitutes",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "OET free official sample tests"
+      ],
+      "claim_refs": [
+        "c_009"
+      ],
+      "source_refs": [
+        "oet_sample_tests"
+      ],
+      "last_verified_at": "2026-04-18T17:09:56+04:00",
+      "reason": "Important pricing-pressure context that survives strict source review."
+    },
+    {
+      "field_id": "hard_blockers",
+      "status": "safe",
+      "confidence_band": "high",
+      "value": [
+        "GCC-wide scope is not publicly verified; the safe route is UAE plus selected UK/Australia regulator acceptance.",
+        "Official OET acceptance does not prove that this specific course or its own certificate is sufficient for DHA or DoH pathways.",
+        "The 94-lead pilot number is internal only.",
+        "Repricing as a market-fit fix is a commercial hypothesis, not a verified fact.",
+        "No public source supports pass-guarantee language."
+      ],
+      "claim_refs": [
+        "ext_003",
+        "ext_004",
+        "ext_005",
+        "int_001",
+        "int_002",
+        "int_003",
+        "int_004"
+      ],
+      "source_refs": [
+        "oet_about_test",
+        "oet_uae",
+        "doh_residency",
+        "dha_residency",
+        "oet_sample_tests"
+      ],
+      "last_verified_at": "2026-04-18T17:09:56+04:00",
+      "reason": "These are the remaining fail-closed constraints after the rerun."
+    },
+    {
+      "field_id": "target_audience_summary",
+      "status": "analyst_only",
+      "confidence_band": "medium",
+      "value": "Healthcare professionals using OET for route-relevant English proof, especially in verified UAE pathways and selected international recognition tracks.",
+      "claim_refs": [
+        "c_001",
+        "c_002",
+        "c_003",
+        "c_004"
+      ],
+      "source_refs": [
+        "oet_about_test",
+        "oet_uae"
+      ],
+      "last_verified_at": "2026-04-18T17:09:56+04:00",
+      "omission_reason": "Useful synthesis, but not a default dashboard fact."
+    },
+    {
+      "field_id": "gcc_scope",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "int_003"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T17:09:56+04:00",
+      "omission_reason": "No public evidence supports GCC-wide route coverage."
+    },
+    {
+      "field_id": "pricing_fit",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "int_002"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T17:09:56+04:00",
+      "omission_reason": "The repricing thesis is not externally verified."
+    },
+    {
+      "field_id": "pass_guarantee",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "value": null,
+      "claim_refs": [
+        "int_004"
+      ],
+      "source_refs": [],
+      "last_verified_at": "2026-04-18T17:09:56+04:00",
+      "omission_reason": "No public support for guarantee language."
+    }
+  ]
+}
