@@ -291,7 +291,7 @@ export function ExplainabilityDrawer({
   const topConflicts = product.sourceCard.claim_conflicts.slice(0, 3);
 
   return (
-    <div className="fixed inset-0 z-50 flex justify-end">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-3">
       <button
         type="button"
         aria-label="Close drawer"
@@ -299,14 +299,14 @@ export function ExplainabilityDrawer({
         className="absolute inset-0 bg-foreground/18 backdrop-blur-[1px]"
       />
 
-      <aside className="relative z-10 h-full w-full max-w-[560px] overflow-y-auto border-l border-border bg-background shadow-2xl">
-        <div className="sticky top-0 z-10 border-b border-border bg-background/96 px-3 py-3 backdrop-blur">
+      <aside className="relative z-10 h-[calc(100vh-1.5rem)] w-[min(96vw,1680px)] overflow-y-auto rounded-2xl border border-border bg-background shadow-2xl">
+        <div className="sticky top-0 z-10 border-b border-border bg-background/96 px-5 py-4 backdrop-blur">
           <div className="flex items-start justify-between gap-3">
             <div className="min-w-0">
               <p className="text-[11px] font-medium uppercase tracking-[0.12em] text-muted-foreground">
-                Card audit · explainability drawer
+                Product research card · decision view
               </p>
-              <h2 className="mt-1 text-lg font-semibold tracking-tight">
+              <h2 className="mt-1 text-2xl font-semibold tracking-tight">
                 {product.title} ({product.code})
               </h2>
               <div className="mt-2 flex flex-wrap items-center gap-1.5">
@@ -337,7 +337,7 @@ export function ExplainabilityDrawer({
                   Founder {formatScore(product.scores.founderRank)}
                 </span>
               </div>
-              <p className="mt-2 text-xs leading-5 text-muted-foreground">{product.shortSummary}</p>
+              <p className="mt-2 max-w-4xl text-sm leading-6 text-muted-foreground">{product.shortSummary}</p>
             </div>
 
             <Button variant="outline" size="icon" onClick={onClose} aria-label="Close drawer">
@@ -358,114 +358,210 @@ export function ExplainabilityDrawer({
           </div>
         </div>
 
-        <div className="space-y-3 px-3 py-3">
-          <section className="rounded-md border border-border bg-card p-3">
-            <h3 className="text-sm font-semibold">{reasoning.title}</h3>
-            <ul className="mt-2 space-y-1 text-xs leading-5 text-muted-foreground">
-              {reasoning.bullets.map((item) => (
-                <li key={item}>• {item}</li>
-              ))}
-            </ul>
-          </section>
+        <div className="grid gap-4 px-5 py-4 xl:grid-cols-[minmax(0,1.3fr)_minmax(360px,0.85fr)]">
+          <div className="space-y-4">
+            <section className="rounded-md border border-border bg-card p-4">
+              <h3 className="text-base font-semibold">Как читать эту карточку</h3>
+              <div className="mt-3 grid gap-3 md:grid-cols-3">
+                <DetailCard
+                  label="1. Можно ли доверять"
+                  value="Сначала смотри на release status, safe / blocked и цвета полей."
+                  hint="Если поле зеленое, его можно использовать как safe layer. Голубое — это аналитическая интерпретация. Оранжевое — очередь на ручной добор."
+                />
+                <DetailCard
+                  label="2. О чем продукт"
+                  value="Дальше смотри на promise, pain, buyer и route context."
+                  hint="Это отвечает на вопрос: что именно мы продаем, кому, на каком основании и где ломается логика."
+                />
+                <DetailCard
+                  label="3. Что решать дальше"
+                  value="В конце смотри на blockers, conflicts, proof stack и dependencies."
+                  hint="Это operational слой: что мешает запуску, чего не хватает, где нужен ручной validation."
+                />
+              </div>
+            </section>
 
-          <section className="rounded-md border border-border bg-card p-3">
-            <h3 className="text-sm font-semibold">V2 release layer</h3>
-            <div className="mt-2 grid gap-2.5 md:grid-cols-2">
-              <DetailCard
-                label="Release status"
-                value={product.releaseStatus}
-                hint="Fail-closed release gate from the v2 research run."
-              />
-              <DetailCard
-                label="Segment"
-                value={product.quadrantSegment}
-                hint="Commercial validation segment used for experiment design and quadrant placement."
-              />
-              <DetailCard
-                label="Validation model"
-                value={product.validationModel ?? "Not yet specified"}
-              />
-              <DetailCard
-                label="Validation velocity"
-                value={
-                  product.validationVelocityScore !== null
-                    ? `${product.validationVelocityScore}/5`
-                    : "Not yet scored"
-                }
-              />
-              <DetailCard
-                label="Time to first €"
-                value={
-                  product.timeToFirstEuroScore !== null
-                    ? `${product.timeToFirstEuroScore}/5`
-                    : "Not yet scored"
-                }
-              />
-              <DetailCard
-                label="Regulatory friction (inverse)"
-                value={
-                  product.regulatoryFrictionInverseScore !== null
-                    ? `${product.regulatoryFrictionInverseScore}/5`
-                    : "Not yet scored"
-                }
-              />
-              <DetailCard
-                label="Overall confidence"
-                value={product.overallConfidenceBand}
-              />
-              <DetailCard
-                label="Safe vs blocked"
-                value={`${product.safeFieldCount} safe / ${product.blockedFieldCount} blocked`}
-              />
-            </div>
-          </section>
+            <section className="rounded-md border border-border bg-card p-4">
+              <h3 className="text-base font-semibold">{reasoning.title}</h3>
+              <ul className="mt-3 space-y-2 text-sm leading-6 text-muted-foreground">
+                {reasoning.bullets.map((item) => (
+                  <li key={item}>• {item}</li>
+                ))}
+              </ul>
+            </section>
 
-          <section className="rounded-md border border-border bg-card p-3">
-            <h3 className="text-sm font-semibold">Легенда доверия</h3>
-            <p className="mt-1 text-xs leading-5 text-muted-foreground">
-              Карточка теперь делится на три слоя: что подтверждено и безопасно для решений, что пока остается аналитическим,
-              и что еще требует ручного добора или внешнего подтверждения.
-            </p>
-            <div className="mt-3 grid gap-2.5">
-              <LegendChip
-                title="Светло-зеленый: проверено"
-                description="Поле прошло в dashboard-safe слой. Его можно использовать в решениях, copy и приоритизации, но все равно смотреть на конкретный source context."
-                tone="border-emerald-200 bg-emerald-50/80"
-              />
-              <LegendChip
-                title="Светло-голубой: аналитическое"
-                description="Поле полезно для мышления и сегментации, но это уже сжатая аналитическая формулировка, а не чистый публичный факт. Использовать как рабочую гипотезу, не как жесткое обещание."
-                tone="border-sky-200 bg-sky-50/80"
-              />
-              <LegendChip
-                title="Светло-оранжевый: собрать вручную"
-                description="Поле не прошло release gate или требует внешнего добора. Его нельзя использовать как подтвержденное. Это очередь на ручную валидацию."
-                tone="border-orange-200 bg-orange-50/90"
-              />
-            </div>
-          </section>
+            <section className="rounded-md border border-border bg-card p-4">
+              <h3 className="text-base font-semibold">Легенда доверия</h3>
+              <p className="mt-1 text-sm leading-6 text-muted-foreground">
+                Карточка делится на три слоя: что подтверждено и безопасно для решений, что пока остается аналитическим,
+                и что еще требует ручного добора или внешнего подтверждения.
+              </p>
+              <div className="mt-3 grid gap-2.5 md:grid-cols-3">
+                <LegendChip
+                  title="Светло-зеленый: проверено"
+                  description="Поле прошло в dashboard-safe слой. Его можно использовать в решениях, copy и приоритизации."
+                  tone="border-emerald-200 bg-emerald-50/80"
+                />
+                <LegendChip
+                  title="Светло-голубой: аналитическое"
+                  description="Поле полезно для мышления, но это уже аналитическая формулировка, а не чистый публичный факт."
+                  tone="border-sky-200 bg-sky-50/80"
+                />
+                <LegendChip
+                  title="Светло-оранжевый: собрать вручную"
+                  description="Поле не прошло release gate или требует внешнего добора. Это очередь на ручную валидацию."
+                  tone="border-orange-200 bg-orange-50/90"
+                />
+              </div>
+            </section>
 
-          <FieldGroup
-            title="Проверенные собранные данные"
-            description="Это поля, которые survived fact-checking и попали в безопасный слой для дашборда."
-            entries={product.safeFieldEntries}
-          />
+            <section className="rounded-md border border-border bg-card p-4">
+              <h3 className="text-base font-semibold">Что это за продукт</h3>
+              <div className="mt-3 grid gap-3 md:grid-cols-2">
+                <DetailCard
+                  label="Текущее обещание"
+                  value={product.sourceCard.product_summary.claimed_outcome}
+                  hint="Это promise после fact-checking. Если раньше в карточке было шире, здесь осталась только выжившая безопасная формулировка."
+                />
+                <DetailCard
+                  label="Главная боль"
+                  value={product.sourceCard.product_summary.core_pain}
+                  hint="На какой проблеме сейчас держится продукт после очистки claims."
+                />
+                <DetailCard
+                  label="Primary buyer"
+                  value={product.sourceCard.buyer_analysis.primary_buyer_type.value}
+                  hint={product.sourceCard.buyer_analysis.primary_buyer_type.reason}
+                />
+                <DetailCard
+                  label="Budget owner"
+                  value={product.sourceCard.buyer_analysis.budget_owner.value}
+                  hint={product.sourceCard.buyer_analysis.budget_owner.reason}
+                />
+              </div>
 
-          <FieldGroup
-            title="Аналитические поля"
-            description="Это собранные данные, которые полезны для понимания рынка и route, но пока оставлены как analyst-only."
-            entries={product.analystFieldEntries}
-          />
+              <div className="mt-4 grid gap-4 lg:grid-cols-2">
+                <div>
+                  <p className="text-xs font-medium">Secondary buyer types</p>
+                  <div className="mt-2.5 flex flex-wrap gap-1.5">
+                    {product.sourceCard.buyer_analysis.secondary_buyer_types.map((item) => (
+                      <Badge key={`${item.value}-${item.reason}`} variant="secondary" className="rounded-lg px-2.5 py-1 text-xs">
+                        {item.value}
+                      </Badge>
+                    ))}
+                    {product.sourceCard.buyer_analysis.secondary_buyer_types.length === 0 ? (
+                      <p className="text-muted-foreground">No secondary buyers recorded.</p>
+                    ) : null}
+                  </div>
+                </div>
+                <div>
+                  <p className="text-xs font-medium">Buyer influencers</p>
+                  <div className="mt-2.5 flex flex-wrap gap-1.5">
+                    {product.sourceCard.buyer_analysis.buyer_influencers.map((item) => (
+                      <Badge key={`${item.value}-${item.reason}`} variant="outline" className="rounded-lg px-2.5 py-1 text-xs">
+                        {item.value}
+                      </Badge>
+                    ))}
+                    {product.sourceCard.buyer_analysis.buyer_influencers.length === 0 ? (
+                      <p className="text-muted-foreground">No influencer roles recorded.</p>
+                    ) : null}
+                  </div>
+                </div>
+              </div>
+            </section>
 
-          <FieldGroup
-            title="Поля для ручного добора"
-            description="Это поля, которые не прошли release gate и требуют ручной проверки, route-owner input или дополнительных источников."
-            entries={product.blockedFieldEntries}
-          />
+            <FieldGroup
+              title="Проверенные собранные данные"
+              description="Это главный truth layer. Смотри сюда первым: эти поля survived fact-checking и попали в безопасный слой для решений."
+              entries={product.safeFieldEntries}
+            />
 
-          <section className="grid gap-3 xl:grid-cols-[minmax(0,1fr)_190px]">
-            <div className="rounded-md border border-border bg-card p-3">
-              <h3 className="text-sm font-semibold">Why it sits here</h3>
+            <FieldGroup
+              title="Аналитические поля"
+              description="Это слой интерпретации. Он полезен, чтобы понять сегмент, аудиторию и route, но не должен подменять собой жесткий факт."
+              entries={product.analystFieldEntries}
+            />
+
+            <FieldGroup
+              title="Поля для ручного добора"
+              description="Это текущая queue на ручную проверку. Именно эти поля чаще всего двигают продукт из review в blocked или наоборот."
+              entries={product.blockedFieldEntries}
+            />
+
+            <section className="rounded-md border border-border bg-card p-4">
+              <h3 className="text-base font-semibold">Top conflicts и что именно ломается</h3>
+              <div className="mt-3 space-y-2.5">
+                {topConflicts.length > 0 ? (
+                  topConflicts.map((conflict: FounderRowRecord["sourceCard"]["claim_conflicts"][number]) => (
+                    <article key={`${conflict.claim_area}-${conflict.claim_text}`} className="rounded-md border border-border bg-background px-3 py-2.5">
+                      <div className="flex flex-wrap items-start justify-between gap-3">
+                        <div>
+                          <p className="text-sm font-semibold">{conflict.claim_area}</p>
+                          <p className="mt-1 text-xs text-muted-foreground">{conflict.claim_text}</p>
+                        </div>
+                        <span className={cn("inline-flex rounded-lg px-2.5 py-1 text-xs font-semibold", severityTone(conflict.severity))}>
+                          {conflict.severity}
+                        </span>
+                      </div>
+                      <p className="mt-2 text-xs leading-5 text-muted-foreground">{conflict.what_is_wrong}</p>
+                    </article>
+                  ))
+                ) : (
+                  <p className="text-muted-foreground">No structured claim conflicts recorded for this card.</p>
+                )}
+              </div>
+            </section>
+          </div>
+
+          <div className="space-y-4 xl:sticky xl:top-[104px] xl:self-start">
+            <section className="rounded-md border border-border bg-card p-4">
+              <h3 className="text-base font-semibold">Статус и решение</h3>
+              <div className="mt-3 grid gap-3 md:grid-cols-2 xl:grid-cols-1 2xl:grid-cols-2">
+                <DetailCard
+                  label="Release status"
+                  value={product.releaseStatus}
+                  hint="Главный gate: можно ли безопасно использовать текущий продуктовый narrative."
+                />
+                <DetailCard
+                  label="Segment"
+                  value={product.quadrantSegment}
+                  hint="Какой тип валидации нужен: enterprise motion или direct learner motion."
+                />
+                <DetailCard
+                  label="Validation model"
+                  value={product.validationModel ?? "Not yet specified"}
+                  hint="Каким экспериментом вообще надо проверять эту гипотезу."
+                />
+                <DetailCard
+                  label="Safe vs blocked"
+                  value={`${product.safeFieldCount} safe / ${product.blockedFieldCount} blocked`}
+                  hint="Быстрый индикатор: сколько в карточке реально usable, а сколько еще нельзя брать в работу как факт."
+                />
+                <DetailCard
+                  label="Validation velocity"
+                  value={product.validationVelocityScore !== null ? `${product.validationVelocityScore}/5` : "Not yet scored"}
+                  hint="Насколько быстро можно получить pass/kill signal."
+                />
+                <DetailCard
+                  label="Time to first €"
+                  value={product.timeToFirstEuroScore !== null ? `${product.timeToFirstEuroScore}/5` : "Not yet scored"}
+                  hint="Сколько времени до первого реального money signal."
+                />
+                <DetailCard
+                  label="Regulatory friction (inverse)"
+                  value={product.regulatoryFrictionInverseScore !== null ? `${product.regulatoryFrictionInverseScore}/5` : "Not yet scored"}
+                  hint="Чем ниже значение, тем тяжелее route из-за регуляторики."
+                />
+                <DetailCard
+                  label="Overall confidence"
+                  value={product.overallConfidenceBand}
+                  hint="Общий confidence band коммерческого слоя на текущем шаге."
+                />
+              </div>
+            </section>
+
+            <section className="rounded-md border border-border bg-card p-4">
+              <h3 className="text-base font-semibold">Как продукт сидит в портфеле</h3>
               <div className="mt-3 space-y-2.5">
                 {COMPOSITE_METRICS.map((metric) => (
                   <MetricRow
@@ -476,225 +572,125 @@ export function ExplainabilityDrawer({
                   />
                 ))}
               </div>
-            </div>
+            </section>
 
-            <div className="space-y-3">
-              <section className="rounded-md border border-border bg-card p-3">
-                <h3 className="text-sm font-semibold">Raw load factors</h3>
-                <div className="mt-2 space-y-2">
-                  {RAW_LOAD_FACTORS.map((item) => (
-                    <RawRow
-                      key={item.key}
-                      label={item.label}
-                      value={product.rawFactors[item.key]}
-                      scale={item.scale}
-                    />
+            <section className="rounded-md border border-border bg-card p-4">
+              <h3 className="text-base font-semibold">Качество данных</h3>
+              <div className="mt-3 space-y-2 text-sm">
+                <div className="flex items-center justify-between gap-3">
+                  <span className="text-muted-foreground">Source coverage</span>
+                  <span className="font-semibold">{Math.round(product.qualitySignals.sourceCoverage * 100)}%</span>
+                </div>
+                <div className="flex items-center justify-between gap-3">
+                  <span className="text-muted-foreground">Avg field confidence</span>
+                  <span className="font-semibold">{Math.round(product.qualitySignals.avgFieldConfidence * 100)}%</span>
+                </div>
+                <div className="flex items-center justify-between gap-3">
+                  <span className="text-muted-foreground">Unverified claims</span>
+                  <span className="font-semibold">{product.qualitySignals.unverifiedClaimsCount}</span>
+                </div>
+                <div className="flex items-center justify-between gap-3">
+                  <span className="text-muted-foreground">High conflicts</span>
+                  <span className="font-semibold">{product.qualitySignals.highConflictCount}</span>
+                </div>
+                <div className="flex items-center justify-between gap-3">
+                  <span className="text-muted-foreground">Medium conflicts</span>
+                  <span className="font-semibold">{product.qualitySignals.mediumConflictCount}</span>
+                </div>
+              </div>
+            </section>
+
+            <section className="rounded-md border border-border bg-card p-4">
+              <h3 className="text-base font-semibold">Route и delivery context</h3>
+              <div className="mt-3 grid gap-3 md:grid-cols-2 xl:grid-cols-1 2xl:grid-cols-2">
+                <DetailCard
+                  label="Market bucket"
+                  value={product.marketBadge}
+                  hint="Основная география портфеля."
+                />
+                <DetailCard
+                  label="Primary route"
+                  value={product.primaryRouteCountry ?? "Mixed / not singular"}
+                  hint="Где route наиболее конкретен."
+                />
+                <DetailCard
+                  label="Delivery language"
+                  value={product.deliveryLanguage ?? "Unknown"}
+                  hint="На каком языке route и delivery выглядят наиболее реалистично."
+                />
+                <DetailCard
+                  label="Regulatory context"
+                  value={product.regulatoryContextLabel ?? "Unregulated or unclear"}
+                  hint="Насколько route зависит от regulatory framing."
+                />
+                <DetailCard
+                  label="Scope variance"
+                  value={product.scopeVarianceRisk}
+                  hint="Насколько текущий scope стабилен внутри выбранной географии."
+                />
+                <DetailCard
+                  label="Expansion variance"
+                  value={product.expansionVarianceRisk}
+                  hint="Что случится, если мы попытаемся перенести продукт в соседние сегменты или страны."
+                />
+              </div>
+
+              <div className="mt-4">
+                <p className="text-xs font-medium">Proof stack</p>
+                <div className="mt-2.5 flex flex-wrap gap-1.5">
+                  {product.proofStack.map((item) => (
+                    <Badge key={item} variant="outline" className="rounded-lg px-2.5 py-1 text-xs">
+                      {item}
+                    </Badge>
                   ))}
+                  {product.proofStack.length === 0 ? (
+                    <p className="text-muted-foreground">No proof stack values in current card.</p>
+                  ) : null}
                 </div>
-              </section>
+              </div>
+            </section>
 
-              <section className="rounded-md border border-border bg-card p-3">
-                <h3 className="text-sm font-semibold">Data quality</h3>
-                <div className="mt-2 space-y-2 text-xs">
-                  <div className="flex items-center justify-between gap-3">
-                    <span className="text-muted-foreground">Source coverage</span>
-                    <span className="font-semibold">{Math.round(product.qualitySignals.sourceCoverage * 100)}%</span>
-                  </div>
-                  <div className="flex items-center justify-between gap-3">
-                    <span className="text-muted-foreground">Avg field confidence</span>
-                    <span className="font-semibold">{Math.round(product.qualitySignals.avgFieldConfidence * 100)}%</span>
-                  </div>
-                  <div className="flex items-center justify-between gap-3">
-                    <span className="text-muted-foreground">Unverified claims</span>
-                    <span className="font-semibold">{product.qualitySignals.unverifiedClaimsCount}</span>
-                  </div>
-                  <div className="flex items-center justify-between gap-3">
-                    <span className="text-muted-foreground">High conflicts</span>
-                    <span className="font-semibold">{product.qualitySignals.highConflictCount}</span>
-                  </div>
-                  <div className="flex items-center justify-between gap-3">
-                    <span className="text-muted-foreground">Medium conflicts</span>
-                    <span className="font-semibold">{product.qualitySignals.mediumConflictCount}</span>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </section>
-
-          <section className="rounded-md border border-border bg-card p-3">
-            <h3 className="text-sm font-semibold">Operator matrix row</h3>
-            <div className="mt-2 grid gap-2.5 md:grid-cols-2">
-              <DetailCard
-                label="Matrix market"
-                value={product.operatorMatrix.market}
-              />
-              <DetailCard
-                label="Matrix stage"
-                value={product.operatorMatrix.stage}
-              />
-              <DetailCard
-                label="Matrix archetype"
-                value={product.operatorMatrix.archetype}
-              />
-              <DetailCard
-                label="Operator difficulty"
-                value={product.operatorMatrix.operatorDifficulty}
-              />
-              <DetailCard
-                label="Time to signal"
-                value={product.operatorMatrix.timeToSignal}
-              />
-              <DetailCard
-                label="First-launch fit"
-                value={product.operatorMatrix.firstLaunchFit}
-              />
-            </div>
-            <div className="mt-3 rounded-xl border border-border bg-background px-3 py-3">
-              <p className="text-[11px] uppercase tracking-[0.1em] text-muted-foreground">Why</p>
-              <p className="mt-1.5 text-xs leading-5 text-foreground">{product.operatorMatrix.rationale}</p>
-            </div>
-          </section>
-
-          <section className="rounded-md border border-border bg-card p-3">
-            <h3 className="text-sm font-semibold">Dependencies</h3>
-            <div className="mt-2 flex flex-wrap gap-1.5">
-              {product.dependencyLabels.map((item: string) => (
-                <Badge key={item} variant="secondary" className="rounded-lg px-2.5 py-1 text-xs">
-                  {item}
-                </Badge>
-              ))}
-              {product.dependencyLabels.length === 0 ? (
-                <p className="text-muted-foreground">No dependency labels in current card.</p>
-              ) : null}
-            </div>
-          </section>
-
-          <section className="rounded-md border border-border bg-card p-3">
-            <h3 className="text-sm font-semibold">Route and delivery context</h3>
-            <div className="mt-2 grid gap-2.5 md:grid-cols-2">
-              <DetailCard
-                label="Market bucket"
-                value={product.marketBadge}
-                hint="Primary portfolio geography used for grouping and filtering."
-              />
-              <DetailCard
-                label="Primary route"
-                value={product.primaryRouteCountry ?? "Mixed / not singular"}
-                hint="Route-level geography stays in detail view so it does not pollute the primary market badge."
-              />
-              <DetailCard
-                label="Delivery language"
-                value={product.deliveryLanguage ?? "Unknown"}
-                hint="Best-effort route language extracted from the product framing."
-              />
-              <DetailCard
-                label="Regulatory context"
-                value={product.regulatoryContextLabel ?? "Unregulated or unclear"}
-              />
-              <DetailCard
-                label="Scope variance"
-                value={product.scopeVarianceRisk}
-                hint="Current-scope delivery variance only."
-              />
-              <DetailCard
-                label="Expansion variance"
-                value={product.expansionVarianceRisk}
-                hint="Likely variance when the same concept expands to adjacent markets or segments."
-              />
-            </div>
-
-            <div className="mt-3">
-              <p className="text-xs font-medium">Proof stack</p>
-              <div className="mt-2.5 flex flex-wrap gap-1.5">
-                {product.proofStack.map((item) => (
-                  <Badge key={item} variant="outline" className="rounded-lg px-2.5 py-1 text-xs">
+            <section className="rounded-md border border-border bg-card p-4">
+              <h3 className="text-base font-semibold">Dependencies и raw factors</h3>
+              <div className="mt-3 flex flex-wrap gap-1.5">
+                {product.dependencyLabels.map((item: string) => (
+                  <Badge key={item} variant="secondary" className="rounded-lg px-2.5 py-1 text-xs">
                     {item}
                   </Badge>
                 ))}
-                {product.proofStack.length === 0 ? (
-                  <p className="text-muted-foreground">No proof stack values in current card.</p>
+                {product.dependencyLabels.length === 0 ? (
+                  <p className="text-muted-foreground">No dependency labels in current card.</p>
                 ) : null}
               </div>
-            </div>
-          </section>
 
-          <section className="rounded-md border border-border bg-card p-3">
-            <h3 className="text-sm font-semibold">Buyer structure</h3>
-            <div className="mt-2 grid gap-2.5 md:grid-cols-2">
-              <DetailCard
-                label="Current promise"
-                value={product.sourceCard.product_summary.claimed_outcome}
-                hint="Current promise after the v2 rerun removed unsafe or unverified framing."
-              />
-              <DetailCard
-                label="Core pain"
-                value={product.sourceCard.product_summary.core_pain}
-                hint="Problem framing that survived the current fact-checked pass."
-              />
-              <DetailCard
-                label="Primary buyer"
-                value={product.sourceCard.buyer_analysis.primary_buyer_type.value}
-                hint={product.sourceCard.buyer_analysis.primary_buyer_type.reason}
-              />
-              <DetailCard
-                label="Budget owner"
-                value={product.sourceCard.buyer_analysis.budget_owner.value}
-                hint={product.sourceCard.buyer_analysis.budget_owner.reason}
-              />
-            </div>
-
-            <div className="mt-3">
-              <p className="text-xs font-medium">Secondary buyer types</p>
-              <div className="mt-2.5 flex flex-wrap gap-1.5">
-                {product.sourceCard.buyer_analysis.secondary_buyer_types.map((item) => (
-                  <Badge key={`${item.value}-${item.reason}`} variant="secondary" className="rounded-lg px-2.5 py-1 text-xs">
-                    {item.value}
-                  </Badge>
+              <div className="mt-4 space-y-2">
+                {RAW_LOAD_FACTORS.map((item) => (
+                  <RawRow
+                    key={item.key}
+                    label={item.label}
+                    value={product.rawFactors[item.key]}
+                    scale={item.scale}
+                  />
                 ))}
-                {product.sourceCard.buyer_analysis.secondary_buyer_types.length === 0 ? (
-                  <p className="text-muted-foreground">No secondary buyers recorded.</p>
-                ) : null}
               </div>
-            </div>
+            </section>
 
-            <div className="mt-3">
-              <p className="text-xs font-medium">Buyer influencers</p>
-              <div className="mt-2.5 flex flex-wrap gap-1.5">
-                {product.sourceCard.buyer_analysis.buyer_influencers.map((item) => (
-                  <Badge key={`${item.value}-${item.reason}`} variant="outline" className="rounded-lg px-2.5 py-1 text-xs">
-                    {item.value}
-                  </Badge>
-                ))}
-                {product.sourceCard.buyer_analysis.buyer_influencers.length === 0 ? (
-                  <p className="text-muted-foreground">No influencer roles recorded.</p>
-                ) : null}
+            <section className="rounded-md border border-border bg-card p-4">
+              <h3 className="text-base font-semibold">Operator matrix row</h3>
+              <div className="mt-3 grid gap-3 md:grid-cols-2 xl:grid-cols-1 2xl:grid-cols-2">
+                <DetailCard label="Matrix market" value={product.operatorMatrix.market} />
+                <DetailCard label="Matrix stage" value={product.operatorMatrix.stage} />
+                <DetailCard label="Matrix archetype" value={product.operatorMatrix.archetype} />
+                <DetailCard label="Operator difficulty" value={product.operatorMatrix.operatorDifficulty} />
+                <DetailCard label="Time to signal" value={product.operatorMatrix.timeToSignal} />
+                <DetailCard label="First-launch fit" value={product.operatorMatrix.firstLaunchFit} />
               </div>
-            </div>
-          </section>
-
-          <section className="rounded-md border border-border bg-card p-3">
-            <h3 className="text-sm font-semibold">Top conflicts</h3>
-            <div className="mt-2 space-y-2.5">
-              {topConflicts.length > 0 ? (
-                topConflicts.map((conflict: FounderRowRecord["sourceCard"]["claim_conflicts"][number]) => (
-                  <article key={`${conflict.claim_area}-${conflict.claim_text}`} className="rounded-md border border-border bg-background px-3 py-2.5">
-                    <div className="flex flex-wrap items-start justify-between gap-3">
-                      <div>
-                        <p className="text-sm font-semibold">{conflict.claim_area}</p>
-                        <p className="mt-1 text-xs text-muted-foreground">{conflict.claim_text}</p>
-                      </div>
-                      <span className={cn("inline-flex rounded-lg px-2.5 py-1 text-xs font-semibold", severityTone(conflict.severity))}>
-                        {conflict.severity}
-                      </span>
-                    </div>
-                    <p className="mt-2 text-xs leading-5 text-muted-foreground">{conflict.what_is_wrong}</p>
-                  </article>
-                ))
-              ) : (
-                <p className="text-muted-foreground">No structured claim conflicts recorded for this card.</p>
-              )}
-            </div>
-          </section>
+              <div className="mt-3 rounded-xl border border-border bg-background px-3 py-3">
+                <p className="text-[11px] uppercase tracking-[0.1em] text-muted-foreground">Why</p>
+                <p className="mt-1.5 text-xs leading-5 text-foreground">{product.operatorMatrix.rationale}</p>
+              </div>
+            </section>
+          </div>
         </div>
       </aside>
     </div>
