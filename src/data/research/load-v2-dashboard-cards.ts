@@ -199,7 +199,12 @@ function formatFieldValue(value: unknown): string {
   if (typeof value === "string") return value;
   if (typeof value === "number" || typeof value === "boolean") return String(value);
   if (value === null || value === undefined) return "—";
-  return JSON.stringify(value);
+  if (typeof value === "object") {
+    return Object.entries(value as Record<string, unknown>)
+      .map(([key, entryValue]) => `${humanizeFieldKey(key)}: ${formatFieldValue(entryValue)}`)
+      .join(" · ");
+  }
+  return String(value);
 }
 
 function confidenceToNumber(value: ConfidenceBand | "unknown" | undefined) {
