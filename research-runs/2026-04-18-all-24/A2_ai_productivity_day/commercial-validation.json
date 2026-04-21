@@ -154,6 +154,31 @@
     "reference_analog_domains": [],
     "next_research_step": "refine WTP/CAC with keyword overview and price checks",
     "synced_from_scorecard_at": "2026-04-21T10:13:00.408Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 3/3 anchor families with total local query volume 10 and max anchor volume 10. Next step: refine WTP/CAC with keyword overview and price checks."
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 3/3 anchor families with total local query volume 10 and max anchor volume 10. Next step: refine WTP/CAC with keyword overview and price checks. Independent-operator signal: weak. Examples: House of Training (private_school_or_academy). The problem is real enough to sell training around it, but visible supply is still broad-provider-led. Why not stronger: No fragmented operator cluster or strong public pricing layer is yet confirmed.",
+    "independent_operator_summary": {
+      "signal": "weak",
+      "independent_operator_examples": [
+        {
+          "name": "House of Training",
+          "classification": "private_school_or_academy",
+          "evidence": "Public practical AI and ChatGPT business courses prove the category is already monetized in Luxembourg."
+        }
+      ],
+      "operator_types_seen": [
+        "private_school_or_academy"
+      ],
+      "supporting_queries": [
+        "ai workshop luxembourg",
+        "ai training luxembourg",
+        "ai productivity training"
+      ],
+      "pricing_or_offer_proof": [
+        "Current validated evidence proves practical paid AI training exists, but no clean small-operator price layer was captured."
+      ],
+      "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+      "takeaway": "The problem is real enough to sell training around it, but visible supply is still broad-provider-led.",
+      "why_not_stronger": "No fragmented operator cluster or strong public pricing layer is yet confirmed.",
+      "synced_at": "2026-04-21T15:12:29.357Z"
+    }
   }
 }

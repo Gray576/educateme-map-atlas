@@ -169,6 +169,32 @@
     "reference_analog_domains": [],
     "next_research_step": "refine WTP/CAC with keyword overview and price checks",
     "synced_from_scorecard_at": "2026-04-21T10:13:00.396Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 3/3 anchor families with total local query volume 130 and max anchor volume 110. Next step: refine WTP/CAC with keyword overview and price checks."
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 3/3 anchor families with total local query volume 130 and max anchor volume 110. Next step: refine WTP/CAC with keyword overview and price checks. Independent-operator signal: weak. Examples: House of Training (private_school_or_academy). There is commercial AI training supply, but current proof is academy-led rather than a fragmented small-operator market. Why not stronger: Only a narrow visible competitor set is validated and no independent small-provider cluster is confirmed.",
+    "independent_operator_summary": {
+      "signal": "weak",
+      "independent_operator_examples": [
+        {
+          "name": "House of Training",
+          "classification": "private_school_or_academy",
+          "evidence": "Public Luxembourg competitor with AI fundamentals, AI Act, and AI risk/data-protection courses."
+        }
+      ],
+      "operator_types_seen": [
+        "private_school_or_academy",
+        "official_or_institutional"
+      ],
+      "supporting_queries": [
+        "ai training luxembourg",
+        "ai literacy training",
+        "ai act training"
+      ],
+      "pricing_or_offer_proof": [
+        "Visible Luxembourg competitor prices for short AI courses cluster around 175-180 EUR."
+      ],
+      "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+      "takeaway": "There is commercial AI training supply, but current proof is academy-led rather than a fragmented small-operator market.",
+      "why_not_stronger": "Only a narrow visible competitor set is validated and no independent small-provider cluster is confirmed.",
+      "synced_at": "2026-04-21T15:12:29.357Z"
+    }
   }
 }

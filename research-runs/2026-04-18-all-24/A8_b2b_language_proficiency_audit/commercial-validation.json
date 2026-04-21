@@ -216,6 +216,42 @@
     "reference_analog_domains": [],
     "next_research_step": "map lane keywords into product-level commercial notes",
     "synced_from_scorecard_at": "2026-04-21T10:13:00.388Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 5/3 anchor families with total local query volume 590 and max anchor volume 320. Lane rollup contains 24 deduplicated keywords, including 5 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: french classes luxembourg (P2, vol 390), french courses luxembourg (P2, vol 390), language courses luxembourg (P2, vol 320), cours de français luxembourg (P2, vol 140), cours de langue luxembourg (P2, vol 140). Cross-border Luxembourg-intent layer: 3 relevant keywords; top terms french classes luxembourg, french courses luxembourg, language courses luxembourg. Next step: map lane keywords into product-level commercial notes."
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 5/3 anchor families with total local query volume 590 and max anchor volume 320. Lane rollup contains 24 deduplicated keywords, including 5 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: french classes luxembourg (P2, vol 390), french courses luxembourg (P2, vol 390), language courses luxembourg (P2, vol 320), cours de français luxembourg (P2, vol 140), cours de langue luxembourg (P2, vol 140). Cross-border Luxembourg-intent layer: 3 relevant keywords; top terms french classes luxembourg, french courses luxembourg, language courses luxembourg. Next step: map lane keywords into product-level commercial notes. Independent-operator signal: weak. Examples: Allingua (private_school_or_academy), Pipplet (unknown), Pearson Versant (unknown). The need is commercially legible, but the visible market is dominated by testing platforms and broader providers, not by a clear fragmented operator layer. Why not stronger: Current evidence proves substitute tools, not a cluster of small local audit specialists.",
+    "independent_operator_summary": {
+      "signal": "weak",
+      "independent_operator_examples": [
+        {
+          "name": "Allingua",
+          "classification": "private_school_or_academy",
+          "evidence": "Local multilingual provider with Luxembourg-linked language testing and training footprint."
+        },
+        {
+          "name": "Pipplet",
+          "classification": "unknown",
+          "evidence": "Commercial assessment platform relevant to the audit use case, but not a fragmented local operator."
+        },
+        {
+          "name": "Pearson Versant",
+          "classification": "unknown",
+          "evidence": "Assessment benchmark proving substitute tooling exists, not a small private operator layer."
+        }
+      ],
+      "operator_types_seen": [
+        "private_school_or_academy",
+        "unknown"
+      ],
+      "supporting_queries": [
+        "language courses luxembourg",
+        "cours de langue luxembourg",
+        "language school luxembourg"
+      ],
+      "pricing_or_offer_proof": [
+        "Current evidence proves substitute tools and providers, but not a clean public price layer for specialist language audits."
+      ],
+      "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+      "takeaway": "The need is commercially legible, but the visible market is dominated by testing platforms and broader providers, not by a clear fragmented operator layer.",
+      "why_not_stronger": "Current evidence proves substitute tools, not a cluster of small local audit specialists.",
+      "synced_at": "2026-04-21T15:12:29.357Z"
+    }
   }
 }

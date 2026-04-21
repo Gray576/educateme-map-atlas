@@ -316,6 +316,47 @@
       ],
       "confidence_band": "low",
       "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "independent_operator_summary": {
+      "value": {
+        "signal": "medium",
+        "independent_operator_examples": [
+          {
+            "name": "AcademyOcean",
+            "classification": "independent_operator",
+            "evidence": "Focused operator with strong non-branded white-label LMS rankings."
+          },
+          {
+            "name": "Oasis LMS",
+            "classification": "independent_operator",
+            "evidence": "Focused operator ranking on the same non-branded white-label LMS cluster."
+          },
+          {
+            "name": "TalentLMS",
+            "classification": "private_school_or_academy",
+            "evidence": "Larger commercial benchmark proving the lane is real, not whitespace."
+          }
+        ],
+        "operator_types_seen": [
+          "independent_operator",
+          "private_school_or_academy"
+        ],
+        "supporting_queries": [
+          "white label elearning",
+          "white label elearning platform",
+          "white label lms",
+          "course licensing"
+        ],
+        "pricing_or_offer_proof": [
+          "Reference-market evidence includes strong non-branded commercial rankings, though public price normalization is still incomplete."
+        ],
+        "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+        "takeaway": "This is a real operator market with focused commercial players ranking on non-branded terms.",
+        "why_not_stronger": "The strongest proof is in reference markets and keyword traction, not yet in a full public price map.",
+        "synced_at": "2026-04-21T15:12:29.357Z"
+      },
+      "confidence_band": "medium",
+      "omission_reason": "Derived independent-operator signal for prioritization and further market research. Keep it out of customer-facing copy until translated into product-safe language."
     }
   },
   "verification_summary": {

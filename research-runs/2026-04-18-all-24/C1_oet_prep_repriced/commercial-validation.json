@@ -186,6 +186,31 @@
     "reference_analog_domains": [],
     "next_research_step": "refine WTP/CAC with keyword overview and price checks",
     "synced_from_scorecard_at": "2026-04-21T10:13:00.392Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: US. Captured 3/3 anchor families with total local query volume 920 and max anchor volume 590. Lane rollup contains 25 deduplicated keywords, including 4 P1 terms. Current watchlist domains: oet.com, e2language.com, google.com, apple.com, cambridgeenglish.org. Top follow-up keywords: oet preparation material (P2, vol 70), oet preparation course (P2, vol 50), oet preparation courses (P2, vol 50), oet preparation materials (P2, vol 50), oet exam sample test (P1, vol 260). Next step: refine WTP/CAC with keyword overview and price checks."
+    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: US. Captured 3/3 anchor families with total local query volume 920 and max anchor volume 590. Lane rollup contains 25 deduplicated keywords, including 4 P1 terms. Current watchlist domains: oet.com, e2language.com, google.com, apple.com, cambridgeenglish.org. Top follow-up keywords: oet preparation material (P2, vol 70), oet preparation course (P2, vol 50), oet preparation courses (P2, vol 50), oet preparation materials (P2, vol 50), oet exam sample test (P1, vol 260). Next step: refine WTP/CAC with keyword overview and price checks. Independent-operator signal: weak. Examples: Official OET sample tests (official_or_institutional). The exam route is real, but this layer is currently better evidenced by official substitutes than by validated operator fragmentation. Why not stronger: A clean, validated set of prep operators has not yet been written into the card.",
+    "independent_operator_summary": {
+      "signal": "weak",
+      "independent_operator_examples": [
+        {
+          "name": "Official OET sample tests",
+          "classification": "official_or_institutional",
+          "evidence": "Free official substitute proves route pressure and pricing pressure."
+        }
+      ],
+      "operator_types_seen": [
+        "official_or_institutional"
+      ],
+      "supporting_queries": [
+        "oet preparation",
+        "oet sample test",
+        "oet practice test"
+      ],
+      "pricing_or_offer_proof": [
+        "Current validated evidence proves route pressure and free official substitutes more clearly than a fragmented prep-operator map."
+      ],
+      "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+      "takeaway": "The exam route is real, but this layer is currently better evidenced by official substitutes than by validated operator fragmentation.",
+      "why_not_stronger": "A clean, validated set of prep operators has not yet been written into the card.",
+      "synced_at": "2026-04-21T15:12:29.357Z"
+    }
   }
 }

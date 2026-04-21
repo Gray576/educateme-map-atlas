@@ -241,6 +241,43 @@
     ],
     "next_research_step": "refine WTP/CAC with keyword overview and price checks",
     "synced_from_scorecard_at": "2026-04-21T10:13:00.409Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: UK. Captured 5/5 anchor families with total local query volume 90 and max anchor volume 50. Lane rollup contains 51 deduplicated keywords, including 8 P1 terms. Top follow-up keywords: the uk is facing a drop in international nurse recruitment (P1, vol 260), international nurse recruitment uk (P1, vol 170), canadian recruitment agencies for international nurses (P1, vol 110), international nurses recruitment in uk (P1, vol 110), nursing recruitment agencies in uk for international nurses (P1, vol 110). Reference analog domains: charite.de (DE); hse.ie (IE: hse nursing jobs); lireco.se (SE). Next step: refine WTP/CAC with keyword overview and price checks."
+    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: UK. Captured 5/5 anchor families with total local query volume 90 and max anchor volume 50. Lane rollup contains 51 deduplicated keywords, including 8 P1 terms. Top follow-up keywords: the uk is facing a drop in international nurse recruitment (P1, vol 260), international nurse recruitment uk (P1, vol 170), canadian recruitment agencies for international nurses (P1, vol 110), international nurses recruitment in uk (P1, vol 110), nursing recruitment agencies in uk for international nurses (P1, vol 110). Reference analog domains: charite.de (DE); hse.ie (IE: hse nursing jobs); lireco.se (SE). Next step: refine WTP/CAC with keyword overview and price checks. Independent-operator signal: weak. Examples: HSE relocation route (official_or_institutional), Charité (official_or_institutional), LiReco (unknown). The route problem is real, but the visible analogue market is mostly institutional rather than fragmented operators. Why not stronger: Current evidence confirms analogues, not a target-market operator layer with public paid offers.",
+    "independent_operator_summary": {
+      "signal": "weak",
+      "independent_operator_examples": [
+        {
+          "name": "HSE relocation route",
+          "classification": "official_or_institutional",
+          "evidence": "Public analogue proving the route problem and bundled support pattern are real."
+        },
+        {
+          "name": "Charité",
+          "classification": "official_or_institutional",
+          "evidence": "Institutional analogue proving the underlying healthcare mobility context."
+        },
+        {
+          "name": "LiReco",
+          "classification": "unknown",
+          "evidence": "Public analogue shows the category pattern exists, but not as a clear operator-led search market."
+        }
+      ],
+      "operator_types_seen": [
+        "official_or_institutional",
+        "unknown",
+        "social_community_only"
+      ],
+      "supporting_queries": [
+        "international nurse recruitment",
+        "overseas nurse recruitment",
+        "nurse relocation package"
+      ],
+      "pricing_or_offer_proof": [
+        "Current proof shows analogue routes, but no clean agency-bundle public pricing layer."
+      ],
+      "social_funnel_signal": "Facebook search surfaced active relocation and recruitment communities around `Nursing in Germany`, `Registered Nurses for Germany`, and `Ausbildung and Nursing Job in Germany (Direct Placement in Germany)`. This is a real social-acquisition surface around the route, but the OCR pass did not verify which groups are agency-owned or tied to paid packages.",
+      "takeaway": "The route problem is real, but the visible analogue market is mostly institutional rather than fragmented operators.",
+      "why_not_stronger": "Current evidence confirms analogues, not a target-market operator layer with public paid offers.",
+      "synced_at": "2026-04-21T15:12:29.357Z"
+    }
   }
 }

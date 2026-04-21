@@ -239,6 +239,44 @@
     "reference_analog_domains": [],
     "next_research_step": "map lane keywords into product-level commercial notes",
     "synced_from_scorecard_at": "2026-04-21T10:13:00.390Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 7/3 anchor families with total local query volume 1720 and max anchor volume 880. Lane rollup contains 14 deduplicated keywords, including 3 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: cours de luxembourgeois (P1, vol 720), inl sproochentest (P1, vol 210), cours de luxembourgeois en ligne (P1, vol 140), sproochentest luxembourg (P1, vol 140), cours luxembourgeois en ligne (P1, vol 110). Cross-border Luxembourg-intent layer: 5 relevant keywords; top terms cours de luxembourgeois, inl sproochentest, cours de luxembourgeois en ligne. Next step: map lane keywords into product-level commercial notes."
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 7/3 anchor families with total local query volume 1720 and max anchor volume 880. Lane rollup contains 14 deduplicated keywords, including 3 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: cours de luxembourgeois (P1, vol 720), inl sproochentest (P1, vol 210), cours de luxembourgeois en ligne (P1, vol 140), sproochentest luxembourg (P1, vol 140), cours luxembourgeois en ligne (P1, vol 110). Cross-border Luxembourg-intent layer: 5 relevant keywords; top terms cours de luxembourgeois, inl sproochentest, cours de luxembourgeois en ligne. Next step: map lane keywords into product-level commercial notes. Independent-operator signal: medium. Examples: LuxLessons (independent_operator), Allingua (private_school_or_academy), Prolingua (private_school_or_academy). There is real paid supply in adjacent Luxembourgish training, so the underlying problem is not hypothetical. Why not stronger: Current operator proof is adjacent Luxembourgish-route demand, not a clean healthcare-specific operator cluster.",
+    "independent_operator_summary": {
+      "signal": "medium",
+      "independent_operator_examples": [
+        {
+          "name": "LuxLessons",
+          "classification": "independent_operator",
+          "evidence": "Small Luxembourgish training provider already positioned publicly in the same local language and prep market."
+        },
+        {
+          "name": "Allingua",
+          "classification": "private_school_or_academy",
+          "evidence": "Commercial Luxembourg language provider with professional-language positioning relevant to healthcare workers."
+        },
+        {
+          "name": "Prolingua",
+          "classification": "private_school_or_academy",
+          "evidence": "Established private school covering overlapping workplace-language needs."
+        }
+      ],
+      "operator_types_seen": [
+        "independent_operator",
+        "private_school_or_academy",
+        "social_community_only"
+      ],
+      "supporting_queries": [
+        "learn luxembourgish online",
+        "cours de luxembourgeois",
+        "sproochentest",
+        "sproochentest luxembourg"
+      ],
+      "pricing_or_offer_proof": [
+        "Current proof is mainly presence of paid Luxembourgish providers; no clean healthcare-specific public price signal was captured."
+      ],
+      "social_funnel_signal": "Facebook group search shows the same Luxembourgish-learning community layer (`Luxembourgish learning`, `Tandem Luxembourg`, `Luxembourgish coach/language exchange partner`), but no healthcare-specific community or operator funnel surfaced. The social layer supports underlying demand, not the medical wedge by itself.",
+      "takeaway": "There is real paid supply in adjacent Luxembourgish training, so the underlying problem is not hypothetical.",
+      "why_not_stronger": "Current operator proof is adjacent Luxembourgish-route demand, not a clean healthcare-specific operator cluster.",
+      "synced_at": "2026-04-21T15:12:29.357Z"
+    }
   }
 }

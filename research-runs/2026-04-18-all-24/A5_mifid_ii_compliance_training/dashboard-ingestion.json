@@ -183,6 +183,52 @@
       "value": [],
       "confidence_band": "medium",
       "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "independent_operator_summary": {
+      "value": {
+        "signal": "medium",
+        "independent_operator_examples": [
+          {
+            "name": "HACA Partners",
+            "classification": "independent_operator",
+            "evidence": "Specialist MiFID/compliance training body appears in the validated competitor set rather than only broad academy noise."
+          },
+          {
+            "name": "First Finance SAS",
+            "classification": "independent_operator",
+            "evidence": "Specialist finance-training provider appears in the validated external training landscape."
+          },
+          {
+            "name": "EFPA Luxembourg",
+            "classification": "independent_operator",
+            "evidence": "Specialist professional body/training route proves a focused paid competence market exists."
+          },
+          {
+            "name": "House of Training",
+            "classification": "private_school_or_academy",
+            "evidence": "Incumbent CSSF-listed provider with public MiFID route."
+          }
+        ],
+        "operator_types_seen": [
+          "independent_operator",
+          "private_school_or_academy",
+          "official_or_institutional"
+        ],
+        "supporting_queries": [
+          "formation compliance luxembourg",
+          "compliance officer formation",
+          "mifid training luxembourg"
+        ],
+        "pricing_or_offer_proof": [
+          "Validated public competitor landscape includes multiple commercial training bodies, though clean price normalization is still missing."
+        ],
+        "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+        "takeaway": "This is not just an incumbent-academy market; there is a specialist commercial competence-training layer around MiFID.",
+        "why_not_stronger": "The market exists, but current proof is stronger on provider presence than on clean search-visible small-operator pricing.",
+        "synced_at": "2026-04-21T15:12:29.357Z"
+      },
+      "confidence_band": "medium",
+      "omission_reason": "Derived independent-operator signal for prioritization and further market research. Keep it out of customer-facing copy until translated into product-safe language."
     }
   },
   "verification_summary": {

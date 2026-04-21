@@ -1,0 +1,826 @@
+[
+  {
+    "product_code": "A9",
+    "signal": "strong",
+    "independent_operator_examples": [
+      {
+        "name": "ETIC",
+        "classification": "independent_operator",
+        "evidence": "Focused Luxembourg Sproochentest preparation offer with a visible paid prep route."
+      },
+      {
+        "name": "Lux'Languages",
+        "classification": "independent_operator",
+        "evidence": "Small specialist Luxembourgish prep provider with public paid preparation positioning."
+      },
+      {
+        "name": "LuxLessons",
+        "classification": "independent_operator",
+        "evidence": "Niche Luxembourgish prep provider visible in the same route market with public online preparation messaging."
+      },
+      {
+        "name": "Prolingua",
+        "classification": "private_school_or_academy",
+        "evidence": "Broad private school with overlapping Sproochentest and Luxembourgish offers, proving the market is not empty."
+      }
+    ],
+    "operator_types_seen": [
+      "independent_operator",
+      "private_school_or_academy",
+      "official_or_institutional",
+      "social_community_only"
+    ],
+    "supporting_queries": [
+      "sproochentest luxembourg",
+      "cours de luxembourgeois",
+      "inl sproochentest",
+      "luxembourgish online course"
+    ],
+    "pricing_or_offer_proof": [
+      "Observed public alternatives range from a free online tier to roughly 745-980 EUR paid preparation offers."
+    ],
+    "social_funnel_signal": "Facebook group search surfaces a Luxembourgish-learning community layer (`Luxembourgish learning`, `Luxembourg Training, Education, Language Courses Luxembourg`, `Tandem Luxembourg`, `Luxembourgish coach/language exchange partner`). This supports top-of-funnel demand and peer exchange, but the OCR pass did not show a clear bundle-led paid funnel from those groups.",
+    "takeaway": "The route is already monetized by several small paid providers, so demand is real and fragmented rather than institution-only.",
+    "why_not_stronger": "Current evidence proves fragmented prep demand, but not bundle-specific willingness to pay or partner-led funnel behavior."
+  },
+  {
+    "product_code": "L2",
+    "signal": "medium",
+    "independent_operator_examples": [
+      {
+        "name": "LuxLessons",
+        "classification": "independent_operator",
+        "evidence": "Small Luxembourgish training provider already positioned publicly in the same local language and prep market."
+      },
+      {
+        "name": "Allingua",
+        "classification": "private_school_or_academy",
+        "evidence": "Commercial Luxembourg language provider with professional-language positioning relevant to healthcare workers."
+      },
+      {
+        "name": "Prolingua",
+        "classification": "private_school_or_academy",
+        "evidence": "Established private school covering overlapping workplace-language needs."
+      }
+    ],
+    "operator_types_seen": [
+      "independent_operator",
+      "private_school_or_academy",
+      "social_community_only"
+    ],
+    "supporting_queries": [
+      "learn luxembourgish online",
+      "cours de luxembourgeois",
+      "sproochentest",
+      "sproochentest luxembourg"
+    ],
+    "pricing_or_offer_proof": [
+      "Current proof is mainly presence of paid Luxembourgish providers; no clean healthcare-specific public price signal was captured."
+    ],
+    "social_funnel_signal": "Facebook group search shows the same Luxembourgish-learning community layer (`Luxembourgish learning`, `Tandem Luxembourg`, `Luxembourgish coach/language exchange partner`), but no healthcare-specific community or operator funnel surfaced. The social layer supports underlying demand, not the medical wedge by itself.",
+    "takeaway": "There is real paid supply in adjacent Luxembourgish training, so the underlying problem is not hypothetical.",
+    "why_not_stronger": "Current operator proof is adjacent Luxembourgish-route demand, not a clean healthcare-specific operator cluster."
+  },
+  {
+    "product_code": "L3",
+    "signal": "weak",
+    "independent_operator_examples": [
+      {
+        "name": "Prolingua specialist language",
+        "classification": "private_school_or_academy",
+        "evidence": "Commercial provider with specialist and tailor-made French offers overlapping with the product."
+      },
+      {
+        "name": "inlingua Luxembourg",
+        "classification": "private_school_or_academy",
+        "evidence": "Broad private language school serving the same general business-French lane."
+      },
+      {
+        "name": "INLL",
+        "classification": "official_or_institutional",
+        "evidence": "Institutional provider proving category demand, but not fragmented small-operator supply."
+      }
+    ],
+    "operator_types_seen": [
+      "private_school_or_academy",
+      "official_or_institutional",
+      "social_community_only"
+    ],
+    "supporting_queries": [
+      "french courses luxembourg",
+      "cours de français luxembourg",
+      "language courses luxembourg"
+    ],
+    "pricing_or_offer_proof": [
+      "No clean small-operator price proof was captured in the validated evidence set."
+    ],
+    "social_funnel_signal": "Facebook search for French-in-Luxembourg terms collapsed into general Luxembourg and expat groups rather than niche French-learning communities. This supports local newcomer demand, but not a dedicated small-operator funnel for business French.",
+    "takeaway": "Commercial supply exists, but it is led by broad schools and institutions rather than fragmented small operators.",
+    "why_not_stronger": "Current evidence shows category demand, but not a clear long tail of niche business-French operators."
+  },
+  {
+    "product_code": "A7",
+    "signal": "weak",
+    "independent_operator_examples": [
+      {
+        "name": "Prolingua",
+        "classification": "private_school_or_academy",
+        "evidence": "Commercial workplace-French provider already active in Luxembourg."
+      },
+      {
+        "name": "Allingua",
+        "classification": "private_school_or_academy",
+        "evidence": "Commercial language provider with overlapping professional-language positioning."
+      },
+      {
+        "name": "INLL",
+        "classification": "official_or_institutional",
+        "evidence": "Institutional supply confirms the lane exists, but not as a fragmented operator market."
+      }
+    ],
+    "operator_types_seen": [
+      "private_school_or_academy",
+      "official_or_institutional",
+      "social_community_only"
+    ],
+    "supporting_queries": [
+      "french courses luxembourg",
+      "cours de français luxembourg",
+      "cours de langue luxembourg"
+    ],
+    "pricing_or_offer_proof": [
+      "No clean sector-specific small-operator price proof was captured in the validated evidence set."
+    ],
+    "social_funnel_signal": "Facebook search for professional-French terms in Luxembourg mostly collapsed into general Luxembourg and expat groups rather than sector-specific French communities. The social layer is real, but it does not yet validate a niche operator funnel.",
+    "takeaway": "The general professional-French market is real, but the evidence is still broad-provider-led rather than operator-fragmented.",
+    "why_not_stronger": "The sector-specific wedge is not yet backed by a visible set of niche operators with clear public offers."
+  },
+  {
+    "product_code": "A8",
+    "signal": "weak",
+    "independent_operator_examples": [
+      {
+        "name": "Allingua",
+        "classification": "private_school_or_academy",
+        "evidence": "Local multilingual provider with Luxembourg-linked language testing and training footprint."
+      },
+      {
+        "name": "Pipplet",
+        "classification": "unknown",
+        "evidence": "Commercial assessment platform relevant to the audit use case, but not a fragmented local operator."
+      },
+      {
+        "name": "Pearson Versant",
+        "classification": "unknown",
+        "evidence": "Assessment benchmark proving substitute tooling exists, not a small private operator layer."
+      }
+    ],
+    "operator_types_seen": [
+      "private_school_or_academy",
+      "unknown"
+    ],
+    "supporting_queries": [
+      "language courses luxembourg",
+      "cours de langue luxembourg",
+      "language school luxembourg"
+    ],
+    "pricing_or_offer_proof": [
+      "Current evidence proves substitute tools and providers, but not a clean public price layer for specialist language audits."
+    ],
+    "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+    "takeaway": "The need is commercially legible, but the visible market is dominated by testing platforms and broader providers, not by a clear fragmented operator layer.",
+    "why_not_stronger": "Current evidence proves substitute tools, not a cluster of small local audit specialists."
+  },
+  {
+    "product_code": "B2",
+    "signal": "weak",
+    "independent_operator_examples": [
+      {
+        "name": "Prolingua",
+        "classification": "private_school_or_academy",
+        "evidence": "Generic professional language provision overlaps with the offer, but not as a dedicated medical-French operator."
+      },
+      {
+        "name": "inlingua Luxembourg",
+        "classification": "private_school_or_academy",
+        "evidence": "General company-course supplier, not a visible nurse-specific medical-French specialist."
+      }
+    ],
+    "operator_types_seen": [
+      "private_school_or_academy",
+      "social_community_only"
+    ],
+    "supporting_queries": [
+      "medizinisches französisch",
+      "französisch für pflegekräfte",
+      "französisch im krankenhaus"
+    ],
+    "pricing_or_offer_proof": [
+      "No clean public price or package proof for a dedicated medical-French operator was captured."
+    ],
+    "social_funnel_signal": "Facebook search surfaced broad nursing and medical communities, but no niche medical-French groups or visible operator-led funnel. This is weak social proof for the specific offer, not for the exact product language.",
+    "takeaway": "Some substitute supply exists, but the exact niche is not visibly monetized by a fragmented operator set.",
+    "why_not_stronger": "Search volume is extremely thin and no dedicated medical-French provider cluster survived validation."
+  },
+  {
+    "product_code": "B6",
+    "signal": "weak",
+    "independent_operator_examples": [
+      {
+        "name": "BiCortex Languages",
+        "classification": "independent_operator",
+        "evidence": "Small specialist provider with at least some cross-cultural training footprint in reference markets."
+      },
+      {
+        "name": "Semantics Belgium",
+        "classification": "independent_operator",
+        "evidence": "Smaller specialist provider in the broader corporate language and intercultural space."
+      },
+      {
+        "name": "BLCC",
+        "classification": "private_school_or_academy",
+        "evidence": "Commercial provider with overlapping business-language and cross-cultural positioning."
+      },
+      {
+        "name": "Allingua",
+        "classification": "private_school_or_academy",
+        "evidence": "Local language provider, but not strong proof of the onboarding-bundle motion."
+      }
+    ],
+    "operator_types_seen": [
+      "independent_operator",
+      "private_school_or_academy",
+      "social_community_only"
+    ],
+    "supporting_queries": [
+      "cross cultural training relocation",
+      "language training for assignees",
+      "relocation language training"
+    ],
+    "pricing_or_offer_proof": [
+      "Current proof is mostly reference analog offers rather than a strong target-market public pricing layer."
+    ],
+    "social_funnel_signal": "Facebook search surfaced active nurse-relocation and placement communities around Germany (`Nursing in Germany`, `Registered Nurses for Germany`, `Direct Placement in Germany`). This confirms a social funnel around the route, but not yet a clean operator-owned onboarding bundle.",
+    "takeaway": "Reference markets show some specialist providers, so the category exists, but the onboarding-bundle motion is not strongly visible in search.",
+    "why_not_stronger": "Evidence is mostly reference analogs with weak keyword traction, not clear target-market operator demand."
+  },
+  {
+    "product_code": "L1",
+    "signal": "strong",
+    "independent_operator_examples": [
+      {
+        "name": "ETIC",
+        "classification": "independent_operator",
+        "evidence": "Focused Luxembourg Sproochentest prep offer with public paid preparation."
+      },
+      {
+        "name": "Lux'Languages",
+        "classification": "independent_operator",
+        "evidence": "Small specialist Luxembourgish prep provider with public paid positioning."
+      },
+      {
+        "name": "LuxLessons",
+        "classification": "independent_operator",
+        "evidence": "Niche provider visible in the same route market with online prep messaging."
+      },
+      {
+        "name": "Prolingua",
+        "classification": "private_school_or_academy",
+        "evidence": "Broad private school with overlapping nationality and Luxembourgish offers."
+      }
+    ],
+    "operator_types_seen": [
+      "independent_operator",
+      "private_school_or_academy",
+      "official_or_institutional"
+    ],
+    "supporting_queries": [
+      "sproochentest",
+      "cours de luxembourgeois",
+      "learn luxembourgish online",
+      "sproochentest luxembourg"
+    ],
+    "pricing_or_offer_proof": [
+      "Observed public alternatives span free-tier messaging through roughly 745-980 EUR paid offers."
+    ],
+    "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+    "takeaway": "This is a real fragmented prep market with multiple small paid providers, not just an official route.",
+    "why_not_stronger": "Operator presence is strong, but product-specific reimbursability and monetization are still separate questions."
+  },
+  {
+    "product_code": "A1",
+    "signal": "weak",
+    "independent_operator_examples": [
+      {
+        "name": "House of Training",
+        "classification": "private_school_or_academy",
+        "evidence": "Public Luxembourg competitor with AI fundamentals, AI Act, and AI risk/data-protection courses."
+      }
+    ],
+    "operator_types_seen": [
+      "private_school_or_academy",
+      "official_or_institutional"
+    ],
+    "supporting_queries": [
+      "ai training luxembourg",
+      "ai literacy training",
+      "ai act training"
+    ],
+    "pricing_or_offer_proof": [
+      "Visible Luxembourg competitor prices for short AI courses cluster around 175-180 EUR."
+    ],
+    "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+    "takeaway": "There is commercial AI training supply, but current proof is academy-led rather than a fragmented small-operator market.",
+    "why_not_stronger": "Only a narrow visible competitor set is validated and no independent small-provider cluster is confirmed."
+  },
+  {
+    "product_code": "A2",
+    "signal": "weak",
+    "independent_operator_examples": [
+      {
+        "name": "House of Training",
+        "classification": "private_school_or_academy",
+        "evidence": "Public practical AI and ChatGPT business courses prove the category is already monetized in Luxembourg."
+      }
+    ],
+    "operator_types_seen": [
+      "private_school_or_academy"
+    ],
+    "supporting_queries": [
+      "ai workshop luxembourg",
+      "ai training luxembourg",
+      "ai productivity training"
+    ],
+    "pricing_or_offer_proof": [
+      "Current validated evidence proves practical paid AI training exists, but no clean small-operator price layer was captured."
+    ],
+    "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+    "takeaway": "The problem is real enough to sell training around it, but visible supply is still broad-provider-led.",
+    "why_not_stronger": "No fragmented operator cluster or strong public pricing layer is yet confirmed."
+  },
+  {
+    "product_code": "A3",
+    "signal": "weak",
+    "independent_operator_examples": [
+      {
+        "name": "House of Training",
+        "classification": "private_school_or_academy",
+        "evidence": "Public Luxembourg prompt-engineering and ChatGPT business courses already exist."
+      },
+      {
+        "name": "OpenAI Academy",
+        "classification": "official_or_institutional",
+        "evidence": "Free public prompting guidance proves generic prompt knowledge is not scarce."
+      }
+    ],
+    "operator_types_seen": [
+      "private_school_or_academy",
+      "official_or_institutional",
+      "content_only"
+    ],
+    "supporting_queries": [
+      "prompt engineering training",
+      "ai workshop luxembourg",
+      "prompt engineering workshop"
+    ],
+    "pricing_or_offer_proof": [
+      "Current proof shows public commercial offers, but no clean niche-operator pricing layer."
+    ],
+    "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+    "takeaway": "The category exists commercially, but visible supply is still dominated by a broader academy rather than many focused operators.",
+    "why_not_stronger": "The validated market is real, but not clearly fragmented into multiple prompt-specialist operators."
+  },
+  {
+    "product_code": "A4",
+    "signal": "weak",
+    "independent_operator_examples": [
+      {
+        "name": "House of Training",
+        "classification": "private_school_or_academy",
+        "evidence": "Public Luxembourg finance-sector AI courses already use AI Act and GDPR framing."
+      }
+    ],
+    "operator_types_seen": [
+      "private_school_or_academy"
+    ],
+    "supporting_queries": [
+      "ai act training luxembourg",
+      "ai literacy training finance",
+      "formation compliance luxembourg"
+    ],
+    "pricing_or_offer_proof": [
+      "Current validated evidence proves adjacent finance-sector AI training supply, but no clean specialist-operator price layer."
+    ],
+    "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+    "takeaway": "The need is commercially legible, but current public supply is narrow and academy-led rather than fragmented.",
+    "why_not_stronger": "Only one validated public Luxembourg provider clearly overlaps, so operator fragmentation is not yet proven."
+  },
+  {
+    "product_code": "A5",
+    "signal": "medium",
+    "independent_operator_examples": [
+      {
+        "name": "HACA Partners",
+        "classification": "independent_operator",
+        "evidence": "Specialist MiFID/compliance training body appears in the validated competitor set rather than only broad academy noise."
+      },
+      {
+        "name": "First Finance SAS",
+        "classification": "independent_operator",
+        "evidence": "Specialist finance-training provider appears in the validated external training landscape."
+      },
+      {
+        "name": "EFPA Luxembourg",
+        "classification": "independent_operator",
+        "evidence": "Specialist professional body/training route proves a focused paid competence market exists."
+      },
+      {
+        "name": "House of Training",
+        "classification": "private_school_or_academy",
+        "evidence": "Incumbent CSSF-listed provider with public MiFID route."
+      }
+    ],
+    "operator_types_seen": [
+      "independent_operator",
+      "private_school_or_academy",
+      "official_or_institutional"
+    ],
+    "supporting_queries": [
+      "formation compliance luxembourg",
+      "compliance officer formation",
+      "mifid training luxembourg"
+    ],
+    "pricing_or_offer_proof": [
+      "Validated public competitor landscape includes multiple commercial training bodies, though clean price normalization is still missing."
+    ],
+    "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+    "takeaway": "This is not just an incumbent-academy market; there is a specialist commercial competence-training layer around MiFID.",
+    "why_not_stronger": "The market exists, but current proof is stronger on provider presence than on clean search-visible small-operator pricing."
+  },
+  {
+    "product_code": "A6",
+    "signal": "weak",
+    "independent_operator_examples": [
+      {
+        "name": "Prolingua",
+        "classification": "private_school_or_academy",
+        "evidence": "Private provider already overlaps with language-plus-integration needs."
+      },
+      {
+        "name": "Biergerpakt",
+        "classification": "official_or_institutional",
+        "evidence": "Public integration route proves the problem is real, but not as a fragmented operator market."
+      },
+      {
+        "name": "INLL",
+        "classification": "official_or_institutional",
+        "evidence": "Institutional route confirms category demand and public alternatives."
+      }
+    ],
+    "operator_types_seen": [
+      "private_school_or_academy",
+      "official_or_institutional",
+      "social_community_only"
+    ],
+    "supporting_queries": [
+      "cours du soir luxembourg",
+      "formation continue luxembourg",
+      "apprendre luxembourgeois"
+    ],
+    "pricing_or_offer_proof": [
+      "Current proof is route and provider existence, not a clean bundle-price market."
+    ],
+    "social_funnel_signal": "Facebook group search shows large Luxembourg expat communities (`Expats World in Luxembourg`, `Luxembourg Expats (Official)`, meetup/event groups), which confirms a strong social top-of-funnel for relocation and integration problems. The OCR pass did not reveal a clear paid onboarding-bundle operator inside those groups.",
+    "takeaway": "The integration problem is real, but visible supply is still mainly institutional or broad-provider based.",
+    "why_not_stronger": "No validated set of small onboarding-bundle operators is yet visible."
+  },
+  {
+    "product_code": "A10",
+    "signal": "weak",
+    "independent_operator_examples": [
+      {
+        "name": "House of Training",
+        "classification": "private_school_or_academy",
+        "evidence": "Public local training incumbent with CSRD-related offers."
+      },
+      {
+        "name": "PwC Luxembourg",
+        "classification": "private_school_or_academy",
+        "evidence": "Public local corporate-training incumbent with adjacent ESG/CSRD offer footprint."
+      }
+    ],
+    "operator_types_seen": [
+      "private_school_or_academy"
+    ],
+    "supporting_queries": [
+      "formation compliance luxembourg",
+      "csrd training",
+      "esg training luxembourg"
+    ],
+    "pricing_or_offer_proof": [
+      "Competitor public prices range from 300 EUR to 1,750 EUR, but scopes remain mixed."
+    ],
+    "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+    "takeaway": "There is commercial compliance-training supply around this problem, but it is led by larger incumbents rather than fragmented operators.",
+    "why_not_stronger": "Current proof is incumbent-led and does not yet show a long tail of smaller CSRD specialists."
+  },
+  {
+    "product_code": "B1",
+    "signal": "medium",
+    "independent_operator_examples": [
+      {
+        "name": "DeutschAkademie",
+        "classification": "private_school_or_academy",
+        "evidence": "Private German-language school overlapping with the exam-prep lane."
+      },
+      {
+        "name": "Berlitz",
+        "classification": "private_school_or_academy",
+        "evidence": "Commercial language provider visible in the same Germany-native exam and workplace language market."
+      },
+      {
+        "name": "TELC route providers",
+        "classification": "independent_operator",
+        "evidence": "The broader telc/goethe prep ecosystem implies monetized commercial prep beyond official exam bodies."
+      },
+      {
+        "name": "telc / Goethe",
+        "classification": "official_or_institutional",
+        "evidence": "Official exam route proves the push factor is real."
+      }
+    ],
+    "operator_types_seen": [
+      "independent_operator",
+      "private_school_or_academy",
+      "official_or_institutional"
+    ],
+    "supporting_queries": [
+      "telc b1 prüfung",
+      "telc b2 prüfung",
+      "deutsch pflege"
+    ],
+    "pricing_or_offer_proof": [
+      "Current validated evidence proves a commercial exam-prep ecosystem, even though product-level price normalization is still missing."
+    ],
+    "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+    "takeaway": "This is an exam-first market with clear external pressure and a real prep ecosystem beyond official exam bodies.",
+    "why_not_stronger": "The strongest proof is route pressure plus prep ecosystem, not a clean inventory of small nurse-specific operators."
+  },
+  {
+    "product_code": "B3",
+    "signal": "weak",
+    "independent_operator_examples": [
+      {
+        "name": "House of Training",
+        "classification": "private_school_or_academy",
+        "evidence": "Verified paid substitute in French."
+      },
+      {
+        "name": "Elements of AI",
+        "classification": "official_or_institutional",
+        "evidence": "Free multilingual substitute proving public route and competitive pressure."
+      },
+      {
+        "name": "Haufe Akademie / Bitkom Akademie",
+        "classification": "private_school_or_academy",
+        "evidence": "Germany-local AI training ecosystem shows commercial supply around the same competence problem."
+      }
+    ],
+    "operator_types_seen": [
+      "private_school_or_academy",
+      "official_or_institutional",
+      "content_only"
+    ],
+    "supporting_queries": [
+      "ki schulung",
+      "ai act schulung",
+      "ki kompetenz schulung"
+    ],
+    "pricing_or_offer_proof": [
+      "Current proof shows a real paid substitute landscape and strong Germany-local keyword demand, but not a clean fragmented small-operator market."
+    ],
+    "social_funnel_signal": "Facebook search for `ai act compliance` and `ki schulung` returned generic AI groups and mostly irrelevant school-related noise rather than operator-led compliance communities. No useful Facebook funnel signal was confirmed for this lane.",
+    "takeaway": "The compliance problem is clearly monetized, but visible supply is still academy-led rather than long-tail operator-led.",
+    "why_not_stronger": "The market is real, but current validated competitors are mostly broad academies or free public substitutes."
+  },
+  {
+    "product_code": "B4",
+    "signal": "medium",
+    "independent_operator_examples": [
+      {
+        "name": "AcademyOcean",
+        "classification": "independent_operator",
+        "evidence": "Focused operator with strong non-branded white-label LMS rankings."
+      },
+      {
+        "name": "Oasis LMS",
+        "classification": "independent_operator",
+        "evidence": "Focused operator ranking on the same non-branded white-label LMS cluster."
+      },
+      {
+        "name": "TalentLMS",
+        "classification": "private_school_or_academy",
+        "evidence": "Larger commercial benchmark proving the lane is real, not whitespace."
+      }
+    ],
+    "operator_types_seen": [
+      "independent_operator",
+      "private_school_or_academy"
+    ],
+    "supporting_queries": [
+      "white label elearning",
+      "white label elearning platform",
+      "white label lms",
+      "course licensing"
+    ],
+    "pricing_or_offer_proof": [
+      "Reference-market evidence includes strong non-branded commercial rankings, though public price normalization is still incomplete."
+    ],
+    "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+    "takeaway": "This is a real operator market with focused commercial players ranking on non-branded terms.",
+    "why_not_stronger": "The strongest proof is in reference markets and keyword traction, not yet in a full public price map."
+  },
+  {
+    "product_code": "B5",
+    "signal": "weak",
+    "independent_operator_examples": [
+      {
+        "name": "HSE relocation route",
+        "classification": "official_or_institutional",
+        "evidence": "Public analogue proving the route problem and bundled support pattern are real."
+      },
+      {
+        "name": "Charité",
+        "classification": "official_or_institutional",
+        "evidence": "Institutional analogue proving the underlying healthcare mobility context."
+      },
+      {
+        "name": "LiReco",
+        "classification": "unknown",
+        "evidence": "Public analogue shows the category pattern exists, but not as a clear operator-led search market."
+      }
+    ],
+    "operator_types_seen": [
+      "official_or_institutional",
+      "unknown",
+      "social_community_only"
+    ],
+    "supporting_queries": [
+      "international nurse recruitment",
+      "overseas nurse recruitment",
+      "nurse relocation package"
+    ],
+    "pricing_or_offer_proof": [
+      "Current proof shows analogue routes, but no clean agency-bundle public pricing layer."
+    ],
+    "social_funnel_signal": "Facebook search surfaced active relocation and recruitment communities around `Nursing in Germany`, `Registered Nurses for Germany`, and `Ausbildung and Nursing Job in Germany (Direct Placement in Germany)`. This is a real social-acquisition surface around the route, but the OCR pass did not verify which groups are agency-owned or tied to paid packages.",
+    "takeaway": "The route problem is real, but the visible analogue market is mostly institutional rather than fragmented operators.",
+    "why_not_stronger": "Current evidence confirms analogues, not a target-market operator layer with public paid offers."
+  },
+  {
+    "product_code": "C1",
+    "signal": "weak",
+    "independent_operator_examples": [
+      {
+        "name": "Official OET sample tests",
+        "classification": "official_or_institutional",
+        "evidence": "Free official substitute proves route pressure and pricing pressure."
+      }
+    ],
+    "operator_types_seen": [
+      "official_or_institutional"
+    ],
+    "supporting_queries": [
+      "oet preparation",
+      "oet sample test",
+      "oet practice test"
+    ],
+    "pricing_or_offer_proof": [
+      "Current validated evidence proves route pressure and free official substitutes more clearly than a fragmented prep-operator map."
+    ],
+    "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+    "takeaway": "The exam route is real, but this layer is currently better evidenced by official substitutes than by validated operator fragmentation.",
+    "why_not_stronger": "A clean, validated set of prep operators has not yet been written into the card."
+  },
+  {
+    "product_code": "L4",
+    "signal": "weak",
+    "independent_operator_examples": [
+      {
+        "name": "Prolingua tailor-made courses",
+        "classification": "private_school_or_academy",
+        "evidence": "Public tailored corporate language offer overlaps directly with the category."
+      },
+      {
+        "name": "inlingua Luxembourg",
+        "classification": "private_school_or_academy",
+        "evidence": "Broad commercial corporate-language supplier in the same market."
+      },
+      {
+        "name": "Berlitz for Business",
+        "classification": "private_school_or_academy",
+        "evidence": "Large commercial benchmark proving the lane is already served."
+      }
+    ],
+    "operator_types_seen": [
+      "private_school_or_academy"
+    ],
+    "supporting_queries": [
+      "language courses luxembourg",
+      "cours de langue luxembourg",
+      "courses in luxembourg"
+    ],
+    "pricing_or_offer_proof": [
+      "Current proof shows tailored corporate offers exist, but no fragmented operator pricing layer."
+    ],
+    "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+    "takeaway": "Corporate language demand exists, but the visible market is served by established schools rather than a long tail of small operators.",
+    "why_not_stronger": "The current wedge is category existence, not a fragmented operator market."
+  },
+  {
+    "product_code": "L5",
+    "signal": "medium",
+    "independent_operator_examples": [
+      {
+        "name": "Prolingua",
+        "classification": "private_school_or_academy",
+        "evidence": "Private tailored Luxembourgish alternative already exists."
+      },
+      {
+        "name": "inlingua Luxembourg",
+        "classification": "private_school_or_academy",
+        "evidence": "Private commercial provider confirms the business-language lane is monetized."
+      },
+      {
+        "name": "INLL self-learning / official route",
+        "classification": "official_or_institutional",
+        "evidence": "Official route and free self-learning create pressure but also validate the need."
+      }
+    ],
+    "operator_types_seen": [
+      "private_school_or_academy",
+      "official_or_institutional"
+    ],
+    "supporting_queries": [
+      "cours luxembourgeois",
+      "cours de luxembourgeois",
+      "luxembourgish online course"
+    ],
+    "pricing_or_offer_proof": [
+      "Current proof shows private tailored alternatives exist, even though clean public price normalization is still missing."
+    ],
+    "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+    "takeaway": "This is a real paid lane with private alternatives, not just an official/public learning route.",
+    "why_not_stronger": "Visible supply is still concentrated in broad providers rather than many small niche operators."
+  },
+  {
+    "product_code": "L6",
+    "signal": "weak",
+    "independent_operator_examples": [
+      {
+        "name": "Official OET sample tests",
+        "classification": "official_or_institutional",
+        "evidence": "Free official route resources create real exam pressure and pricing pressure."
+      }
+    ],
+    "operator_types_seen": [
+      "official_or_institutional"
+    ],
+    "supporting_queries": [
+      "oet nursing preparation",
+      "oet sample test",
+      "occupational english test sample"
+    ],
+    "pricing_or_offer_proof": [
+      "The current validated layer proves exam-route pressure more clearly than a fragmented prep-provider map."
+    ],
+    "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+    "takeaway": "The nursing OET route is real, but operator fragmentation is not yet captured cleanly in the validated card layer.",
+    "why_not_stronger": "A validated prep-provider set has not yet been written into the card."
+  },
+  {
+    "product_code": "L7",
+    "signal": "weak",
+    "independent_operator_examples": [
+      {
+        "name": "Official OET resources",
+        "classification": "official_or_institutional",
+        "evidence": "Official route materials create real exam pressure and a free substitute baseline."
+      }
+    ],
+    "operator_types_seen": [
+      "official_or_institutional"
+    ],
+    "supporting_queries": [
+      "oet medical preparation",
+      "oet result",
+      "oet practice test"
+    ],
+    "pricing_or_offer_proof": [
+      "Current validated evidence proves route pressure and free substitutes more clearly than a fragmented doctor-specific prep-operator market."
+    ],
+    "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+    "takeaway": "The route is real, but the current card does not yet prove a strong fragmented operator layer around the doctor-only prep angle.",
+    "why_not_stronger": "Validated evidence is route-led and official-resource-led, not operator-led."
+  }
+]

@@ -147,6 +147,31 @@ export interface CommercialValidationSection {
   evidence_refs: CommercialValidationEvidenceRefs;
 }
 
+export interface CommercialValidationIndependentOperatorExampleV1 {
+  name: string;
+  classification:
+    | "independent_operator"
+    | "private_school_or_academy"
+    | "official_or_institutional"
+    | "marketplace_or_directory"
+    | "social_community_only"
+    | "content_only"
+    | "unknown";
+  evidence: string;
+}
+
+export interface CommercialValidationIndependentOperatorSummaryV1 {
+  signal: "none" | "weak" | "medium" | "strong";
+  independent_operator_examples: CommercialValidationIndependentOperatorExampleV1[];
+  operator_types_seen: string[];
+  supporting_queries: string[];
+  pricing_or_offer_proof: string[];
+  social_funnel_signal: string;
+  takeaway: string;
+  why_not_stronger: string;
+  synced_at: string;
+}
+
 export interface CommercialValidationMarketEvidenceV1 {
   confidence_band: ConfidenceBand | "unknown";
   derivation_basis: string;
@@ -182,6 +207,7 @@ export interface CommercialValidationMarketEvidenceV1 {
     max_volume_lu: number;
     source_count: number;
   }>;
+  independent_operator_summary?: CommercialValidationIndependentOperatorSummaryV1 | null;
   cross_border_luxembourg_intent_keywords: Array<{
     keyword: string;
     follow_up_tier: string;

@@ -184,6 +184,37 @@
     "reference_analog_domains": [],
     "next_research_step": "map lane keywords into product-level commercial notes",
     "synced_from_scorecard_at": "2026-04-21T10:13:00.410Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: DE. Captured 3/3 anchor families with total local query volume 20 and max anchor volume 20. Lane rollup contains 7 deduplicated keywords, including 2 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: pflaster medizin französisch (P2, vol 40), deutsch französisches medizinisches versorgungszentrum (P2, vol 30), medizinische untersuchung auf französisch (P2, vol 30), die medizin französisch (P2, vol 20), französisch für mediziner (P2, vol 20). Next step: map lane keywords into product-level commercial notes."
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: DE. Captured 3/3 anchor families with total local query volume 20 and max anchor volume 20. Lane rollup contains 7 deduplicated keywords, including 2 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: pflaster medizin französisch (P2, vol 40), deutsch französisches medizinisches versorgungszentrum (P2, vol 30), medizinische untersuchung auf französisch (P2, vol 30), die medizin französisch (P2, vol 20), französisch für mediziner (P2, vol 20). Next step: map lane keywords into product-level commercial notes. Independent-operator signal: weak. Examples: Prolingua (private_school_or_academy), inlingua Luxembourg (private_school_or_academy). Some substitute supply exists, but the exact niche is not visibly monetized by a fragmented operator set. Why not stronger: Search volume is extremely thin and no dedicated medical-French provider cluster survived validation.",
+    "independent_operator_summary": {
+      "signal": "weak",
+      "independent_operator_examples": [
+        {
+          "name": "Prolingua",
+          "classification": "private_school_or_academy",
+          "evidence": "Generic professional language provision overlaps with the offer, but not as a dedicated medical-French operator."
+        },
+        {
+          "name": "inlingua Luxembourg",
+          "classification": "private_school_or_academy",
+          "evidence": "General company-course supplier, not a visible nurse-specific medical-French specialist."
+        }
+      ],
+      "operator_types_seen": [
+        "private_school_or_academy",
+        "social_community_only"
+      ],
+      "supporting_queries": [
+        "medizinisches französisch",
+        "französisch für pflegekräfte",
+        "französisch im krankenhaus"
+      ],
+      "pricing_or_offer_proof": [
+        "No clean public price or package proof for a dedicated medical-French operator was captured."
+      ],
+      "social_funnel_signal": "Facebook search surfaced broad nursing and medical communities, but no niche medical-French groups or visible operator-led funnel. This is weak social proof for the specific offer, not for the exact product language.",
+      "takeaway": "Some substitute supply exists, but the exact niche is not visibly monetized by a fragmented operator set.",
+      "why_not_stronger": "Search volume is extremely thin and no dedicated medical-French provider cluster survived validation.",
+      "synced_at": "2026-04-21T15:12:29.357Z"
+    }
   }
 }

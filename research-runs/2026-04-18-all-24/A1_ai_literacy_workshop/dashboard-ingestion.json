@@ -165,6 +165,36 @@
       "value": [],
       "confidence_band": "low",
       "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "independent_operator_summary": {
+      "value": {
+        "signal": "weak",
+        "independent_operator_examples": [
+          {
+            "name": "House of Training",
+            "classification": "private_school_or_academy",
+            "evidence": "Public Luxembourg competitor with AI fundamentals, AI Act, and AI risk/data-protection courses."
+          }
+        ],
+        "operator_types_seen": [
+          "private_school_or_academy",
+          "official_or_institutional"
+        ],
+        "supporting_queries": [
+          "ai training luxembourg",
+          "ai literacy training",
+          "ai act training"
+        ],
+        "pricing_or_offer_proof": [
+          "Visible Luxembourg competitor prices for short AI courses cluster around 175-180 EUR."
+        ],
+        "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+        "takeaway": "There is commercial AI training supply, but current proof is academy-led rather than a fragmented small-operator market.",
+        "why_not_stronger": "Only a narrow visible competitor set is validated and no independent small-provider cluster is confirmed.",
+        "synced_at": "2026-04-21T15:12:29.357Z"
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived independent-operator signal for prioritization and further market research. Keep it out of customer-facing copy until translated into product-safe language."
     }
   },
   "blocked_fields": {

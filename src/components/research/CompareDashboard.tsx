@@ -33,6 +33,13 @@ function scoreTone(score: number) {
   return "bg-rose-100 text-rose-800";
 }
 
+function operatorSignalTone(signal: "none" | "weak" | "medium" | "strong") {
+  if (signal === "strong") return "bg-emerald-100 text-emerald-800";
+  if (signal === "medium") return "bg-amber-100 text-amber-800";
+  if (signal === "weak") return "bg-rose-100 text-rose-800";
+  return "bg-muted text-muted-foreground";
+}
+
 function SelectControl({
   label,
   value,
@@ -275,6 +282,54 @@ export function CompareDashboard({ products }: { products: ScoredProductRecord[]
 
                 <div className="mt-6">
                   <h2 className="text-sm font-semibold uppercase tracking-[0.04em] text-muted-foreground">Composite scores</h2>
+                  <div className="mt-3 mb-6 space-y-2.5">
+                    <div className="grid grid-cols-[168px_repeat(3,minmax(0,1fr))] gap-2 items-center">
+                      <div>
+                        <p className="text-xs font-medium">Operator signal</p>
+                        <p className="text-xs text-muted-foreground">
+                          Compact read on fragmented provider evidence and small-operator market residue.
+                        </p>
+                      </div>
+                      {compareProducts.map((product) => {
+                        const signal = product.independentOperatorSummary?.signal ?? "none";
+                        return (
+                          <div
+                            key={`${product.code}-operator-signal`}
+                            className={cn("rounded-md px-2.5 py-2 text-center text-sm font-semibold", operatorSignalTone(signal))}
+                          >
+                            {signal}
+                          </div>
+                        );
+                      })}
+                    </div>
+                    <div className="grid grid-cols-[168px_repeat(3,minmax(0,1fr))] gap-2 items-start">
+                      <div>
+                        <p className="text-xs font-medium">Operator examples</p>
+                        <p className="text-xs text-muted-foreground">
+                          Up to three public examples pulled from the operator summary in the card.
+                        </p>
+                      </div>
+                      {compareProducts.map((product) => {
+                        const examples = product.independentOperatorSummary?.independent_operator_examples ?? [];
+                        return (
+                          <div
+                            key={`${product.code}-operator-examples`}
+                            className="rounded-md border border-border bg-background px-2.5 py-2 text-xs leading-5 text-muted-foreground"
+                          >
+                            {examples.length > 0
+                              ? examples
+                                  .slice(0, 3)
+                                  .map(
+                                    (example: NonNullable<typeof product.independentOperatorSummary>["independent_operator_examples"][number]) =>
+                                      example.name
+                                  )
+                                  .join(" · ")
+                              : "No compact operator examples"}
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
                   <div className="mt-3 space-y-2.5">
                     {COMPOSITE_METRICS.map((row) => (
                       <div key={row.key} className="grid grid-cols-[168px_repeat(3,minmax(0,1fr))] gap-2 items-center">

@@ -227,6 +227,47 @@
       "value": [],
       "confidence_band": "low",
       "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "independent_operator_summary": {
+      "value": {
+        "signal": "weak",
+        "independent_operator_examples": [
+          {
+            "name": "Prolingua",
+            "classification": "private_school_or_academy",
+            "evidence": "Private provider already overlaps with language-plus-integration needs."
+          },
+          {
+            "name": "Biergerpakt",
+            "classification": "official_or_institutional",
+            "evidence": "Public integration route proves the problem is real, but not as a fragmented operator market."
+          },
+          {
+            "name": "INLL",
+            "classification": "official_or_institutional",
+            "evidence": "Institutional route confirms category demand and public alternatives."
+          }
+        ],
+        "operator_types_seen": [
+          "private_school_or_academy",
+          "official_or_institutional",
+          "social_community_only"
+        ],
+        "supporting_queries": [
+          "cours du soir luxembourg",
+          "formation continue luxembourg",
+          "apprendre luxembourgeois"
+        ],
+        "pricing_or_offer_proof": [
+          "Current proof is route and provider existence, not a clean bundle-price market."
+        ],
+        "social_funnel_signal": "Facebook group search shows large Luxembourg expat communities (`Expats World in Luxembourg`, `Luxembourg Expats (Official)`, meetup/event groups), which confirms a strong social top-of-funnel for relocation and integration problems. The OCR pass did not reveal a clear paid onboarding-bundle operator inside those groups.",
+        "takeaway": "The integration problem is real, but visible supply is still mainly institutional or broad-provider based.",
+        "why_not_stronger": "No validated set of small onboarding-bundle operators is yet visible.",
+        "synced_at": "2026-04-21T15:12:29.357Z"
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived independent-operator signal for prioritization and further market research. Keep it out of customer-facing copy until translated into product-safe language."
     }
   },
   "blocked_fields": {

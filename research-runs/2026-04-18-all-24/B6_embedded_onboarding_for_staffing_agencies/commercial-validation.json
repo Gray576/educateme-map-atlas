@@ -219,6 +219,48 @@
     ],
     "next_research_step": "refine WTP/CAC with keyword overview and price checks",
     "synced_from_scorecard_at": "2026-04-21T10:13:00.411Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: UK. Captured 6/6 anchor families with total local query volume 20 and max anchor volume 20. Lane rollup contains 14 deduplicated keywords, including 0 P1 terms. Top follow-up keywords: language training for corporate relocation (P2, vol 20), language training for employee relocation (P2, vol 20), language training for relocation (P2, vol 0). Reference analog domains: blcc.be (BE); semanticsbelgium.com (BE); inlingua.lu (LU); allingua.lu (LU); bicortexlanguages.com (UK: cross cultural training). Next step: refine WTP/CAC with keyword overview and price checks."
+    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: UK. Captured 6/6 anchor families with total local query volume 20 and max anchor volume 20. Lane rollup contains 14 deduplicated keywords, including 0 P1 terms. Top follow-up keywords: language training for corporate relocation (P2, vol 20), language training for employee relocation (P2, vol 20), language training for relocation (P2, vol 0). Reference analog domains: blcc.be (BE); semanticsbelgium.com (BE); inlingua.lu (LU); allingua.lu (LU); bicortexlanguages.com (UK: cross cultural training). Next step: refine WTP/CAC with keyword overview and price checks. Independent-operator signal: weak. Examples: BiCortex Languages (independent_operator), Semantics Belgium (independent_operator), BLCC (private_school_or_academy). Reference markets show some specialist providers, so the category exists, but the onboarding-bundle motion is not strongly visible in search. Why not stronger: Evidence is mostly reference analogs with weak keyword traction, not clear target-market operator demand.",
+    "independent_operator_summary": {
+      "signal": "weak",
+      "independent_operator_examples": [
+        {
+          "name": "BiCortex Languages",
+          "classification": "independent_operator",
+          "evidence": "Small specialist provider with at least some cross-cultural training footprint in reference markets."
+        },
+        {
+          "name": "Semantics Belgium",
+          "classification": "independent_operator",
+          "evidence": "Smaller specialist provider in the broader corporate language and intercultural space."
+        },
+        {
+          "name": "BLCC",
+          "classification": "private_school_or_academy",
+          "evidence": "Commercial provider with overlapping business-language and cross-cultural positioning."
+        },
+        {
+          "name": "Allingua",
+          "classification": "private_school_or_academy",
+          "evidence": "Local language provider, but not strong proof of the onboarding-bundle motion."
+        }
+      ],
+      "operator_types_seen": [
+        "independent_operator",
+        "private_school_or_academy",
+        "social_community_only"
+      ],
+      "supporting_queries": [
+        "cross cultural training relocation",
+        "language training for assignees",
+        "relocation language training"
+      ],
+      "pricing_or_offer_proof": [
+        "Current proof is mostly reference analog offers rather than a strong target-market public pricing layer."
+      ],
+      "social_funnel_signal": "Facebook search surfaced active nurse-relocation and placement communities around Germany (`Nursing in Germany`, `Registered Nurses for Germany`, `Direct Placement in Germany`). This confirms a social funnel around the route, but not yet a clean operator-owned onboarding bundle.",
+      "takeaway": "Reference markets show some specialist providers, so the category exists, but the onboarding-bundle motion is not strongly visible in search.",
+      "why_not_stronger": "Evidence is mostly reference analogs with weak keyword traction, not clear target-market operator demand.",
+      "synced_at": "2026-04-21T15:12:29.357Z"
+    }
   }
 }

@@ -174,6 +174,46 @@
       "value": [],
       "confidence_band": "low",
       "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "independent_operator_summary": {
+      "value": {
+        "signal": "weak",
+        "independent_operator_examples": [
+          {
+            "name": "Allingua",
+            "classification": "private_school_or_academy",
+            "evidence": "Local multilingual provider with Luxembourg-linked language testing and training footprint."
+          },
+          {
+            "name": "Pipplet",
+            "classification": "unknown",
+            "evidence": "Commercial assessment platform relevant to the audit use case, but not a fragmented local operator."
+          },
+          {
+            "name": "Pearson Versant",
+            "classification": "unknown",
+            "evidence": "Assessment benchmark proving substitute tooling exists, not a small private operator layer."
+          }
+        ],
+        "operator_types_seen": [
+          "private_school_or_academy",
+          "unknown"
+        ],
+        "supporting_queries": [
+          "language courses luxembourg",
+          "cours de langue luxembourg",
+          "language school luxembourg"
+        ],
+        "pricing_or_offer_proof": [
+          "Current evidence proves substitute tools and providers, but not a clean public price layer for specialist language audits."
+        ],
+        "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+        "takeaway": "The need is commercially legible, but the visible market is dominated by testing platforms and broader providers, not by a clear fragmented operator layer.",
+        "why_not_stronger": "Current evidence proves substitute tools, not a cluster of small local audit specialists.",
+        "synced_at": "2026-04-21T15:12:29.357Z"
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived independent-operator signal for prioritization and further market research. Keep it out of customer-facing copy until translated into product-safe language."
     }
   }
 }

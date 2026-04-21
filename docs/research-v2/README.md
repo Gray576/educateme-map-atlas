@@ -45,6 +45,10 @@ The current repo already has a useful `ResearchCard` path, but it mixes raw evid
   The Luxembourg-only collection plan: product clusters, LU anchors, and FR/DE Luxembourg-intent coverage.
 - [13-germany-market-collection-plan.md](/Users/sergey/Desktop/educateme-map/docs/research-v2/13-germany-market-collection-plan.md)
   The Germany-only collection plan: adjacent DE evidence for `B1/B2/B3` and separate DE cross-border Luxembourg-intent usage.
+- [14-independent-operator-signal.md](/Users/sergey/Desktop/educateme-map/docs/research-v2/14-independent-operator-signal.md)
+  Protocol for detecting fragmented operator-led demand via small providers, public offers, and social funnel residue.
+- [15-independent-operator-deep-light-pass.md](/Users/sergey/Desktop/educateme-map/docs/research-v2/15-independent-operator-deep-light-pass.md)
+  Execution modes for operator research: when to run a deep manual pass, when a light confirmation pass is enough, and how Facebook/OCR evidence is used.
 - [templates/post-step-self-audit-prompt.md](/Users/sergey/Desktop/educateme-map/docs/research-v2/templates/post-step-self-audit-prompt.md)
   The reusable self-audit prompt to run after every phase.
 - [templates/high-confidence-card.template.json](/Users/sergey/Desktop/educateme-map/docs/research-v2/templates/high-confidence-card.template.json)

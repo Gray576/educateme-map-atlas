@@ -193,6 +193,31 @@
     "reference_analog_domains": [],
     "next_research_step": "refine WTP/CAC with keyword overview and price checks",
     "synced_from_scorecard_at": "2026-04-21T10:13:00.394Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: US. Captured 3/3 anchor families with total local query volume 520 and max anchor volume 260. Lane rollup contains 20 deduplicated keywords, including 5 P1 terms. Current watchlist domains: oet.com, cambridgeenglish.org, e2language.com, google.com, reddit.com. Top follow-up keywords: oet test results (P1, vol 210), oet result login (P2, vol 70), how long do oet test results take (P2, vol 20), oet test practice (P1, vol 260), oet practice tests (P2, vol 30). Next step: refine WTP/CAC with keyword overview and price checks."
+    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: US. Captured 3/3 anchor families with total local query volume 520 and max anchor volume 260. Lane rollup contains 20 deduplicated keywords, including 5 P1 terms. Current watchlist domains: oet.com, cambridgeenglish.org, e2language.com, google.com, reddit.com. Top follow-up keywords: oet test results (P1, vol 210), oet result login (P2, vol 70), how long do oet test results take (P2, vol 20), oet test practice (P1, vol 260), oet practice tests (P2, vol 30). Next step: refine WTP/CAC with keyword overview and price checks. Independent-operator signal: weak. Examples: Official OET resources (official_or_institutional). The route is real, but the current card does not yet prove a strong fragmented operator layer around the doctor-only prep angle. Why not stronger: Validated evidence is route-led and official-resource-led, not operator-led.",
+    "independent_operator_summary": {
+      "signal": "weak",
+      "independent_operator_examples": [
+        {
+          "name": "Official OET resources",
+          "classification": "official_or_institutional",
+          "evidence": "Official route materials create real exam pressure and a free substitute baseline."
+        }
+      ],
+      "operator_types_seen": [
+        "official_or_institutional"
+      ],
+      "supporting_queries": [
+        "oet medical preparation",
+        "oet result",
+        "oet practice test"
+      ],
+      "pricing_or_offer_proof": [
+        "Current validated evidence proves route pressure and free substitutes more clearly than a fragmented doctor-specific prep-operator market."
+      ],
+      "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+      "takeaway": "The route is real, but the current card does not yet prove a strong fragmented operator layer around the doctor-only prep angle.",
+      "why_not_stronger": "Validated evidence is route-led and official-resource-led, not operator-led.",
+      "synced_at": "2026-04-21T15:12:29.357Z"
+    }
   }
 }

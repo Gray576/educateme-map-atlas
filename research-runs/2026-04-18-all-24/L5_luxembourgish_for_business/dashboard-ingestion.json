@@ -211,6 +211,46 @@
       "value": [],
       "confidence_band": "low",
       "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "independent_operator_summary": {
+      "value": {
+        "signal": "medium",
+        "independent_operator_examples": [
+          {
+            "name": "Prolingua",
+            "classification": "private_school_or_academy",
+            "evidence": "Private tailored Luxembourgish alternative already exists."
+          },
+          {
+            "name": "inlingua Luxembourg",
+            "classification": "private_school_or_academy",
+            "evidence": "Private commercial provider confirms the business-language lane is monetized."
+          },
+          {
+            "name": "INLL self-learning / official route",
+            "classification": "official_or_institutional",
+            "evidence": "Official route and free self-learning create pressure but also validate the need."
+          }
+        ],
+        "operator_types_seen": [
+          "private_school_or_academy",
+          "official_or_institutional"
+        ],
+        "supporting_queries": [
+          "cours luxembourgeois",
+          "cours de luxembourgeois",
+          "luxembourgish online course"
+        ],
+        "pricing_or_offer_proof": [
+          "Current proof shows private tailored alternatives exist, even though clean public price normalization is still missing."
+        ],
+        "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+        "takeaway": "This is a real paid lane with private alternatives, not just an official/public learning route.",
+        "why_not_stronger": "Visible supply is still concentrated in broad providers rather than many small niche operators.",
+        "synced_at": "2026-04-21T15:12:29.357Z"
+      },
+      "confidence_band": "medium",
+      "omission_reason": "Derived independent-operator signal for prioritization and further market research. Keep it out of customer-facing copy until translated into product-safe language."
     }
   },
   "blocked_fields": {

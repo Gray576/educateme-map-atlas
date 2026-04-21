@@ -229,6 +229,7 @@ export function normalizeResearchCard(
     demandPullConfidenceBand: overlay.productMeta?.demandPullConfidenceBand ?? "unknown",
     overallConfidenceBand: overlay.productMeta?.overallConfidenceBand ?? "unknown",
     artifactFolder: overlay.productMeta?.artifactFolder ?? null,
+    independentOperatorSummary: overlay.productMeta?.independentOperatorSummary ?? null,
     safeFieldEntries: overlay.productMeta?.safeFieldEntries ?? [],
     analystFieldEntries: overlay.productMeta?.analystFieldEntries ?? [],
     blockedFieldEntries: overlay.productMeta?.blockedFieldEntries ?? [],

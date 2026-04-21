@@ -29,6 +29,18 @@ function toneForBand(band: "top" | "mid" | "low") {
   return "bg-rose-100 text-rose-800";
 }
 
+function operatorSignalTone(signal: "none" | "weak" | "medium" | "strong") {
+  if (signal === "strong") return "bg-emerald-100 text-emerald-800";
+  if (signal === "medium") return "bg-amber-100 text-amber-800";
+  if (signal === "weak") return "bg-rose-100 text-rose-800";
+  return "bg-muted text-muted-foreground";
+}
+
+function operatorSignalLabel(signal: "none" | "weak" | "medium" | "strong") {
+  if (signal === "none") return "operators none";
+  return `operators ${signal}`;
+}
+
 function SelectControl({
   label,
   value,
@@ -317,6 +329,29 @@ export function FounderDashboard({ products }: { products: ScoredProductRecord[]
                   <p className="mt-1 max-w-3xl text-xs leading-5 text-muted-foreground">
                     {product.shortSummary}
                   </p>
+                  {product.independentOperatorSummary ? (
+                    <div className="mt-2 flex flex-wrap items-center gap-1.5">
+                      <span
+                        className={cn(
+                          "inline-flex rounded-[10px] px-2.5 py-0.5 text-[11px] font-medium",
+                          operatorSignalTone(product.independentOperatorSummary.signal)
+                        )}
+                      >
+                        {operatorSignalLabel(product.independentOperatorSummary.signal)}
+                      </span>
+                      {product.independentOperatorSummary.independent_operator_examples
+                        .slice(0, 3)
+                        .map((example: NonNullable<typeof product.independentOperatorSummary>["independent_operator_examples"][number]) => (
+                          <Badge
+                            key={`${product.code}-${example.name}`}
+                            variant="outline"
+                            className="rounded-[10px] px-2.5 py-0.5 text-[11px]"
+                          >
+                            {example.name}
+                          </Badge>
+                        ))}
+                    </div>
+                  ) : null}
                   <p className="mt-1 text-[11px] text-muted-foreground">
                     velocity {product.validationVelocityScore ?? "n/a"} · first € {product.timeToFirstEuroScore ?? "n/a"} · regulatory {product.regulatoryFrictionInverseScore ?? "n/a"} · confidence {product.overallConfidenceBand}
                   </p>

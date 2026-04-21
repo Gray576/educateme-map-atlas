@@ -214,6 +214,48 @@
     "reference_analog_domains": [],
     "next_research_step": "map lane keywords into product-level commercial notes",
     "synced_from_scorecard_at": "2026-04-21T10:13:00.407Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: DE. Captured 3/3 anchor families with total local query volume 13530 and max anchor volume 8100. Lane rollup contains 7 deduplicated keywords, including 15 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, uni.lu. Top follow-up keywords: b1 prüfung telc (P1, vol 1900), b1 telc prüfung (P1, vol 1900), telc b1 prüfung modelltest pdf (P1, vol 1900), telc b1 prufung munich (P1, vol 1300), wie viel kostet b1 prüfung telc (P2, vol 40). Next step: map lane keywords into product-level commercial notes."
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: DE. Captured 3/3 anchor families with total local query volume 13530 and max anchor volume 8100. Lane rollup contains 7 deduplicated keywords, including 15 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, uni.lu. Top follow-up keywords: b1 prüfung telc (P1, vol 1900), b1 telc prüfung (P1, vol 1900), telc b1 prüfung modelltest pdf (P1, vol 1900), telc b1 prufung munich (P1, vol 1300), wie viel kostet b1 prüfung telc (P2, vol 40). Next step: map lane keywords into product-level commercial notes. Independent-operator signal: medium. Examples: DeutschAkademie (private_school_or_academy), Berlitz (private_school_or_academy), TELC route providers (independent_operator). This is an exam-first market with clear external pressure and a real prep ecosystem beyond official exam bodies. Why not stronger: The strongest proof is route pressure plus prep ecosystem, not a clean inventory of small nurse-specific operators.",
+    "independent_operator_summary": {
+      "signal": "medium",
+      "independent_operator_examples": [
+        {
+          "name": "DeutschAkademie",
+          "classification": "private_school_or_academy",
+          "evidence": "Private German-language school overlapping with the exam-prep lane."
+        },
+        {
+          "name": "Berlitz",
+          "classification": "private_school_or_academy",
+          "evidence": "Commercial language provider visible in the same Germany-native exam and workplace language market."
+        },
+        {
+          "name": "TELC route providers",
+          "classification": "independent_operator",
+          "evidence": "The broader telc/goethe prep ecosystem implies monetized commercial prep beyond official exam bodies."
+        },
+        {
+          "name": "telc / Goethe",
+          "classification": "official_or_institutional",
+          "evidence": "Official exam route proves the push factor is real."
+        }
+      ],
+      "operator_types_seen": [
+        "independent_operator",
+        "private_school_or_academy",
+        "official_or_institutional"
+      ],
+      "supporting_queries": [
+        "telc b1 prüfung",
+        "telc b2 prüfung",
+        "deutsch pflege"
+      ],
+      "pricing_or_offer_proof": [
+        "Current validated evidence proves a commercial exam-prep ecosystem, even though product-level price normalization is still missing."
+      ],
+      "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+      "takeaway": "This is an exam-first market with clear external pressure and a real prep ecosystem beyond official exam bodies.",
+      "why_not_stronger": "The strongest proof is route pressure plus prep ecosystem, not a clean inventory of small nurse-specific operators.",
+      "synced_at": "2026-04-21T15:12:29.357Z"
+    }
   }
 }

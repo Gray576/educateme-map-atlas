@@ -9,6 +9,7 @@ import type {
   SubsidyExists,
   VarianceRisk,
 } from "@/types/research-card";
+import type { CommercialValidationIndependentOperatorSummaryV1 } from "@/types/research-v2";
 import type { ConfidenceBand, ReleaseStatus } from "@/types/research-v2";
 
 export type MarketBucket = "LUX" | "EU" | "GCC";
@@ -129,6 +130,7 @@ export interface ProductRecord {
   subsidyStateBadge: string | null;
   subsidyLabel: "yes" | "no" | "unclear";
   shortSummary: string;
+  independentOperatorSummary: CommercialValidationIndependentOperatorSummaryV1 | null;
   claimLabels: string[];
   dependencyLabels: string[];
   qualitySignals: {
@@ -206,6 +208,7 @@ export interface ResearchCardNormalizationOverlay {
       | "demandPullConfidenceBand"
       | "overallConfidenceBand"
       | "artifactFolder"
+      | "independentOperatorSummary"
       | "safeFieldEntries"
       | "analystFieldEntries"
       | "blockedFieldEntries"

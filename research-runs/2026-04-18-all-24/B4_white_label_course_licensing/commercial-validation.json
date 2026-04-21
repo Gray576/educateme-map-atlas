@@ -279,6 +279,43 @@
     ],
     "next_research_step": "refine WTP/CAC with keyword overview and price checks",
     "synced_from_scorecard_at": "2026-04-21T10:13:00.402Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: US. Captured 5/5 anchor families with total local query volume 80 and max anchor volume 50. Lane rollup contains 31 deduplicated keywords, including 13 P1 terms. Current watchlist domains: academyocean.com, eleapsoftware.com, elearningindustry.com, folio3.com, oasis-lms.com. Top follow-up keywords: white label elearning platform (P2, vol 70), white label elearning courses (P2, vol 20), elearning platform white label (P2, vol 0), white label kids elearning (P2, vol 0), white label training content courses (P2, vol 20). Reference analog domains: academyocean.com (US: white label lms, white label learning management system, white label lms platform, white label online course platform); talentlms.com (US); oasis-lms.com (US: white label lms, white label lms platform, white label online courses, white label e learning platform). Next step: refine WTP/CAC with keyword overview and price checks."
+    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: US. Captured 5/5 anchor families with total local query volume 80 and max anchor volume 50. Lane rollup contains 31 deduplicated keywords, including 13 P1 terms. Current watchlist domains: academyocean.com, eleapsoftware.com, elearningindustry.com, folio3.com, oasis-lms.com. Top follow-up keywords: white label elearning platform (P2, vol 70), white label elearning courses (P2, vol 20), elearning platform white label (P2, vol 0), white label kids elearning (P2, vol 0), white label training content courses (P2, vol 20). Reference analog domains: academyocean.com (US: white label lms, white label learning management system, white label lms platform, white label online course platform); talentlms.com (US); oasis-lms.com (US: white label lms, white label lms platform, white label online courses, white label e learning platform). Next step: refine WTP/CAC with keyword overview and price checks. Independent-operator signal: medium. Examples: AcademyOcean (independent_operator), Oasis LMS (independent_operator), TalentLMS (private_school_or_academy). This is a real operator market with focused commercial players ranking on non-branded terms. Why not stronger: The strongest proof is in reference markets and keyword traction, not yet in a full public price map.",
+    "independent_operator_summary": {
+      "signal": "medium",
+      "independent_operator_examples": [
+        {
+          "name": "AcademyOcean",
+          "classification": "independent_operator",
+          "evidence": "Focused operator with strong non-branded white-label LMS rankings."
+        },
+        {
+          "name": "Oasis LMS",
+          "classification": "independent_operator",
+          "evidence": "Focused operator ranking on the same non-branded white-label LMS cluster."
+        },
+        {
+          "name": "TalentLMS",
+          "classification": "private_school_or_academy",
+          "evidence": "Larger commercial benchmark proving the lane is real, not whitespace."
+        }
+      ],
+      "operator_types_seen": [
+        "independent_operator",
+        "private_school_or_academy"
+      ],
+      "supporting_queries": [
+        "white label elearning",
+        "white label elearning platform",
+        "white label lms",
+        "course licensing"
+      ],
+      "pricing_or_offer_proof": [
+        "Reference-market evidence includes strong non-branded commercial rankings, though public price normalization is still incomplete."
+      ],
+      "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+      "takeaway": "This is a real operator market with focused commercial players ranking on non-branded terms.",
+      "why_not_stronger": "The strongest proof is in reference markets and keyword traction, not yet in a full public price map.",
+      "synced_at": "2026-04-21T15:12:29.357Z"
+    }
   }
 }

@@ -173,6 +173,31 @@
     "reference_analog_domains": [],
     "next_research_step": "refine WTP/CAC with keyword overview and price checks",
     "synced_from_scorecard_at": "2026-04-21T10:13:00.405Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 3/3 anchor families with total local query volume 70 and max anchor volume 70. Lane rollup contains 4 deduplicated keywords, including 0 P1 terms. Current watchlist domains: houseoftraining.lu, abilways.lu, alco.lu, cmlaw.lu, csl.lu. Next step: refine WTP/CAC with keyword overview and price checks."
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 3/3 anchor families with total local query volume 70 and max anchor volume 70. Lane rollup contains 4 deduplicated keywords, including 0 P1 terms. Current watchlist domains: houseoftraining.lu, abilways.lu, alco.lu, cmlaw.lu, csl.lu. Next step: refine WTP/CAC with keyword overview and price checks. Independent-operator signal: weak. Examples: House of Training (private_school_or_academy). The need is commercially legible, but current public supply is narrow and academy-led rather than fragmented. Why not stronger: Only one validated public Luxembourg provider clearly overlaps, so operator fragmentation is not yet proven.",
+    "independent_operator_summary": {
+      "signal": "weak",
+      "independent_operator_examples": [
+        {
+          "name": "House of Training",
+          "classification": "private_school_or_academy",
+          "evidence": "Public Luxembourg finance-sector AI courses already use AI Act and GDPR framing."
+        }
+      ],
+      "operator_types_seen": [
+        "private_school_or_academy"
+      ],
+      "supporting_queries": [
+        "ai act training luxembourg",
+        "ai literacy training finance",
+        "formation compliance luxembourg"
+      ],
+      "pricing_or_offer_proof": [
+        "Current validated evidence proves adjacent finance-sector AI training supply, but no clean specialist-operator price layer."
+      ],
+      "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+      "takeaway": "The need is commercially legible, but current public supply is narrow and academy-led rather than fragmented.",
+      "why_not_stronger": "Only one validated public Luxembourg provider clearly overlaps, so operator fragmentation is not yet proven.",
+      "synced_at": "2026-04-21T15:12:29.357Z"
+    }
   }
 }

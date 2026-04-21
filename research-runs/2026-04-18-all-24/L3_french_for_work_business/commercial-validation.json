@@ -223,6 +223,43 @@
     "reference_analog_domains": [],
     "next_research_step": "map lane keywords into product-level commercial notes",
     "synced_from_scorecard_at": "2026-04-21T10:13:00.400Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 7/3 anchor families with total local query volume 930 and max anchor volume 390. Lane rollup contains 17 deduplicated keywords, including 5 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: french classes luxembourg (P2, vol 390), french courses luxembourg (P2, vol 390), language courses luxembourg (P2, vol 320), cours de français luxembourg (P2, vol 140), cours de langue luxembourg (P2, vol 140). Cross-border Luxembourg-intent layer: 3 relevant keywords; top terms french classes luxembourg, french courses luxembourg, language courses luxembourg. Next step: map lane keywords into product-level commercial notes."
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 7/3 anchor families with total local query volume 930 and max anchor volume 390. Lane rollup contains 17 deduplicated keywords, including 5 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: french classes luxembourg (P2, vol 390), french courses luxembourg (P2, vol 390), language courses luxembourg (P2, vol 320), cours de français luxembourg (P2, vol 140), cours de langue luxembourg (P2, vol 140). Cross-border Luxembourg-intent layer: 3 relevant keywords; top terms french classes luxembourg, french courses luxembourg, language courses luxembourg. Next step: map lane keywords into product-level commercial notes. Independent-operator signal: weak. Examples: Prolingua specialist language (private_school_or_academy), inlingua Luxembourg (private_school_or_academy), INLL (official_or_institutional). Commercial supply exists, but it is led by broad schools and institutions rather than fragmented small operators. Why not stronger: Current evidence shows category demand, but not a clear long tail of niche business-French operators.",
+    "independent_operator_summary": {
+      "signal": "weak",
+      "independent_operator_examples": [
+        {
+          "name": "Prolingua specialist language",
+          "classification": "private_school_or_academy",
+          "evidence": "Commercial provider with specialist and tailor-made French offers overlapping with the product."
+        },
+        {
+          "name": "inlingua Luxembourg",
+          "classification": "private_school_or_academy",
+          "evidence": "Broad private language school serving the same general business-French lane."
+        },
+        {
+          "name": "INLL",
+          "classification": "official_or_institutional",
+          "evidence": "Institutional provider proving category demand, but not fragmented small-operator supply."
+        }
+      ],
+      "operator_types_seen": [
+        "private_school_or_academy",
+        "official_or_institutional",
+        "social_community_only"
+      ],
+      "supporting_queries": [
+        "french courses luxembourg",
+        "cours de français luxembourg",
+        "language courses luxembourg"
+      ],
+      "pricing_or_offer_proof": [
+        "No clean small-operator price proof was captured in the validated evidence set."
+      ],
+      "social_funnel_signal": "Facebook search for French-in-Luxembourg terms collapsed into general Luxembourg and expat groups rather than niche French-learning communities. This supports local newcomer demand, but not a dedicated small-operator funnel for business French.",
+      "takeaway": "Commercial supply exists, but it is led by broad schools and institutions rather than fragmented small operators.",
+      "why_not_stronger": "Current evidence shows category demand, but not a clear long tail of niche business-French operators.",
+      "synced_at": "2026-04-21T15:12:29.357Z"
+    }
   }
 }

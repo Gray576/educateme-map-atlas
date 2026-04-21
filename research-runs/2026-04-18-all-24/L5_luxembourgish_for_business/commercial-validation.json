@@ -237,6 +237,42 @@
     "reference_analog_domains": [],
     "next_research_step": "map lane keywords into product-level commercial notes",
     "synced_from_scorecard_at": "2026-04-21T10:13:00.401Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 5/3 anchor families with total local query volume 1260 and max anchor volume 720. Lane rollup contains 24 deduplicated keywords, including 6 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: cours de luxembourgeois (P1, vol 720), inl sproochentest (P1, vol 210), cours de luxembourgeois en ligne (P1, vol 140), sproochentest luxembourg (P1, vol 140), cours luxembourgeois en ligne (P1, vol 110). Cross-border Luxembourg-intent layer: 5 relevant keywords; top terms cours de luxembourgeois, inl sproochentest, cours de luxembourgeois en ligne. Next step: map lane keywords into product-level commercial notes."
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 5/3 anchor families with total local query volume 1260 and max anchor volume 720. Lane rollup contains 24 deduplicated keywords, including 6 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: cours de luxembourgeois (P1, vol 720), inl sproochentest (P1, vol 210), cours de luxembourgeois en ligne (P1, vol 140), sproochentest luxembourg (P1, vol 140), cours luxembourgeois en ligne (P1, vol 110). Cross-border Luxembourg-intent layer: 5 relevant keywords; top terms cours de luxembourgeois, inl sproochentest, cours de luxembourgeois en ligne. Next step: map lane keywords into product-level commercial notes. Independent-operator signal: medium. Examples: Prolingua (private_school_or_academy), inlingua Luxembourg (private_school_or_academy), INLL self-learning / official route (official_or_institutional). This is a real paid lane with private alternatives, not just an official/public learning route. Why not stronger: Visible supply is still concentrated in broad providers rather than many small niche operators.",
+    "independent_operator_summary": {
+      "signal": "medium",
+      "independent_operator_examples": [
+        {
+          "name": "Prolingua",
+          "classification": "private_school_or_academy",
+          "evidence": "Private tailored Luxembourgish alternative already exists."
+        },
+        {
+          "name": "inlingua Luxembourg",
+          "classification": "private_school_or_academy",
+          "evidence": "Private commercial provider confirms the business-language lane is monetized."
+        },
+        {
+          "name": "INLL self-learning / official route",
+          "classification": "official_or_institutional",
+          "evidence": "Official route and free self-learning create pressure but also validate the need."
+        }
+      ],
+      "operator_types_seen": [
+        "private_school_or_academy",
+        "official_or_institutional"
+      ],
+      "supporting_queries": [
+        "cours luxembourgeois",
+        "cours de luxembourgeois",
+        "luxembourgish online course"
+      ],
+      "pricing_or_offer_proof": [
+        "Current proof shows private tailored alternatives exist, even though clean public price normalization is still missing."
+      ],
+      "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+      "takeaway": "This is a real paid lane with private alternatives, not just an official/public learning route.",
+      "why_not_stronger": "Visible supply is still concentrated in broad providers rather than many small niche operators.",
+      "synced_at": "2026-04-21T15:12:29.357Z"
+    }
   }
 }

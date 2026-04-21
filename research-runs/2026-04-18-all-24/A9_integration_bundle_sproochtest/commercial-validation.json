@@ -249,6 +249,50 @@
     "reference_analog_domains": [],
     "next_research_step": "map lane keywords into product-level commercial notes",
     "synced_from_scorecard_at": "2026-04-21T10:13:00.389Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 7/3 anchor families with total local query volume 1180 and max anchor volume 720. Lane rollup contains 14 deduplicated keywords, including 3 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: cours de luxembourgeois (P1, vol 720), inl sproochentest (P1, vol 210), cours de luxembourgeois en ligne (P1, vol 140), sproochentest luxembourg (P1, vol 140), cours luxembourgeois en ligne (P1, vol 110). Cross-border Luxembourg-intent layer: 5 relevant keywords; top terms cours de luxembourgeois, inl sproochentest, cours de luxembourgeois en ligne. Next step: map lane keywords into product-level commercial notes."
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 7/3 anchor families with total local query volume 1180 and max anchor volume 720. Lane rollup contains 14 deduplicated keywords, including 3 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: cours de luxembourgeois (P1, vol 720), inl sproochentest (P1, vol 210), cours de luxembourgeois en ligne (P1, vol 140), sproochentest luxembourg (P1, vol 140), cours luxembourgeois en ligne (P1, vol 110). Cross-border Luxembourg-intent layer: 5 relevant keywords; top terms cours de luxembourgeois, inl sproochentest, cours de luxembourgeois en ligne. Next step: map lane keywords into product-level commercial notes. Independent-operator signal: strong. Examples: ETIC (independent_operator), Lux'Languages (independent_operator), LuxLessons (independent_operator). The route is already monetized by several small paid providers, so demand is real and fragmented rather than institution-only. Why not stronger: Current evidence proves fragmented prep demand, but not bundle-specific willingness to pay or partner-led funnel behavior.",
+    "independent_operator_summary": {
+      "signal": "strong",
+      "independent_operator_examples": [
+        {
+          "name": "ETIC",
+          "classification": "independent_operator",
+          "evidence": "Focused Luxembourg Sproochentest preparation offer with a visible paid prep route."
+        },
+        {
+          "name": "Lux'Languages",
+          "classification": "independent_operator",
+          "evidence": "Small specialist Luxembourgish prep provider with public paid preparation positioning."
+        },
+        {
+          "name": "LuxLessons",
+          "classification": "independent_operator",
+          "evidence": "Niche Luxembourgish prep provider visible in the same route market with public online preparation messaging."
+        },
+        {
+          "name": "Prolingua",
+          "classification": "private_school_or_academy",
+          "evidence": "Broad private school with overlapping Sproochentest and Luxembourgish offers, proving the market is not empty."
+        }
+      ],
+      "operator_types_seen": [
+        "independent_operator",
+        "private_school_or_academy",
+        "official_or_institutional",
+        "social_community_only"
+      ],
+      "supporting_queries": [
+        "sproochentest luxembourg",
+        "cours de luxembourgeois",
+        "inl sproochentest",
+        "luxembourgish online course"
+      ],
+      "pricing_or_offer_proof": [
+        "Observed public alternatives range from a free online tier to roughly 745-980 EUR paid preparation offers."
+      ],
+      "social_funnel_signal": "Facebook group search surfaces a Luxembourgish-learning community layer (`Luxembourgish learning`, `Luxembourg Training, Education, Language Courses Luxembourg`, `Tandem Luxembourg`, `Luxembourgish coach/language exchange partner`). This supports top-of-funnel demand and peer exchange, but the OCR pass did not show a clear bundle-led paid funnel from those groups.",
+      "takeaway": "The route is already monetized by several small paid providers, so demand is real and fragmented rather than institution-only.",
+      "why_not_stronger": "Current evidence proves fragmented prep demand, but not bundle-specific willingness to pay or partner-led funnel behavior.",
+      "synced_at": "2026-04-21T15:12:29.357Z"
+    }
   }
 }

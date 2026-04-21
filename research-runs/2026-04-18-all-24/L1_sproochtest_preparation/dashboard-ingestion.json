@@ -259,6 +259,53 @@
       "value": [],
       "confidence_band": "medium",
       "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "independent_operator_summary": {
+      "value": {
+        "signal": "strong",
+        "independent_operator_examples": [
+          {
+            "name": "ETIC",
+            "classification": "independent_operator",
+            "evidence": "Focused Luxembourg Sproochentest prep offer with public paid preparation."
+          },
+          {
+            "name": "Lux'Languages",
+            "classification": "independent_operator",
+            "evidence": "Small specialist Luxembourgish prep provider with public paid positioning."
+          },
+          {
+            "name": "LuxLessons",
+            "classification": "independent_operator",
+            "evidence": "Niche provider visible in the same route market with online prep messaging."
+          },
+          {
+            "name": "Prolingua",
+            "classification": "private_school_or_academy",
+            "evidence": "Broad private school with overlapping nationality and Luxembourgish offers."
+          }
+        ],
+        "operator_types_seen": [
+          "independent_operator",
+          "private_school_or_academy",
+          "official_or_institutional"
+        ],
+        "supporting_queries": [
+          "sproochentest",
+          "cours de luxembourgeois",
+          "learn luxembourgish online",
+          "sproochentest luxembourg"
+        ],
+        "pricing_or_offer_proof": [
+          "Observed public alternatives span free-tier messaging through roughly 745-980 EUR paid offers."
+        ],
+        "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+        "takeaway": "This is a real fragmented prep market with multiple small paid providers, not just an official route.",
+        "why_not_stronger": "Operator presence is strong, but product-specific reimbursability and monetization are still separate questions.",
+        "synced_at": "2026-04-21T15:12:29.357Z"
+      },
+      "confidence_band": "medium",
+      "omission_reason": "Derived independent-operator signal for prioritization and further market research. Keep it out of customer-facing copy until translated into product-safe language."
     }
   },
   "blocked_fields": {

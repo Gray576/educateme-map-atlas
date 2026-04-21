@@ -221,6 +221,35 @@
       "value": [],
       "confidence_band": "medium",
       "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "independent_operator_summary": {
+      "value": {
+        "signal": "weak",
+        "independent_operator_examples": [
+          {
+            "name": "Official OET sample tests",
+            "classification": "official_or_institutional",
+            "evidence": "Free official route resources create real exam pressure and pricing pressure."
+          }
+        ],
+        "operator_types_seen": [
+          "official_or_institutional"
+        ],
+        "supporting_queries": [
+          "oet nursing preparation",
+          "oet sample test",
+          "occupational english test sample"
+        ],
+        "pricing_or_offer_proof": [
+          "The current validated layer proves exam-route pressure more clearly than a fragmented prep-provider map."
+        ],
+        "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+        "takeaway": "The nursing OET route is real, but operator fragmentation is not yet captured cleanly in the validated card layer.",
+        "why_not_stronger": "A validated prep-provider set has not yet been written into the card.",
+        "synced_at": "2026-04-21T15:12:29.357Z"
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived independent-operator signal for prioritization and further market research. Keep it out of customer-facing copy until translated into product-safe language."
     }
   },
   "blocked_fields": {

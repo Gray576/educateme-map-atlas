@@ -30,6 +30,17 @@ function severityTone(severity: "low" | "medium" | "high") {
   return "bg-emerald-100 text-emerald-800";
 }
 
+function operatorSignalTone(signal: "none" | "weak" | "medium" | "strong") {
+  if (signal === "strong") return "bg-emerald-100 text-emerald-800";
+  if (signal === "medium") return "bg-amber-100 text-amber-800";
+  if (signal === "weak") return "bg-rose-100 text-rose-800";
+  return "bg-muted text-muted-foreground";
+}
+
+function humanizeOperatorClass(value: string) {
+  return value.replace(/[_-]+/g, " ");
+}
+
 function MetricRow({
   label,
   description,
@@ -469,6 +480,86 @@ export function ExplainabilityDrawer({
                 </div>
               </div>
             </section>
+
+            {product.independentOperatorSummary ? (
+              <section className="rounded-md border border-border bg-card p-4">
+                <div className="flex items-center justify-between gap-3">
+                  <div>
+                    <h3 className="text-base font-semibold">Independent operator signal</h3>
+                    <p className="mt-1 text-sm leading-6 text-muted-foreground">
+                      Компактный слой про fragmented supply, small providers и social-acquisition residue.
+                    </p>
+                  </div>
+                  <span
+                    className={cn(
+                      "inline-flex rounded-lg px-2.5 py-1 text-xs font-semibold",
+                      operatorSignalTone(product.independentOperatorSummary.signal)
+                    )}
+                  >
+                    {product.independentOperatorSummary.signal}
+                  </span>
+                </div>
+
+                <div className="mt-3 grid gap-3 md:grid-cols-3">
+                  {product.independentOperatorSummary.independent_operator_examples.length > 0 ? (
+                    product.independentOperatorSummary.independent_operator_examples
+                      .slice(0, 3)
+                      .map(
+                        (
+                          example: NonNullable<
+                            typeof product.independentOperatorSummary
+                          >["independent_operator_examples"][number]
+                        ) => (
+                        <article
+                          key={`${example.name}-${example.classification}`}
+                          className="rounded-xl border border-border bg-background px-3 py-3"
+                        >
+                          <p className="text-sm font-semibold">{example.name}</p>
+                          <p className="mt-1 text-[11px] uppercase tracking-[0.08em] text-muted-foreground">
+                            {humanizeOperatorClass(example.classification)}
+                          </p>
+                          <p className="mt-2 text-xs leading-5 text-muted-foreground">
+                            {example.evidence}
+                          </p>
+                        </article>
+                        )
+                      )
+                  ) : (
+                    <p className="text-sm text-muted-foreground">No operator examples stored for this product.</p>
+                  )}
+                </div>
+
+                <div className="mt-4 grid gap-3 md:grid-cols-2">
+                  <DetailCard
+                    label="Takeaway"
+                    value={product.independentOperatorSummary.takeaway || "No compact takeaway stored"}
+                    hint="Что этот слой реально говорит про рынок и почему это важно для приоритизации."
+                  />
+                  <DetailCard
+                    label="Why not stronger"
+                    value={product.independentOperatorSummary.why_not_stronger || "No limiter recorded"}
+                    hint="Что пока не дает поднять signal выше."
+                  />
+                </div>
+
+                <div className="mt-4 grid gap-3 md:grid-cols-2">
+                  <DetailCard
+                    label="Social funnel"
+                    value={product.independentOperatorSummary.social_funnel_signal || "No social funnel evidence stored"}
+                    hint="Facebook/community residue. Supporting evidence only, not direct pricing proof."
+                  />
+                  <DetailCard
+                    label="Supporting queries"
+                    value={
+                      product.independentOperatorSummary.supporting_queries.length > 0
+                        ? product.independentOperatorSummary.supporting_queries.slice(0, 5).join(" · ")
+                        : "No supporting queries stored"
+                    }
+                    hint="Какие keywords и route-language поддерживают этот operator verdict."
+                  />
+                </div>
+              </section>
+            ) : null}
 
             <FieldGroup
               title="Проверенные собранные данные"

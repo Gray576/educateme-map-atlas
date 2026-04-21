@@ -172,6 +172,42 @@
       "value": [],
       "confidence_band": "low",
       "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "independent_operator_summary": {
+      "value": {
+        "signal": "weak",
+        "independent_operator_examples": [
+          {
+            "name": "House of Training",
+            "classification": "private_school_or_academy",
+            "evidence": "Public Luxembourg prompt-engineering and ChatGPT business courses already exist."
+          },
+          {
+            "name": "OpenAI Academy",
+            "classification": "official_or_institutional",
+            "evidence": "Free public prompting guidance proves generic prompt knowledge is not scarce."
+          }
+        ],
+        "operator_types_seen": [
+          "private_school_or_academy",
+          "official_or_institutional",
+          "content_only"
+        ],
+        "supporting_queries": [
+          "prompt engineering training",
+          "ai workshop luxembourg",
+          "prompt engineering workshop"
+        ],
+        "pricing_or_offer_proof": [
+          "Current proof shows public commercial offers, but no clean niche-operator pricing layer."
+        ],
+        "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+        "takeaway": "The category exists commercially, but visible supply is still dominated by a broader academy rather than many focused operators.",
+        "why_not_stronger": "The validated market is real, but not clearly fragmented into multiple prompt-specialist operators.",
+        "synced_at": "2026-04-21T15:12:29.357Z"
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived independent-operator signal for prioritization and further market research. Keep it out of customer-facing copy until translated into product-safe language."
     }
   },
   "blocked_fields": {

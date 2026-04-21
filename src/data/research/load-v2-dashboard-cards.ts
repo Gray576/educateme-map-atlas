@@ -11,6 +11,7 @@ import type {
   BuyerType,
   ClaimArea,
   ClaimStatus,
+  CommercialValidationIndependentOperatorSummaryV1,
   CompetitorType,
   ConfidenceBand,
   DependencyType,
@@ -229,6 +230,62 @@ function average(values: number[]) {
 
 function clamp(min: number, value: number, max: number) {
   return Math.max(min, Math.min(max, value));
+}
+
+function normalizeOperatorClassification(value: unknown) {
+  const normalized = value === "independent_operator" ||
+    value === "private_school_or_academy" ||
+    value === "official_or_institutional" ||
+    value === "marketplace_or_directory" ||
+    value === "social_community_only" ||
+    value === "content_only" ||
+    value === "unknown"
+    ? value
+    : "unknown";
+  return normalized as CommercialValidationIndependentOperatorSummaryV1["independent_operator_examples"][number]["classification"];
+}
+
+function parseIndependentOperatorSummary(
+  value: unknown
+): CommercialValidationIndependentOperatorSummaryV1 | null {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return null;
+
+  const record = value as Record<string, unknown>;
+  const signal =
+    record.signal === "none" ||
+    record.signal === "weak" ||
+    record.signal === "medium" ||
+    record.signal === "strong"
+      ? record.signal
+      : null;
+
+  if (!signal) return null;
+
+  const examples = Array.isArray(record.independent_operator_examples)
+    ? record.independent_operator_examples
+        .filter(
+          (item): item is Record<string, unknown> =>
+            !!item && typeof item === "object" && !Array.isArray(item)
+        )
+        .map((item) => ({
+          name: asString(item.name) ?? "Unknown",
+          classification: normalizeOperatorClassification(item.classification),
+          evidence: asString(item.evidence) ?? "",
+        }))
+        .filter((item) => item.evidence.length > 0)
+    : [];
+
+  return {
+    signal,
+    independent_operator_examples: examples,
+    operator_types_seen: asArray(record.operator_types_seen),
+    supporting_queries: asArray(record.supporting_queries),
+    pricing_or_offer_proof: asArray(record.pricing_or_offer_proof),
+    social_funnel_signal: asString(record.social_funnel_signal) ?? "",
+    takeaway: asString(record.takeaway) ?? "",
+    why_not_stronger: asString(record.why_not_stronger) ?? "",
+    synced_at: asString(record.synced_at) ?? "",
+  };
 }
 
 function mapV2SourceType(value: string): SourceType {
@@ -1380,6 +1437,9 @@ function buildResearchCardFromArtifacts({
         demandPullConfidenceBand: commercial?.demand_pull?.confidence_band ?? "unknown",
         overallConfidenceBand: commercial?.collapsed_scores?.overall_confidence_band ?? "unknown",
         artifactFolder: folderName,
+        independentOperatorSummary: parseIndependentOperatorSummary(
+          dashboard.analyst_only_fields?.independent_operator_summary?.value
+        ),
         safeFieldEntries: buildDataFieldEntries(dashboard.safe_fields || {}, "verified"),
         analystFieldEntries: buildDataFieldEntries(dashboard.analyst_only_fields || {}, "analyst"),
         blockedFieldEntries: buildDataFieldEntries(dashboard.blocked_fields || {}, "manual"),

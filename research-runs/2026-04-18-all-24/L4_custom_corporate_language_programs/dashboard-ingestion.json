@@ -195,6 +195,45 @@
       "value": [],
       "confidence_band": "low",
       "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "independent_operator_summary": {
+      "value": {
+        "signal": "weak",
+        "independent_operator_examples": [
+          {
+            "name": "Prolingua tailor-made courses",
+            "classification": "private_school_or_academy",
+            "evidence": "Public tailored corporate language offer overlaps directly with the category."
+          },
+          {
+            "name": "inlingua Luxembourg",
+            "classification": "private_school_or_academy",
+            "evidence": "Broad commercial corporate-language supplier in the same market."
+          },
+          {
+            "name": "Berlitz for Business",
+            "classification": "private_school_or_academy",
+            "evidence": "Large commercial benchmark proving the lane is already served."
+          }
+        ],
+        "operator_types_seen": [
+          "private_school_or_academy"
+        ],
+        "supporting_queries": [
+          "language courses luxembourg",
+          "cours de langue luxembourg",
+          "courses in luxembourg"
+        ],
+        "pricing_or_offer_proof": [
+          "Current proof shows tailored corporate offers exist, but no fragmented operator pricing layer."
+        ],
+        "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+        "takeaway": "Corporate language demand exists, but the visible market is served by established schools rather than a long tail of small operators.",
+        "why_not_stronger": "The current wedge is category existence, not a fragmented operator market.",
+        "synced_at": "2026-04-21T15:12:29.357Z"
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived independent-operator signal for prioritization and further market research. Keep it out of customer-facing copy until translated into product-safe language."
     }
   },
   "blocked_fields": {

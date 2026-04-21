@@ -163,6 +163,40 @@
       "value": [],
       "confidence_band": "low",
       "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "independent_operator_summary": {
+      "value": {
+        "signal": "weak",
+        "independent_operator_examples": [
+          {
+            "name": "House of Training",
+            "classification": "private_school_or_academy",
+            "evidence": "Public local training incumbent with CSRD-related offers."
+          },
+          {
+            "name": "PwC Luxembourg",
+            "classification": "private_school_or_academy",
+            "evidence": "Public local corporate-training incumbent with adjacent ESG/CSRD offer footprint."
+          }
+        ],
+        "operator_types_seen": [
+          "private_school_or_academy"
+        ],
+        "supporting_queries": [
+          "formation compliance luxembourg",
+          "csrd training",
+          "esg training luxembourg"
+        ],
+        "pricing_or_offer_proof": [
+          "Competitor public prices range from 300 EUR to 1,750 EUR, but scopes remain mixed."
+        ],
+        "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+        "takeaway": "There is commercial compliance-training supply around this problem, but it is led by larger incumbents rather than fragmented operators.",
+        "why_not_stronger": "Current proof is incumbent-led and does not yet show a long tail of smaller CSRD specialists.",
+        "synced_at": "2026-04-21T15:12:29.357Z"
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived independent-operator signal for prioritization and further market research. Keep it out of customer-facing copy until translated into product-safe language."
     }
   },
   "blocked_fields": {

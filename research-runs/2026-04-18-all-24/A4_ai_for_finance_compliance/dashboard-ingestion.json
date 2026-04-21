@@ -174,6 +174,35 @@
       "value": [],
       "confidence_band": "low",
       "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "independent_operator_summary": {
+      "value": {
+        "signal": "weak",
+        "independent_operator_examples": [
+          {
+            "name": "House of Training",
+            "classification": "private_school_or_academy",
+            "evidence": "Public Luxembourg finance-sector AI courses already use AI Act and GDPR framing."
+          }
+        ],
+        "operator_types_seen": [
+          "private_school_or_academy"
+        ],
+        "supporting_queries": [
+          "ai act training luxembourg",
+          "ai literacy training finance",
+          "formation compliance luxembourg"
+        ],
+        "pricing_or_offer_proof": [
+          "Current validated evidence proves adjacent finance-sector AI training supply, but no clean specialist-operator price layer."
+        ],
+        "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+        "takeaway": "The need is commercially legible, but current public supply is narrow and academy-led rather than fragmented.",
+        "why_not_stronger": "Only one validated public Luxembourg provider clearly overlaps, so operator fragmentation is not yet proven.",
+        "synced_at": "2026-04-21T15:12:29.357Z"
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived independent-operator signal for prioritization and further market research. Keep it out of customer-facing copy until translated into product-safe language."
     }
   },
   "blocked_fields": {

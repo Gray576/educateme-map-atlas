@@ -185,6 +185,31 @@
     "reference_analog_domains": [],
     "next_research_step": "refine WTP/CAC with keyword overview and price checks",
     "synced_from_scorecard_at": "2026-04-21T10:13:00.393Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: US. Captured 3/3 anchor families with total local query volume 850 and max anchor volume 590. Lane rollup contains 18 deduplicated keywords, including 3 P1 terms. Current watchlist domains: oet.com, youtube.com, apple.com, edubenchmark.com, oetpracticeonline.com. Top follow-up keywords: oet preparation for nurses (P2, vol 20), best book for oet preparation for nurses (P2, vol 10), free online oet preparation course for nurses (P2, vol 10), oet exam preparation for nurses (P2, vol 10), oet exam sample test (P1, vol 260). Next step: refine WTP/CAC with keyword overview and price checks."
+    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: US. Captured 3/3 anchor families with total local query volume 850 and max anchor volume 590. Lane rollup contains 18 deduplicated keywords, including 3 P1 terms. Current watchlist domains: oet.com, youtube.com, apple.com, edubenchmark.com, oetpracticeonline.com. Top follow-up keywords: oet preparation for nurses (P2, vol 20), best book for oet preparation for nurses (P2, vol 10), free online oet preparation course for nurses (P2, vol 10), oet exam preparation for nurses (P2, vol 10), oet exam sample test (P1, vol 260). Next step: refine WTP/CAC with keyword overview and price checks. Independent-operator signal: weak. Examples: Official OET sample tests (official_or_institutional). The nursing OET route is real, but operator fragmentation is not yet captured cleanly in the validated card layer. Why not stronger: A validated prep-provider set has not yet been written into the card.",
+    "independent_operator_summary": {
+      "signal": "weak",
+      "independent_operator_examples": [
+        {
+          "name": "Official OET sample tests",
+          "classification": "official_or_institutional",
+          "evidence": "Free official route resources create real exam pressure and pricing pressure."
+        }
+      ],
+      "operator_types_seen": [
+        "official_or_institutional"
+      ],
+      "supporting_queries": [
+        "oet nursing preparation",
+        "oet sample test",
+        "occupational english test sample"
+      ],
+      "pricing_or_offer_proof": [
+        "The current validated layer proves exam-route pressure more clearly than a fragmented prep-provider map."
+      ],
+      "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+      "takeaway": "The nursing OET route is real, but operator fragmentation is not yet captured cleanly in the validated card layer.",
+      "why_not_stronger": "A validated prep-provider set has not yet been written into the card.",
+      "synced_at": "2026-04-21T15:12:29.357Z"
+    }
   }
 }

@@ -208,6 +208,47 @@
       "value": [],
       "confidence_band": "low",
       "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "independent_operator_summary": {
+      "value": {
+        "signal": "weak",
+        "independent_operator_examples": [
+          {
+            "name": "House of Training",
+            "classification": "private_school_or_academy",
+            "evidence": "Verified paid substitute in French."
+          },
+          {
+            "name": "Elements of AI",
+            "classification": "official_or_institutional",
+            "evidence": "Free multilingual substitute proving public route and competitive pressure."
+          },
+          {
+            "name": "Haufe Akademie / Bitkom Akademie",
+            "classification": "private_school_or_academy",
+            "evidence": "Germany-local AI training ecosystem shows commercial supply around the same competence problem."
+          }
+        ],
+        "operator_types_seen": [
+          "private_school_or_academy",
+          "official_or_institutional",
+          "content_only"
+        ],
+        "supporting_queries": [
+          "ki schulung",
+          "ai act schulung",
+          "ki kompetenz schulung"
+        ],
+        "pricing_or_offer_proof": [
+          "Current proof shows a real paid substitute landscape and strong Germany-local keyword demand, but not a clean fragmented small-operator market."
+        ],
+        "social_funnel_signal": "Facebook search for `ai act compliance` and `ki schulung` returned generic AI groups and mostly irrelevant school-related noise rather than operator-led compliance communities. No useful Facebook funnel signal was confirmed for this lane.",
+        "takeaway": "The compliance problem is clearly monetized, but visible supply is still academy-led rather than long-tail operator-led.",
+        "why_not_stronger": "The market is real, but current validated competitors are mostly broad academies or free public substitutes.",
+        "synced_at": "2026-04-21T15:12:29.357Z"
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived independent-operator signal for prioritization and further market research. Keep it out of customer-facing copy until translated into product-safe language."
     }
   },
   "blocked_fields": {
