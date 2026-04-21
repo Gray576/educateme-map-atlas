@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo } from "react";
 
 import { ExplainabilityDrawer } from "@/components/research/ExplainabilityDrawer";
 import { ResearchActiveFilters } from "@/components/research/ResearchActiveFilters";
@@ -43,11 +43,10 @@ type QuadrantCluster = {
   y: number;
   cx: number;
   cy: number;
-  radius: number;
   points: QuadrantPoint[];
 };
 
-type ExpandedClusterNode = {
+type ClusterLabelNode = {
   point: QuadrantPoint;
   cx: number;
   cy: number;
@@ -317,14 +316,21 @@ function buildQuadrantClusters(points: QuadrantPoint[]): QuadrantCluster[] {
       y: primaryPoint.y,
       cx: 40 + primaryPoint.x * 8.2,
       cy: 468 - primaryPoint.y * 4.4,
-      radius: Math.max(...orderedPoints.map((point) => point.radius)),
       points: orderedPoints,
     };
   });
 }
 
-function buildExpandedClusterNodes(cluster: QuadrantCluster): ExpandedClusterNode[] {
-  const spreadRadius = Math.max(34, cluster.radius + 18);
+function buildClusterLabelNodes(cluster: QuadrantCluster): ClusterLabelNode[] {
+  if (cluster.points.length === 1) {
+    return cluster.points.map((point) => ({
+      point,
+      cx: cluster.cx,
+      cy: cluster.cy,
+    }));
+  }
+
+  const spreadRadius = Math.max(26, cluster.points.length * 8 + 12);
 
   return cluster.points.map((point, index) => {
     const angle = (-Math.PI / 2) + (index * (2 * Math.PI)) / cluster.points.length;
@@ -351,36 +357,6 @@ function QuadrantPlot({
 }) {
   const reading = buildQuadrantReading(points);
   const clusters = useMemo(() => buildQuadrantClusters(points), [points]);
-  const [expandedClusterKeys, setExpandedClusterKeys] = useState<string[]>([]);
-  const visibleClusterKeySet = useMemo(
-    () => new Set(clusters.map((cluster) => cluster.key)),
-    [clusters]
-  );
-  const selectedClusterKey = useMemo(() => {
-    if (!selectedCode) return null;
-    const selectedCluster = clusters.find((cluster) =>
-      cluster.points.some((point) => point.code === selectedCode)
-    );
-    if (!selectedCluster || selectedCluster.points.length < 2) return null;
-    return selectedCluster.key;
-  }, [clusters, selectedCode]);
-  const expandedClusterSet = useMemo(() => {
-    const next = new Set(
-      expandedClusterKeys.filter((key) => visibleClusterKeySet.has(key))
-    );
-    if (selectedClusterKey) {
-      next.add(selectedClusterKey);
-    }
-    return next;
-  }, [expandedClusterKeys, selectedClusterKey, visibleClusterKeySet]);
-
-  function toggleCluster(clusterKey: string) {
-    setExpandedClusterKeys((current) =>
-      current.includes(clusterKey)
-        ? current.filter((key) => key !== clusterKey)
-        : [...current, clusterKey]
-    );
-  }
 
   return (
     <section className="rounded-md border border-border bg-card p-4">
@@ -405,7 +381,7 @@ function QuadrantPlot({
           Size: safe fields
         </Badge>
         <Badge variant="outline" className="rounded-md px-2.5 py-1 text-xs">
-          Overlaps: click grouped marker to expand
+          Overlaps: labels auto-spread at the same coordinate
         </Badge>
       </div>
 
@@ -442,176 +418,68 @@ function QuadrantPlot({
           </text>
 
           {clusters.map((cluster) => {
-            const isExpanded = expandedClusterSet.has(cluster.key);
-            const primaryPoint = cluster.points[0];
-            const tone = getArchetypeVisual(primaryPoint.archetype.id);
-
-            if (cluster.points.length === 1) {
-              const [point] = cluster.points;
-              const strokeWidth = 2 + (1 - point.pullCoverage) * 3;
-              const dash = point.pullCoverage < 0.5 ? "6 4" : undefined;
-
-              return (
-                <g
-                  key={point.code}
-                  role="button"
-                  tabIndex={0}
-                  onClick={() => onSelect(point.code)}
-                  onKeyDown={(event) => {
-                    if (event.key === "Enter" || event.key === " ") {
-                      event.preventDefault();
-                      onSelect(point.code);
-                    }
-                  }}
-                  className="cursor-pointer"
-                >
-                  <circle
-                    cx={cluster.cx}
-                    cy={cluster.cy}
-                    r={point.radius}
-                    fill={tone.fill}
-                    stroke={point.releaseStatus === "blocked" ? "#b42318" : tone.text}
-                    strokeWidth={strokeWidth}
-                    strokeDasharray={dash}
-                  />
-                  <text
-                    x={cluster.cx}
-                    y={cluster.cy + 3}
-                    textAnchor="middle"
-                    fill={tone.text}
-                    fontSize="14"
-                    fontWeight="700"
-                  >
-                    {point.code}
-                  </text>
-                  <text
-                    x={cluster.cx}
-                    y={cluster.cy + point.radius + 18}
-                    textAnchor="middle"
-                    fill="#65736f"
-                    fontSize="11"
-                  >
-                    {formatAxis(point.x)} · {formatAxis(point.y)}
-                  </text>
-                </g>
-              );
-            }
-
-            const expandedNodes = isExpanded ? buildExpandedClusterNodes(cluster) : [];
+            const labelNodes = buildClusterLabelNodes(cluster);
 
             return (
               <g key={cluster.key}>
-                {isExpanded
-                  ? expandedNodes.map((node) => {
-                      const strokeWidth = 2 + (1 - node.point.pullCoverage) * 3;
-                      const dash = node.point.pullCoverage < 0.5 ? "6 4" : undefined;
-                      const nodeTone = getArchetypeVisual(node.point.archetype.id);
+                {labelNodes.map((node) => {
+                  const tone = getArchetypeVisual(node.point.archetype.id);
+                  const isSelected = node.point.code === selectedCode;
+                  const labelWidth = Math.max(20, node.point.code.length * 7 + 10);
+                  const rectX = node.cx - labelWidth / 2;
+                  const rectY = node.cy - 10;
+                  const strokeWidth = 1.6 + (1 - node.point.pullCoverage) * 1.6;
+                  const dash = node.point.pullCoverage < 0.5 ? "4 3" : undefined;
 
-                      return (
-                        <g key={node.point.code}>
-                          <line
-                            x1={cluster.cx}
-                            y1={cluster.cy}
-                            x2={node.cx}
-                            y2={node.cy}
-                            stroke="#c7c1b4"
-                            strokeWidth="1.5"
-                          />
-                          <g
-                            role="button"
-                            tabIndex={0}
-                            onClick={() => onSelect(node.point.code)}
-                            onKeyDown={(event) => {
-                              if (event.key === "Enter" || event.key === " ") {
-                                event.preventDefault();
-                                onSelect(node.point.code);
-                              }
-                            }}
-                            className="cursor-pointer"
-                          >
-                            <circle
-                              cx={node.cx}
-                              cy={node.cy}
-                              r={node.point.radius}
-                              fill={nodeTone.fill}
-                              stroke={node.point.releaseStatus === "blocked" ? "#b42318" : nodeTone.text}
-                              strokeWidth={strokeWidth}
-                              strokeDasharray={dash}
-                            />
-                            <text
-                              x={node.cx}
-                              y={node.cy + 3}
-                              textAnchor="middle"
-                              fill={nodeTone.text}
-                              fontSize="14"
-                              fontWeight="700"
-                            >
-                              {node.point.code}
-                            </text>
-                          </g>
-                        </g>
-                      );
-                    })
-                  : null}
-
-                <g
-                  role="button"
-                  tabIndex={0}
-                  onClick={() => toggleCluster(cluster.key)}
-                  onKeyDown={(event) => {
-                    if (event.key === "Enter" || event.key === " ") {
-                      event.preventDefault();
-                      toggleCluster(cluster.key);
-                    }
-                  }}
-                  className="cursor-pointer"
-                >
-                  <circle
-                    cx={cluster.cx}
-                    cy={cluster.cy}
-                    r={cluster.radius + 4}
-                    fill="#fff7eb"
-                    stroke={tone.text}
-                    strokeWidth={3}
-                  />
-                  <text
-                    x={cluster.cx}
-                    y={cluster.cy + 3}
-                    textAnchor="middle"
-                    fill={tone.text}
-                    fontSize="15"
-                    fontWeight="800"
-                  >
-                    {cluster.points.length}
-                  </text>
-                  <circle
-                    cx={cluster.cx + cluster.radius + 6}
-                    cy={cluster.cy - cluster.radius - 2}
-                    r={11}
-                    fill={tone.text}
-                    stroke="#ffffff"
-                    strokeWidth={2}
-                  />
-                  <text
-                    x={cluster.cx + cluster.radius + 6}
-                    y={cluster.cy - cluster.radius + 2}
-                    textAnchor="middle"
-                    fill="#ffffff"
-                    fontSize="11"
-                    fontWeight="800"
-                  >
-                    {cluster.points.length}
-                  </text>
-                  <text
-                    x={cluster.cx}
-                    y={cluster.cy + cluster.radius + (isExpanded ? 34 : 24)}
-                    textAnchor="middle"
-                    fill="#65736f"
-                    fontSize="11"
-                  >
-                    {formatAxis(cluster.x)} · {formatAxis(cluster.y)}
-                  </text>
-                </g>
+                  return (
+                    <g key={node.point.code}>
+                      {cluster.points.length > 1 ? (
+                        <line
+                          x1={cluster.cx}
+                          y1={cluster.cy}
+                          x2={node.cx}
+                          y2={node.cy}
+                          stroke="#d2ccc0"
+                          strokeWidth="1"
+                        />
+                      ) : null}
+                      <g
+                        role="button"
+                        tabIndex={0}
+                        onClick={() => onSelect(node.point.code)}
+                        onKeyDown={(event) => {
+                          if (event.key === "Enter" || event.key === " ") {
+                            event.preventDefault();
+                            onSelect(node.point.code);
+                          }
+                        }}
+                        className="cursor-pointer"
+                      >
+                        <rect
+                          x={rectX}
+                          y={rectY}
+                          width={labelWidth}
+                          height={18}
+                          rx={6}
+                          fill={isSelected ? tone.fill : "#fffdf8"}
+                          stroke={node.point.releaseStatus === "blocked" ? "#b42318" : tone.text}
+                          strokeWidth={isSelected ? strokeWidth + 1 : strokeWidth}
+                          strokeDasharray={dash}
+                        />
+                        <text
+                          x={node.cx}
+                          y={node.cy + 3}
+                          textAnchor="middle"
+                          fill={tone.text}
+                          fontSize="11"
+                          fontWeight={isSelected ? "800" : "700"}
+                        >
+                          {node.point.code}
+                        </text>
+                      </g>
+                    </g>
+                  );
+                })}
               </g>
             );
           })}
