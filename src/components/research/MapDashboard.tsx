@@ -425,11 +425,6 @@ function QuadrantPlot({
                 {labelNodes.map((node) => {
                   const tone = getArchetypeVisual(node.point.archetype.id);
                   const isSelected = node.point.code === selectedCode;
-                  const labelWidth = Math.max(20, node.point.code.length * 7 + 10);
-                  const rectX = node.cx - labelWidth / 2;
-                  const rectY = node.cy - 10;
-                  const strokeWidth = 1.6 + (1 - node.point.pullCoverage) * 1.6;
-                  const dash = node.point.pullCoverage < 0.5 ? "4 3" : undefined;
 
                   return (
                     <g key={node.point.code}>
@@ -455,23 +450,12 @@ function QuadrantPlot({
                         }}
                         className="cursor-pointer"
                       >
-                        <rect
-                          x={rectX}
-                          y={rectY}
-                          width={labelWidth}
-                          height={18}
-                          rx={6}
-                          fill={isSelected ? tone.fill : "#fffdf8"}
-                          stroke={node.point.releaseStatus === "blocked" ? "#b42318" : tone.text}
-                          strokeWidth={isSelected ? strokeWidth + 1 : strokeWidth}
-                          strokeDasharray={dash}
-                        />
                         <text
                           x={node.cx}
-                          y={node.cy + 3}
+                          y={node.cy + 4}
                           textAnchor="middle"
                           fill={tone.text}
-                          fontSize="11"
+                          fontSize={isSelected ? "12" : "11"}
                           fontWeight={isSelected ? "800" : "700"}
                         >
                           {node.point.code}
