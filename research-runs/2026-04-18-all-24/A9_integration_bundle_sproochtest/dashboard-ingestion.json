@@ -159,6 +159,116 @@
       "value": "Observed public alternatives range from a free online tier to 745-980 EUR paid preparation offers, but the scopes are too mixed for a safe dashboard price anchor.",
       "confidence_band": "low",
       "omission_reason": "Useful analyst context only; the offers are not close enough in scope to anchor a safe price claim for A9."
+    },
+    "market_evidence_summary": {
+      "value": {
+        "scope_class": "local",
+        "scope_fit": "fit",
+        "evidence_database": "LU",
+        "lane_group": "luxembourgish_route",
+        "market_track": "local",
+        "semrush_priority": "high",
+        "provisional_market_score_v1": 2.14,
+        "validation_velocity_composite": 1,
+        "demand_pull_composite": 3.5,
+        "confidence_band": "medium"
+      },
+      "confidence_band": "medium",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "semrush_anchor_evidence": {
+      "value": {
+        "anchor_focus": [
+          "sproochentest luxembourg",
+          "cours de luxembourgeois",
+          "luxembourgish online course"
+        ],
+        "anchor_capture_count": 7,
+        "anchor_capture_coverage": 2.33,
+        "anchor_query_volume_sum": 1180,
+        "anchor_max_volume": 720,
+        "anchor_global_volume_sum": 4750,
+        "local_lane_keyword_count": 14,
+        "local_lane_p1_count": 3,
+        "watch_domains": [
+          "inll.lu",
+          "lifelong-learning.lu",
+          "public.lu",
+          "prolingua.lu",
+          "vdl.lu"
+        ]
+      },
+      "confidence_band": "medium",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "market_research_next_step": {
+      "value": "map lane keywords into product-level commercial notes",
+      "confidence_band": "medium",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "top_follow_up_keywords": {
+      "value": [
+        {
+          "keyword": "cours de luxembourgeois",
+          "follow_up_tier": "P1",
+          "category": "variation",
+          "max_volume_lu": 720,
+          "source_count": 2
+        },
+        {
+          "keyword": "inl sproochentest",
+          "follow_up_tier": "P1",
+          "category": "variation",
+          "max_volume_lu": 210,
+          "source_count": 2
+        },
+        {
+          "keyword": "cours de luxembourgeois en ligne",
+          "follow_up_tier": "P1",
+          "category": "variation",
+          "max_volume_lu": 140,
+          "source_count": 4
+        },
+        {
+          "keyword": "sproochentest luxembourg",
+          "follow_up_tier": "P1",
+          "category": "variation",
+          "max_volume_lu": 140,
+          "source_count": 2
+        },
+        {
+          "keyword": "cours luxembourgeois en ligne",
+          "follow_up_tier": "P1",
+          "category": "variation",
+          "max_volume_lu": 110,
+          "source_count": 2
+        }
+      ],
+      "confidence_band": "medium",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "top_market_questions": {
+      "value": [],
+      "confidence_band": "medium",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "cross_border_luxembourg_intent_summary": {
+      "value": {
+        "total_keywords": 5,
+        "sample_keywords": [
+          "cours de luxembourgeois",
+          "inl sproochentest",
+          "cours de luxembourgeois en ligne"
+        ],
+        "top_volume_keyword": "cours de luxembourgeois"
+      },
+      "confidence_band": "medium",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "reference_analog_domains": {
+      "value": [],
+      "confidence_band": "medium",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
     }
   },
   "blocked_fields": {

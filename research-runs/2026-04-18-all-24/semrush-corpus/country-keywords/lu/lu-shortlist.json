@@ -1,0 +1,1303 @@
+[
+  {
+    "keyword": "cours luxembourgeois",
+    "lane": "luxembourgish_route",
+    "priority": "P1",
+    "score": 902554,
+    "domainsCount": 9,
+    "domains": [
+      "inlingua.lu",
+      "inll.lu",
+      "lifelong-learning.lu",
+      "luxlanguages.lu",
+      "luxlessons.lu",
+      "moienasbl.lu",
+      "prolingua.lu",
+      "sproochentest.etic.lu",
+      "unipop.lu"
+    ],
+    "bestPosition": 1,
+    "maxVolume": 260,
+    "minKd": 26,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://www.inlingua.lu/adultes/adultes-cours-en-groupe",
+      "https://www.inll.lu/fr/langues/luxembourgeois/",
+      "https://www.lifelong-learning.lu/recherche/formations/langues/luxembourgeois/fr",
+      "https://www.luxlanguages.lu/",
+      "https://www.luxlanguages.lu/formations/"
+    ],
+    "reasonToKeep": "9 domains · vol 260 · best pos 1 · direct local route signal"
+  },
+  {
+    "keyword": "cours de luxembourgeois",
+    "lane": "luxembourgish_route",
+    "priority": "P1",
+    "score": 707139,
+    "domainsCount": 7,
+    "domains": [
+      "educateme.lu",
+      "inll.lu",
+      "lifelong-learning.lu",
+      "luxlanguages.lu",
+      "luxlessons.lu",
+      "moienasbl.lu",
+      "prolingua.lu"
+    ],
+    "bestPosition": 2,
+    "maxVolume": 720,
+    "minKd": 21,
+    "intents": [
+      "I"
+    ],
+    "topUrls": [
+      "https://educateme.lu/tpost/ukdm5mo7s1-apprendre-le-luxembourgeois-sans-se-ruin",
+      "https://www.inll.lu/fr/cours-de-langue/",
+      "https://www.lifelong-learning.lu/recherche/formations/langues/luxembourgeois/fr",
+      "https://www.luxlanguages.lu/",
+      "https://www.luxlessons.lu/"
+    ],
+    "reasonToKeep": "7 domains · vol 720 · best pos 2 · direct local route signal"
+  },
+  {
+    "keyword": "french courses luxembourg",
+    "lane": "french_language",
+    "priority": "P1",
+    "score": 603846,
+    "domainsCount": 6,
+    "domains": [
+      "educateme.lu",
+      "inlingua.lu",
+      "institut-francais-luxembourg.lu",
+      "lifelong-learning.lu",
+      "luxlanguages.lu",
+      "prolingua.lu"
+    ],
+    "bestPosition": 2,
+    "maxVolume": 390,
+    "minKd": 14,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://educateme.lu/",
+      "https://educateme.lu/french-courses-online",
+      "https://www.inlingua.lu/en",
+      "https://www.inlingua.lu/en/adultes/adultes-cours-en-groupe",
+      "https://www.inlingua.lu/"
+    ],
+    "reasonToKeep": "6 domains · vol 390 · best pos 2 · local French demand"
+  },
+  {
+    "keyword": "language courses luxembourg",
+    "lane": "general_language",
+    "priority": "P1",
+    "score": 603159,
+    "domainsCount": 6,
+    "domains": [
+      "educateme.lu",
+      "inlingua.lu",
+      "inll.lu",
+      "luxlessons.lu",
+      "moienasbl.lu",
+      "prolingua.lu"
+    ],
+    "bestPosition": 1,
+    "maxVolume": 320,
+    "minKd": 21,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://educateme.lu/learning-luxembourgish-short",
+      "https://www.inlingua.lu/en",
+      "https://www.inll.lu/en/institut-en/",
+      "https://www.luxlessons.lu/",
+      "https://moienasbl.lu/en/services/"
+    ],
+    "reasonToKeep": "6 domains · vol 320 · best pos 1 · category-level language demand"
+  },
+  {
+    "keyword": "cours de langue luxembourg",
+    "lane": "general_language",
+    "priority": "P1",
+    "score": 601339,
+    "domainsCount": 6,
+    "domains": [
+      "inlingua.lu",
+      "inll.lu",
+      "luxlanguages.lu",
+      "moienasbl.lu",
+      "prolingua.lu",
+      "unipop.lu"
+    ],
+    "bestPosition": 1,
+    "maxVolume": 140,
+    "minKd": 41,
+    "intents": [
+      "I"
+    ],
+    "topUrls": [
+      "https://www.inlingua.lu/",
+      "https://www.inlingua.lu/adultes/adultes-cours-en-groupe",
+      "https://www.inll.lu/",
+      "https://www.luxlanguages.lu/",
+      "https://moienasbl.lu/services/cours-de-luxembourgeois/"
+    ],
+    "reasonToKeep": "6 domains · vol 140 · best pos 1 · category-level language demand"
+  },
+  {
+    "keyword": "courses in luxembourg",
+    "lane": "general_language",
+    "priority": "P1",
+    "score": 600698,
+    "domainsCount": 6,
+    "domains": [
+      "educateme.lu",
+      "inlingua.lu",
+      "luxlanguages.lu",
+      "moienasbl.lu",
+      "prolingua.lu",
+      "unipop.lu"
+    ],
+    "bestPosition": 19,
+    "maxVolume": 110,
+    "minKd": 22,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://educateme.lu/",
+      "https://www.inlingua.lu/en/adultes/adultes-cours-en-groupe",
+      "https://www.luxlanguages.lu/",
+      "https://moienasbl.lu/en/services/",
+      "https://moienasbl.lu/en/services/cours-de-luxembourgeois/"
+    ],
+    "reasonToKeep": "6 domains · vol 110 · best pos 19 · category-level language demand"
+  },
+  {
+    "keyword": "cours intensifs luxembourgeois",
+    "lane": "luxembourgish_route",
+    "priority": "P1",
+    "score": 600625,
+    "domainsCount": 6,
+    "domains": [
+      "inlingua.lu",
+      "institut-francais-luxembourg.lu",
+      "luxlanguages.lu",
+      "moienasbl.lu",
+      "prolingua.lu",
+      "unipop.lu"
+    ],
+    "bestPosition": 3,
+    "maxVolume": 70,
+    "minKd": 15,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://www.inlingua.lu/adultes/adultes-cours-en-groupe",
+      "https://www.inlingua.lu/",
+      "https://institut-francais-luxembourg.lu/cours-collectifs-adultes-cours-intensifs/",
+      "https://institut-francais-luxembourg.lu/cours-collectifs-adultes/",
+      "https://www.luxlanguages.lu/"
+    ],
+    "reasonToKeep": "6 domains · vol 70 · best pos 3 · direct local route signal"
+  },
+  {
+    "keyword": "french lessons luxembourg",
+    "lane": "french_language",
+    "priority": "P1",
+    "score": 600169,
+    "domainsCount": 6,
+    "domains": [
+      "educateme.lu",
+      "inlingua.lu",
+      "institut-francais-luxembourg.lu",
+      "luxlanguages.lu",
+      "prolingua.lu",
+      "unipop.lu"
+    ],
+    "bestPosition": 6,
+    "maxVolume": 30,
+    "minKd": 11,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://educateme.lu/french-courses-online",
+      "https://www.inlingua.lu/en/adultes/adultes-cours-en-groupe",
+      "https://www.inlingua.lu/en",
+      "https://institut-francais-luxembourg.lu/",
+      "https://www.luxlanguages.lu/"
+    ],
+    "reasonToKeep": "6 domains · vol 30 · best pos 6 · local French demand"
+  },
+  {
+    "keyword": "cours de français luxembourg",
+    "lane": "french_language",
+    "priority": "P2",
+    "score": 501284,
+    "domainsCount": 5,
+    "domains": [
+      "inlingua.lu",
+      "institut-francais-luxembourg.lu",
+      "luxlanguages.lu",
+      "prolingua.lu",
+      "unipop.lu"
+    ],
+    "bestPosition": 5,
+    "maxVolume": 140,
+    "minKd": 16,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://www.inlingua.lu/",
+      "https://www.inlingua.lu/adultes/adultes-cours-individuels",
+      "https://institut-francais-luxembourg.lu/",
+      "https://institut-francais-luxembourg.lu/cours-collectifs-adultes/",
+      "https://institut-francais-luxembourg.lu/cours-collectifs-adultes-cours-du-samedi-matin/"
+    ],
+    "reasonToKeep": "5 domains · vol 140 · best pos 5 · local French demand"
+  },
+  {
+    "keyword": "cours intensif anglais luxembourg",
+    "lane": "english_german_adjacent",
+    "priority": "P2",
+    "score": 500364,
+    "domainsCount": 5,
+    "domains": [
+      "inlingua.lu",
+      "lifelong-learning.lu",
+      "luxlanguages.lu",
+      "moienasbl.lu",
+      "prolingua.lu"
+    ],
+    "bestPosition": 1,
+    "maxVolume": 40,
+    "minKd": 16,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://www.inlingua.lu/",
+      "https://www.inlingua.lu/adultes/adultes-cours-en-groupe",
+      "https://www.inlingua.lu/en/adultes/adultes-cours-en-groupe",
+      "https://www.inlingua.lu/adultes",
+      "https://www.lifelong-learning.lu/recherche/formations/langues/anglais/fr"
+    ],
+    "reasonToKeep": "5 domains · vol 40 · best pos 1 · adjacent language demand"
+  },
+  {
+    "keyword": "cours luxembourgeois luxembourg",
+    "lane": "luxembourgish_route",
+    "priority": "P2",
+    "score": 500189,
+    "domainsCount": 5,
+    "domains": [
+      "inlingua.lu",
+      "luxlanguages.lu",
+      "moienasbl.lu",
+      "prolingua.lu",
+      "sproochentest.etic.lu"
+    ],
+    "bestPosition": 4,
+    "maxVolume": 30,
+    "minKd": 31,
+    "intents": [
+      "I"
+    ],
+    "topUrls": [
+      "https://www.inlingua.lu/",
+      "https://www.luxlanguages.lu/",
+      "https://www.luxlanguages.lu/formations/",
+      "https://moienasbl.lu/services/cours-de-luxembourgeois/",
+      "https://moienasbl.lu/services/"
+    ],
+    "reasonToKeep": "5 domains · vol 30 · best pos 4 · direct local route signal"
+  },
+  {
+    "keyword": "language courses",
+    "lane": "general_language",
+    "priority": "P2",
+    "score": 500185,
+    "domainsCount": 5,
+    "domains": [
+      "educateme.lu",
+      "inlingua.lu",
+      "luxlanguages.lu",
+      "moienasbl.lu",
+      "prolingua.lu"
+    ],
+    "bestPosition": 5,
+    "maxVolume": 30,
+    "minKd": 15,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://educateme.lu/",
+      "https://www.inlingua.lu/en",
+      "https://www.inlingua.lu/en/cours-enfants",
+      "https://www.inlingua.lu/en/adultes",
+      "https://www.luxlanguages.lu/"
+    ],
+    "reasonToKeep": "5 domains · vol 30 · best pos 5 · category-level language demand"
+  },
+  {
+    "keyword": "apprendre luxembourgeois en ligne",
+    "lane": "luxembourgish_route",
+    "priority": "P2",
+    "score": 499677,
+    "domainsCount": 5,
+    "domains": [
+      "inlingua.lu",
+      "luxlanguages.lu",
+      "luxlessons.lu",
+      "moienasbl.lu",
+      "prolingua.lu"
+    ],
+    "bestPosition": 31,
+    "maxVolume": 30,
+    "minKd": 3,
+    "intents": [
+      "I,T"
+    ],
+    "topUrls": [
+      "https://www.inlingua.lu/",
+      "https://www.luxlanguages.lu/",
+      "https://www.luxlanguages.lu/produit/e-learning-a1-luxembourgeois/",
+      "https://www.luxlessons.lu/",
+      "https://moienasbl.lu/services/"
+    ],
+    "reasonToKeep": "5 domains · vol 30 · best pos 31 · direct local route signal"
+  },
+  {
+    "keyword": "sproochentest",
+    "lane": "luxembourgish_route",
+    "priority": "P2",
+    "score": 408786,
+    "domainsCount": 4,
+    "domains": [
+      "educateme.lu",
+      "inll.lu",
+      "luxlanguages.lu",
+      "luxlessons.lu"
+    ],
+    "bestPosition": 0,
+    "maxVolume": 880,
+    "minKd": 14,
+    "intents": [
+      "I"
+    ],
+    "topUrls": [
+      "educateme.lu/tpost/7x4vcrtf51-surviving-the-sproochentest-essential-gu",
+      "https://educateme.lu/tpost/7x4vcrtf51-surviving-the-sproochentest-essential-gu",
+      "https://educateme.lu/tpost/7skm5rc9f1-booking-your-appointment-for-the-sprooch",
+      "https://educateme.lu/sproochentest",
+      "https://educateme.lu/tpost/fduufuslm1-survivre-au-sproochentest-un-guide-pour"
+    ],
+    "reasonToKeep": "4 domains · vol 880 · best pos 0 · direct local route signal"
+  },
+  {
+    "keyword": "formation luxembourg",
+    "lane": "continuing_education",
+    "priority": "P2",
+    "score": 407162,
+    "domainsCount": 4,
+    "domains": [
+      "houseoftraining.lu",
+      "infpc.lu",
+      "lifelong-learning.lu",
+      "unipop.lu"
+    ],
+    "bestPosition": 0,
+    "maxVolume": 720,
+    "minKd": 38,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://www.houseoftraining.lu/",
+      "https://www.infpc.lu/trouver-une-formation/fr",
+      "https://www.lifelong-learning.lu/accueil/fr",
+      "https://www.unipop.lu/formations/"
+    ],
+    "reasonToKeep": "4 domains · vol 720 · best pos 0 · discovery / continuing-ed lane"
+  },
+  {
+    "keyword": "formation lu",
+    "lane": "continuing_education",
+    "priority": "P2",
+    "score": 407149,
+    "domainsCount": 4,
+    "domains": [
+      "houseoftraining.lu",
+      "infpc.lu",
+      "lifelong-learning.lu",
+      "unipop.lu"
+    ],
+    "bestPosition": 1,
+    "maxVolume": 720,
+    "minKd": 31,
+    "intents": [
+      "I"
+    ],
+    "topUrls": [
+      "https://www.houseoftraining.lu/",
+      "https://www.infpc.lu/trouver-une-formation/fr",
+      "https://www.lifelong-learning.lu/accueil/fr",
+      "https://www.unipop.lu/formation-professionnelle/"
+    ],
+    "reasonToKeep": "4 domains · vol 720 · best pos 1 · discovery / continuing-ed lane"
+  },
+  {
+    "keyword": "learn luxembourgish online",
+    "lane": "luxembourgish_route",
+    "priority": "P2",
+    "score": 404779,
+    "domainsCount": 4,
+    "domains": [
+      "educateme.lu",
+      "luxlanguages.lu",
+      "luxlessons.lu",
+      "moienasbl.lu"
+    ],
+    "bestPosition": 0,
+    "maxVolume": 480,
+    "minKd": 21,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "educateme.lu/learning-luxembourgish-short",
+      "https://educateme.lu/learning-luxembourgish-short",
+      "https://educateme.lu/luxembourgish-from-basic-to-advanced",
+      "https://www.luxlanguages.lu/",
+      "https://www.luxlessons.lu/"
+    ],
+    "reasonToKeep": "4 domains · vol 480 · best pos 0 · direct local route signal"
+  },
+  {
+    "keyword": "sproochentest luxembourg",
+    "lane": "luxembourgish_route",
+    "priority": "P2",
+    "score": 401665,
+    "domainsCount": 4,
+    "domains": [
+      "educateme.lu",
+      "inll.lu",
+      "luxlessons.lu",
+      "sproochentest.etic.lu"
+    ],
+    "bestPosition": 1,
+    "maxVolume": 170,
+    "minKd": 15,
+    "intents": [
+      "I",
+      "I,N"
+    ],
+    "topUrls": [
+      "educateme.lu/tpost/7skm5rc9f1-booking-your-appointment-for-the-sprooch",
+      "https://educateme.lu/tpost/7skm5rc9f1-booking-your-appointment-for-the-sprooch",
+      "https://educateme.lu/tpost/7x4vcrtf51-surviving-the-sproochentest-essential-gu",
+      "https://educateme.lu/tpost/fduufuslm1-survivre-au-sproochentest-un-guide-pour",
+      "https://educateme.lu/tpost/yz74frb8t1-rserver-votre-rendez-vous-pour-le-sprooc"
+    ],
+    "reasonToKeep": "4 domains · vol 170 · best pos 1 · direct local route signal"
+  },
+  {
+    "keyword": "cours du soir luxembourg",
+    "lane": "continuing_education",
+    "priority": "P2",
+    "score": 401651,
+    "domainsCount": 4,
+    "domains": [
+      "houseoftraining.lu",
+      "infpc.lu",
+      "institut-francais-luxembourg.lu",
+      "lifelong-learning.lu"
+    ],
+    "bestPosition": 2,
+    "maxVolume": 170,
+    "minKd": 9,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://www.houseoftraining.lu/",
+      "https://www.infpc.lu/trouver-une-formation/fr",
+      "https://institut-francais-luxembourg.lu/cours-collectifs-adultes-cours-du-soir-en-ligne/",
+      "https://www.lifelong-learning.lu/recherche/formation/fr?keyword=slot(evening)"
+    ],
+    "reasonToKeep": "4 domains · vol 170 · best pos 2 · discovery / continuing-ed lane"
+  },
+  {
+    "keyword": "cours en ligne luxembourg",
+    "lane": "general_language",
+    "priority": "P2",
+    "score": 400969,
+    "domainsCount": 4,
+    "domains": [
+      "educateme.lu",
+      "institut-francais-luxembourg.lu",
+      "sproochentest.etic.lu",
+      "unipop.lu"
+    ],
+    "bestPosition": 6,
+    "maxVolume": 110,
+    "minKd": 11,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://educateme.lu/fr",
+      "https://institut-francais-luxembourg.lu/cours-collectifs-adultes-cours-du-soir-en-ligne/",
+      "https://institut-francais-luxembourg.lu/cours-collectifs-adultes-cours-du-samedi-matin/",
+      "https://moodle.etic.lu/course/index.php?categoryid=1",
+      "https://www.unipop.lu/formations/langues/"
+    ],
+    "reasonToKeep": "4 domains · vol 110 · best pos 6 · category-level language demand"
+  },
+  {
+    "keyword": "luxembourgish online course",
+    "lane": "luxembourgish_route",
+    "priority": "P2",
+    "score": 400883,
+    "domainsCount": 4,
+    "domains": [
+      "educateme.lu",
+      "luxlanguages.lu",
+      "luxlessons.lu",
+      "moienasbl.lu"
+    ],
+    "bestPosition": 0,
+    "maxVolume": 90,
+    "minKd": 17,
+    "intents": [
+      "I"
+    ],
+    "topUrls": [
+      "educateme.lu/intensive-luxembourgish",
+      "https://educateme.lu/intensive-luxembourgish",
+      "https://www.luxlanguages.lu/",
+      "https://www.luxlessons.lu/",
+      "https://moienasbl.lu/en/services/cours-de-luxembourgeois/"
+    ],
+    "reasonToKeep": "4 domains · vol 90 · best pos 0 · direct local route signal"
+  },
+  {
+    "keyword": "cours d anglais luxembourg",
+    "lane": "english_german_adjacent",
+    "priority": "P2",
+    "score": 400621,
+    "domainsCount": 4,
+    "domains": [
+      "inlingua.lu",
+      "luxlanguages.lu",
+      "moienasbl.lu",
+      "prolingua.lu"
+    ],
+    "bestPosition": 3,
+    "maxVolume": 70,
+    "minKd": 19,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://www.inlingua.lu/",
+      "https://www.inlingua.lu/cours-enfants",
+      "https://www.inlingua.lu/adultes/adultes-cours-en-groupe",
+      "https://www.luxlanguages.lu/",
+      "https://moienasbl.lu/services/cours-de-luxembourgeois/"
+    ],
+    "reasonToKeep": "4 domains · vol 70 · best pos 3 · adjacent language demand"
+  },
+  {
+    "keyword": "inll sproochentest",
+    "lane": "luxembourgish_route",
+    "priority": "P2",
+    "score": 400366,
+    "domainsCount": 4,
+    "domains": [
+      "educateme.lu",
+      "luxlanguages.lu",
+      "luxlessons.lu",
+      "moienasbl.lu"
+    ],
+    "bestPosition": 16,
+    "maxVolume": 70,
+    "minKd": 14,
+    "intents": [
+      "N,T"
+    ],
+    "topUrls": [
+      "https://educateme.lu/tpost/7skm5rc9f1-booking-your-appointment-for-the-sprooch",
+      "https://educateme.lu/tpost/fduufuslm1-survivre-au-sproochentest-un-guide-pour",
+      "https://educateme.lu/tpost/yz74frb8t1-rserver-votre-rendez-vous-pour-le-sprooc",
+      "https://educateme.lu/tpost/7x4vcrtf51-surviving-the-sproochentest-essential-gu",
+      "https://www.luxlanguages.lu/sproochentest-tout-ce-quil-faut-savoir-pour-reussir-le-test-de-luxembourgeois/"
+    ],
+    "reasonToKeep": "4 domains · vol 70 · best pos 16 · direct local route signal"
+  },
+  {
+    "keyword": "apprendre luxembourgeois",
+    "lane": "luxembourgish_route",
+    "priority": "P2",
+    "score": 400286,
+    "domainsCount": 4,
+    "domains": [
+      "inlingua.lu",
+      "luxlanguages.lu",
+      "luxlessons.lu",
+      "prolingua.lu"
+    ],
+    "bestPosition": 10,
+    "maxVolume": 50,
+    "minKd": 14,
+    "intents": [
+      "I"
+    ],
+    "topUrls": [
+      "https://www.inlingua.lu/",
+      "https://www.luxlanguages.lu/",
+      "https://www.luxlessons.lu/",
+      "https://prolingua.lu/fr/formations_8/langue/luxembourgeois_9/"
+    ],
+    "reasonToKeep": "4 domains · vol 50 · best pos 10 · direct local route signal"
+  },
+  {
+    "keyword": "french classes luxembourg",
+    "lane": "french_language",
+    "priority": "P2",
+    "score": 303866,
+    "domainsCount": 3,
+    "domains": [
+      "inll.lu",
+      "lifelong-learning.lu",
+      "prolingua.lu"
+    ],
+    "bestPosition": 1,
+    "maxVolume": 390,
+    "minKd": 14,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://www.inll.lu/de/sprachen/franzoesisch/",
+      "https://www.lifelong-learning.lu/recherche/formations/langues/francais-langue-etrangere/de",
+      "https://prolingua.lu/en/courses_25/langue/french_7/"
+    ],
+    "reasonToKeep": "3 domains · vol 390 · best pos 1 · local French demand"
+  },
+  {
+    "keyword": "inl sproochentest",
+    "lane": "luxembourgish_route",
+    "priority": "P2",
+    "score": 302058,
+    "domainsCount": 3,
+    "domains": [
+      "educateme.lu",
+      "inll.lu",
+      "luxlessons.lu"
+    ],
+    "bestPosition": 1,
+    "maxVolume": 210,
+    "minKd": 22,
+    "intents": [
+      "N"
+    ],
+    "topUrls": [
+      "educateme.lu/tpost/7skm5rc9f1-booking-your-appointment-for-the-sprooch",
+      "https://educateme.lu/tpost/7skm5rc9f1-booking-your-appointment-for-the-sprooch",
+      "https://educateme.lu/tpost/7x4vcrtf51-surviving-the-sproochentest-essential-gu",
+      "https://educateme.lu/tpost/fduufuslm1-survivre-au-sproochentest-un-guide-pour",
+      "https://educateme.lu/tpost/yz74frb8t1-rserver-votre-rendez-vous-pour-le-sprooc"
+    ],
+    "reasonToKeep": "3 domains · vol 210 · best pos 1 · direct local route signal"
+  },
+  {
+    "keyword": "langue luxembourg",
+    "lane": "general_language",
+    "priority": "P2",
+    "score": 301787,
+    "domainsCount": 3,
+    "domains": [
+      "inlingua.lu",
+      "luxlanguages.lu",
+      "unipop.lu"
+    ],
+    "bestPosition": 14,
+    "maxVolume": 210,
+    "minKd": 33,
+    "intents": [
+      "I"
+    ],
+    "topUrls": [
+      "https://www.inlingua.lu/",
+      "https://www.luxlanguages.lu/",
+      "https://www.unipop.lu/formations/langues/"
+    ],
+    "reasonToKeep": "3 domains · vol 210 · best pos 14 · category-level language demand"
+  },
+  {
+    "keyword": "formation continue luxembourg",
+    "lane": "continuing_education",
+    "priority": "P2",
+    "score": 301351,
+    "domainsCount": 3,
+    "domains": [
+      "houseoftraining.lu",
+      "infpc.lu",
+      "lifelong-learning.lu"
+    ],
+    "bestPosition": 1,
+    "maxVolume": 140,
+    "minKd": 29,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://www.houseoftraining.lu/",
+      "https://www.infpc.lu/trouver-une-formation/fr",
+      "https://www.lifelong-learning.lu/accueil/fr"
+    ],
+    "reasonToKeep": "3 domains · vol 140 · best pos 1 · discovery / continuing-ed lane"
+  },
+  {
+    "keyword": "language school luxembourg",
+    "lane": "general_language",
+    "priority": "P2",
+    "score": 300838,
+    "domainsCount": 3,
+    "domains": [
+      "educateme.lu",
+      "inlingua.lu",
+      "luxlessons.lu"
+    ],
+    "bestPosition": 2,
+    "maxVolume": 90,
+    "minKd": 22,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://educateme.lu/",
+      "https://www.inlingua.lu/en",
+      "https://www.luxlessons.lu/"
+    ],
+    "reasonToKeep": "3 domains · vol 90 · best pos 2 · category-level language demand"
+  },
+  {
+    "keyword": "cours luxembourgeois en ligne",
+    "lane": "luxembourgish_route",
+    "priority": "P2",
+    "score": 300810,
+    "domainsCount": 3,
+    "domains": [
+      "luxlessons.lu",
+      "moienasbl.lu",
+      "unipop.lu"
+    ],
+    "bestPosition": 4,
+    "maxVolume": 90,
+    "minKd": 10,
+    "intents": [
+      "C,I"
+    ],
+    "topUrls": [
+      "https://www.luxlessons.lu/",
+      "https://moienasbl.lu/services/cours-de-luxembourgeois/",
+      "https://www.unipop.lu/formations/langues/"
+    ],
+    "reasonToKeep": "3 domains · vol 90 · best pos 4 · direct local route signal"
+  },
+  {
+    "keyword": "sproochentest lëtzebuergesch",
+    "lane": "luxembourgish_route",
+    "priority": "P2",
+    "score": 300583,
+    "domainsCount": 3,
+    "domains": [
+      "educateme.lu",
+      "luxlessons.lu",
+      "sproochentest.etic.lu"
+    ],
+    "bestPosition": 5,
+    "maxVolume": 70,
+    "minKd": 17,
+    "intents": [
+      "I,T"
+    ],
+    "topUrls": [
+      "https://educateme.lu/tpost/7skm5rc9f1-booking-your-appointment-for-the-sprooch",
+      "https://www.luxlessons.lu/sproochentest-letzebuergesch",
+      "https://sproochentest.etic.lu/?lang=de",
+      "https://sproochentest.etic.lu/"
+    ],
+    "reasonToKeep": "3 domains · vol 70 · best pos 5 · direct local route signal"
+  },
+  {
+    "keyword": "cours anglais intensif luxembourg",
+    "lane": "english_german_adjacent",
+    "priority": "P2",
+    "score": 300325,
+    "domainsCount": 3,
+    "domains": [
+      "inlingua.lu",
+      "luxlanguages.lu",
+      "prolingua.lu"
+    ],
+    "bestPosition": 3,
+    "maxVolume": 40,
+    "minKd": 15,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://www.inlingua.lu/",
+      "https://www.luxlanguages.lu/",
+      "https://prolingua.lu/"
+    ],
+    "reasonToKeep": "3 domains · vol 40 · best pos 3 · adjacent language demand"
+  },
+  {
+    "keyword": "cours de langue française",
+    "lane": "french_language",
+    "priority": "P2",
+    "score": 300185,
+    "domainsCount": 3,
+    "domains": [
+      "institut-francais-luxembourg.lu",
+      "luxlanguages.lu",
+      "prolingua.lu"
+    ],
+    "bestPosition": 5,
+    "maxVolume": 30,
+    "minKd": 15,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://institut-francais-luxembourg.lu/",
+      "https://institut-francais-luxembourg.lu/cours-collectifs-adultes-cours-du-soir-en-ligne/",
+      "https://institut-francais-luxembourg.lu/certifications/",
+      "https://www.luxlanguages.lu/",
+      "https://prolingua.lu/fr/formations_8/langue/francais_7/"
+    ],
+    "reasonToKeep": "3 domains · vol 30 · best pos 5 · local French demand"
+  },
+  {
+    "keyword": "cours de français",
+    "lane": "french_language",
+    "priority": "P2",
+    "score": 300146,
+    "domainsCount": 3,
+    "domains": [
+      "institut-francais-luxembourg.lu",
+      "luxlanguages.lu",
+      "prolingua.lu"
+    ],
+    "bestPosition": 7,
+    "maxVolume": 30,
+    "minKd": 14,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://institut-francais-luxembourg.lu/",
+      "https://institut-francais-luxembourg.lu/certifications/",
+      "https://institut-francais-luxembourg.lu/cours-collectifs-adultes/",
+      "https://www.luxlanguages.lu/",
+      "https://prolingua.lu/"
+    ],
+    "reasonToKeep": "3 domains · vol 30 · best pos 7 · local French demand"
+  },
+  {
+    "keyword": "vivre ensemble au grand duché de luxembourg",
+    "lane": "exam_route",
+    "priority": "P3",
+    "score": 209985,
+    "domainsCount": 2,
+    "domains": [
+      "lifelong-learning.lu",
+      "unipop.lu"
+    ],
+    "bestPosition": 0,
+    "maxVolume": 1000,
+    "minKd": 15,
+    "intents": [
+      "I"
+    ],
+    "topUrls": [
+      "https://www.lifelong-learning.lu/formations-continues-reglementees/acquisition-de-la-nationalite-luxembourgeoise/fr",
+      "https://www.unipop.lu/formations/citoyennete-et-integration/"
+    ],
+    "reasonToKeep": "2 domains · vol 1000 · best pos 0 · official / route adjacency"
+  },
+  {
+    "keyword": "lifelong learning",
+    "lane": "continuing_education",
+    "priority": "P3",
+    "score": 208762,
+    "domainsCount": 2,
+    "domains": [
+      "infpc.lu",
+      "lifelong-learning.lu"
+    ],
+    "bestPosition": 1,
+    "maxVolume": 880,
+    "minKd": 18,
+    "intents": [
+      "I,T"
+    ],
+    "topUrls": [
+      "https://www.infpc.lu/trouver-une-formation/de",
+      "https://www.lifelong-learning.lu/accueil/de",
+      "https://www.lifelong-learning.lu/formation-tout-au-long-de-la-vie/de",
+      "https://www.lifelong-learning.lu/particuliers/de",
+      "https://www.lifelong-learning.lu/formateur/luxembourg-lifelong-learning-centre-de-la-chambre-des-salaries/de"
+    ],
+    "reasonToKeep": "2 domains · vol 880 · best pos 1 · discovery / continuing-ed lane"
+  },
+  {
+    "keyword": "eformation lu",
+    "lane": "continuing_education",
+    "priority": "P3",
+    "score": 206939,
+    "domainsCount": 2,
+    "domains": [
+      "educateme.lu",
+      "infpc.lu"
+    ],
+    "bestPosition": 12,
+    "maxVolume": 720,
+    "minKd": 21,
+    "intents": [
+      "I,T"
+    ],
+    "topUrls": [
+      "https://educateme.lu/fr",
+      "https://www.infpc.lu/",
+      "https://www.infpc.lu/trouver-une-formation/fr"
+    ],
+    "reasonToKeep": "2 domains · vol 720 · best pos 12 · discovery / continuing-ed lane"
+  },
+  {
+    "keyword": "lifelong learning luxembourg",
+    "lane": "continuing_education",
+    "priority": "P3",
+    "score": 205857,
+    "domainsCount": 2,
+    "domains": [
+      "infpc.lu",
+      "lifelong-learning.lu"
+    ],
+    "bestPosition": 1,
+    "maxVolume": 590,
+    "minKd": 23,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://www.infpc.lu/trouver-une-formation/de",
+      "https://www.lifelong-learning.lu/accueil/de",
+      "https://www.lifelong-learning.lu/particuliers/de",
+      "https://www.lifelong-learning.lu/formateur/luxembourg-lifelong-learning-centre-de-la-chambre-des-salaries/de",
+      "https://www.lifelong-learning.lu/formation-tout-au-long-de-la-vie/de"
+    ],
+    "reasonToKeep": "2 domains · vol 590 · best pos 1 · discovery / continuing-ed lane"
+  },
+  {
+    "keyword": "apprentissage adulte",
+    "lane": "continuing_education",
+    "priority": "P3",
+    "score": 201838,
+    "domainsCount": 2,
+    "domains": [
+      "infpc.lu",
+      "unipop.lu"
+    ],
+    "bestPosition": 12,
+    "maxVolume": 210,
+    "minKd": 22,
+    "intents": [
+      "I"
+    ],
+    "topUrls": [
+      "https://www.infpc.lu/trouver-une-formation/fr",
+      "https://www.unipop.lu/enseignement-formel-pour-adultes/"
+    ],
+    "reasonToKeep": "2 domains · vol 210 · best pos 12 · discovery / continuing-ed lane"
+  },
+  {
+    "keyword": "formations continue",
+    "lane": "continuing_education",
+    "priority": "P3",
+    "score": 201352,
+    "domainsCount": 2,
+    "domains": [
+      "houseoftraining.lu",
+      "lifelong-learning.lu"
+    ],
+    "bestPosition": 1,
+    "maxVolume": 140,
+    "minKd": 28,
+    "intents": [
+      "I"
+    ],
+    "topUrls": [
+      "https://www.houseoftraining.lu/",
+      "https://www.lifelong-learning.lu/accueil/fr"
+    ],
+    "reasonToKeep": "2 domains · vol 140 · best pos 1 · discovery / continuing-ed lane"
+  },
+  {
+    "keyword": "luxembourg cours de langue",
+    "lane": "general_language",
+    "priority": "P3",
+    "score": 201287,
+    "domainsCount": 2,
+    "domains": [
+      "luxlessons.lu",
+      "unipop.lu"
+    ],
+    "bestPosition": 4,
+    "maxVolume": 140,
+    "minKd": 33,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://www.luxlessons.lu/",
+      "https://www.unipop.lu/formations/langues/"
+    ],
+    "reasonToKeep": "2 domains · vol 140 · best pos 4 · category-level language demand"
+  },
+  {
+    "keyword": "cours",
+    "lane": "general_language",
+    "priority": "P3",
+    "score": 200993,
+    "domainsCount": 2,
+    "domains": [
+      "moienasbl.lu",
+      "unipop.lu"
+    ],
+    "bestPosition": 17,
+    "maxVolume": 140,
+    "minKd": 67,
+    "intents": [
+      "I"
+    ],
+    "topUrls": [
+      "https://moienasbl.lu/services/cours-de-luxembourgeois/",
+      "https://www.unipop.lu/formations/langues/"
+    ],
+    "reasonToKeep": "2 domains · vol 140 · best pos 17 · category-level language demand"
+  },
+  {
+    "keyword": "cours anglais luxembourg",
+    "lane": "english_german_adjacent",
+    "priority": "P3",
+    "score": 201023,
+    "domainsCount": 2,
+    "domains": [
+      "prolingua.lu",
+      "unipop.lu"
+    ],
+    "bestPosition": 3,
+    "maxVolume": 110,
+    "minKd": 17,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://prolingua.lu/",
+      "https://www.unipop.lu/formations/langues/"
+    ],
+    "reasonToKeep": "2 domains · vol 110 · best pos 3 · adjacent language demand"
+  },
+  {
+    "keyword": "formation professionnelle luxembourg",
+    "lane": "continuing_education",
+    "priority": "P3",
+    "score": 201003,
+    "domainsCount": 2,
+    "domains": [
+      "infpc.lu",
+      "unipop.lu"
+    ],
+    "bestPosition": 3,
+    "maxVolume": 110,
+    "minKd": 37,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://www.infpc.lu/trouver-une-formation/fr",
+      "https://www.unipop.lu/formation-professionnelle/"
+    ],
+    "reasonToKeep": "2 domains · vol 110 · best pos 3 · discovery / continuing-ed lane"
+  },
+  {
+    "keyword": "cours allemand luxembourg",
+    "lane": "english_german_adjacent",
+    "priority": "P3",
+    "score": 200407,
+    "domainsCount": 2,
+    "domains": [
+      "prolingua.lu",
+      "unipop.lu"
+    ],
+    "bestPosition": 4,
+    "maxVolume": 50,
+    "minKd": 13,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://prolingua.lu/",
+      "https://www.unipop.lu/formations/langues/"
+    ],
+    "reasonToKeep": "2 domains · vol 50 · best pos 4 · adjacent language demand"
+  },
+  {
+    "keyword": "formation anglais luxembourg",
+    "lane": "english_german_adjacent",
+    "priority": "P3",
+    "score": 200420,
+    "domainsCount": 2,
+    "domains": [
+      "luxlanguages.lu",
+      "unipop.lu"
+    ],
+    "bestPosition": 4,
+    "maxVolume": 50,
+    "minKd": 0,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://www.luxlanguages.lu/",
+      "https://www.unipop.lu/formations/langues/"
+    ],
+    "reasonToKeep": "2 domains · vol 50 · best pos 4 · adjacent language demand"
+  },
+  {
+    "keyword": "formation professionnelle",
+    "lane": "continuing_education",
+    "priority": "P3",
+    "score": 200380,
+    "domainsCount": 2,
+    "domains": [
+      "infpc.lu",
+      "unipop.lu"
+    ],
+    "bestPosition": 4,
+    "maxVolume": 50,
+    "minKd": 40,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://www.infpc.lu/",
+      "https://www.unipop.lu/formation-professionnelle/"
+    ],
+    "reasonToKeep": "2 domains · vol 50 · best pos 4 · discovery / continuing-ed lane"
+  },
+  {
+    "keyword": "cours de langue",
+    "lane": "general_language",
+    "priority": "P3",
+    "score": 200314,
+    "domainsCount": 2,
+    "domains": [
+      "luxlanguages.lu",
+      "prolingua.lu"
+    ],
+    "bestPosition": 3,
+    "maxVolume": 40,
+    "minKd": 26,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://www.luxlanguages.lu/",
+      "https://prolingua.lu/"
+    ],
+    "reasonToKeep": "2 domains · vol 40 · best pos 3 · category-level language demand"
+  },
+  {
+    "keyword": "cours de francais au luxembourg",
+    "lane": "french_language",
+    "priority": "P3",
+    "score": 200311,
+    "domainsCount": 2,
+    "domains": [
+      "institut-francais-luxembourg.lu",
+      "prolingua.lu"
+    ],
+    "bestPosition": 4,
+    "maxVolume": 40,
+    "minKd": 9,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://institut-francais-luxembourg.lu/",
+      "https://institut-francais-luxembourg.lu/cours-collectifs-adultes-cours-intensifs/",
+      "https://institut-francais-luxembourg.lu/cours-collectifs-adultes-cours-du-soir-en-ligne/",
+      "https://institut-francais-luxembourg.lu/cours-collectifs-adultes-ateliers-de-conversation/",
+      "https://institut-francais-luxembourg.lu/cours-collectifs-adultes/"
+    ],
+    "reasonToKeep": "2 domains · vol 40 · best pos 4 · local French demand"
+  },
+  {
+    "keyword": "formation lucien huss",
+    "lane": "continuing_education",
+    "priority": "P3",
+    "score": 200016,
+    "domainsCount": 2,
+    "domains": [
+      "luxlanguages.lu",
+      "unipop.lu"
+    ],
+    "bestPosition": 19,
+    "maxVolume": 40,
+    "minKd": 4,
+    "intents": [
+      "N"
+    ],
+    "topUrls": [
+      "https://www.luxlanguages.lu/",
+      "https://www.unipop.lu/formations/langues/"
+    ],
+    "reasonToKeep": "2 domains · vol 40 · best pos 19 · discovery / continuing-ed lane"
+  },
+  {
+    "keyword": "cours d anglais intensif luxembourg",
+    "lane": "english_german_adjacent",
+    "priority": "P3",
+    "score": 200225,
+    "domainsCount": 2,
+    "domains": [
+      "prolingua.lu",
+      "unipop.lu"
+    ],
+    "bestPosition": 3,
+    "maxVolume": 30,
+    "minKd": 15,
+    "intents": [
+      "C"
+    ],
+    "topUrls": [
+      "https://prolingua.lu/",
+      "https://www.unipop.lu/formations/langues/"
+    ],
+    "reasonToKeep": "2 domains · vol 30 · best pos 3 · adjacent language demand"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "product_code": "B4",
+    "domains": [
+      { "db": "us", "domain": "academyocean.com" },
+      { "db": "us", "domain": "talentlms.com" },
+      { "db": "us", "domain": "oasis-lms.com" }
+    ]
+  },
+  {
+    "product_code": "B5",
+    "domains": [
+      { "db": "de", "domain": "charite.de" },
+      { "db": "ie", "domain": "hse.ie" },
+      { "db": "se", "domain": "lireco.se" }
+    ]
+  },
+  {
+    "product_code": "B6",
+    "domains": [
+      { "db": "be", "domain": "blcc.be" },
+      { "db": "be", "domain": "semanticsbelgium.com" },
+      { "db": "lu", "domain": "inlingua.lu" },
+      { "db": "lu", "domain": "allingua.lu" },
+      { "db": "uk", "domain": "bicortexlanguages.com" }
+    ]
+  }
+]

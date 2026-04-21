@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "startedAt": "2026-04-20T20:53:54.851Z",
+    "database": "us",
+    "domainsFile": "/Users/sergey/Desktop/educateme-map/research-runs/2026-04-18-all-24/semrush-corpus/config/us-domain-seeds__b4-reference.json",
+    "downloadDir": "/Users/sergey/Desktop/educateme-map/tools",
+    "domainCount": 3,
+    "tabPolicy": "reuse-active-tab",
+    "reports": [
+      "domain-overview",
+      "organic-positions"
+    ],
+    "completedAt": "2026-04-20T21:57:36.678Z"
+  },
+  "entries": [
+    {
+      "domain": "academyocean.com",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=us&q=academyocean.com",
+      "triggerStartedAt": "2026-04-20T21:09:30.655Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__us__academyoceancom__domain-overview__2026-04-20T21-09-46-883Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "academyocean.com",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=us&q=academyocean.com&searchType=domain",
+      "triggerStartedAt": "2026-04-20T21:09:53.176Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__us__academyoceancom__organic-positions__2026-04-20T21-25-38-548Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "talentlms.com",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=us&q=talentlms.com",
+      "triggerStartedAt": "2026-04-20T21:25:50.603Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__us__talentlmscom__domain-overview__2026-04-20T21-26-05-492Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "talentlms.com",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=us&q=talentlms.com&searchType=domain",
+      "triggerStartedAt": "2026-04-20T21:26:18.743Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__us__talentlmscom__organic-positions__2026-04-20T21-41-43-482Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "oasis-lms.com",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=us&q=oasis-lms.com",
+      "triggerStartedAt": "2026-04-20T21:41:54.604Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__us__oasis-lmscom__domain-overview__2026-04-20T21-42-09-432Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "oasis-lms.com",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=us&q=oasis-lms.com&searchType=domain",
+      "triggerStartedAt": "2026-04-20T21:57:14.831Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__us__oasis-lmscom__organic-positions__2026-04-20T21-57-34-210Z.json",
+      "status": "captured"
+    }
+  ]
+}

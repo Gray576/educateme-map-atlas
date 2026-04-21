@@ -1,0 +1,329 @@
+{
+  "meta": {
+    "capturedAt": "2026-04-20T02:01:44.127Z",
+    "reportType": "keyword-overview",
+    "database": "lu",
+    "query": "inl sproochentest",
+    "title": "inl sproochentest: Overview, Keyword Overview",
+    "url": "https://www.semrush.com/analytics/keywordoverview/?db=lu&q=inl+sproochentest",
+    "pathname": "/analytics/keywordoverview/",
+    "searchType": null,
+    "sourcePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__inl-sproochentest__keyword-overview__2026-04-20T02-01-44-131Z.json",
+    "scopeType": "keyword",
+    "scopeSlug": "inl-sproochentest"
+  },
+  "summary": {
+    "pageIdentity": "inl sproochentest: Overview, Keyword Overview",
+    "queryOrDomain": "inl sproochentest",
+    "topMetrics": {
+      "volume": "210",
+      "keywordDifficulty": "22%",
+      "globalVolume": "310",
+      "intent": "Navigational",
+      "cpc": "$1.59",
+      "competitiveDensity": "0.02"
+    },
+    "tableCount": 4,
+    "networkCount": 0
+  },
+  "structured": {
+    "keywordSummary": {
+      "volume": "210",
+      "keywordDifficulty": null,
+      "globalVolume": "310",
+      "intent": null,
+      "cpc": null,
+      "competitiveDensity": null,
+      "results": "1.8K"
+    },
+    "keywordVariations": [
+      {
+        "keyword": "inl sproochentest",
+        "rowText": "inl sproochentest | 210 | 22",
+        "volume": "210"
+      },
+      {
+        "keyword": "inl sproochentest dates",
+        "rowText": "inl sproochentest dates | 30 | n/a",
+        "volume": "30"
+      },
+      {
+        "keyword": "inl luxembourg sproochentest",
+        "rowText": "inl luxembourg sproochentest | 20 | n/a",
+        "volume": "20"
+      },
+      {
+        "keyword": "sproochentest inl",
+        "rowText": "sproochentest inl | 20 | n/a",
+        "volume": "20"
+      },
+      {
+        "keyword": "inl sproochentest exemples",
+        "rowText": "inl sproochentest exemples | 0 | n/a",
+        "volume": "0"
+      }
+    ],
+    "questions": [],
+    "serpLeaders": [
+      {
+        "position": "1",
+        "url": "https://www.inll.lu/de/sproochentest-de/",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fsproochentest-de%2F&db=lu&searchType=url",
+        "domain": "inll.lu",
+        "pageAuthority": "15",
+        "refDomains": "4",
+        "backlinks": "16",
+        "searchTraffic": "805",
+        "urlKeywords": "8"
+      },
+      {
+        "position": "2",
+        "url": "https://myinl.inll.lu/exam/offer/sproochentest-8",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fmyinl.inll.lu%2Fexam%2Foffer%2Fsproochentest-8&db=lu&searchType=url",
+        "domain": "inll.lu",
+        "pageAuthority": "0",
+        "refDomains": "0",
+        "backlinks": "0",
+        "searchTraffic": "7",
+        "urlKeywords": "5"
+      },
+      {
+        "position": "3",
+        "url": "https://www.inll.lu/de/event/sproochentest-heierverstoen-mendlechen-ausdrock-glacis-tablet-3/",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fevent%2Fsproochentest-heierverstoen-mendlechen-ausdrock-glacis-tablet-3%2F&db=lu&searchType=url",
+        "domain": "inll.lu",
+        "pageAuthority": "0",
+        "refDomains": "0",
+        "backlinks": "0",
+        "searchTraffic": "40",
+        "urlKeywords": "5"
+      },
+      {
+        "position": "4",
+        "url": "https://www.inll.lu/de/",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.inll.lu%2Fde%2F&db=lu&searchType=url",
+        "domain": "inll.lu",
+        "pageAuthority": "48",
+        "refDomains": "15",
+        "backlinks": "34",
+        "searchTraffic": "7.0K",
+        "urlKeywords": "34"
+      },
+      {
+        "position": "5",
+        "url": "https://www.luxlessons.lu/sproochentest-letzebuergesch",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.luxlessons.lu%2Fsproochentest-letzebuergesch&db=lu&searchType=url",
+        "domain": "luxlessons.lu",
+        "pageAuthority": "14",
+        "refDomains": "3",
+        "backlinks": "14",
+        "searchTraffic": "51",
+        "urlKeywords": "6"
+      },
+      {
+        "position": "6",
+        "url": "https://www.inll.lu/de/zertifikate/",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fzertifikate%2F&db=lu&searchType=url",
+        "domain": "inll.lu",
+        "pageAuthority": "12",
+        "refDomains": "2",
+        "backlinks": "2",
+        "searchTraffic": "91",
+        "urlKeywords": "11"
+      },
+      {
+        "position": "7",
+        "url": "https://educateme.lu/tpost/7skm5rc9f1-booking-your-appointment-for-the-sprooch",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Feducateme.lu%2Ftpost%2F7skm5rc9f1-booking-your-appointment-for-the-sprooch&db=lu&searchType=url",
+        "domain": "educateme.lu",
+        "pageAuthority": "0",
+        "refDomains": "0",
+        "backlinks": "0",
+        "searchTraffic": "2",
+        "urlKeywords": "6"
+      },
+      {
+        "position": "8",
+        "url": "https://www.inll.lu/en/event/sproochentest-op-tablet-um-belval-2/",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.inll.lu%2Fen%2Fevent%2Fsproochentest-op-tablet-um-belval-2%2F&db=lu&searchType=url",
+        "domain": "inll.lu",
+        "pageAuthority": "0",
+        "refDomains": "0",
+        "backlinks": "0",
+        "searchTraffic": "2",
+        "urlKeywords": "3"
+      },
+      {
+        "position": "9",
+        "url": "https://men.public.lu/de/systeme-educatif/formation-adultes/integration-nationalite/cours-examen.html",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fmen.public.lu%2Fde%2Fsysteme-educatif%2Fformation-adultes%2Fintegration-nationalite%2Fcours-examen.html&db=lu&searchType=url",
+        "domain": "public.lu",
+        "pageAuthority": "14",
+        "refDomains": "1",
+        "backlinks": "1",
+        "searchTraffic": "123",
+        "urlKeywords": "8"
+      },
+      {
+        "position": "10",
+        "url": "https://www.inll.lu/de/kalender/",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fkalender%2F&db=lu&searchType=url",
+        "domain": "inll.lu",
+        "pageAuthority": "0",
+        "refDomains": "0",
+        "backlinks": "0",
+        "searchTraffic": "1",
+        "urlKeywords": "2"
+      }
+    ],
+    "diagnostics": {
+      "foundKeywordIdeas": true,
+      "foundQuestions": true,
+      "foundSerpAnalysis": true
+    }
+  },
+  "segments": [
+    {
+      "name": "top",
+      "scrollY": 0,
+      "visibleHeadingCount": 4,
+      "visibleTableCount": 0,
+      "visibleLinkCount": 7,
+      "visibleTextLength": 752
+    },
+    {
+      "name": "metrics",
+      "scrollY": 226,
+      "visibleHeadingCount": 4,
+      "visibleTableCount": 3,
+      "visibleLinkCount": 2,
+      "visibleTextLength": 649
+    },
+    {
+      "name": "table",
+      "scrollY": 896,
+      "visibleHeadingCount": 6,
+      "visibleTableCount": 4,
+      "visibleLinkCount": 22,
+      "visibleTextLength": 579
+    }
+  ],
+  "entities": {
+    "domains": [
+      "inll.lu",
+      "myinl.inll.lu",
+      "luxlessons.lu",
+      "educateme.lu",
+      "men.public.lu"
+    ],
+    "urls": [
+      "https://www.semrush.com/home/",
+      "https://www.semrush.com/seo/",
+      "https://www.semrush.com/ai-seo/overview/",
+      "https://www.semrush.com/analytics/traffic/",
+      "https://www.semrush.com/local-business/",
+      "https://www.semrush.com/content/",
+      "https://www.semrush.com/social-media/",
+      "https://www.semrush.com/advertising/",
+      "https://www.semrush.com/pr-toolkit/",
+      "https://www.semrush.com/home",
+      "https://www.semrush.com/seo",
+      "https://www.semrush.com/academy/courses/keyword-research-with-semrush-step-by-step-guide/",
+      "http://www.w3.org/2000/svg",
+      "https://www.semrush.com/analytics/keywordmagic?q=inl%20sproochentest&amp;db=lu",
+      "https://www.semrush.com/analytics/keywordoverview?q=inl%20sproochentest&amp;db=lu&amp;date=202604&amp;device=0",
+      "https://www.semrush.com/analytics/keywordoverview?q=inl%20sproochentest%20dates&amp;db=lu&amp;date=202604&amp;device=0",
+      "https://www.semrush.com/analytics/keywordoverview?q=inl%20luxembourg%20sproochentest&amp;db=lu&amp;date=202604&amp;device=0",
+      "https://www.semrush.com/analytics/keywordoverview?q=sproochentest%20inl&amp;db=lu&amp;date=202604&amp;device=0",
+      "https://www.semrush.com/analytics/keywordoverview?q=inl%20sproochentest%20exemples&amp;db=lu&amp;date=202604&amp;device=0",
+      "https://www.inll.lu/de/sproochentest-de/",
+      "https://myinl.inll.lu/exam/offer/sproochentest-8",
+      "https://www.inll.lu/de/event/sproochentest-heierverstoen-mendlechen-ausdrock-glacis-tablet-3/",
+      "https://www.semrush.com/analytics/serp/?phrase=inl%20sproochentest&amp;db=lu&amp;date=20260420&amp;serpId=b-d-97-0325-2728041850062852932",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fsproochentest-de%2F&amp;db=lu&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/overview?q=inll.lu&amp;db=lu&amp;searchType=domain",
+      "https://www.semrush.com/analytics/backlinks/refdomains?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fsproochentest-de%2F&amp;searchType=url",
+      "https://www.semrush.com/analytics/backlinks/backlinks?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fsproochentest-de%2F&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fsproochentest-de%2F&amp;db=lu&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fmyinl.inll.lu%2Fexam%2Foffer%2Fsproochentest-8&amp;db=lu&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Fmyinl.inll.lu%2Fexam%2Foffer%2Fsproochentest-8&amp;db=lu&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fevent%2Fsproochentest-heierverstoen-mendlechen-ausdrock-glacis-tablet-3%2F&amp;db=lu&amp;searchType=url",
+      "https://www.semrush.com/analytics/keywordoverview/",
+      "https://static.semrush.com/keyword-overview/images/card-en.png",
+      "https://",
+      "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap",
+      "https://aorta.clickagy.com/pixel.gif?clkgypv=jstag&amp;ws=1",
+      "https://aorta.clickagy.com/channel-sync/4?clkgypv=jstag&amp;ws=1",
+      "https://aorta.clickagy.com/pixel.gif?ch=319&amp;cm=f3831326784d3979a2d11776637629",
+      "https://js.adsrvr.org/up_loader.1.1.0.js",
+      "https://tags.clickagy.com/data.js?rnd=62fe5c0e6ad96",
+      "https://ws-assets.zoominfo.com/formcomplete.js",
+      "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMQ.js",
+      "https://scripts.clarity.ms/0.8.59/clarity.js",
+      "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=D1N4AQJC77U6G0ESFLB0&amp;lib=ttq",
+      "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C4FPRRVM9G8R5RJ0MPKG&amp;lib=ttq",
+      "https://s.yimg.com/wi/ytc.js",
+      "https://getrockerbox.com/customdomain/rp8920cf.semrush.com/wxyz.rb.js",
+      "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+      "https://analytics.tiktok.com/i18n/pixel/static/identify_5cff1caf.js",
+      "https://www.clarity.ms/tag/uet/5128787?insights=1",
+      "https://bat.bing.com/bat.js",
+      "https://tags.srv.stackadapt.com/events.js",
+      "https://sdk.voyantis.io/d8x0anTvV24UqmERWFnln59AQOsoIyNVo9jf2JY0/vy-cs-sdk.min.js",
+      "https://connect.facebook.net/signals/config/239948206198576?v=2.9.300&amp;r=stable&amp;domain=www.semrush.com&amp;hme=c048e760b3fdc0fbdc117d7607b2c36e13eff2660c515ac72e86dac5ba060bb9&amp;ex_m=104%2C205%2C154%2C22%2C72%2C73%2C145%2C68%2C67%2C11%2C162%2C90%2C16%2C138%2C127%2C39%2C75%2C78%2C134%2C159%2C164%2C8%2C4%2C5%2C7%2C6%2C3%2C91%2C101%2C165%2C170%2C219%2C62%2C186%2C187%2C55%2C277%2C30%2C74%2C231%2C230%2C229%2C23%2C33%2C103%2C61%2C10%2C63%2C97%2C98%2C99%2C105%2C130%2C31%2C29%2C132%2C133%2C129%2C128%2C155%2C76%2C158%2C156%2C157%2C50%2C60%2C123%2C15%2C161%2C45%2C264%2C265%2C263%2C26%2C27%2C28%2C48%2C146%2C77%2C112%2C18%2C20%2C44%2C40%2C42%2C41%2C83%2C92%2C96%2C110%2C144%2C147%2C46%2C111%2C24%2C21%2C119%2C69%2C36%2C149%2C148%2C150%2C141%2C139%2C25%2C35%2C59%2C109%2C160%2C70%2C17%2C152%2C114%2C81%2C66%2C19%2C85%2C86%2C116%2C84%2C136%2C135%2C34%2C279%2C294%2C212%2C201%2C202%2C200%2C297%2C289%2C52%2C213%2C107%2C131%2C80%2C121%2C54%2C47%2C49%2C113%2C120%2C126%2C58%2C64%2C151%2C115%2C37%2C32%2C53%2C56%2C100%2C163%2C1%2C124%2C14%2C122%2C12%2C2%2C57%2C93%2C65%2C118%2C89%2C88%2C166%2C167%2C94%2C95%2C9%2C125%2C102%2C51%2C142%2C87%2C79%2C71%2C117%2C106%2C43%2C143%2C0%2C82%2C137%2C140%2C153%2C38%2C108%2C13%2C168",
+      "https://connect.facebook.net/en_US/fbevents.js",
+      "https://www.google-analytics.com/analytics.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-951049332&amp;cx=c&amp;gtm=4e64f1",
+      "https://www.googletagmanager.com/gtag/js?id=DC-6266241&amp;cx=c&amp;gtm=4e64f1",
+      "https://www.googletagmanager.com/gtag/js?id=G-BPNLXP3JQG&amp;cx=c&amp;gtm=4e64f1",
+      "https://www.googletagmanager.com/gtag/js?id=G-HYWKMHR981&amp;cx=c&amp;gtm=4e64f1",
+      "https://cdn.cookiehub.eu/c2/06c77e2e.js",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-5K82J2",
+      "https://widget.intercom.io/widget/cs07vi2k",
+      "https://static.semrush.com/remote-integrations",
+      "https://3d1e0e6b0f934f46bb8915f9c81ee308@www.semrush.com/_sentry/195",
+      "https://static.semrush.com/ajst/ajst.js",
+      "https://cdn.speedcurve.com/js/lux.js?id=421753531",
+      "https://widget.intercom.io",
+      "https://www.semrush.com/analytics/keywordoverview/?db=lu&amp;q=inl%20sproochentest",
+      "https://de.semrush.com/analytics/keywordoverview/?db=lu&amp;q=inl%20sproochentest",
+      "https://es.semrush.com/analytics/keywordoverview/?db=lu&amp;q=inl%20sproochentest",
+      "https://fr.semrush.com/analytics/keywordoverview/?db=lu&amp;q=inl%20sproochentest",
+      "https://it.semrush.com/analytics/keywordoverview/?db=lu&amp;q=inl%20sproochentest",
+      "https://nl.semrush.com/analytics/keywordoverview/?db=lu&amp;q=inl%20sproochentest",
+      "https://pl.semrush.com/analytics/keywordoverview/?db=lu&amp;q=inl%20sproochentest",
+      "https://pt.semrush.com/analytics/keywordoverview/?db=lu&amp;q=inl%20sproochentest",
+      "https://sv.semrush.com/analytics/keywordoverview/?db=lu&amp;q=inl%20sproochentest",
+      "https://vi.semrush.com/analytics/keywordoverview/?db=lu&amp;q=inl%20sproochentest",
+      "https://tr.semrush.com/analytics/keywordoverview/?db=lu&amp;q=inl%20sproochentest",
+      "https://zh.semrush.com/analytics/keywordoverview/?db=lu&amp;q=inl%20sproochentest",
+      "https://ja.semrush.com/analytics/keywordoverview/?db=lu&amp;q=inl%20sproochentest",
+      "https://ko.semrush.com/analytics/keywordoverview/?db=lu&amp;q=inl%20sproochentest",
+      "https://static.semrush.com/semrush-navigation/static/5e4e44dc/734ab4d0.sidebar.css",
+      "https://static.semrush.com/semrush-navigation/static/5e4e44dc/9a42093a.header.css",
+      "https://static.semrush.com/keyword-overview/overview_vendor-49d0a293.style.6370d145221bf33a736c.css",
+      "https://static.semrush.com/keyword-overview/overview_860.style.0d90ecdac438fcb93e0a.css",
+      "http://www.w3.org/2000/svg%27%3E%3Cpath",
+      "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/951049332/?random=1776650493357&amp;cv=11&amp;fst=1776650493357&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45be64f1v9166960028z872084770za20gzb72084770zd72084770xec&amp;gcd=13v3v3v3v5l1&amp;dma=0&amp;tag_exp=0~115938465~115938469~117266401~117384405&amp;u_w=1280&amp;u_h=800&amp;url=https%3A%2F%2Fwww.semrush.com%2Fanalytics%2Fkeywordoverview%2F%3Fdb%3Dlu%26q%3Dinl%2520sproochentest&amp;rcb=17&amp;frm=0&amp;tiba=Free%20Keyword%20Checker%3A%20Check%20Keyword%20Difficulty%20%26%20Competition&amp;ga_uid=G-BPNLXP3JQG.29279824&amp;did=dMzY0Yz&amp;gdid=dMzY0Yz&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;auid=2108181174.1776637626&amp;uaa=arm&amp;uab=64&amp;uafvl=Google%2520Chrome%3B147.0.7727.101%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.101&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=15.7.5&amp;uaw=0&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4",
+      "https://tags.srv.stackadapt.com/sa.css",
+      "https://cookiehub.net/c2/css/06c77e2e.css",
+      "https://bat.bing.com/p/action/5128787.js",
+      "https://rp8920cf.semrush.com/integrations?source=semrush",
+      "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/951049332/?random=1776650494799&amp;cv=11&amp;fst=1776650494799&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=page_view&amp;gtm=45be64f1v9166960028za20gzb72084770zd72084770xec&amp;gcd=13v3v3v3v5l1&amp;dma=0&amp;tag_exp=0~115938465~115938469~117266401~117384405&amp;u_w=1280&amp;u_h=800&amp;url=https%3A%2F%2Fwww.semrush.com%2Fanalytics%2Fkeywordoverview%2F%3Fdb%3Dlu%26q%3Dinl%2Bsproochentest&amp;ref=https%3A%2F%2Fwww.semrush.com%2Fanalytics%2Fkeywordoverview%2F%3Fdb%3Dlu%26q%3Dinl%2520sproochentest&amp;rcb=17&amp;frm=0&amp;tiba=inl%20sproochentest%3A%20Overview%2C%20Keyword%20Overview&amp;ga_uid=G-BPNLXP3JQG.29279824&amp;did=dMzY0Yz&amp;gdid=dMzY0Yz&amp;ae=a&amp;hn=www.googleadservices.com&amp;npa=0&amp;us_privacy=1yn-&amp;pscdl=noapi&amp;auid=2108181174.1776637626&amp;uaa=arm&amp;uab=64&amp;uafvl=Google%2520Chrome%3B147.0.7727.101%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.101&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=15.7.5&amp;uaw=0&amp;data=event%3Dpage_view&amp;rfmt=3&amp;fmt=4",
+      "http://www.w3.org/1999/xlink",
+      "https://ai-visibility-index.semrush.com/?utm_source=semrush&amp;utm_medium=product_header",
+      "https://careers.semrush.com/",
+      "https://static.semrush.com/semrush-navigation/static/5e4e44dc/",
+      "https://www.semrush.com/my_reports/grid/",
+      "https://www.semrush.com/apps/"
+    ],
+    "keywords": [
+      "inl sproochentest",
+      "inl sproochentest dates",
+      "inl luxembourg sproochentest",
+      "sproochentest inl",
+      "inl sproochentest exemples",
+      "Knowledge panel"
+    ]
+  }
+}

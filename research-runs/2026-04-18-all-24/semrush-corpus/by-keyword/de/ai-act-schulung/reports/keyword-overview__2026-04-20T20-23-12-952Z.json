@@ -1,0 +1,328 @@
+{
+  "meta": {
+    "capturedAt": "2026-04-20T20:23:12.952Z",
+    "reportType": "keyword-overview",
+    "database": "de",
+    "query": "ai act schulung",
+    "title": "ai act schulung: Overview, Keyword Overview",
+    "url": "https://www.semrush.com/analytics/keywordoverview/?db=de&q=ai+act+schulung",
+    "pathname": "/analytics/keywordoverview/",
+    "searchType": null,
+    "sourcePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__de__ai-act-schulung__keyword-overview__2026-04-20T20-23-12-959Z.json",
+    "scopeType": "keyword",
+    "scopeSlug": "ai-act-schulung"
+  },
+  "summary": {
+    "pageIdentity": "ai act schulung: Overview, Keyword Overview",
+    "queryOrDomain": "ai act schulung",
+    "topMetrics": {
+      "volume": "140",
+      "keywordDifficulty": "17%",
+      "globalVolume": "180",
+      "intent": "Commercial",
+      "cpc": "$4.47",
+      "competitiveDensity": "0.84"
+    },
+    "tableCount": 4,
+    "networkCount": 0
+  },
+  "structured": {
+    "keywordSummary": {
+      "volume": "140",
+      "keywordDifficulty": null,
+      "globalVolume": "180",
+      "intent": null,
+      "cpc": null,
+      "competitiveDensity": null,
+      "results": "586.0K"
+    },
+    "keywordVariations": [
+      {
+        "keyword": "eu ai act schulung",
+        "rowText": "eu ai act schulung | 210 | 12",
+        "volume": "210"
+      },
+      {
+        "keyword": "ai act schulung",
+        "rowText": "ai act schulung | 140 | 17",
+        "volume": "140"
+      },
+      {
+        "keyword": "eu ai act schulung mitarbeiter",
+        "rowText": "eu ai act schulung mitarbeiter | 40 | n/a",
+        "volume": "40"
+      },
+      {
+        "keyword": "ai act schulung mitarbeiter",
+        "rowText": "ai act schulung mitarbeiter | 30 | n/a",
+        "volume": "30"
+      },
+      {
+        "keyword": "eu ai act schulungen",
+        "rowText": "eu ai act schulungen | 30 | n/a",
+        "volume": "30"
+      }
+    ],
+    "questions": [],
+    "serpLeaders": [
+      {
+        "position": "1",
+        "url": "https://www.ihk.de/rhein-neckar/ausbildung-weiterbildung/weiterbildung-channel/eu-ai-act-artikel-4-6434562",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.ihk.de%2Frhein-neckar%2Fausbildung-weiterbildung%2Fweiterbildung-channel%2Feu-ai-act-artikel-4-6434562&db=de&searchType=url",
+        "domain": "ihk.de",
+        "pageAuthority": "20",
+        "refDomains": "11",
+        "backlinks": "17",
+        "searchTraffic": "72",
+        "urlKeywords": "28"
+      },
+      {
+        "position": "2",
+        "url": "https://www.haufe-akademie.de/digital-suite/blog/lxp-ki-schulungspflicht",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.haufe-akademie.de%2Fdigital-suite%2Fblog%2Flxp-ki-schulungspflicht&db=de&searchType=url",
+        "domain": "haufe-akademie.de",
+        "pageAuthority": "0",
+        "refDomains": "0",
+        "backlinks": "0",
+        "searchTraffic": "73",
+        "urlKeywords": "8"
+      },
+      {
+        "position": "3",
+        "url": "https://www.ipa.fraunhofer.de/de/veranstaltungen-messen/veranstaltungen/2025/KI-Grundlagenschulung_Mai.html",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.ipa.fraunhofer.de%2Fde%2Fveranstaltungen-messen%2Fveranstaltungen%2F2025%2FKI-Grundlagenschulung_Mai.html&db=de&searchType=url",
+        "domain": "fraunhofer.de",
+        "pageAuthority": "0",
+        "refDomains": "0",
+        "backlinks": "0",
+        "searchTraffic": "18",
+        "urlKeywords": "5"
+      },
+      {
+        "position": "4",
+        "url": "https://www.dekra-akademie.de/produkte/eu-ai-act-schulung-ki-verordnung-als-unternehmen-in-der-praxis-richtig-umsetzen",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.dekra-akademie.de%2Fprodukte%2Feu-ai-act-schulung-ki-verordnung-als-unternehmen-in-der-praxis-richtig-umsetzen&db=de&searchType=url",
+        "domain": "dekra-akademie.de",
+        "pageAuthority": "41",
+        "refDomains": "1",
+        "backlinks": "2",
+        "searchTraffic": "22",
+        "urlKeywords": "8"
+      },
+      {
+        "position": "5",
+        "url": "https://www.bechtle.com/training/EDU620013-ai-act-ki-verordnung-praxis",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.bechtle.com%2Ftraining%2FEDU620013-ai-act-ki-verordnung-praxis&db=de&searchType=url",
+        "domain": "bechtle.com",
+        "pageAuthority": "0",
+        "refDomains": "0",
+        "backlinks": "0",
+        "searchTraffic": "0",
+        "urlKeywords": "0"
+      },
+      {
+        "position": "6",
+        "url": "https://lernen.oncampus.de/blocks/ocproducts/product.php?id=fzkBKGF0fMptCV9UqRNEh0KpRp6NZrUv",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Flernen.oncampus.de%2Fblocks%2Focproducts%2Fproduct.php%3Fid%3DfzkBKGF0fMptCV9UqRNEh0KpRp6NZrUv&db=de&searchType=url",
+        "domain": "oncampus.de",
+        "pageAuthority": "0",
+        "refDomains": "0",
+        "backlinks": "0",
+        "searchTraffic": "1",
+        "urlKeywords": "1"
+      },
+      {
+        "position": "7",
+        "url": "https://artificialintelligenceact.eu/de/article/4/",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fartificialintelligenceact.eu%2Fde%2Farticle%2F4%2F&db=de&searchType=url",
+        "domain": "artificialintelligenceact.eu",
+        "pageAuthority": "47",
+        "refDomains": "112",
+        "backlinks": "188",
+        "searchTraffic": "497",
+        "urlKeywords": "57"
+      },
+      {
+        "position": "8",
+        "url": "https://ambersearch.de/ki-schulung-und-der-ai-act/",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fambersearch.de%2Fki-schulung-und-der-ai-act%2F&db=de&searchType=url",
+        "domain": "ambersearch.de",
+        "pageAuthority": "4",
+        "refDomains": "3",
+        "backlinks": "3",
+        "searchTraffic": "0",
+        "urlKeywords": "2"
+      },
+      {
+        "position": "9",
+        "url": "https://digitalzentrum-berlin.de/ai-act-2025-pflicht-zur-ki-schulung-fuer-unternehmen",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fdigitalzentrum-berlin.de%2Fai-act-2025-pflicht-zur-ki-schulung-fuer-unternehmen&db=de&searchType=url",
+        "domain": "digitalzentrum-berlin.de",
+        "pageAuthority": "8",
+        "refDomains": "5",
+        "backlinks": "14",
+        "searchTraffic": "1",
+        "urlKeywords": "7"
+      },
+      {
+        "position": "10",
+        "url": "https://www.tuvsud.com/de-de/store/akademie/seminare-management/kuenstliche-intelligenz/1716101",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.tuvsud.com%2Fde-de%2Fstore%2Fakademie%2Fseminare-management%2Fkuenstliche-intelligenz%2F1716101&db=de&searchType=url",
+        "domain": "tuvsud.com",
+        "pageAuthority": "18",
+        "refDomains": "3",
+        "backlinks": "4",
+        "searchTraffic": "24",
+        "urlKeywords": "8"
+      }
+    ],
+    "diagnostics": {
+      "foundKeywordIdeas": true,
+      "foundQuestions": true,
+      "foundSerpAnalysis": true
+    }
+  },
+  "segments": [
+    {
+      "name": "top",
+      "scrollY": 0,
+      "visibleHeadingCount": 4,
+      "visibleTableCount": 0,
+      "visibleLinkCount": 7,
+      "visibleTextLength": 731
+    },
+    {
+      "name": "metrics",
+      "scrollY": 226,
+      "visibleHeadingCount": 4,
+      "visibleTableCount": 3,
+      "visibleLinkCount": 2,
+      "visibleTextLength": 636
+    },
+    {
+      "name": "table",
+      "scrollY": 896,
+      "visibleHeadingCount": 5,
+      "visibleTableCount": 4,
+      "visibleLinkCount": 27,
+      "visibleTextLength": 831
+    }
+  ],
+  "entities": {
+    "domains": [
+      "bechtle.com",
+      "artificialintelligenceact.eu",
+      "tuvsud.com"
+    ],
+    "urls": [
+      "https://www.semrush.com/home/",
+      "https://www.semrush.com/seo/",
+      "https://www.semrush.com/ai-seo/overview/",
+      "https://www.semrush.com/analytics/traffic/",
+      "https://www.semrush.com/local-business/",
+      "https://www.semrush.com/content/",
+      "https://www.semrush.com/social-media/",
+      "https://www.semrush.com/advertising/",
+      "https://www.semrush.com/pr-toolkit/",
+      "https://www.semrush.com/home",
+      "https://www.semrush.com/seo",
+      "https://www.semrush.com/academy/courses/keyword-research-with-semrush-step-by-step-guide/",
+      "http://www.w3.org/2000/svg",
+      "https://www.semrush.com/analytics/keywordmagic?q=ai%20act%20schulung&amp;db=de",
+      "https://www.semrush.com/analytics/keywordoverview?q=eu%20ai%20act%20schulung&amp;db=de&amp;date=202604&amp;device=0",
+      "https://www.semrush.com/analytics/keywordoverview?q=ai%20act%20schulung&amp;db=de&amp;date=202604&amp;device=0",
+      "https://www.semrush.com/analytics/keywordoverview?q=eu%20ai%20act%20schulung%20mitarbeiter&amp;db=de&amp;date=202604&amp;device=0",
+      "https://www.semrush.com/analytics/keywordoverview?q=ai%20act%20schulung%20mitarbeiter&amp;db=de&amp;date=202604&amp;device=0",
+      "https://www.semrush.com/analytics/keywordoverview?q=eu%20ai%20act%20schulungen&amp;db=de&amp;date=202604&amp;device=0",
+      "https://www.ihk.de/rhein-neckar/ausbildung-weiterbildung/weiterbildung-channel/eu-ai-act-artikel-4-6434562",
+      "https://www.haufe-akademie.de/digital-suite/blog/lxp-ki-schulungspflicht",
+      "https://www.ipa.fraunhofer.de/de/veranstaltungen-messen/veranstaltungen/2025/KI-Grundlagenschulung_Mai.html",
+      "https://www.dekra-akademie.de/produkte/eu-ai-act-schulung-ki-verordnung-als-unternehmen-in-der-praxis-richtig-umsetzen",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.ihk.de%2Frhein-neckar%2Fausbildung-weiterbildung%2Fweiterbildung-channel%2Feu-ai-act-artikel-4-6434562&amp;db=de&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/overview?q=ihk.de&amp;db=de&amp;searchType=domain",
+      "https://www.semrush.com/analytics/backlinks/refdomains?q=https%3A%2F%2Fwww.ihk.de%2Frhein-neckar%2Fausbildung-weiterbildung%2Fweiterbildung-channel%2Feu-ai-act-artikel-4-6434562&amp;searchType=url",
+      "https://www.semrush.com/analytics/backlinks/backlinks?q=https%3A%2F%2Fwww.ihk.de%2Frhein-neckar%2Fausbildung-weiterbildung%2Fweiterbildung-channel%2Feu-ai-act-artikel-4-6434562&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Fwww.ihk.de%2Frhein-neckar%2Fausbildung-weiterbildung%2Fweiterbildung-channel%2Feu-ai-act-artikel-4-6434562&amp;db=de&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.haufe-akademie.de%2Fdigital-suite%2Fblog%2Flxp-ki-schulungspflicht&amp;db=de&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/overview?q=haufe-akademie.de&amp;db=de&amp;searchType=domain",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Fwww.haufe-akademie.de%2Fdigital-suite%2Fblog%2Flxp-ki-schulungspflicht&amp;db=de&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/positions?q=ht",
+      "https://www.semrush.com/analytics/keywordoverview/",
+      "https://static.semrush.com/keyword-overview/images/card-en.png",
+      "https://",
+      "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap",
+      "https://aorta.clickagy.com/pixel.gif?clkgypv=jstag&amp;ws=1",
+      "https://aorta.clickagy.com/channel-sync/4?clkgypv=jstag&amp;ws=1",
+      "https://aorta.clickagy.com/pixel.gif?ch=319&amp;cm=f3831326784d3979a2d11776637629",
+      "https://js.adsrvr.org/up_loader.1.1.0.js",
+      "https://tags.clickagy.com/data.js?rnd=62fe5c0e6ad96",
+      "https://ws-assets.zoominfo.com/formcomplete.js",
+      "https://scripts.clarity.ms/0.8.59/clarity.js",
+      "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMQ.js",
+      "https://analytics.tiktok.com/i18n/pixel/static/identify_5cff1caf.js",
+      "https://www.clarity.ms/tag/uet/5128787?insights=1",
+      "https://getrockerbox.com/customdomain/rp8920cf.semrush.com/wxyz.rb.js",
+      "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=D1N4AQJC77U6G0ESFLB0&amp;lib=ttq",
+      "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C4FPRRVM9G8R5RJ0MPKG&amp;lib=ttq",
+      "https://s.yimg.com/wi/ytc.js",
+      "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+      "https://bat.bing.com/bat.js",
+      "https://www.google-analytics.com/analytics.js",
+      "https://tags.srv.stackadapt.com/events.js",
+      "https://sdk.voyantis.io/d8x0anTvV24UqmERWFnln59AQOsoIyNVo9jf2JY0/vy-cs-sdk.min.js",
+      "https://connect.facebook.net/signals/config/239948206198576?v=2.9.303&amp;r=stable&amp;domain=www.semrush.com&amp;hme=97937018cefade17726f0472876fc101316b2ce9008a35a6a5a7977d7436151a&amp;ex_m=104%2C205%2C154%2C22%2C72%2C73%2C145%2C68%2C67%2C11%2C162%2C90%2C16%2C138%2C127%2C39%2C75%2C78%2C134%2C159%2C164%2C8%2C4%2C5%2C7%2C6%2C3%2C91%2C101%2C165%2C170%2C219%2C62%2C186%2C187%2C55%2C276%2C30%2C74%2C231%2C230%2C229%2C23%2C33%2C103%2C61%2C10%2C63%2C97%2C98%2C99%2C105%2C130%2C31%2C29%2C132%2C133%2C129%2C128%2C155%2C76%2C158%2C156%2C157%2C50%2C60%2C123%2C15%2C161%2C45%2C263%2C264%2C262%2C26%2C27%2C28%2C48%2C146%2C77%2C112%2C18%2C20%2C44%2C40%2C42%2C41%2C83%2C92%2C96%2C110%2C144%2C147%2C46%2C111%2C24%2C21%2C119%2C69%2C36%2C149%2C148%2C150%2C141%2C139%2C25%2C35%2C59%2C109%2C160%2C70%2C17%2C152%2C114%2C81%2C66%2C19%2C85%2C86%2C116%2C84%2C136%2C135%2C34%2C278%2C293%2C212%2C201%2C202%2C200%2C296%2C288%2C52%2C213%2C107%2C131%2C80%2C121%2C54%2C47%2C49%2C113%2C120%2C126%2C58%2C64%2C151%2C115%2C37%2C32%2C53%2C56%2C100%2C163%2C1%2C124%2C14%2C122%2C12%2C2%2C57%2C93%2C65%2C118%2C89%2C88%2C166%2C167%2C94%2C95%2C9%2C125%2C102%2C51%2C142%2C87%2C79%2C71%2C117%2C106%2C43%2C143%2C0%2C82%2C137%2C140%2C153%2C38%2C108%2C13%2C168",
+      "https://connect.facebook.net/en_US/fbevents.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-951049332&amp;cx=c&amp;gtm=4e64g0",
+      "https://www.googletagmanager.com/gtag/js?id=DC-6266241&amp;cx=c&amp;gtm=4e64g0",
+      "https://www.googletagmanager.com/gtag/js?id=G-BPNLXP3JQG&amp;cx=c&amp;gtm=4e64g0",
+      "https://www.googletagmanager.com/gtag/js?id=G-HYWKMHR981&amp;cx=c&amp;gtm=4e64g0",
+      "https://cdn.cookiehub.eu/c2/06c77e2e.js",
+      "https://widget.intercom.io/widget/cs07vi2k",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-5K82J2",
+      "https://static.semrush.com/remote-integrations",
+      "https://3d1e0e6b0f934f46bb8915f9c81ee308@www.semrush.com/_sentry/195",
+      "https://static.semrush.com/ajst/ajst.js",
+      "https://cdn.speedcurve.com/js/lux.js?id=421753531",
+      "https://widget.intercom.io",
+      "https://www.semrush.com/analytics/keywordoverview/?db=de&amp;q=ai%20act%20schulung",
+      "https://de.semrush.com/analytics/keywordoverview/?db=de&amp;q=ai%20act%20schulung",
+      "https://es.semrush.com/analytics/keywordoverview/?db=de&amp;q=ai%20act%20schulung",
+      "https://fr.semrush.com/analytics/keywordoverview/?db=de&amp;q=ai%20act%20schulung",
+      "https://it.semrush.com/analytics/keywordoverview/?db=de&amp;q=ai%20act%20schulung",
+      "https://nl.semrush.com/analytics/keywordoverview/?db=de&amp;q=ai%20act%20schulung",
+      "https://pl.semrush.com/analytics/keywordoverview/?db=de&amp;q=ai%20act%20schulung",
+      "https://pt.semrush.com/analytics/keywordoverview/?db=de&amp;q=ai%20act%20schulung",
+      "https://sv.semrush.com/analytics/keywordoverview/?db=de&amp;q=ai%20act%20schulung",
+      "https://vi.semrush.com/analytics/keywordoverview/?db=de&amp;q=ai%20act%20schulung",
+      "https://tr.semrush.com/analytics/keywordoverview/?db=de&amp;q=ai%20act%20schulung",
+      "https://zh.semrush.com/analytics/keywordoverview/?db=de&amp;q=ai%20act%20schulung",
+      "https://ja.semrush.com/analytics/keywordoverview/?db=de&amp;q=ai%20act%20schulung",
+      "https://ko.semrush.com/analytics/keywordoverview/?db=de&amp;q=ai%20act%20schulung",
+      "https://static.semrush.com/semrush-navigation/static/5e4e44dc/734ab4d0.sidebar.css",
+      "https://static.semrush.com/semrush-navigation/static/5e4e44dc/9a42093a.header.css",
+      "https://static.semrush.com/keyword-overview/overview_vendor-49d0a293.style.6370d145221bf33a736c.css",
+      "https://static.semrush.com/keyword-overview/overview_860.style.0d90ecdac438fcb93e0a.css",
+      "http://www.w3.org/2000/svg%27%3E%3Cpath",
+      "https://cookiehub.net/c2/css/06c77e2e.css",
+      "https://tags.srv.stackadapt.com/sa.css",
+      "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/951049332/?random=1776716574631&amp;cv=11&amp;fst=1776716574631&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45be64g0v9166960028z872084770za20gzb72084770zd72084770xec&amp;gcd=13v3v3v3v5l1&amp;dma=0&amp;tag_exp=0~115938465~115938468~117266401&amp;u_w=1280&amp;u_h=800&amp;url=https%3A%2F%2Fwww.semrush.com%2Fanalytics%2Fkeywordoverview%2F%3Fdb%3Dde%26q%3Dai%2Bact%2Bschulung&amp;rcb=7&amp;frm=0&amp;tiba=ai%20act%20schulung%3A%20Overview%2C%20Keyword%20Overview&amp;ga_uid=G-HYWKMHR981.29279824&amp;did=dMzY0Yz&amp;gdid=dMzY0Yz&amp;hn=www.googleadservices.com&amp;npa=0&amp;us_privacy=1yn-&amp;pscdl=noapi&amp;auid=2108181174.1776637626&amp;uaa=arm&amp;uab=64&amp;uafvl=Google%2520Chrome%3B147.0.7727.101%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.101&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=15.7.5&amp;uaw=0&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4",
+      "https://bat.bing.com/p/action/5128787.js",
+      "https://rp8920cf.semrush.com/integrations?source=semrush",
+      "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/951049332/?random=1776716575611&amp;cv=11&amp;fst=1776716575611&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=page_view&amp;gtm=45be64g0v9166960028za20gzb72084770zd72084770xec&amp;gcd=13v3v3v3v5l1&amp;dma=0&amp;tag_exp=0~115938465~115938468~117266401&amp;u_w=1280&amp;u_h=800&amp;url=https%3A%2F%2Fwww.semrush.com%2Fanalytics%2Fkeywordoverview%2F%3Fdb%3Dde%26q%3Dai%2Bact%2Bschulung&amp;ref=https%3A%2F%2Fwww.semrush.com%2Fanalytics%2Fkeywordoverview%2F%3Fdb%3Dde%26q%3Dai%2520act%2520schulung&amp;rcb=7&amp;frm=0&amp;tiba=ai%20act%20schulung%3A%20Overview%2C%20Keyword%20Overview&amp;ga_uid=G-HYWKMHR981.29279824&amp;did=dMzY0Yz&amp;gdid=dMzY0Yz&amp;ae=a&amp;hn=www.googleadservices.com&amp;npa=0&amp;us_privacy=1yn-&amp;pscdl=noapi&amp;auid=2108181174.1776637626&amp;uaa=arm&amp;uab=64&amp;uafvl=Google%2520Chrome%3B147.0.7727.101%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.101&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=15.7.5&amp;uaw=0&amp;data=event%3Dpage_view&amp;rfmt=3&amp;fmt=4",
+      "http://www.w3.org/1999/xlink",
+      "https://ai-visibility-index.semrush.com/?utm_source=semrush&amp;utm_medium=product_header",
+      "https://careers.semrush.com/",
+      "https://static.semrush.com/semrush-navigation/static/5e4e44dc/",
+      "https://www.semrush.com/my_reports/grid/",
+      "https://www.semrush.com/apps/",
+      "https://www.seoquake.com/"
+    ],
+    "keywords": [
+      "ai act schulung",
+      "eu ai act schulung",
+      "eu ai act schulung mitarbeiter",
+      "ai act schulung mitarbeiter",
+      "eu ai act schulungen"
+    ]
+  }
+}

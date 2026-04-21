@@ -1,0 +1,607 @@
+{
+  "meta": {
+    "name": "luxembourgish-route",
+    "database": "lu",
+    "createdAt": "2026-04-19T23:49:06.386Z",
+    "seedDomains": [
+      "educateme.lu"
+    ],
+    "seedKeywords": [
+      "sproochentest"
+    ],
+    "reportCount": 3
+  },
+  "marketSignals": [
+    {
+      "type": "domain-summary",
+      "domain": "educateme.lu",
+      "source": "tools/semrush-capture__lu__educatemelu__domain-overview__2026-04-19T22-32-26-251Z.json",
+      "authorityScore": "10",
+      "organicTraffic": "66",
+      "organicKeywords": "67",
+      "referringDomains": "81",
+      "backlinks": "184"
+    },
+    {
+      "type": "keyword-summary",
+      "keyword": "sproochentest",
+      "source": "tools/semrush-capture__lu__sproochentest__keyword-overview__2026-04-19T22-33-44-068Z.json",
+      "volume": "880",
+      "keywordDifficulty": "14%",
+      "cpc": "$3.72",
+      "competitiveDensity": "0.05",
+      "intent": "Informational"
+    }
+  ],
+  "aggregatedKeywords": [
+    {
+      "keyword": "sproochentest",
+      "volume": "880",
+      "kd": "14",
+      "cpc": null,
+      "intents": [
+        "I"
+      ],
+      "bestPosition": 8,
+      "trafficSignals": [
+        {
+          "traffic": "26",
+          "trafficShare": "39.39",
+          "sourceScope": "educateme.lu"
+        }
+      ],
+      "sources": [
+        {
+          "sourceType": "organic-position",
+          "sourceScope": "educateme.lu",
+          "source": "tools/semrush-capture__lu__educatemelu__organic-positions__2026-04-19T22-32-56-704Z.json"
+        },
+        {
+          "sourceType": "keyword-variation",
+          "sourceScope": "sproochentest",
+          "source": "tools/semrush-capture__lu__sproochentest__keyword-overview__2026-04-19T22-33-44-068Z.json"
+        }
+      ]
+    },
+    {
+      "keyword": "luxembourg language",
+      "volume": "590",
+      "kd": "36",
+      "cpc": null,
+      "intents": [
+        "I"
+      ],
+      "bestPosition": 11,
+      "trafficSignals": [
+        {
+          "traffic": "1",
+          "trafficShare": "1.51",
+          "sourceScope": "educateme.lu"
+        }
+      ],
+      "sources": [
+        {
+          "sourceType": "organic-position",
+          "sourceScope": "educateme.lu",
+          "source": "tools/semrush-capture__lu__educatemelu__organic-positions__2026-04-19T22-32-56-704Z.json"
+        }
+      ]
+    },
+    {
+      "keyword": "learn luxembourgish online",
+      "volume": "480",
+      "kd": "21",
+      "cpc": null,
+      "intents": [
+        "C"
+      ],
+      "bestPosition": 7,
+      "trafficSignals": [
+        {
+          "traffic": "14",
+          "trafficShare": "21.21",
+          "sourceScope": "educateme.lu"
+        }
+      ],
+      "sources": [
+        {
+          "sourceType": "organic-position",
+          "sourceScope": "educateme.lu",
+          "source": "tools/semrush-capture__lu__educatemelu__organic-positions__2026-04-19T22-32-56-704Z.json"
+        }
+      ]
+    },
+    {
+      "keyword": "learn luxembourgish",
+      "volume": "320",
+      "kd": "28",
+      "cpc": null,
+      "intents": [
+        "I"
+      ],
+      "bestPosition": 7,
+      "trafficSignals": [
+        {
+          "traffic": "1",
+          "trafficShare": "1.51",
+          "sourceScope": "educateme.lu"
+        }
+      ],
+      "sources": [
+        {
+          "sourceType": "organic-position",
+          "sourceScope": "educateme.lu",
+          "source": "tools/semrush-capture__lu__educatemelu__organic-positions__2026-04-19T22-32-56-704Z.json"
+        }
+      ]
+    },
+    {
+      "keyword": "inl sproochentest",
+      "volume": "210",
+      "kd": "22",
+      "cpc": null,
+      "intents": [
+        "N"
+      ],
+      "bestPosition": 7,
+      "trafficSignals": [
+        {
+          "traffic": "1",
+          "trafficShare": "1.51",
+          "sourceScope": "educateme.lu"
+        }
+      ],
+      "sources": [
+        {
+          "sourceType": "organic-position",
+          "sourceScope": "educateme.lu",
+          "source": "tools/semrush-capture__lu__educatemelu__organic-positions__2026-04-19T22-32-56-704Z.json"
+        },
+        {
+          "sourceType": "keyword-variation",
+          "sourceScope": "sproochentest",
+          "source": "tools/semrush-capture__lu__sproochentest__keyword-overview__2026-04-19T22-33-44-068Z.json"
+        }
+      ]
+    },
+    {
+      "keyword": "sproochentest luxembourg",
+      "volume": "140",
+      "kd": "15",
+      "cpc": "1.25",
+      "intents": [
+        "I"
+      ],
+      "bestPosition": 7,
+      "trafficSignals": [
+        {
+          "traffic": null,
+          "trafficShare": "6.06",
+          "sourceScope": "educateme.lu"
+        },
+        {
+          "traffic": "4",
+          "trafficShare": "6.06",
+          "sourceScope": "educateme.lu"
+        }
+      ],
+      "sources": [
+        {
+          "sourceType": "top-organic-keyword",
+          "sourceScope": "educateme.lu",
+          "source": "tools/semrush-capture__lu__educatemelu__domain-overview__2026-04-19T22-32-26-251Z.json"
+        },
+        {
+          "sourceType": "organic-position",
+          "sourceScope": "educateme.lu",
+          "source": "tools/semrush-capture__lu__educatemelu__organic-positions__2026-04-19T22-32-56-704Z.json"
+        },
+        {
+          "sourceType": "keyword-variation",
+          "sourceScope": "sproochentest",
+          "source": "tools/semrush-capture__lu__sproochentest__keyword-overview__2026-04-19T22-33-44-068Z.json"
+        }
+      ]
+    },
+    {
+      "keyword": "luxembourgish online course",
+      "volume": "90",
+      "kd": "17",
+      "cpc": null,
+      "intents": [
+        "I"
+      ],
+      "bestPosition": 5,
+      "trafficSignals": [
+        {
+          "traffic": "4",
+          "trafficShare": "6.06",
+          "sourceScope": "educateme.lu"
+        }
+      ],
+      "sources": [
+        {
+          "sourceType": "organic-position",
+          "sourceScope": "educateme.lu",
+          "source": "tools/semrush-capture__lu__educatemelu__organic-positions__2026-04-19T22-32-56-704Z.json"
+        }
+      ]
+    },
+    {
+      "keyword": "inll sproochentest",
+      "volume": "70",
+      "kd": "14",
+      "cpc": null,
+      "intents": [],
+      "bestPosition": null,
+      "trafficSignals": [],
+      "sources": [
+        {
+          "sourceType": "keyword-variation",
+          "sourceScope": "sproochentest",
+          "source": "tools/semrush-capture__lu__sproochentest__keyword-overview__2026-04-19T22-33-44-068Z.json"
+        }
+      ]
+    },
+    {
+      "keyword": "sproochentest examples",
+      "volume": "70",
+      "kd": "3",
+      "cpc": null,
+      "intents": [],
+      "bestPosition": null,
+      "trafficSignals": [],
+      "sources": [
+        {
+          "sourceType": "keyword-variation",
+          "sourceScope": "sproochentest",
+          "source": "tools/semrush-capture__lu__sproochentest__keyword-overview__2026-04-19T22-33-44-068Z.json"
+        }
+      ]
+    }
+  ],
+  "competitorWatchlist": [
+    {
+      "domain": "luxlessons.lu",
+      "commonKeywords": "9",
+      "seoKeywords": "32",
+      "bestObservedPosition": 6,
+      "searchTrafficSignals": [
+        "55"
+      ],
+      "backlinksSignals": [
+        "14"
+      ],
+      "sources": [
+        {
+          "sourceType": "organic-competitor",
+          "sourceScope": "educateme.lu",
+          "source": "tools/semrush-capture__lu__educatemelu__domain-overview__2026-04-19T22-32-26-251Z.json"
+        },
+        {
+          "sourceType": "referring-domain",
+          "sourceScope": "educateme.lu",
+          "source": "tools/semrush-capture__lu__educatemelu__domain-overview__2026-04-19T22-32-26-251Z.json"
+        },
+        {
+          "sourceType": "serp-leader",
+          "sourceScope": "sproochentest",
+          "source": "tools/semrush-capture__lu__sproochentest__keyword-overview__2026-04-19T22-33-44-068Z.json"
+        }
+      ]
+    },
+    {
+      "domain": "luxembourgishwithanne.lu",
+      "commonKeywords": null,
+      "seoKeywords": null,
+      "bestObservedPosition": null,
+      "searchTrafficSignals": [],
+      "backlinksSignals": [],
+      "sources": [
+        {
+          "sourceType": "referring-domain",
+          "sourceScope": "educateme.lu",
+          "source": "tools/semrush-capture__lu__educatemelu__domain-overview__2026-04-19T22-32-26-251Z.json"
+        }
+      ]
+    },
+    {
+      "domain": "luxlanguages.lu",
+      "commonKeywords": null,
+      "seoKeywords": null,
+      "bestObservedPosition": 9,
+      "searchTrafficSignals": [
+        "27"
+      ],
+      "backlinksSignals": [
+        "0"
+      ],
+      "sources": [
+        {
+          "sourceType": "referring-domain",
+          "sourceScope": "educateme.lu",
+          "source": "tools/semrush-capture__lu__educatemelu__domain-overview__2026-04-19T22-32-26-251Z.json"
+        },
+        {
+          "sourceType": "serp-leader",
+          "sourceScope": "sproochentest",
+          "source": "tools/semrush-capture__lu__sproochentest__keyword-overview__2026-04-19T22-33-44-068Z.json"
+        }
+      ]
+    },
+    {
+      "domain": "learnluxembourgish.com",
+      "commonKeywords": null,
+      "seoKeywords": null,
+      "bestObservedPosition": null,
+      "searchTrafficSignals": [],
+      "backlinksSignals": [],
+      "sources": [
+        {
+          "sourceType": "referring-domain",
+          "sourceScope": "educateme.lu",
+          "source": "tools/semrush-capture__lu__educatemelu__domain-overview__2026-04-19T22-32-26-251Z.json"
+        }
+      ]
+    },
+    {
+      "domain": "institutfrancais-luxembourg.lu",
+      "commonKeywords": null,
+      "seoKeywords": null,
+      "bestObservedPosition": null,
+      "searchTrafficSignals": [],
+      "backlinksSignals": [],
+      "sources": [
+        {
+          "sourceType": "referring-domain",
+          "sourceScope": "educateme.lu",
+          "source": "tools/semrush-capture__lu__educatemelu__domain-overview__2026-04-19T22-32-26-251Z.json"
+        }
+      ]
+    },
+    {
+      "domain": "educateme.lu",
+      "commonKeywords": null,
+      "seoKeywords": null,
+      "bestObservedPosition": 8,
+      "searchTrafficSignals": [
+        "28"
+      ],
+      "backlinksSignals": [
+        "0"
+      ],
+      "sources": [
+        {
+          "sourceType": "referring-domain",
+          "sourceScope": "educateme.lu",
+          "source": "tools/semrush-capture__lu__educatemelu__domain-overview__2026-04-19T22-32-26-251Z.json"
+        },
+        {
+          "sourceType": "serp-leader",
+          "sourceScope": "sproochentest",
+          "source": "tools/semrush-capture__lu__sproochentest__keyword-overview__2026-04-19T22-33-44-068Z.json"
+        }
+      ]
+    },
+    {
+      "domain": "inll.lu",
+      "commonKeywords": null,
+      "seoKeywords": null,
+      "bestObservedPosition": 1,
+      "searchTrafficSignals": [
+        "734",
+        "46"
+      ],
+      "backlinksSignals": [
+        "16",
+        "0"
+      ],
+      "sources": [
+        {
+          "sourceType": "serp-leader",
+          "sourceScope": "sproochentest",
+          "source": "tools/semrush-capture__lu__sproochentest__keyword-overview__2026-04-19T22-33-44-068Z.json"
+        },
+        {
+          "sourceType": "serp-leader",
+          "sourceScope": "sproochentest",
+          "source": "tools/semrush-capture__lu__sproochentest__keyword-overview__2026-04-19T22-33-44-068Z.json"
+        }
+      ]
+    },
+    {
+      "domain": "men.public.lu",
+      "commonKeywords": null,
+      "seoKeywords": null,
+      "bestObservedPosition": 2,
+      "searchTrafficSignals": [
+        "137"
+      ],
+      "backlinksSignals": [
+        "1"
+      ],
+      "sources": [
+        {
+          "sourceType": "serp-leader",
+          "sourceScope": "sproochentest",
+          "source": "tools/semrush-capture__lu__sproochentest__keyword-overview__2026-04-19T22-33-44-068Z.json"
+        }
+      ]
+    },
+    {
+      "domain": "sproochentest.org",
+      "commonKeywords": null,
+      "seoKeywords": null,
+      "bestObservedPosition": 3,
+      "searchTrafficSignals": [
+        "86",
+        "76"
+      ],
+      "backlinksSignals": [
+        "0",
+        "153"
+      ],
+      "sources": [
+        {
+          "sourceType": "serp-leader",
+          "sourceScope": "sproochentest",
+          "source": "tools/semrush-capture__lu__sproochentest__keyword-overview__2026-04-19T22-33-44-068Z.json"
+        },
+        {
+          "sourceType": "serp-leader",
+          "sourceScope": "sproochentest",
+          "source": "tools/semrush-capture__lu__sproochentest__keyword-overview__2026-04-19T22-33-44-068Z.json"
+        }
+      ]
+    },
+    {
+      "domain": "ing.lu",
+      "commonKeywords": null,
+      "seoKeywords": null,
+      "bestObservedPosition": 5,
+      "searchTrafficSignals": [
+        "51"
+      ],
+      "backlinksSignals": [
+        "1"
+      ],
+      "sources": [
+        {
+          "sourceType": "serp-leader",
+          "sourceScope": "sproochentest",
+          "source": "tools/semrush-capture__lu__sproochentest__keyword-overview__2026-04-19T22-33-44-068Z.json"
+        }
+      ]
+    },
+    {
+      "domain": "courses.luxembourgishwithanne.lu",
+      "commonKeywords": null,
+      "seoKeywords": null,
+      "bestObservedPosition": 10,
+      "searchTrafficSignals": [
+        "26"
+      ],
+      "backlinksSignals": [
+        "4"
+      ],
+      "sources": [
+        {
+          "sourceType": "serp-leader",
+          "sourceScope": "sproochentest",
+          "source": "tools/semrush-capture__lu__sproochentest__keyword-overview__2026-04-19T22-33-44-068Z.json"
+        }
+      ]
+    }
+  ],
+  "topPages": [
+    {
+      "url": "educateme.lu/intensive-luxembourgish",
+      "keywordFamilies": [
+        "luxembourgish online course"
+      ],
+      "bestPosition": 5,
+      "intentMix": [
+        "I"
+      ],
+      "trafficSignals": [
+        "4"
+      ],
+      "sources": [
+        {
+          "sourceScope": "educateme.lu",
+          "source": "tools/semrush-capture__lu__educatemelu__organic-positions__2026-04-19T22-32-56-704Z.json"
+        }
+      ]
+    },
+    {
+      "url": "educateme.lu/learning-luxembourgish-short",
+      "keywordFamilies": [
+        "learn luxembourgish online",
+        "learn luxembourgish"
+      ],
+      "bestPosition": 7,
+      "intentMix": [
+        "C",
+        "I"
+      ],
+      "trafficSignals": [
+        "14",
+        "1"
+      ],
+      "sources": [
+        {
+          "sourceScope": "educateme.lu",
+          "source": "tools/semrush-capture__lu__educatemelu__organic-positions__2026-04-19T22-32-56-704Z.json"
+        },
+        {
+          "sourceScope": "educateme.lu",
+          "source": "tools/semrush-capture__lu__educatemelu__organic-positions__2026-04-19T22-32-56-704Z.json"
+        }
+      ]
+    },
+    {
+      "url": "educateme.lu/tpost/7skm5rc9f1-booking-your-appointment-for-the-sprooch",
+      "keywordFamilies": [
+        "sproochentest luxembourg",
+        "inl sproochentest"
+      ],
+      "bestPosition": 7,
+      "intentMix": [
+        "I",
+        "N"
+      ],
+      "trafficSignals": [
+        "4",
+        "1"
+      ],
+      "sources": [
+        {
+          "sourceScope": "educateme.lu",
+          "source": "tools/semrush-capture__lu__educatemelu__organic-positions__2026-04-19T22-32-56-704Z.json"
+        },
+        {
+          "sourceScope": "educateme.lu",
+          "source": "tools/semrush-capture__lu__educatemelu__organic-positions__2026-04-19T22-32-56-704Z.json"
+        }
+      ]
+    },
+    {
+      "url": "educateme.lu/tpost/7x4vcrtf51-surviving-the-sproochentest-essential-gu",
+      "keywordFamilies": [
+        "sproochentest"
+      ],
+      "bestPosition": 8,
+      "intentMix": [
+        "I"
+      ],
+      "trafficSignals": [
+        "26"
+      ],
+      "sources": [
+        {
+          "sourceScope": "educateme.lu",
+          "source": "tools/semrush-capture__lu__educatemelu__organic-positions__2026-04-19T22-32-56-704Z.json"
+        }
+      ]
+    },
+    {
+      "url": "educateme.lu/tpost/g1z53b3p81-30-basic-luxembourgish-words-you-need-to",
+      "keywordFamilies": [
+        "luxembourg language"
+      ],
+      "bestPosition": 11,
+      "intentMix": [
+        "I"
+      ],
+      "trafficSignals": [
+        "1"
+      ],
+      "sources": [
+        {
+          "sourceScope": "educateme.lu",
+          "source": "tools/semrush-capture__lu__educatemelu__organic-positions__2026-04-19T22-32-56-704Z.json"
+        }
+      ]
+    }
+  ]
+}

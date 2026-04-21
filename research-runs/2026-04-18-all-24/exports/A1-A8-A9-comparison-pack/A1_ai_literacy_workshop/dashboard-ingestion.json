@@ -1,0 +1,192 @@
+{
+  "schema_version": "dashboard_ingestion_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A1",
+  "product_title": "AI Literacy Workshop",
+  "reviewed_at": "2026-04-18T13:45:00Z",
+  "release_status": "review",
+  "safe_fields": {
+    "jurisdiction_scope": {
+      "value": [
+        "Luxembourg",
+        "EU"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_001",
+        "claim_002",
+        "claim_003",
+        "claim_004",
+        "claim_005",
+        "claim_006",
+        "claim_007",
+        "claim_008",
+        "claim_009"
+      ],
+      "source_refs": [
+        "eu_ai_literacy_policy",
+        "eu_ai_literacy_qa",
+        "guichet_cvt",
+        "fit4ai",
+        "eurostat_ai_2023",
+        "houseoftraining_ai_fundamentals",
+        "houseoftraining_ai_act_course",
+        "houseoftraining_ai_risk"
+      ],
+      "last_verified_at": "2026-04-18T13:45:00Z"
+    },
+    "regulatory_context": {
+      "value": "Article 4 already applies to providers and deployers from 2 February 2025, and supervision/enforcement starts in August 2026.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_001",
+        "claim_002"
+      ],
+      "source_refs": [
+        "eu_ai_literacy_policy",
+        "eu_ai_literacy_qa"
+      ],
+      "last_verified_at": "2026-04-18T13:45:00Z"
+    },
+    "training_support_route": {
+      "value": "Luxembourg company-training co-funding exists, and Fit 4 AI publicly covers the assessment/roadmap phase at 50% consultancy cost coverage; neither source proves this exact workshop is eligible.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_003",
+        "claim_004",
+        "claim_005"
+      ],
+      "source_refs": [
+        "guichet_cvt",
+        "fit4ai"
+      ],
+      "last_verified_at": "2026-04-18T13:45:00Z"
+    },
+    "market_adoption_stat": {
+      "value": "Luxembourg recorded 14.4% enterprise AI use in 2023.",
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_006"
+      ],
+      "source_refs": [
+        "eurostat_ai_2023"
+      ],
+      "last_verified_at": "2026-04-18T13:45:00Z"
+    },
+    "verified_competitors": {
+      "value": [
+        "House of Training"
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "claim_007",
+        "claim_008",
+        "claim_009"
+      ],
+      "source_refs": [
+        "houseoftraining_ai_fundamentals",
+        "houseoftraining_ai_act_course",
+        "houseoftraining_ai_risk"
+      ],
+      "last_verified_at": "2026-04-18T13:45:00Z"
+    }
+  },
+  "analyst_only_fields": {
+    "target_audience_summary": {
+      "value": "Luxembourg employers deploying or allowing AI tools, especially HR/L&D and compliance-adjacent stakeholders.",
+      "confidence_band": "medium",
+      "omission_reason": "Useful synthesis from verified context, but still partly inferential for the exact offer."
+    },
+    "commercial_pricing_context": {
+      "value": "Visible Luxembourg competitor prices for short AI courses cluster around 175-180 EUR.",
+      "confidence_band": "low",
+      "omission_reason": "Useful context only; it does not establish a safe price or revenue model for A1."
+    },
+    "market_evidence_summary": {
+      "value": {
+        "scope_class": "local",
+        "scope_fit": "fit",
+        "evidence_database": "LU",
+        "lane_group": "ai_training",
+        "market_track": "local",
+        "semrush_priority": "medium",
+        "provisional_market_score_v1": 1.51,
+        "validation_velocity_composite": 1.5,
+        "demand_pull_composite": 2.3,
+        "confidence_band": "low"
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "semrush_anchor_evidence": {
+      "value": {
+        "anchor_focus": [
+          "ai training luxembourg",
+          "ai literacy training",
+          "ai act training"
+        ],
+        "anchor_capture_count": 3,
+        "anchor_capture_coverage": 1,
+        "anchor_query_volume_sum": 130,
+        "anchor_max_volume": 110,
+        "anchor_global_volume_sum": 580,
+        "local_lane_keyword_count": 0,
+        "local_lane_p1_count": 0,
+        "watch_domains": []
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "market_research_next_step": {
+      "value": "refine WTP/CAC with keyword overview and price checks",
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "top_follow_up_keywords": {
+      "value": [],
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "top_market_questions": {
+      "value": [],
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "cross_border_luxembourg_intent_summary": {
+      "value": {
+        "total_keywords": 0,
+        "sample_keywords": [],
+        "top_volume_keyword": null
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    }
+  },
+  "blocked_fields": {
+    "product_certificate_significance": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "No public authority or buyer-side source was found proving external compliance significance for the workshop certificate."
+    },
+    "audit_documentation_sufficiency": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "No regulator or programme source confirms that the workshop documentation is sufficient for compliance or audit use."
+    },
+    "product_specific_ai_package_eligibility": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "Public support routes exist, but the exact workshop-level eligibility claim was not proven."
+    },
+    "exclusive_market_gap_claim": {
+      "value": null,
+      "confidence_band": "blocked",
+      "omission_reason": "The exclusivity story was contradicted by public Luxembourg competitor pages."
+    }
+  },
+  "verification_summary": {
+    "verified_claim_count": 9,
+    "contradicted_claim_count": 2,
+    "blocked_question_count": 4
+  }
+}

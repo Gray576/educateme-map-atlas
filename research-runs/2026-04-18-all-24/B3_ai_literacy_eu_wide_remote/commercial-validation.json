@@ -35,7 +35,7 @@
     "macro_trajectory_score_1_5": null,
     "channel_fit_score_1_5": null,
     "confidence_band": "low",
-    "derivation_basis": "Only offer structure and currently sourced competitor/numeric claims are available. SEMrush, paid search, and traffic observables are intentionally missing.",
+    "derivation_basis": "Only offer structure and currently sourced competitor/numeric claims are available. SEMrush, paid search, and traffic observables are intentionally missing. Added latest SEMrush scorecard sync.",
     "evidence_refs": {
       "source_ids": [
         "houseoftraining_ai_fundamentals",
@@ -49,7 +49,7 @@
         "ext_005"
       ]
     },
-    "notes": "Retention structure is filled from the product format. Demand, WTP, CAC, macro, and channel-fit remain unfilled until SEMrush and distribution evidence are collected."
+    "notes": "Retention structure is filled from the product format. Demand, WTP, CAC, macro, and channel-fit remain unfilled until SEMrush and distribution evidence are collected. Latest SEMrush scorecard sync: scope missing (missing). No anchor query volume is captured yet. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 2430, max anchor volume 1900, capture count 3. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 2430, max anchor volume 1900, capture count 3. Top follow-up terms: ki schulungen, ki schulung pflicht, ki schulung kostenlos, was passiert wenn mein unternehmen keine ki-schulung durchführt, welche formate sind am effektivsten für ki-schulungen. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 2430, max anchor volume 1900, capture count 3. Lane keyword count 27 with 8 P1 terms. Top follow-up terms: ki schulungen, ki schulung pflicht, ki schulung kostenlos, was passiert wenn mein unternehmen keine ki-schulung durchführt, welche formate sind am effektivsten für ki-schulungen. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 2430, max anchor volume 1900, capture count 3. Lane keyword count 27 with 8 P1 terms. Top follow-up terms: ki schulung pflicht, ki schulung kostenlos, was passiert wenn mein unternehmen keine ki-schulung durchführt, welche spezifischen schulungen sind für die ki-kompetenz erforderlich, wer ist zur ki-schulung verpflichtet."
   },
   "regulatory_context": {
     "regulatory_friction_inverse_score_1_5": 2,
@@ -68,7 +68,7 @@
   },
   "semrush_snapshot": {
     "market": "EU",
-    "database": "",
+    "database": "DE",
     "language": "",
     "keyword_buckets": {
       "head_terms": [
@@ -93,14 +93,14 @@
       ]
     },
     "metrics": {
-      "keyword_count_total": null,
+      "keyword_count_total": 27,
       "keyword_count_commercial": null,
-      "volume_sum": null,
+      "volume_sum": 2430,
       "volume_sum_commercial": null,
       "avg_cpc": null,
       "max_cpc": null,
       "avg_competitive_density": null,
-      "high_intent_keyword_count": null,
+      "high_intent_keyword_count": 8,
       "paid_competitor_count": null
     },
     "top_paid_competitors": [],
@@ -118,8 +118,87 @@
   },
   "collapsed_scores": {
     "validation_velocity_composite": 1.5,
-    "demand_pull_composite": null,
+    "demand_pull_composite": 3.5,
     "overall_confidence_band": "low",
-    "confidence_reason": "Validation velocity is partially populated, but founder-independence, demand observables, and SEMrush-backed pull metrics are still missing."
+    "confidence_reason": "Market evidence scope is local with scope fit fit. 3 anchor captures contribute to this scorecard sync. Primary evidence database: DE."
+  },
+  "market_evidence_scope_class": "local",
+  "market_evidence": {
+    "confidence_band": "low",
+    "derivation_basis": "Synced from the latest SEMrush-derived product market scorecard, which combines normalized keyword captures, product-market mapping, and scoped local/cross-border/reference evidence rules.",
+    "evidence_refs": {
+      "source_ids": [],
+      "claim_ids": []
+    },
+    "market_track": "germany_local",
+    "scope_class": "local",
+    "scope_fit": "fit",
+    "evidence_database": "DE",
+    "lane_group": "ai_training",
+    "semrush_priority": "medium",
+    "provisional_market_score_v1": 2.03,
+    "anchor_focus": [
+      "ki schulung",
+      "ai act schulung",
+      "ki kompetenz schulung"
+    ],
+    "anchor_focus_count": 3,
+    "anchor_capture_count": 3,
+    "anchor_capture_coverage": 1,
+    "anchor_query_volume_sum": 2430,
+    "anchor_max_volume": 1900,
+    "anchor_global_volume_sum": 3240,
+    "local_lane_keyword_count": 27,
+    "local_lane_p1_count": 8,
+    "local_lane_watch_domains": [
+      "fraunhofer.de",
+      "ihk.de",
+      "haufe-akademie.de",
+      "ki-campus.org",
+      "tuvsud.com"
+    ],
+    "top_follow_up_keywords": [
+      {
+        "keyword": "ki schulung pflicht",
+        "follow_up_tier": "P1",
+        "category": "variation",
+        "max_volume_lu": 390,
+        "source_count": 1
+      },
+      {
+        "keyword": "ki schulung kostenlos",
+        "follow_up_tier": "P1",
+        "category": "variation",
+        "max_volume_lu": 210,
+        "source_count": 1
+      },
+      {
+        "keyword": "was passiert wenn mein unternehmen keine ki-schulung durchführt",
+        "follow_up_tier": "P2",
+        "category": "variation",
+        "max_volume_lu": 0,
+        "source_count": 1
+      },
+      {
+        "keyword": "welche spezifischen schulungen sind für die ki-kompetenz erforderlich",
+        "follow_up_tier": "P2",
+        "category": "variation",
+        "max_volume_lu": 0,
+        "source_count": 2
+      },
+      {
+        "keyword": "wer ist zur ki-schulung verpflichtet",
+        "follow_up_tier": "P2",
+        "category": "variation",
+        "max_volume_lu": 0,
+        "source_count": 1
+      }
+    ],
+    "top_questions": [],
+    "cross_border_luxembourg_intent_keywords": [],
+    "reference_analog_domains": [],
+    "next_research_step": "refine WTP/CAC with keyword overview and price checks",
+    "synced_from_scorecard_at": "2026-04-21T10:13:00.394Z",
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: DE. Captured 3/3 anchor families with total local query volume 2430 and max anchor volume 1900. Lane rollup contains 27 deduplicated keywords, including 8 P1 terms. Current watchlist domains: fraunhofer.de, ihk.de, haufe-akademie.de, ki-campus.org, tuvsud.com. Top follow-up keywords: ki schulung pflicht (P1, vol 390), ki schulung kostenlos (P1, vol 210), was passiert wenn mein unternehmen keine ki-schulung durchführt (P2, vol 0), welche spezifischen schulungen sind für die ki-kompetenz erforderlich (P2, vol 0), wer ist zur ki-schulung verpflichtet (P2, vol 0). Next step: refine WTP/CAC with keyword overview and price checks."
   }
 }

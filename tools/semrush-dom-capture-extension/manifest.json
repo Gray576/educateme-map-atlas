@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "SEMrush DOM Capture",
+  "version": "0.2.6",
+  "description": "Capture SEMrush page metadata, rendered DOM slices, visible tables, and intercepted network payloads into JSON.",
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://www.semrush.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "SEMrush DOM Capture",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.semrush.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "page-bridge.js"
+      ],
+      "matches": [
+        "https://www.semrush.com/*"
+      ]
+    }
+  ]
+}

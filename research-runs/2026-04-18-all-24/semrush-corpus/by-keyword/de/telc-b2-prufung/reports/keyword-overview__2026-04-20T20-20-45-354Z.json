@@ -1,0 +1,391 @@
+{
+  "meta": {
+    "capturedAt": "2026-04-20T20:20:45.354Z",
+    "reportType": "keyword-overview",
+    "database": "de",
+    "query": "telc b2 prüfung",
+    "title": "telc b2 prüfung: Overview, Keyword Overview",
+    "url": "https://www.semrush.com/analytics/keywordoverview/?db=de&q=telc+b2+pr%C3%BCfung",
+    "pathname": "/analytics/keywordoverview/",
+    "searchType": null,
+    "sourcePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__de__telc-b2-prufung__keyword-overview__2026-04-20T20-20-45-359Z.json",
+    "scopeType": "keyword",
+    "scopeSlug": "telc-b2-prufung"
+  },
+  "summary": {
+    "pageIdentity": "telc b2 prüfung: Overview, Keyword Overview",
+    "queryOrDomain": "telc b2 prüfung",
+    "topMetrics": {
+      "volume": "5.4K",
+      "keywordDifficulty": "30%",
+      "globalVolume": "7.2K",
+      "intent": "Informational",
+      "cpc": "$0.68",
+      "competitiveDensity": "0.53"
+    },
+    "tableCount": 3,
+    "networkCount": 0
+  },
+  "structured": {
+    "keywordSummary": {
+      "volume": "5.4K",
+      "keywordDifficulty": null,
+      "globalVolume": "7.2K",
+      "intent": null,
+      "cpc": null,
+      "competitiveDensity": null,
+      "results": "4.6M"
+    },
+    "keywordVariations": [
+      {
+        "keyword": "telc b2 prüfung",
+        "rowText": "telc b2 prüfung | 5.4K | 30",
+        "volume": "5.4K"
+      },
+      {
+        "keyword": "prüfung b2 telc",
+        "rowText": "prüfung b2 telc | 2.4K | n/a",
+        "volume": "2.4K"
+      },
+      {
+        "keyword": "b2 telc prüfung",
+        "rowText": "b2 telc prüfung | 1.9K | 13",
+        "volume": "1.9K"
+      },
+      {
+        "keyword": "b2 prüfung telc",
+        "rowText": "b2 prüfung telc | 1.6K | 26",
+        "volume": "1.6K"
+      },
+      {
+        "keyword": "telc b2 prüfung modelltest",
+        "rowText": "telc b2 prüfung modelltest | 1.6K | 27",
+        "volume": "1.6K"
+      },
+      {
+        "keyword": "wie viel kostet b2 prüfung telc",
+        "rowText": "wie viel kostet b2 prüfung telc | 30 | n/a",
+        "volume": "30"
+      },
+      {
+        "keyword": "was kostet b2 prüfung telc",
+        "rowText": "was kostet b2 prüfung telc | 20 | n/a",
+        "volume": "20"
+      },
+      {
+        "keyword": "wie kann ich b2 telc prüfung bestehen",
+        "rowText": "wie kann ich b2 telc prüfung bestehen | 20 | n/a",
+        "volume": "20"
+      },
+      {
+        "keyword": "wie lange dauert telc b2 prüfung",
+        "rowText": "wie lange dauert telc b2 prüfung | 20 | n/a",
+        "volume": "20"
+      },
+      {
+        "keyword": "wie lange dauert telc b2 prüfung ergebnisse",
+        "rowText": "wie lange dauert telc b2 prüfung ergebnisse | 20 | n/a",
+        "volume": "20"
+      }
+    ],
+    "questions": [
+      {
+        "keyword": "wie viel kostet b2 prüfung telc",
+        "rowText": "wie viel kostet b2 prüfung telc | 30 | n/a",
+        "volume": "30"
+      },
+      {
+        "keyword": "was kostet b2 prüfung telc",
+        "rowText": "was kostet b2 prüfung telc | 20 | n/a",
+        "volume": "20"
+      },
+      {
+        "keyword": "wie kann ich b2 telc prüfung bestehen",
+        "rowText": "wie kann ich b2 telc prüfung bestehen | 20 | n/a",
+        "volume": "20"
+      },
+      {
+        "keyword": "wie lange dauert telc b2 prüfung",
+        "rowText": "wie lange dauert telc b2 prüfung | 20 | n/a",
+        "volume": "20"
+      },
+      {
+        "keyword": "wie lange dauert telc b2 prüfung ergebnisse",
+        "rowText": "wie lange dauert telc b2 prüfung ergebnisse | 20 | n/a",
+        "volume": "20"
+      }
+    ],
+    "serpLeaders": [
+      {
+        "position": "1",
+        "url": "https://www.telc.net/sprachpruefungen/zertifikatspruefung/deutsch/telc-deutsch-b2/",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.telc.net%2Fsprachpruefungen%2Fzertifikatspruefung%2Fdeutsch%2Ftelc-deutsch-b2%2F&db=de&searchType=url",
+        "domain": "telc.net",
+        "pageAuthority": "53",
+        "refDomains": "93",
+        "backlinks": "749",
+        "searchTraffic": "23.4K",
+        "urlKeywords": "1.3K"
+      },
+      {
+        "position": "2",
+        "url": "https://www.sprachzertifikate-duesseldorf.de/_downloads/certificates/telc/pdf/telc-deutsch-b2-uebungstest.pdf",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.sprachzertifikate-duesseldorf.de%2F_downloads%2Fcertificates%2Ftelc%2Fpdf%2Ftelc-deutsch-b2-uebungstest.pdf&db=de&searchType=url",
+        "domain": "sprachzertifikate-duesseldorf.de",
+        "pageAuthority": "30",
+        "refDomains": "6",
+        "backlinks": "111",
+        "searchTraffic": "5.1K",
+        "urlKeywords": "4.0K"
+      },
+      {
+        "position": "3",
+        "url": "https://www.telc.net/sprachpruefungen/zertifikatspruefung/",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.telc.net%2Fsprachpruefungen%2Fzertifikatspruefung%2F&db=de&searchType=url",
+        "domain": "telc.net",
+        "pageAuthority": "59",
+        "refDomains": "60",
+        "backlinks": "997",
+        "searchTraffic": "1.8K",
+        "urlKeywords": "1.5K"
+      },
+      {
+        "position": "4",
+        "url": "https://www.youtube.com/watch?v=D2epCDXIZ2g",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DD2epCDXIZ2g&db=de&searchType=url",
+        "domain": "youtube.com",
+        "pageAuthority": "42",
+        "refDomains": "14",
+        "backlinks": "34",
+        "searchTraffic": "247",
+        "urlKeywords": "90"
+      },
+      {
+        "position": "5",
+        "url": "https://www.speakeasy-munich.de/telc-pruefung-b2",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.speakeasy-munich.de%2Ftelc-pruefung-b2&db=de&searchType=url",
+        "domain": "speakeasy-munich.de",
+        "pageAuthority": "0",
+        "refDomains": "0",
+        "backlinks": "0",
+        "searchTraffic": "211",
+        "urlKeywords": "41"
+      },
+      {
+        "position": "6",
+        "url": "https://www.telc.net/fileadmin/user_upload/pdfs/Handbuch_und_Tipps_fuer_Pruefungsvorbereitung/Deutsch_B2_tipps_zur_Pruefungsvorbereitung.pdf",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.telc.net%2Ffileadmin%2Fuser_upload%2Fpdfs%2FHandbuch_und_Tipps_fuer_Pruefungsvorbereitung%2FDeutsch_B2_tipps_zur_Pruefungsvorbereitung.pdf&db=de&searchType=url",
+        "domain": "telc.net",
+        "pageAuthority": "54",
+        "refDomains": "15",
+        "backlinks": "78",
+        "searchTraffic": "939",
+        "urlKeywords": "121"
+      },
+      {
+        "position": "7",
+        "url": "https://idsk.uni-halle.de/pruefungen/pruefung-telc-b2/",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fidsk.uni-halle.de%2Fpruefungen%2Fpruefung-telc-b2%2F&db=de&searchType=url",
+        "domain": "uni-halle.de",
+        "pageAuthority": "0",
+        "refDomains": "0",
+        "backlinks": "0",
+        "searchTraffic": "16",
+        "urlKeywords": "32"
+      },
+      {
+        "position": "8",
+        "url": "https://canspeak.de/wp-content/uploads/2018/02/Modelltest-TELC-Deutsch-B2.pdf",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fcanspeak.de%2Fwp-content%2Fuploads%2F2018%2F02%2FModelltest-TELC-Deutsch-B2.pdf&db=de&searchType=url",
+        "domain": "canspeak.de",
+        "pageAuthority": "0",
+        "refDomains": "3",
+        "backlinks": "33",
+        "searchTraffic": "1.3K",
+        "urlKeywords": "285"
+      },
+      {
+        "position": "9",
+        "url": "https://fokussprachen.com/pruefung-buchen/telc-deutsch-b2/muenchen/",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Ffokussprachen.com%2Fpruefung-buchen%2Ftelc-deutsch-b2%2Fmuenchen%2F&db=de&searchType=url",
+        "domain": "fokussprachen.com",
+        "pageAuthority": "0",
+        "refDomains": "0",
+        "backlinks": "0",
+        "searchTraffic": "299",
+        "urlKeywords": "98"
+      },
+      {
+        "position": "10",
+        "url": "https://vhs.duesseldorf.de/programm/deutsch-und-integration/4-deutsch-fuer-selbstzahlende-a1-bis-c2-self-payers-only/deutsch-fuer-selbstzahlende-a1-und-a2-self-payers-only/pruefungen-a1-c1-/-exams-a1-c1/telc-deutsch-b2",
+        "analyticsUrl": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fvhs.duesseldorf.de%2Fprogramm%2Fdeutsch-und-integration%2F4-deutsch-fuer-selbstzahlende-a1-bis-c2-self-payers-only%2Fdeutsch-fuer-selbstzahlende-a1-und-a2-self-payers-only%2Fpruefungen-a1-c1-%2F-exams-a1-c1%2Ftelc-deutsch-b2&db=de&searchType=url",
+        "domain": "duesseldorf.de",
+        "pageAuthority": "0",
+        "refDomains": "0",
+        "backlinks": "0",
+        "searchTraffic": "38",
+        "urlKeywords": "41"
+      }
+    ],
+    "diagnostics": {
+      "foundKeywordIdeas": true,
+      "foundQuestions": true,
+      "foundSerpAnalysis": true
+    }
+  },
+  "segments": [
+    {
+      "name": "top",
+      "scrollY": 0,
+      "visibleHeadingCount": 4,
+      "visibleTableCount": 0,
+      "visibleLinkCount": 8,
+      "visibleTextLength": 726
+    },
+    {
+      "name": "metrics",
+      "scrollY": 226,
+      "visibleHeadingCount": 4,
+      "visibleTableCount": 2,
+      "visibleLinkCount": 5,
+      "visibleTextLength": 770
+    },
+    {
+      "name": "table",
+      "scrollY": 896,
+      "visibleHeadingCount": 7,
+      "visibleTableCount": 3,
+      "visibleLinkCount": 24,
+      "visibleTextLength": 973
+    }
+  ],
+  "entities": {
+    "domains": [
+      "telc.net",
+      "youtube.com",
+      "fokussprachen.com"
+    ],
+    "urls": [
+      "https://www.semrush.com/home/",
+      "https://www.semrush.com/seo/",
+      "https://www.semrush.com/ai-seo/overview/",
+      "https://www.semrush.com/analytics/traffic/",
+      "https://www.semrush.com/local-business/",
+      "https://www.semrush.com/content/",
+      "https://www.semrush.com/social-media/",
+      "https://www.semrush.com/advertising/",
+      "https://www.semrush.com/pr-toolkit/",
+      "https://www.semrush.com/home",
+      "https://www.semrush.com/seo",
+      "https://www.semrush.com/academy/courses/keyword-research-with-semrush-step-by-step-guide/",
+      "http://www.w3.org/2000/svg",
+      "https://www.semrush.com/analytics/keywordoverview/?db=de&amp;q=telc%20b2%20pr%C3%BCfung#ads-wrapper",
+      "https://www.semrush.com/analytics/keywordmagic?q=telc%20b2%20pr%C3%BCfung&amp;db=de",
+      "https://www.semrush.com/analytics/keywordoverview?q=telc%20b2%20pr%C3%BCfung&amp;db=de&amp;date=202604&amp;device=0",
+      "https://www.semrush.com/analytics/keywordoverview?q=pr%C3%BCfung%20b2%20telc&amp;db=de&amp;date=202604&amp;device=0",
+      "https://www.semrush.com/analytics/keywordoverview?q=b2%20telc%20pr%C3%BCfung&amp;db=de&amp;date=202604&amp;device=0",
+      "https://www.semrush.com/analytics/keywordoverview?q=b2%20pr%C3%BCfung%20telc&amp;db=de&amp;date=202604&amp;device=0",
+      "https://www.semrush.com/analytics/keywordoverview?q=telc%20b2%20pr%C3%BCfung%20modelltest&amp;db=de&amp;date=202604&amp;device=0",
+      "https://www.semrush.com/analytics/keywordmagic?q=telc%20b2%20pr%C3%BCfung&amp;db=de&amp;questions=true",
+      "https://www.semrush.com/analytics/keywordoverview?q=wie%20viel%20kostet%20b2%20pr%C3%BCfung%20telc&amp;db=de&amp;date=202604&amp;device=0",
+      "https://www.semrush.com/analytics/keywordoverview?q=was%20kostet%20b2%20pr%C3%BCfung%20telc&amp;db=de&amp;date=202604&amp;device=0",
+      "https://www.semrush.com/analytics/keywordoverview?q=wie%20kann%20ich%20b2%20telc%20pr%C3%BCfung%20bestehen&amp;db=de&amp;date=202604&amp;device=0",
+      "https://www.semrush.com/analytics/keywordoverview?q=wie%20lange%20dauert%20telc%20b2%20pr%C3%BCfung&amp;db=de&amp;date=202604&amp;device=0",
+      "https://www.semrush.com/analytics/keywordoverview?q=wie%20lange%20dauert%20telc%20b2%20pr%C3%BCfung%20ergebnisse&amp;db=de&amp;date=202604&amp;device=0",
+      "https://www.telc.net/sprachpruefungen/zertifikatspruefung/deutsch/telc-deutsch-b2/",
+      "https://www.sprachzertifikate-duesseldorf.de/_downloads/certificates/telc/pdf/telc-deutsch-b2-uebungstest.pdf",
+      "https://www.semrush.com/analytics/keywordmanager/list/autosetup?seed=telc%20b2%20pr%C3%BCfung&amp;db=de",
+      "https://www.semrush.com/analytics/serp/?phrase=telc%20b2%20pr%C3%BCfung&amp;db=de&amp;date=20260420&amp;serpId=b-e-97-0325-16811937160215414906",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.telc.net%2Fsprachpruefungen%2Fzertifikatspruefung%2Fdeutsch%2Ftelc-deutsch-b2%2F&amp;db=de&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/overview?q=telc.net&amp;db=de&amp;searchType=domain",
+      "https://www.semrush.com/analytics/backlinks/refdomains?q=https%3A%2F%2Fwww.telc.net%2Fsprachpruefungen%2Fzertifikatspruefung%2Fdeutsch%2Ftelc-deutsch-b2%2F&amp;searchType=url",
+      "https://www.semrush.com/analytics/backlinks/backlinks?q=https%3A%2F%2Fwww.telc.net%2Fsprachpruefungen%2Fzertifikatspruefung%2Fdeutsch%2Ftelc-deutsch-b2%2F&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Fwww.telc.net%2Fsprachpruefungen%2Fzertifikatspruefung%2Fdeutsch%2Ftelc-deutsch-b2%2F&amp;db=de&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.sprachzertifikate-duesseldorf.de%2F_downloads%2Fcertificates%2Ftelc%2Fpdf%2Ftelc-deutsch-b2-uebungstest.pdf&amp;db=de&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/overview?q=sprachzertifikate-duesseldorf.de&amp;db=de&amp;searchType=domain",
+      "https://www.semrush.com/analytics/backlinks/refdomains?q=https%3A%2F%2Fwww.sprachzertifikate-duesseldorf.de%2F_downloads%2Fcertificates%2Ftelc%2Fpdf%2Ftelc-deutsch-b2-uebungstest.pdf&amp;searchType=url",
+      "https://www.semrush.com/analytics/backlinks/backlinks?q=https%3A%2F%2Fwww.sprachzertifikate-duesseldorf.de%2F_downloads%2Fcertificates%2Ftelc%2Fpdf%2Ftelc-deutsch-b2-uebungstest.pdf&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Fwww.sprachzertifikate-duesseldorf.de%2F_downloads%2Fcertificates%2Ftelc%2Fpdf%2Ftelc-deutsch-b2-uebungstest.pdf&amp;db=de&",
+      "https://www.semrush.com/analytics/keywordoverview/",
+      "https://static.semrush.com/keyword-overview/images/card-en.png",
+      "https://",
+      "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap",
+      "https://aorta.clickagy.com/pixel.gif?clkgypv=jstag&amp;ws=1",
+      "https://aorta.clickagy.com/channel-sync/4?clkgypv=jstag&amp;ws=1",
+      "https://aorta.clickagy.com/pixel.gif?ch=319&amp;cm=f3831326784d3979a2d11776637629",
+      "https://js.adsrvr.org/up_loader.1.1.0.js",
+      "https://tags.clickagy.com/data.js?rnd=62fe5c0e6ad96",
+      "https://ws-assets.zoominfo.com/formcomplete.js",
+      "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMQ.js",
+      "https://scripts.clarity.ms/0.8.59/clarity.js",
+      "https://getrockerbox.com/customdomain/rp8920cf.semrush.com/wxyz.rb.js",
+      "https://analytics.tiktok.com/i18n/pixel/static/identify_5cff1caf.js",
+      "https://www.clarity.ms/tag/uet/5128787?insights=1",
+      "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=D1N4AQJC77U6G0ESFLB0&amp;lib=ttq",
+      "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C4FPRRVM9G8R5RJ0MPKG&amp;lib=ttq",
+      "https://s.yimg.com/wi/ytc.js",
+      "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+      "https://bat.bing.com/bat.js",
+      "https://tags.srv.stackadapt.com/events.js",
+      "https://sdk.voyantis.io/d8x0anTvV24UqmERWFnln59AQOsoIyNVo9jf2JY0/vy-cs-sdk.min.js",
+      "https://connect.facebook.net/signals/config/239948206198576?v=2.9.303&amp;r=stable&amp;domain=www.semrush.com&amp;hme=97937018cefade17726f0472876fc101316b2ce9008a35a6a5a7977d7436151a&amp;ex_m=104%2C205%2C154%2C22%2C72%2C73%2C145%2C68%2C67%2C11%2C162%2C90%2C16%2C138%2C127%2C39%2C75%2C78%2C134%2C159%2C164%2C8%2C4%2C5%2C7%2C6%2C3%2C91%2C101%2C165%2C170%2C219%2C62%2C186%2C187%2C55%2C276%2C30%2C74%2C231%2C230%2C229%2C23%2C33%2C103%2C61%2C10%2C63%2C97%2C98%2C99%2C105%2C130%2C31%2C29%2C132%2C133%2C129%2C128%2C155%2C76%2C158%2C156%2C157%2C50%2C60%2C123%2C15%2C161%2C45%2C263%2C264%2C262%2C26%2C27%2C28%2C48%2C146%2C77%2C112%2C18%2C20%2C44%2C40%2C42%2C41%2C83%2C92%2C96%2C110%2C144%2C147%2C46%2C111%2C24%2C21%2C119%2C69%2C36%2C149%2C148%2C150%2C141%2C139%2C25%2C35%2C59%2C109%2C160%2C70%2C17%2C152%2C114%2C81%2C66%2C19%2C85%2C86%2C116%2C84%2C136%2C135%2C34%2C278%2C293%2C212%2C201%2C202%2C200%2C296%2C288%2C52%2C213%2C107%2C131%2C80%2C121%2C54%2C47%2C49%2C113%2C120%2C126%2C58%2C64%2C151%2C115%2C37%2C32%2C53%2C56%2C100%2C163%2C1%2C124%2C14%2C122%2C12%2C2%2C57%2C93%2C65%2C118%2C89%2C88%2C166%2C167%2C94%2C95%2C9%2C125%2C102%2C51%2C142%2C87%2C79%2C71%2C117%2C106%2C43%2C143%2C0%2C82%2C137%2C140%2C153%2C38%2C108%2C13%2C168",
+      "https://connect.facebook.net/en_US/fbevents.js",
+      "https://www.google-analytics.com/analytics.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-951049332&amp;cx=c&amp;gtm=4e64g0",
+      "https://www.googletagmanager.com/gtag/js?id=DC-6266241&amp;cx=c&amp;gtm=4e64g0",
+      "https://www.googletagmanager.com/gtag/js?id=G-BPNLXP3JQG&amp;cx=c&amp;gtm=4e64g0",
+      "https://www.googletagmanager.com/gtag/js?id=G-HYWKMHR981&amp;cx=c&amp;gtm=4e64g0",
+      "https://cdn.cookiehub.eu/c2/06c77e2e.js",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-5K82J2",
+      "https://widget.intercom.io/widget/cs07vi2k",
+      "https://static.semrush.com/remote-integrations",
+      "https://3d1e0e6b0f934f46bb8915f9c81ee308@www.semrush.com/_sentry/195",
+      "https://static.semrush.com/ajst/ajst.js",
+      "https://cdn.speedcurve.com/js/lux.js?id=421753531",
+      "https://widget.intercom.io",
+      "https://www.semrush.com/analytics/keywordoverview/?db=de&amp;q=telc%20b2%20pr%C3%BCfung",
+      "https://de.semrush.com/analytics/keywordoverview/?db=de&amp;q=telc%20b2%20pr%C3%BCfung",
+      "https://es.semrush.com/analytics/keywordoverview/?db=de&amp;q=telc%20b2%20pr%C3%BCfung",
+      "https://fr.semrush.com/analytics/keywordoverview/?db=de&amp;q=telc%20b2%20pr%C3%BCfung",
+      "https://it.semrush.com/analytics/keywordoverview/?db=de&amp;q=telc%20b2%20pr%C3%BCfung",
+      "https://nl.semrush.com/analytics/keywordoverview/?db=de&amp;q=telc%20b2%20pr%C3%BCfung",
+      "https://pl.semrush.com/analytics/keywordoverview/?db=de&amp;q=telc%20b2%20pr%C3%BCfung",
+      "https://pt.semrush.com/analytics/keywordoverview/?db=de&amp;q=telc%20b2%20pr%C3%BCfung",
+      "https://sv.semrush.com/analytics/keywordoverview/?db=de&amp;q=telc%20b2%20pr%C3%BCfung",
+      "https://vi.semrush.com/analytics/keywordoverview/?db=de&amp;q=telc%20b2%20pr%C3%BCfung",
+      "https://tr.semrush.com/analytics/keywordoverview/?db=de&amp;q=telc%20b2%20pr%C3%BCfung",
+      "https://zh.semrush.com/analytics/keywordoverview/?db=de&amp;q=telc%20b2%20pr%C3%BCfung",
+      "https://ja.semrush.com/analytics/keywordoverview/?db=de&amp;q=telc%20b2%20pr%C3%BCfung",
+      "https://ko.semrush.com/analytics/keywordoverview/?db=de&amp;q=telc%20b2%20pr%C3%BCfung",
+      "https://static.semrush.com/semrush-navigation/static/5e4e44dc/734ab4d0.sidebar.css",
+      "https://static.semrush.com/semrush-navigation/static/5e4e44dc/9a42093a.header.css",
+      "https://static.semrush.com/keyword-overview/overview_vendor-49d0a293.style.6370d145221bf33a736c.css",
+      "https://static.semrush.com/keyword-overview/overview_860.style.0d90ecdac438fcb93e0a.css",
+      "http://www.w3.org/2000/svg%27%3E%3Cpath",
+      "https://cookiehub.net/c2/css/06c77e2e.css",
+      "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/951049332/?random=1776716426864&amp;cv=11&amp;fst=1776716426864&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45be64g0v9166960028z872084770za20gzb72084770zd72084770xec&amp;gcd=13v3v3v3v5l1&amp;dma=0&amp;tag_exp=0~115938466~115938469~117266400~117884344&amp;u_w=1280&amp;u_h=800&amp;url=https%3A%2F%2Fwww.semrush.com%2Fanalytics%2Fkeywordoverview%2F%3Fdb%3Dde%26q%3Dtelc%2520b2%2520pr%25C3%25BCfung&amp;rcb=18&amp;frm=0&amp;tiba=Free%20Keyword%20Checker%3A%20Check%20Keyword%20Difficulty%20%26%20Competition&amp;ga_uid=G-HYWKMHR981.29279824&amp;did=dMzY0Yz&amp;gdid=dMzY0Yz&amp;hn=www.googleadservices.com&amp;npa=0&amp;us_privacy=1yn-&amp;pscdl=noapi&amp;auid=2108181174.1776637626&amp;uaa=arm&amp;uab=64&amp;uafvl=Google%2520Chrome%3B147.0.7727.101%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.101&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=15.7.5&amp;uaw=0&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4",
+      "https://tags.srv.stackadapt.com/sa.css",
+      "https://bat.bing.com/p/action/5128787.js",
+      "https://rp8920cf.semrush.com/integrations?source=semrush",
+      "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/951049332/?random=1776716428300&amp;cv=11&amp;fst=1776716428300&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=page_view&amp;gtm=45be64g0v9166960028za20gzb72084770zd72084770xec&amp;gcd=13v3v3v3v5l1&amp;dma=0&amp;tag_exp=0~115938466~115938469~117266400~117884344&amp;u_w=1280&amp;u_h=800&amp;url=https%3A%2F%2Fwww.semrush.com%2Fanalytics%2Fkeywordoverview%2F%3Fdb%3Dde%26q%3Dtelc%2Bb2%2Bpr%25C3%25BCfung&amp;ref=https%3A%2F%2Fwww.semrush.com%2Fanalytics%2Fkeywordoverview%2F%3Fdb%3Dde%26q%3Dtelc%2520b2%2520pr%25C3%25BCfung&amp;rcb=18&amp;frm=0&amp;tiba=telc%20b2%20pr%C3%BCfung%3A%20Overview%2C%20Keyword%20Overview&amp;ga_uid=G-HYWKMHR981.29279824&amp;did=dMzY0Yz&amp;gdid=dMzY0Yz&amp;ae=a&amp;hn=www.googleadservices.com&amp;npa=0&amp;us_privacy=1yn-&amp;pscdl=noapi&amp;auid=2108181174.1776637626&amp;uaa=arm&amp;uab=64&amp;uafvl=Google%2520Chrome%3B147.0.7727.101%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.101&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=15.7.5&amp;uaw=0&amp;data=event%3Dpage_view&amp;rfmt=3&amp;fmt=4",
+      "http://www.w3.org/1999/xlink",
+      "https://ai-visibility-index.semrush.com/?utm_source=semrush&amp;utm_medium=product_header",
+      "https://careers.semrush.com/",
+      "https://static.semrush.com/semrush-navigation/static/5e4e44dc/"
+    ],
+    "keywords": [
+      "telc b2 prüfung",
+      "prüfung b2 telc",
+      "b2 telc prüfung",
+      "b2 prüfung telc",
+      "telc b2 prüfung modelltest",
+      "wie viel kostet b2 prüfung telc",
+      "was kostet b2 prüfung telc",
+      "wie kann ich b2 telc prüfung bestehen",
+      "wie lange dauert telc b2 prüfung",
+      "wie lange dauert telc b2 prüfung ergebnisse",
+      "Video carousel",
+      "Short videos"
+    ]
+  }
+}

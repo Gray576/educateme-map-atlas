@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "startedAt": "2026-04-20T03:27:21.563Z",
+    "database": "lu",
+    "keywordsFile": "/tmp/lu_compliance_ai_anchors.json",
+    "downloadDir": "/Users/sergey/Desktop/educateme-map/tools",
+    "keywordCount": 7,
+    "tabPolicy": "reuse-active-tab",
+    "reports": [
+      "keyword-overview"
+    ],
+    "completedAt": "2026-04-20T03:28:57.405Z"
+  },
+  "entries": [
+    {
+      "keyword": "formation compliance luxembourg",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=lu&q=formation%20compliance%20luxembourg",
+      "triggerStartedAt": "2026-04-20T03:27:27.620Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__formation-compliance-luxembourg__keyword-overview__2026-04-20T03-27-36-749Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "compliance officer formation",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=lu&q=compliance%20officer%20formation",
+      "triggerStartedAt": "2026-04-20T03:27:41.116Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__compliance-officer-formation__keyword-overview__2026-04-20T03-27-50-800Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "mifid training luxembourg",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=lu&q=mifid%20training%20luxembourg",
+      "triggerStartedAt": "2026-04-20T03:27:54.197Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__mifid-training-luxembourg__keyword-overview__2026-04-20T03-28-02-452Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "csrd training",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=lu&q=csrd%20training",
+      "triggerStartedAt": "2026-04-20T03:28:07.105Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__csrd-training__keyword-overview__2026-04-20T03-28-16-792Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "esg training luxembourg",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=lu&q=esg%20training%20luxembourg",
+      "triggerStartedAt": "2026-04-20T03:28:20.246Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__esg-training-luxembourg__keyword-overview__2026-04-20T03-28-30-416Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "ai act training luxembourg",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=lu&q=ai%20act%20training%20luxembourg",
+      "triggerStartedAt": "2026-04-20T03:28:34.446Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__ai-act-training-luxembourg__keyword-overview__2026-04-20T03-28-42-637Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "ai literacy training finance",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=lu&q=ai%20literacy%20training%20finance",
+      "triggerStartedAt": "2026-04-20T03:28:46.763Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__ai-literacy-training-finance__keyword-overview__2026-04-20T03-28-54-944Z.json",
+      "status": "captured"
+    }
+  ]
+}

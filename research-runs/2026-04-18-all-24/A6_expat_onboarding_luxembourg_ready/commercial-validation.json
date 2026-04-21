@@ -27,14 +27,14 @@
     "notes": "validation queue severity 4; citation status ready; regulatory route present"
   },
   "demand_pull": {
-    "demand_evidence_score_1_5": null,
+    "demand_evidence_score_1_5": 2,
     "wtp_score_1_5": null,
-    "cac_reality_score_1_5": null,
+    "cac_reality_score_1_5": 2,
     "retention_structure_score_1_5": 3,
     "macro_trajectory_score_1_5": null,
-    "channel_fit_score_1_5": null,
+    "channel_fit_score_1_5": 2,
     "confidence_band": "low",
-    "derivation_basis": "Only offer structure and currently sourced competitor/numeric claims are available. SEMrush, paid search, and traffic observables are intentionally missing.",
+    "derivation_basis": "The latest screenshots add adult-education and integration-discovery platforms in Luxembourg, but they still show adjacency more than direct expat-onboarding demand. Added latest SEMrush scorecard sync.",
     "evidence_refs": {
       "source_ids": [
         "inll_institute",
@@ -48,7 +48,7 @@
         "ext_005"
       ]
     },
-    "notes": "Retention structure is filled from the product format. Demand, WTP, CAC, macro, and channel-fit remain unfilled until SEMrush and distribution evidence are collected."
+    "notes": "New nodes from the latest pass inside db=LU: infpc.lu, lifelong-learning.lu, moienasbl.lu, and unipop.lu. These suggest a real local integration/discovery lane around evening courses, continuing education, and Luxembourgish onboarding. The offer still needs direct employer demand proof, but the surrounding Luxembourg market is broader and more structured than the earlier pass showed. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 410, max anchor volume 170, capture count 5. Lane keyword count 26 with 3 P1 terms. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 410, max anchor volume 170, capture count 5. Lane keyword count 26 with 3 P1 terms. Top follow-up terms: cours de luxembourgeois, inl sproochentest, cours de luxembourgeois en ligne, formation continue luxembourg, sproochentest luxembourg. Cross-border Luxembourg-intent coverage: 5 matching terms in FR/DE seed pack."
   },
   "regulatory_context": {
     "regulatory_friction_inverse_score_1_5": 2,
@@ -66,41 +66,51 @@
   },
   "semrush_snapshot": {
     "market": "LUX",
-    "database": "",
-    "language": "",
+    "database": "LU",
+    "language": "mixed (EN/FR/DE/LB)",
     "keyword_buckets": {
       "head_terms": [
-        "Expat Onboarding 'Luxembourg Ready'",
-        "Expat Onboarding 'Luxembourg Ready' LUX"
+        "cours du soir luxembourg",
+        "formation continue luxembourg",
+        "learn luxembourgish online",
+        "luxembourgish online course"
       ],
       "commercial_modifiers": [
-        "luxembourg",
-        "b2b"
+        "continuing education luxembourg",
+        "weiterbildung luxemburg",
+        "cours du soir luxembourg",
+        "luxembourg integration language"
       ],
       "problem_intent": [
-        "companies need faster less"
+        "service de la formation des adultes",
+        "formation professionnelle luxembourg",
+        "cours luxembourgeois en ligne",
+        "cours intensifs luxembourgeois"
       ],
       "competitor_route": [
+        "infpc.lu",
+        "lifelong-learning.lu",
+        "moienasbl.lu",
+        "unipop.lu",
         "INLL",
-        "Prolingua",
-        "Citizen's Pact / intercultural living-together modules"
+        "Prolingua"
       ]
     },
     "metrics": {
-      "keyword_count_total": null,
+      "keyword_count_total": 26,
       "keyword_count_commercial": null,
-      "volume_sum": null,
+      "volume_sum": 410,
       "volume_sum_commercial": null,
       "avg_cpc": null,
       "max_cpc": null,
       "avg_competitive_density": null,
-      "high_intent_keyword_count": null,
+      "high_intent_keyword_count": 3,
       "paid_competitor_count": null
     },
     "top_paid_competitors": [],
     "observed_price_points": [],
-    "serp_feature_notes": "",
-    "traffic_analytics_notes": ""
+    "serp_feature_notes": "This category is better read through multilingual discovery and integration keywords than through the product title.",
+    "traffic_analytics_notes": "The strongest new signal is not a direct competitor but a structured local discovery layer in db=LU: INFPC, lifelong-learning.lu, Unipop, and community actors such as Moien ASBL."
   },
   "portfolio_tags": {
     "niche": "Expat Onboarding 'Luxembourg Ready' / subsidy",
@@ -112,8 +122,138 @@
   },
   "collapsed_scores": {
     "validation_velocity_composite": 1.5,
-    "demand_pull_composite": null,
+    "demand_pull_composite": 2.25,
     "overall_confidence_band": "low",
-    "confidence_reason": "Validation velocity is partially populated, but founder-independence, demand observables, and SEMrush-backed pull metrics are still missing."
+    "confidence_reason": "Market evidence scope is local with scope fit fit. 5 anchor captures contribute to this scorecard sync. Primary evidence database: LU."
+  },
+  "market_evidence_scope_class": "local",
+  "market_evidence": {
+    "confidence_band": "low",
+    "derivation_basis": "Synced from the latest SEMrush-derived product market scorecard, which combines normalized keyword captures, product-market mapping, and scoped local/cross-border/reference evidence rules.",
+    "evidence_refs": {
+      "source_ids": [],
+      "claim_ids": []
+    },
+    "market_track": "local",
+    "scope_class": "local",
+    "scope_fit": "fit",
+    "evidence_database": "LU",
+    "lane_group": "integration_discovery",
+    "semrush_priority": "high",
+    "provisional_market_score_v1": 1.49,
+    "anchor_focus": [
+      "cours du soir luxembourg",
+      "formation continue luxembourg",
+      "apprendre luxembourgeois"
+    ],
+    "anchor_focus_count": 3,
+    "anchor_capture_count": 5,
+    "anchor_capture_coverage": 1.67,
+    "anchor_query_volume_sum": 410,
+    "anchor_max_volume": 170,
+    "anchor_global_volume_sum": 1700,
+    "local_lane_keyword_count": 26,
+    "local_lane_p1_count": 3,
+    "local_lane_watch_domains": [
+      "inll.lu",
+      "lifelong-learning.lu",
+      "public.lu",
+      "prolingua.lu",
+      "vdl.lu"
+    ],
+    "top_follow_up_keywords": [
+      {
+        "keyword": "cours de luxembourgeois",
+        "follow_up_tier": "P1",
+        "category": "variation",
+        "max_volume_lu": 720,
+        "source_count": 2
+      },
+      {
+        "keyword": "inl sproochentest",
+        "follow_up_tier": "P1",
+        "category": "variation",
+        "max_volume_lu": 210,
+        "source_count": 2
+      },
+      {
+        "keyword": "cours de luxembourgeois en ligne",
+        "follow_up_tier": "P1",
+        "category": "variation",
+        "max_volume_lu": 140,
+        "source_count": 4
+      },
+      {
+        "keyword": "formation continue luxembourg",
+        "follow_up_tier": "P1",
+        "category": "variation",
+        "max_volume_lu": 140,
+        "source_count": 2
+      },
+      {
+        "keyword": "sproochentest luxembourg",
+        "follow_up_tier": "P1",
+        "category": "variation",
+        "max_volume_lu": 140,
+        "source_count": 2
+      }
+    ],
+    "top_questions": [],
+    "cross_border_luxembourg_intent_keywords": [
+      {
+        "keyword": "cours de luxembourgeois",
+        "follow_up_tier": "P1",
+        "max_volume_lu": 720,
+        "use_for": [
+          "cross-border Luxembourg demand check",
+          "message mining",
+          "missed opportunities"
+        ]
+      },
+      {
+        "keyword": "inl sproochentest",
+        "follow_up_tier": "P1",
+        "max_volume_lu": 210,
+        "use_for": [
+          "cross-border Luxembourg demand check",
+          "message mining",
+          "missed opportunities"
+        ]
+      },
+      {
+        "keyword": "cours de luxembourgeois en ligne",
+        "follow_up_tier": "P1",
+        "max_volume_lu": 140,
+        "use_for": [
+          "cross-border Luxembourg demand check",
+          "message mining",
+          "missed opportunities"
+        ]
+      },
+      {
+        "keyword": "formation continue luxembourg",
+        "follow_up_tier": "P1",
+        "max_volume_lu": 140,
+        "use_for": [
+          "cross-border Luxembourg demand check",
+          "message mining",
+          "missed opportunities"
+        ]
+      },
+      {
+        "keyword": "sproochentest luxembourg",
+        "follow_up_tier": "P1",
+        "max_volume_lu": 140,
+        "use_for": [
+          "cross-border Luxembourg demand check",
+          "message mining",
+          "missed opportunities"
+        ]
+      }
+    ],
+    "reference_analog_domains": [],
+    "next_research_step": "map lane keywords into product-level commercial notes",
+    "synced_from_scorecard_at": "2026-04-21T10:13:00.398Z",
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 5/3 anchor families with total local query volume 410 and max anchor volume 170. Lane rollup contains 26 deduplicated keywords, including 3 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: cours de luxembourgeois (P1, vol 720), inl sproochentest (P1, vol 210), cours de luxembourgeois en ligne (P1, vol 140), formation continue luxembourg (P1, vol 140), sproochentest luxembourg (P1, vol 140). Cross-border Luxembourg-intent layer: 5 relevant keywords; top terms cours de luxembourgeois, inl sproochentest, cours de luxembourgeois en ligne. Next step: map lane keywords into product-level commercial notes."
   }
 }

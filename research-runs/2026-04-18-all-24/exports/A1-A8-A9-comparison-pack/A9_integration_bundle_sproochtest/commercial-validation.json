@@ -1,0 +1,253 @@
+{
+  "schema_version": "commercial_validation_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A9",
+  "product_title": "Integration Bundle (Sproochtest+)",
+  "quadrant_segment": "B2B2C",
+  "validation_velocity": {
+    "validation_model": "10 custdev interviews + 3 partner-route calls + 2 pilot asks + route validation",
+    "binary_pass_signal": "At least 2 qualified buyers accept a paid or structured pilot conversation and 1 credible partner or route owner agrees to proceed.",
+    "binary_kill_signal": "No qualified buyer accepts a pilot conversation and no credible partner or route owner agrees to proceed.",
+    "estimated_cost_to_signal_eur": 4300,
+    "estimated_days_to_signal": 60,
+    "estimated_days_to_first_euro": 60,
+    "founder_independence_score_1_5": null,
+    "testability_score_1_5": 1,
+    "time_to_first_euro_score_1_5": 1,
+    "confidence_band": "medium",
+    "derivation_basis": "Protocol-derived from segment, approval-route complexity, buyer motion, and current validation/citation gaps.",
+    "evidence_refs": {
+      "source_ids": [],
+      "claim_ids": []
+    },
+    "notes": "validation queue severity 4; citation status ready; partner motion present; regulatory route present"
+  },
+  "demand_pull": {
+    "demand_evidence_score_1_5": 4,
+    "wtp_score_1_5": null,
+    "cac_reality_score_1_5": 3,
+    "retention_structure_score_1_5": 3,
+    "macro_trajectory_score_1_5": null,
+    "channel_fit_score_1_5": 4,
+    "confidence_band": "medium",
+    "derivation_basis": "Screenshot-backed review adds visible Luxembourg route-keyword demand and existing Educateme route-content traction. Bundle-specific buyer proof is still missing. Added latest SEMrush scorecard sync.",
+    "evidence_refs": {
+      "source_ids": [
+        "inll_sproochentest",
+        "etic_sproochentest",
+        "luxlanguages_sproochentest_group",
+        "prolingua_luxembourgish",
+        "luxlessons_home"
+      ],
+      "claim_ids": [
+        "ext_004"
+      ]
+    },
+    "notes": "The same db=LU route market visible for L1 is relevant here: sproochentest and Luxembourgish route terms have observable local demand and multiple incumbents, while Educateme already ranks on route-support content. The bundle still needs partner-motion proof, but local category pull is no longer blank. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 1180, max anchor volume 720, capture count 7. Lane keyword count 14 with 3 P1 terms. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 1180, max anchor volume 720, capture count 7. Lane keyword count 14 with 3 P1 terms. Top follow-up terms: cours de luxembourgeois, inl sproochentest, cours de luxembourgeois en ligne, sproochentest luxembourg, cours luxembourgeois en ligne. Cross-border Luxembourg-intent coverage: 5 matching terms in FR/DE seed pack."
+  },
+  "regulatory_context": {
+    "regulatory_friction_inverse_score_1_5": 1,
+    "confidence_band": "medium",
+    "derivation_basis": "Derived from confirmed regulatory requirements, approval entities, and current contradiction/risk density in the evidence-backed card.",
+    "evidence_refs": {
+      "source_ids": [],
+      "claim_ids": []
+    },
+    "notes": "2 confirmed regulatory requirements in current card; 1 approval or accepted-provider routes already shape delivery claims; 5 high-severity risk flags remain in the current card"
+  },
+  "semrush_snapshot": {
+    "market": "LUX",
+    "database": "LU",
+    "language": "mixed (EN/FR/DE/LB)",
+    "keyword_buckets": {
+      "head_terms": [
+        "sproochentest",
+        "sproochentest luxembourg",
+        "luxembourgish online course",
+        "learn luxembourgish online",
+        "language courses luxembourg"
+      ],
+      "commercial_modifiers": [
+        "sproochtest preparation",
+        "luxembourgish course",
+        "integration luxembourg language",
+        "language courses luxembourg",
+        "learn luxembourgish"
+      ],
+      "problem_intent": [
+        "sproochentest examples",
+        "comment reussir a sproochentest",
+        "remboursement sproochentest",
+        "inscription sproochentest",
+        "cours du soir luxembourg"
+      ],
+      "competitor_route": [
+        "INLL sproochentest route",
+        "Prolingua sproochentest",
+        "LuxLanguages sproochentest",
+        "moienasbl.lu",
+        "cfih.lu",
+        "infpc.lu",
+        "lifelong-learning.lu"
+      ]
+    },
+    "metrics": {
+      "keyword_count_total": 14,
+      "keyword_count_commercial": null,
+      "volume_sum": 1180,
+      "volume_sum_commercial": null,
+      "avg_cpc": null,
+      "max_cpc": null,
+      "avg_competitive_density": null,
+      "high_intent_keyword_count": 3,
+      "paid_competitor_count": null
+    },
+    "top_paid_competitors": [],
+    "observed_price_points": [],
+    "serp_feature_notes": "Bundle-related demand should be inferred from route queries and integration-language intent, not from the product title.",
+    "traffic_analytics_notes": "Beyond exam-prep, db=LU screenshots point to a local discovery/onboarding lane via infpc.lu, lifelong-learning.lu, moienasbl.lu, and unipop.lu. This supports treating A9 as route-plus-integration, not only prep."
+  },
+  "portfolio_tags": {
+    "niche": "Integration Bundle (Sproochtest+) / exam",
+    "persona": "individual",
+    "channel_primary": "SEO / route-content",
+    "channel_secondary": "partner / referral",
+    "price_point": "low-ticket",
+    "delivery_mode": "program"
+  },
+  "collapsed_scores": {
+    "validation_velocity_composite": 1,
+    "demand_pull_composite": 3.5,
+    "overall_confidence_band": "medium",
+    "confidence_reason": "Market evidence scope is local with scope fit fit. 7 anchor captures contribute to this scorecard sync. Primary evidence database: LU."
+  },
+  "market_evidence_scope_class": "local",
+  "market_evidence": {
+    "confidence_band": "medium",
+    "derivation_basis": "Synced from the latest SEMrush-derived product market scorecard, which combines normalized keyword captures, product-market mapping, and scoped local/cross-border/reference evidence rules.",
+    "evidence_refs": {
+      "source_ids": [],
+      "claim_ids": []
+    },
+    "market_track": "local",
+    "scope_class": "local",
+    "scope_fit": "fit",
+    "evidence_database": "LU",
+    "lane_group": "luxembourgish_route",
+    "semrush_priority": "high",
+    "provisional_market_score_v1": 2.14,
+    "anchor_focus": [
+      "sproochentest luxembourg",
+      "cours de luxembourgeois",
+      "luxembourgish online course"
+    ],
+    "anchor_focus_count": 3,
+    "anchor_capture_count": 7,
+    "anchor_capture_coverage": 2.33,
+    "anchor_query_volume_sum": 1180,
+    "anchor_max_volume": 720,
+    "anchor_global_volume_sum": 4750,
+    "local_lane_keyword_count": 14,
+    "local_lane_p1_count": 3,
+    "local_lane_watch_domains": [
+      "inll.lu",
+      "lifelong-learning.lu",
+      "public.lu",
+      "prolingua.lu",
+      "vdl.lu"
+    ],
+    "top_follow_up_keywords": [
+      {
+        "keyword": "cours de luxembourgeois",
+        "follow_up_tier": "P1",
+        "category": "variation",
+        "max_volume_lu": 720,
+        "source_count": 2
+      },
+      {
+        "keyword": "inl sproochentest",
+        "follow_up_tier": "P1",
+        "category": "variation",
+        "max_volume_lu": 210,
+        "source_count": 2
+      },
+      {
+        "keyword": "cours de luxembourgeois en ligne",
+        "follow_up_tier": "P1",
+        "category": "variation",
+        "max_volume_lu": 140,
+        "source_count": 4
+      },
+      {
+        "keyword": "sproochentest luxembourg",
+        "follow_up_tier": "P1",
+        "category": "variation",
+        "max_volume_lu": 140,
+        "source_count": 2
+      },
+      {
+        "keyword": "cours luxembourgeois en ligne",
+        "follow_up_tier": "P1",
+        "category": "variation",
+        "max_volume_lu": 110,
+        "source_count": 2
+      }
+    ],
+    "top_questions": [],
+    "cross_border_luxembourg_intent_keywords": [
+      {
+        "keyword": "cours de luxembourgeois",
+        "follow_up_tier": "P1",
+        "max_volume_lu": 720,
+        "use_for": [
+          "cross-border Luxembourg demand check",
+          "message mining",
+          "missed opportunities"
+        ]
+      },
+      {
+        "keyword": "inl sproochentest",
+        "follow_up_tier": "P1",
+        "max_volume_lu": 210,
+        "use_for": [
+          "cross-border Luxembourg demand check",
+          "message mining",
+          "missed opportunities"
+        ]
+      },
+      {
+        "keyword": "cours de luxembourgeois en ligne",
+        "follow_up_tier": "P1",
+        "max_volume_lu": 140,
+        "use_for": [
+          "cross-border Luxembourg demand check",
+          "message mining",
+          "missed opportunities"
+        ]
+      },
+      {
+        "keyword": "sproochentest luxembourg",
+        "follow_up_tier": "P1",
+        "max_volume_lu": 140,
+        "use_for": [
+          "cross-border Luxembourg demand check",
+          "message mining",
+          "missed opportunities"
+        ]
+      },
+      {
+        "keyword": "cours luxembourgeois en ligne",
+        "follow_up_tier": "P1",
+        "max_volume_lu": 110,
+        "use_for": [
+          "cross-border Luxembourg demand check",
+          "message mining",
+          "missed opportunities"
+        ]
+      }
+    ],
+    "next_research_step": "map lane keywords into product-level commercial notes",
+    "synced_from_scorecard_at": "2026-04-20T04:30:00.187Z",
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 7/3 anchor families with total local query volume 1180 and max anchor volume 720. Lane rollup contains 14 deduplicated keywords, including 3 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: cours de luxembourgeois (P1, vol 720), inl sproochentest (P1, vol 210), cours de luxembourgeois en ligne (P1, vol 140), sproochentest luxembourg (P1, vol 140), cours luxembourgeois en ligne (P1, vol 110). Cross-border Luxembourg-intent layer: 5 relevant keywords; top terms cours de luxembourgeois, inl sproochentest, cours de luxembourgeois en ligne. Next step: map lane keywords into product-level commercial notes."
+  }
+}

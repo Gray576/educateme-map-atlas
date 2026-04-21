@@ -1,0 +1,80 @@
+{
+  "database": "de",
+  "generatedAt": "2026-04-20T11:45:00Z",
+  "purpose": "Germany-native keyword-overview seeds after domain-level pruning",
+  "products": [
+    {
+      "product_code": "B1",
+      "product_title": "German for Nurses (B1->B2 Pflege Sprint)",
+      "keywords": [
+        {
+          "keyword": "telc b1 prüfung",
+          "type": "direct",
+          "why_capture": "Strongest direct exam-intent family from telc.net."
+        },
+        {
+          "keyword": "telc b2 prüfung",
+          "type": "direct",
+          "why_capture": "Strongest direct exam-intent family from telc.net."
+        },
+        {
+          "keyword": "deutsch pflege",
+          "type": "problem_proxy",
+          "why_capture": "Core nursing-language hypothesis for the Germany market."
+        }
+      ]
+    },
+    {
+      "product_code": "B2",
+      "product_title": "French for Nurses / Medical French",
+      "keywords": [
+        {
+          "keyword": "medizinisches französisch",
+          "type": "direct_hypothesis",
+          "why_capture": "Primary exact-need phrasing for medical French."
+        },
+        {
+          "keyword": "französisch für pflegekräfte",
+          "type": "direct_hypothesis",
+          "why_capture": "Primary nursing-specific phrasing."
+        },
+        {
+          "keyword": "französisch im krankenhaus",
+          "type": "problem_proxy",
+          "why_capture": "Hospital-context problem phrasing if direct offer language is weak."
+        }
+      ]
+    },
+    {
+      "product_code": "B3",
+      "product_title": "AI Literacy / AI Act Training Germany",
+      "keywords": [
+        {
+          "keyword": "ki schulung",
+          "type": "direct",
+          "why_capture": "Core Germany-native AI training phrasing."
+        },
+        {
+          "keyword": "ai act schulung",
+          "type": "direct",
+          "why_capture": "Core EU regulation training phrasing."
+        },
+        {
+          "keyword": "ki kompetenz schulung",
+          "type": "direct",
+          "why_capture": "Article 4 / competence duty phrasing."
+        },
+        {
+          "keyword": "eu ai act art 4",
+          "type": "route_proxy",
+          "why_capture": "Observed niche route query from aiact-akademie.de."
+        },
+        {
+          "keyword": "art 4 ki verordnung",
+          "type": "route_proxy",
+          "why_capture": "Observed Germany phrasing for AI Act competence requirement."
+        }
+      ]
+    }
+  ]
+}

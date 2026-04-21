@@ -1,0 +1,333 @@
+{
+  "meta": {
+    "capturedAt": "2026-04-20T00:17:51.318Z",
+    "reportType": "keyword-overview",
+    "database": "lu",
+    "query": "sproochentest",
+    "title": "sproochentest: Overview, Keyword Overview",
+    "url": "https://www.semrush.com/analytics/keywordoverview/?fid=11501357&db=lu&q=sproochentest",
+    "pathname": "/analytics/keywordoverview/",
+    "searchType": null,
+    "sourcePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__sproochentest__keyword-overview__2026-04-20T00-17-51-325Z.json",
+    "scopeType": "keyword",
+    "scopeSlug": "sproochentest"
+  },
+  "summary": {
+    "pageIdentity": "sproochentest: Overview, Keyword Overview",
+    "queryOrDomain": "sproochentest",
+    "topMetrics": {
+      "volume": "880",
+      "keywordDifficulty": "14%",
+      "globalVolume": "1.1K",
+      "intent": "Informational",
+      "cpc": "$3.72",
+      "competitiveDensity": "0.05"
+    },
+    "tableCount": 3,
+    "networkCount": 0
+  },
+  "structured": {
+    "keywordSummary": {
+      "volume": "and discover advanced metrics with Semrush Pro.Get startedKeyword ideasKeyword Variations68Total Volume: 1.6KKeywordsVolumeKD %sproochentest88014inl sproochentest21022sproochentest luxembourg14015inll sproochentest7014sproochentest examples703View all 68 keywordsQuestions3Total Volume: 0KeywordsVolumeKD %comment reussir a sproochentest0n/acomment savoir si on a reussi le sproochentest0n/ahow to prepare for sproochentest0n/aView all 3 keywordsKeyword StrategyGet topics, pillar and subpages automaticallysproochentestIntents: Commercial 100%language centerView all clustersSERP AnalysisDomainURLView SERPExportResults17.7KSERP FeaturesImage, Video1-1011-2021-3031-4041-5051-6061-7071-8081-90Position on SERPURLPage ASRef. DomainsBacklinksSearch TrafficURL Keywords1https://www.inll.lu/de/sproochentest-de/inll.lu1541680582https://men.public.lu/de/systeme-educatif/formation-adultes/integration-nationalite/cours-examen.htmlpublic.lu141112383https://sproochentest.org/what-is-the-sproochentest/sproochentest.org0008264https://sproochentest.org/sproochentest.org11231537645https://www.ing.lu/content/siteing/en/Individuals/my-money/categories/lifestyle/how-do-i-prepare-the-sproochentest-.htmling.lu8114866https://www.luxlessons.lu/sproochentest-letzebuergeschluxlessons.lu143145167https://www.inll.lu/de/event/sproochentest-heierverstoen-mendlechen-ausdrock-glacis-tablet-3/inll.lu0004058https://educateme.lu/tpost/7x4vcrtf51-surviving-the-sproochentest-essential-gueducateme.lu0002859https://www.luxlanguages.lu/preparation-au-sproochentest-guide-complet/luxlanguages.lu00027610https://courses.luxembourgishwithanne.lu/p/zero-to-sproochentestluxembourgishwithanne.lu724262PLA CopiesWe have no data to show.Ad CopiesWe have no data to show.Keyword Ad HistoryWe have no data to show.(function() { setTimeout(function(){ var c = document.createElement(\"script\"); c.src = \"https://static.semrush.com/keyword-overview/overview_app.b8f05f29619cdb499bbe.js\", document.body.appendChild(c); }, 0); })(); Contact us About us Blog English English Deutsch Español Français Italiano Nederlands Polski Português (Brasil) Svenska Tiếng Việt Türkçe 中文 日本語 한국어 See plans and pricing Get started with Semrush Contact us Cookie settings Legal info Privacy policy Do not sell my personal info © 2008 - 2026 Semrush. All rights reserved. {\"enabled\": true, \"live_chat\": true} window.intercomSettings = {\"app_id\": \"cs07vi2k\", \"GA Client ID\": \"1550134875.1776637626\", \"hide_default_launcher\": true, \"vertical_padding\": 100, \"user_id\": \"29279824\", \"name\": \" \", \"email\": \"lucahillezle@outlook.com\", \"phone\": null, \"created_at\": 1776492525, \"user_hash\": \"bb7adfd47b5b8fc94dcc4869c1b45aba0fb885fc74370f72f853a724f56a80c5\", \"Paid\": false, \"Product\": \"guru\", \"Expire Date\": \"2026-05-02 02:10:23\"}; (function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/cs07vi2k';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onDOMContentLoaded',l);}else{w.addEventListener('DOMContentLoaded',l,false);}}})(); if (window.ga) { if (window.sm2.GAexperiments.length) { window.ga('set', 'exp', window.sm2.GAexperiments.join('!')); } window.ga('send', 'pageview'); } {\"base\": {\"cookie_domain\": \".semrush.com\", \"csrfToken\": \"TnmTZjbQnlKlyYZgXolZdSkXfxKjeck1zYPdK80aSUcjuxquI00biHzFNhuUrIaH\", \"language_code\": \"en\", \"PopupManager\": {\"popups\": {\"need_confirm_email\": null, \"disabled_user\": false, \"reset_password\": false}}, \"switchLanguageApiEndpoint\": \"/i18n/switch_language_api/\", \"sso\": {\"enable_preload\": false, \"env\": \"production\", \"root_url\": \"/sso\", \"root_semrush_url\": \"https://www.semrush.com\"}}, \"searchbarApiV1Config\": {\"autocompleteUrl\": \"https://www.semrush.com/search-bar/api/search/suggestions?type=2\", \"tldsUrl\": \"/__static__/default-tld-list.txt\", \"redirectToKeyword\": false, \"allowProtocol\": false, \"formAction\": \"/analytics/keywordoverview\", \"gaLabel\": \"Keyword Overview new\", \"defaultQuery\": \"sproochentest\", \"device\": null, \"date\": null, \"currency\": null, \"defaultProtocol\": null, \"defaultSearchType\": null, \"defaultVisible\": false, \"supportedSearchTypes\": [], \"spaMode\": true, \"updateBrowserHistory\": false, \"toolCode\": \"keyword-overview\", \"theme\": \"secondary\", \"tldFileName\": \"default\"}, \"foldersApiV1Config\": {\"enable\": false, \"defaultVisible\": false, \"gaLabel\": \"(not-set-in-config)\"}, \"toolQueryType\": \"keyword\"} {\"base\": {\"cookie_domain\": \".semrush.com\", \"csrfToken\": \"TnmTZjbQnlKlyYZgXolZdSkXfxKjeck1zYPdK80aSUcjuxquI00biHzFNhuUrIaH\", \"language_code\": \"en\", \"PopupManager\": {\"popups\": {\"need_confirm_email\": null, \"disabled_user\": false, \"reset_password\": false}}, \"switchLanguageApiEndpoint\": \"/i18n/switch_language_api/\", \"sso\": {\"enable_preload\": false, \"env\": \"production\", \"root_url\": \"/sso\", \"root_semrush_url\": \"https://www.semrush.com\"}}, \"searchbarApiV1Config\": {\"autocompleteUrl\": \"https://www.semrush.com/search-bar/api/search/suggestions?type=2\", \"tldsUrl\": \"/__static__/default-tld-list.txt\", \"redirectToKeyword\": false, \"allowProtocol\": false, \"formAction\": \"/analytics/keywordoverview\", \"gaLabel\": \"Keyword Overview new\", \"defaultQuery\": \"sproochentest\", \"device\": null, \"date\": null, \"currency\": null, \"defaultProtocol\": null, \"defaultSearchType\": null, \"defaultVisible\": false, \"supportedSearchTypes\": [], \"spaMode\": true, \"updateBrowserHistory\": false, \"toolCode\": \"keyword-overview\", \"theme\": \"secondary\", \"tldFileName\": \"default\"}, \"foldersApiV1Config\": {\"enable\": false, \"defaultVisible\": false, \"gaLabel\": \"(not-set-in-config)\"}, \"toolQueryType\": \"keyword\"} sm2.getComponent(\"CSATFeedbackInit\").then((component) => { const container = document.getElementById(\"csat-feedback-widget\"); component.mount(container); }); window.ga('send', 'event', 'exp.init', '2c3ffbd69ce340e7a54b2efb', '0'); (function(){window.showConsentSettings=function(){if(0<arguments.length)throw Error(\"showConsentSettings function called with arguments\");if(\"cookiehub\"in window&&\"object\"==typeof window.cookiehub&&window.cookiehub.hasInitialised)return window.cookiehub.openSettings(),Promise.resolve();throw Error(\"showConsentSettings was called before cookiehub has been initialized\");}})();(function(){window.showDontSellMyDataSettings=function(){if(0<arguments.length)throw Error(\"showDontSellMyDataSettings function called with arguments\");if(\"cookiehub\"in window&&\"object\"==typeof window.cookiehub&&window.cookiehub&&window.cookiehub.hasInitialised)return window.cookiehub.openPersonalData?window.cookiehub.openPersonalData():window.cookiehub.openSettings(),Promise.resolve();throw Error(\"showDontSellMyDataSettings was called before cookiehub has been initialized\");}})();window.uetq=window.uetq||[];window.uetq.push(\"consent\",\"update\",{ad_storage:google_tag_manager[\"rm\"][\"2084770\"](20)}); !function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version=\"2.0\",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,\"script\",\"https://connect.facebook.net/en_US/fbevents.js\");fbq(\"init\",google_tag_manager[\"rm\"][\"2084770\"](33));fbq(\"track\",\"PageView\",{eventID:\"1776644921599_177664509479017\"},{eventID:\"1776644921599_177664509479017\"}); <img height=\"1\" width=\"1\" style=\"display:none\" src=\"https://www.facebook.com/tr?id=239948206198576&amp;ev=PageView&amp;noscript=1\"> (function(){function b(){!1===c&&(c=!0,Munchkin.init(\"519-IIY-869\",{cookieLifeDays:365}))}var c=!1,a=document.createElement(\"script\");a.type=\"text/javascript\";a.async=!0;a.src=\"//munchkin.marketo.net/munchkin.js\";a.onreadystatechange=function(){\"complete\"!=this.readyState&&\"loaded\"!=this.readyState||b()};a.onload=b;document.getElementsByTagName(\"head\")[0].appendChild(a)})();(function(a,c,e,k,b){a[b]=a[b]||[];a[b].push({projectId:\"10000\",properties:{pixelId:\"10160379\",userEmail:\"\\x3cemail_address\\x3e\"}});var d=c.createElement(e);d.src=k;d.async=!0;d.onload=d.onreadystatechange=function(){var f=this.readyState,l=a[b];if(!f||\"complete\"==f||\"loaded\"==f)try{var g=YAHOO.ywa.I13N.fireBeacon;a[b]=[];a[b].push=function(h){g([h])};g(l)}catch(h){}};c=c.getElementsByTagName(e)[0];e=c.parentNode;e.insertBefore(d,c)})(window,document,\"script\",\"https://s.yimg.com/wi/ytc.js\",\"dotq\");(function(a,e,f,g,b,c,d){\"undefined\"===typeof a.MovableInkTrack&&(a.MovableInkTrack=b,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.type=\"text/javascript\",c.async=!0,c.src=\"//\"+g+\"/p/js/1.js\",a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},d.parentNode.insertBefore(c,d))})(window,document,\"script\",\"qz9icofk.micpn.com\",\"mitr\");!function(d,g,e){d.TiktokAnalyticsObject=e;var a=d[e]=d[e]||[];a.methods=\"page track identify instances debug on off once ready alias group enableCookie disableCookie\".split(\" \");a.setAndDefer=function(b,c){b[c]=function(){b.push([c].concat(Array.prototype.slice.call(arguments,0)))}};for(d=0;d<a.methods.length;d++)a.setAndDefer(a,a.methods[d]);a.instance=function(b){b=a._i[b]||[];for(var c=0;c<a.methods.length;c++)a.setAndDefer(b,a.methods[c]);return b};a.load=function(b,c){var f=\"https://analytics.tiktok.com/i18n/pixel/events.js\"; a._i=a._i||{};a._i[b]=[];a._i[b]._u=f;a._t=a._t||{};a._t[b]=+new Date;a._o=a._o||{};a._o[b]=c||{};c=document.createElement(\"script\");c.type=\"text/javascript\";c.async=!0;c.src=f+\"?sdkid\\x3d\"+b+\"\\x26lib\\x3d\"+e;b=document.getElementsByTagName(\"script\")[0];b.parentNode.insertBefore(c,b)};a.load(\"C4FPRRVM9G8R5RJ0MPKG\");a.page({event_id:\"1776644921599_177664509479017\"})}(window,document,\"ttq\");window[function(d,e){for(var b=\"\",c=0;c<d.length;c++){var a=d[c].charCodeAt();a-=e;a+=61;a%=94;a+=33;b==b;a!=c;e>3;b+=String.fromCharCode(a)}return b}(atob(\"dGNqLismIX0wZSE1\"),26)]=\"8fe76a9d561688770525\";var zi=document.createElement(\"script\");zi.type=\"text/javascript\";zi.async=!0;zi.src=function(d,e){for(var b=\"\",c=0;c<d.length;c++){var a=d[c].charCodeAt();a-=e;a+=61;a%=94;b==b;e>6;a!=c;a+=33;b+=String.fromCharCode(a)}return b}(atob(\"cHx8eHtCNzdyezYkcTV7a3pxeHx7Nmt3dTckcTV8aW82cns\\x3d\"),8); document.readyState===\"complete\"?document.body.appendChild(zi):window.addEventListener(\"load\",function(){document.body.appendChild(zi)});!function(){var c;var b=window;var a=document;var e=\"script\";var f=\"d8x0anTvV24UqmERWFnln59AQOsoIyNVo9jf2JY0\";var d=a.getElementsByTagName(e)[0];(a=a.createElement(e)).async=!0;a.src=\"https://sdk.voyantis.io/\".concat(f,\"/vy-cs-sdk.min.js\");a.onload=function(){b.VoyantisSDK&&\"function\"==typeof b.VoyantisSDK.init&&b.VoyantisSDK.init(b,1,f)};null===(c=null==d?void 0:d.parentNode)||void 0===c||c.insertBefore(a,d)}(); !function(d,g,e){d.TiktokAnalyticsObject=e;var a=d[e]=d[e]||[];a.methods=\"page track identify instances debug on off once ready alias group enableCookie disableCookie holdConsent revokeConsent grantConsent\".split(\" \");a.setAndDefer=function(b,c){b[c]=function(){b.push([c].concat(Array.prototype.slice.call(arguments,0)))}};for(d=0;d<a.methods.length;d++)a.setAndDefer(a,a.methods[d]);a.instance=function(b){b=a._i[b]||[];for(var c=0;c<a.methods.length;c++)a.setAndDefer(b,a.methods[c]);return b};a.load= function(b,c){var f=\"https://analytics.tiktok.com/i18n/pixel/events.js\";a._i=a._i||{};a._i[b]=[];a._i[b]._u=f;a._t=a._t||{};a._t[b]=+new Date;a._o=a._o||{};a._o[b]=c||{};c=document.createElement(\"script\");c.type=\"text/javascript\";c.async=!0;c.src=f+\"?sdkid\\x3d\"+b+\"\\x26lib\\x3d\"+e;b=document.getElementsByTagName(\"script\")[0];b.parentNode.insertBefore(c,b)};a.load(\"D1N4AQJC77U6G0ESFLB0\");a.page()}(window,document,\"ttq\"); !function(b,e,f,g,a,c,d){b.saq||(a=b.saq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._saq||(b._saq=a),a.push=a,a.loaded=!0,a.version=\"1.0\",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,\"script\",\"https://tags.srv.stackadapt.com/events.js\");saq(\"ts\",\"rudEJmjAnbs-Y_A22LuI1A\"); .ch2 * { --cookiehub-primary-color: #ffffff; }.ch2-style-light .ch2-btn-primary, .ch2-style-dark .ch2-btn-primary { background: #ffffff;color:#181e15}.ch2-style-light .ch2-btn-primary:hover, .ch2-style-dark .ch2-btn-primary:hover { background: #ffffff; box-shadow: 0px 0px 20px 0 #ffffff66; }.ch2-style-light .ch2-switch input:checked + label, .ch2-style-dark .ch2-switch input:checked + label { background: #ffffff }.ch2-style-light.ch2-icon a:hover svg { border: 2px solid #ffffff; fill: #ffffff }.ch2-style-dark.ch2-icon a:hover svg { border: 2px solid #ffffff; background: #ffffff }@media (max-width: 800px) {.ch2-settings-declaration table tbody tr td:not([colspan]):nth-child(1)::before { content: 'Name: '; }.ch2-settings-declaration table tbody tr td:not([colspan]):nth-child(2)::before { content: 'Hostname: '; }.ch2-settings-declaration table tbody tr td:not([colspan]):nth-child(3)::before { content: 'Path: '; }.ch2-settings-declaration table tbody tr td:not([colspan]):nth-child(4)::before { content: 'Expiry: '; }} @keyframes intercom-lightweight-app-launcher { from { opacity: 0; transform: scale(0.5); } to { opacity: 1; transform: scale(1); } } @keyframes intercom-lightweight-app-gradient { from { opacity: 0; } to { opacity: 1; } } @keyframes intercom-lightweight-app-messenger { 0% { opacity: 0; transform: scale(0); } 40% { opacity: 1; } 100% { transform: scale(1); } } .intercom-lightweight-app { position: fixed; z-index: 2147483001; width: 0; height: 0; font-family: system-ui, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"; } .intercom-lightweight-app-gradient { position: fixed; z-index: 2147483002; width: 500px; height: 500px; bottom: 0; right: 0; pointer-events: none; background: radial-gradient( ellipse at bottom right, rgba(29, 39, 54, 0.16) 0%, rgba(29, 39, 54, 0) 72%); animation: intercom-lightweight-app-gradient 200ms ease-out; } .intercom-lightweight-app-launcher { position: fixed; z-index: 2147483003; padding: 0 !important; margin: 0 !important; border: none; bottom: 100px; right: 20px; max-width: 48px; width: 48px; max-height: 48px; height: 48px; border-radius: 50%; background: #000000; cursor: pointer; box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.06), 0 2px 32px 0 rgba(0, 0, 0, 0.16); transition: transform 167ms cubic-bezier(0.33, 0.00, 0.00, 1.00); box-sizing: content-box; } .intercom-lightweight-app-launcher:hover { transition: transform 250ms cubic-bezier(0.33, 0.00, 0.00, 1.00); transform: scale(1.1) } .intercom-lightweight-app-launcher:active { transform: scale(0.85); transition: transform 134ms cubic-bezier(0.45, 0, 0.2, 1); } .intercom-lightweight-app-launcher:focus { outline: none; } .intercom-lightweight-app-launcher-icon { display: flex; align-items: center; justify-content: center; position: absolute; top: 0; left: 0; width: 48px; height: 48px; transition: transform 100ms linear, opacity 80ms linear; } .intercom-lightweight-app-launcher-icon-open { opacity: 1; transform: rotate(0deg) scale(1); } .intercom-lightweight-app-launcher-icon-open svg { width: 24px; height: 24px; } .intercom-lightweight-app-launcher-icon-open svg path { fill: rgb(255, 255, 255); } .intercom-lightweight-app-launcher-icon-self-serve { opacity: 1; transform: rotate(0deg) scale(1); } .intercom-lightweight-app-launcher-icon-self-serve svg { height: 44px; } .intercom-lightweight-app-launcher-icon-self-serve svg path { fill: rgb(255, 255, 255); } .intercom-lightweight-app-launcher-custom-icon-open { max-height: 24px; max-width: 24px; opacity: 1; transform: rotate(0deg) scale(1); } .intercom-lightweight-app-launcher-icon-minimize { opacity: 0; transform: rotate(-60deg) scale(0); } .intercom-lightweight-app-launcher-icon-minimize svg path { fill: rgb(255, 255, 255); } /* Extended launcher styles */ .intercom-lightweight-app-launcher.intercom-launcher-extended { width: calc(180px - 30px); max-width: calc(180px - 30px); height: calc(45px - 26px); max-height: calc(45px - 26px); border-radius: 12px; display: flex; align-items: center; justify-content: flex-start; padding: 12px 16px 12px 12px !important; gap: 6px; /* Use theme background instead of hardcoded gradient */ background: #000000; border: 1px solid rgba(255, 255, 255, 0.15); box-shadow: 0px -2px 50px rgba(0, 0, 0, 0.1); } .intercom-lightweight-app-launcher.intercom-launcher-extended .intercom-lightweight-app-launcher-icon { position: relative; width: 24px; height: 24px; } .intercom-lightweight-app-launcher-text { /* Match text color with launcher icon */ color: rgb(255, 255, 255); font-size: 14px; font-weight: 600; line-height: 1.5; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 140px; opacity: 1; transition: opacity 80ms linear; } .intercom-lightweight-app-messenger { position: fixed; z-index: 2147483003; overflow: hidden; background-color: #ffffff; animation: intercom-lightweight-app-messenger 250ms cubic-bezier(0, 1, 1, 1); transform-origin: bottom right; width: 400px; height: calc(100% - 120px); max-height: 704px; min-height: 250px; right: 20px; bottom: 100px; box-shadow: 0 5px 40px rgba(0,0,0,0.16); border-radius: 24px; } .intercom-lightweight-app-messenger-header { height: 64px; border-bottom: none; background: #ffffff; } .intercom-lightweight-app-messenger-footer{ position:absolute; bottom:0; width: 100%; height: 80px; background: #ffffff; font-size: 14px; line-height: 21px; border-top: 1px solid rgba(0, 0, 0, 0.05); box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05); } @media print { .intercom-lightweight-app { display: none; } } window.uetq=window.uetq||[];window.uetq.push(\"consent\",\"update\",{ad_storage:google_tag_manager[\"rm\"][\"2084770\"](47)});window.uetq=window.uetq||[];window.uetq.push(\"consent\",\"update\",{ad_storage:google_tag_manager[\"rm\"][\"2084770\"](49)}); !function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version=\"2.0\",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,\"script\",\"https://connect.facebook.net/en_US/fbevents.js\");fbq(\"init\",google_tag_manager[\"rm\"][\"2084770\"](53));fbq(\"track\",\"PageView\",{eventID:\"1776644921599_177664509479048\"},{eventID:\"1776644921599_177664509479048\"}); <img height=\"1\" width=\"1\" style=\"display:none\" src=\"https://www.facebook.com/tr?id=239948206198576&amp;ev=PageView&amp;noscript=1\"> (function(){function b(){!1===c&&(c=!0,Munchkin.init(\"519-IIY-869\",{cookieLifeDays:365}))}var c=!1,a=document.createElement(\"script\");a.type=\"text/javascript\";a.async=!0;a.src=\"//munchkin.marketo.net/munchkin.js\";a.onreadystatechange=function(){\"complete\"!=this.readyState&&\"loaded\"!=this.readyState||b()};a.onload=b;document.getElementsByTagName(\"head\")[0].appendChild(a)})();(function(a,c,e,k,b){a[b]=a[b]||[];a[b].push({projectId:\"10000\",properties:{pixelId:\"10160379\",userEmail:\"\\x3cemail_address\\x3e\"}});var d=c.createElement(e);d.src=k;d.async=!0;d.onload=d.onreadystatechange=function(){var f=this.readyState,l=a[b];if(!f||\"complete\"==f||\"loaded\"==f)try{var g=YAHOO.ywa.I13N.fireBeacon;a[b]=[];a[b].push=function(h){g([h])};g(l)}catch(h){}};c=c.getElementsByTagName(e)[0];e=c.parentNode;e.insertBefore(d,c)})(window,document,\"script\",\"https://s.yimg.com/wi/ytc.js\",\"dotq\");(function(a,e,f,g,b,c,d){\"undefined\"===typeof a.MovableInkTrack&&(a.MovableInkTrack=b,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.type=\"text/javascript\",c.async=!0,c.src=\"//\"+g+\"/p/js/1.js\",a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},d.parentNode.insertBefore(c,d))})(window,document,\"script\",\"qz9icofk.micpn.com\",\"mitr\");!function(d,g,e){d.TiktokAnalyticsObject=e;var a=d[e]=d[e]||[];a.methods=\"page track identify instances debug on off once ready alias group enableCookie disableCookie\".split(\" \");a.setAndDefer=function(b,c){b[c]=function(){b.push([c].concat(Array.prototype.slice.call(arguments,0)))}};for(d=0;d<a.methods.length;d++)a.setAndDefer(a,a.methods[d]);a.instance=function(b){b=a._i[b]||[];for(var c=0;c<a.methods.length;c++)a.setAndDefer(b,a.methods[c]);return b};a.load=function(b,c){var f=\"https://analytics.tiktok.com/i18n/pixel/events.js\"; a._i=a._i||{};a._i[b]=[];a._i[b]._u=f;a._t=a._t||{};a._t[b]=+new Date;a._o=a._o||{};a._o[b]=c||{};c=document.createElement(\"script\");c.type=\"text/javascript\";c.async=!0;c.src=f+\"?sdkid\\x3d\"+b+\"\\x26lib\\x3d\"+e;b=document.getElementsByTagName(\"script\")[0];b.parentNode.insertBefore(c,b)};a.load(\"C4FPRRVM9G8R5RJ0MPKG\");a.page({event_id:\"1776644921599_177664509479048\"})}(window,document,\"ttq\");window[function(d,e){for(var b=\"\",c=0;c<d.length;c++){var a=d[c].charCodeAt();a-=e;a+=61;a%=94;a+=33;b==b;a!=c;e>3;b+=String.fromCharCode(a)}return b}(atob(\"dGNqLismIX0wZSE1\"),26)]=\"8fe76a9d561688770525\";var zi=document.createElement(\"script\");zi.type=\"text/javascript\";zi.async=!0;zi.src=function(d,e){for(var b=\"\",c=0;c<d.length;c++){var a=d[c].charCodeAt();a-=e;a+=61;a%=94;b==b;e>6;a!=c;a+=33;b+=String.fromCharCode(a)}return b}(atob(\"cHx8eHtCNzdyezYkcTV7a3pxeHx7Nmt3dTckcTV8aW82cns\\x3d\"),8); document.readyState===\"complete\"?document.body.appendChild(zi):window.addEventListener(\"load\",function(){document.body.appendChild(zi)}); !function(d,g,e){d.TiktokAnalyticsObject=e;var a=d[e]=d[e]||[];a.methods=\"page track identify instances debug on off once ready alias group enableCookie disableCookie holdConsent revokeConsent grantConsent\".split(\" \");a.setAndDefer=function(b,c){b[c]=function(){b.push([c].concat(Array.prototype.slice.call(arguments,0)))}};for(d=0;d<a.methods.length;d++)a.setAndDefer(a,a.methods[d]);a.instance=function(b){b=a._i[b]||[];for(var c=0;c<a.methods.length;c++)a.setAndDefer(b,a.methods[c]);return b};a.load= function(b,c){var f=\"https://analytics.tiktok.com/i18n/pixel/events.js\";a._i=a._i||{};a._i[b]=[];a._i[b]._u=f;a._t=a._t||{};a._t[b]=+new Date;a._o=a._o||{};a._o[b]=c||{};c=document.createElement(\"script\");c.type=\"text/javascript\";c.async=!0;c.src=f+\"?sdkid\\x3d\"+b+\"\\x26lib\\x3d\"+e;b=document.getElementsByTagName(\"script\")[0];b.parentNode.insertBefore(c,b)};a.load(\"D1N4AQJC77U6G0ESFLB0\");a.page()}(window,document,\"ttq\"); var uid=google_tag_manager[\"rm\"][\"2084770\"](62);uid&&window.hid!==uid&&(window.hid=uid);var uid=google_tag_manager[\"rm\"][\"2084770\"](71);uid&&window.hid!==uid&&(window.hid=uid);var uid=google_tag_manager[\"rm\"][\"2084770\"](84);uid&&window.hid!==uid&&(window.hid=uid);var uid=google_tag_manager[\"rm\"][\"2084770\"](99);uid&&window.hid!==uid&&(window.hid=uid);var uid=google_tag_manager[\"rm\"][\"2084770\"](108);uid&&window.hid!==uid&&(window.hid=uid);var uid=google_tag_manager[\"rm\"][\"2084770\"](117);uid&&window.hid!==uid&&(window.hid=uid);var uid=google_tag_manager[\"rm\"][\"2084770\"](126);uid&&window.hid!==uid&&(window.hid=uid);var uid=google_tag_manager[\"rm\"][\"2084770\"](135);uid&&window.hid!==uid&&(window.hid=uid);var uid=google_tag_manager[\"rm\"][\"2084770\"](144);uid&&window.hid!==uid&&(window.hid=uid);var uid=google_tag_manager[\"rm\"][\"2084770\"](158);uid&&window.hid!==uid&&(window.hid=uid);var uid=google_tag_manager[\"rm\"][\"2084770\"](167);uid&&window.hid!==uid&&(window.hid=uid);var uid=google_tag_manager[\"rm\"][\"2084770\"](176);uid&&window.hid!==uid&&(window.hid=uid);var uid=google_tag_manager[\"rm\"][\"2084770\"](185);uid&&window.hid!==uid&&(window.hid=uid);var uid=google_tag_manager[\"rm\"][\"2084770\"](194);uid&&window.hid!==uid&&(window.hid=uid);var uid=google_tag_manager[\"rm\"][\"2084770\"](203);uid&&window.hid!==uid&&(window.hid=uid);var uid=google_tag_manager[\"rm\"][\"2084770\"](212);uid&&window.hid!==uid&&(window.hid=uid);var uid=google_tag_manager[\"rm\"][\"2084770\"](221);uid&&window.hid!==uid&&(window.hid=uid);var uid=google_tag_manager[\"rm\"][\"2084770\"](230);uid&&window.hid!==uid&&(window.hid=uid);",
+      "keywordDifficulty": null,
+      "globalVolume": null,
+      "intent": null,
+      "cpc": null,
+      "competitiveDensity": null,
+      "results": null
+    },
+    "keywordVariations": [
+      {
+        "keyword": "sproochentest",
+        "rowText": "sproochentest | 880 | 14",
+        "volume": "880"
+      },
+      {
+        "keyword": "inl sproochentest",
+        "rowText": "inl sproochentest | 210 | 22",
+        "volume": "210"
+      },
+      {
+        "keyword": "sproochentest luxembourg",
+        "rowText": "sproochentest luxembourg | 140 | 15",
+        "volume": "140"
+      },
+      {
+        "keyword": "inll sproochentest",
+        "rowText": "inll sproochentest | 70 | 14",
+        "volume": "70"
+      },
+      {
+        "keyword": "sproochentest examples",
+        "rowText": "sproochentest examples | 70 | 3",
+        "volume": "70"
+      },
+      {
+        "keyword": "comment reussir a sproochentest",
+        "rowText": "comment reussir a sproochentest | 0 | n/a",
+        "volume": "0"
+      },
+      {
+        "keyword": "comment savoir si on a reussi le sproochentest",
+        "rowText": "comment savoir si on a reussi le sproochentest | 0 | n/a",
+        "volume": "0"
+      },
+      {
+        "keyword": "how to prepare for sproochentest",
+        "rowText": "how to prepare for sproochentest | 0 | n/a",
+        "volume": "0"
+      }
+    ],
+    "questions": [
+      {
+        "keyword": "comment reussir a sproochentest",
+        "rowText": "comment reussir a sproochentest | 0 | n/a",
+        "volume": "0"
+      },
+      {
+        "keyword": "comment savoir si on a reussi le sproochentest",
+        "rowText": "comment savoir si on a reussi le sproochentest | 0 | n/a",
+        "volume": "0"
+      },
+      {
+        "keyword": "how to prepare for sproochentest",
+        "rowText": "how to prepare for sproochentest | 0 | n/a",
+        "volume": "0"
+      }
+    ],
+    "serpLeaders": [
+      {
+        "position": "1",
+        "url": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fsproochentest-de%2F&db=lu&searchType=url&fid=11501357",
+        "domain": "inll.lu",
+        "pageAuthority": "15",
+        "refDomains": "4",
+        "backlinks": "16",
+        "searchTraffic": "805",
+        "urlKeywords": "8"
+      },
+      {
+        "position": "2",
+        "url": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fmen.public.lu%2Fde%2Fsysteme-educatif%2Fformation-adultes%2Fintegration-nationalite%2Fcours-examen.html&db=lu&searchType=url&fid=11501357",
+        "domain": "public.lu",
+        "pageAuthority": "14",
+        "refDomains": "1",
+        "backlinks": "1",
+        "searchTraffic": "123",
+        "urlKeywords": "8"
+      },
+      {
+        "position": "3",
+        "url": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fsproochentest.org%2Fwhat-is-the-sproochentest%2F&db=lu&searchType=url&fid=11501357",
+        "domain": "sproochentest.org",
+        "pageAuthority": "0",
+        "refDomains": "0",
+        "backlinks": "0",
+        "searchTraffic": "82",
+        "urlKeywords": "6"
+      },
+      {
+        "position": "4",
+        "url": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fsproochentest.org%2F&db=lu&searchType=url&fid=11501357",
+        "domain": "sproochentest.org",
+        "pageAuthority": "11",
+        "refDomains": "23",
+        "backlinks": "153",
+        "searchTraffic": "76",
+        "urlKeywords": "4"
+      },
+      {
+        "position": "5",
+        "url": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.ing.lu%2Fcontent%2Fsiteing%2Fen%2FIndividuals%2Fmy-money%2Fcategories%2Flifestyle%2Fhow-do-i-prepare-the-sproochentest-.html&db=lu&searchType=url&fid=11501357",
+        "domain": "ing.lu",
+        "pageAuthority": "8",
+        "refDomains": "1",
+        "backlinks": "1",
+        "searchTraffic": "48",
+        "urlKeywords": "6"
+      },
+      {
+        "position": "6",
+        "url": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.luxlessons.lu%2Fsproochentest-letzebuergesch&db=lu&searchType=url&fid=11501357",
+        "domain": "luxlessons.lu",
+        "pageAuthority": "14",
+        "refDomains": "3",
+        "backlinks": "14",
+        "searchTraffic": "51",
+        "urlKeywords": "6"
+      },
+      {
+        "position": "7",
+        "url": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fevent%2Fsproochentest-heierverstoen-mendlechen-ausdrock-glacis-tablet-3%2F&db=lu&searchType=url&fid=11501357",
+        "domain": "inll.lu",
+        "pageAuthority": "0",
+        "refDomains": "0",
+        "backlinks": "0",
+        "searchTraffic": "40",
+        "urlKeywords": "5"
+      },
+      {
+        "position": "8",
+        "url": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Feducateme.lu%2Ftpost%2F7x4vcrtf51-surviving-the-sproochentest-essential-gu&db=lu&searchType=url&fid=11501357",
+        "domain": "educateme.lu",
+        "pageAuthority": "0",
+        "refDomains": "0",
+        "backlinks": "0",
+        "searchTraffic": "28",
+        "urlKeywords": "5"
+      },
+      {
+        "position": "9",
+        "url": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.luxlanguages.lu%2Fpreparation-au-sproochentest-guide-complet%2F&db=lu&searchType=url&fid=11501357",
+        "domain": "luxlanguages.lu",
+        "pageAuthority": "0",
+        "refDomains": "0",
+        "backlinks": "0",
+        "searchTraffic": "27",
+        "urlKeywords": "6"
+      },
+      {
+        "position": "10",
+        "url": "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fcourses.luxembourgishwithanne.lu%2Fp%2Fzero-to-sproochentest&db=lu&searchType=url&fid=11501357",
+        "domain": "luxembourgishwithanne.lu",
+        "pageAuthority": "7",
+        "refDomains": "2",
+        "backlinks": "4",
+        "searchTraffic": "26",
+        "urlKeywords": "2"
+      }
+    ],
+    "diagnostics": {
+      "foundKeywordIdeas": true,
+      "foundQuestions": true,
+      "foundSerpAnalysis": true
+    }
+  },
+  "segments": [
+    {
+      "name": "top",
+      "scrollY": 0,
+      "visibleHeadingCount": 8,
+      "visibleTableCount": 0,
+      "visibleLinkCount": 7,
+      "visibleTextLength": 735
+    },
+    {
+      "name": "metrics",
+      "scrollY": 700,
+      "visibleHeadingCount": 8,
+      "visibleTableCount": 3,
+      "visibleLinkCount": 14,
+      "visibleTextLength": 764
+    },
+    {
+      "name": "table",
+      "scrollY": 1500,
+      "visibleHeadingCount": 8,
+      "visibleTableCount": 1,
+      "visibleLinkCount": 43,
+      "visibleTextLength": 826
+    }
+  ],
+  "entities": {
+    "domains": [],
+    "urls": [
+      "https://www.semrush.com/home/?fid=11501357",
+      "https://www.semrush.com/seo/?fid=11501357",
+      "https://www.semrush.com/ai-seo/overview/?fid=11501357",
+      "https://www.semrush.com/analytics/traffic/?fid=11501357",
+      "https://www.semrush.com/local-business/?fid=11501357",
+      "https://www.semrush.com/content/?fid=11501357",
+      "https://www.semrush.com/social-media/?fid=11501357",
+      "https://www.semrush.com/advertising/?fid=11501357",
+      "https://www.semrush.com/pr-toolkit/?fid=11501357",
+      "https://www.semrush.com/home?fid=11501357",
+      "https://www.semrush.com/seo?fid=11501357",
+      "https://www.semrush.com/academy/courses/keyword-research-with-semrush-step-by-step-guide/",
+      "http://www.w3.org/2000/svg",
+      "https://www.semrush.com/analytics/keywordmagic?q=sproochentest&amp;db=lu&amp;fid=11501357",
+      "https://www.semrush.com/analytics/keywordoverview?q=sproochentest&amp;db=lu&amp;date=202604&amp;device=0&amp;fid=11501357",
+      "https://www.semrush.com/analytics/keywordoverview?q=inl%20sproochentest&amp;db=lu&amp;date=202604&amp;device=0&amp;fid=11501357",
+      "https://www.semrush.com/analytics/keywordoverview?q=sproochentest%20luxembourg&amp;db=lu&amp;date=202604&amp;device=0&amp;fid=11501357",
+      "https://www.semrush.com/analytics/keywordoverview?q=inll%20sproochentest&amp;db=lu&amp;date=202604&amp;device=0&amp;fid=11501357",
+      "https://www.semrush.com/analytics/keywordoverview?q=sproochentest%20examples&amp;db=lu&amp;date=202604&amp;device=0&amp;fid=11501357",
+      "https://www.semrush.com/analytics/keywordmagic?q=sproochentest&amp;db=lu&amp;fid=11501357&amp;questions=true",
+      "https://www.semrush.com/analytics/keywordoverview?q=comment%20reussir%20a%20sproochentest&amp;db=lu&amp;date=202604&amp;device=0&amp;fid=11501357",
+      "https://www.semrush.com/analytics/keywordoverview?q=comment%20savoir%20si%20on%20a%20reussi%20le%20sproochentest&amp;db=lu&amp;date=202604&amp;device=0&amp;fid=11501357",
+      "https://www.semrush.com/analytics/keywordoverview?q=how%20to%20prepare%20for%20sproochentest&amp;db=lu&amp;date=202604&amp;device=0&amp;fid=11501357",
+      "https://www.semrush.com/analytics/keywordmanager/list/autosetup?seed=sproochentest&amp;db=lu&amp;fid=11501357",
+      "https://www.semrush.com/analytics/serp/?phrase=sproochentest&amp;db=lu&amp;date=20260420&amp;serpId=b-h-97-0320-13038685073176249239",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fsproochentest-de%2F&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.inll.lu/de/sproochentest-de/",
+      "https://www.semrush.com/analytics/organic/overview?q=inll.lu&amp;db=lu&amp;searchType=domain&amp;fid=11501357",
+      "https://www.semrush.com/analytics/backlinks/refdomains?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fsproochentest-de%2F&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/backlinks/backlinks?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fsproochentest-de%2F&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fsproochentest-de%2F&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fmen.public.lu%2Fde%2Fsysteme-educatif%2Fformation-adultes%2Fintegration-nationalite%2Fcours-examen.html&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://men.public.lu/de/systeme-educatif/formation-adultes/integration-nationalite/cours-examen.html",
+      "https://www.semrush.com/analytics/organic/overview?q=public.lu&amp;db=lu&amp;searchType=domain&amp;fid=11501357",
+      "https://www.semrush.com/analytics/backlinks/refdomains?q=https%3A%2F%2Fmen.public.lu%2Fde%2Fsysteme-educatif%2Fformation-adultes%2Fintegration-nationalite%2Fcours-examen.html&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/backlinks/backlinks?q=https%3A%2F%2Fmen.public.lu%2Fde%2Fsysteme-educatif%2Fformation-adultes%2Fintegration-nationalite%2Fcours-examen.html&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Fmen.public.lu%2Fde%2Fsysteme-educatif%2Fformation-adultes%2Fintegration-nationalite%2Fcours-examen.html&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://sproochentest.org/",
+      "https://www.ing.lu/content/siteing/en/Individuals/my-money/categories/lifestyle/how-do-i-prepare-the-sproochentest-.html",
+      "https://www.luxlessons.lu/sproochentest-letzebuergesch",
+      "https://www.inll.lu/de/event/sproochentest-heierverstoen-mendlechen-ausdrock-glacis-tablet-3/",
+      "https://educateme.lu/tpost/7x4vcrtf51-surviving-the-sproochentest-essential-gu",
+      "https://www.luxlanguages.lu/preparation-au-sproochentest-guide-complet/",
+      "https://courses.luxembourgishwithanne.lu/p/zero-to-sproochentest",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fsproochentest.org%2F&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=sproochentest.org&amp;db=lu&amp;searchType=domain&amp;fid=11501357",
+      "https://www.semrush.com/analytics/backlinks/refdomains?q=https%3A%2F%2Fsproochentest.org%2F&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/backlinks/backlinks?q=https%3A%2F%2Fsproochentest.org%2F&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Fsproochentest.org%2F&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.ing.lu%2Fcontent%2Fsiteing%2Fen%2FIndividuals%2Fmy-money%2Fcategories%2Flifestyle%2Fhow-do-i-prepare-the-sproochentest-.html&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=ing.lu&amp;db=lu&amp;searchType=domain&amp;fid=11501357",
+      "https://www.semrush.com/analytics/backlinks/refdomains?q=https%3A%2F%2Fwww.ing.lu%2Fcontent%2Fsiteing%2Fen%2FIndividuals%2Fmy-money%2Fcategories%2Flifestyle%2Fhow-do-i-prepare-the-sproochentest-.html&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/backlinks/backlinks?q=https%3A%2F%2Fwww.ing.lu%2Fcontent%2Fsiteing%2Fen%2FIndividuals%2Fmy-money%2Fcategories%2Flifestyle%2Fhow-do-i-prepare-the-sproochentest-.html&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Fwww.ing.lu%2Fcontent%2Fsiteing%2Fen%2FIndividuals%2Fmy-money%2Fcategories%2Flifestyle%2Fhow-do-i-prepare-the-sproochentest-.html&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.luxlessons.lu%2Fsproochentest-letzebuergesch&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=luxlessons.lu&amp;db=lu&amp;searchType=domain&amp;fid=11501357",
+      "https://www.semrush.com/analytics/backlinks/refdomains?q=https%3A%2F%2Fwww.luxlessons.lu%2Fsproochentest-letzebuergesch&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/backlinks/backlinks?q=https%3A%2F%2Fwww.luxlessons.lu%2Fsproochentest-letzebuergesch&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Fwww.luxlessons.lu%2Fsproochentest-letzebuergesch&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fevent%2Fsproochentest-heierverstoen-mendlechen-ausdrock-glacis-tablet-3%2F&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fevent%2Fsproochentest-heierverstoen-mendlechen-ausdrock-glacis-tablet-3%2F&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Feducateme.lu%2Ftpost%2F7x4vcrtf51-surviving-the-sproochentest-essential-gu&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=educateme.lu&amp;db=lu&amp;searchType=domain&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Feducateme.lu%2Ftpost%2F7x4vcrtf51-surviving-the-sproochentest-essential-gu&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.luxlanguages.lu%2Fpreparation-au-sproochentest-guide-complet%2F&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=luxlanguages.lu&amp;db=lu&amp;searchType=domain&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Fwww.luxlanguages.lu%2Fpreparation-au-sproochentest-guide-complet%2F&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fcourses.luxembourgishwithanne.lu%2Fp%2Fzero-to-sproochentest&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=luxembourgishwithanne.lu&amp;db=lu&amp;searchType=domain&amp;fid=11501357",
+      "https://www.semrush.com/analytics/backlinks/refdomains?q=https%3A%2F%2Fcourses.luxembourgishwithanne.lu%2Fp%2Fzero-to-sproochentest&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/backlinks/backlinks?q=https%3A%2F%2Fcourses.luxembourgishwithanne.lu%2Fp%2Fzero-to-sproochentest&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Fcourses.luxembourgishwithanne.lu%2Fp%2Fzero-to-sproochentest&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/keywordoverview/",
+      "https://static.semrush.com/keyword-overview/images/card-en.png",
+      "https://",
+      "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap",
+      "https://aorta.clickagy.com/pixel.gif?clkgypv=jstag&amp;ws=1",
+      "https://aorta.clickagy.com/channel-sync/4?clkgypv=jstag&amp;ws=1",
+      "https://aorta.clickagy.com/pixel.gif?ch=319&amp;cm=f3831326784d3979a2d11776637629",
+      "https://js.adsrvr.org/up_loader.1.1.0.js",
+      "https://tags.clickagy.com/data.js?rnd=62fe5c0e6ad96",
+      "https://ws-assets.zoominfo.com/formcomplete.js",
+      "https://scripts.clarity.ms/0.8.59/clarity.js",
+      "https://analytics.tiktok.com/i18n/pixel/static/identify_5cff1caf.js",
+      "https://www.clarity.ms/tag/uet/5128787?insights=1",
+      "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMQ.js"
+    ],
+    "keywords": [
+      "sproochentest",
+      "inl sproochentest",
+      "sproochentest luxembourg",
+      "inll sproochentest",
+      "sproochentest examples",
+      "comment reussir a sproochentest",
+      "comment savoir si on a reussi le sproochentest",
+      "how to prepare for sproochentest"
+    ]
+  }
+}

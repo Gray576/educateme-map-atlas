@@ -1,0 +1,547 @@
+{
+  "meta": {
+    "generatedAt": "2026-04-20T02:48:50.431Z",
+    "source": "/Users/sergey/Desktop/educateme-map/research-runs/2026-04-18-all-24/semrush-corpus/country-keywords/lu/keyword-opportunities.json",
+    "crossBorderDatabases": [
+      {
+        "db": "fr",
+        "scope": "cross_border_luxembourg_intent",
+        "rationale": "FR searches that still clearly target Luxembourg routes, Luxembourgish, or Luxembourg-linked courses"
+      },
+      {
+        "db": "de",
+        "scope": "cross_border_luxembourg_intent",
+        "rationale": "DE searches that still clearly target Luxembourg routes, Luxembourgish, or Luxembourg-linked courses"
+      }
+    ],
+    "referenceDatabases": [
+      {
+        "db": "us",
+        "scope": "reference",
+        "rationale": "reference-market patterns and wider category depth"
+      }
+    ],
+    "crossBorderKeywordCount": 15,
+    "referenceKeywordCount": 15
+  },
+  "crossBorderKeywords": [
+    {
+      "keyword": "cours de luxembourgeois en ligne",
+      "followUpTier": "P1",
+      "category": "variation",
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "sourceKeywords": [
+        "cours de luxembourgeois",
+        "cours de luxembourgeois en ligne",
+        "cours luxembourgeois",
+        "cours luxembourgeois en ligne"
+      ],
+      "maxVolumeLu": 140,
+      "useFor": [
+        "cross-border Luxembourg demand check",
+        "message mining",
+        "missed opportunities"
+      ]
+    },
+    {
+      "keyword": "cours de luxembourgeois",
+      "followUpTier": "P1",
+      "category": "variation",
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "sourceKeywords": [
+        "cours de luxembourgeois",
+        "cours luxembourgeois"
+      ],
+      "maxVolumeLu": 720,
+      "useFor": [
+        "cross-border Luxembourg demand check",
+        "message mining",
+        "missed opportunities"
+      ]
+    },
+    {
+      "keyword": "inl sproochentest",
+      "followUpTier": "P1",
+      "category": "variation",
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "sourceKeywords": [
+        "inl sproochentest",
+        "sproochentest"
+      ],
+      "maxVolumeLu": 210,
+      "useFor": [
+        "cross-border Luxembourg demand check",
+        "message mining",
+        "missed opportunities"
+      ]
+    },
+    {
+      "keyword": "formation continue luxembourg",
+      "followUpTier": "P1",
+      "category": "variation",
+      "lanes": [
+        "continuing_education"
+      ],
+      "sourceKeywords": [
+        "formation continue luxembourg",
+        "formation luxembourg"
+      ],
+      "maxVolumeLu": 140,
+      "useFor": [
+        "cross-border Luxembourg demand check",
+        "message mining",
+        "missed opportunities"
+      ]
+    },
+    {
+      "keyword": "sproochentest luxembourg",
+      "followUpTier": "P1",
+      "category": "variation",
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "sourceKeywords": [
+        "sproochentest",
+        "sproochentest luxembourg"
+      ],
+      "maxVolumeLu": 140,
+      "useFor": [
+        "cross-border Luxembourg demand check",
+        "message mining",
+        "missed opportunities"
+      ]
+    },
+    {
+      "keyword": "cours luxembourgeois en ligne",
+      "followUpTier": "P1",
+      "category": "variation",
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "sourceKeywords": [
+        "cours luxembourgeois",
+        "cours luxembourgeois en ligne"
+      ],
+      "maxVolumeLu": 110,
+      "useFor": [
+        "cross-border Luxembourg demand check",
+        "message mining",
+        "missed opportunities"
+      ]
+    },
+    {
+      "keyword": "cours luxembourgeois en ligne gratuit",
+      "followUpTier": "P2",
+      "category": "variation",
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "sourceKeywords": [
+        "cours luxembourgeois",
+        "cours luxembourgeois en ligne"
+      ],
+      "maxVolumeLu": 90,
+      "useFor": [
+        "cross-border Luxembourg demand check",
+        "message mining",
+        "missed opportunities"
+      ]
+    },
+    {
+      "keyword": "sproochentest examples",
+      "followUpTier": "P2",
+      "category": "variation",
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "sourceKeywords": [
+        "sproochentest",
+        "sproochentest examples"
+      ],
+      "maxVolumeLu": 70,
+      "useFor": [
+        "cross-border Luxembourg demand check",
+        "message mining",
+        "missed opportunities"
+      ]
+    },
+    {
+      "keyword": "formation agent de sécurité luxembourg",
+      "followUpTier": "P2",
+      "category": "variation",
+      "lanes": [
+        "continuing_education"
+      ],
+      "sourceKeywords": [
+        "formation luxembourg"
+      ],
+      "maxVolumeLu": 1300,
+      "useFor": [
+        "message mining",
+        "reference-market sanity check"
+      ]
+    },
+    {
+      "keyword": "sproochentest",
+      "followUpTier": "P2",
+      "category": "variation",
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "sourceKeywords": [
+        "sproochentest"
+      ],
+      "maxVolumeLu": 880,
+      "useFor": [
+        "message mining",
+        "reference-market sanity check"
+      ]
+    },
+    {
+      "keyword": "formation luxembourg",
+      "followUpTier": "P2",
+      "category": "variation",
+      "lanes": [
+        "continuing_education"
+      ],
+      "sourceKeywords": [
+        "formation luxembourg"
+      ],
+      "maxVolumeLu": 720,
+      "useFor": [
+        "message mining",
+        "reference-market sanity check"
+      ]
+    },
+    {
+      "keyword": "learn luxembourgish online",
+      "followUpTier": "P2",
+      "category": "variation",
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "sourceKeywords": [
+        "learn luxembourgish online"
+      ],
+      "maxVolumeLu": 480,
+      "useFor": [
+        "message mining",
+        "reference-market sanity check"
+      ]
+    },
+    {
+      "keyword": "french classes luxembourg",
+      "followUpTier": "P2",
+      "category": "variation",
+      "lanes": [
+        "french_language"
+      ],
+      "sourceKeywords": [
+        "french classes luxembourg"
+      ],
+      "maxVolumeLu": 390,
+      "useFor": [
+        "message mining",
+        "reference-market sanity check"
+      ]
+    },
+    {
+      "keyword": "french courses luxembourg",
+      "followUpTier": "P2",
+      "category": "variation",
+      "lanes": [
+        "french_language"
+      ],
+      "sourceKeywords": [
+        "french courses luxembourg"
+      ],
+      "maxVolumeLu": 390,
+      "useFor": [
+        "message mining",
+        "reference-market sanity check"
+      ]
+    },
+    {
+      "keyword": "language courses luxembourg",
+      "followUpTier": "P2",
+      "category": "variation",
+      "lanes": [
+        "general_language"
+      ],
+      "sourceKeywords": [
+        "language courses luxembourg"
+      ],
+      "maxVolumeLu": 320,
+      "useFor": [
+        "message mining",
+        "reference-market sanity check"
+      ]
+    }
+  ],
+  "referenceKeywords": [
+    {
+      "keyword": "cours de luxembourgeois en ligne",
+      "followUpTier": "P1",
+      "category": "variation",
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "sourceKeywords": [
+        "cours de luxembourgeois",
+        "cours de luxembourgeois en ligne",
+        "cours luxembourgeois",
+        "cours luxembourgeois en ligne"
+      ],
+      "maxVolumeLu": 140,
+      "useFor": [
+        "adjacent demand check",
+        "message mining",
+        "missed opportunities"
+      ]
+    },
+    {
+      "keyword": "cours de luxembourgeois",
+      "followUpTier": "P1",
+      "category": "variation",
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "sourceKeywords": [
+        "cours de luxembourgeois",
+        "cours luxembourgeois"
+      ],
+      "maxVolumeLu": 720,
+      "useFor": [
+        "adjacent demand check",
+        "message mining",
+        "missed opportunities"
+      ]
+    },
+    {
+      "keyword": "inl sproochentest",
+      "followUpTier": "P1",
+      "category": "variation",
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "sourceKeywords": [
+        "inl sproochentest",
+        "sproochentest"
+      ],
+      "maxVolumeLu": 210,
+      "useFor": [
+        "adjacent demand check",
+        "message mining",
+        "missed opportunities"
+      ]
+    },
+    {
+      "keyword": "formation continue luxembourg",
+      "followUpTier": "P1",
+      "category": "variation",
+      "lanes": [
+        "continuing_education"
+      ],
+      "sourceKeywords": [
+        "formation continue luxembourg",
+        "formation luxembourg"
+      ],
+      "maxVolumeLu": 140,
+      "useFor": [
+        "adjacent demand check",
+        "message mining",
+        "missed opportunities"
+      ]
+    },
+    {
+      "keyword": "sproochentest luxembourg",
+      "followUpTier": "P1",
+      "category": "variation",
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "sourceKeywords": [
+        "sproochentest",
+        "sproochentest luxembourg"
+      ],
+      "maxVolumeLu": 140,
+      "useFor": [
+        "adjacent demand check",
+        "message mining",
+        "missed opportunities"
+      ]
+    },
+    {
+      "keyword": "cours luxembourgeois en ligne",
+      "followUpTier": "P1",
+      "category": "variation",
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "sourceKeywords": [
+        "cours luxembourgeois",
+        "cours luxembourgeois en ligne"
+      ],
+      "maxVolumeLu": 110,
+      "useFor": [
+        "adjacent demand check",
+        "message mining",
+        "missed opportunities"
+      ]
+    },
+    {
+      "keyword": "cours luxembourgeois en ligne gratuit",
+      "followUpTier": "P2",
+      "category": "variation",
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "sourceKeywords": [
+        "cours luxembourgeois",
+        "cours luxembourgeois en ligne"
+      ],
+      "maxVolumeLu": 90,
+      "useFor": [
+        "adjacent demand check",
+        "message mining",
+        "missed opportunities"
+      ]
+    },
+    {
+      "keyword": "sproochentest examples",
+      "followUpTier": "P2",
+      "category": "variation",
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "sourceKeywords": [
+        "sproochentest",
+        "sproochentest examples"
+      ],
+      "maxVolumeLu": 70,
+      "useFor": [
+        "adjacent demand check",
+        "message mining",
+        "missed opportunities"
+      ]
+    },
+    {
+      "keyword": "formation agent de sécurité luxembourg",
+      "followUpTier": "P2",
+      "category": "variation",
+      "lanes": [
+        "continuing_education"
+      ],
+      "sourceKeywords": [
+        "formation luxembourg"
+      ],
+      "maxVolumeLu": 1300,
+      "useFor": [
+        "message mining",
+        "reference-market sanity check"
+      ]
+    },
+    {
+      "keyword": "sproochentest",
+      "followUpTier": "P2",
+      "category": "variation",
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "sourceKeywords": [
+        "sproochentest"
+      ],
+      "maxVolumeLu": 880,
+      "useFor": [
+        "message mining",
+        "reference-market sanity check"
+      ]
+    },
+    {
+      "keyword": "formation lu",
+      "followUpTier": "P2",
+      "category": "variation",
+      "lanes": [
+        "continuing_education"
+      ],
+      "sourceKeywords": [
+        "formation lu"
+      ],
+      "maxVolumeLu": 720,
+      "useFor": [
+        "message mining",
+        "reference-market sanity check"
+      ]
+    },
+    {
+      "keyword": "formation luxembourg",
+      "followUpTier": "P2",
+      "category": "variation",
+      "lanes": [
+        "continuing_education"
+      ],
+      "sourceKeywords": [
+        "formation luxembourg"
+      ],
+      "maxVolumeLu": 720,
+      "useFor": [
+        "message mining",
+        "reference-market sanity check"
+      ]
+    },
+    {
+      "keyword": "learn luxembourgish online",
+      "followUpTier": "P2",
+      "category": "variation",
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "sourceKeywords": [
+        "learn luxembourgish online"
+      ],
+      "maxVolumeLu": 480,
+      "useFor": [
+        "message mining",
+        "reference-market sanity check"
+      ]
+    },
+    {
+      "keyword": "french classes luxembourg",
+      "followUpTier": "P2",
+      "category": "variation",
+      "lanes": [
+        "french_language"
+      ],
+      "sourceKeywords": [
+        "french classes luxembourg"
+      ],
+      "maxVolumeLu": 390,
+      "useFor": [
+        "message mining",
+        "reference-market sanity check"
+      ]
+    },
+    {
+      "keyword": "french courses luxembourg",
+      "followUpTier": "P2",
+      "category": "variation",
+      "lanes": [
+        "french_language"
+      ],
+      "sourceKeywords": [
+        "french courses luxembourg"
+      ],
+      "maxVolumeLu": 390,
+      "useFor": [
+        "message mining",
+        "reference-market sanity check"
+      ]
+    }
+  ]
+}

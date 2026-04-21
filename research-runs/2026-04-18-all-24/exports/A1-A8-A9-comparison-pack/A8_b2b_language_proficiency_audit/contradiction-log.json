@@ -1,0 +1,80 @@
+{
+  "schema_version": "research_v2_contradiction_log_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A8",
+  "product_title": "B2B Language Proficiency Audit",
+  "generated_at": "2026-04-18T13:04:48Z",
+  "contradictions": [
+    {
+      "contradiction_id": "cd_001",
+      "claim_id": "ext_003",
+      "claim_text": "Pearson, Cambridge and Pipplet are generic, English-focused competitors.",
+      "status": "contradicted",
+      "severity": "high",
+      "blocking": true,
+      "why_it_fails": "Pearson and Cambridge are English-centered, but Pipplet and Allingua are plainly multilingual and not English-only. The blanket market framing does not survive a basic contradiction search.",
+      "supporting_source_ids": [
+        "pearson_versant",
+        "cambridge_workplace_exams",
+        "cambridge_skills_test_business"
+      ],
+      "supporting_quote_ids": [
+        "q_pearson_versant_001",
+        "q_pearson_versant_002",
+        "q_cambridge_wp_001",
+        "q_cambridge_cs_001"
+      ],
+      "contradicting_source_ids": [
+        "allingua_about",
+        "pipplet_luxembourgish"
+      ],
+      "contradicting_quote_ids": [
+        "q_allingua_001",
+        "q_allingua_002",
+        "q_allingua_003",
+        "q_pipplet_001",
+        "q_pipplet_002",
+        "q_pipplet_003"
+      ],
+      "resolution": "Rewrite the competitor landscape as mixed: some English-focused providers plus some multilingual and Luxembourg-linked providers."
+    },
+    {
+      "contradiction_id": "cd_002",
+      "claim_id": "ext_004",
+      "claim_text": "Nobody does a Luxembourg-specific trilingual language audit.",
+      "status": "contradicted",
+      "severity": "medium",
+      "blocking": true,
+      "why_it_fails": "The claim is absolute and does not hold. Allingua is Luxembourg-based and offers multi-language testing/reporting; Pipplet offers Luxembourgish organizational testing with CEFR-aligned reports. No exact clone of the proposed package was found, but that is not the same as 'nobody'.",
+      "supporting_source_ids": [
+        "allingua_about",
+        "pipplet_luxembourgish"
+      ],
+      "supporting_quote_ids": [
+        "q_allingua_001",
+        "q_allingua_002",
+        "q_allingua_003",
+        "q_pipplet_001",
+        "q_pipplet_002",
+        "q_pipplet_003"
+      ],
+      "contradicting_source_ids": [
+        "allingua_about",
+        "pipplet_luxembourgish"
+      ],
+      "contradicting_quote_ids": [
+        "q_allingua_001",
+        "q_allingua_002",
+        "q_allingua_003",
+        "q_pipplet_001",
+        "q_pipplet_002",
+        "q_pipplet_003"
+      ],
+      "resolution": "Drop the absolute uniqueness claim. At most say the exact package was not located in this search."
+    }
+  ],
+  "notes": [
+    "No unresolved T1 contradiction remains.",
+    "The numeric employer-test statistic was not promoted to contradiction status because no primary source confirmed it."
+  ]
+}

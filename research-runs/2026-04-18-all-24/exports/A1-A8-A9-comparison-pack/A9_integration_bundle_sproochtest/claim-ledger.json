@@ -1,0 +1,308 @@
+{
+  "schema_version": "claim_ledger_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A9",
+  "product_title": "Integration Bundle (Sproochtest+)",
+  "analysis_timestamp": "2026-04-18T14:00:45Z",
+  "jurisdictions": [
+    "Luxembourg"
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_001",
+      "origin": "v2_rederived_claim",
+      "category": "exam",
+      "claim_text": "The nationality route requires a Luxembourgish language test pass certificate plus completion of the 'Vivre ensemble au Grand-Duché de Luxembourg' course or exam.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_naturalisation"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_001",
+        "q_002"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Core official route fact."
+    },
+    {
+      "claim_id": "claim_002",
+      "origin": "v2_rederived_claim",
+      "category": "exam",
+      "claim_text": "The Sproochentest assesses A2 oral expression and B1 oral understanding, and preparatory courses are organised by INLL, the Service de la formation des adultes, and partners.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "men_citizenship_courses"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_003"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is the safest public wording for the exam structure."
+    },
+    {
+      "claim_id": "claim_003",
+      "origin": "v2_rederived_claim",
+      "category": "exam",
+      "claim_text": "The Sproochentest is the only recognised certification for applying for Luxembourgish nationality, and the certificate remains valid for an unlimited period.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "inll_faq"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_004",
+        "q_005"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Useful for separating the official certificate from private prep-course participation documents."
+    },
+    {
+      "claim_id": "claim_004",
+      "origin": "v2_rederived_claim",
+      "category": "integration_course",
+      "claim_text": "The 'Vivre ensemble' route includes a 24-hour course or exam, and online courses are also offered in English.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "men_citizenship_courses"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_006",
+        "q_007"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This confirms the civic/integration side of the route."
+    },
+    {
+      "claim_id": "claim_005",
+      "origin": "v2_rederived_claim",
+      "category": "funding",
+      "claim_text": "The Sproochentest registration fee is EUR 75, and reimbursement claims for the test and approved course fees can only be filed after the nationality application has been submitted.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "guichet_conditions_prealables"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_008",
+        "q_009"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "This is the safe reimbursement wording; it avoids compressing separate reimbursement routes into one slogan."
+    },
+    {
+      "claim_id": "claim_006",
+      "origin": "v2_rederived_claim",
+      "category": "approval",
+      "claim_text": "Nationality-law Luxembourgish course certificates require ministerial accreditation and article-28 compliant course conditions.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "men_citizenship_courses"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_010",
+        "q_011"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Critical route distinction for any bundle making reimbursement or official-course claims."
+    },
+    {
+      "claim_id": "claim_007",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "ETIC sells a live Sproochentest preparation platform with annual and monthly pricing, and states that official exam registration is handled separately through INLL.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "etic_sproochentest"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_012",
+        "q_013"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Direct market competitor."
+    },
+    {
+      "claim_id": "claim_008",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "Prolingua offers accredited Luxembourgish nationality-oriented course packages and publicly lists a 745 euro group-course price point.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "prolingua_nationality_courses"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_014"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Direct market competitor."
+    },
+    {
+      "claim_id": "claim_009",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "Lux'Languages sells online individual Sproochentest preparation for 750 euros and issues only an attendance certificate.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "luxlanguages_sproochentest_individual"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_015",
+        "q_016"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Important evidence that private prep certificates are not the same as the official Sproochentest certificate."
+    },
+    {
+      "claim_id": "claim_010",
+      "origin": "v2_rederived_claim",
+      "category": "competitor",
+      "claim_text": "LuxLessons markets intensive Sproochentest preparation as an online course and publicly advertises a free tier.",
+      "jurisdiction": "Luxembourg",
+      "status": "verified",
+      "confidence_band": "high",
+      "supporting_source_ids": [
+        "luxlessons_course"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_018",
+        "q_019",
+        "q_020"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "Direct substitute in the same market."
+    },
+    {
+      "claim_id": "ext_003",
+      "origin": "legacy_external_claim",
+      "category": "funding",
+      "claim_text": "Language course fees can be reimbursed by the State up to 750 euros, and Sproochentest registration fees can be reimbursed up to 75 euros after a successful exam in the nationality procedure.",
+      "jurisdiction": "Luxembourg",
+      "status": "blocked",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [
+        "guichet_conditions_prealables",
+        "etic_sproochentest",
+        "luxlanguages_sproochentest_individual"
+      ],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [
+        "q_008",
+        "q_009",
+        "q_017"
+      ],
+      "contradicting_quote_ids": [],
+      "notes": "The reimbursement route exists, but the legacy wording compresses several conditions and mixes course reimbursement with exam-fee reimbursement."
+    },
+    {
+      "claim_id": "ext_004",
+      "origin": "legacy_external_claim",
+      "category": "competitor_gap",
+      "claim_text": "No integration bundle competitor exists.",
+      "jurisdiction": "Luxembourg",
+      "status": "contradicted",
+      "confidence_band": "blocked",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [
+        "men_citizenship_courses",
+        "etic_sproochentest",
+        "prolingua_nationality_courses",
+        "luxlanguages_sproochentest_individual",
+        "luxlessons_course"
+      ],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [
+        "q_003",
+        "q_012",
+        "q_013",
+        "q_014",
+        "q_015",
+        "q_018",
+        "q_019",
+        "q_020"
+      ],
+      "notes": "The exact bundle format may differ, but the market is not empty."
+    },
+    {
+      "claim_id": "int_001",
+      "origin": "legacy_internal_claim",
+      "category": "competitor_gap",
+      "claim_text": "Educateme is already #1 in Sproochtest, so this is a pure upsell.",
+      "jurisdiction": "Internal",
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Market leadership and pure-upsell positioning are not public facts."
+    },
+    {
+      "claim_id": "int_002",
+      "origin": "legacy_internal_claim",
+      "category": "scope_fit",
+      "claim_text": "No new traffic is needed because existing students are enough.",
+      "jurisdiction": "Internal",
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Go-to-market assumption only."
+    },
+    {
+      "claim_id": "int_003",
+      "origin": "legacy_internal_claim",
+      "category": "numeric_claim",
+      "claim_text": "The bundle can be launched with only about 2K of investment.",
+      "jurisdiction": "Internal",
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Internal estimate only."
+    },
+    {
+      "claim_id": "int_004",
+      "origin": "legacy_internal_claim",
+      "category": "other",
+      "claim_text": "The product is low risk.",
+      "jurisdiction": "Internal",
+      "status": "unclear",
+      "confidence_band": "low",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [],
+      "notes": "Judgment, not a verified fact."
+    }
+  ]
+}

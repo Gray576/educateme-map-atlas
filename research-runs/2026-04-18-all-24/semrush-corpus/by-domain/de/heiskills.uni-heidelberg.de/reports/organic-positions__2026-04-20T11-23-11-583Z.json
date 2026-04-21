@@ -1,0 +1,922 @@
+{
+  "meta": {
+    "capturedAt": "2026-04-20T11:23:11.583Z",
+    "reportType": "organic-positions",
+    "database": "de",
+    "query": "heiskills.uni-heidelberg.de",
+    "title": "uni-heidelberg.de: Positions, Organic Rankings",
+    "url": "https://www.semrush.com/analytics/organic/positions/?db=de&q=heiskills.uni-heidelberg.de&searchType=domain",
+    "pathname": "/analytics/organic/positions/",
+    "searchType": "domain",
+    "sourcePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__de__heiskillsuni-heidelbergde__organic-positions__2026-04-20T11-23-11-760Z.json",
+    "scopeType": "domain",
+    "scopeSlug": "heiskills.uni-heidelberg.de"
+  },
+  "summary": {
+    "pageIdentity": "uni-heidelberg.de: Positions, Organic Rankings",
+    "queryOrDomain": "heiskills.uni-heidelberg.de",
+    "topMetrics": {
+      "keywords": "236.1K",
+      "traffic": "835.4K",
+      "trafficCost": "$317.3K"
+    },
+    "tableCount": 0,
+    "networkCount": 0
+  },
+  "structured": {
+    "domainRankingSummary": {
+      "keywords": "All PositionsOrganicSERP FeaturesPositionsVolumeKDIntentSERP FeaturesAdvanced filtersKeywords236.1K-10.97%0Traffic835.4K13.35%0Traffic Cost$317.3K15.22%Organic Keywords TrendTop 34-1011-2021-5051-100SERP FeaturesNotes1M6M1Y2YAll timeMar 20Mar 22Mar 24Mar 26Mar 28Mar 30Apr 1Apr 3Apr 5Apr 7Apr 9Apr 11Apr 13Apr 15Apr 17Apr 190100K200K300K400K000000Press \"Tab\" to enable graphical charts accessibility module.Where do you rank on ChatGPT?Create a new project to see your positions.Set up TrackingOrganic Search Positions:236,074Add to list10/15KeywordIntentPositionSFTrafficTraffic %VolumeKD %URLUpdatedSortableuni heidelbergIN1514.5K1.7318.1K71www.uni-heidelberg.de/de2 daysheidiI158.2K0.9833.1K62www.ub.uni-heidelberg.de/de/literatursuche/kataloge/heidiApr 13heicoN137.9K0.949.9K52heico.uni-heidelberg.de/1 dayheidelberg universityN157.9K0.949.9K73www.uni-heidelberg.de/de2 dayssogo uni heidelbergN117.9K0.949.9K24sogo.uni-heidelberg.de/SOGo/3 daysuniklinik heidelbergN157.9K0.949.9K45www.klinikum.uni-heidelberg.de/2 daysuniversität heidelbergN156.5K0.778.1K50www.uni-heidelberg.de/de2 daysheico uni heidelbergN136.5K0.778.1K24heico.uni-heidelberg.de/1 daymoodle uni heidelbergN125.3K0.636.6K23www.urz.uni-heidelberg.de/de/service-katalog/collaboration-und-digitale-lehre/moodle2 daysmona lisaI365K0.5960.5K32www.uni-heidelberg.de/presse/unispiegel/us08-1/id.htmlApr 13studierendenwerk heidelbergN133.5K0.424.4K29www.stw.uni-heidelberg.de/Apr 14universitätsklinikum heidelbergN153.5K0.424.4K30www.klinikum.uni-heidelberg.de/Apr 16heidelberg uniN163.5K0.424.4K34www.uni-heidelberg.de/deApr 15heidelbergN373K0.36301K89www.uni-heidelberg.de/de3 daysheico heidelbergN132.9K0.343.6K24heico.uni-heidelberg.de/Apr 16studentenwerk heidelbergN152.9K0.343.6K31www.stw.uni-heidelberg.de/4 daysuniversität heidelberg heidelbergN162.9K0.343.6K52www.uni-heidelberg.de/de1 daykopfklinik heidelbergNT152.9K0.343.6K28www.klinikum.uni-heidelberg.de/kopfklinik-zentrum/Apr 14heidi uni heidelbergN132.9K0.343.6K41www.ub.uni-heidelberg.de/de/literatursuche/kataloge/heidiApr 15normaler blutdruckI282.7K0.3233.1K34www.klinikum.uni-heidelberg.de/zentrum-fuer-innere-medizin-medizin-klinik/innere-medizin-iii-kardiologie-angiologie-und-pneumologie/fuer-patienten/ratgeber-patientenbroschuere/normaler-blutdruck/2 daysheidelberg universitätN142.3K0.272.9K40www.uni-heidelberg.de/de2 dayshautklinik heidelbergN162.3K0.272.9K30www.klinikum.uni-heidelberg.de/hautklinik-zentrum/hautklinik/Apr 15heidi heidelbergN142.3K0.272.9K39www.ub.uni-heidelberg.de/de/literatursuche/kataloge/heidi3 dayschirurgische klinik universitätsklinikum heidelbergN162.3K0.272.9K28www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/Apr 13unibib heidelbergN142.3K0.272.9K33www.ub.uni-heidelberg.de/de3 daysübersetzungI2332.3K0.261.5M100www.iued.uni-heidelberg.de/4 daysblutdruckwerteI462.2K0.2649.5K46www.klinikum.uni-heidelberg.de/zentrum-fuer-innere-medizin-medizin-klinik/innere-medizin-iii-kardiologie-angiologie-und-pneumologie/fuer-patienten/ratgeber-patientenbroschuere/normaler-blutdruck/Apr 13nierenbeckenentzündungI362.2K0.2533.1K57www.klinikum.uni-heidelberg.de/erkrankungen/nierenbeckenentzuendung-200227/Apr 16lichen sclerosusI352.2K0.2533.1K32www.klinikum.uni-heidelberg.de/erkrankungen/lichen-sclerosus/Apr 13unfallchirurgieC52K0.248.1K41www.klinikum.uni-heidelberg.de/zentrum-fuer-orthopaedie-unfallchirurgie-und-paraplegiologieApr 15frauenklinik heidelbergN41.9K0.222.4K32www.klinikum.uni-heidelberg.de/frauenklinikMar 08heidelberg uniklinikN51.9K0.222.4K50www.klinikum.uni-heidelberg.de/Apr 13mail uni heidelbergN111.9K0.222.4K30www.urz.uni-heidelberg.de/de/service-katalog/e-mail-und-groupware/standard-e-mail-kontoMar 07hochschulsport heidelbergN151.9K0.222.4K28www.hochschulsport.uni-heidelberg.de/deMar 10klinik heidelbergN51.9K0.222.4K59www.klinikum.uni-heidelberg.de/3 daysmagengeschwürI261.8K0.2122.2K61www.klinikum.uni-heidelberg.de/erkrankungen/magengeschwuer-2000692 daysmüsliIT351.8K0.2122.2K60muesli.mathi.uni-heidelberg.de/Apr 16blutdruck normalI461.7K0.2049.5K35www.klinikum.uni-heidelberg.de/zentrum-fuer-innere-medizin-medizin-klinik/innere-medizin-iii-kardiologie-angiologie-und-pneumologie/fuer-patienten/ratgeber-patientenbroschuere/normaler-blutdruck/2 daysdivertikulitisI61.7K0.2049.5K57www.klinikum.uni-heidelberg.de/erkrankungen/divertikulitis-200047Apr 15nierenkolikI141.6K0.1912.1K21www.klinikum.uni-heidelberg.de/erkrankungen/nierenkolik/Apr 16heiboxN131.5K0.181.9K24www.urz.uni-heidelberg.de/de/service-katalog/collaboration-und-digitale-lehre/heiboxFeb 27uni heidelberg heidiN131.5K0.181.9K41www.ub.uni-heidelberg.de/de/literatursuche/kataloge/heidiMar 14karl ruprecht universität heidelbergIT141.5K0.181.9K29www.uni-heidelberg.de/deFeb 28universitätsbibliothek heidelbergN151.5K0.181.9K50www.ub.uni-heidelberg.de/de2 daysbibliothek heidelbergC51.5K0.181.9K40www.ub.uni-heidelberg.de/2 daysruprecht karls heidelbergN151.5K0.181.9K38www.uni-heidelberg.de/deMar 25heidelberg university libraryN151.5K0.181.9K43www.ub.uni-heidelberg.de/enMar 11exchange uni heidelbergN111.5K0.181.9K22www.urz.uni-heidelberg.de/de/service-katalog/e-mail-und-groupware/e-mail-konto-ueber-exchangeMar 11unisport heidelbergN141.5K0.181.9K28www.hochschulsport.uni-heidelberg.de/deApr 16ruprecht karls universitätN161.5K0.181.9K29www.uni-heidelberg.de/deFeb 26unimedizin heidelbergN131.5K0.181.9K36www.klinikum.uni-heidelberg.de/Mar 17heidelberg kopfklinikN161.5K0.181.9K28www.klinikum.uni-heidelberg.de/kopfklinik-zentrum/Mar 06uniklinikum heidelbergN141.5K0.181.9K65www.klinikum.uni-heidelberg.de/Mar 13influenza bI661.5K0.1749.5K31www.klinikum.uni-heidelberg.de/fileadmin/betriebsarzt/PDF/Influenza.pdf4 daysleberzirrhoseI661.5K0.1760.5K36www.klinikum.uni-heidelberg.de/erkrankungen/leberzirrhose-200061Apr 16allI341.4K0.1722.2K22www.klinikum.uni-heidelberg.de/erkrankungen/akute-lymphatische-leukaemie-all-20271317 hoursblutdruckI681.4K0.1674K37www.klinikum.uni-heidelberg.de/zentrum-fuer-innere-medizin-medizin-klinik/innere-medizin-iii-kardiologie-angiologie-und-pneumologie/fuer-patienten/ratgeber-patientenbroschuere/normaler-blutdruck/Apr 16magengeschwürI61.3K0.1622.2K61www.klinikum.uni-heidelberg.de/erkrankungen/magengeschwuer-2000692 daysmaster scientificI141.3K0.165.4K27www.mathinf.uni-heidelberg.de/de/studium/studiengaenge/master-scientific-computingApr 13orthopäde heidelbergC51.3K0.165.4K48www.klinikum.uni-heidelberg.de/zentrum-fuer-orthopaedie-unfallchirurgie-und-paraplegiologie2 daysruprecht karls universität heidelbergN151.3K0.151.6K39www.uni-heidelberg.de/de2 daysheidelberg uni mailI111.3K0.151.6K30www.urz.uni-heidelberg.de/de/service-katalog/e-mail-und-groupware/standard-e-mail-kontoFeb 28uni heidelberg libraryN151.3K0.151.6K31www.ub.uni-heidelberg.de/deFeb 25university of heidelbergN161.3K0.151.6K58www.uni-heidelberg.de/deFeb 25uni heidelberg moodleN111.3K0.151.6K24www.urz.uni-heidelberg.de/de/service-katalog/collaboration-und-digitale-lehre/moodleMar 01heidelberg hautklinikNT131.3K0.151.6K30www.klinikum.uni-heidelberg.de/hautklinik-zentrum/hautklinik/Mar 08sogoI241.2K0.1414.8K30sogo.uni-heidelberg.de/SOGo/2 daysuni heidelberg sportN121K0.121.3K28www.hochschulsport.uni-heidelberg.de/deApr 09semesterzeiten uni heidelbergN121K0.121.3K25www.uni-heidelberg.de/de/studium/studienorganisation/termine-und-fristenMar 03heidelberger universitätN151K0.121.3K38www.uni-heidelberg.de/deApr 16uni heidelberg semesterzeitenIT131K0.121.3K25www.uni-heidelberg.de/de/studium/studienorganisation/termine-und-fristen/weitere-semesterzeitenFeb 24anglistisches seminar heidelbergN141K0.121.3K30www.uni-heidelberg.de/de/studium/alle-studienfaecher/english-studiesanglistikMar 29heidelberger klinikN161K0.121.3K62www.klinikum.uni-heidelberg.de/21 hoursheidelberger uniN151K0.121.3K56www.uni-heidelberg.de/deMar 07heidelberg hochschulsportN151K0.121.3K28www.hochschulsport.uni-heidelberg.de/deMar 01campus bibliothek bergheimNT151K0.121.3K27www.wiso.uni-heidelberg.de/de/campus-bibliothek-bergheimApr 10neurochirurgie heidelbergN151K0.121.3K28www.klinikum.uni-heidelberg.de/kopfklinik-zentrum/neurochirurgische-klinik/Apr 10heidelberg university germanyIT161K0.121.3K54www.uni-heidelberg.de/deMar 01uni hd heidiN131K0.121.3K41www.ub.uni-heidelberg.de/de/literatursuche/kataloge/heidiMar 01psychiatrie heidelbergN61K0.121.3K31www.klinikum.uni-heidelberg.de/Klinik-fuer-Allgemeine-Psychiatrie.8791.0.html1 daymail heidelberg uniN111K0.121.3K22www.urz.uni-heidelberg.de/de/service-katalog/e-mail-und-groupware/e-mail-serverMar 11uni of heidelbergN151K0.121.3K35www.uni-heidelberg.de/deApr 02heidelberg heidiN131K0.121.3K36www.ub.uni-heidelberg.de/de/literatursuche/kataloge/heidiMar 08uni heidelberg stellenangeboteNT131K0.121.3K22www.uni-heidelberg.de/de/stellenmarktMar 12e mail uni heidelbergN111K0.121.3K26www.urz.uni-heidelberg.de/de/service-katalog/e-mail-und-groupware/standard-e-mail-kontoApr 16übersetzenI2241K0.12673K86www.iued.uni-heidelberg.de/Apr 15zysteI559930.1133.1K32www.klinikum.uni-heidelberg.de/erkrankungen/zysten-des-eierstocks-2003273 daysmilz schmerzenI259920.1112.1K16www.klinikum.uni-heidelberg.de/erkrankungen/milzvergroesserung-200076/Apr 15nihilismusI69760.1114.8K33archiv.ub.uni-heidelberg.de/volltextserver/31498/7/Cürsgen_Nihilismus.pdf19 hoursfeiertageI939400.1149.5K52www.psychologie.uni-heidelberg.de/semester/feiertage18 hoursleistenbruchI669400.1149.5K27www.klinikum.uni-heidelberg.de/erkrankungen/leistenbruch-200067/4 daysmonalisaI368110.099.9K35www.uni-heidelberg.de/presse/unispiegel/us08-1/id.htmlApr 13schinderhannesI368110.099.9K42www.klinikum.uni-heidelberg.de/newsroom/historischer-raeuber-schinderhannes-eindeutig-identifiziert/2 dayskardioversionI268110.099.9K27www.klinikum.uni-heidelberg.de/verfahren/elektrische-und-medikamentoese-kardioversion-200581Apr 16uni hd sportN138000.091K22www.hochschulsport.uni-heidelberg.de/deMar 13hno klinik heidelbergN48000.091K20www.klinikum.uni-heidelberg.de/kopfklinik-zentrum/hals-nasen-und-ohrenklinikMar 06heidelberg klinik hnoN158000.091K23www.klinikum.uni-heidelberg.de/kopfklinik-zentrum/hals-nasen-und-ohrenklinik/Mar 02ruprecht karl university of heidelbergN158000.091K25www.uni-heidelberg.de/deApr 08heidelberg mensaN168000.091K30www.stw.uni-heidelberg.de/de/speiseplanMar 15heidelberg kinderklinikIN158000.091K26www.klinikum.uni-heidelberg.de/einrichtungen/zentrum-fuer-kinder-und-jugendmedizin-kinderklinik-21/Mar 03PrevNextPage:of2,361Page: 1",
+      "traffic": "Traffic835.4K13.35%0",
+      "trafficCost": "Traffic Cost$317.3K15.22%"
+    },
+    "topRankingRows": [
+      {
+        "keyword": "uni heidelberg",
+        "intents": [
+          "I",
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "5",
+        "traffic": "14.5K",
+        "trafficPercent": "1.73",
+        "volume": "18.1K",
+        "kd": "71",
+        "url": "https://www.uni-heidelberg.de/de",
+        "updated": "2 days"
+      },
+      {
+        "keyword": "heidi",
+        "intents": [
+          "I"
+        ],
+        "position": "1",
+        "serpFeatures": "5",
+        "traffic": "8.2K",
+        "trafficPercent": "0.98",
+        "volume": "33.1K",
+        "kd": "62",
+        "url": "https://www.ub.uni-heidelberg.de/de/literatursuche/kataloge/heidi",
+        "updated": "Apr 13"
+      },
+      {
+        "keyword": "heico",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "3",
+        "traffic": "7.9K",
+        "trafficPercent": "0.94",
+        "volume": "9.9K",
+        "kd": "52",
+        "url": "https://heico.uni-heidelberg.de/",
+        "updated": "1 day"
+      },
+      {
+        "keyword": "heidelberg university",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "5",
+        "traffic": "7.9K",
+        "trafficPercent": "0.94",
+        "volume": "9.9K",
+        "kd": "73",
+        "url": "https://www.uni-heidelberg.de/de",
+        "updated": "2 days"
+      },
+      {
+        "keyword": "sogo uni heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "1",
+        "traffic": "7.9K",
+        "trafficPercent": "0.94",
+        "volume": "9.9K",
+        "kd": "24",
+        "url": "https://sogo.uni-heidelberg.de/SOGo/",
+        "updated": "3 days"
+      },
+      {
+        "keyword": "uniklinik heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "5",
+        "traffic": "7.9K",
+        "trafficPercent": "0.94",
+        "volume": "9.9K",
+        "kd": "45",
+        "url": "https://www.klinikum.uni-heidelberg.de/",
+        "updated": "2 days"
+      },
+      {
+        "keyword": "universität heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "5",
+        "traffic": "6.5K",
+        "trafficPercent": "0.77",
+        "volume": "8.1K",
+        "kd": "50",
+        "url": "https://www.uni-heidelberg.de/de",
+        "updated": "2 days"
+      },
+      {
+        "keyword": "heico uni heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "3",
+        "traffic": "6.5K",
+        "trafficPercent": "0.77",
+        "volume": "8.1K",
+        "kd": "24",
+        "url": "https://heico.uni-heidelberg.de/",
+        "updated": "1 day"
+      },
+      {
+        "keyword": "moodle uni heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "2",
+        "traffic": "5.3K",
+        "trafficPercent": "0.63",
+        "volume": "6.6K",
+        "kd": "23",
+        "url": "https://www.urz.uni-heidelberg.de/de/service-katalog/collaboration-und-digitale-lehre/moodle",
+        "updated": "2 days"
+      },
+      {
+        "keyword": "mona lisa",
+        "intents": [
+          "I"
+        ],
+        "position": "3",
+        "serpFeatures": "6",
+        "traffic": "5K",
+        "trafficPercent": "0.59",
+        "volume": "60.5K",
+        "kd": "32",
+        "url": "https://www.uni-heidelberg.de/presse/unispiegel/us08-1/id.html",
+        "updated": "Apr 13"
+      },
+      {
+        "keyword": "studierendenwerk heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "3",
+        "traffic": "3.5K",
+        "trafficPercent": "0.42",
+        "volume": "4.4K",
+        "kd": "29",
+        "url": "https://www.stw.uni-heidelberg.de/",
+        "updated": "Apr 14"
+      },
+      {
+        "keyword": "universitätsklinikum heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "5",
+        "traffic": "3.5K",
+        "trafficPercent": "0.42",
+        "volume": "4.4K",
+        "kd": "30",
+        "url": "https://www.klinikum.uni-heidelberg.de/",
+        "updated": "Apr 16"
+      },
+      {
+        "keyword": "heidelberg uni",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "6",
+        "traffic": "3.5K",
+        "trafficPercent": "0.42",
+        "volume": "4.4K",
+        "kd": "34",
+        "url": "https://www.uni-heidelberg.de/de",
+        "updated": "Apr 15"
+      },
+      {
+        "keyword": "heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "3",
+        "serpFeatures": "7",
+        "traffic": "3K",
+        "trafficPercent": "0.36",
+        "volume": "301K",
+        "kd": "89",
+        "url": "https://www.uni-heidelberg.de/de",
+        "updated": "3 days"
+      },
+      {
+        "keyword": "heico heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "3",
+        "traffic": "2.9K",
+        "trafficPercent": "0.34",
+        "volume": "3.6K",
+        "kd": "24",
+        "url": "https://heico.uni-heidelberg.de/",
+        "updated": "Apr 16"
+      },
+      {
+        "keyword": "studentenwerk heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "5",
+        "traffic": "2.9K",
+        "trafficPercent": "0.34",
+        "volume": "3.6K",
+        "kd": "31",
+        "url": "https://www.stw.uni-heidelberg.de/",
+        "updated": "4 days"
+      },
+      {
+        "keyword": "universität heidelberg heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "6",
+        "traffic": "2.9K",
+        "trafficPercent": "0.34",
+        "volume": "3.6K",
+        "kd": "52",
+        "url": "https://www.uni-heidelberg.de/de",
+        "updated": "1 day"
+      },
+      {
+        "keyword": "kopfklinik heidelberg",
+        "intents": [
+          "N",
+          "T"
+        ],
+        "position": "1",
+        "serpFeatures": "5",
+        "traffic": "2.9K",
+        "trafficPercent": "0.34",
+        "volume": "3.6K",
+        "kd": "28",
+        "url": "https://www.klinikum.uni-heidelberg.de/kopfklinik-zentrum/",
+        "updated": "Apr 14"
+      },
+      {
+        "keyword": "heidi uni heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "3",
+        "traffic": "2.9K",
+        "trafficPercent": "0.34",
+        "volume": "3.6K",
+        "kd": "41",
+        "url": "https://www.ub.uni-heidelberg.de/de/literatursuche/kataloge/heidi",
+        "updated": "Apr 15"
+      },
+      {
+        "keyword": "normaler blutdruck",
+        "intents": [
+          "I"
+        ],
+        "position": "2",
+        "serpFeatures": "8",
+        "traffic": "2.7K",
+        "trafficPercent": "0.32",
+        "volume": "33.1K",
+        "kd": "34",
+        "url": "https://www.klinikum.uni-heidelberg.de/zentrum-fuer-innere-medizin-medizin-klinik/innere-medizin-iii-kardiologie-angiologie-und-pneumologie/fuer-patienten/ratgeber-patientenbroschuere/normaler-blutdruck/",
+        "updated": "2 days"
+      },
+      {
+        "keyword": "heidelberg universität",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "4",
+        "traffic": "2.3K",
+        "trafficPercent": "0.27",
+        "volume": "2.9K",
+        "kd": "40",
+        "url": "https://www.uni-heidelberg.de/de",
+        "updated": "2 days"
+      },
+      {
+        "keyword": "hautklinik heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "6",
+        "traffic": "2.3K",
+        "trafficPercent": "0.27",
+        "volume": "2.9K",
+        "kd": "30",
+        "url": "https://www.klinikum.uni-heidelberg.de/hautklinik-zentrum/hautklinik/",
+        "updated": "Apr 15"
+      },
+      {
+        "keyword": "heidi heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "4",
+        "traffic": "2.3K",
+        "trafficPercent": "0.27",
+        "volume": "2.9K",
+        "kd": "39",
+        "url": "https://www.ub.uni-heidelberg.de/de/literatursuche/kataloge/heidi",
+        "updated": "3 days"
+      },
+      {
+        "keyword": "chirurgische klinik universitätsklinikum heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "6",
+        "traffic": "2.3K",
+        "trafficPercent": "0.27",
+        "volume": "2.9K",
+        "kd": "28",
+        "url": "https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/",
+        "updated": "Apr 13"
+      },
+      {
+        "keyword": "unibib heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "4",
+        "traffic": "2.3K",
+        "trafficPercent": "0.27",
+        "volume": "2.9K",
+        "kd": "33",
+        "url": "https://www.ub.uni-heidelberg.de/de",
+        "updated": "3 days"
+      },
+      {
+        "keyword": "übersetzung",
+        "intents": [
+          "I"
+        ],
+        "position": "23",
+        "serpFeatures": "3",
+        "traffic": "2.3K",
+        "trafficPercent": "0.26",
+        "volume": "1.5M",
+        "kd": "100",
+        "url": "https://www.iued.uni-heidelberg.de/",
+        "updated": "4 days"
+      },
+      {
+        "keyword": "blutdruckwerte",
+        "intents": [
+          "I"
+        ],
+        "position": "4",
+        "serpFeatures": "6",
+        "traffic": "2.2K",
+        "trafficPercent": "0.26",
+        "volume": "49.5K",
+        "kd": "46",
+        "url": "https://www.klinikum.uni-heidelberg.de/zentrum-fuer-innere-medizin-medizin-klinik/innere-medizin-iii-kardiologie-angiologie-und-pneumologie/fuer-patienten/ratgeber-patientenbroschuere/normaler-blutdruck/",
+        "updated": "Apr 13"
+      },
+      {
+        "keyword": "nierenbeckenentzündung",
+        "intents": [
+          "I"
+        ],
+        "position": "3",
+        "serpFeatures": "6",
+        "traffic": "2.2K",
+        "trafficPercent": "0.25",
+        "volume": "33.1K",
+        "kd": "57",
+        "url": "https://www.klinikum.uni-heidelberg.de/erkrankungen/nierenbeckenentzuendung-200227/",
+        "updated": "Apr 16"
+      },
+      {
+        "keyword": "lichen sclerosus",
+        "intents": [
+          "I"
+        ],
+        "position": "3",
+        "serpFeatures": "5",
+        "traffic": "2.2K",
+        "trafficPercent": "0.25",
+        "volume": "33.1K",
+        "kd": "32",
+        "url": "https://www.klinikum.uni-heidelberg.de/erkrankungen/lichen-sclerosus/",
+        "updated": "Apr 13"
+      },
+      {
+        "keyword": "mail uni heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "1",
+        "traffic": "1.9K",
+        "trafficPercent": "0.22",
+        "volume": "2.4K",
+        "kd": "30",
+        "url": "https://www.urz.uni-heidelberg.de/de/service-katalog/e-mail-und-groupware/standard-e-mail-konto",
+        "updated": "Mar 07"
+      },
+      {
+        "keyword": "hochschulsport heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "5",
+        "traffic": "1.9K",
+        "trafficPercent": "0.22",
+        "volume": "2.4K",
+        "kd": "28",
+        "url": "https://www.hochschulsport.uni-heidelberg.de/de",
+        "updated": "Mar 10"
+      },
+      {
+        "keyword": "magengeschwür",
+        "intents": [
+          "I"
+        ],
+        "position": "2",
+        "serpFeatures": "6",
+        "traffic": "1.8K",
+        "trafficPercent": "0.21",
+        "volume": "22.2K",
+        "kd": "61",
+        "url": "https://www.klinikum.uni-heidelberg.de/erkrankungen/magengeschwuer-200069",
+        "updated": "2 days"
+      },
+      {
+        "keyword": "müsli",
+        "intents": [
+          "I",
+          "T"
+        ],
+        "position": "3",
+        "serpFeatures": "5",
+        "traffic": "1.8K",
+        "trafficPercent": "0.21",
+        "volume": "22.2K",
+        "kd": "60",
+        "url": "https://muesli.mathi.uni-heidelberg.de/",
+        "updated": "Apr 16"
+      },
+      {
+        "keyword": "blutdruck normal",
+        "intents": [
+          "I"
+        ],
+        "position": "4",
+        "serpFeatures": "6",
+        "traffic": "1.7K",
+        "trafficPercent": "0.20",
+        "volume": "49.5K",
+        "kd": "35",
+        "url": "https://www.klinikum.uni-heidelberg.de/zentrum-fuer-innere-medizin-medizin-klinik/innere-medizin-iii-kardiologie-angiologie-und-pneumologie/fuer-patienten/ratgeber-patientenbroschuere/normaler-blutdruck/",
+        "updated": "2 days"
+      },
+      {
+        "keyword": "nierenkolik",
+        "intents": [
+          "I"
+        ],
+        "position": "1",
+        "serpFeatures": "4",
+        "traffic": "1.6K",
+        "trafficPercent": "0.19",
+        "volume": "12.1K",
+        "kd": "21",
+        "url": "https://www.klinikum.uni-heidelberg.de/erkrankungen/nierenkolik/",
+        "updated": "Apr 16"
+      },
+      {
+        "keyword": "heibox",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "3",
+        "traffic": "1.5K",
+        "trafficPercent": "0.18",
+        "volume": "1.9K",
+        "kd": "24",
+        "url": "https://www.urz.uni-heidelberg.de/de/service-katalog/collaboration-und-digitale-lehre/heibox",
+        "updated": "Feb 27"
+      },
+      {
+        "keyword": "uni heidelberg heidi",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "3",
+        "traffic": "1.5K",
+        "trafficPercent": "0.18",
+        "volume": "1.9K",
+        "kd": "41",
+        "url": "https://www.ub.uni-heidelberg.de/de/literatursuche/kataloge/heidi",
+        "updated": "Mar 14"
+      },
+      {
+        "keyword": "karl ruprecht universität heidelberg",
+        "intents": [
+          "I",
+          "T"
+        ],
+        "position": "1",
+        "serpFeatures": "4",
+        "traffic": "1.5K",
+        "trafficPercent": "0.18",
+        "volume": "1.9K",
+        "kd": "29",
+        "url": "https://www.uni-heidelberg.de/de",
+        "updated": "Feb 28"
+      },
+      {
+        "keyword": "universitätsbibliothek heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "5",
+        "traffic": "1.5K",
+        "trafficPercent": "0.18",
+        "volume": "1.9K",
+        "kd": "50",
+        "url": "https://www.ub.uni-heidelberg.de/de",
+        "updated": "2 days"
+      },
+      {
+        "keyword": "ruprecht karls heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "5",
+        "traffic": "1.5K",
+        "trafficPercent": "0.18",
+        "volume": "1.9K",
+        "kd": "38",
+        "url": "https://www.uni-heidelberg.de/de",
+        "updated": "Mar 25"
+      },
+      {
+        "keyword": "heidelberg university library",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "5",
+        "traffic": "1.5K",
+        "trafficPercent": "0.18",
+        "volume": "1.9K",
+        "kd": "43",
+        "url": "https://www.ub.uni-heidelberg.de/en",
+        "updated": "Mar 11"
+      },
+      {
+        "keyword": "exchange uni heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "1",
+        "traffic": "1.5K",
+        "trafficPercent": "0.18",
+        "volume": "1.9K",
+        "kd": "22",
+        "url": "https://www.urz.uni-heidelberg.de/de/service-katalog/e-mail-und-groupware/e-mail-konto-ueber-exchange",
+        "updated": "Mar 11"
+      },
+      {
+        "keyword": "unisport heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "4",
+        "traffic": "1.5K",
+        "trafficPercent": "0.18",
+        "volume": "1.9K",
+        "kd": "28",
+        "url": "https://www.hochschulsport.uni-heidelberg.de/de",
+        "updated": "Apr 16"
+      },
+      {
+        "keyword": "ruprecht karls universität",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "6",
+        "traffic": "1.5K",
+        "trafficPercent": "0.18",
+        "volume": "1.9K",
+        "kd": "29",
+        "url": "https://www.uni-heidelberg.de/de",
+        "updated": "Feb 26"
+      },
+      {
+        "keyword": "unimedizin heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "3",
+        "traffic": "1.5K",
+        "trafficPercent": "0.18",
+        "volume": "1.9K",
+        "kd": "36",
+        "url": "https://www.klinikum.uni-heidelberg.de/",
+        "updated": "Mar 17"
+      },
+      {
+        "keyword": "heidelberg kopfklinik",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "6",
+        "traffic": "1.5K",
+        "trafficPercent": "0.18",
+        "volume": "1.9K",
+        "kd": "28",
+        "url": "https://www.klinikum.uni-heidelberg.de/kopfklinik-zentrum/",
+        "updated": "Mar 06"
+      },
+      {
+        "keyword": "uniklinikum heidelberg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "4",
+        "traffic": "1.5K",
+        "trafficPercent": "0.18",
+        "volume": "1.9K",
+        "kd": "65",
+        "url": "https://www.klinikum.uni-heidelberg.de/",
+        "updated": "Mar 13"
+      },
+      {
+        "keyword": "influenza b",
+        "intents": [
+          "I"
+        ],
+        "position": "6",
+        "serpFeatures": "6",
+        "traffic": "1.5K",
+        "trafficPercent": "0.17",
+        "volume": "49.5K",
+        "kd": "31",
+        "url": "https://www.klinikum.uni-heidelberg.de/fileadmin/betriebsarzt/PDF/Influenza.pdf",
+        "updated": "4 days"
+      },
+      {
+        "keyword": "leberzirrhose",
+        "intents": [
+          "I"
+        ],
+        "position": "6",
+        "serpFeatures": "6",
+        "traffic": "1.5K",
+        "trafficPercent": "0.17",
+        "volume": "60.5K",
+        "kd": "36",
+        "url": "https://www.klinikum.uni-heidelberg.de/erkrankungen/leberzirrhose-200061",
+        "updated": "Apr 16"
+      },
+      {
+        "keyword": "all",
+        "intents": [
+          "I"
+        ],
+        "position": "3",
+        "serpFeatures": "4",
+        "traffic": "1.4K",
+        "trafficPercent": "0.17",
+        "volume": "22.2K",
+        "kd": "22",
+        "url": "https://www.klinikum.uni-heidelberg.de/erkrankungen/akute-lymphatische-leukaemie-all-202713",
+        "updated": "17 hours"
+      }
+    ],
+    "diagnostics": {
+      "foundPositionsTable": true,
+      "extractedRows": 50
+    }
+  },
+  "segments": [
+    {
+      "name": "top",
+      "scrollY": 0,
+      "visibleHeadingCount": 3,
+      "visibleTableCount": 0,
+      "visibleLinkCount": 8,
+      "visibleTextLength": 674
+    },
+    {
+      "name": "metrics",
+      "scrollY": 788,
+      "visibleHeadingCount": 3,
+      "visibleTableCount": 0,
+      "visibleLinkCount": 38,
+      "visibleTextLength": 971
+    },
+    {
+      "name": "table",
+      "scrollY": 1308,
+      "visibleHeadingCount": 3,
+      "visibleTableCount": 0,
+      "visibleLinkCount": 50,
+      "visibleTextLength": 1165
+    }
+  ],
+  "entities": {
+    "domains": [],
+    "urls": [
+      "https://www.semrush.com/home/",
+      "https://www.semrush.com/seo/",
+      "https://www.semrush.com/ai-seo/overview/",
+      "https://www.semrush.com/analytics/traffic/",
+      "https://www.semrush.com/local-business/",
+      "https://www.semrush.com/content/",
+      "https://www.semrush.com/social-media/",
+      "https://www.semrush.com/advertising/",
+      "https://www.semrush.com/pr-toolkit/",
+      "https://static.semrush.com/organic-research/organic.9e29f9d1eaa6b745997b.js",
+      "https://static.semrush.com/organic-research/organic.e79f453b172758b8b6bd.js",
+      "https://",
+      "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&amp;display=swap",
+      "http://uni-heidelberg.de",
+      "http://www.w3.org/2000/svg",
+      "https://www.semrush.com/analytics/organic/positions/",
+      "https://www.semrush.com/__static__/semrush-logo-700.feda64a45b12.jpg",
+      "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap",
+      "https://aorta.clickagy.com/pixel.gif?clkgypv=jstag&amp;ws=1",
+      "https://aorta.clickagy.com/channel-sync/4?clkgypv=jstag&amp;ws=1",
+      "https://aorta.clickagy.com/pixel.gif?ch=319&amp;cm=f3831326784d3979a2d11776637629",
+      "https://js.adsrvr.org/up_loader.1.1.0.js",
+      "https://tags.clickagy.com/data.js?rnd=62fe5c0e6ad96",
+      "https://ws-assets.zoominfo.com/formcomplete.js",
+      "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMQ.js",
+      "https://analytics.tiktok.com/i18n/pixel/static/identify_5cff1caf.js",
+      "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=D1N4AQJC77U6G0ESFLB0&amp;lib=ttq",
+      "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C4FPRRVM9G8R5RJ0MPKG&amp;lib=ttq",
+      "https://s.yimg.com/wi/ytc.js",
+      "https://getrockerbox.com/customdomain/rp8920cf.semrush.com/wxyz.rb.js",
+      "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+      "https://bat.bing.com/bat.js",
+      "https://www.google-analytics.com/analytics.js",
+      "https://tags.srv.stackadapt.com/events.js",
+      "https://sdk.voyantis.io/d8x0anTvV24UqmERWFnln59AQOsoIyNVo9jf2JY0/vy-cs-sdk.min.js",
+      "https://connect.facebook.net/signals/config/239948206198576?v=2.9.300&amp;r=stable&amp;domain=www.semrush.com&amp;hme=c048e760b3fdc0fbdc117d7607b2c36e13eff2660c515ac72e86dac5ba060bb9&amp;ex_m=104%2C205%2C154%2C22%2C72%2C73%2C145%2C68%2C67%2C11%2C162%2C90%2C16%2C138%2C127%2C39%2C75%2C78%2C134%2C159%2C164%2C8%2C4%2C5%2C7%2C6%2C3%2C91%2C101%2C165%2C170%2C219%2C62%2C186%2C187%2C55%2C277%2C30%2C74%2C231%2C230%2C229%2C23%2C33%2C103%2C61%2C10%2C63%2C97%2C98%2C99%2C105%2C130%2C31%2C29%2C132%2C133%2C129%2C128%2C155%2C76%2C158%2C156%2C157%2C50%2C60%2C123%2C15%2C161%2C45%2C264%2C265%2C263%2C26%2C27%2C28%2C48%2C146%2C77%2C112%2C18%2C20%2C44%2C40%2C42%2C41%2C83%2C92%2C96%2C110%2C144%2C147%2C46%2C111%2C24%2C21%2C119%2C69%2C36%2C149%2C148%2C150%2C141%2C139%2C25%2C35%2C59%2C109%2C160%2C70%2C17%2C152%2C114%2C81%2C66%2C19%2C85%2C86%2C116%2C84%2C136%2C135%2C34%2C279%2C294%2C212%2C201%2C202%2C200%2C297%2C289%2C52%2C213%2C107%2C131%2C80%2C121%2C54%2C47%2C49%2C113%2C120%2C126%2C58%2C64%2C151%2C115%2C37%2C32%2C53%2C56%2C100%2C163%2C1%2C124%2C14%2C122%2C12%2C2%2C57%2C93%2C65%2C118%2C89%2C88%2C166%2C167%2C94%2C95%2C9%2C125%2C102%2C51%2C142%2C87%2C79%2C71%2C117%2C106%2C43%2C143%2C0%2C82%2C137%2C140%2C153%2C38%2C108%2C13%2C168",
+      "https://connect.facebook.net/en_US/fbevents.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-951049332&amp;cx=c&amp;gtm=4e64f1",
+      "https://www.googletagmanager.com/gtag/js?id=DC-6266241&amp;cx=c&amp;gtm=4e64f1",
+      "https://www.googletagmanager.com/gtag/js?id=G-BPNLXP3JQG&amp;cx=c&amp;gtm=4e64f1",
+      "https://www.googletagmanager.com/gtag/js?id=G-HYWKMHR981&amp;cx=c&amp;gtm=4e64f1",
+      "https://cdn.cookiehub.eu/c2/06c77e2e.js",
+      "https://widget.intercom.io/widget/cs07vi2k",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-5K82J2",
+      "https://static.semrush.com/remote-integrations",
+      "https://static.semrush.com/ajst/ajst.js",
+      "https://cdn.speedcurve.com/js/lux.js?id=419973531",
+      "https://widget.intercom.io",
+      "https://www.semrush.com/analytics/organic/positions/?searchType=domain&amp;db=de&amp;q=heiskills.uni-heidelberg.de",
+      "https://de.semrush.com/analytics/organic/positions/?searchType=domain&amp;db=de&amp;q=heiskills.uni-heidelberg.de",
+      "https://es.semrush.com/analytics/organic/positions/?searchType=domain&amp;db=de&amp;q=heiskills.uni-heidelberg.de",
+      "https://fr.semrush.com/analytics/organic/positions/?searchType=domain&amp;db=de&amp;q=heiskills.uni-heidelberg.de",
+      "https://it.semrush.com/analytics/organic/positions/?searchType=domain&amp;db=de&amp;q=heiskills.uni-heidelberg.de",
+      "https://nl.semrush.com/analytics/organic/positions/?searchType=domain&amp;db=de&amp;q=heiskills.uni-heidelberg.de",
+      "https://pl.semrush.com/analytics/organic/positions/?searchType=domain&amp;db=de&amp;q=heiskills.uni-heidelberg.de",
+      "https://pt.semrush.com/analytics/organic/positions/?searchType=domain&amp;db=de&amp;q=heiskills.uni-heidelberg.de",
+      "https://sv.semrush.com/analytics/organic/positions/?searchType=domain&amp;db=de&amp;q=heiskills.uni-heidelberg.de",
+      "https://vi.semrush.com/analytics/organic/positions/?searchType=domain&amp;db=de&amp;q=heiskills.uni-heidelberg.de",
+      "https://tr.semrush.com/analytics/organic/positions/?searchType=domain&amp;db=de&amp;q=heiskills.uni-heidelberg.de",
+      "https://zh.semrush.com/analytics/organic/positions/?searchType=domain&amp;db=de&amp;q=heiskills.uni-heidelberg.de",
+      "https://ja.semrush.com/analytics/organic/positions/?searchType=domain&amp;db=de&amp;q=heiskills.uni-heidelberg.de",
+      "https://ko.semrush.com/analytics/organic/positions/?searchType=domain&amp;db=de&amp;q=heiskills.uni-heidelberg.de",
+      "https://static.semrush.com/semrush-navigation/static/5e4e44dc/9a42093a.header.css",
+      "https://static.semrush.com/semrush-navigation/static/5e4e44dc/734ab4d0.sidebar.css",
+      "https://static.semrush.com/organic-research/1618.c12e255691f983e7f026.css",
+      "https://static.semrush.com/organic-research/5651.df9d9fae2500f4cbb7a7.js",
+      "https://static.semrush.com/organic-research/mini_ko_overview.ff0b9a0b01de7678bac2.js",
+      "https://static.semrush.com/organic-research/7005.fa24d2ebcfbbb0e2a0a6.js",
+      "https://static.semrush.com/organic-research/km_configure.10ff841c5702599e75cf.js",
+      "https://static.semrush.com/organic-research/add_multi_keyword.c4b8e1a53a825c6639c2.js",
+      "https://static.semrush.com/organic-research/add_single_keyword.9f1d6d1288057220171e.js",
+      "http://www.w3.org/2000/svg%27%3E%3Cpath",
+      "https://cookiehub.net/c2/css/06c77e2e.css",
+      "https://tags.srv.stackadapt.com/sa.css",
+      "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/951049332/?random=1776683984614&amp;cv=11&amp;fst=1776683984614&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45be64f1v9166960028z872084770za20gzb72084770zd72084770xec&amp;gcd=13v3v3v3v5l1&amp;dma=0&amp;tag_exp=0~115616985~115938465~115938469~117266401~117384406&amp;u_w=1280&amp;u_h=800&amp;url=https%3A%2F%2Fwww.semrush.com%2Fanalytics%2Forganic%2Fpositions%2F%3Fdb%3Dde%26q%3Dheiskills.uni-heidelberg.de%26searchType%3Ddomain&amp;rcb=16&amp;frm=0&amp;tiba=uni-heidelberg.de%3A%20Positions%2C%20Organic%20Rankings&amp;ga_uid=G-HYWKMHR981.29279824&amp;did=dMzY0Yz&amp;gdid=dMzY0Yz&amp;hn=www.googleadservices.com&amp;npa=0&amp;us_privacy=1yn-&amp;pscdl=noapi&amp;auid=2108181174.1776637626&amp;uaa=arm&amp;uab=64&amp;uafvl=Google%2520Chrome%3B147.0.7727.101%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.101&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=15.7.5&amp;uaw=0&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4",
+      "https://bat.bing.com/p/action/5128787.js",
+      "https://rp8920cf.semrush.com/integrations?source=semrush",
+      "http://www.w3.org/1999/xlink",
+      "https://ai-visibility-index.semrush.com/?utm_source=semrush&amp;utm_medium=product_header",
+      "https://careers.semrush.com/",
+      "https://static.semrush.com/semrush-navigation/static/5e4e44dc/",
+      "https://www.semrush.com/my_reports/grid/",
+      "https://www.semrush.com/apps/",
+      "https://www.seoquake.com/",
+      "https://www.uni-heidelberg.de/de",
+      "https://www.ub.uni-heidelberg.de/de/literatursuche/kataloge/heidi",
+      "https://heico.uni-heidelberg.de/",
+      "https://sogo.uni-heidelberg.de/SOGo/",
+      "https://www.klinikum.uni-heidelberg.de/",
+      "https://www.urz.uni-heidelberg.de/de/service-katalog/collaboration-und-digitale-lehre/moodle",
+      "https://www.uni-heidelberg.de/presse/unispiegel/us08-1/id.html",
+      "https://www.stw.uni-heidelberg.de/",
+      "https://www.klinikum.uni-heidelberg.de/kopfklinik-zentrum/",
+      "https://www.klinikum.uni-heidelberg.de/zentrum-fuer-innere-medizin-medizin-klinik/innere-medizin-iii-kardiologie-angiologie-und-pneumologie/fuer-patienten/ratgeber-patientenbroschuere/normaler-blutdruck/",
+      "https://www.klinikum.uni-heidelberg.de/hautklinik-zentrum/hautklinik/"
+    ],
+    "keywords": [
+      "heiskills.uni-heidelberg.de",
+      "uni heidelberg",
+      "heidi",
+      "heico",
+      "heidelberg university",
+      "sogo uni heidelberg",
+      "uniklinik heidelberg",
+      "universität heidelberg",
+      "heico uni heidelberg",
+      "moodle uni heidelberg",
+      "mona lisa",
+      "studierendenwerk heidelberg",
+      "universitätsklinikum heidelberg",
+      "heidelberg uni",
+      "heidelberg",
+      "heico heidelberg",
+      "studentenwerk heidelberg",
+      "universität heidelberg heidelberg",
+      "kopfklinik heidelberg",
+      "heidi uni heidelberg",
+      "normaler blutdruck",
+      "heidelberg universität",
+      "hautklinik heidelberg",
+      "heidi heidelberg",
+      "chirurgische klinik universitätsklinikum heidelberg",
+      "unibib heidelberg",
+      "übersetzung",
+      "blutdruckwerte",
+      "nierenbeckenentzündung",
+      "lichen sclerosus",
+      "mail uni heidelberg",
+      "hochschulsport heidelberg",
+      "magengeschwür",
+      "müsli",
+      "blutdruck normal",
+      "nierenkolik",
+      "heibox",
+      "uni heidelberg heidi",
+      "karl ruprecht universität heidelberg",
+      "universitätsbibliothek heidelberg",
+      "ruprecht karls heidelberg",
+      "heidelberg university library",
+      "exchange uni heidelberg",
+      "unisport heidelberg",
+      "ruprecht karls universität",
+      "unimedizin heidelberg",
+      "heidelberg kopfklinik",
+      "uniklinikum heidelberg",
+      "influenza b",
+      "leberzirrhose",
+      "all"
+    ]
+  }
+}

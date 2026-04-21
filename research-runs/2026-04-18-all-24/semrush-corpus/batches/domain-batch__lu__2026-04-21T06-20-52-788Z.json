@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "startedAt": "2026-04-21T06:20:52.788Z",
+    "database": "lu",
+    "domainsFile": "/Users/sergey/Desktop/educateme-map/research-runs/2026-04-18-all-24/semrush-corpus/config/lu-domain-seeds__b6-analog.json",
+    "downloadDir": "/Users/sergey/Desktop/educateme-map/tools",
+    "domainCount": 2,
+    "tabPolicy": "reuse-active-tab",
+    "reports": [
+      "domain-overview",
+      "organic-positions"
+    ],
+    "completedAt": "2026-04-21T06:41:04.403Z"
+  },
+  "entries": [
+    {
+      "domain": "inlingua.lu",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=lu&q=inlingua.lu",
+      "triggerStartedAt": "2026-04-21T06:21:00.338Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__inlingualu__domain-overview__2026-04-21T06-24-16-758Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "inlingua.lu",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=lu&q=inlingua.lu&searchType=domain",
+      "triggerStartedAt": "2026-04-21T06:24:30.204Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__inlingualu__organic-positions__2026-04-21T06-24-46-813Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "allingua.lu",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=lu&q=allingua.lu",
+      "triggerStartedAt": "2026-04-21T06:24:55.903Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__allingualu__domain-overview__2026-04-21T06-40-35-679Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "allingua.lu",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=lu&q=allingua.lu&searchType=domain",
+      "triggerStartedAt": "2026-04-21T06:40:46.611Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__allingualu__organic-positions__2026-04-21T06-41-02-694Z.json",
+      "status": "captured"
+    }
+  ]
+}

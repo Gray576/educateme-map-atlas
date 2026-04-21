@@ -1,0 +1,5 @@
+product_code,product_title,market,database,language,bucket,source_type,keyword,intent,volume,trend,keyword_difficulty,cpc,competitive_density,serp_features,results,market_fit_relevance,buyer_relevance,keep_drop_expand,notes
+A5,MiFID II Compliance Training,LUX,,,core_transactional,seed,,,,,,,,,,high,high,keep,
+A5,MiFID II Compliance Training,LUX,,,buyer_problem,seed,,,,,,,,,,high,high,keep,
+A5,MiFID II Compliance Training,LUX,,,route_regulatory,seed,,,,,,,,,,high,medium,keep,
+A5,MiFID II Compliance Training,LUX,,,competitor,seed,,,,,,,,,,medium,medium,keep,

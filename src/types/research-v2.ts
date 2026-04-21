@@ -147,12 +147,60 @@ export interface CommercialValidationSection {
   evidence_refs: CommercialValidationEvidenceRefs;
 }
 
+export interface CommercialValidationMarketEvidenceV1 {
+  confidence_band: ConfidenceBand | "unknown";
+  derivation_basis: string;
+  evidence_refs: CommercialValidationEvidenceRefs;
+  market_track: string;
+  scope_class: string;
+  scope_fit: string;
+  evidence_database: string | null;
+  lane_group: string | null;
+  semrush_priority: string | null;
+  provisional_market_score_v1: number | null;
+  anchor_focus: string[];
+  anchor_focus_count: number | null;
+  anchor_capture_count: number | null;
+  anchor_capture_coverage: number | null;
+  anchor_query_volume_sum: number | null;
+  anchor_max_volume: number | null;
+  anchor_global_volume_sum: number | null;
+  local_lane_keyword_count: number | null;
+  local_lane_p1_count: number | null;
+  local_lane_watch_domains: string[];
+  top_follow_up_keywords: Array<{
+    keyword: string;
+    follow_up_tier: string;
+    category: string;
+    max_volume_lu: number;
+    source_count: number;
+  }>;
+  top_questions: Array<{
+    keyword: string;
+    follow_up_tier: string;
+    category: string;
+    max_volume_lu: number;
+    source_count: number;
+  }>;
+  cross_border_luxembourg_intent_keywords: Array<{
+    keyword: string;
+    follow_up_tier: string;
+    max_volume_lu: number;
+    use_for: string[];
+  }>;
+  next_research_step: string;
+  synced_from_scorecard_at: string;
+  notes: string;
+}
+
 export interface CommercialValidationV1 {
   schema_version: "commercial_validation_v1";
   run_id: string;
   product_code: string;
   product_title: string;
   quadrant_segment: "B2B" | "B2C" | "B2B2C" | "mixed" | "unknown";
+  market_evidence_scope_class?: string;
+  market_evidence?: CommercialValidationMarketEvidenceV1;
   validation_velocity: CommercialValidationSection & {
     validation_model: string;
     binary_pass_signal: string;

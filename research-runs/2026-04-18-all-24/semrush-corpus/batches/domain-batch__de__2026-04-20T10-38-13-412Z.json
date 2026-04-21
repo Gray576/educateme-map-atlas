@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "startedAt": "2026-04-20T10:38:13.412Z",
+    "database": "de",
+    "domainsFile": "/Users/sergey/Desktop/educateme-map/research-runs/2026-04-18-all-24/semrush-corpus/config/b1-p1-1.json",
+    "downloadDir": "/Users/sergey/Desktop/educateme-map/tools",
+    "domainCount": 1,
+    "tabPolicy": "reuse-active-tab",
+    "reports": [
+      "domain-overview",
+      "organic-positions"
+    ],
+    "completedAt": "2026-04-20T10:38:48.135Z"
+  },
+  "entries": [
+    {
+      "domain": "telc.net",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=de&q=telc.net",
+      "triggerStartedAt": "2026-04-20T10:38:18.826Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__de__telcnet__domain-overview__2026-04-20T10-38-27-891Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "telc.net",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=de&q=telc.net&searchType=domain",
+      "triggerStartedAt": "2026-04-20T10:38:36.659Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__de__telcnet__organic-positions__2026-04-20T10-38-46-894Z.json",
+      "status": "captured"
+    }
+  ]
+}

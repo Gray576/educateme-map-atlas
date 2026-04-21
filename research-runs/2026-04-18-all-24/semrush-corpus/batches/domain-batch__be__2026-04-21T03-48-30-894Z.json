@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "startedAt": "2026-04-21T03:48:30.894Z",
+    "database": "be",
+    "domainsFile": "/Users/sergey/Desktop/educateme-map/research-runs/2026-04-18-all-24/semrush-corpus/config/be-domain-seeds__b6-analog.json",
+    "downloadDir": "/Users/sergey/Desktop/educateme-map/tools",
+    "domainCount": 2,
+    "tabPolicy": "reuse-active-tab",
+    "reports": [
+      "domain-overview",
+      "organic-positions"
+    ],
+    "completedAt": "2026-04-21T04:00:24.128Z"
+  },
+  "entries": [
+    {
+      "domain": "blcc.be",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=be&q=blcc.be",
+      "triggerStartedAt": "2026-04-21T03:48:37.249Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__be__blccbe__domain-overview__2026-04-21T03-48-51-217Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "blcc.be",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=be&q=blcc.be&searchType=domain",
+      "triggerStartedAt": "2026-04-21T03:49:01.373Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__be__blccbe__organic-positions__2026-04-21T03-49-18-276Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "semanticsbelgium.com",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=be&q=semanticsbelgium.com",
+      "triggerStartedAt": "2026-04-21T03:49:25.915Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__be__semanticsbelgiumcom__domain-overview__2026-04-21T03-59-55-200Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "semanticsbelgium.com",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=be&q=semanticsbelgium.com&searchType=domain",
+      "triggerStartedAt": "2026-04-21T04:00:05.934Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__be__semanticsbelgiumcom__organic-positions__2026-04-21T04-00-22-201Z.json",
+      "status": "captured"
+    }
+  ]
+}

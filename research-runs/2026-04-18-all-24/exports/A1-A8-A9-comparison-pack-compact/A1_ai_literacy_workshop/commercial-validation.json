@@ -1,0 +1,173 @@
+{
+  "schema_version": "commercial_validation_v1",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A1",
+  "product_title": "AI Literacy Workshop",
+  "quadrant_segment": "B2B",
+  "validation_velocity": {
+    "validation_model": "10 custdev interviews + 2 pilot asks + authority-route validation",
+    "binary_pass_signal": "At least 2 qualified buyers accept a paid or structured pilot conversation and the required route or authority constraint appears workable.",
+    "binary_kill_signal": "No qualified buyer accepts a pilot conversation or the required route constraint blocks delivery economics.",
+    "estimated_cost_to_signal_eur": 4300,
+    "estimated_days_to_signal": 60,
+    "estimated_days_to_first_euro": 45,
+    "founder_independence_score_1_5": null,
+    "testability_score_1_5": 1,
+    "time_to_first_euro_score_1_5": 2,
+    "confidence_band": "medium",
+    "derivation_basis": "Protocol-derived from segment, approval-route complexity, buyer motion, and current validation/citation gaps.",
+    "evidence_refs": {
+      "source_ids": [
+        "eu_ai_literacy_qa",
+        "eu_ai_literacy_policy",
+        "eu_ai_act_start",
+        "guichet_cvt",
+        "fit4ai"
+      ],
+      "claim_ids": [
+        "ext_001",
+        "ext_002",
+        "ext_003",
+        "ext_004"
+      ]
+    },
+    "notes": "validation queue severity 4; citation status ready; regulatory route present"
+  },
+  "demand_pull": {
+    "demand_evidence_score_1_5": null,
+    "wtp_score_1_5": null,
+    "cac_reality_score_1_5": null,
+    "retention_structure_score_1_5": 1,
+    "macro_trajectory_score_1_5": null,
+    "channel_fit_score_1_5": null,
+    "confidence_band": "low",
+    "derivation_basis": "Only offer structure and currently sourced competitor/numeric claims are available. SEMrush, paid search, and traffic observables are intentionally missing. Added latest SEMrush scorecard sync.",
+    "evidence_refs": {
+      "source_ids": [
+        "eurostat_ai_2023",
+        "houseoftraining_ai_fundamentals",
+        "houseoftraining_ai_act_course",
+        "houseoftraining_ai_risk"
+      ],
+      "claim_ids": [
+        "ext_005",
+        "ext_006"
+      ]
+    },
+    "notes": "Retention structure is filled from the product format. Demand, WTP, CAC, macro, and channel-fit remain unfilled until SEMrush and distribution evidence are collected. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 130, max anchor volume 110, capture count 3."
+  },
+  "regulatory_context": {
+    "regulatory_friction_inverse_score_1_5": 2,
+    "confidence_band": "medium",
+    "derivation_basis": "Derived from confirmed regulatory requirements, approval entities, and current contradiction/risk density in the evidence-backed card.",
+    "evidence_refs": {
+      "source_ids": [
+        "eu_ai_literacy_qa",
+        "eu_ai_literacy_policy",
+        "eu_ai_act_start",
+        "guichet_cvt",
+        "fit4ai"
+      ],
+      "claim_ids": [
+        "ext_001",
+        "ext_002",
+        "ext_003",
+        "ext_004"
+      ]
+    },
+    "notes": "2 confirmed regulatory requirements in current card; 3 high-severity risk flags remain in the current card"
+  },
+  "semrush_snapshot": {
+    "market": "LUX",
+    "database": "LU",
+    "language": "",
+    "keyword_buckets": {
+      "head_terms": [
+        "AI Literacy Workshop",
+        "AI Literacy Workshop LUX"
+      ],
+      "commercial_modifiers": [
+        "ai training",
+        "ai workshop",
+        "ai course",
+        "luxembourg",
+        "b2b"
+      ],
+      "problem_intent": [
+        "ai literacy compliance",
+        "ai act training",
+        "teams need enough ai"
+      ],
+      "competitor_route": [
+        "House of Training - Generative artificial intelligences - Fundamentals",
+        "House of Training - How to Navigate the European Union Artificial Intelligence Act",
+        "House of Training - AI Driving Licence for Financial Sector Employees (AI Act Compliant)"
+      ]
+    },
+    "metrics": {
+      "keyword_count_total": 0,
+      "keyword_count_commercial": null,
+      "volume_sum": 130,
+      "volume_sum_commercial": null,
+      "avg_cpc": null,
+      "max_cpc": null,
+      "avg_competitive_density": null,
+      "high_intent_keyword_count": 0,
+      "paid_competitor_count": null
+    },
+    "top_paid_competitors": [],
+    "observed_price_points": [],
+    "serp_feature_notes": "",
+    "traffic_analytics_notes": ""
+  },
+  "portfolio_tags": {
+    "niche": "AI Literacy Workshop / mandate",
+    "persona": "hr_ld",
+    "channel_primary": "",
+    "channel_secondary": "",
+    "price_point": "workshop-ticket",
+    "delivery_mode": "workshop"
+  },
+  "collapsed_scores": {
+    "validation_velocity_composite": 1.5,
+    "demand_pull_composite": 2.3,
+    "overall_confidence_band": "low",
+    "confidence_reason": "Market evidence scope is local with scope fit fit. 3 anchor captures contribute to this scorecard sync. Primary evidence database: LU."
+  },
+  "market_evidence_scope_class": "local",
+  "market_evidence": {
+    "confidence_band": "low",
+    "derivation_basis": "Synced from the latest SEMrush-derived product market scorecard, which combines normalized keyword captures, product-market mapping, and scoped local/cross-border/reference evidence rules.",
+    "evidence_refs": {
+      "source_ids": [],
+      "claim_ids": []
+    },
+    "market_track": "local",
+    "scope_class": "local",
+    "scope_fit": "fit",
+    "evidence_database": "LU",
+    "lane_group": "ai_training",
+    "semrush_priority": "medium",
+    "provisional_market_score_v1": 1.51,
+    "anchor_focus": [
+      "ai training luxembourg",
+      "ai literacy training",
+      "ai act training"
+    ],
+    "anchor_focus_count": 3,
+    "anchor_capture_count": 3,
+    "anchor_capture_coverage": 1,
+    "anchor_query_volume_sum": 130,
+    "anchor_max_volume": 110,
+    "anchor_global_volume_sum": 580,
+    "local_lane_keyword_count": 0,
+    "local_lane_p1_count": 0,
+    "local_lane_watch_domains": [],
+    "top_follow_up_keywords": [],
+    "top_questions": [],
+    "cross_border_luxembourg_intent_keywords": [],
+    "next_research_step": "refine WTP/CAC with keyword overview and price checks",
+    "synced_from_scorecard_at": "2026-04-20T04:30:00.194Z",
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 3/3 anchor families with total local query volume 130 and max anchor volume 110. Next step: refine WTP/CAC with keyword overview and price checks."
+  }
+}

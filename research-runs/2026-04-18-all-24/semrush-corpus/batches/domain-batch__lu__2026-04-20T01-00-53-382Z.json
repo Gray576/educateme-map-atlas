@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "startedAt": "2026-04-20T01:00:53.382Z",
+    "database": "lu",
+    "domainsFile": "/Users/sergey/Desktop/educateme-map/research-runs/2026-04-18-all-24/semrush-corpus/config/lu-domain-seeds.json",
+    "downloadDir": "/Users/sergey/Desktop/educateme-map/tools",
+    "domainCount": 14,
+    "tabPolicy": "reuse-active-tab",
+    "reports": [
+      "domain-overview",
+      "organic-positions"
+    ],
+    "completedAt": "2026-04-20T01:11:39.750Z"
+  },
+  "entries": [
+    {
+      "domain": "educateme.lu",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=lu&q=educateme.lu",
+      "triggerStartedAt": "2026-04-20T01:00:59.321Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__educatemelu__domain-overview__2026-04-20T01-01-08-382Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "educateme.lu",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=lu&q=educateme.lu&searchType=domain",
+      "triggerStartedAt": "2026-04-20T01:01:17.802Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__educatemelu__organic-positions__2026-04-20T01-01-27-924Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "inll.lu",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=lu&q=inll.lu",
+      "triggerStartedAt": "2026-04-20T01:01:35.601Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__inlllu__domain-overview__2026-04-20T01-01-44-571Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "inll.lu",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=lu&q=inll.lu&searchType=domain",
+      "triggerStartedAt": "2026-04-20T01:01:55.074Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__inlllu__organic-positions__2026-04-20T01-02-04-941Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "prolingua.lu",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=lu&q=prolingua.lu",
+      "triggerStartedAt": "2026-04-20T01:02:11.210Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__prolingualu__domain-overview__2026-04-20T01-02-20-231Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "prolingua.lu",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=lu&q=prolingua.lu&searchType=domain",
+      "triggerStartedAt": "2026-04-20T01:02:32.207Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__prolingualu__organic-positions__2026-04-20T01-02-48-896Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "luxlanguages.lu",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=lu&q=luxlanguages.lu",
+      "triggerStartedAt": "2026-04-20T01:02:57.259Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__luxlanguageslu__domain-overview__2026-04-20T01-03-11-846Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "luxlanguages.lu",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=lu&q=luxlanguages.lu&searchType=domain",
+      "triggerStartedAt": "2026-04-20T01:03:25.166Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__luxlanguageslu__organic-positions__2026-04-20T01-03-41-887Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "inlingua.lu",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=lu&q=inlingua.lu",
+      "triggerStartedAt": "2026-04-20T01:03:51.649Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__inlingualu__domain-overview__2026-04-20T01-04-05-838Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "inlingua.lu",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=lu&q=inlingua.lu&searchType=domain",
+      "triggerStartedAt": "2026-04-20T01:04:18.730Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__inlingualu__organic-positions__2026-04-20T01-04-34-905Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "luxlessons.lu",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=lu&q=luxlessons.lu",
+      "triggerStartedAt": "2026-04-20T01:04:43.613Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__luxlessonslu__domain-overview__2026-04-20T01-04-57-845Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "luxlessons.lu",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=lu&q=luxlessons.lu&searchType=domain",
+      "triggerStartedAt": "2026-04-20T01:05:09.067Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__luxlessonslu__organic-positions__2026-04-20T01-05-25-893Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "sproochentest.etic.lu",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=lu&q=sproochentest.etic.lu",
+      "triggerStartedAt": "2026-04-20T01:05:35.574Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__sproochentesteticlu__domain-overview__2026-04-20T01-05-49-846Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "sproochentest.etic.lu",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=lu&q=sproochentest.etic.lu&searchType=domain",
+      "triggerStartedAt": "2026-04-20T01:06:00.546Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__sproochentesteticlu__organic-positions__2026-04-20T01-06-16-853Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "houseoftraining.lu",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=lu&q=houseoftraining.lu",
+      "triggerStartedAt": "2026-04-20T01:06:26.445Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__houseoftraininglu__domain-overview__2026-04-20T01-06-40-839Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "houseoftraining.lu",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=lu&q=houseoftraining.lu&searchType=domain",
+      "triggerStartedAt": "2026-04-20T01:06:53.262Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__houseoftraininglu__organic-positions__2026-04-20T01-07-09-895Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "pwc.lu",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=lu&q=pwc.lu",
+      "triggerStartedAt": "2026-04-20T01:07:19.886Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__pwclu__domain-overview__2026-04-20T01-07-33-859Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "pwc.lu",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=lu&q=pwc.lu&searchType=domain",
+      "triggerStartedAt": "2026-04-20T01:07:45.902Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__pwclu__organic-positions__2026-04-20T01-08-01-889Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "infpc.lu",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=lu&q=infpc.lu",
+      "triggerStartedAt": "2026-04-20T01:08:10.146Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__infpclu__domain-overview__2026-04-20T01-08-24-833Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "infpc.lu",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=lu&q=infpc.lu&searchType=domain",
+      "triggerStartedAt": "2026-04-20T01:08:36.716Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__infpclu__organic-positions__2026-04-20T01-08-52-898Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "lifelong-learning.lu",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=lu&q=lifelong-learning.lu",
+      "triggerStartedAt": "2026-04-20T01:09:01.387Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__lifelong-learninglu__domain-overview__2026-04-20T01-09-15-836Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "lifelong-learning.lu",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=lu&q=lifelong-learning.lu&searchType=domain",
+      "triggerStartedAt": "2026-04-20T01:09:30.185Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__lifelong-learninglu__organic-positions__2026-04-20T01-09-46-535Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "institut-francais-luxembourg.lu",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=lu&q=institut-francais-luxembourg.lu",
+      "triggerStartedAt": "2026-04-20T01:09:57.277Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__institut-francais-luxembourglu__domain-overview__2026-04-20T01-10-06-463Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "institut-francais-luxembourg.lu",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=lu&q=institut-francais-luxembourg.lu&searchType=domain",
+      "triggerStartedAt": "2026-04-20T01:10:15.810Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__institut-francais-luxembourglu__organic-positions__2026-04-20T01-10-25-779Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "moienasbl.lu",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=lu&q=moienasbl.lu",
+      "triggerStartedAt": "2026-04-20T01:10:32.888Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__moienasbllu__domain-overview__2026-04-20T01-10-41-932Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "moienasbl.lu",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=lu&q=moienasbl.lu&searchType=domain",
+      "triggerStartedAt": "2026-04-20T01:10:51.561Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__moienasbllu__organic-positions__2026-04-20T01-11-01-661Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "unipop.lu",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=lu&q=unipop.lu",
+      "triggerStartedAt": "2026-04-20T01:11:10.264Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__unipoplu__domain-overview__2026-04-20T01-11-19-256Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "unipop.lu",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=lu&q=unipop.lu&searchType=domain",
+      "triggerStartedAt": "2026-04-20T01:11:25.685Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__unipoplu__organic-positions__2026-04-20T01-11-37-532Z.json",
+      "status": "captured"
+    }
+  ]
+}

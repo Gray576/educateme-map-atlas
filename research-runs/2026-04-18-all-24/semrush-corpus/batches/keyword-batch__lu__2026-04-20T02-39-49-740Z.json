@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "startedAt": "2026-04-20T02:39:49.740Z",
+    "database": "lu",
+    "keywordsFile": "/tmp/lu_ai_local_anchors_missing.json",
+    "downloadDir": "/Users/sergey/Desktop/educateme-map/tools",
+    "keywordCount": 1,
+    "tabPolicy": "reuse-active-tab",
+    "reports": [
+      "keyword-overview"
+    ],
+    "completedAt": "2026-04-20T02:40:12.400Z"
+  },
+  "entries": [
+    {
+      "keyword": "prompt engineering workshop",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=lu&q=prompt%20engineering%20workshop",
+      "triggerStartedAt": "2026-04-20T02:39:51.508Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__prompt-engineering-workshop__keyword-overview__2026-04-20T02-40-09-886Z.json",
+      "status": "captured"
+    }
+  ]
+}

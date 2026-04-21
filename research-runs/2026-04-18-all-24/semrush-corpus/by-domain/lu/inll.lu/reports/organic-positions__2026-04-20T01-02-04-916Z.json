@@ -1,0 +1,908 @@
+{
+  "meta": {
+    "capturedAt": "2026-04-20T01:02:04.916Z",
+    "reportType": "organic-positions",
+    "database": "lu",
+    "query": "inll.lu",
+    "title": "inll.lu: Positions, Organic Rankings",
+    "url": "https://www.semrush.com/analytics/organic/positions/?db=lu&q=inll.lu&searchType=domain",
+    "pathname": "/analytics/organic/positions/",
+    "searchType": "domain",
+    "sourcePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__inlllu__organic-positions__2026-04-20T01-02-04-941Z.json",
+    "scopeType": "domain",
+    "scopeSlug": "inll.lu"
+  },
+  "summary": {
+    "pageIdentity": "inll.lu: Positions, Organic Rankings",
+    "queryOrDomain": "inll.lu",
+    "topMetrics": {
+      "keywords": "1.3K",
+      "traffic": "23.6K",
+      "trafficCost": "$24.2K"
+    },
+    "tableCount": 0,
+    "networkCount": 0
+  },
+  "structured": {
+    "domainRankingSummary": {
+      "keywords": "All PositionsOrganicSERP FeaturesPositionsVolumeKDIntentSERP FeaturesAdvanced filtersKeywords1.3K-18.5%0Traffic23.6K-4.23%0Traffic Cost$24.2K16.55%Organic Keywords TrendTop 34-1011-2021-5051-100SERP FeaturesNotes1M6M1Y2YAll timeMar 20Mar 22Mar 24Mar 26Mar 28Mar 30Apr 1Apr 3Apr 5Apr 7Apr 9Apr 11Apr 13Apr 15Apr 17Apr 1901K2K000000Press \"Tab\" to enable graphical charts accessibility module.Where do you rank on ChatGPT?Create a new project to see your positions.Set up TrackingOrganic Search Positions:1,269Add to list10/15KeywordIntentPositionSFTrafficTraffic %VolumeKD %URLUpdatedSortableinllN153.5K14.944.4K37www.inll.lu/de/3 daysnational language instituteN162.3K9.842.9K29www.inll.lu/en/1 dayinlN152.1K8.774.4K29www.inll.lu/de/Apr 13inl luxembourgN121.1K4.782.4K26www.inll.lu/de/Apr 13myinlN128933.791.9K12myinl.inll.lu/web/login2 daysmy inlNT128003.391K19myinl.inll.lu/Mar 17inlN255722.424.4K29www.inll.lu/de/myinl-de/Apr 13moodle inlN124722.0059018myinl.inll.lu/Mar 23sproochentestI134131.7588014www.inll.lu/de/sproochentest-de/Mar 20inlN353961.684.4K29myinl.inll.lu/Apr 13inl luxembourgN223121.322.4K26www.inll.lu/de/myinl-de/Apr 13inlN53081.304.4K29www.inll.lu/Apr 13institut national des languesC142771.1759024www.inll.lu/Mar 11inl luN152561.0832032www.inll.lu/Mar 28inl belvalN142561.0832021www.inll.lu/Mar 28myinlN222471.041.9K12myinl.inll.lu/2 daysinlN52200.934.4K29www.inll.lu/Apr 13inlN52200.934.4K29www.inll.lu/Apr 13inl luxembourgN22160.912.4K26www.inll.lu/Apr 13inl merschN152080.8826020www.inll.lu/Mar 29myinl loginN122080.8826015myinl.inll.lu/web/loginApr 06sdl inll luNT132080.8826014sdl.inll.lu/Mar 29french classes luxembourgC141830.7739014www.inll.lu/de/sprachen/franzoesisch/Mar 28myinlN321710.721.9K12myinl.inll.lu/fr_FR2 daysinl sproochentestN131680.7121022www.inll.lu/de/sproochentest-de/Mar 26inll belvalN161680.7121029www.inll.lu/Mar 29inl luxembourgN21680.712.4K26www.inll.lu/Apr 13language courses luxembourgC131500.6332021www.inll.lu/en/institut-en/Mar 29inll glacisN21500.6332021www.inll.lu/Apr 03institut nationalN61360.5717044www.inll.lu/Mar 25inl loginN121360.5717015myinl.inll.lu/web/loginApr 12inll luN161360.5717026www.inll.lu/Mar 28sproochentest luxembourgIN141360.5717021www.inll.lu/de/sproochentest-de/18 hoursmyinlN421330.561.9K12myinl.inll.lu/fr_FR/web/login2 daysinlN451320.564.4K29www.inll.lu/de/poterkescht-4/Apr 13inlN551320.564.4K29myinl.inll.lu/web/loginApr 13cours luxembourgeoisC151220.5126026www.inll.lu/fr/langues/luxembourgeois/Mar 29inl luxembourgN21200.502.4K26www.inll.lu/Apr 13inl luxembourgN321200.502.4K26www.inll.lu/de/sprachkurse/Apr 13cours de langue luxembourgI171120.4714041www.inll.lu/Mar 29schwätzt dir lëtzebuergesch a2 pdfIT131120.4714013sdl.inll.lu/Mar 20schwätzt dir lëtzebuergesch a1I131120.4714013sdl.inll.lu/Apr 10schwätzt dir lëtzebuergeschN131120.4714013sdl.inll.lu/Apr 05inlN651100.464.4K29myinl.inll.lu/fr_FRApr 13inl glacisN2980.4121014www.inll.lu/Mar 28inl luxembourgN42960.402.4K26myinl.inll.lu/Apr 13myinlN52950.401.9K12www.inll.lu/de/myinl-de/2 daysmyinlN62950.401.9K12myinl.inll.lu/web/signup2 dayscours de luxembourgeoisI25930.3972021www.inll.lu/fr/cours-de-langue/Mar 11my inl luN12880.3711019myinl.inll.lu/fr_FRApr 08centre de langues luxembourgN14880.3711026www.inll.lu/Mar 31schwartz dir letzebuergeschN13880.3711013sdl.inll.lu/1 dayinstitut national des languesC4760.3259024www.inll.lu/Mar 11myinlN72760.321.9K12myinl.inll.lu/fr_FR/course/offer2 daysnational language instituteN6750.312.9K29www.inll.lu/1 daymyinllN13720.309016myinl.inll.lu/Apr 10innlNT14720.309022www.inll.lu/de/Apr 13myinl luxembourgN14720.309018myinl.inll.lu/11 hoursinl luxembourgN52720.302.4K26www.inll.lu/de/standorte/Apr 13inl luxembourgN62720.302.4K26www.inll.lu/de/kontakt/Apr 13inl luxembourgN72720.302.4K26www.inll.lu/de/zertifikate/Apr 13moodle inl luN12720.309020myinl.inll.lu/fr_FR3 daysinlN5660.284.4K29www.inll.lu/de/barrierefreiheit/Apr 13cours de français luxembourgC13650.2714016www.inll.lu/fr/langues/francais/Apr 12inll merschNT13650.2714013www.inll.lu/de/Mar 29luxembourg cours de langueC17650.2714033www.inll.lu/Mar 29inlN75570.244.4K29www.inll.lu/de/kontakt/Apr 13myinlN82570.241.9K12myinl.inll.lu/course/offer2 daysmyinlN92570.241.9K12www.inll.lu/de/myinl-tutorials-2/2 daysinstitut de langues luxembourgN14560.237027www.inll.lu/Apr 13inll sproochentestNT11560.237014www.inll.lu/de/sproochentest-de/Mar 14institut national des languesC4530.2259024www.inll.lu/Mar 11national language instituteN6520.222.9K29www.inll.lu/1 daycours anglais luxembourgC15510.2111017www.inll.lu/fr/langues/anglais/Apr 01sdlI14510.2111063sdl.inll.lu/Apr 08french courses luxembourgC6500.2139014www.inll.lu/Apr 02french classes luxembourgC4500.2139014www.inll.lu/Mar 28language school luxembourgC15420.179022www.inll.lu/en/institut-en/Apr 10language courses luxembourgC3410.1732021www.inll.lu/Mar 29institut national des languesC4410.1759024www.inll.lu/Mar 11inll glacisN2410.1732021www.inll.lu/Apr 03inl cours luxembourgeoisN12400.165024www.inll.lu/fr/langues/luxembourgeois/3 daysschwätzt dir lëtzebuergesch a1 pdf downloadIT11400.165014sdl.inll.lu/Mar 10inl inscriptionsN12400.165013myinl.inll.lu/course/offerMar 07my inl luxembourgN12400.165012myinl.inll.lu/Mar 12sdl inll lu a1NT13400.165012sdl.inll.lu/Mar 07national language instituteN6400.162.9K29www.inll.lu/1 daysproochentestI73350.1488014www.inll.lu/de/event/sproochentest-heierverstoen-mendlechen-ausdrock-glacis-tablet-3/Mar 20learn luxembourgish onlineC45330.1448021www.inll.lu/en/languages/luxembourgish/Mar 25cours intensifs luxembourgeoisC15320.137015www.inll.lu/fr/langues/luxembourgeois/20 hoursschwartz dir letzebuergesch a1N13320.134015sdl.inll.lu/Mar 15cours d anglais luxembourgC3320.137019www.inll.lu/Apr 09inl inscriptionN12320.134016myinl.inll.lu/fr_FR/course/offerMar 04sproochentest lëtzebuergeschIT13320.137017www.inll.lu/de/sproochentest-de/Mar 31cours francais luxembourgC15320.137017www.inll.lu/fr/langues/francais/Mar 12lod luN84320.135.4K23sdl.inll.lu/8 hoursinl luxembourg inscriptionN13320.137013myinl.inll.lu/fr_FR/course/offer12 hourswww inll luN13320.134033www.inll.lu/Mar 18luxembourg language instituteIN14320.134022www.inll.lu/en/Mar 09institut des langues luxembourgN15320.134024www.inll.lu/Mar 14PrevNextPage:of13Page: 1",
+      "traffic": "Traffic23.6K-4.23%0",
+      "trafficCost": "Traffic Cost$24.2K16.55%"
+    },
+    "topRankingRows": [
+      {
+        "keyword": "inll",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "5",
+        "traffic": "3.5K",
+        "trafficPercent": "14.94",
+        "volume": "4.4K",
+        "kd": "37",
+        "url": "https://www.inll.lu/de/",
+        "updated": "3 days"
+      },
+      {
+        "keyword": "national language institute",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "6",
+        "traffic": "2.3K",
+        "trafficPercent": "9.84",
+        "volume": "2.9K",
+        "kd": "29",
+        "url": "https://www.inll.lu/en/",
+        "updated": "1 day"
+      },
+      {
+        "keyword": "inl",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "5",
+        "traffic": "2.1K",
+        "trafficPercent": "8.77",
+        "volume": "4.4K",
+        "kd": "29",
+        "url": "https://www.inll.lu/de/",
+        "updated": "Apr 13"
+      },
+      {
+        "keyword": "inl luxembourg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "2",
+        "traffic": "1.1K",
+        "trafficPercent": "4.78",
+        "volume": "2.4K",
+        "kd": "26",
+        "url": "https://www.inll.lu/de/",
+        "updated": "Apr 13"
+      },
+      {
+        "keyword": "myinl",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "2",
+        "traffic": "893",
+        "trafficPercent": "3.79",
+        "volume": "1.9K",
+        "kd": "12",
+        "url": "https://myinl.inll.lu/web/login",
+        "updated": "2 days"
+      },
+      {
+        "keyword": "my inl",
+        "intents": [
+          "N",
+          "T"
+        ],
+        "position": "1",
+        "serpFeatures": "2",
+        "traffic": "800",
+        "trafficPercent": "3.39",
+        "volume": "1K",
+        "kd": "19",
+        "url": "https://myinl.inll.lu/",
+        "updated": "Mar 17"
+      },
+      {
+        "keyword": "inl",
+        "intents": [
+          "N"
+        ],
+        "position": "2",
+        "serpFeatures": "5",
+        "traffic": "572",
+        "trafficPercent": "2.42",
+        "volume": "4.4K",
+        "kd": "29",
+        "url": "https://www.inll.lu/de/myinl-de/",
+        "updated": "Apr 13"
+      },
+      {
+        "keyword": "moodle inl",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "2",
+        "traffic": "472",
+        "trafficPercent": "2.00",
+        "volume": "590",
+        "kd": "18",
+        "url": "https://myinl.inll.lu/",
+        "updated": "Mar 23"
+      },
+      {
+        "keyword": "sproochentest",
+        "intents": [
+          "I"
+        ],
+        "position": "1",
+        "serpFeatures": "3",
+        "traffic": "413",
+        "trafficPercent": "1.75",
+        "volume": "880",
+        "kd": "14",
+        "url": "https://www.inll.lu/de/sproochentest-de/",
+        "updated": "Mar 20"
+      },
+      {
+        "keyword": "inl",
+        "intents": [
+          "N"
+        ],
+        "position": "3",
+        "serpFeatures": "5",
+        "traffic": "396",
+        "trafficPercent": "1.68",
+        "volume": "4.4K",
+        "kd": "29",
+        "url": "https://myinl.inll.lu/",
+        "updated": "Apr 13"
+      },
+      {
+        "keyword": "inl luxembourg",
+        "intents": [
+          "N"
+        ],
+        "position": "2",
+        "serpFeatures": "2",
+        "traffic": "312",
+        "trafficPercent": "1.32",
+        "volume": "2.4K",
+        "kd": "26",
+        "url": "https://www.inll.lu/de/myinl-de/",
+        "updated": "Apr 13"
+      },
+      {
+        "keyword": "institut national des langues",
+        "intents": [
+          "C"
+        ],
+        "position": "1",
+        "serpFeatures": "4",
+        "traffic": "277",
+        "trafficPercent": "1.17",
+        "volume": "590",
+        "kd": "24",
+        "url": "https://www.inll.lu/",
+        "updated": "Mar 11"
+      },
+      {
+        "keyword": "inl lu",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "5",
+        "traffic": "256",
+        "trafficPercent": "1.08",
+        "volume": "320",
+        "kd": "32",
+        "url": "https://www.inll.lu/",
+        "updated": "Mar 28"
+      },
+      {
+        "keyword": "inl belval",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "4",
+        "traffic": "256",
+        "trafficPercent": "1.08",
+        "volume": "320",
+        "kd": "21",
+        "url": "https://www.inll.lu/",
+        "updated": "Mar 28"
+      },
+      {
+        "keyword": "myinl",
+        "intents": [
+          "N"
+        ],
+        "position": "2",
+        "serpFeatures": "2",
+        "traffic": "247",
+        "trafficPercent": "1.04",
+        "volume": "1.9K",
+        "kd": "12",
+        "url": "https://myinl.inll.lu/",
+        "updated": "2 days"
+      },
+      {
+        "keyword": "inl mersch",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "5",
+        "traffic": "208",
+        "trafficPercent": "0.88",
+        "volume": "260",
+        "kd": "20",
+        "url": "https://www.inll.lu/",
+        "updated": "Mar 29"
+      },
+      {
+        "keyword": "myinl login",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "2",
+        "traffic": "208",
+        "trafficPercent": "0.88",
+        "volume": "260",
+        "kd": "15",
+        "url": "https://myinl.inll.lu/web/login",
+        "updated": "Apr 06"
+      },
+      {
+        "keyword": "sdl inll lu",
+        "intents": [
+          "N",
+          "T"
+        ],
+        "position": "1",
+        "serpFeatures": "3",
+        "traffic": "208",
+        "trafficPercent": "0.88",
+        "volume": "260",
+        "kd": "14",
+        "url": "https://sdl.inll.lu/",
+        "updated": "Mar 29"
+      },
+      {
+        "keyword": "french classes luxembourg",
+        "intents": [
+          "C"
+        ],
+        "position": "1",
+        "serpFeatures": "4",
+        "traffic": "183",
+        "trafficPercent": "0.77",
+        "volume": "390",
+        "kd": "14",
+        "url": "https://www.inll.lu/de/sprachen/franzoesisch/",
+        "updated": "Mar 28"
+      },
+      {
+        "keyword": "myinl",
+        "intents": [
+          "N"
+        ],
+        "position": "3",
+        "serpFeatures": "2",
+        "traffic": "171",
+        "trafficPercent": "0.72",
+        "volume": "1.9K",
+        "kd": "12",
+        "url": "https://myinl.inll.lu/fr_FR",
+        "updated": "2 days"
+      },
+      {
+        "keyword": "inl sproochentest",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "3",
+        "traffic": "168",
+        "trafficPercent": "0.71",
+        "volume": "210",
+        "kd": "22",
+        "url": "https://www.inll.lu/de/sproochentest-de/",
+        "updated": "Mar 26"
+      },
+      {
+        "keyword": "inll belval",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "6",
+        "traffic": "168",
+        "trafficPercent": "0.71",
+        "volume": "210",
+        "kd": "29",
+        "url": "https://www.inll.lu/",
+        "updated": "Mar 29"
+      },
+      {
+        "keyword": "language courses luxembourg",
+        "intents": [
+          "C"
+        ],
+        "position": "1",
+        "serpFeatures": "3",
+        "traffic": "150",
+        "trafficPercent": "0.63",
+        "volume": "320",
+        "kd": "21",
+        "url": "https://www.inll.lu/en/institut-en/",
+        "updated": "Mar 29"
+      },
+      {
+        "keyword": "inl login",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "2",
+        "traffic": "136",
+        "trafficPercent": "0.57",
+        "volume": "170",
+        "kd": "15",
+        "url": "https://myinl.inll.lu/web/login",
+        "updated": "Apr 12"
+      },
+      {
+        "keyword": "inll lu",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "6",
+        "traffic": "136",
+        "trafficPercent": "0.57",
+        "volume": "170",
+        "kd": "26",
+        "url": "https://www.inll.lu/",
+        "updated": "Mar 28"
+      },
+      {
+        "keyword": "sproochentest luxembourg",
+        "intents": [
+          "I",
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "4",
+        "traffic": "136",
+        "trafficPercent": "0.57",
+        "volume": "170",
+        "kd": "21",
+        "url": "https://www.inll.lu/de/sproochentest-de/",
+        "updated": "18 hours"
+      },
+      {
+        "keyword": "myinl",
+        "intents": [
+          "N"
+        ],
+        "position": "4",
+        "serpFeatures": "2",
+        "traffic": "133",
+        "trafficPercent": "0.56",
+        "volume": "1.9K",
+        "kd": "12",
+        "url": "https://myinl.inll.lu/fr_FR/web/login",
+        "updated": "2 days"
+      },
+      {
+        "keyword": "inl",
+        "intents": [
+          "N"
+        ],
+        "position": "4",
+        "serpFeatures": "5",
+        "traffic": "132",
+        "trafficPercent": "0.56",
+        "volume": "4.4K",
+        "kd": "29",
+        "url": "https://www.inll.lu/de/poterkescht-4/",
+        "updated": "Apr 13"
+      },
+      {
+        "keyword": "inl",
+        "intents": [
+          "N"
+        ],
+        "position": "5",
+        "serpFeatures": "5",
+        "traffic": "132",
+        "trafficPercent": "0.56",
+        "volume": "4.4K",
+        "kd": "29",
+        "url": "https://myinl.inll.lu/web/login",
+        "updated": "Apr 13"
+      },
+      {
+        "keyword": "cours luxembourgeois",
+        "intents": [
+          "C"
+        ],
+        "position": "1",
+        "serpFeatures": "5",
+        "traffic": "122",
+        "trafficPercent": "0.51",
+        "volume": "260",
+        "kd": "26",
+        "url": "https://www.inll.lu/fr/langues/luxembourgeois/",
+        "updated": "Mar 29"
+      },
+      {
+        "keyword": "inl luxembourg",
+        "intents": [
+          "N"
+        ],
+        "position": "3",
+        "serpFeatures": "2",
+        "traffic": "120",
+        "trafficPercent": "0.50",
+        "volume": "2.4K",
+        "kd": "26",
+        "url": "https://www.inll.lu/de/sprachkurse/",
+        "updated": "Apr 13"
+      },
+      {
+        "keyword": "cours de langue luxembourg",
+        "intents": [
+          "I"
+        ],
+        "position": "1",
+        "serpFeatures": "7",
+        "traffic": "112",
+        "trafficPercent": "0.47",
+        "volume": "140",
+        "kd": "41",
+        "url": "https://www.inll.lu/",
+        "updated": "Mar 29"
+      },
+      {
+        "keyword": "schwätzt dir lëtzebuergesch a2 pdf",
+        "intents": [
+          "I",
+          "T"
+        ],
+        "position": "1",
+        "serpFeatures": "3",
+        "traffic": "112",
+        "trafficPercent": "0.47",
+        "volume": "140",
+        "kd": "13",
+        "url": "https://sdl.inll.lu/",
+        "updated": "Mar 20"
+      },
+      {
+        "keyword": "schwätzt dir lëtzebuergesch a1",
+        "intents": [
+          "I"
+        ],
+        "position": "1",
+        "serpFeatures": "3",
+        "traffic": "112",
+        "trafficPercent": "0.47",
+        "volume": "140",
+        "kd": "13",
+        "url": "https://sdl.inll.lu/",
+        "updated": "Apr 10"
+      },
+      {
+        "keyword": "schwätzt dir lëtzebuergesch",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "3",
+        "traffic": "112",
+        "trafficPercent": "0.47",
+        "volume": "140",
+        "kd": "13",
+        "url": "https://sdl.inll.lu/",
+        "updated": "Apr 05"
+      },
+      {
+        "keyword": "inl",
+        "intents": [
+          "N"
+        ],
+        "position": "6",
+        "serpFeatures": "5",
+        "traffic": "110",
+        "trafficPercent": "0.46",
+        "volume": "4.4K",
+        "kd": "29",
+        "url": "https://myinl.inll.lu/fr_FR",
+        "updated": "Apr 13"
+      },
+      {
+        "keyword": "inl luxembourg",
+        "intents": [
+          "N"
+        ],
+        "position": "4",
+        "serpFeatures": "2",
+        "traffic": "96",
+        "trafficPercent": "0.40",
+        "volume": "2.4K",
+        "kd": "26",
+        "url": "https://myinl.inll.lu/",
+        "updated": "Apr 13"
+      },
+      {
+        "keyword": "myinl",
+        "intents": [
+          "N"
+        ],
+        "position": "5",
+        "serpFeatures": "2",
+        "traffic": "95",
+        "trafficPercent": "0.40",
+        "volume": "1.9K",
+        "kd": "12",
+        "url": "https://www.inll.lu/de/myinl-de/",
+        "updated": "2 days"
+      },
+      {
+        "keyword": "myinl",
+        "intents": [
+          "N"
+        ],
+        "position": "6",
+        "serpFeatures": "2",
+        "traffic": "95",
+        "trafficPercent": "0.40",
+        "volume": "1.9K",
+        "kd": "12",
+        "url": "https://myinl.inll.lu/web/signup",
+        "updated": "2 days"
+      },
+      {
+        "keyword": "cours de luxembourgeois",
+        "intents": [
+          "I"
+        ],
+        "position": "2",
+        "serpFeatures": "5",
+        "traffic": "93",
+        "trafficPercent": "0.39",
+        "volume": "720",
+        "kd": "21",
+        "url": "https://www.inll.lu/fr/cours-de-langue/",
+        "updated": "Mar 11"
+      },
+      {
+        "keyword": "my inl lu",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "2",
+        "traffic": "88",
+        "trafficPercent": "0.37",
+        "volume": "110",
+        "kd": "19",
+        "url": "https://myinl.inll.lu/fr_FR",
+        "updated": "Apr 08"
+      },
+      {
+        "keyword": "centre de langues luxembourg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "4",
+        "traffic": "88",
+        "trafficPercent": "0.37",
+        "volume": "110",
+        "kd": "26",
+        "url": "https://www.inll.lu/",
+        "updated": "Mar 31"
+      },
+      {
+        "keyword": "schwartz dir letzebuergesch",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "3",
+        "traffic": "88",
+        "trafficPercent": "0.37",
+        "volume": "110",
+        "kd": "13",
+        "url": "https://sdl.inll.lu/",
+        "updated": "1 day"
+      },
+      {
+        "keyword": "myinl",
+        "intents": [
+          "N"
+        ],
+        "position": "7",
+        "serpFeatures": "2",
+        "traffic": "76",
+        "trafficPercent": "0.32",
+        "volume": "1.9K",
+        "kd": "12",
+        "url": "https://myinl.inll.lu/fr_FR/course/offer",
+        "updated": "2 days"
+      },
+      {
+        "keyword": "myinll",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "3",
+        "traffic": "72",
+        "trafficPercent": "0.30",
+        "volume": "90",
+        "kd": "16",
+        "url": "https://myinl.inll.lu/",
+        "updated": "Apr 10"
+      },
+      {
+        "keyword": "innl",
+        "intents": [
+          "N",
+          "T"
+        ],
+        "position": "1",
+        "serpFeatures": "4",
+        "traffic": "72",
+        "trafficPercent": "0.30",
+        "volume": "90",
+        "kd": "22",
+        "url": "https://www.inll.lu/de/",
+        "updated": "Apr 13"
+      },
+      {
+        "keyword": "myinl luxembourg",
+        "intents": [
+          "N"
+        ],
+        "position": "1",
+        "serpFeatures": "4",
+        "traffic": "72",
+        "trafficPercent": "0.30",
+        "volume": "90",
+        "kd": "18",
+        "url": "https://myinl.inll.lu/",
+        "updated": "11 hours"
+      },
+      {
+        "keyword": "inl luxembourg",
+        "intents": [
+          "N"
+        ],
+        "position": "5",
+        "serpFeatures": "2",
+        "traffic": "72",
+        "trafficPercent": "0.30",
+        "volume": "2.4K",
+        "kd": "26",
+        "url": "https://www.inll.lu/de/standorte/",
+        "updated": "Apr 13"
+      },
+      {
+        "keyword": "inl luxembourg",
+        "intents": [
+          "N"
+        ],
+        "position": "6",
+        "serpFeatures": "2",
+        "traffic": "72",
+        "trafficPercent": "0.30",
+        "volume": "2.4K",
+        "kd": "26",
+        "url": "https://www.inll.lu/de/kontakt/",
+        "updated": "Apr 13"
+      },
+      {
+        "keyword": "inl luxembourg",
+        "intents": [
+          "N"
+        ],
+        "position": "7",
+        "serpFeatures": "2",
+        "traffic": "72",
+        "trafficPercent": "0.30",
+        "volume": "2.4K",
+        "kd": "26",
+        "url": "https://www.inll.lu/de/zertifikate/",
+        "updated": "Apr 13"
+      }
+    ],
+    "diagnostics": {
+      "foundPositionsTable": true,
+      "extractedRows": 50
+    }
+  },
+  "segments": [
+    {
+      "name": "top",
+      "scrollY": 0,
+      "visibleHeadingCount": 3,
+      "visibleTableCount": 0,
+      "visibleLinkCount": 8,
+      "visibleTextLength": 627
+    },
+    {
+      "name": "metrics",
+      "scrollY": 788,
+      "visibleHeadingCount": 3,
+      "visibleTableCount": 0,
+      "visibleLinkCount": 40,
+      "visibleTextLength": 817
+    },
+    {
+      "name": "table",
+      "scrollY": 1308,
+      "visibleHeadingCount": 3,
+      "visibleTableCount": 0,
+      "visibleLinkCount": 50,
+      "visibleTextLength": 839
+    }
+  ],
+  "entities": {
+    "domains": [
+      "inll.lu",
+      "myinl.inll.lu",
+      "sdl.inll.lu"
+    ],
+    "urls": [
+      "https://www.semrush.com/home/",
+      "https://www.semrush.com/seo/",
+      "https://www.semrush.com/ai-seo/overview/",
+      "https://www.semrush.com/analytics/traffic/",
+      "https://www.semrush.com/local-business/",
+      "https://www.semrush.com/content/",
+      "https://www.semrush.com/social-media/",
+      "https://www.semrush.com/advertising/",
+      "https://www.semrush.com/pr-toolkit/",
+      "https://static.semrush.com/organic-research/organic.9e29f9d1eaa6b745997b.js",
+      "https://static.semrush.com/organic-research/organic.e79f453b172758b8b6bd.js",
+      "https://",
+      "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&amp;display=swap",
+      "http://",
+      "http://www.w3.org/2000/svg",
+      "https://www.semrush.com/analytics/organic/positions/",
+      "https://www.semrush.com/__static__/semrush-logo-700.feda64a45b12.jpg",
+      "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap",
+      "https://aorta.clickagy.com/pixel.gif?clkgypv=jstag&amp;ws=1",
+      "https://aorta.clickagy.com/channel-sync/4?clkgypv=jstag&amp;ws=1",
+      "https://aorta.clickagy.com/pixel.gif?ch=319&amp;cm=f3831326784d3979a2d11776637629",
+      "https://js.adsrvr.org/up_loader.1.1.0.js",
+      "https://tags.clickagy.com/data.js?rnd=62fe5c0e6ad96",
+      "https://ws-assets.zoominfo.com/formcomplete.js",
+      "https://scripts.clarity.ms/0.8.59/clarity.js",
+      "https://analytics.tiktok.com/i18n/pixel/static/identify_5cff1caf.js",
+      "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMQ.js",
+      "https://www.clarity.ms/tag/uet/5128787?insights=1",
+      "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=D1N4AQJC77U6G0ESFLB0&amp;lib=ttq",
+      "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C4FPRRVM9G8R5RJ0MPKG&amp;lib=ttq",
+      "https://s.yimg.com/wi/ytc.js",
+      "https://getrockerbox.com/customdomain/rp8920cf.semrush.com/wxyz.rb.js",
+      "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+      "https://bat.bing.com/bat.js",
+      "https://tags.srv.stackadapt.com/events.js",
+      "https://sdk.voyantis.io/d8x0anTvV24UqmERWFnln59AQOsoIyNVo9jf2JY0/vy-cs-sdk.min.js",
+      "https://connect.facebook.net/signals/config/239948206198576?v=2.9.300&amp;r=stable&amp;domain=www.semrush.com&amp;hme=c048e760b3fdc0fbdc117d7607b2c36e13eff2660c515ac72e86dac5ba060bb9&amp;ex_m=104%2C205%2C154%2C22%2C72%2C73%2C145%2C68%2C67%2C11%2C162%2C90%2C16%2C138%2C127%2C39%2C75%2C78%2C134%2C159%2C164%2C8%2C4%2C5%2C7%2C6%2C3%2C91%2C101%2C165%2C170%2C219%2C62%2C186%2C187%2C55%2C277%2C30%2C74%2C231%2C230%2C229%2C23%2C33%2C103%2C61%2C10%2C63%2C97%2C98%2C99%2C105%2C130%2C31%2C29%2C132%2C133%2C129%2C128%2C155%2C76%2C158%2C156%2C157%2C50%2C60%2C123%2C15%2C161%2C45%2C264%2C265%2C263%2C26%2C27%2C28%2C48%2C146%2C77%2C112%2C18%2C20%2C44%2C40%2C42%2C41%2C83%2C92%2C96%2C110%2C144%2C147%2C46%2C111%2C24%2C21%2C119%2C69%2C36%2C149%2C148%2C150%2C141%2C139%2C25%2C35%2C59%2C109%2C160%2C70%2C17%2C152%2C114%2C81%2C66%2C19%2C85%2C86%2C116%2C84%2C136%2C135%2C34%2C279%2C294%2C212%2C201%2C202%2C200%2C297%2C289%2C52%2C213%2C107%2C131%2C80%2C121%2C54%2C47%2C49%2C113%2C120%2C126%2C58%2C64%2C151%2C115%2C37%2C32%2C53%2C56%2C100%2C163%2C1%2C124%2C14%2C122%2C12%2C2%2C57%2C93%2C65%2C118%2C89%2C88%2C166%2C167%2C94%2C95%2C9%2C125%2C102%2C51%2C142%2C87%2C79%2C71%2C117%2C106%2C43%2C143%2C0%2C82%2C137%2C140%2C153%2C38%2C108%2C13%2C168",
+      "https://connect.facebook.net/en_US/fbevents.js",
+      "https://www.google-analytics.com/analytics.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-951049332&amp;cx=c&amp;gtm=4e64f1",
+      "https://www.googletagmanager.com/gtag/js?id=DC-6266241&amp;cx=c&amp;gtm=4e64f1",
+      "https://www.googletagmanager.com/gtag/js?id=G-BPNLXP3JQG&amp;cx=c&amp;gtm=4e64f1",
+      "https://www.googletagmanager.com/gtag/js?id=G-HYWKMHR981&amp;cx=c&amp;gtm=4e64f1",
+      "https://cdn.cookiehub.eu/c2/06c77e2e.js",
+      "https://widget.intercom.io/widget/cs07vi2k",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-5K82J2",
+      "https://static.semrush.com/remote-integrations",
+      "https://static.semrush.com/ajst/ajst.js",
+      "https://cdn.speedcurve.com/js/lux.js?id=419973531",
+      "https://widget.intercom.io",
+      "https://www.semrush.com/analytics/organic/positions/?db=lu&amp;q=inll.lu&amp;searchType=domain",
+      "https://de.semrush.com/analytics/organic/positions/?db=lu&amp;q=inll.lu&amp;searchType=domain",
+      "https://es.semrush.com/analytics/organic/positions/?db=lu&amp;q=inll.lu&amp;searchType=domain",
+      "https://fr.semrush.com/analytics/organic/positions/?db=lu&amp;q=inll.lu&amp;searchType=domain",
+      "https://it.semrush.com/analytics/organic/positions/?db=lu&amp;q=inll.lu&amp;searchType=domain",
+      "https://nl.semrush.com/analytics/organic/positions/?db=lu&amp;q=inll.lu&amp;searchType=domain",
+      "https://pl.semrush.com/analytics/organic/positions/?db=lu&amp;q=inll.lu&amp;searchType=domain",
+      "https://pt.semrush.com/analytics/organic/positions/?db=lu&amp;q=inll.lu&amp;searchType=domain",
+      "https://sv.semrush.com/analytics/organic/positions/?db=lu&amp;q=inll.lu&amp;searchType=domain",
+      "https://vi.semrush.com/analytics/organic/positions/?db=lu&amp;q=inll.lu&amp;searchType=domain",
+      "https://tr.semrush.com/analytics/organic/positions/?db=lu&amp;q=inll.lu&amp;searchType=domain",
+      "https://zh.semrush.com/analytics/organic/positions/?db=lu&amp;q=inll.lu&amp;searchType=domain",
+      "https://ja.semrush.com/analytics/organic/positions/?db=lu&amp;q=inll.lu&amp;searchType=domain",
+      "https://ko.semrush.com/analytics/organic/positions/?db=lu&amp;q=inll.lu&amp;searchType=domain",
+      "https://static.semrush.com/semrush-navigation/static/5e4e44dc/734ab4d0.sidebar.css",
+      "https://static.semrush.com/semrush-navigation/static/5e4e44dc/9a42093a.header.css",
+      "https://static.semrush.com/organic-research/1618.c12e255691f983e7f026.css",
+      "https://static.semrush.com/organic-research/5651.df9d9fae2500f4cbb7a7.js",
+      "https://static.semrush.com/organic-research/mini_ko_overview.ff0b9a0b01de7678bac2.js",
+      "https://static.semrush.com/organic-research/7005.fa24d2ebcfbbb0e2a0a6.js",
+      "https://static.semrush.com/organic-research/km_configure.10ff841c5702599e75cf.js",
+      "https://static.semrush.com/organic-research/add_multi_keyword.c4b8e1a53a825c6639c2.js",
+      "https://static.semrush.com/organic-research/add_single_keyword.9f1d6d1288057220171e.js",
+      "http://www.w3.org/2000/svg%27%3E%3Cpath",
+      "https://tags.srv.stackadapt.com/sa.css",
+      "https://cookiehub.net/c2/css/06c77e2e.css",
+      "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/951049332/?random=1776646908945&amp;cv=11&amp;fst=1776646908945&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45be64f1v9166960028z872084770za20gzb72084770zd72084770xec&amp;gcd=13v3v3v3v5l1&amp;dma=0&amp;tag_exp=0~115938465~115938468~117266401&amp;u_w=1280&amp;u_h=800&amp;url=https%3A%2F%2Fwww.semrush.com%2Fanalytics%2Forganic%2Fpositions%2F%3Fdb%3Dlu%26q%3Dinll.lu%26searchType%3Ddomain&amp;rcb=5&amp;frm=0&amp;tiba=inll.lu%3A%20Positions%2C%20Organic%20Rankings&amp;ga_uid=G-HYWKMHR981.29279824&amp;did=dMzY0Yz&amp;gdid=dMzY0Yz&amp;hn=www.googleadservices.com&amp;npa=0&amp;us_privacy=1yn-&amp;pscdl=noapi&amp;auid=2108181174.1776637626&amp;uaa=arm&amp;uab=64&amp;uafvl=Google%2520Chrome%3B147.0.7727.101%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.101&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=15.7.5&amp;uaw=0&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4",
+      "https://bat.bing.com/p/action/5128787.js",
+      "https://rp8920cf.semrush.com/integrations?source=semrush",
+      "http://www.w3.org/1999/xlink",
+      "https://ai-visibility-index.semrush.com/?utm_source=semrush&amp;utm_medium=product_header",
+      "https://careers.semrush.com/",
+      "https://static.semrush.com/semrush-navigation/static/5e4e44dc/",
+      "https://www.semrush.com/my_reports/grid/",
+      "https://www.semrush.com/apps/",
+      "https://www.seoquake.com/",
+      "https://www.inll.lu/de/",
+      "https://www.inll.lu/en/",
+      "https://myinl.inll.lu/web/login",
+      "https://myinl.inll.lu/",
+      "https://www.inll.lu/de/myinl-de/",
+      "https://www.inll.lu/de/sproochentest-de/",
+      "https://www.inll.lu/"
+    ],
+    "keywords": [
+      "inll.lu",
+      "inll",
+      "national language institute",
+      "inl",
+      "inl luxembourg",
+      "myinl",
+      "my inl",
+      "moodle inl",
+      "sproochentest",
+      "institut national des langues",
+      "inl lu",
+      "inl belval",
+      "inl mersch",
+      "myinl login",
+      "sdl inll lu",
+      "french classes luxembourg",
+      "inl sproochentest",
+      "inll belval",
+      "language courses luxembourg",
+      "inl login",
+      "inll lu",
+      "sproochentest luxembourg",
+      "cours luxembourgeois",
+      "cours de langue luxembourg",
+      "schwätzt dir lëtzebuergesch a2 pdf",
+      "schwätzt dir lëtzebuergesch a1",
+      "schwätzt dir lëtzebuergesch",
+      "cours de luxembourgeois",
+      "my inl lu",
+      "centre de langues luxembourg",
+      "schwartz dir letzebuergesch",
+      "myinll",
+      "innl",
+      "myinl luxembourg"
+    ]
+  }
+}

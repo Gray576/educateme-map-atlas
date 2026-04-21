@@ -35,6 +35,16 @@ The current repo already has a useful `ResearchCard` path, but it mixes raw evid
   Prompt pack and methodology for auditing another research system.
 - [07-benchmark-harness.md](/Users/sergey/Desktop/educateme-map/docs/research-v2/07-benchmark-harness.md)
   Fixed-task benchmark harness, response contract, and adjudication loop.
+- [08-semrush-collection-playbook.md](/Users/sergey/Desktop/educateme-map/docs/research-v2/08-semrush-collection-playbook.md)
+  Exact manual collection instructions for SEMrush exports, proxy-market handling, and return format.
+- [10-semrush-corpus-storage.md](/Users/sergey/Desktop/educateme-map/docs/research-v2/10-semrush-corpus-storage.md)
+  How raw SEMrush captures are normalized into a reusable by-domain / by-keyword corpus.
+- [11-market-evidence-and-scorecard.md](/Users/sergey/Desktop/educateme-map/docs/research-v2/11-market-evidence-and-scorecard.md)
+  The current SEMrush evidence model, cross-border Luxembourg-intent rule, and product scorecard logic.
+- [12-luxembourg-market-collection-plan.md](/Users/sergey/Desktop/educateme-map/docs/research-v2/12-luxembourg-market-collection-plan.md)
+  The Luxembourg-only collection plan: product clusters, LU anchors, and FR/DE Luxembourg-intent coverage.
+- [13-germany-market-collection-plan.md](/Users/sergey/Desktop/educateme-map/docs/research-v2/13-germany-market-collection-plan.md)
+  The Germany-only collection plan: adjacent DE evidence for `B1/B2/B3` and separate DE cross-border Luxembourg-intent usage.
 - [templates/post-step-self-audit-prompt.md](/Users/sergey/Desktop/educateme-map/docs/research-v2/templates/post-step-self-audit-prompt.md)
   The reusable self-audit prompt to run after every phase.
 - [templates/high-confidence-card.template.json](/Users/sergey/Desktop/educateme-map/docs/research-v2/templates/high-confidence-card.template.json)
@@ -43,6 +53,14 @@ The current repo already has a useful `ResearchCard` path, but it mixes raw evid
   Narrow, safe payload for dashboard integration.
 - [templates/commercial-validation.template.json](/Users/sergey/Desktop/educateme-map/docs/research-v2/templates/commercial-validation.template.json)
   Sidecar template for quadrant scoring, validation velocity, and SEMrush market observables.
+- [templates/semrush-keywords.template.csv](/Users/sergey/Desktop/educateme-map/docs/research-v2/templates/semrush-keywords.template.csv)
+  CSV template for per-keyword SEMrush collection.
+- [templates/semrush-paid-competitors.template.csv](/Users/sergey/Desktop/educateme-map/docs/research-v2/templates/semrush-paid-competitors.template.csv)
+  CSV template for paid competitor capture from Advertising Research.
+- [templates/semrush-traffic-notes.template.md](/Users/sergey/Desktop/educateme-map/docs/research-v2/templates/semrush-traffic-notes.template.md)
+  Markdown template for Traffic Analytics sanity notes.
+- [templates/semrush-collection-notes.template.md](/Users/sergey/Desktop/educateme-map/docs/research-v2/templates/semrush-collection-notes.template.md)
+  Markdown template for final market-read and proxy-database notes.
 - [templates/external-system-artifact-request.md](/Users/sergey/Desktop/educateme-map/docs/research-v2/templates/external-system-artifact-request.md)
   Exact request pack for getting sample outputs and traces from another system.
 - [templates/external-system-audit-prompts.md](/Users/sergey/Desktop/educateme-map/docs/research-v2/templates/external-system-audit-prompts.md)
@@ -112,6 +130,22 @@ Fetch quote candidates from current source URLs:
 
 ```bash
 npm run research:v2:quote-candidates
+```
+
+Normalize one or more raw SEMrush captures into the reusable corpus:
+
+```bash
+npm run research:v2:normalize-semrush-capture -- /absolute/path/to/capture.json
+```
+
+Build a niche-country rollup on top of the corpus:
+
+```bash
+npm run research:v2:build-semrush-niche-rollup -- \
+  --db lu \
+  --name luxembourgish-route \
+  --domain educateme.lu \
+  --keyword sproochentest
 ```
 
 Important:

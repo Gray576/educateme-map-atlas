@@ -124,6 +124,134 @@
       "value": "International nurses and employer or recruitment partners preparing candidates for German nursing entry, training, or recognition routes.",
       "confidence_band": "medium",
       "omission_reason": "Useful positioning context, but still a synthesis rather than a product-safe fact."
+    },
+    "market_evidence_summary": {
+      "value": {
+        "scope_class": "local",
+        "scope_fit": "fit",
+        "evidence_database": "DE",
+        "lane_group": "german_exam_pflege",
+        "market_track": "germany_local",
+        "semrush_priority": "high",
+        "provisional_market_score_v1": 1.28,
+        "validation_velocity_composite": 1.5,
+        "demand_pull_composite": 1.75,
+        "confidence_band": "low"
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "semrush_anchor_evidence": {
+      "value": {
+        "anchor_focus": [
+          "telc b1 prüfung",
+          "telc b2 prüfung",
+          "deutsch pflege"
+        ],
+        "anchor_capture_count": 3,
+        "anchor_capture_coverage": 1,
+        "anchor_query_volume_sum": 13530,
+        "anchor_max_volume": 8100,
+        "anchor_global_volume_sum": 16890,
+        "local_lane_keyword_count": 7,
+        "local_lane_p1_count": 15,
+        "watch_domains": [
+          "inll.lu",
+          "lifelong-learning.lu",
+          "public.lu",
+          "prolingua.lu",
+          "uni.lu"
+        ]
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "market_research_next_step": {
+      "value": "map lane keywords into product-level commercial notes",
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "top_follow_up_keywords": {
+      "value": [
+        {
+          "keyword": "b1 prüfung telc",
+          "follow_up_tier": "P1",
+          "category": "variation",
+          "max_volume_lu": 1900,
+          "source_count": 1
+        },
+        {
+          "keyword": "b1 telc prüfung",
+          "follow_up_tier": "P1",
+          "category": "variation",
+          "max_volume_lu": 1900,
+          "source_count": 1
+        },
+        {
+          "keyword": "telc b1 prüfung modelltest pdf",
+          "follow_up_tier": "P1",
+          "category": "variation",
+          "max_volume_lu": 1900,
+          "source_count": 1
+        },
+        {
+          "keyword": "telc b1 prufung munich",
+          "follow_up_tier": "P1",
+          "category": "variation",
+          "max_volume_lu": 1300,
+          "source_count": 1
+        },
+        {
+          "keyword": "wie viel kostet b1 prüfung telc",
+          "follow_up_tier": "P2",
+          "category": "variation",
+          "max_volume_lu": 40,
+          "source_count": 1
+        }
+      ],
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "top_market_questions": {
+      "value": [
+        {
+          "keyword": "wie viel kostet b1 prüfung telc",
+          "follow_up_tier": "P2",
+          "category": "question",
+          "max_volume_lu": 40,
+          "source_count": 1
+        },
+        {
+          "keyword": "wie lange dauert telc b1 prüfung",
+          "follow_up_tier": "P2",
+          "category": "question",
+          "max_volume_lu": 30,
+          "source_count": 1
+        },
+        {
+          "keyword": "wie lange dauert telc b1 prüfung ergebnisse",
+          "follow_up_tier": "P2",
+          "category": "question",
+          "max_volume_lu": 30,
+          "source_count": 1
+        }
+      ],
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "cross_border_luxembourg_intent_summary": {
+      "value": {
+        "total_keywords": 0,
+        "sample_keywords": [],
+        "top_volume_keyword": null
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "reference_analog_domains": {
+      "value": [],
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
     }
   },
   "blocked_fields": {

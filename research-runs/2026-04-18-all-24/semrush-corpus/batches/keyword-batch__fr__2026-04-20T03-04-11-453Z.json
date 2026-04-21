@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "startedAt": "2026-04-20T03:04:11.453Z",
+    "database": "fr",
+    "keywordsFile": "/Users/sergey/Desktop/educateme-map/research-runs/2026-04-18-all-24/semrush-corpus/config/keyword-overview-seeds__fr__luxembourg-intent.json",
+    "downloadDir": "/Users/sergey/Desktop/educateme-map/tools",
+    "keywordCount": 15,
+    "tabPolicy": "reuse-active-tab",
+    "reports": [
+      "keyword-overview"
+    ],
+    "completedAt": "2026-04-20T03:07:49.282Z"
+  },
+  "entries": [
+    {
+      "keyword": "cours de luxembourgeois en ligne",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=fr&q=cours%20de%20luxembourgeois%20en%20ligne",
+      "triggerStartedAt": "2026-04-20T03:04:17.516Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__fr__cours-de-luxembourgeois-en-ligne__keyword-overview__2026-04-20T03-04-26-741Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "cours de luxembourgeois",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=fr&q=cours%20de%20luxembourgeois",
+      "triggerStartedAt": "2026-04-20T03:04:31.248Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__fr__cours-de-luxembourgeois__keyword-overview__2026-04-20T03-04-42-130Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "inl sproochentest",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=fr&q=inl%20sproochentest",
+      "triggerStartedAt": "2026-04-20T03:04:45.726Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__fr__inl-sproochentest__keyword-overview__2026-04-20T03-04-56-146Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "formation continue luxembourg",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=fr&q=formation%20continue%20luxembourg",
+      "triggerStartedAt": "2026-04-20T03:05:00.758Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__fr__formation-continue-luxembourg__keyword-overview__2026-04-20T03-05-11-633Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "sproochentest luxembourg",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=fr&q=sproochentest%20luxembourg",
+      "triggerStartedAt": "2026-04-20T03:05:15.106Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__fr__sproochentest-luxembourg__keyword-overview__2026-04-20T03-05-25-988Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "cours luxembourgeois en ligne",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=fr&q=cours%20luxembourgeois%20en%20ligne",
+      "triggerStartedAt": "2026-04-20T03:05:29.620Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__fr__cours-luxembourgeois-en-ligne__keyword-overview__2026-04-20T03-05-39-945Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "cours luxembourgeois en ligne gratuit",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=fr&q=cours%20luxembourgeois%20en%20ligne%20gratuit",
+      "triggerStartedAt": "2026-04-20T03:05:44.301Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__fr__cours-luxembourgeois-en-ligne-gratuit__keyword-overview__2026-04-20T03-05-53-504Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "sproochentest examples",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=fr&q=sproochentest%20examples",
+      "triggerStartedAt": "2026-04-20T03:05:57.881Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__fr__sproochentest-examples__keyword-overview__2026-04-20T03-06-08-759Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "formation agent de sécurité luxembourg",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=fr&q=formation%20agent%20de%20s%C3%A9curit%C3%A9%20luxembourg",
+      "triggerStartedAt": "2026-04-20T03:06:13.575Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__fr__formation-agent-de-securite-luxembourg__keyword-overview__2026-04-20T03-06-23-275Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "sproochentest",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=fr&q=sproochentest",
+      "triggerStartedAt": "2026-04-20T03:06:26.623Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__fr__sproochentest__keyword-overview__2026-04-20T03-06-36-272Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "formation luxembourg",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=fr&q=formation%20luxembourg",
+      "triggerStartedAt": "2026-04-20T03:06:39.993Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__fr__formation-luxembourg__keyword-overview__2026-04-20T03-06-49-709Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "learn luxembourgish online",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=fr&q=learn%20luxembourgish%20online",
+      "triggerStartedAt": "2026-04-20T03:06:53.523Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__fr__learn-luxembourgish-online__keyword-overview__2026-04-20T03-07-03-729Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "french classes luxembourg",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=fr&q=french%20classes%20luxembourg",
+      "triggerStartedAt": "2026-04-20T03:07:08.540Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__fr__french-classes-luxembourg__keyword-overview__2026-04-20T03-07-17-759Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "french courses luxembourg",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=fr&q=french%20courses%20luxembourg",
+      "triggerStartedAt": "2026-04-20T03:07:22.060Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__fr__french-courses-luxembourg__keyword-overview__2026-04-20T03-07-32-268Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "language courses luxembourg",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=fr&q=language%20courses%20luxembourg",
+      "triggerStartedAt": "2026-04-20T03:07:36.223Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__fr__language-courses-luxembourg__keyword-overview__2026-04-20T03-07-46-436Z.json",
+      "status": "captured"
+    }
+  ]
+}

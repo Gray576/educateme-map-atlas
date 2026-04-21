@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "startedAt": "2026-04-21T07:52:36.560Z",
+    "database": "uk",
+    "domainsFile": "/Users/sergey/Desktop/educateme-map/research-runs/2026-04-18-all-24/semrush-corpus/config/uk-domain-seeds__b6-analog.json",
+    "downloadDir": "/Users/sergey/Desktop/educateme-map/tools",
+    "domainCount": 1,
+    "tabPolicy": "reuse-active-tab",
+    "reports": [
+      "domain-overview",
+      "organic-positions"
+    ],
+    "completedAt": "2026-04-21T08:04:39.954Z"
+  },
+  "entries": [
+    {
+      "domain": "bicortexlanguages.com",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=uk&q=bicortexlanguages.com",
+      "triggerStartedAt": "2026-04-21T07:52:45.521Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__uk__bicortexlanguagescom__domain-overview__2026-04-21T08-04-06-945Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "bicortexlanguages.com",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=uk&q=bicortexlanguages.com&searchType=domain",
+      "triggerStartedAt": "2026-04-21T08:04:21.452Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__uk__bicortexlanguagescom__organic-positions__2026-04-21T08-04-38-003Z.json",
+      "status": "captured"
+    }
+  ]
+}

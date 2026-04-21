@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "startedAt": "2026-04-21T02:59:24.801Z",
+    "database": "de",
+    "domainsFile": "/Users/sergey/Desktop/educateme-map/research-runs/2026-04-18-all-24/semrush-corpus/config/de-domain-seeds__b5-analog.json",
+    "downloadDir": "/Users/sergey/Desktop/educateme-map/tools",
+    "domainCount": 1,
+    "tabPolicy": "reuse-active-tab",
+    "reports": [
+      "domain-overview",
+      "organic-positions"
+    ],
+    "completedAt": "2026-04-21T03:15:22.503Z"
+  },
+  "entries": [
+    {
+      "domain": "charite.de",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=de&q=charite.de",
+      "triggerStartedAt": "2026-04-21T02:59:35.094Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__de__charitede__domain-overview__2026-04-21T03-14-50-601Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "charite.de",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=de&q=charite.de&searchType=domain",
+      "triggerStartedAt": "2026-04-21T03:15:04.704Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__de__charitede__organic-positions__2026-04-21T03-15-20-668Z.json",
+      "status": "captured"
+    }
+  ]
+}

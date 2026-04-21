@@ -128,6 +128,112 @@
       "value": "Healthcare professionals using OET for route-relevant English proof, especially in verified UAE pathways and selected international recognition tracks.",
       "confidence_band": "medium",
       "omission_reason": "Useful synthesis, but not a default dashboard fact."
+    },
+    "market_evidence_summary": {
+      "value": {
+        "scope_class": "reference",
+        "scope_fit": "fit",
+        "evidence_database": "US",
+        "lane_group": "oet_exam",
+        "market_track": "reference",
+        "semrush_priority": "high",
+        "provisional_market_score_v1": 2.08,
+        "validation_velocity_composite": 3,
+        "demand_pull_composite": 1.75,
+        "confidence_band": "medium"
+      },
+      "confidence_band": "medium",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "semrush_anchor_evidence": {
+      "value": {
+        "anchor_focus": [
+          "oet preparation",
+          "oet sample test",
+          "oet practice test"
+        ],
+        "anchor_capture_count": 3,
+        "anchor_capture_coverage": 1,
+        "anchor_query_volume_sum": 920,
+        "anchor_max_volume": 590,
+        "anchor_global_volume_sum": 6830,
+        "local_lane_keyword_count": 25,
+        "local_lane_p1_count": 4,
+        "watch_domains": [
+          "oet.com",
+          "e2language.com",
+          "google.com",
+          "apple.com",
+          "cambridgeenglish.org"
+        ]
+      },
+      "confidence_band": "medium",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "market_research_next_step": {
+      "value": "refine WTP/CAC with keyword overview and price checks",
+      "confidence_band": "medium",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "top_follow_up_keywords": {
+      "value": [
+        {
+          "keyword": "oet preparation material",
+          "follow_up_tier": "P2",
+          "category": "variation",
+          "max_volume_lu": 70,
+          "source_count": 1
+        },
+        {
+          "keyword": "oet preparation course",
+          "follow_up_tier": "P2",
+          "category": "variation",
+          "max_volume_lu": 50,
+          "source_count": 1
+        },
+        {
+          "keyword": "oet preparation courses",
+          "follow_up_tier": "P2",
+          "category": "variation",
+          "max_volume_lu": 50,
+          "source_count": 1
+        },
+        {
+          "keyword": "oet preparation materials",
+          "follow_up_tier": "P2",
+          "category": "variation",
+          "max_volume_lu": 50,
+          "source_count": 1
+        },
+        {
+          "keyword": "oet exam sample test",
+          "follow_up_tier": "P1",
+          "category": "variation",
+          "max_volume_lu": 260,
+          "source_count": 1
+        }
+      ],
+      "confidence_band": "medium",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "top_market_questions": {
+      "value": [],
+      "confidence_band": "medium",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "cross_border_luxembourg_intent_summary": {
+      "value": {
+        "total_keywords": 0,
+        "sample_keywords": [],
+        "top_volume_keyword": null
+      },
+      "confidence_band": "medium",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "reference_analog_domains": {
+      "value": [],
+      "confidence_band": "medium",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
     }
   },
   "blocked_fields": {

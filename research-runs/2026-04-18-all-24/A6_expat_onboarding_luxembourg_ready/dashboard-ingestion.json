@@ -117,6 +117,116 @@
       "value": "HR teams, mobility managers, and relocated employees entering Luxembourg's multilingual and cross-border context.",
       "confidence_band": "medium",
       "omission_reason": "This is a synthesis of the surrounding public context rather than a directly stated product fact."
+    },
+    "market_evidence_summary": {
+      "value": {
+        "scope_class": "local",
+        "scope_fit": "fit",
+        "evidence_database": "LU",
+        "lane_group": "integration_discovery",
+        "market_track": "local",
+        "semrush_priority": "high",
+        "provisional_market_score_v1": 1.49,
+        "validation_velocity_composite": 1.5,
+        "demand_pull_composite": 2.25,
+        "confidence_band": "low"
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "semrush_anchor_evidence": {
+      "value": {
+        "anchor_focus": [
+          "cours du soir luxembourg",
+          "formation continue luxembourg",
+          "apprendre luxembourgeois"
+        ],
+        "anchor_capture_count": 5,
+        "anchor_capture_coverage": 1.67,
+        "anchor_query_volume_sum": 410,
+        "anchor_max_volume": 170,
+        "anchor_global_volume_sum": 1700,
+        "local_lane_keyword_count": 26,
+        "local_lane_p1_count": 3,
+        "watch_domains": [
+          "inll.lu",
+          "lifelong-learning.lu",
+          "public.lu",
+          "prolingua.lu",
+          "vdl.lu"
+        ]
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "market_research_next_step": {
+      "value": "map lane keywords into product-level commercial notes",
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "top_follow_up_keywords": {
+      "value": [
+        {
+          "keyword": "cours de luxembourgeois",
+          "follow_up_tier": "P1",
+          "category": "variation",
+          "max_volume_lu": 720,
+          "source_count": 2
+        },
+        {
+          "keyword": "inl sproochentest",
+          "follow_up_tier": "P1",
+          "category": "variation",
+          "max_volume_lu": 210,
+          "source_count": 2
+        },
+        {
+          "keyword": "cours de luxembourgeois en ligne",
+          "follow_up_tier": "P1",
+          "category": "variation",
+          "max_volume_lu": 140,
+          "source_count": 4
+        },
+        {
+          "keyword": "formation continue luxembourg",
+          "follow_up_tier": "P1",
+          "category": "variation",
+          "max_volume_lu": 140,
+          "source_count": 2
+        },
+        {
+          "keyword": "sproochentest luxembourg",
+          "follow_up_tier": "P1",
+          "category": "variation",
+          "max_volume_lu": 140,
+          "source_count": 2
+        }
+      ],
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "top_market_questions": {
+      "value": [],
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "cross_border_luxembourg_intent_summary": {
+      "value": {
+        "total_keywords": 5,
+        "sample_keywords": [
+          "cours de luxembourgeois",
+          "inl sproochentest",
+          "cours de luxembourgeois en ligne"
+        ],
+        "top_volume_keyword": "cours de luxembourgeois"
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "reference_analog_domains": {
+      "value": [],
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
     }
   },
   "blocked_fields": {

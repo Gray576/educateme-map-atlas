@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "startedAt": "2026-04-21T03:47:24.511Z",
+    "database": "se",
+    "domainsFile": "/Users/sergey/Desktop/educateme-map/research-runs/2026-04-18-all-24/semrush-corpus/config/se-domain-seeds__b5-analog.json",
+    "downloadDir": "/Users/sergey/Desktop/educateme-map/tools",
+    "domainCount": 1,
+    "tabPolicy": "reuse-active-tab",
+    "reports": [
+      "domain-overview",
+      "organic-positions"
+    ],
+    "completedAt": "2026-04-21T03:48:12.387Z"
+  },
+  "entries": [
+    {
+      "domain": "lireco.se",
+      "reportType": "domain-overview",
+      "url": "https://www.semrush.com/analytics/overview/?searchType=domain&db=se&q=lireco.se",
+      "triggerStartedAt": "2026-04-21T03:47:30.891Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__se__lirecose__domain-overview__2026-04-21T03-47-45-224Z.json",
+      "status": "captured"
+    },
+    {
+      "domain": "lireco.se",
+      "reportType": "organic-positions",
+      "url": "https://www.semrush.com/analytics/organic/positions/?db=se&q=lireco.se&searchType=domain",
+      "triggerStartedAt": "2026-04-21T03:47:53.700Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__se__lirecose__organic-positions__2026-04-21T03-48-10-224Z.json",
+      "status": "captured"
+    }
+  ]
+}

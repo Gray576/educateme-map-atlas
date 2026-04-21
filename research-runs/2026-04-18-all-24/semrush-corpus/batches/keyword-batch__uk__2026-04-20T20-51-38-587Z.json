@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "startedAt": "2026-04-20T20:51:38.587Z",
+    "database": "uk",
+    "keywordsFile": "/Users/sergey/Desktop/educateme-map/research-runs/2026-04-18-all-24/semrush-corpus/config/keyword-overview-seeds__uk__b6-reference.json",
+    "downloadDir": "/Users/sergey/Desktop/educateme-map/tools",
+    "keywordCount": 6,
+    "tabPolicy": "reuse-active-tab",
+    "reports": [
+      "keyword-overview"
+    ],
+    "completedAt": "2026-04-20T20:52:55.785Z"
+  },
+  "entries": [
+    {
+      "keyword": "language courses for recruitment",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=uk&q=language%20courses%20for%20recruitment",
+      "triggerStartedAt": "2026-04-20T20:51:40.064Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__uk__language-courses-for-recruitment__keyword-overview__2026-04-20T20-51-49-789Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "language training for assignees",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=uk&q=language%20training%20for%20assignees",
+      "triggerStartedAt": "2026-04-20T20:51:53.058Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__uk__language-training-for-assignees__keyword-overview__2026-04-20T20-52-01-763Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "relocation language training",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=uk&q=relocation%20language%20training",
+      "triggerStartedAt": "2026-04-20T20:52:05.015Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__uk__relocation-language-training__keyword-overview__2026-04-20T20-52-14-634Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "cross cultural training relocation",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=uk&q=cross%20cultural%20training%20relocation",
+      "triggerStartedAt": "2026-04-20T20:52:18.479Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__uk__cross-cultural-training-relocation__keyword-overview__2026-04-20T20-52-26-688Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "staff onboarding training",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=uk&q=staff%20onboarding%20training",
+      "triggerStartedAt": "2026-04-20T20:52:31.019Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__uk__staff-onboarding-training__keyword-overview__2026-04-20T20-52-40-618Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "compliance onboarding training",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=uk&q=compliance%20onboarding%20training",
+      "triggerStartedAt": "2026-04-20T20:52:44.119Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__uk__compliance-onboarding-training__keyword-overview__2026-04-20T20-52-53-816Z.json",
+      "status": "captured"
+    }
+  ]
+}

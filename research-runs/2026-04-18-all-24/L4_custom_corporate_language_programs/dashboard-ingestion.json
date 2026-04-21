@@ -85,6 +85,116 @@
       "value": "Luxembourg HR and employer buyers seeking broad corporate language delivery with flexible scheduling and reporting expectations.",
       "confidence_band": "medium",
       "omission_reason": "Useful synthesis, but still partly inferential for the exact service."
+    },
+    "market_evidence_summary": {
+      "value": {
+        "scope_class": "local",
+        "scope_fit": "fit",
+        "evidence_database": "LU",
+        "lane_group": "general_language",
+        "market_track": "local",
+        "semrush_priority": "high",
+        "provisional_market_score_v1": 1.49,
+        "validation_velocity_composite": 1.5,
+        "demand_pull_composite": 2.25,
+        "confidence_band": "low"
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "semrush_anchor_evidence": {
+      "value": {
+        "anchor_focus": [
+          "language courses luxembourg",
+          "cours de langue luxembourg",
+          "courses in luxembourg"
+        ],
+        "anchor_capture_count": 5,
+        "anchor_capture_coverage": 1.67,
+        "anchor_query_volume_sum": 610,
+        "anchor_max_volume": 320,
+        "anchor_global_volume_sum": 3390,
+        "local_lane_keyword_count": 24,
+        "local_lane_p1_count": 5,
+        "watch_domains": [
+          "inll.lu",
+          "lifelong-learning.lu",
+          "public.lu",
+          "prolingua.lu",
+          "vdl.lu"
+        ]
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "market_research_next_step": {
+      "value": "map lane keywords into product-level commercial notes",
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "top_follow_up_keywords": {
+      "value": [
+        {
+          "keyword": "french classes luxembourg",
+          "follow_up_tier": "P2",
+          "category": "variation",
+          "max_volume_lu": 390,
+          "source_count": 1
+        },
+        {
+          "keyword": "french courses luxembourg",
+          "follow_up_tier": "P2",
+          "category": "variation",
+          "max_volume_lu": 390,
+          "source_count": 1
+        },
+        {
+          "keyword": "language courses luxembourg",
+          "follow_up_tier": "P2",
+          "category": "variation",
+          "max_volume_lu": 320,
+          "source_count": 1
+        },
+        {
+          "keyword": "cours de français luxembourg",
+          "follow_up_tier": "P2",
+          "category": "variation",
+          "max_volume_lu": 140,
+          "source_count": 1
+        },
+        {
+          "keyword": "cours de langue luxembourg",
+          "follow_up_tier": "P2",
+          "category": "variation",
+          "max_volume_lu": 140,
+          "source_count": 1
+        }
+      ],
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "top_market_questions": {
+      "value": [],
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "cross_border_luxembourg_intent_summary": {
+      "value": {
+        "total_keywords": 3,
+        "sample_keywords": [
+          "french classes luxembourg",
+          "french courses luxembourg",
+          "language courses luxembourg"
+        ],
+        "top_volume_keyword": "french classes luxembourg"
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "reference_analog_domains": {
+      "value": [],
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
     }
   },
   "blocked_fields": {

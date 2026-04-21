@@ -1,0 +1,312 @@
+{
+  "meta": {
+    "capturedAt": "2026-04-19T22:33:44.065Z",
+    "reportType": "keyword-overview",
+    "database": "lu",
+    "query": "sproochentest",
+    "title": "sproochentest: Overview, Keyword Overview",
+    "url": "https://www.semrush.com/analytics/keywordoverview/?db=lu&q=sproochentest&fid=11501357",
+    "pathname": "/analytics/keywordoverview/",
+    "searchType": null,
+    "sourcePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__sproochentest__keyword-overview__2026-04-19T22-33-44-068Z.json",
+    "scopeType": "keyword",
+    "scopeSlug": "sproochentest"
+  },
+  "summary": {
+    "pageIdentity": "sproochentest: Overview, Keyword Overview",
+    "queryOrDomain": "sproochentest",
+    "topMetrics": {
+      "volume": "880",
+      "keywordDifficulty": "14%",
+      "globalVolume": "1.1K",
+      "intent": "Informational",
+      "cpc": "$3.72",
+      "competitiveDensity": "0.05"
+    },
+    "tableCount": 3,
+    "networkCount": 0
+  },
+  "structured": {
+    "keywordSummary": {
+      "volume": "880",
+      "keywordDifficulty": "14%",
+      "globalVolume": "1.1K",
+      "intent": "Informational",
+      "cpc": "$3.72",
+      "competitiveDensity": "0.05"
+    },
+    "keywordVariations": [
+      {
+        "keyword": "sproochentest",
+        "volume": "880",
+        "kd": "14"
+      },
+      {
+        "keyword": "inl sproochentest",
+        "volume": "210",
+        "kd": "22"
+      },
+      {
+        "keyword": "sproochentest luxembourg",
+        "volume": "140",
+        "kd": "15"
+      },
+      {
+        "keyword": "inll sproochentest",
+        "volume": "70",
+        "kd": "14"
+      },
+      {
+        "keyword": "sproochentest examples",
+        "volume": "70",
+        "kd": "3"
+      }
+    ],
+    "questions": [
+      {
+        "keyword": "comment reussir a sproochentest",
+        "volume": "0",
+        "kd": "n/a"
+      },
+      {
+        "keyword": "comment savoir si on a reussi le sproochentest",
+        "volume": "0",
+        "kd": "n/a"
+      },
+      {
+        "keyword": "how to prepare for sproochentest",
+        "volume": "0",
+        "kd": "n/a"
+      }
+    ],
+    "serpLeaders": [
+      {
+        "position": "1",
+        "url": "https://www.inll.lu/de/sproochentest-de/inll.lu",
+        "pageAuthority": "15",
+        "refDomains": "4",
+        "backlinks": "16",
+        "searchTraffic": "734",
+        "urlKeywords": "8"
+      },
+      {
+        "position": "2",
+        "url": "https://men.public.lu/de/systeme-educatif/formation-adultes/integration-nationalite/cours-examen.htmlpublic.lu",
+        "pageAuthority": "14",
+        "refDomains": "1",
+        "backlinks": "1",
+        "searchTraffic": "137",
+        "urlKeywords": "8"
+      },
+      {
+        "position": "3",
+        "url": "https://sproochentest.org/what-is-the-sproochentest/sproochentest.org",
+        "pageAuthority": "0",
+        "refDomains": "0",
+        "backlinks": "0",
+        "searchTraffic": "86",
+        "urlKeywords": "6"
+      },
+      {
+        "position": "4",
+        "url": "https://sproochentest.org/sproochentest.org",
+        "pageAuthority": "11",
+        "refDomains": "23",
+        "backlinks": "153",
+        "searchTraffic": "76",
+        "urlKeywords": "5"
+      },
+      {
+        "position": "5",
+        "url": "https://www.ing.lu/content/siteing/en/Individuals/my-money/categories/lifestyle/how-do-i-prepare-the-sproochentest-.htmling.lu",
+        "pageAuthority": "8",
+        "refDomains": "1",
+        "backlinks": "1",
+        "searchTraffic": "51",
+        "urlKeywords": "6"
+      },
+      {
+        "position": "6",
+        "url": "https://www.luxlessons.lu/sproochentest-letzebuergeschluxlessons.lu",
+        "pageAuthority": "14",
+        "refDomains": "3",
+        "backlinks": "14",
+        "searchTraffic": "55",
+        "urlKeywords": "6"
+      },
+      {
+        "position": "7",
+        "url": "https://www.inll.lu/de/event/sproochentest-heierverstoen-mendlechen-ausdrock-glacis-tablet-3/inll.lu",
+        "pageAuthority": "0",
+        "refDomains": "0",
+        "backlinks": "0",
+        "searchTraffic": "46",
+        "urlKeywords": "5"
+      },
+      {
+        "position": "8",
+        "url": "https://educateme.lu/tpost/7x4vcrtf51-surviving-the-sproochentest-essential-gueducateme.lu",
+        "pageAuthority": "0",
+        "refDomains": "0",
+        "backlinks": "0",
+        "searchTraffic": "28",
+        "urlKeywords": "5"
+      },
+      {
+        "position": "9",
+        "url": "https://www.luxlanguages.lu/preparation-au-sproochentest-guide-complet/luxlanguages.lu",
+        "pageAuthority": "0",
+        "refDomains": "0",
+        "backlinks": "0",
+        "searchTraffic": "27",
+        "urlKeywords": "6"
+      },
+      {
+        "position": "10",
+        "url": "https://courses.luxembourgishwithanne.lu/p/zero-to-sproochentestluxembourgishwithanne.lu",
+        "pageAuthority": "7",
+        "refDomains": "2",
+        "backlinks": "4",
+        "searchTraffic": "26",
+        "urlKeywords": "3"
+      }
+    ]
+  },
+  "segments": [
+    {
+      "name": "top",
+      "scrollY": 0,
+      "visibleHeadingCount": 8,
+      "visibleTableCount": 0,
+      "visibleLinkCount": 7,
+      "visibleTextLength": 735
+    },
+    {
+      "name": "metrics",
+      "scrollY": 700,
+      "visibleHeadingCount": 8,
+      "visibleTableCount": 3,
+      "visibleLinkCount": 14,
+      "visibleTextLength": 764
+    },
+    {
+      "name": "table",
+      "scrollY": 1500,
+      "visibleHeadingCount": 8,
+      "visibleTableCount": 1,
+      "visibleLinkCount": 43,
+      "visibleTextLength": 826
+    }
+  ],
+  "entities": {
+    "domains": [
+      "inll.lu",
+      "men.public.lu",
+      "sproochentest.org",
+      "ing.lu",
+      "luxlessons.lu",
+      "educateme.lu",
+      "luxlanguages.lu",
+      "courses.luxembourgishwithanne.lu"
+    ],
+    "urls": [
+      "https://www.semrush.com/home/?fid=11501357",
+      "https://www.semrush.com/seo/?fid=11501357",
+      "https://www.semrush.com/ai-seo/overview/?fid=11501357",
+      "https://www.semrush.com/analytics/traffic/?fid=11501357",
+      "https://www.semrush.com/local-business/?fid=11501357",
+      "https://www.semrush.com/content/?fid=11501357",
+      "https://www.semrush.com/social-media/?fid=11501357",
+      "https://www.semrush.com/advertising/?fid=11501357",
+      "https://www.semrush.com/pr-toolkit/?fid=11501357",
+      "https://www.semrush.com/home?fid=11501357",
+      "https://www.semrush.com/seo?fid=11501357",
+      "https://www.semrush.com/academy/courses/keyword-research-with-semrush-step-by-step-guide/",
+      "http://www.w3.org/2000/svg",
+      "https://www.semrush.com/analytics/keywordmagic?q=sproochentest&amp;db=lu&amp;fid=11501357",
+      "https://www.semrush.com/analytics/keywordoverview?q=sproochentest&amp;db=lu&amp;date=202604&amp;device=0&amp;fid=11501357",
+      "https://www.semrush.com/analytics/keywordoverview?q=inl%20sproochentest&amp;db=lu&amp;date=202604&amp;device=0&amp;fid=11501357",
+      "https://www.semrush.com/analytics/keywordoverview?q=sproochentest%20luxembourg&amp;db=lu&amp;date=202604&amp;device=0&amp;fid=11501357",
+      "https://www.semrush.com/analytics/keywordoverview?q=inll%20sproochentest&amp;db=lu&amp;date=202604&amp;device=0&amp;fid=11501357",
+      "https://www.semrush.com/analytics/keywordoverview?q=sproochentest%20examples&amp;db=lu&amp;date=202604&amp;device=0&amp;fid=11501357",
+      "https://www.semrush.com/analytics/keywordmagic?q=sproochentest&amp;db=lu&amp;fid=11501357&amp;questions=true",
+      "https://www.semrush.com/analytics/keywordoverview?q=comment%20reussir%20a%20sproochentest&amp;db=lu&amp;date=202604&amp;device=0&amp;fid=11501357",
+      "https://www.semrush.com/analytics/keywordoverview?q=comment%20savoir%20si%20on%20a%20reussi%20le%20sproochentest&amp;db=lu&amp;date=202604&amp;device=0&amp;fid=11501357",
+      "https://www.semrush.com/analytics/keywordoverview?q=how%20to%20prepare%20for%20sproochentest&amp;db=lu&amp;date=202604&amp;device=0&amp;fid=11501357",
+      "https://www.semrush.com/analytics/keywordmanager/list/autosetup?seed=sproochentest&amp;db=lu&amp;fid=11501357",
+      "https://www.semrush.com/analytics/serp/?phrase=sproochentest&amp;db=lu&amp;date=20260419&amp;serpId=b-h-97-0320-13038685073176249239",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fsproochentest-de%2F&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.inll.lu/de/sproochentest-de/",
+      "https://www.semrush.com/analytics/organic/overview?q=inll.lu&amp;db=lu&amp;searchType=domain&amp;fid=11501357",
+      "https://www.semrush.com/analytics/backlinks/refdomains?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fsproochentest-de%2F&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/backlinks/backlinks?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fsproochentest-de%2F&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fsproochentest-de%2F&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fmen.public.lu%2Fde%2Fsysteme-educatif%2Fformation-adultes%2Fintegration-nationalite%2Fcours-examen.html&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://men.public.lu/de/systeme-educatif/formation-adultes/integration-nationalite/cours-examen.html",
+      "https://www.semrush.com/analytics/organic/overview?q=public.lu&amp;db=lu&amp;searchType=domain&amp;fid=11501357",
+      "https://www.semrush.com/analytics/backlinks/refdomains?q=https%3A%2F%2Fmen.public.lu%2Fde%2Fsysteme-educatif%2Fformation-adultes%2Fintegration-nationalite%2Fcours-examen.html&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/backlinks/backlinks?q=https%3A%2F%2Fmen.public.lu%2Fde%2Fsysteme-educatif%2Fformation-adultes%2Fintegration-nationalite%2Fcours-examen.html&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Fmen.public.lu%2Fde%2Fsysteme-educatif%2Fformation-adultes%2Fintegration-nationalite%2Fcours-examen.html&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://sproochentest.org/",
+      "https://www.ing.lu/content/siteing/en/Individuals/my-money/categories/lifestyle/how-do-i-prepare-the-sproochentest-.html",
+      "https://www.luxlessons.lu/sproochentest-letzebuergesch",
+      "https://www.inll.lu/de/event/sproochentest-heierverstoen-mendlechen-ausdrock-glacis-tablet-3/",
+      "https://educateme.lu/tpost/7x4vcrtf51-surviving-the-sproochentest-essential-gu",
+      "https://www.luxlanguages.lu/preparation-au-sproochentest-guide-complet/",
+      "https://courses.luxembourgishwithanne.lu/p/zero-to-sproochentest",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fsproochentest.org%2F&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=sproochentest.org&amp;db=lu&amp;searchType=domain&amp;fid=11501357",
+      "https://www.semrush.com/analytics/backlinks/refdomains?q=https%3A%2F%2Fsproochentest.org%2F&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/backlinks/backlinks?q=https%3A%2F%2Fsproochentest.org%2F&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Fsproochentest.org%2F&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.ing.lu%2Fcontent%2Fsiteing%2Fen%2FIndividuals%2Fmy-money%2Fcategories%2Flifestyle%2Fhow-do-i-prepare-the-sproochentest-.html&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=ing.lu&amp;db=lu&amp;searchType=domain&amp;fid=11501357",
+      "https://www.semrush.com/analytics/backlinks/refdomains?q=https%3A%2F%2Fwww.ing.lu%2Fcontent%2Fsiteing%2Fen%2FIndividuals%2Fmy-money%2Fcategories%2Flifestyle%2Fhow-do-i-prepare-the-sproochentest-.html&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/backlinks/backlinks?q=https%3A%2F%2Fwww.ing.lu%2Fcontent%2Fsiteing%2Fen%2FIndividuals%2Fmy-money%2Fcategories%2Flifestyle%2Fhow-do-i-prepare-the-sproochentest-.html&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Fwww.ing.lu%2Fcontent%2Fsiteing%2Fen%2FIndividuals%2Fmy-money%2Fcategories%2Flifestyle%2Fhow-do-i-prepare-the-sproochentest-.html&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.luxlessons.lu%2Fsproochentest-letzebuergesch&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=luxlessons.lu&amp;db=lu&amp;searchType=domain&amp;fid=11501357",
+      "https://www.semrush.com/analytics/backlinks/refdomains?q=https%3A%2F%2Fwww.luxlessons.lu%2Fsproochentest-letzebuergesch&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/backlinks/backlinks?q=https%3A%2F%2Fwww.luxlessons.lu%2Fsproochentest-letzebuergesch&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Fwww.luxlessons.lu%2Fsproochentest-letzebuergesch&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fevent%2Fsproochentest-heierverstoen-mendlechen-ausdrock-glacis-tablet-3%2F&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Fwww.inll.lu%2Fde%2Fevent%2Fsproochentest-heierverstoen-mendlechen-ausdrock-glacis-tablet-3%2F&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Feducateme.lu%2Ftpost%2F7x4vcrtf51-surviving-the-sproochentest-essential-gu&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=educateme.lu&amp;db=lu&amp;searchType=domain&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Feducateme.lu%2Ftpost%2F7x4vcrtf51-surviving-the-sproochentest-essential-gu&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fwww.luxlanguages.lu%2Fpreparation-au-sproochentest-guide-complet%2F&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=luxlanguages.lu&amp;db=lu&amp;searchType=domain&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Fwww.luxlanguages.lu%2Fpreparation-au-sproochentest-guide-complet%2F&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=https%3A%2F%2Fcourses.luxembourgishwithanne.lu%2Fp%2Fzero-to-sproochentest&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/organic/overview?q=luxembourgishwithanne.lu&amp;db=lu&amp;searchType=domain&amp;fid=11501357",
+      "https://www.semrush.com/analytics/backlinks/refdomains?q=https%3A%2F%2Fcourses.luxembourgishwithanne.lu%2Fp%2Fzero-to-sproochentest&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/backlinks/backlinks?q=https%3A%2F%2Fcourses.luxembourgishwithanne.lu%2Fp%2Fzero-to-sproochentest&amp;fid=11501357&amp;searchType=url",
+      "https://www.semrush.com/analytics/organic/positions?q=https%3A%2F%2Fcourses.luxembourgishwithanne.lu%2Fp%2Fzero-to-sproochentest&amp;db=lu&amp;searchType=url&amp;fid=11501357",
+      "https://www.semrush.com/analytics/keywordoverview/",
+      "https://static.semrush.com/keyword-overview/images/card-en.png",
+      "https://",
+      "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap",
+      "https://aorta.clickagy.com/pixel.gif?clkgypv=jstag&amp;ws=1",
+      "https://aorta.clickagy.com/channel-sync/4?clkgypv=jstag&amp;ws=1",
+      "https://aorta.clickagy.com/pixel.gif?ch=319&amp;cm=f3831326784d3979a2d11776637629",
+      "https://js.adsrvr.org/up_loader.1.1.0.js",
+      "https://tags.clickagy.com/data.js?rnd=62fe5c0e6ad96",
+      "https://ws-assets.zoominfo.com/formcomplete.js",
+      "https://getrockerbox.com/customdomain/rp8920cf.semrush.com/wxyz.rb.js",
+      "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMQ.js",
+      "https://scripts.clarity.ms/0.8.59/clarity.js",
+      "https://analytics.tiktok.com/i18n/pixel/static/identify_5cff1caf.js",
+      "https://www.clarity.ms/tag/uet/5128787?insights=1"
+    ],
+    "keywords": [
+      "sproochentest",
+      "inl sproochentest",
+      "sproochentest luxembourg",
+      "inll sproochentest",
+      "sproochentest examples",
+      "comment reussir a sproochentest",
+      "comment savoir si on a reussi le sproochentest",
+      "how to prepare for sproochentest"
+    ]
+  }
+}

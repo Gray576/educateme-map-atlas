@@ -1,0 +1,52 @@
+keyword,lane,priority,domains_count,best_position,max_volume,min_kd,domains,reason_to_keep
+cours luxembourgeois,luxembourgish_route,P1,9,1,260,26,inlingua.lu | inll.lu | lifelong-learning.lu | luxlanguages.lu | luxlessons.lu | moienasbl.lu | prolingua.lu | sproochentest.etic.lu | unipop.lu,9 domains · vol 260 · best pos 1 · direct local route signal
+cours de luxembourgeois,luxembourgish_route,P1,7,2,720,21,educateme.lu | inll.lu | lifelong-learning.lu | luxlanguages.lu | luxlessons.lu | moienasbl.lu | prolingua.lu,7 domains · vol 720 · best pos 2 · direct local route signal
+french courses luxembourg,french_language,P1,6,2,390,14,educateme.lu | inlingua.lu | institut-francais-luxembourg.lu | lifelong-learning.lu | luxlanguages.lu | prolingua.lu,6 domains · vol 390 · best pos 2 · local French demand
+language courses luxembourg,general_language,P1,6,1,320,21,educateme.lu | inlingua.lu | inll.lu | luxlessons.lu | moienasbl.lu | prolingua.lu,6 domains · vol 320 · best pos 1 · category-level language demand
+cours de langue luxembourg,general_language,P1,6,1,140,41,inlingua.lu | inll.lu | luxlanguages.lu | moienasbl.lu | prolingua.lu | unipop.lu,6 domains · vol 140 · best pos 1 · category-level language demand
+courses in luxembourg,general_language,P1,6,19,110,22,educateme.lu | inlingua.lu | luxlanguages.lu | moienasbl.lu | prolingua.lu | unipop.lu,6 domains · vol 110 · best pos 19 · category-level language demand
+cours intensifs luxembourgeois,luxembourgish_route,P1,6,3,70,15,inlingua.lu | institut-francais-luxembourg.lu | luxlanguages.lu | moienasbl.lu | prolingua.lu | unipop.lu,6 domains · vol 70 · best pos 3 · direct local route signal
+french lessons luxembourg,french_language,P1,6,6,30,11,educateme.lu | inlingua.lu | institut-francais-luxembourg.lu | luxlanguages.lu | prolingua.lu | unipop.lu,6 domains · vol 30 · best pos 6 · local French demand
+cours de français luxembourg,french_language,P2,5,5,140,16,inlingua.lu | institut-francais-luxembourg.lu | luxlanguages.lu | prolingua.lu | unipop.lu,5 domains · vol 140 · best pos 5 · local French demand
+cours intensif anglais luxembourg,english_german_adjacent,P2,5,1,40,16,inlingua.lu | lifelong-learning.lu | luxlanguages.lu | moienasbl.lu | prolingua.lu,5 domains · vol 40 · best pos 1 · adjacent language demand
+cours luxembourgeois luxembourg,luxembourgish_route,P2,5,4,30,31,inlingua.lu | luxlanguages.lu | moienasbl.lu | prolingua.lu | sproochentest.etic.lu,5 domains · vol 30 · best pos 4 · direct local route signal
+language courses,general_language,P2,5,5,30,15,educateme.lu | inlingua.lu | luxlanguages.lu | moienasbl.lu | prolingua.lu,5 domains · vol 30 · best pos 5 · category-level language demand
+apprendre luxembourgeois en ligne,luxembourgish_route,P2,5,31,30,3,inlingua.lu | luxlanguages.lu | luxlessons.lu | moienasbl.lu | prolingua.lu,5 domains · vol 30 · best pos 31 · direct local route signal
+sproochentest,luxembourgish_route,P2,4,0,880,14,educateme.lu | inll.lu | luxlanguages.lu | luxlessons.lu,4 domains · vol 880 · best pos 0 · direct local route signal
+formation luxembourg,continuing_education,P2,4,0,720,38,houseoftraining.lu | infpc.lu | lifelong-learning.lu | unipop.lu,4 domains · vol 720 · best pos 0 · discovery / continuing-ed lane
+formation lu,continuing_education,P2,4,1,720,31,houseoftraining.lu | infpc.lu | lifelong-learning.lu | unipop.lu,4 domains · vol 720 · best pos 1 · discovery / continuing-ed lane
+learn luxembourgish online,luxembourgish_route,P2,4,0,480,21,educateme.lu | luxlanguages.lu | luxlessons.lu | moienasbl.lu,4 domains · vol 480 · best pos 0 · direct local route signal
+sproochentest luxembourg,luxembourgish_route,P2,4,1,170,15,educateme.lu | inll.lu | luxlessons.lu | sproochentest.etic.lu,4 domains · vol 170 · best pos 1 · direct local route signal
+cours du soir luxembourg,continuing_education,P2,4,2,170,9,houseoftraining.lu | infpc.lu | institut-francais-luxembourg.lu | lifelong-learning.lu,4 domains · vol 170 · best pos 2 · discovery / continuing-ed lane
+cours en ligne luxembourg,general_language,P2,4,6,110,11,educateme.lu | institut-francais-luxembourg.lu | sproochentest.etic.lu | unipop.lu,4 domains · vol 110 · best pos 6 · category-level language demand
+luxembourgish online course,luxembourgish_route,P2,4,0,90,17,educateme.lu | luxlanguages.lu | luxlessons.lu | moienasbl.lu,4 domains · vol 90 · best pos 0 · direct local route signal
+cours d anglais luxembourg,english_german_adjacent,P2,4,3,70,19,inlingua.lu | luxlanguages.lu | moienasbl.lu | prolingua.lu,4 domains · vol 70 · best pos 3 · adjacent language demand
+inll sproochentest,luxembourgish_route,P2,4,16,70,14,educateme.lu | luxlanguages.lu | luxlessons.lu | moienasbl.lu,4 domains · vol 70 · best pos 16 · direct local route signal
+apprendre luxembourgeois,luxembourgish_route,P2,4,10,50,14,inlingua.lu | luxlanguages.lu | luxlessons.lu | prolingua.lu,4 domains · vol 50 · best pos 10 · direct local route signal
+french classes luxembourg,french_language,P2,3,1,390,14,inll.lu | lifelong-learning.lu | prolingua.lu,3 domains · vol 390 · best pos 1 · local French demand
+inl sproochentest,luxembourgish_route,P2,3,1,210,22,educateme.lu | inll.lu | luxlessons.lu,3 domains · vol 210 · best pos 1 · direct local route signal
+langue luxembourg,general_language,P2,3,14,210,33,inlingua.lu | luxlanguages.lu | unipop.lu,3 domains · vol 210 · best pos 14 · category-level language demand
+formation continue luxembourg,continuing_education,P2,3,1,140,29,houseoftraining.lu | infpc.lu | lifelong-learning.lu,3 domains · vol 140 · best pos 1 · discovery / continuing-ed lane
+language school luxembourg,general_language,P2,3,2,90,22,educateme.lu | inlingua.lu | luxlessons.lu,3 domains · vol 90 · best pos 2 · category-level language demand
+cours luxembourgeois en ligne,luxembourgish_route,P2,3,4,90,10,luxlessons.lu | moienasbl.lu | unipop.lu,3 domains · vol 90 · best pos 4 · direct local route signal
+sproochentest lëtzebuergesch,luxembourgish_route,P2,3,5,70,17,educateme.lu | luxlessons.lu | sproochentest.etic.lu,3 domains · vol 70 · best pos 5 · direct local route signal
+cours anglais intensif luxembourg,english_german_adjacent,P2,3,3,40,15,inlingua.lu | luxlanguages.lu | prolingua.lu,3 domains · vol 40 · best pos 3 · adjacent language demand
+cours de langue française,french_language,P2,3,5,30,15,institut-francais-luxembourg.lu | luxlanguages.lu | prolingua.lu,3 domains · vol 30 · best pos 5 · local French demand
+cours de français,french_language,P2,3,7,30,14,institut-francais-luxembourg.lu | luxlanguages.lu | prolingua.lu,3 domains · vol 30 · best pos 7 · local French demand
+vivre ensemble au grand duché de luxembourg,exam_route,P3,2,0,1000,15,lifelong-learning.lu | unipop.lu,2 domains · vol 1000 · best pos 0 · official / route adjacency
+lifelong learning,continuing_education,P3,2,1,880,18,infpc.lu | lifelong-learning.lu,2 domains · vol 880 · best pos 1 · discovery / continuing-ed lane
+eformation lu,continuing_education,P3,2,12,720,21,educateme.lu | infpc.lu,2 domains · vol 720 · best pos 12 · discovery / continuing-ed lane
+lifelong learning luxembourg,continuing_education,P3,2,1,590,23,infpc.lu | lifelong-learning.lu,2 domains · vol 590 · best pos 1 · discovery / continuing-ed lane
+apprentissage adulte,continuing_education,P3,2,12,210,22,infpc.lu | unipop.lu,2 domains · vol 210 · best pos 12 · discovery / continuing-ed lane
+formations continue,continuing_education,P3,2,1,140,28,houseoftraining.lu | lifelong-learning.lu,2 domains · vol 140 · best pos 1 · discovery / continuing-ed lane
+luxembourg cours de langue,general_language,P3,2,4,140,33,luxlessons.lu | unipop.lu,2 domains · vol 140 · best pos 4 · category-level language demand
+cours,general_language,P3,2,17,140,67,moienasbl.lu | unipop.lu,2 domains · vol 140 · best pos 17 · category-level language demand
+cours anglais luxembourg,english_german_adjacent,P3,2,3,110,17,prolingua.lu | unipop.lu,2 domains · vol 110 · best pos 3 · adjacent language demand
+formation professionnelle luxembourg,continuing_education,P3,2,3,110,37,infpc.lu | unipop.lu,2 domains · vol 110 · best pos 3 · discovery / continuing-ed lane
+cours allemand luxembourg,english_german_adjacent,P3,2,4,50,13,prolingua.lu | unipop.lu,2 domains · vol 50 · best pos 4 · adjacent language demand
+formation anglais luxembourg,english_german_adjacent,P3,2,4,50,0,luxlanguages.lu | unipop.lu,2 domains · vol 50 · best pos 4 · adjacent language demand
+formation professionnelle,continuing_education,P3,2,4,50,40,infpc.lu | unipop.lu,2 domains · vol 50 · best pos 4 · discovery / continuing-ed lane
+cours de langue,general_language,P3,2,3,40,26,luxlanguages.lu | prolingua.lu,2 domains · vol 40 · best pos 3 · category-level language demand
+cours de francais au luxembourg,french_language,P3,2,4,40,9,institut-francais-luxembourg.lu | prolingua.lu,2 domains · vol 40 · best pos 4 · local French demand
+formation lucien huss,continuing_education,P3,2,19,40,4,luxlanguages.lu | unipop.lu,2 domains · vol 40 · best pos 19 · discovery / continuing-ed lane
+cours d anglais intensif luxembourg,english_german_adjacent,P3,2,3,30,15,prolingua.lu | unipop.lu,2 domains · vol 30 · best pos 3 · adjacent language demand

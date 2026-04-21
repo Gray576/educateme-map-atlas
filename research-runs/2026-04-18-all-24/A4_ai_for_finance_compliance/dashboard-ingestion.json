@@ -104,6 +104,76 @@
       "value": "Fit 4 AI is a real Luxembourg SME assessment-and-roadmap route with co-financing, but the reviewed page does not prove that A4 itself is eligible or that any 30% training rate applies.",
       "confidence_band": "medium",
       "omission_reason": "The public route exists, but product-level fit remains unverified."
+    },
+    "market_evidence_summary": {
+      "value": {
+        "scope_class": "local",
+        "scope_fit": "fit",
+        "evidence_database": "LU",
+        "lane_group": "ai_finance_compliance",
+        "market_track": "local",
+        "semrush_priority": "high",
+        "provisional_market_score_v1": 1.28,
+        "validation_velocity_composite": 1.5,
+        "demand_pull_composite": 1.75,
+        "confidence_band": "low"
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "semrush_anchor_evidence": {
+      "value": {
+        "anchor_focus": [
+          "ai act training luxembourg",
+          "ai literacy training finance",
+          "formation compliance luxembourg"
+        ],
+        "anchor_capture_count": 3,
+        "anchor_capture_coverage": 1,
+        "anchor_query_volume_sum": 70,
+        "anchor_max_volume": 70,
+        "anchor_global_volume_sum": 110,
+        "local_lane_keyword_count": 4,
+        "local_lane_p1_count": 0,
+        "watch_domains": [
+          "houseoftraining.lu",
+          "abilways.lu",
+          "alco.lu",
+          "cmlaw.lu",
+          "csl.lu"
+        ]
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "market_research_next_step": {
+      "value": "refine WTP/CAC with keyword overview and price checks",
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "top_follow_up_keywords": {
+      "value": [],
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "top_market_questions": {
+      "value": [],
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "cross_border_luxembourg_intent_summary": {
+      "value": {
+        "total_keywords": 0,
+        "sample_keywords": [],
+        "top_volume_keyword": null
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "reference_analog_domains": {
+      "value": [],
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
     }
   },
   "blocked_fields": {

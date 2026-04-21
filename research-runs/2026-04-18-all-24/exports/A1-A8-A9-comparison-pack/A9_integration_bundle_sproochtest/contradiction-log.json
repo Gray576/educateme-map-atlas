@@ -1,0 +1,87 @@
+{
+  "schema_version": "contradiction_log_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A9",
+  "product_title": "Integration Bundle (Sproochtest+)",
+  "generated_at": "2026-04-18T14:00:45Z",
+  "contradictions": [
+    {
+      "claim_id": "ext_004",
+      "claim_text": "No integration bundle competitor exists.",
+      "status": "contradicted",
+      "severity": "high",
+      "contradiction_type": "empty_market_claim_false",
+      "supporting_source_ids": [],
+      "contradicting_source_ids": [
+        "men_citizenship_courses",
+        "etic_sproochentest",
+        "prolingua_nationality_courses",
+        "luxlanguages_sproochentest_individual",
+        "luxlessons_course"
+      ],
+      "supporting_quote_ids": [],
+      "contradicting_quote_ids": [
+        "q_003",
+        "q_012",
+        "q_013",
+        "q_014",
+        "q_015",
+        "q_018",
+        "q_019",
+        "q_020"
+      ],
+      "resolution": "blocked",
+      "notes": "Official and private preparation options already exist across the route."
+    }
+  ],
+  "open_issues": [
+    {
+      "claim_id": "ext_003",
+      "claim_text": "Language course fees can be reimbursed by the State up to 750 euros, and Sproochentest registration fees can be reimbursed up to 75 euros after a successful exam in the nationality procedure.",
+      "status": "blocked",
+      "issue_type": "reimbursement_copy_compresses_conditions",
+      "resolution": "review",
+      "notes": "Use the exact conditional wording instead of a compressed marketing line."
+    },
+    {
+      "claim_id": "int_001",
+      "claim_text": "Educateme is already #1 in Sproochtest, so this is a pure upsell.",
+      "status": "unclear",
+      "issue_type": "market_position_unproven",
+      "resolution": "blocked",
+      "notes": "Desk research does not establish category leadership."
+    },
+    {
+      "claim_id": "int_002",
+      "claim_text": "No new traffic is needed because existing students are enough.",
+      "status": "unclear",
+      "issue_type": "gtm_assumption",
+      "resolution": "blocked",
+      "notes": "Internal funnel assumption only."
+    },
+    {
+      "claim_id": "int_003",
+      "claim_text": "The bundle can be launched with only about 2K of investment.",
+      "status": "unclear",
+      "issue_type": "cost_estimate_unproven",
+      "resolution": "blocked",
+      "notes": "Not a public fact."
+    },
+    {
+      "claim_id": "int_004",
+      "claim_text": "The product is low risk.",
+      "status": "unclear",
+      "issue_type": "subjective_risk_claim",
+      "resolution": "blocked",
+      "notes": "Judgment only."
+    }
+  ],
+  "summary": {
+    "checked_claim_count": 16,
+    "contradicted_count": 1,
+    "open_issue_count": 5,
+    "verified_claim_count": 10,
+    "unverified_claim_count": 0,
+    "unclear_claim_count": 4
+  }
+}

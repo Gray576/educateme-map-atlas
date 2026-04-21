@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "startedAt": "2026-04-20T20:50:01.163Z",
+    "database": "uk",
+    "keywordsFile": "/Users/sergey/Desktop/educateme-map/research-runs/2026-04-18-all-24/semrush-corpus/config/keyword-overview-seeds__uk__b5-reference.json",
+    "downloadDir": "/Users/sergey/Desktop/educateme-map/tools",
+    "keywordCount": 5,
+    "tabPolicy": "reuse-active-tab",
+    "reports": [
+      "keyword-overview"
+    ],
+    "completedAt": "2026-04-20T20:51:09.886Z"
+  },
+  "entries": [
+    {
+      "keyword": "international nurse recruitment",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=uk&q=international%20nurse%20recruitment",
+      "triggerStartedAt": "2026-04-20T20:50:05.867Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__uk__international-nurse-recruitment__keyword-overview__2026-04-20T20-50-15-013Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "overseas nurse recruitment",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=uk&q=overseas%20nurse%20recruitment",
+      "triggerStartedAt": "2026-04-20T20:50:19.155Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__uk__overseas-nurse-recruitment__keyword-overview__2026-04-20T20-50-28-415Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "nurse relocation package",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=uk&q=nurse%20relocation%20package",
+      "triggerStartedAt": "2026-04-20T20:50:31.998Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__uk__nurse-relocation-package__keyword-overview__2026-04-20T20-50-41-633Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "international nursing recruitment agency",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=uk&q=international%20nursing%20recruitment%20agency",
+      "triggerStartedAt": "2026-04-20T20:50:45.180Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__uk__international-nursing-recruitment-agency__keyword-overview__2026-04-20T20-50-54-330Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "recruit nurses from abroad",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=uk&q=recruit%20nurses%20from%20abroad",
+      "triggerStartedAt": "2026-04-20T20:50:58.153Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__uk__recruit-nurses-from-abroad__keyword-overview__2026-04-20T20-51-07-795Z.json",
+      "status": "captured"
+    }
+  ]
+}

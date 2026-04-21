@@ -1,0 +1,174 @@
+{
+  "schema_version": "dashboard_ingestion_v2",
+  "run_id": "2026-04-18-all-24",
+  "product_code": "A8",
+  "product_title": "B2B Language Proficiency Audit",
+  "reviewed_at": "2026-04-18T13:04:48Z",
+  "release_status": "review",
+  "safe_fields": {
+    "verification_summary": {
+      "value": {
+        "verified_claim_count": 1,
+        "partially_verified_claim_count": 0,
+        "unverified_claim_count": 1,
+        "contradicted_claim_count": 2,
+        "unclear_claim_count": 4,
+        "blocked_question_count": 4
+      },
+      "confidence_band": "high",
+      "claim_refs": [
+        "ext_001",
+        "ext_002",
+        "ext_003",
+        "ext_004",
+        "int_001",
+        "int_002",
+        "int_003",
+        "int_004"
+      ],
+      "source_refs": [
+        "cefr_council_of_europe",
+        "cambridge_workplace_exams",
+        "cambridge_skills_test_business",
+        "pearson_versant",
+        "allingua_about",
+        "pipplet_luxembourgish"
+      ],
+      "last_verified_at": "2026-04-18T13:04:48Z"
+    },
+    "hard_blockers": {
+      "value": [
+        "The numeric claim \"78% of employers use language tests\" remains unsupported by a primary public source.",
+        "The blanket competitor framing is contradicted because Pipplet and Allingua are multilingual and not English-only.",
+        "The absolute uniqueness claim is contradicted because Luxembourg-based multilingual testing and reporting already exists."
+      ],
+      "confidence_band": "high",
+      "claim_refs": [
+        "ext_002",
+        "ext_003",
+        "ext_004"
+      ],
+      "source_refs": [
+        "pearson_versant",
+        "cambridge_workplace_exams",
+        "cambridge_skills_test_business",
+        "allingua_about",
+        "pipplet_luxembourgish"
+      ],
+      "last_verified_at": "2026-04-18T13:04:48Z"
+    }
+  },
+  "verification_summary": {
+    "verified_claim_count": 1,
+    "contradicted_claim_count": 2,
+    "unverified_claim_count": 1,
+    "blocked_question_count": 4
+  },
+  "analyst_only_fields": {
+    "market_evidence_summary": {
+      "value": {
+        "scope_class": "local",
+        "scope_fit": "fit",
+        "evidence_database": "LU",
+        "lane_group": "general_language",
+        "market_track": "local",
+        "semrush_priority": "medium",
+        "provisional_market_score_v1": 2.55,
+        "validation_velocity_composite": 3,
+        "demand_pull_composite": 3.5,
+        "confidence_band": "low"
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "semrush_anchor_evidence": {
+      "value": {
+        "anchor_focus": [
+          "language courses luxembourg",
+          "cours de langue luxembourg",
+          "language school luxembourg"
+        ],
+        "anchor_capture_count": 5,
+        "anchor_capture_coverage": 1.67,
+        "anchor_query_volume_sum": 590,
+        "anchor_max_volume": 320,
+        "anchor_global_volume_sum": 3250,
+        "local_lane_keyword_count": 24,
+        "local_lane_p1_count": 5,
+        "watch_domains": [
+          "inll.lu",
+          "lifelong-learning.lu",
+          "public.lu",
+          "prolingua.lu",
+          "vdl.lu"
+        ]
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "market_research_next_step": {
+      "value": "map lane keywords into product-level commercial notes",
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "top_follow_up_keywords": {
+      "value": [
+        {
+          "keyword": "french classes luxembourg",
+          "follow_up_tier": "P2",
+          "category": "variation",
+          "max_volume_lu": 390,
+          "source_count": 1
+        },
+        {
+          "keyword": "french courses luxembourg",
+          "follow_up_tier": "P2",
+          "category": "variation",
+          "max_volume_lu": 390,
+          "source_count": 1
+        },
+        {
+          "keyword": "language courses luxembourg",
+          "follow_up_tier": "P2",
+          "category": "variation",
+          "max_volume_lu": 320,
+          "source_count": 1
+        },
+        {
+          "keyword": "cours de français luxembourg",
+          "follow_up_tier": "P2",
+          "category": "variation",
+          "max_volume_lu": 140,
+          "source_count": 1
+        },
+        {
+          "keyword": "cours de langue luxembourg",
+          "follow_up_tier": "P2",
+          "category": "variation",
+          "max_volume_lu": 140,
+          "source_count": 1
+        }
+      ],
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "top_market_questions": {
+      "value": [],
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    },
+    "cross_border_luxembourg_intent_summary": {
+      "value": {
+        "total_keywords": 3,
+        "sample_keywords": [
+          "french classes luxembourg",
+          "french courses luxembourg",
+          "language courses luxembourg"
+        ],
+        "top_volume_keyword": "french classes luxembourg"
+      },
+      "confidence_band": "low",
+      "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
+    }
+  }
+}

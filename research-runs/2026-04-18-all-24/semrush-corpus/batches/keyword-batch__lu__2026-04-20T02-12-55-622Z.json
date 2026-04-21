@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "startedAt": "2026-04-20T02:12:55.622Z",
+    "database": "lu",
+    "keywordsFile": "/tmp/lu_keyword_missing.json",
+    "downloadDir": "/Users/sergey/Desktop/educateme-map/tools",
+    "keywordCount": 2,
+    "tabPolicy": "reuse-active-tab",
+    "reports": [
+      "keyword-overview"
+    ],
+    "completedAt": "2026-04-20T02:13:28.431Z"
+  },
+  "entries": [
+    {
+      "keyword": "cours allemand luxembourg",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=lu&q=cours%20allemand%20luxembourg",
+      "triggerStartedAt": "2026-04-20T02:12:57.367Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__cours-allemand-luxembourg__keyword-overview__2026-04-20T02-13-11-181Z.json",
+      "status": "captured"
+    },
+    {
+      "keyword": "formation anglaise luxembourg",
+      "reportType": "keyword-overview",
+      "url": "https://www.semrush.com/analytics/keywordoverview/?db=lu&q=formation%20anglaise%20luxembourg",
+      "triggerStartedAt": "2026-04-20T02:13:16.168Z",
+      "filePath": "/Users/sergey/Desktop/educateme-map/tools/semrush-capture__lu__formation-anglaise-luxembourg__keyword-overview__2026-04-20T02-13-26-390Z.json",
+      "status": "captured"
+    }
+  ]
+}

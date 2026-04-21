@@ -1,0 +1,6497 @@
+{
+  "meta": {
+    "database": "lu",
+    "generatedAt": "2026-04-20T02:16:34.842Z",
+    "sourceKeywordCount": 30,
+    "variationCandidateCount": 133,
+    "questionCandidateCount": 15,
+    "serpDomainCount": 59,
+    "followUpKeywordCount": 80
+  },
+  "sourceKeywords": [
+    {
+      "keyword": "apprendre luxembourgeois",
+      "lane": "luxembourgish_route",
+      "priority": "P2",
+      "score": 400286,
+      "domainsCount": 4,
+      "maxVolume": 50,
+      "queryVolume": 50,
+      "globalVolume": 610,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": 141,
+      "variationCount": 10,
+      "questionCount": 5,
+      "serpLeaderCount": 10
+    },
+    {
+      "keyword": "cours allemand luxembourg",
+      "lane": "english_german_adjacent",
+      "priority": "P3",
+      "score": 200407,
+      "domainsCount": 2,
+      "maxVolume": 50,
+      "queryVolume": 50,
+      "globalVolume": 110,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": 14500000,
+      "variationCount": 5,
+      "questionCount": 0,
+      "serpLeaderCount": 10
+    },
+    {
+      "keyword": "cours anglais luxembourg",
+      "lane": "english_german_adjacent",
+      "priority": "P3",
+      "score": 201023,
+      "domainsCount": 2,
+      "maxVolume": 110,
+      "queryVolume": 110,
+      "globalVolume": 220,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": 31100000,
+      "variationCount": 5,
+      "questionCount": 0,
+      "serpLeaderCount": 10
+    },
+    {
+      "keyword": "cours de francais au luxembourg",
+      "lane": "french_language",
+      "priority": "P3",
+      "score": 200311,
+      "domainsCount": 2,
+      "maxVolume": 40,
+      "queryVolume": 40,
+      "globalVolume": 90,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": null,
+      "variationCount": 5,
+      "questionCount": 0,
+      "serpLeaderCount": 10
+    },
+    {
+      "keyword": "cours de français luxembourg",
+      "lane": "french_language",
+      "priority": "P2",
+      "score": 501284,
+      "domainsCount": 5,
+      "maxVolume": 140,
+      "queryVolume": 140,
+      "globalVolume": 250,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": null,
+      "variationCount": 5,
+      "questionCount": 0,
+      "serpLeaderCount": 0
+    },
+    {
+      "keyword": "cours de langue luxembourg",
+      "lane": "general_language",
+      "priority": "P1",
+      "score": 601339,
+      "domainsCount": 6,
+      "maxVolume": 140,
+      "queryVolume": 140,
+      "globalVolume": 290,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": 43400000,
+      "variationCount": 5,
+      "questionCount": 0,
+      "serpLeaderCount": 10
+    },
+    {
+      "keyword": "cours de luxembourgeois",
+      "lane": "luxembourgish_route",
+      "priority": "P1",
+      "score": 707139,
+      "domainsCount": 7,
+      "maxVolume": 720,
+      "queryVolume": 720,
+      "globalVolume": 1200,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": null,
+      "variationCount": 5,
+      "questionCount": 0,
+      "serpLeaderCount": 10
+    },
+    {
+      "keyword": "cours de luxembourgeois en ligne",
+      "lane": null,
+      "priority": null,
+      "score": null,
+      "domainsCount": null,
+      "maxVolume": 140,
+      "queryVolume": 140,
+      "globalVolume": 290,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": 1500000,
+      "variationCount": 5,
+      "questionCount": 0,
+      "serpLeaderCount": 10
+    },
+    {
+      "keyword": "cours du soir luxembourg",
+      "lane": "continuing_education",
+      "priority": "P2",
+      "score": 401651,
+      "domainsCount": 4,
+      "maxVolume": 170,
+      "queryVolume": 170,
+      "globalVolume": 280,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": null,
+      "variationCount": 5,
+      "questionCount": 0,
+      "serpLeaderCount": 0
+    },
+    {
+      "keyword": "cours en ligne luxembourg",
+      "lane": "general_language",
+      "priority": "P2",
+      "score": 400969,
+      "domainsCount": 4,
+      "maxVolume": 110,
+      "queryVolume": 110,
+      "globalVolume": 130,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": null,
+      "variationCount": 5,
+      "questionCount": 0,
+      "serpLeaderCount": 0
+    },
+    {
+      "keyword": "cours intensifs luxembourgeois",
+      "lane": "luxembourgish_route",
+      "priority": "P1",
+      "score": 600625,
+      "domainsCount": 6,
+      "maxVolume": 70,
+      "queryVolume": 70,
+      "globalVolume": 70,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": 44300,
+      "variationCount": 5,
+      "questionCount": 0,
+      "serpLeaderCount": 10
+    },
+    {
+      "keyword": "cours luxembourgeois",
+      "lane": "luxembourgish_route",
+      "priority": "P1",
+      "score": 902554,
+      "domainsCount": 9,
+      "maxVolume": 260,
+      "queryVolume": 260,
+      "globalVolume": 580,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": 133000000,
+      "variationCount": 5,
+      "questionCount": 0,
+      "serpLeaderCount": 10
+    },
+    {
+      "keyword": "cours luxembourgeois en ligne",
+      "lane": "luxembourgish_route",
+      "priority": "P2",
+      "score": 300810,
+      "domainsCount": 3,
+      "maxVolume": 90,
+      "queryVolume": 110,
+      "globalVolume": 240,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": 1100000,
+      "variationCount": 5,
+      "questionCount": 0,
+      "serpLeaderCount": 10
+    },
+    {
+      "keyword": "courses in luxembourg",
+      "lane": "general_language",
+      "priority": "P1",
+      "score": 600698,
+      "domainsCount": 6,
+      "maxVolume": 110,
+      "queryVolume": 110,
+      "globalVolume": 310,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": 171000000,
+      "variationCount": 7,
+      "questionCount": 2,
+      "serpLeaderCount": 10
+    },
+    {
+      "keyword": "formation anglaise luxembourg",
+      "lane": null,
+      "priority": null,
+      "score": null,
+      "domainsCount": null,
+      "maxVolume": null,
+      "queryVolume": null,
+      "globalVolume": null,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": null,
+      "variationCount": 0,
+      "questionCount": 0,
+      "serpLeaderCount": 0
+    },
+    {
+      "keyword": "formation continue luxembourg",
+      "lane": "continuing_education",
+      "priority": "P2",
+      "score": 301351,
+      "domainsCount": 3,
+      "maxVolume": 140,
+      "queryVolume": 140,
+      "globalVolume": 270,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": 45800000,
+      "variationCount": 5,
+      "questionCount": 0,
+      "serpLeaderCount": 10
+    },
+    {
+      "keyword": "formation lu",
+      "lane": "continuing_education",
+      "priority": "P2",
+      "score": 407149,
+      "domainsCount": 4,
+      "maxVolume": 720,
+      "queryVolume": 720,
+      "globalVolume": 1000,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": null,
+      "variationCount": 5,
+      "questionCount": 0,
+      "serpLeaderCount": 0
+    },
+    {
+      "keyword": "formation luxembourg",
+      "lane": "continuing_education",
+      "priority": "P2",
+      "score": 407162,
+      "domainsCount": 4,
+      "maxVolume": 720,
+      "queryVolume": 720,
+      "globalVolume": 1500,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": null,
+      "variationCount": 10,
+      "questionCount": 5,
+      "serpLeaderCount": 0
+    },
+    {
+      "keyword": "formation professionnelle luxembourg",
+      "lane": "continuing_education",
+      "priority": "P3",
+      "score": 201003,
+      "domainsCount": 2,
+      "maxVolume": 110,
+      "queryVolume": 110,
+      "globalVolume": 380,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": 21800000,
+      "variationCount": 5,
+      "questionCount": 0,
+      "serpLeaderCount": 10
+    },
+    {
+      "keyword": "french classes luxembourg",
+      "lane": "french_language",
+      "priority": "P2",
+      "score": 303866,
+      "domainsCount": 3,
+      "maxVolume": 390,
+      "queryVolume": 390,
+      "globalVolume": 630,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": 54200000,
+      "variationCount": 5,
+      "questionCount": 0,
+      "serpLeaderCount": 10
+    },
+    {
+      "keyword": "french courses luxembourg",
+      "lane": "french_language",
+      "priority": "P1",
+      "score": 603846,
+      "domainsCount": 6,
+      "maxVolume": 390,
+      "queryVolume": 390,
+      "globalVolume": 680,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": 75500000,
+      "variationCount": 5,
+      "questionCount": 0,
+      "serpLeaderCount": 10
+    },
+    {
+      "keyword": "french lessons luxembourg",
+      "lane": "french_language",
+      "priority": "P1",
+      "score": 600169,
+      "domainsCount": 6,
+      "maxVolume": 30,
+      "queryVolume": 30,
+      "globalVolume": 190,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": null,
+      "variationCount": 5,
+      "questionCount": 0,
+      "serpLeaderCount": 0
+    },
+    {
+      "keyword": "inl sproochentest",
+      "lane": "luxembourgish_route",
+      "priority": "P2",
+      "score": 302058,
+      "domainsCount": 3,
+      "maxVolume": 210,
+      "queryVolume": 210,
+      "globalVolume": 310,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": 1800,
+      "variationCount": 5,
+      "questionCount": 0,
+      "serpLeaderCount": 10
+    },
+    {
+      "keyword": "language courses luxembourg",
+      "lane": "general_language",
+      "priority": "P1",
+      "score": 603159,
+      "domainsCount": 6,
+      "maxVolume": 320,
+      "queryVolume": 320,
+      "globalVolume": 930,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": 67800000,
+      "variationCount": 5,
+      "questionCount": 0,
+      "serpLeaderCount": 10
+    },
+    {
+      "keyword": "language school luxembourg",
+      "lane": "general_language",
+      "priority": "P2",
+      "score": 300838,
+      "domainsCount": 3,
+      "maxVolume": 90,
+      "queryVolume": 90,
+      "globalVolume": 170,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": 193000000,
+      "variationCount": 5,
+      "questionCount": 0,
+      "serpLeaderCount": 10
+    },
+    {
+      "keyword": "learn luxembourgish online",
+      "lane": "luxembourgish_route",
+      "priority": "P2",
+      "score": 404779,
+      "domainsCount": 4,
+      "maxVolume": 480,
+      "queryVolume": 480,
+      "globalVolume": 720,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": null,
+      "variationCount": 4,
+      "questionCount": 0,
+      "serpLeaderCount": 0
+    },
+    {
+      "keyword": "luxembourgish online course",
+      "lane": "luxembourgish_route",
+      "priority": "P2",
+      "score": 400883,
+      "domainsCount": 4,
+      "maxVolume": 90,
+      "queryVolume": 90,
+      "globalVolume": 220,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": 53,
+      "variationCount": 3,
+      "questionCount": 0,
+      "serpLeaderCount": 10
+    },
+    {
+      "keyword": "sproochentest",
+      "lane": "luxembourgish_route",
+      "priority": "P2",
+      "score": 408786,
+      "domainsCount": 4,
+      "maxVolume": 880,
+      "queryVolume": 880,
+      "globalVolume": 1100,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": null,
+      "variationCount": 8,
+      "questionCount": 3,
+      "serpLeaderCount": 0
+    },
+    {
+      "keyword": "sproochentest examples",
+      "lane": null,
+      "priority": null,
+      "score": null,
+      "domainsCount": null,
+      "maxVolume": 70,
+      "queryVolume": 70,
+      "globalVolume": 160,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": null,
+      "variationCount": 2,
+      "questionCount": 0,
+      "serpLeaderCount": 10
+    },
+    {
+      "keyword": "sproochentest luxembourg",
+      "lane": "luxembourgish_route",
+      "priority": "P2",
+      "score": 401665,
+      "domainsCount": 4,
+      "maxVolume": 170,
+      "queryVolume": 140,
+      "globalVolume": 310,
+      "cpc": null,
+      "keywordDifficulty": null,
+      "competitiveDensity": null,
+      "results": null,
+      "variationCount": 3,
+      "questionCount": 0,
+      "serpLeaderCount": 0
+    }
+  ],
+  "variationCandidates": [
+    {
+      "keyword": "apprendre le luxembourgeois pdf",
+      "category": "variation",
+      "sourceKeywords": [
+        "apprendre luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400286,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "apprendre le luxembourgeois pdf | 30 | 5"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "apprendre le luxembourgeois rapidement",
+      "category": "variation",
+      "sourceKeywords": [
+        "apprendre luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400286,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "apprendre le luxembourgeois rapidement | 30 | 8"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "apprendre luxembourgeois en ligne",
+      "category": "variation",
+      "sourceKeywords": [
+        "apprendre luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400286,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "apprendre luxembourgeois en ligne | 30 | 3"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "combien de temps pour apprendre le luxembourgeois",
+      "category": "variation",
+      "sourceKeywords": [
+        "apprendre luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400286,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "combien de temps pour apprendre le luxembourgeois | 30 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "french lessons luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "french lessons luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600169,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "french lessons luxembourg | 30 | 11"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "format lu",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation lu"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407149,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "format lu | 20 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "11 rue du fort bourbon formations.lu photo",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation lu"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407149,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "11 rue du fort bourbon formations.lu photo | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "1cc et 1cd.lu formation professionnelle",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation lu"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407149,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "1cc et 1cd.lu formation professionnelle | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "ambition language school luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "language school luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 300838,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "ambition language school luxembourg | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "can you quit a course in between in inl luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "courses in luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600698,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "can you quit a course in between in inl luxembourg | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "cf lusine hussein french classes luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "french classes luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 303866,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "cf lusine hussein french classes luxembourg | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "combien gagne une aide soignante au luxembourg pendant la formation",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407162,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "combien gagne une aide soignante au luxembourg pendant la formation | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "combien le prix de formation de cariste au luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407162,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "combien le prix de formation de cariste au luxembourg | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "combien temps apprendre luxembourgeois",
+      "category": "variation",
+      "sourceKeywords": [
+        "apprendre luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400286,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "combien temps apprendre luxembourgeois | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "comment dire je veux apprendre le luxembourgeois",
+      "category": "variation",
+      "sourceKeywords": [
+        "apprendre luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400286,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "comment dire je veux apprendre le luxembourgeois | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "comment financer une formation au luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407162,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "comment financer une formation au luxembourg | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "comment reussir a sproochentest",
+      "category": "variation",
+      "sourceKeywords": [
+        "sproochentest"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 408786,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "comment reussir a sproochentest | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "comment savoir si on a reussi le sproochentest",
+      "category": "variation",
+      "sourceKeywords": [
+        "sproochentest"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 408786,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "comment savoir si on a reussi le sproochentest | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "cour de langue luxembourg en ligne",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours en ligne luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400969,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "cour de langue luxembourg en ligne | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "cour de langue luxembourgeois en ligne",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de luxembourgeois en ligne"
+      ],
+      "sourceCount": 1,
+      "lanes": [],
+      "priorities": [],
+      "bestSourceScore": null,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "cour de langue luxembourgeois en ligne | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "cours de code du luxembourg en ligne",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours en ligne luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400969,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "cours de code du luxembourg en ligne | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "cours de code luxembourgeois en ligne",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de luxembourgeois en ligne"
+      ],
+      "sourceCount": 1,
+      "lanes": [],
+      "priorities": [],
+      "bestSourceScore": null,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "cours de code luxembourgeois en ligne | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "cours de francais au luxembourg cours du soir",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de francais au luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 200311,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "cours de francais au luxembourg cours du soir | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "cours de francais au luxembourg cours du soir c1",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de francais au luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 200311,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "cours de francais au luxembourg cours du soir c1 | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "cours de français gratuit au luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de francais au luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 200311,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "cours de français gratuit au luxembourg | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "cours de langue francais au luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de francais au luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 200311,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "cours de langue francais au luxembourg | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "cours de luxembourg en ligne",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours en ligne luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400969,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "cours de luxembourg en ligne | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "cours en ligne avec diplome luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours en ligne luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400969,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "cours en ligne avec diplome luxembourg | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "french classes in november 2019 luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "french classes luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 303866,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "french classes in november 2019 luxembourg | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "french classes luxembourg gasperich",
+      "category": "variation",
+      "sourceKeywords": [
+        "french classes luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 303866,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "french classes luxembourg gasperich | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "french lessons private luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "french lessons luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600169,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "french lessons private luxembourg | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "frenchs lessons luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "french lessons luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600169,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "frenchs lessons luxembourg | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "frenchs lessons samedi luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "french lessons luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600169,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "frenchs lessons samedi luxembourg | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "gasperich french classes luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "french classes luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 303866,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "gasperich french classes luxembourg | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "how to prepare for sproochentest",
+      "category": "variation",
+      "sourceKeywords": [
+        "sproochentest"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 408786,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "how to prepare for sproochentest | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "inl sproochentest exemples",
+      "category": "variation",
+      "sourceKeywords": [
+        "inl sproochentest"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 302058,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "inl sproochentest exemples | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "learn luxembourgish learning online",
+      "category": "variation",
+      "sourceKeywords": [
+        "learn luxembourgish online"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 404779,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "learn luxembourgish learning online | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "learn luxembourgish learning online in google play",
+      "category": "variation",
+      "sourceKeywords": [
+        "learn luxembourgish online"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 404779,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "learn luxembourgish learning online in google play | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "luxembourg french lessons",
+      "category": "variation",
+      "sourceKeywords": [
+        "french lessons luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600169,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "luxembourg french lessons | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "luxembourgish courses online",
+      "category": "variation",
+      "sourceKeywords": [
+        "luxembourgish online course"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400883,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "luxembourgish courses online | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "pour apprendre a parler luxembourgeois",
+      "category": "variation",
+      "sourceKeywords": [
+        "apprendre luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400286,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "pour apprendre a parler luxembourgeois | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "pourquoi apprendre le luxembourgeois",
+      "category": "variation",
+      "sourceKeywords": [
+        "apprendre luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400286,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "pourquoi apprendre le luxembourgeois | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "quel formation pour devenir massotherapeute au luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407162,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "quel formation pour devenir massotherapeute au luxembourg | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "quel formation pour devenir massotherapeute luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407162,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "quel formation pour devenir massotherapeute luxembourg | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "sproochentest lëtzebuergesch comprehension example",
+      "category": "variation",
+      "sourceKeywords": [
+        "sproochentest examples"
+      ],
+      "sourceCount": 1,
+      "lanes": [],
+      "priorities": [],
+      "bestSourceScore": null,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "sproochentest lëtzebuergesch comprehension example | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "where can i find italian courses for children in luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "courses in luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600698,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "where can i find italian courses for children in luxembourg | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "cours de luxembourgeois en ligne",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de luxembourgeois",
+        "cours de luxembourgeois en ligne",
+        "cours luxembourgeois",
+        "cours luxembourgeois en ligne"
+      ],
+      "sourceCount": 4,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1",
+        "P2"
+      ],
+      "bestSourceScore": 902554,
+      "maxVolume": 140,
+      "minKd": null,
+      "rowTexts": [
+        "cours de luxembourgeois en ligne | 140 | 15"
+      ],
+      "followUpTier": "P1"
+    },
+    {
+      "keyword": "cours de luxembourgeois",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de luxembourgeois",
+        "cours luxembourgeois"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 902554,
+      "maxVolume": 720,
+      "minKd": null,
+      "rowTexts": [
+        "cours de luxembourgeois | 720 | 21"
+      ],
+      "followUpTier": "P1"
+    },
+    {
+      "keyword": "inl sproochentest",
+      "category": "variation",
+      "sourceKeywords": [
+        "inl sproochentest",
+        "sproochentest"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 408786,
+      "maxVolume": 210,
+      "minKd": null,
+      "rowTexts": [
+        "inl sproochentest | 210 | 22"
+      ],
+      "followUpTier": "P1"
+    },
+    {
+      "keyword": "formation continue luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation continue luxembourg",
+        "formation luxembourg"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407162,
+      "maxVolume": 140,
+      "minKd": null,
+      "rowTexts": [
+        "formation continue luxembourg | 140 | 16"
+      ],
+      "followUpTier": "P1"
+    },
+    {
+      "keyword": "sproochentest luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "sproochentest",
+        "sproochentest luxembourg"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 408786,
+      "maxVolume": 140,
+      "minKd": null,
+      "rowTexts": [
+        "sproochentest luxembourg | 140 | 15"
+      ],
+      "followUpTier": "P1"
+    },
+    {
+      "keyword": "cours luxembourgeois en ligne",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours luxembourgeois",
+        "cours luxembourgeois en ligne"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1",
+        "P2"
+      ],
+      "bestSourceScore": 902554,
+      "maxVolume": 110,
+      "minKd": null,
+      "rowTexts": [
+        "cours luxembourgeois en ligne | 110 | 6"
+      ],
+      "followUpTier": "P1"
+    },
+    {
+      "keyword": "cours luxembourgeois en ligne gratuit",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours luxembourgeois",
+        "cours luxembourgeois en ligne"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1",
+        "P2"
+      ],
+      "bestSourceScore": 902554,
+      "maxVolume": 90,
+      "minKd": null,
+      "rowTexts": [
+        "cours luxembourgeois en ligne gratuit | 90 | 15"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "sproochentest examples",
+      "category": "variation",
+      "sourceKeywords": [
+        "sproochentest",
+        "sproochentest examples"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 408786,
+      "maxVolume": 70,
+      "minKd": null,
+      "rowTexts": [
+        "sproochentest examples | 70 | 3"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "formation agent de sécurité luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407162,
+      "maxVolume": 1300,
+      "minKd": null,
+      "rowTexts": [
+        "formation agent de sécurité luxembourg | 1.3K | 8"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "sproochentest",
+      "category": "variation",
+      "sourceKeywords": [
+        "sproochentest"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 408786,
+      "maxVolume": 880,
+      "minKd": null,
+      "rowTexts": [
+        "sproochentest | 880 | 14"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "formation lu",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation lu"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407149,
+      "maxVolume": 720,
+      "minKd": null,
+      "rowTexts": [
+        "formation lu | 720 | 31"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "formation luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407162,
+      "maxVolume": 720,
+      "minKd": null,
+      "rowTexts": [
+        "formation luxembourg | 720 | 38"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "learn luxembourgish online",
+      "category": "variation",
+      "sourceKeywords": [
+        "learn luxembourgish online"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 404779,
+      "maxVolume": 480,
+      "minKd": null,
+      "rowTexts": [
+        "learn luxembourgish online | 480 | 21"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "french classes luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "french classes luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 303866,
+      "maxVolume": 390,
+      "minKd": null,
+      "rowTexts": [
+        "french classes luxembourg | 390 | 14"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "french courses luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "french courses luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 603846,
+      "maxVolume": 390,
+      "minKd": null,
+      "rowTexts": [
+        "french courses luxembourg | 390 | 14"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "language courses luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "language courses luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 603159,
+      "maxVolume": 320,
+      "minKd": null,
+      "rowTexts": [
+        "language courses luxembourg | 320 | 19"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "apprendre le luxembourgeois",
+      "category": "variation",
+      "sourceKeywords": [
+        "apprendre luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400286,
+      "maxVolume": 260,
+      "minKd": null,
+      "rowTexts": [
+        "apprendre le luxembourgeois | 260 | 8"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "cours luxembourgeois",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 902554,
+      "maxVolume": 260,
+      "minKd": null,
+      "rowTexts": [
+        "cours luxembourgeois | 260 | 24"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "cours du soir luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours du soir luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 401651,
+      "maxVolume": 170,
+      "minKd": null,
+      "rowTexts": [
+        "cours du soir luxembourg | 170 | 14"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "formation adulte luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407162,
+      "maxVolume": 170,
+      "minKd": null,
+      "rowTexts": [
+        "formation adulte luxembourg | 170 | 17"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "congé formation luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407162,
+      "maxVolume": 140,
+      "minKd": null,
+      "rowTexts": [
+        "congé formation luxembourg | 140 | 16"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "cours de français luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de français luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 501284,
+      "maxVolume": 140,
+      "minKd": null,
+      "rowTexts": [
+        "cours de français luxembourg | 140 | 19"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "cours de langue luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de langue luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 601339,
+      "maxVolume": 140,
+      "minKd": null,
+      "rowTexts": [
+        "cours de langue luxembourg | 140 | 32"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "luxembourg cours de langue",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de langue luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 601339,
+      "maxVolume": 140,
+      "minKd": null,
+      "rowTexts": [
+        "luxembourg cours de langue | 140 | 30"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "cours anglais luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours anglais luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 201023,
+      "maxVolume": 110,
+      "minKd": null,
+      "rowTexts": [
+        "cours anglais luxembourg | 110 | 21"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "cours en ligne luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours en ligne luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400969,
+      "maxVolume": 110,
+      "minKd": null,
+      "rowTexts": [
+        "cours en ligne luxembourg | 110 | 10"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "courses in luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "courses in luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600698,
+      "maxVolume": 110,
+      "minKd": null,
+      "rowTexts": [
+        "courses in luxembourg | 110 | 28"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "formation professionnelle luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation professionnelle luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 201003,
+      "maxVolume": 110,
+      "minKd": null,
+      "rowTexts": [
+        "formation professionnelle luxembourg | 110 | 18"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "language school luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "language school luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 300838,
+      "maxVolume": 90,
+      "minKd": null,
+      "rowTexts": [
+        "language school luxembourg | 90 | 18"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "luxembourgish online course",
+      "category": "variation",
+      "sourceKeywords": [
+        "luxembourgish online course"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400883,
+      "maxVolume": 90,
+      "minKd": null,
+      "rowTexts": [
+        "luxembourgish online course | 90 | 17"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "cours d anglais luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours anglais luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 201023,
+      "maxVolume": 70,
+      "minKd": null,
+      "rowTexts": [
+        "cours d anglais luxembourg | 70 | 16"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "cours intensifs luxembourgeois",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours intensifs luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600625,
+      "maxVolume": 70,
+      "minKd": null,
+      "rowTexts": [
+        "cours intensifs luxembourgeois | 70 | 8"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "inll sproochentest",
+      "category": "variation",
+      "sourceKeywords": [
+        "sproochentest"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 408786,
+      "maxVolume": 70,
+      "minKd": null,
+      "rowTexts": [
+        "inll sproochentest | 70 | 14"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "apprendre luxembourgeois",
+      "category": "variation",
+      "sourceKeywords": [
+        "apprendre luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400286,
+      "maxVolume": 50,
+      "minKd": null,
+      "rowTexts": [
+        "apprendre luxembourgeois | 50 | 14"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "cours allemand luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours allemand luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 200407,
+      "maxVolume": 50,
+      "minKd": null,
+      "rowTexts": [
+        "cours allemand luxembourg | 50 | 13"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "formation éducateur luxembourg cours du soir",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours du soir luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 401651,
+      "maxVolume": 50,
+      "minKd": null,
+      "rowTexts": [
+        "formation éducateur luxembourg cours du soir | 50 | 9"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "cours de luxembourgeois gratuit en ligne",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de luxembourgeois",
+        "cours de luxembourgeois en ligne",
+        "cours luxembourgeois en ligne"
+      ],
+      "sourceCount": 3,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1",
+        "P2"
+      ],
+      "bestSourceScore": 707139,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "cours de luxembourgeois gratuit en ligne | 30 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "french language courses in luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "courses in luxembourg",
+        "french courses luxembourg",
+        "language courses luxembourg"
+      ],
+      "sourceCount": 3,
+      "lanes": [
+        "french_language",
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 603846,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "french language courses in luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours de francais au luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de francais au luxembourg",
+        "cours de français luxembourg"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P2",
+        "P3"
+      ],
+      "bestSourceScore": 501284,
+      "maxVolume": 40,
+      "minKd": null,
+      "rowTexts": [
+        "cours de francais au luxembourg | 40 | 9"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "free language courses in luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "courses in luxembourg",
+        "language courses luxembourg"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 603159,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "free language courses in luxembourg | 30 | 16"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours de luxembourgeois en ligne gratuit",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de luxembourgeois en ligne",
+        "cours luxembourgeois en ligne"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 300810,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "cours de luxembourgeois en ligne gratuit | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "french language course luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "french courses luxembourg",
+        "language courses luxembourg"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "french_language",
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 603846,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "french language course luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "inl luxembourg sproochentest",
+      "category": "variation",
+      "sourceKeywords": [
+        "inl sproochentest",
+        "sproochentest luxembourg"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 401665,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "inl luxembourg sproochentest | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours anglais intensif luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours anglais luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 201023,
+      "maxVolume": 40,
+      "minKd": null,
+      "rowTexts": [
+        "cours anglais intensif luxembourg | 40 | 15"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours intensif anglais luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours anglais luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 201023,
+      "maxVolume": 40,
+      "minKd": null,
+      "rowTexts": [
+        "cours intensif anglais luxembourg | 40 | 16"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours luxembourgeois intensif",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours intensifs luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600625,
+      "maxVolume": 40,
+      "minKd": null,
+      "rowTexts": [
+        "cours luxembourgeois intensif | 40 | 15"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "inl cours de luxembourgeois",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 707139,
+      "maxVolume": 40,
+      "minKd": null,
+      "rowTexts": [
+        "inl cours de luxembourgeois | 40 | 26"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours d anglais intensif luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours anglais luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 201023,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "cours d anglais intensif luxembourg | 30 | 15"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours de luxembourgeois online",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 707139,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "cours de luxembourgeois online | 30 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours du soir anglais luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours du soir luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 401651,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "cours du soir anglais luxembourg | 30 | 19"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours du soir cuisine luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours du soir luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 401651,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "cours du soir cuisine luxembourg | 30 | 9"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours intensif allemand luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours allemand luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 200407,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "cours intensif allemand luxembourg | 30 | 9"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours intensif luxembourgeois",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours intensifs luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600625,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "cours intensif luxembourgeois | 30 | 24"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours particulier allemand luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours allemand luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 200407,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "cours particulier allemand luxembourg | 30 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "formation professionnelle au luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation professionnelle luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 201003,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "formation professionnelle au luxembourg | 30 | 35"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "inl sproochentest dates",
+      "category": "variation",
+      "sourceKeywords": [
+        "inl sproochentest"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 302058,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "inl sproochentest dates | 30 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "lifelong learning luxembourg courses in english",
+      "category": "variation",
+      "sourceKeywords": [
+        "courses in luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600698,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "lifelong learning luxembourg courses in english | 30 | 11"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "luxembourg formation professionnelle",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation professionnelle luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 201003,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "luxembourg formation professionnelle | 30 | 36"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours allemand intensif luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours allemand luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 200407,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "cours allemand intensif luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours d allemand au luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours allemand luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 200407,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "cours d allemand au luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours de français gratuit luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de français luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 501284,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "cours de français gratuit luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours de langue au luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de langue luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 601339,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "cours de langue au luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours de langue commune luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de langue luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 601339,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "cours de langue commune luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours de langue intensif luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de langue luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 601339,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "cours de langue intensif luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours de langue luxembourgeois intensif",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours intensifs luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600625,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "cours de langue luxembourgeois intensif | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours de luxembourgeois intensif",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours intensifs luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600625,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "cours de luxembourgeois intensif | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours du soir allemand luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours du soir luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 401651,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "cours du soir allemand luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "formation continue enseignants luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation continue luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 301351,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "formation continue enseignants luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "formation professionnelle adulte luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation professionnelle luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 201003,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "formation professionnelle adulte luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "formations professionnelles luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation professionnelle luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 201003,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "formations professionnelles luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "free courses in luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "courses in luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600698,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "free courses in luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "free french courses luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "french courses luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 603846,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "free french courses luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "french language school luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "language school luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 300838,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "french language school luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "ifen lu formation continue",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation lu"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407149,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "ifen lu formation continue | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "ifen luxembourg formation continue",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation continue luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 301351,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "ifen luxembourg formation continue | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "inl language courses luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "language courses luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 603159,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "inl language courses luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "intensive french course luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "french courses luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 603846,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "intensive french course luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "international language school luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "language school luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 300838,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "international language school luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "learn luxembourgish online free",
+      "category": "variation",
+      "sourceKeywords": [
+        "learn luxembourgish online"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 404779,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "learn luxembourgish online free | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "luxembourg sproochentest",
+      "category": "variation",
+      "sourceKeywords": [
+        "sproochentest luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 401665,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "luxembourg sproochentest | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "online luxembourgish course",
+      "category": "variation",
+      "sourceKeywords": [
+        "luxembourgish online course"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400883,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "online luxembourgish course | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "sproochentest inl",
+      "category": "variation",
+      "sourceKeywords": [
+        "inl sproochentest"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 302058,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "sproochentest inl | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours de francais luxembourg ville",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de français luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 501284,
+      "maxVolume": 10,
+      "minKd": null,
+      "rowTexts": [
+        "cours de francais luxembourg ville | 10 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours de francais pour etranger luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de français luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 501284,
+      "maxVolume": 10,
+      "minKd": null,
+      "rowTexts": [
+        "cours de francais pour etranger luxembourg | 10 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "english language schools luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "language school luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 300838,
+      "maxVolume": 10,
+      "minKd": null,
+      "rowTexts": [
+        "english language schools luxembourg | 10 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "formation continue au luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation continue luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 301351,
+      "maxVolume": 10,
+      "minKd": null,
+      "rowTexts": [
+        "formation continue au luxembourg | 10 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "formation continue enseignement luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation continue luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 301351,
+      "maxVolume": 10,
+      "minKd": null,
+      "rowTexts": [
+        "formation continue enseignement luxembourg | 10 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    }
+  ],
+  "questionCandidates": [
+    {
+      "keyword": "combien de temps pour apprendre le luxembourgeois",
+      "category": "question",
+      "sourceKeywords": [
+        "apprendre luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400286,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "combien de temps pour apprendre le luxembourgeois | 30 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "can you quit a course in between in inl luxembourg",
+      "category": "question",
+      "sourceKeywords": [
+        "courses in luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600698,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "can you quit a course in between in inl luxembourg | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "combien gagne une aide soignante au luxembourg pendant la formation",
+      "category": "question",
+      "sourceKeywords": [
+        "formation luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407162,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "combien gagne une aide soignante au luxembourg pendant la formation | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "combien le prix de formation de cariste au luxembourg",
+      "category": "question",
+      "sourceKeywords": [
+        "formation luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407162,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "combien le prix de formation de cariste au luxembourg | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "combien temps apprendre luxembourgeois",
+      "category": "question",
+      "sourceKeywords": [
+        "apprendre luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400286,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "combien temps apprendre luxembourgeois | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "comment dire je veux apprendre le luxembourgeois",
+      "category": "question",
+      "sourceKeywords": [
+        "apprendre luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400286,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "comment dire je veux apprendre le luxembourgeois | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "comment financer une formation au luxembourg",
+      "category": "question",
+      "sourceKeywords": [
+        "formation luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407162,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "comment financer une formation au luxembourg | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "comment reussir a sproochentest",
+      "category": "question",
+      "sourceKeywords": [
+        "sproochentest"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 408786,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "comment reussir a sproochentest | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "comment savoir si on a reussi le sproochentest",
+      "category": "question",
+      "sourceKeywords": [
+        "sproochentest"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 408786,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "comment savoir si on a reussi le sproochentest | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "how to prepare for sproochentest",
+      "category": "question",
+      "sourceKeywords": [
+        "sproochentest"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 408786,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "how to prepare for sproochentest | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "pour apprendre a parler luxembourgeois",
+      "category": "question",
+      "sourceKeywords": [
+        "apprendre luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400286,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "pour apprendre a parler luxembourgeois | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "pourquoi apprendre le luxembourgeois",
+      "category": "question",
+      "sourceKeywords": [
+        "apprendre luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400286,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "pourquoi apprendre le luxembourgeois | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "quel formation pour devenir massotherapeute au luxembourg",
+      "category": "question",
+      "sourceKeywords": [
+        "formation luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407162,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "quel formation pour devenir massotherapeute au luxembourg | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "quel formation pour devenir massotherapeute luxembourg",
+      "category": "question",
+      "sourceKeywords": [
+        "formation luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407162,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "quel formation pour devenir massotherapeute luxembourg | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    },
+    {
+      "keyword": "where can i find italian courses for children in luxembourg",
+      "category": "question",
+      "sourceKeywords": [
+        "courses in luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600698,
+      "maxVolume": 0,
+      "minKd": null,
+      "rowTexts": [
+        "where can i find italian courses for children in luxembourg | 0 | n/a"
+      ],
+      "followUpTier": "DROP"
+    }
+  ],
+  "serpDomainWatchlist": [
+    {
+      "domain": "inll.lu",
+      "sourceKeywords": [
+        "apprendre luxembourgeois",
+        "cours allemand luxembourg",
+        "cours anglais luxembourg",
+        "cours de francais au luxembourg",
+        "cours de langue luxembourg",
+        "cours de luxembourgeois",
+        "cours de luxembourgeois en ligne",
+        "cours intensifs luxembourgeois",
+        "cours luxembourgeois",
+        "cours luxembourgeois en ligne",
+        "courses in luxembourg",
+        "french classes luxembourg",
+        "french courses luxembourg",
+        "inl sproochentest",
+        "language courses luxembourg",
+        "language school luxembourg",
+        "luxembourgish online course",
+        "sproochentest examples"
+      ],
+      "keywordCount": 18,
+      "lanes": [
+        "english_german_adjacent",
+        "french_language",
+        "general_language",
+        "luxembourgish_route"
+      ],
+      "bestPosition": 1,
+      "totalSearchTraffic": 19359,
+      "maxUrlKeywords": 73,
+      "sampleUrls": [
+        "https://www.inll.lu/fr/langues/luxembourgeois/",
+        "https://www.inll.lu/fr/langues/allemand/",
+        "https://www.inll.lu/fr/langues/anglais/",
+        "https://www.inll.lu/fr/langues/francais/",
+        "https://www.inll.lu/"
+      ]
+    },
+    {
+      "domain": "lifelong-learning.lu",
+      "sourceKeywords": [
+        "apprendre luxembourgeois",
+        "cours allemand luxembourg",
+        "cours anglais luxembourg",
+        "cours de francais au luxembourg",
+        "cours de langue luxembourg",
+        "cours de luxembourgeois",
+        "cours de luxembourgeois en ligne",
+        "cours intensifs luxembourgeois",
+        "cours luxembourgeois",
+        "courses in luxembourg",
+        "formation continue luxembourg",
+        "formation professionnelle luxembourg",
+        "french classes luxembourg",
+        "french courses luxembourg",
+        "language courses luxembourg",
+        "language school luxembourg",
+        "luxembourgish online course"
+      ],
+      "keywordCount": 17,
+      "lanes": [
+        "continuing_education",
+        "english_german_adjacent",
+        "french_language",
+        "general_language",
+        "luxembourgish_route"
+      ],
+      "bestPosition": 1,
+      "totalSearchTraffic": 2878,
+      "maxUrlKeywords": 47,
+      "sampleUrls": [
+        "https://www.lifelong-learning.lu/recherche/formations/langues/luxembourgeois/fr",
+        "https://www.lifelong-learning.lu/recherche/formations/langues/allemand/fr",
+        "https://www.lifelong-learning.lu/recherche/formations/langues/anglais/fr",
+        "https://www.lifelong-learning.lu/recherche/formations/langues/francais-langue-etrangere/fr",
+        "https://www.lifelong-learning.lu/recherche/sous-domaines-de-formation/langues/fr"
+      ]
+    },
+    {
+      "domain": "public.lu",
+      "sourceKeywords": [
+        "apprendre luxembourgeois",
+        "cours allemand luxembourg",
+        "cours anglais luxembourg",
+        "cours de francais au luxembourg",
+        "cours de langue luxembourg",
+        "cours de luxembourgeois",
+        "cours de luxembourgeois en ligne",
+        "cours intensifs luxembourgeois",
+        "cours luxembourgeois",
+        "cours luxembourgeois en ligne",
+        "courses in luxembourg",
+        "formation continue luxembourg",
+        "formation professionnelle luxembourg",
+        "french classes luxembourg",
+        "french courses luxembourg",
+        "inl sproochentest",
+        "language school luxembourg"
+      ],
+      "keywordCount": 17,
+      "lanes": [
+        "continuing_education",
+        "english_german_adjacent",
+        "french_language",
+        "general_language",
+        "luxembourgish_route"
+      ],
+      "bestPosition": 1,
+      "totalSearchTraffic": 982,
+      "maxUrlKeywords": 32,
+      "sampleUrls": [
+        "https://luxembourg.public.lu/fr/societe-et-culture/langues/introduction-letzebuergesch.html",
+        "https://adem.public.lu/fr/demandeurs-demploi/se-former/formations-adem/cours-allemand-intensifs-visee-professionnelle1.html",
+        "https://adem.public.lu/fr/demandeurs-demploi/se-former/formations-adem/cours-anglais-intensifs-visee-professionnelle.html",
+        "https://adem.public.lu/fr/demandeurs-demploi/se-former/formations-adem/cours-francais-intensifs-visee-professionnelle.html",
+        "https://fonction-publique.public.lu/fr/formation-developpement/parcours-specifiques/langues.html"
+      ]
+    },
+    {
+      "domain": "prolingua.lu",
+      "sourceKeywords": [
+        "apprendre luxembourgeois",
+        "cours allemand luxembourg",
+        "cours anglais luxembourg",
+        "cours de francais au luxembourg",
+        "cours de langue luxembourg",
+        "cours intensifs luxembourgeois",
+        "cours luxembourgeois",
+        "french classes luxembourg",
+        "french courses luxembourg",
+        "language courses luxembourg",
+        "language school luxembourg"
+      ],
+      "keywordCount": 11,
+      "lanes": [
+        "english_german_adjacent",
+        "french_language",
+        "general_language",
+        "luxembourgish_route"
+      ],
+      "bestPosition": 3,
+      "totalSearchTraffic": 3925,
+      "maxUrlKeywords": 45,
+      "sampleUrls": [
+        "https://prolingua.lu/fr/formations_8/langue/luxembourgeois_9/",
+        "https://prolingua.lu/",
+        "https://prolingua.lu/fr/formations_8/langue/francais_7/",
+        "https://prolingua.lu/fr/formations_8/langue/luxembourgeois_9",
+        "https://prolingua.lu/en/courses_25/langue/french_7"
+      ]
+    },
+    {
+      "domain": "vdl.lu",
+      "sourceKeywords": [
+        "apprendre luxembourgeois",
+        "cours de langue luxembourg",
+        "cours de luxembourgeois",
+        "cours luxembourgeois",
+        "courses in luxembourg",
+        "french classes luxembourg",
+        "french courses luxembourg",
+        "language courses luxembourg",
+        "language school luxembourg",
+        "luxembourgish online course"
+      ],
+      "keywordCount": 10,
+      "lanes": [
+        "french_language",
+        "general_language",
+        "luxembourgish_route"
+      ],
+      "bestPosition": 1,
+      "totalSearchTraffic": 1316,
+      "maxUrlKeywords": 43,
+      "sampleUrls": [
+        "https://www.vdl.lu/fr/vivre/education-et-formations/sinscrire-aux-cours-de-la-ville",
+        "https://www.vdl.lu/fr/vivre/education-et-formations/sinscrire-aux-cours-de-la-ville/cours-de-langue-et-de-culture-luxembourgeoise",
+        "https://www.vdl.lu/en/living/education-and-training/enrolling-courses-provided-city",
+        "https://www.vdl.lu/en/living/education-and-training/enrolling-courses-provided-city/luxembourgish-language-and-culture-courses"
+      ]
+    },
+    {
+      "domain": "uni.lu",
+      "sourceKeywords": [
+        "cours allemand luxembourg",
+        "cours de langue luxembourg",
+        "courses in luxembourg",
+        "formation continue luxembourg",
+        "french classes luxembourg",
+        "french courses luxembourg",
+        "language courses luxembourg",
+        "language school luxembourg"
+      ],
+      "keywordCount": 8,
+      "lanes": [
+        "continuing_education",
+        "english_german_adjacent",
+        "french_language",
+        "general_language"
+      ],
+      "bestPosition": 2,
+      "totalSearchTraffic": 446,
+      "maxUrlKeywords": 120,
+      "sampleUrls": [
+        "https://www.uni.lu/fr/etudes/centre-de-langues/allemand/",
+        "https://www.uni.lu/fr/etudes/centre-de-langues/",
+        "https://www.uni.lu/en/education/study-programme-overview/",
+        "https://www.uni.lu/fr/admissions/formation-continue/",
+        "https://www.uni.lu/en/education/language-centre/french/"
+      ]
+    },
+    {
+      "domain": "cflh.lu",
+      "sourceKeywords": [
+        "cours allemand luxembourg",
+        "cours de francais au luxembourg",
+        "cours de luxembourgeois en ligne",
+        "cours luxembourgeois",
+        "cours luxembourgeois en ligne",
+        "french classes luxembourg",
+        "french courses luxembourg"
+      ],
+      "keywordCount": 7,
+      "lanes": [
+        "english_german_adjacent",
+        "french_language",
+        "luxembourgish_route"
+      ],
+      "bestPosition": 6,
+      "totalSearchTraffic": 132,
+      "maxUrlKeywords": 25,
+      "sampleUrls": [
+        "https://www.cflh.lu/index.php/fr/cours-allemand",
+        "https://www.cflh.lu/index.php/fr/cours-francais",
+        "https://www.cflh.lu/index.php/fr/cours-luxembourgeois",
+        "http://www.cflh.lu/index.php/en/"
+      ]
+    },
+    {
+      "domain": "berlitz.com",
+      "sourceKeywords": [
+        "cours de francais au luxembourg",
+        "cours intensifs luxembourgeois",
+        "french classes luxembourg",
+        "french courses luxembourg",
+        "language courses luxembourg",
+        "language school luxembourg",
+        "luxembourgish online course"
+      ],
+      "keywordCount": 7,
+      "lanes": [
+        "french_language",
+        "general_language",
+        "luxembourgish_route"
+      ],
+      "bestPosition": 5,
+      "totalSearchTraffic": 86,
+      "maxUrlKeywords": 14,
+      "sampleUrls": [
+        "https://www.berlitz.com/fr-lu/ecoles-de-langues/luxembourg/francais",
+        "https://www.berlitz.com/fr-lu/langues/luxembourgeois/cours-intensifs",
+        "https://www.berlitz.com/en-lu/language-schools/luxembourg/french",
+        "https://www.berlitz.com/en-lu/language-schools/luxembourg",
+        "https://www.berlitz.com/en-lu/languages/luxembourgish"
+      ]
+    },
+    {
+      "domain": "llo.lu",
+      "sourceKeywords": [
+        "apprendre luxembourgeois",
+        "cours de langue luxembourg",
+        "cours de luxembourgeois en ligne",
+        "cours luxembourgeois",
+        "cours luxembourgeois en ligne",
+        "luxembourgish online course"
+      ],
+      "keywordCount": 6,
+      "lanes": [
+        "general_language",
+        "luxembourgish_route"
+      ],
+      "bestPosition": 1,
+      "totalSearchTraffic": 1369,
+      "maxUrlKeywords": 55,
+      "sampleUrls": [
+        "https://llo.lu/",
+        "https://llo.lu/fr/",
+        "https://www.llo.lu/",
+        "https://llo.lu/en"
+      ]
+    },
+    {
+      "domain": "moienasbl.lu",
+      "sourceKeywords": [
+        "cours de luxembourgeois",
+        "cours de luxembourgeois en ligne",
+        "cours intensifs luxembourgeois",
+        "cours luxembourgeois",
+        "cours luxembourgeois en ligne",
+        "luxembourgish online course"
+      ],
+      "keywordCount": 6,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "bestPosition": 3,
+      "totalSearchTraffic": 388,
+      "maxUrlKeywords": 26,
+      "sampleUrls": [
+        "https://moienasbl.lu/services/",
+        "https://moienasbl.lu/services/cours-de-luxembourgeois/",
+        "https://moienasbl.lu/en/services/cours-de-luxembourgeois/"
+      ]
+    },
+    {
+      "domain": "unipop.lu",
+      "sourceKeywords": [
+        "cours allemand luxembourg",
+        "cours anglais luxembourg",
+        "cours de langue luxembourg",
+        "cours de luxembourgeois en ligne",
+        "cours luxembourgeois",
+        "formation professionnelle luxembourg"
+      ],
+      "keywordCount": 6,
+      "lanes": [
+        "continuing_education",
+        "english_german_adjacent",
+        "general_language",
+        "luxembourgish_route"
+      ],
+      "bestPosition": 4,
+      "totalSearchTraffic": 231,
+      "maxUrlKeywords": 48,
+      "sampleUrls": [
+        "https://www.unipop.lu/formations/langues/",
+        "https://www.unipop.lu/formation-professionnelle/"
+      ]
+    },
+    {
+      "domain": "mosellelangues.eu",
+      "sourceKeywords": [
+        "apprendre luxembourgeois",
+        "cours de luxembourgeois",
+        "cours de luxembourgeois en ligne",
+        "cours luxembourgeois",
+        "cours luxembourgeois en ligne"
+      ],
+      "keywordCount": 5,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "bestPosition": 2,
+      "totalSearchTraffic": 530,
+      "maxUrlKeywords": 33,
+      "sampleUrls": [
+        "https://www.mosellelangues.eu/fr/formations-gratuites-en-ligne.html?langue_cible=luxembourgeois"
+      ]
+    },
+    {
+      "domain": "superprof.lu",
+      "sourceKeywords": [
+        "cours allemand luxembourg",
+        "cours anglais luxembourg",
+        "cours de francais au luxembourg",
+        "cours de luxembourgeois",
+        "cours luxembourgeois en ligne"
+      ],
+      "keywordCount": 5,
+      "lanes": [
+        "english_german_adjacent",
+        "french_language",
+        "luxembourgish_route"
+      ],
+      "bestPosition": 4,
+      "totalSearchTraffic": 31,
+      "maxUrlKeywords": 13,
+      "sampleUrls": [
+        "https://www.superprof.lu/cours/allemand/luxembourg/",
+        "https://www.superprof.lu/cours/anglais/luxembourg/",
+        "https://www.superprof.lu/cours/francais/luxembourg/",
+        "https://www.superprof.lu/cours/luxembourgeois/luxembourg-pays/",
+        "https://www.superprof.lu/cours/luxembourgeois/online/"
+      ]
+    },
+    {
+      "domain": "inlingua.lu",
+      "sourceKeywords": [
+        "cours anglais luxembourg",
+        "cours de francais au luxembourg",
+        "language courses luxembourg",
+        "language school luxembourg"
+      ],
+      "keywordCount": 4,
+      "lanes": [
+        "english_german_adjacent",
+        "french_language",
+        "general_language"
+      ],
+      "bestPosition": 7,
+      "totalSearchTraffic": 388,
+      "maxUrlKeywords": 61,
+      "sampleUrls": [
+        "https://www.inlingua.lu/",
+        "https://www.inlingua.lu/en"
+      ]
+    },
+    {
+      "domain": "houseoftraining.lu",
+      "sourceKeywords": [
+        "courses in luxembourg",
+        "formation continue luxembourg",
+        "formation professionnelle luxembourg"
+      ],
+      "keywordCount": 3,
+      "lanes": [
+        "continuing_education",
+        "general_language"
+      ],
+      "bestPosition": 3,
+      "totalSearchTraffic": 11803,
+      "maxUrlKeywords": 61,
+      "sampleUrls": [
+        "https://www.houseoftraining.lu/en_GB/training/catalog",
+        "https://www.houseoftraining.lu/"
+      ]
+    },
+    {
+      "domain": "luxlessons.lu",
+      "sourceKeywords": [
+        "inl sproochentest",
+        "luxembourgish online course",
+        "sproochentest examples"
+      ],
+      "keywordCount": 3,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "bestPosition": 1,
+      "totalSearchTraffic": 256,
+      "maxUrlKeywords": 20,
+      "sampleUrls": [
+        "https://www.luxlessons.lu/sproochentest-letzebuergesch",
+        "https://www.luxlessons.lu/"
+      ]
+    },
+    {
+      "domain": "educateme.lu",
+      "sourceKeywords": [
+        "inl sproochentest",
+        "luxembourgish online course",
+        "sproochentest examples"
+      ],
+      "keywordCount": 3,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "bestPosition": 5,
+      "totalSearchTraffic": 34,
+      "maxUrlKeywords": 6,
+      "sampleUrls": [
+        "https://educateme.lu/tpost/7skm5rc9f1-booking-your-appointment-for-the-sprooch",
+        "https://educateme.lu/intensive-luxembourgish",
+        "https://educateme.lu/tpost/7x4vcrtf51-surviving-the-sproochentest-essential-gu"
+      ]
+    },
+    {
+      "domain": "luxembourgishwithanne.lu",
+      "sourceKeywords": [
+        "luxembourgish online course",
+        "sproochentest examples"
+      ],
+      "keywordCount": 2,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "bestPosition": 2,
+      "totalSearchTraffic": 318,
+      "maxUrlKeywords": 12,
+      "sampleUrls": [
+        "https://luxembourgishwithanne.lu/",
+        "https://luxembourgishwithanne.lu/category/sproochentest/"
+      ]
+    },
+    {
+      "domain": "infpc.lu",
+      "sourceKeywords": [
+        "formation continue luxembourg",
+        "formation professionnelle luxembourg"
+      ],
+      "keywordCount": 2,
+      "lanes": [
+        "continuing_education"
+      ],
+      "bestPosition": 6,
+      "totalSearchTraffic": 310,
+      "maxUrlKeywords": 57,
+      "sampleUrls": [
+        "https://www.infpc.lu/trouver-une-formation/fr"
+      ]
+    },
+    {
+      "domain": "lux-online-educ-center.com",
+      "sourceKeywords": [
+        "cours de luxembourgeois en ligne",
+        "cours luxembourgeois en ligne"
+      ],
+      "keywordCount": 2,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "bestPosition": 6,
+      "totalSearchTraffic": 130,
+      "maxUrlKeywords": 32,
+      "sampleUrls": [
+        "https://www.lux-online-educ-center.com/"
+      ]
+    },
+    {
+      "domain": "luxlanguages.lu",
+      "sourceKeywords": [
+        "cours anglais luxembourg",
+        "cours de luxembourgeois"
+      ],
+      "keywordCount": 2,
+      "lanes": [
+        "english_german_adjacent",
+        "luxembourgish_route"
+      ],
+      "bestPosition": 6,
+      "totalSearchTraffic": 78,
+      "maxUrlKeywords": 62,
+      "sampleUrls": [
+        "https://www.luxlanguages.lu/"
+      ]
+    },
+    {
+      "domain": "luxembourgeoisenligne.com",
+      "sourceKeywords": [
+        "cours de luxembourgeois en ligne",
+        "cours luxembourgeois en ligne"
+      ],
+      "keywordCount": 2,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "bestPosition": 4,
+      "totalSearchTraffic": 6,
+      "maxUrlKeywords": 16,
+      "sampleUrls": [
+        "https://luxembourgeoisenligne.com/"
+      ]
+    },
+    {
+      "domain": "islux.lu",
+      "sourceKeywords": [
+        "language courses luxembourg",
+        "language school luxembourg"
+      ],
+      "keywordCount": 2,
+      "lanes": [
+        "general_language"
+      ],
+      "bestPosition": 4,
+      "totalSearchTraffic": 4,
+      "maxUrlKeywords": 7,
+      "sampleUrls": [
+        "https://www.islux.lu/learning-isl/languages/languages"
+      ]
+    },
+    {
+      "domain": "apprentus.lu",
+      "sourceKeywords": [
+        "cours allemand luxembourg",
+        "cours anglais luxembourg"
+      ],
+      "keywordCount": 2,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "bestPosition": 7,
+      "totalSearchTraffic": 0,
+      "maxUrlKeywords": 7,
+      "sampleUrls": [
+        "https://www.apprentus.lu/cours-allemand/luxembourg",
+        "https://www.apprentus.lu/cours-anglais/luxembourg"
+      ]
+    },
+    {
+      "domain": "lunex.lu",
+      "sourceKeywords": [
+        "courses in luxembourg"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "bestPosition": 4,
+      "totalSearchTraffic": 1100,
+      "maxUrlKeywords": 43,
+      "sampleUrls": [
+        "https://lunex.lu/"
+      ]
+    },
+    {
+      "domain": "cnfpc.lu",
+      "sourceKeywords": [
+        "formation continue luxembourg"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "bestPosition": 10,
+      "totalSearchTraffic": 1000,
+      "maxUrlKeywords": 58,
+      "sampleUrls": [
+        "https://www.cnfpc.lu/"
+      ]
+    },
+    {
+      "domain": "enfancejeunesse.lu",
+      "sourceKeywords": [
+        "formation continue luxembourg"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "bestPosition": 2,
+      "totalSearchTraffic": 321,
+      "maxUrlKeywords": 25,
+      "sampleUrls": [
+        "https://www.enfancejeunesse.lu/fr/formation-continue/"
+      ]
+    },
+    {
+      "domain": "cc.lu",
+      "sourceKeywords": [
+        "formation professionnelle luxembourg"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "bestPosition": 8,
+      "totalSearchTraffic": 296,
+      "maxUrlKeywords": 29,
+      "sampleUrls": [
+        "https://www.cc.lu/solutions/je-veux-developper-mes-nos-competences"
+      ]
+    },
+    {
+      "domain": "sfp.lu",
+      "sourceKeywords": [
+        "formation professionnelle luxembourg"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "bestPosition": 2,
+      "totalSearchTraffic": 265,
+      "maxUrlKeywords": 28,
+      "sampleUrls": [
+        "https://sfp.lu/"
+      ]
+    },
+    {
+      "domain": "institut-francais-luxembourg.lu",
+      "sourceKeywords": [
+        "cours de francais au luxembourg"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "bestPosition": 4,
+      "totalSearchTraffic": 262,
+      "maxUrlKeywords": 24,
+      "sampleUrls": [
+        "https://institut-francais-luxembourg.lu/"
+      ]
+    },
+    {
+      "domain": "dlh.lu",
+      "sourceKeywords": [
+        "courses in luxembourg"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "bestPosition": 8,
+      "totalSearchTraffic": 258,
+      "maxUrlKeywords": 5,
+      "sampleUrls": [
+        "https://www.dlh.lu/"
+      ]
+    },
+    {
+      "domain": "learnluxembourgish.com",
+      "sourceKeywords": [
+        "luxembourgish online course"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "bestPosition": 6,
+      "totalSearchTraffic": 197,
+      "maxUrlKeywords": 11,
+      "sampleUrls": [
+        "http://www.learnluxembourgish.com/"
+      ]
+    },
+    {
+      "domain": "education.lu",
+      "sourceKeywords": [
+        "formation continue luxembourg"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "bestPosition": 7,
+      "totalSearchTraffic": 105,
+      "maxUrlKeywords": 7,
+      "sampleUrls": [
+        "https://ssl.education.lu/ifen/la-formation-continue/"
+      ]
+    },
+    {
+      "domain": "cdm.lu",
+      "sourceKeywords": [
+        "formation continue luxembourg"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "bestPosition": 5,
+      "totalSearchTraffic": 89,
+      "maxUrlKeywords": 20,
+      "sampleUrls": [
+        "https://formations.cdm.lu/fr/formation-continue"
+      ]
+    },
+    {
+      "domain": "sproochentest.org",
+      "sourceKeywords": [
+        "sproochentest examples"
+      ],
+      "keywordCount": 1,
+      "lanes": [],
+      "bestPosition": 4,
+      "totalSearchTraffic": 82,
+      "maxUrlKeywords": 6,
+      "sampleUrls": [
+        "https://sproochentest.org/what-is-the-sproochentest/"
+      ]
+    },
+    {
+      "domain": "lma.lu",
+      "sourceKeywords": [
+        "cours de luxembourgeois"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "bestPosition": 4,
+      "totalSearchTraffic": 52,
+      "maxUrlKeywords": 5,
+      "sampleUrls": [
+        "https://lma.lu/offre-scolaire/cours-du-soir"
+      ]
+    },
+    {
+      "domain": "ing.lu",
+      "sourceKeywords": [
+        "sproochentest examples"
+      ],
+      "keywordCount": 1,
+      "lanes": [],
+      "bestPosition": 6,
+      "totalSearchTraffic": 48,
+      "maxUrlKeywords": 6,
+      "sampleUrls": [
+        "https://www.ing.lu/content/siteing/en/Individuals/my-money/categories/lifestyle/how-do-i-prepare-the-sproochentest-.html"
+      ]
+    },
+    {
+      "domain": "aurelux.lu",
+      "sourceKeywords": [
+        "apprendre luxembourgeois"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "bestPosition": 6,
+      "totalSearchTraffic": 46,
+      "maxUrlKeywords": 12,
+      "sampleUrls": [
+        "https://aurelux.lu/"
+      ]
+    },
+    {
+      "domain": "clae.lu",
+      "sourceKeywords": [
+        "cours de francais au luxembourg"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "bestPosition": 3,
+      "totalSearchTraffic": 17,
+      "maxUrlKeywords": 15,
+      "sampleUrls": [
+        "https://www.clae.lu/formations/cours-de-francais/"
+      ]
+    },
+    {
+      "domain": "euregio.lu",
+      "sourceKeywords": [
+        "apprendre luxembourgeois"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "bestPosition": 8,
+      "totalSearchTraffic": 9,
+      "maxUrlKeywords": 31,
+      "sampleUrls": [
+        "https://euregio.lu/multilinguisme/apprendre-le-luxembourgeois/"
+      ]
+    },
+    {
+      "domain": "ipw.lu",
+      "sourceKeywords": [
+        "cours allemand luxembourg"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "bestPosition": 2,
+      "totalSearchTraffic": 9,
+      "maxUrlKeywords": 5,
+      "sampleUrls": [
+        "https://www.ipw.lu/goethe-institut"
+      ]
+    },
+    {
+      "domain": "justarrived.lu",
+      "sourceKeywords": [
+        "language courses luxembourg"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "bestPosition": 9,
+      "totalSearchTraffic": 9,
+      "maxUrlKeywords": 8,
+      "sampleUrls": [
+        "https://www.justarrived.lu/en/informations-thematiques/emploi-formation-luxembourg/apprentissage-langues"
+      ]
+    },
+    {
+      "domain": "englishworld.lu",
+      "sourceKeywords": [
+        "cours anglais luxembourg"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "bestPosition": 10,
+      "totalSearchTraffic": 6,
+      "maxUrlKeywords": 23,
+      "sampleUrls": [
+        "https://www.englishworld.lu/"
+      ]
+    },
+    {
+      "domain": "csl.lu",
+      "sourceKeywords": [
+        "cours de luxembourgeois"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "bestPosition": 9,
+      "totalSearchTraffic": 6,
+      "maxUrlKeywords": 5,
+      "sampleUrls": [
+        "https://www.csl.lu/fr/lllc/formations-specialisees/formations-linguistiques-demande-de-nationalite-luxembourgeoise/cours-dinitiation-a-la-langue-luxembourgeoise-en-expression-orale-et-comprehension-de-loral/"
+      ]
+    },
+    {
+      "domain": "gouvernement.lu",
+      "sourceKeywords": [
+        "formation professionnelle luxembourg"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "bestPosition": 7,
+      "totalSearchTraffic": 6,
+      "maxUrlKeywords": 10,
+      "sampleUrls": [
+        "https://menej.gouvernement.lu/fr/annuaire.html?id=775"
+      ]
+    },
+    {
+      "domain": "institutfrancais-luxembourg.lu",
+      "sourceKeywords": [
+        "french classes luxembourg"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "bestPosition": 9,
+      "totalSearchTraffic": 6,
+      "maxUrlKeywords": 7,
+      "sampleUrls": [
+        "https://institutfrancais-luxembourg.lu/wp-content/uploads/2014/07/brochure-cours-de-francais-anglais3.pdf"
+      ]
+    },
+    {
+      "domain": "paperjam.lu",
+      "sourceKeywords": [
+        "apprendre luxembourgeois"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "bestPosition": 9,
+      "totalSearchTraffic": 3,
+      "maxUrlKeywords": 12,
+      "sampleUrls": [
+        "https://paperjam.lu/article/7-moyens-apprendre-luxembourge"
+      ]
+    },
+    {
+      "domain": "euroguidance-france.org",
+      "sourceKeywords": [
+        "formation professionnelle luxembourg"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "bestPosition": 3,
+      "totalSearchTraffic": 3,
+      "maxUrlKeywords": 8,
+      "sampleUrls": [
+        "https://www.euroguidance-france.org/formation-professionnelle-en-europe/luxembourg/"
+      ]
+    },
+    {
+      "domain": "asti.lu",
+      "sourceKeywords": [
+        "cours intensifs luxembourgeois"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "bestPosition": 9,
+      "totalSearchTraffic": 2,
+      "maxUrlKeywords": 8,
+      "sampleUrls": [
+        "https://www.asti.lu/apprendre-une-langue/"
+      ]
+    },
+    {
+      "domain": "differdange.lu",
+      "sourceKeywords": [
+        "cours de langue luxembourg"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "bestPosition": 9,
+      "totalSearchTraffic": 1,
+      "maxUrlKeywords": 21,
+      "sampleUrls": [
+        "https://differdange.lu/vivre/enseignement/cours-de-langues/"
+      ]
+    },
+    {
+      "domain": "frontaliers-grandest.eu",
+      "sourceKeywords": [
+        "cours intensifs luxembourgeois"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "bestPosition": 8,
+      "totalSearchTraffic": 0,
+      "maxUrlKeywords": 20,
+      "sampleUrls": [
+        "https://frontaliers-grandest.eu/accueil/lapprentissage-des-langues/pour-les-adultes/au-luxembourg/cours-de-langues-et-certifications/au-luxembourg/"
+      ]
+    },
+    {
+      "domain": "esch.lu",
+      "sourceKeywords": [
+        "cours intensifs luxembourgeois"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "bestPosition": 10,
+      "totalSearchTraffic": 0,
+      "maxUrlKeywords": 35,
+      "sampleUrls": [
+        "https://administration.esch.lu/cours-de-langues/"
+      ]
+    },
+    {
+      "domain": "etic.lu",
+      "sourceKeywords": [
+        "cours luxembourgeois en ligne"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "bestPosition": 9,
+      "totalSearchTraffic": 0,
+      "maxUrlKeywords": 6,
+      "sampleUrls": [
+        "https://moodle.etic.lu/course/index.php?categoryid=1"
+      ]
+    },
+    {
+      "domain": "luxtimes.lu",
+      "sourceKeywords": [
+        "courses in luxembourg"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "bestPosition": 10,
+      "totalSearchTraffic": 0,
+      "maxUrlKeywords": 4,
+      "sampleUrls": [
+        "https://www.luxtimes.lu/yourluxembourg/educationandfamily/learn-a-new-skill-at-adult-education-classes/1319471.html"
+      ]
+    },
+    {
+      "domain": "mamer.lu",
+      "sourceKeywords": [
+        "french courses luxembourg"
+      ],
+      "keywordCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "bestPosition": 10,
+      "totalSearchTraffic": 0,
+      "maxUrlKeywords": 1,
+      "sampleUrls": [
+        "https://activites.mamer.lu/en/activities/courses?detail=235"
+      ]
+    },
+    {
+      "domain": "reddit.com",
+      "sourceKeywords": [
+        "sproochentest examples"
+      ],
+      "keywordCount": 1,
+      "lanes": [],
+      "bestPosition": 7,
+      "totalSearchTraffic": 0,
+      "maxUrlKeywords": 3,
+      "sampleUrls": [
+        "https://www.reddit.com/r/Luxembourg/comments/1hf1oao/question_on_sproochentest/"
+      ]
+    },
+    {
+      "domain": "scribd.com",
+      "sourceKeywords": [
+        "sproochentest examples"
+      ],
+      "keywordCount": 1,
+      "lanes": [],
+      "bestPosition": 8,
+      "totalSearchTraffic": 0,
+      "maxUrlKeywords": 1,
+      "sampleUrls": [
+        "https://www.scribd.com/document/852309051/Topics-Luxembourgish-sproochentest"
+      ]
+    },
+    {
+      "domain": "elusive.lu",
+      "sourceKeywords": [
+        "sproochentest examples"
+      ],
+      "keywordCount": 1,
+      "lanes": [],
+      "bestPosition": 9,
+      "totalSearchTraffic": 0,
+      "maxUrlKeywords": 1,
+      "sampleUrls": [
+        "https://elusive.lu/product/the-sproochentest-solution/"
+      ]
+    },
+    {
+      "domain": "bakkerbugle.com",
+      "sourceKeywords": [
+        "sproochentest examples"
+      ],
+      "keywordCount": 1,
+      "lanes": [],
+      "bestPosition": 10,
+      "totalSearchTraffic": 0,
+      "maxUrlKeywords": 1,
+      "sampleUrls": [
+        "http://bakkerbugle.com/blog/de-sproochentest/"
+      ]
+    }
+  ],
+  "followUpKeywords": [
+    {
+      "keyword": "cours de luxembourgeois en ligne",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de luxembourgeois",
+        "cours de luxembourgeois en ligne",
+        "cours luxembourgeois",
+        "cours luxembourgeois en ligne"
+      ],
+      "sourceCount": 4,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1",
+        "P2"
+      ],
+      "bestSourceScore": 902554,
+      "maxVolume": 140,
+      "minKd": null,
+      "rowTexts": [
+        "cours de luxembourgeois en ligne | 140 | 15"
+      ],
+      "followUpTier": "P1"
+    },
+    {
+      "keyword": "cours de luxembourgeois",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de luxembourgeois",
+        "cours luxembourgeois"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 902554,
+      "maxVolume": 720,
+      "minKd": null,
+      "rowTexts": [
+        "cours de luxembourgeois | 720 | 21"
+      ],
+      "followUpTier": "P1"
+    },
+    {
+      "keyword": "inl sproochentest",
+      "category": "variation",
+      "sourceKeywords": [
+        "inl sproochentest",
+        "sproochentest"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 408786,
+      "maxVolume": 210,
+      "minKd": null,
+      "rowTexts": [
+        "inl sproochentest | 210 | 22"
+      ],
+      "followUpTier": "P1"
+    },
+    {
+      "keyword": "formation continue luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation continue luxembourg",
+        "formation luxembourg"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407162,
+      "maxVolume": 140,
+      "minKd": null,
+      "rowTexts": [
+        "formation continue luxembourg | 140 | 16"
+      ],
+      "followUpTier": "P1"
+    },
+    {
+      "keyword": "sproochentest luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "sproochentest",
+        "sproochentest luxembourg"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 408786,
+      "maxVolume": 140,
+      "minKd": null,
+      "rowTexts": [
+        "sproochentest luxembourg | 140 | 15"
+      ],
+      "followUpTier": "P1"
+    },
+    {
+      "keyword": "cours luxembourgeois en ligne",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours luxembourgeois",
+        "cours luxembourgeois en ligne"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1",
+        "P2"
+      ],
+      "bestSourceScore": 902554,
+      "maxVolume": 110,
+      "minKd": null,
+      "rowTexts": [
+        "cours luxembourgeois en ligne | 110 | 6"
+      ],
+      "followUpTier": "P1"
+    },
+    {
+      "keyword": "cours luxembourgeois en ligne gratuit",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours luxembourgeois",
+        "cours luxembourgeois en ligne"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1",
+        "P2"
+      ],
+      "bestSourceScore": 902554,
+      "maxVolume": 90,
+      "minKd": null,
+      "rowTexts": [
+        "cours luxembourgeois en ligne gratuit | 90 | 15"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "sproochentest examples",
+      "category": "variation",
+      "sourceKeywords": [
+        "sproochentest",
+        "sproochentest examples"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 408786,
+      "maxVolume": 70,
+      "minKd": null,
+      "rowTexts": [
+        "sproochentest examples | 70 | 3"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "formation agent de sécurité luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407162,
+      "maxVolume": 1300,
+      "minKd": null,
+      "rowTexts": [
+        "formation agent de sécurité luxembourg | 1.3K | 8"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "sproochentest",
+      "category": "variation",
+      "sourceKeywords": [
+        "sproochentest"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 408786,
+      "maxVolume": 880,
+      "minKd": null,
+      "rowTexts": [
+        "sproochentest | 880 | 14"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "formation lu",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation lu"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407149,
+      "maxVolume": 720,
+      "minKd": null,
+      "rowTexts": [
+        "formation lu | 720 | 31"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "formation luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407162,
+      "maxVolume": 720,
+      "minKd": null,
+      "rowTexts": [
+        "formation luxembourg | 720 | 38"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "learn luxembourgish online",
+      "category": "variation",
+      "sourceKeywords": [
+        "learn luxembourgish online"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 404779,
+      "maxVolume": 480,
+      "minKd": null,
+      "rowTexts": [
+        "learn luxembourgish online | 480 | 21"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "french classes luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "french classes luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 303866,
+      "maxVolume": 390,
+      "minKd": null,
+      "rowTexts": [
+        "french classes luxembourg | 390 | 14"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "french courses luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "french courses luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 603846,
+      "maxVolume": 390,
+      "minKd": null,
+      "rowTexts": [
+        "french courses luxembourg | 390 | 14"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "language courses luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "language courses luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 603159,
+      "maxVolume": 320,
+      "minKd": null,
+      "rowTexts": [
+        "language courses luxembourg | 320 | 19"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "apprendre le luxembourgeois",
+      "category": "variation",
+      "sourceKeywords": [
+        "apprendre luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400286,
+      "maxVolume": 260,
+      "minKd": null,
+      "rowTexts": [
+        "apprendre le luxembourgeois | 260 | 8"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "cours luxembourgeois",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 902554,
+      "maxVolume": 260,
+      "minKd": null,
+      "rowTexts": [
+        "cours luxembourgeois | 260 | 24"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "cours du soir luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours du soir luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 401651,
+      "maxVolume": 170,
+      "minKd": null,
+      "rowTexts": [
+        "cours du soir luxembourg | 170 | 14"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "formation adulte luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407162,
+      "maxVolume": 170,
+      "minKd": null,
+      "rowTexts": [
+        "formation adulte luxembourg | 170 | 17"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "congé formation luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407162,
+      "maxVolume": 140,
+      "minKd": null,
+      "rowTexts": [
+        "congé formation luxembourg | 140 | 16"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "cours de français luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de français luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 501284,
+      "maxVolume": 140,
+      "minKd": null,
+      "rowTexts": [
+        "cours de français luxembourg | 140 | 19"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "cours de langue luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de langue luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 601339,
+      "maxVolume": 140,
+      "minKd": null,
+      "rowTexts": [
+        "cours de langue luxembourg | 140 | 32"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "luxembourg cours de langue",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de langue luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 601339,
+      "maxVolume": 140,
+      "minKd": null,
+      "rowTexts": [
+        "luxembourg cours de langue | 140 | 30"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "cours anglais luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours anglais luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 201023,
+      "maxVolume": 110,
+      "minKd": null,
+      "rowTexts": [
+        "cours anglais luxembourg | 110 | 21"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "cours en ligne luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours en ligne luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400969,
+      "maxVolume": 110,
+      "minKd": null,
+      "rowTexts": [
+        "cours en ligne luxembourg | 110 | 10"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "courses in luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "courses in luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600698,
+      "maxVolume": 110,
+      "minKd": null,
+      "rowTexts": [
+        "courses in luxembourg | 110 | 28"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "formation professionnelle luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation professionnelle luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 201003,
+      "maxVolume": 110,
+      "minKd": null,
+      "rowTexts": [
+        "formation professionnelle luxembourg | 110 | 18"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "language school luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "language school luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 300838,
+      "maxVolume": 90,
+      "minKd": null,
+      "rowTexts": [
+        "language school luxembourg | 90 | 18"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "luxembourgish online course",
+      "category": "variation",
+      "sourceKeywords": [
+        "luxembourgish online course"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400883,
+      "maxVolume": 90,
+      "minKd": null,
+      "rowTexts": [
+        "luxembourgish online course | 90 | 17"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "cours d anglais luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours anglais luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 201023,
+      "maxVolume": 70,
+      "minKd": null,
+      "rowTexts": [
+        "cours d anglais luxembourg | 70 | 16"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "cours intensifs luxembourgeois",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours intensifs luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600625,
+      "maxVolume": 70,
+      "minKd": null,
+      "rowTexts": [
+        "cours intensifs luxembourgeois | 70 | 8"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "inll sproochentest",
+      "category": "variation",
+      "sourceKeywords": [
+        "sproochentest"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 408786,
+      "maxVolume": 70,
+      "minKd": null,
+      "rowTexts": [
+        "inll sproochentest | 70 | 14"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "apprendre luxembourgeois",
+      "category": "variation",
+      "sourceKeywords": [
+        "apprendre luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 400286,
+      "maxVolume": 50,
+      "minKd": null,
+      "rowTexts": [
+        "apprendre luxembourgeois | 50 | 14"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "cours allemand luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours allemand luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 200407,
+      "maxVolume": 50,
+      "minKd": null,
+      "rowTexts": [
+        "cours allemand luxembourg | 50 | 13"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "formation éducateur luxembourg cours du soir",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours du soir luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 401651,
+      "maxVolume": 50,
+      "minKd": null,
+      "rowTexts": [
+        "formation éducateur luxembourg cours du soir | 50 | 9"
+      ],
+      "followUpTier": "P2"
+    },
+    {
+      "keyword": "cours de luxembourgeois gratuit en ligne",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de luxembourgeois",
+        "cours de luxembourgeois en ligne",
+        "cours luxembourgeois en ligne"
+      ],
+      "sourceCount": 3,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1",
+        "P2"
+      ],
+      "bestSourceScore": 707139,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "cours de luxembourgeois gratuit en ligne | 30 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "french language courses in luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "courses in luxembourg",
+        "french courses luxembourg",
+        "language courses luxembourg"
+      ],
+      "sourceCount": 3,
+      "lanes": [
+        "french_language",
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 603846,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "french language courses in luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours de francais au luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de francais au luxembourg",
+        "cours de français luxembourg"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P2",
+        "P3"
+      ],
+      "bestSourceScore": 501284,
+      "maxVolume": 40,
+      "minKd": null,
+      "rowTexts": [
+        "cours de francais au luxembourg | 40 | 9"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "free language courses in luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "courses in luxembourg",
+        "language courses luxembourg"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 603159,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "free language courses in luxembourg | 30 | 16"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours de luxembourgeois en ligne gratuit",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de luxembourgeois en ligne",
+        "cours luxembourgeois en ligne"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 300810,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "cours de luxembourgeois en ligne gratuit | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "french language course luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "french courses luxembourg",
+        "language courses luxembourg"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "french_language",
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 603846,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "french language course luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "inl luxembourg sproochentest",
+      "category": "variation",
+      "sourceKeywords": [
+        "inl sproochentest",
+        "sproochentest luxembourg"
+      ],
+      "sourceCount": 2,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 401665,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "inl luxembourg sproochentest | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours anglais intensif luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours anglais luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 201023,
+      "maxVolume": 40,
+      "minKd": null,
+      "rowTexts": [
+        "cours anglais intensif luxembourg | 40 | 15"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours intensif anglais luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours anglais luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 201023,
+      "maxVolume": 40,
+      "minKd": null,
+      "rowTexts": [
+        "cours intensif anglais luxembourg | 40 | 16"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours luxembourgeois intensif",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours intensifs luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600625,
+      "maxVolume": 40,
+      "minKd": null,
+      "rowTexts": [
+        "cours luxembourgeois intensif | 40 | 15"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "inl cours de luxembourgeois",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 707139,
+      "maxVolume": 40,
+      "minKd": null,
+      "rowTexts": [
+        "inl cours de luxembourgeois | 40 | 26"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours d anglais intensif luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours anglais luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 201023,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "cours d anglais intensif luxembourg | 30 | 15"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours de luxembourgeois online",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 707139,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "cours de luxembourgeois online | 30 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours du soir anglais luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours du soir luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 401651,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "cours du soir anglais luxembourg | 30 | 19"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours du soir cuisine luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours du soir luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 401651,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "cours du soir cuisine luxembourg | 30 | 9"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours intensif allemand luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours allemand luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 200407,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "cours intensif allemand luxembourg | 30 | 9"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours intensif luxembourgeois",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours intensifs luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600625,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "cours intensif luxembourgeois | 30 | 24"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours particulier allemand luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours allemand luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 200407,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "cours particulier allemand luxembourg | 30 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "formation professionnelle au luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation professionnelle luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 201003,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "formation professionnelle au luxembourg | 30 | 35"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "inl sproochentest dates",
+      "category": "variation",
+      "sourceKeywords": [
+        "inl sproochentest"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 302058,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "inl sproochentest dates | 30 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "lifelong learning luxembourg courses in english",
+      "category": "variation",
+      "sourceKeywords": [
+        "courses in luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600698,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "lifelong learning luxembourg courses in english | 30 | 11"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "luxembourg formation professionnelle",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation professionnelle luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 201003,
+      "maxVolume": 30,
+      "minKd": null,
+      "rowTexts": [
+        "luxembourg formation professionnelle | 30 | 36"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours allemand intensif luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours allemand luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 200407,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "cours allemand intensif luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours d allemand au luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours allemand luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "english_german_adjacent"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 200407,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "cours d allemand au luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours de français gratuit luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de français luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 501284,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "cours de français gratuit luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours de langue au luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de langue luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 601339,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "cours de langue au luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours de langue commune luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de langue luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 601339,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "cours de langue commune luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours de langue intensif luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours de langue luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 601339,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "cours de langue intensif luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours de langue luxembourgeois intensif",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours intensifs luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600625,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "cours de langue luxembourgeois intensif | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours de luxembourgeois intensif",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours intensifs luxembourgeois"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600625,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "cours de luxembourgeois intensif | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "cours du soir allemand luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "cours du soir luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 401651,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "cours du soir allemand luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "formation continue enseignants luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation continue luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 301351,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "formation continue enseignants luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "formation professionnelle adulte luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation professionnelle luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 201003,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "formation professionnelle adulte luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "formations professionnelles luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation professionnelle luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P3"
+      ],
+      "bestSourceScore": 201003,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "formations professionnelles luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "free courses in luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "courses in luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 600698,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "free courses in luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "free french courses luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "french courses luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 603846,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "free french courses luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "french language school luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "language school luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 300838,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "french language school luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "ifen lu formation continue",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation lu"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 407149,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "ifen lu formation continue | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "ifen luxembourg formation continue",
+      "category": "variation",
+      "sourceKeywords": [
+        "formation continue luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "continuing_education"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 301351,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "ifen luxembourg formation continue | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "inl language courses luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "language courses luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 603159,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "inl language courses luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "intensive french course luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "french courses luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "french_language"
+      ],
+      "priorities": [
+        "P1"
+      ],
+      "bestSourceScore": 603846,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "intensive french course luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "international language school luxembourg",
+      "category": "variation",
+      "sourceKeywords": [
+        "language school luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "general_language"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 300838,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "international language school luxembourg | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "learn luxembourgish online free",
+      "category": "variation",
+      "sourceKeywords": [
+        "learn luxembourgish online"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 404779,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "learn luxembourgish online free | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    },
+    {
+      "keyword": "luxembourg sproochentest",
+      "category": "variation",
+      "sourceKeywords": [
+        "sproochentest luxembourg"
+      ],
+      "sourceCount": 1,
+      "lanes": [
+        "luxembourgish_route"
+      ],
+      "priorities": [
+        "P2"
+      ],
+      "bestSourceScore": 401665,
+      "maxVolume": 20,
+      "minKd": null,
+      "rowTexts": [
+        "luxembourg sproochentest | 20 | n/a"
+      ],
+      "followUpTier": "WATCH"
+    }
+  ]
+}

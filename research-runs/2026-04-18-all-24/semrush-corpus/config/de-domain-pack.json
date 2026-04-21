@@ -1,0 +1,178 @@
+{
+  "generatedAt": "2026-04-20T04:50:00Z",
+  "database": "DE",
+  "purpose": "Germany adjacent-market competitor and proxy domain seeds for remaining scorecard gaps",
+  "notes": [
+    "Use `adjacent_generic` for B1/B2/B3 domain collection.",
+    "Do not mix these domains with DE cross-border Luxembourg-intent keyword captures.",
+    "Priority should follow B1 -> B2 -> B3.",
+    "Luxembourg domains are intentionally excluded from this strict DE-only pack."
+  ],
+  "products": [
+    {
+      "product_code": "B1",
+      "product_title": "German for Nurses (B1->B2 Pflege Sprint)",
+      "lane_group": "german_exam_pflege",
+      "domains": [
+        {
+          "domain": "telc.net",
+          "priority": "P1",
+          "type": "direct",
+          "why_capture": "Verified nursing-specific exam route and likely strongest exam-intent keyword family."
+        },
+        {
+          "domain": "goethe.de",
+          "priority": "P1",
+          "type": "direct",
+          "why_capture": "Verified Pflege-specific exam route and adjacent exam-intent benchmark."
+        },
+        {
+          "domain": "make-it-in-germany.com",
+          "priority": "P1",
+          "type": "route_proxy",
+          "why_capture": "Official nursing recruitment and language-support route; strong problem and route phrasing source."
+        },
+        {
+          "domain": "pflege.de",
+          "priority": "P2",
+          "type": "problem_proxy",
+          "why_capture": "Likely healthcare and nursing demand language source beyond exam providers."
+        },
+        {
+          "domain": "deutschakademie.de",
+          "priority": "P2",
+          "type": "adjacent_provider",
+          "why_capture": "Useful benchmark for German-course SEO patterns and non-brand exam prep phrasing."
+        },
+        {
+          "domain": "speexx.com",
+          "priority": "P2",
+          "type": "adjacent_provider",
+          "why_capture": "Corporate/business language training benchmark if B2B healthcare-employer motion matters."
+        },
+        {
+          "domain": "berlitz.com",
+          "priority": "P3",
+          "type": "adjacent_provider",
+          "why_capture": "Large language-training benchmark; useful only if narrower nursing phrasing stays weak."
+        }
+      ]
+    },
+    {
+      "product_code": "B2",
+      "product_title": "Medical French for Nurses",
+      "lane_group": "medical_french",
+      "domains": [
+        {
+          "domain": "berlitz.com",
+          "priority": "P1",
+          "type": "adjacent_provider",
+          "why_capture": "Strong multilingual training benchmark with healthcare-adjacent language positioning potential."
+        },
+        {
+          "domain": "speexx.com",
+          "priority": "P1",
+          "type": "adjacent_provider",
+          "why_capture": "Corporate language benchmark for job-linked language training demand."
+        },
+        {
+          "domain": "lingoda.com",
+          "priority": "P1",
+          "type": "adjacent_provider",
+          "why_capture": "Large online language-course benchmark for non-branded demand and page-type patterns."
+        },
+        {
+          "domain": "sz.fau.de",
+          "priority": "P2",
+          "type": "problem_proxy",
+          "why_capture": "Germany-based medical French course signal; useful proxy for healthcare-specific French demand."
+        },
+        {
+          "domain": "mhh.de",
+          "priority": "P2",
+          "type": "problem_proxy",
+          "why_capture": "Germany-based university language course surface with medicine-oriented French offerings."
+        },
+        {
+          "domain": "heiskills.uni-heidelberg.de",
+          "priority": "P2",
+          "type": "problem_proxy",
+          "why_capture": "Germany-based university language center surface including French-for-medicine style course pages."
+        }
+      ]
+    },
+    {
+      "product_code": "B3",
+      "product_title": "AI Literacy (EU-wide remote)",
+      "lane_group": "ai_training",
+      "domains": [
+        {
+          "domain": "haufe-akademie.de",
+          "priority": "P1",
+          "type": "direct",
+          "why_capture": "Strong DE training-market proxy for compliance-oriented professional courses."
+        },
+        {
+          "domain": "managerseminare.de",
+          "priority": "P1",
+          "type": "adjacent_provider",
+          "why_capture": "Useful benchmark for corporate training phrasing and course discoverability."
+        },
+        {
+          "domain": "bitkom-akademie.de",
+          "priority": "P1",
+          "type": "direct",
+          "why_capture": "Likely closest DE-side digital/AI skills training benchmark."
+        },
+        {
+          "domain": "aiactacademy.de",
+          "priority": "P1",
+          "type": "direct",
+          "why_capture": "Germany-facing AI Act training provider with explicit certification and in-house training positioning."
+        },
+        {
+          "domain": "aiact-akademie.de",
+          "priority": "P1",
+          "type": "direct",
+          "why_capture": "Germany-facing AI Act training platform focused on company compliance and practical implementation."
+        },
+        {
+          "domain": "ist.de",
+          "priority": "P2",
+          "type": "adjacent_provider",
+          "why_capture": "Germany-based online training provider with explicit EU AI Act competence course positioning."
+        },
+        {
+          "domain": "anacision.de",
+          "priority": "P2",
+          "type": "adjacent_provider",
+          "why_capture": "Germany-facing compact KI-Schulung provider with AI Act framing and business-user positioning."
+        },
+        {
+          "domain": "akademie-heidelberg.de",
+          "priority": "P2",
+          "type": "adjacent_provider",
+          "why_capture": "Germany-based seminar provider already offering AI-Act-related compliance training."
+        },
+        {
+          "domain": "buildingai.elementsofai.com",
+          "priority": "P2",
+          "type": "reference_baseline",
+          "why_capture": "Free multilingual substitute and category baseline; keep only as a non-DE comparison reference if needed."
+        },
+        {
+          "domain": "tuev-sued.de",
+          "priority": "P2",
+          "type": "adjacent_provider",
+          "why_capture": "Good compliance and training benchmark if AI Act / professional certification phrasing appears."
+        },
+        {
+          "domain": "tuev-nord.de",
+          "priority": "P2",
+          "type": "adjacent_provider",
+          "why_capture": "Same role as TUV SUD; useful only if SERP confirms real AI/AI-Act training presence."
+        }
+      ]
+    }
+  ]
+}

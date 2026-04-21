@@ -1,0 +1,213 @@
+[
+  {
+    "product_code": "L1",
+    "market_track": "local",
+    "lane_group": "luxembourgish_route",
+    "lane_keys": ["luxembourgish_route"],
+    "semrush_priority": "high",
+    "anchor_focus": ["sproochentest", "cours de luxembourgeois", "learn luxembourgish online"]
+  },
+  {
+    "product_code": "A9",
+    "market_track": "local",
+    "lane_group": "luxembourgish_route",
+    "lane_keys": ["luxembourgish_route"],
+    "semrush_priority": "high",
+    "anchor_focus": ["sproochentest luxembourg", "cours de luxembourgeois", "luxembourgish online course"]
+  },
+  {
+    "product_code": "L5",
+    "market_track": "local",
+    "lane_group": "luxembourgish_route",
+    "lane_keys": ["luxembourgish_route", "general_language"],
+    "semrush_priority": "high",
+    "anchor_focus": ["cours luxembourgeois", "cours de luxembourgeois", "luxembourgish online course"]
+  },
+  {
+    "product_code": "A6",
+    "market_track": "local",
+    "lane_group": "integration_discovery",
+    "lane_keys": ["continuing_education", "luxembourgish_route"],
+    "semrush_priority": "high",
+    "anchor_focus": ["cours du soir luxembourg", "formation continue luxembourg", "apprendre luxembourgeois"]
+  },
+  {
+    "product_code": "L3",
+    "market_track": "local",
+    "lane_group": "french_language",
+    "lane_keys": ["french_language", "general_language"],
+    "semrush_priority": "high",
+    "anchor_focus": ["cours de français luxembourg", "french courses luxembourg", "language courses luxembourg"]
+  },
+  {
+    "product_code": "A7",
+    "market_track": "local",
+    "lane_group": "french_language",
+    "lane_keys": ["french_language", "general_language"],
+    "semrush_priority": "high",
+    "anchor_focus": ["french courses luxembourg", "cours de français luxembourg", "cours de langue luxembourg"]
+  },
+  {
+    "product_code": "L4",
+    "market_track": "local",
+    "lane_group": "general_language",
+    "lane_keys": ["general_language", "french_language", "english_german_adjacent"],
+    "semrush_priority": "high",
+    "anchor_focus": ["language courses luxembourg", "cours de langue luxembourg", "courses in luxembourg"]
+  },
+  {
+    "product_code": "L2",
+    "market_track": "local",
+    "lane_group": "medical_luxembourgish",
+    "lane_keys": ["luxembourgish_route"],
+    "semrush_priority": "medium",
+    "anchor_focus": ["cours luxembourgeois", "learn luxembourgish online", "sproochentest"]
+  },
+  {
+    "product_code": "A8",
+    "market_track": "local",
+    "lane_group": "general_language",
+    "lane_keys": ["general_language", "french_language", "english_german_adjacent"],
+    "semrush_priority": "medium",
+    "anchor_focus": ["language courses luxembourg", "cours de langue luxembourg", "language school luxembourg"]
+  },
+  {
+    "product_code": "A5",
+    "market_track": "local",
+    "lane_group": "compliance_training",
+    "lane_keys": [],
+    "semrush_priority": "high",
+    "anchor_focus": ["formation compliance luxembourg", "compliance officer formation", "mifid training luxembourg"]
+  },
+  {
+    "product_code": "A10",
+    "market_track": "local",
+    "lane_group": "compliance_training",
+    "lane_keys": [],
+    "semrush_priority": "high",
+    "anchor_focus": ["formation compliance luxembourg", "csrd training", "esg training luxembourg"]
+  },
+  {
+    "product_code": "A4",
+    "market_track": "local",
+    "lane_group": "ai_finance_compliance",
+    "lane_keys": [],
+    "semrush_priority": "high",
+    "anchor_focus": ["ai act training luxembourg", "ai literacy training finance", "formation compliance luxembourg"]
+  },
+  {
+    "product_code": "A1",
+    "market_track": "local",
+    "lane_group": "ai_training",
+    "lane_keys": [],
+    "semrush_priority": "medium",
+    "anchor_focus": ["ai training luxembourg", "ai literacy training", "ai act training"]
+  },
+  {
+    "product_code": "A2",
+    "market_track": "local",
+    "lane_group": "ai_training",
+    "lane_keys": [],
+    "semrush_priority": "medium",
+    "anchor_focus": ["ai workshop luxembourg", "ai training luxembourg", "ai productivity training"]
+  },
+  {
+    "product_code": "A3",
+    "market_track": "local",
+    "lane_group": "ai_training",
+    "lane_keys": [],
+    "semrush_priority": "medium",
+    "anchor_focus": ["prompt engineering training", "ai workshop luxembourg", "prompt engineering workshop"]
+  },
+  {
+    "product_code": "B3",
+    "market_track": "germany_local",
+    "lane_group": "ai_training",
+    "lane_keys": [],
+    "semrush_priority": "medium",
+    "anchor_focus": ["ki schulung", "ai act schulung", "ki kompetenz schulung"]
+  },
+  {
+    "product_code": "B1",
+    "market_track": "germany_local",
+    "lane_group": "german_exam_pflege",
+    "lane_keys": ["english_german_adjacent"],
+    "semrush_priority": "high",
+    "anchor_focus": ["telc b1 prüfung", "telc b2 prüfung", "deutsch pflege"]
+  },
+  {
+    "product_code": "B2",
+    "market_track": "germany_local",
+    "lane_group": "medical_french",
+    "lane_keys": ["french_language"],
+    "semrush_priority": "medium",
+    "anchor_focus": ["medizinisches französisch", "französisch für pflegekräfte", "französisch im krankenhaus"]
+  },
+  {
+    "product_code": "C1",
+    "market_track": "reference",
+    "lane_group": "oet_exam",
+    "lane_keys": [],
+    "semrush_priority": "high",
+    "anchor_focus": ["oet preparation", "oet sample test", "oet practice test"]
+  },
+  {
+    "product_code": "L6",
+    "market_track": "reference",
+    "lane_group": "oet_exam",
+    "lane_keys": [],
+    "semrush_priority": "high",
+    "anchor_focus": ["oet nursing preparation", "oet sample test", "occupational english test sample"]
+  },
+  {
+    "product_code": "L7",
+    "market_track": "reference",
+    "lane_group": "oet_exam",
+    "lane_keys": [],
+    "semrush_priority": "high",
+    "anchor_focus": ["oet medical preparation", "oet result", "oet practice test"]
+  },
+  {
+    "product_code": "B4",
+    "market_track": "reference",
+    "lane_group": "licensing",
+    "lane_keys": [],
+    "semrush_priority": "low",
+    "anchor_focus": [
+      "white label elearning",
+      "course licensing",
+      "training content licensing",
+      "white label training content",
+      "elearning content licensing"
+    ]
+  },
+  {
+    "product_code": "B5",
+    "market_track": "reference",
+    "lane_group": "staffing_pipeline",
+    "lane_keys": [],
+    "semrush_priority": "medium",
+    "anchor_focus": [
+      "international nurse recruitment",
+      "overseas nurse recruitment",
+      "nurse relocation package",
+      "international nursing recruitment agency",
+      "recruit nurses from abroad"
+    ]
+  },
+  {
+    "product_code": "B6",
+    "market_track": "reference",
+    "lane_group": "staffing_onboarding",
+    "lane_keys": [],
+    "semrush_priority": "medium",
+    "anchor_focus": [
+      "language courses for recruitment",
+      "language training for assignees",
+      "relocation language training",
+      "cross cultural training relocation",
+      "staff onboarding training",
+      "compliance onboarding training"
+    ]
+  }
+]
