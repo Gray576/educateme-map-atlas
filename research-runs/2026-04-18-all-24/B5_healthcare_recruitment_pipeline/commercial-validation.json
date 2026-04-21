@@ -46,7 +46,7 @@
         "ext_007"
       ]
     },
-    "notes": "Retention structure is filled from the product format. Demand, WTP, CAC, macro, and channel-fit remain unfilled until SEMrush and distribution evidence are collected. Latest SEMrush scorecard sync: scope missing (not_required). No anchor query volume is captured yet. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 90, max anchor volume 50, capture count 5. Lane keyword count 51 with 8 P1 terms. Top follow-up terms: the uk is facing a drop in international nurse recruitment, international nurse recruitment uk, canadian recruitment agencies for international nurses, international nurses recruitment in uk, nursing recruitment agencies in uk for international nurses. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 90, max anchor volume 50, capture count 5. Lane keyword count 51 with 8 P1 terms. Top follow-up terms: the uk is facing a drop in international nurse recruitment, international nurse recruitment uk, canadian recruitment agencies for international nurses, international nurses recruitment in uk, nursing recruitment agencies in uk for international nurses. Reference analog domains reviewed: charite.de, hse.ie, lireco.se."
+    "notes": "Retention structure is filled from the product format. Demand, WTP, CAC, macro, and channel-fit remain unfilled until SEMrush and distribution evidence are collected. Latest SEMrush scorecard sync: scope missing (not_required). No anchor query volume is captured yet. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 90, max anchor volume 50, capture count 5. Lane keyword count 51 with 8 P1 terms. Top follow-up terms: the uk is facing a drop in international nurse recruitment, international nurse recruitment uk, canadian recruitment agencies for international nurses, international nurses recruitment in uk, nursing recruitment agencies in uk for international nurses. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 90, max anchor volume 50, capture count 5. Lane keyword count 51 with 8 P1 terms. Top follow-up terms: the uk is facing a drop in international nurse recruitment, international nurse recruitment uk, canadian recruitment agencies for international nurses, international nurses recruitment in uk, nursing recruitment agencies in uk for international nurses. Reference analog domains reviewed: charite.de, hse.ie, lireco.se. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 90, max anchor volume 50, capture count 5. Lane keyword count 51 with 8 P1 terms. Top follow-up terms: the uk is facing a drop in international nurse recruitment, international nurse recruitment uk, canadian recruitment agencies for international nurses, international nurses recruitment in uk, nursing recruitment agencies in uk for international nurses. Reference analog domains reviewed: charite.de, hse.ie, lireco.se. Segment-aware operator evidence: 2.1/5, adjusted pull 1.89."
   },
   "regulatory_context": {
     "regulatory_friction_inverse_score_1_5": 2,
@@ -108,7 +108,7 @@
     "validation_velocity_composite": 1.5,
     "demand_pull_composite": 2.05,
     "overall_confidence_band": "low",
-    "confidence_reason": "Market evidence scope is reference with scope fit fit. 5 anchor captures contribute to this scorecard sync. Primary evidence database: UK."
+    "confidence_reason": "Market evidence scope is reference with scope fit fit. 5 anchor captures contribute to this scorecard sync. Primary evidence database: UK. Segment-aware operator weight: 2.1/5."
   },
   "market_evidence_scope_class": "reference",
   "market_evidence": {
@@ -124,7 +124,7 @@
     "evidence_database": "UK",
     "lane_group": "staffing_pipeline",
     "semrush_priority": "medium",
-    "provisional_market_score_v1": 1.15,
+    "provisional_market_score_v1": 1.1,
     "anchor_focus": [
       "international nurse recruitment",
       "overseas nurse recruitment",
@@ -201,6 +201,51 @@
         "source_count": 1
       }
     ],
+    "independent_operator_summary": {
+      "signal": "weak",
+      "independent_operator_examples": [
+        {
+          "name": "HSE relocation route",
+          "classification": "official_or_institutional",
+          "evidence": "Public analogue proving the route problem and bundled support pattern are real."
+        },
+        {
+          "name": "Charité",
+          "classification": "official_or_institutional",
+          "evidence": "Institutional analogue proving the underlying healthcare mobility context."
+        },
+        {
+          "name": "LiReco",
+          "classification": "unknown",
+          "evidence": "Public analogue shows the category pattern exists, but not as a clear operator-led search market."
+        }
+      ],
+      "operator_types_seen": [
+        "official_or_institutional",
+        "unknown",
+        "social_community_only"
+      ],
+      "supporting_queries": [
+        "international nurse recruitment",
+        "overseas nurse recruitment",
+        "nurse relocation package"
+      ],
+      "pricing_or_offer_proof": [
+        "Current proof shows analogue routes, but no clean agency-bundle public pricing layer."
+      ],
+      "social_funnel_signal": "Facebook search surfaced active relocation and recruitment communities around `Nursing in Germany`, `Registered Nurses for Germany`, and `Ausbildung and Nursing Job in Germany (Direct Placement in Germany)`. This is a real social-acquisition surface around the route, but the OCR pass did not verify which groups are agency-owned or tied to paid packages.",
+      "segment_weighting": {
+        "quadrant_segment": "B2B2C",
+        "operator_signal_relevance": "high",
+        "social_funnel_relevance": "medium",
+        "weighted_score_1_5": 2.1,
+        "score_adjustment": -0.16,
+        "rationale": "B2B2C product. Operator proof relevance: high. Social funnel relevance: medium. Visible Facebook/community residue is treated as supporting but low-weight evidence. Institution-led supply caps the weight of operator evidence."
+      },
+      "takeaway": "The route problem is real, but the visible analogue market is mostly institutional rather than fragmented operators.",
+      "why_not_stronger": "Current evidence confirms analogues, not a target-market operator layer with public paid offers.",
+      "synced_at": "2026-04-21T18:27:19.664Z"
+    },
     "cross_border_luxembourg_intent_keywords": [],
     "reference_analog_domains": [
       {
@@ -239,45 +284,10 @@
         "top_relevant_keywords": []
       }
     ],
+    "operator_segment_weighted_score_1_5": 2.1,
+    "operator_segment_score_adjustment": -0.16,
     "next_research_step": "refine WTP/CAC with keyword overview and price checks",
-    "synced_from_scorecard_at": "2026-04-21T10:13:00.409Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: UK. Captured 5/5 anchor families with total local query volume 90 and max anchor volume 50. Lane rollup contains 51 deduplicated keywords, including 8 P1 terms. Top follow-up keywords: the uk is facing a drop in international nurse recruitment (P1, vol 260), international nurse recruitment uk (P1, vol 170), canadian recruitment agencies for international nurses (P1, vol 110), international nurses recruitment in uk (P1, vol 110), nursing recruitment agencies in uk for international nurses (P1, vol 110). Reference analog domains: charite.de (DE); hse.ie (IE: hse nursing jobs); lireco.se (SE). Next step: refine WTP/CAC with keyword overview and price checks. Independent-operator signal: weak. Examples: HSE relocation route (official_or_institutional), Charité (official_or_institutional), LiReco (unknown). The route problem is real, but the visible analogue market is mostly institutional rather than fragmented operators. Why not stronger: Current evidence confirms analogues, not a target-market operator layer with public paid offers.",
-    "independent_operator_summary": {
-      "signal": "weak",
-      "independent_operator_examples": [
-        {
-          "name": "HSE relocation route",
-          "classification": "official_or_institutional",
-          "evidence": "Public analogue proving the route problem and bundled support pattern are real."
-        },
-        {
-          "name": "Charité",
-          "classification": "official_or_institutional",
-          "evidence": "Institutional analogue proving the underlying healthcare mobility context."
-        },
-        {
-          "name": "LiReco",
-          "classification": "unknown",
-          "evidence": "Public analogue shows the category pattern exists, but not as a clear operator-led search market."
-        }
-      ],
-      "operator_types_seen": [
-        "official_or_institutional",
-        "unknown",
-        "social_community_only"
-      ],
-      "supporting_queries": [
-        "international nurse recruitment",
-        "overseas nurse recruitment",
-        "nurse relocation package"
-      ],
-      "pricing_or_offer_proof": [
-        "Current proof shows analogue routes, but no clean agency-bundle public pricing layer."
-      ],
-      "social_funnel_signal": "Facebook search surfaced active relocation and recruitment communities around `Nursing in Germany`, `Registered Nurses for Germany`, and `Ausbildung and Nursing Job in Germany (Direct Placement in Germany)`. This is a real social-acquisition surface around the route, but the OCR pass did not verify which groups are agency-owned or tied to paid packages.",
-      "takeaway": "The route problem is real, but the visible analogue market is mostly institutional rather than fragmented operators.",
-      "why_not_stronger": "Current evidence confirms analogues, not a target-market operator layer with public paid offers.",
-      "synced_at": "2026-04-21T15:12:29.357Z"
-    }
+    "synced_from_scorecard_at": "2026-04-21T18:27:23.674Z",
+    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: UK. Captured 5/5 anchor families with total local query volume 90 and max anchor volume 50. Lane rollup contains 51 deduplicated keywords, including 8 P1 terms. Top follow-up keywords: the uk is facing a drop in international nurse recruitment (P1, vol 260), international nurse recruitment uk (P1, vol 170), canadian recruitment agencies for international nurses (P1, vol 110), international nurses recruitment in uk (P1, vol 110), nursing recruitment agencies in uk for international nurses (P1, vol 110). Reference analog domains: charite.de (DE); hse.ie (IE: hse nursing jobs); lireco.se (SE). Operator evidence is weighted for B2B2C: score 2.1/5 with adjustment -0.16. Next step: refine WTP/CAC with keyword overview and price checks."
   }
 }

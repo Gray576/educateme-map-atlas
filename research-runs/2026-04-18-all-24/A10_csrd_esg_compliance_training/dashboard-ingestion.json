@@ -102,10 +102,13 @@
         "lane_group": "compliance_training",
         "market_track": "local",
         "semrush_priority": "high",
-        "provisional_market_score_v1": 1.45,
+        "provisional_market_score_v1": 1.4,
         "validation_velocity_composite": 2,
         "demand_pull_composite": 1.75,
-        "confidence_band": "low"
+        "demand_pull_composite_adjusted": 1.62,
+        "confidence_band": "low",
+        "operator_segment_weighted_score_1_5": 2.3,
+        "operator_segment_score_adjustment": -0.13
       },
       "confidence_band": "low",
       "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
@@ -191,9 +194,17 @@
           "Competitor public prices range from 300 EUR to 1,750 EUR, but scopes remain mixed."
         ],
         "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+        "segment_weighting": {
+          "quadrant_segment": "B2B",
+          "operator_signal_relevance": "medium",
+          "social_funnel_relevance": "low",
+          "weighted_score_1_5": 2.3,
+          "score_adjustment": -0.13,
+          "rationale": "B2B product. Operator proof relevance: medium. Social funnel relevance: low. Broad private providers count, but weaker than niche independent operators."
+        },
         "takeaway": "There is commercial compliance-training supply around this problem, but it is led by larger incumbents rather than fragmented operators.",
         "why_not_stronger": "Current proof is incumbent-led and does not yet show a long tail of smaller CSRD specialists.",
-        "synced_at": "2026-04-21T15:12:29.357Z"
+        "synced_at": "2026-04-21T18:27:19.664Z"
       },
       "confidence_band": "low",
       "omission_reason": "Derived independent-operator signal for prioritization and further market research. Keep it out of customer-facing copy until translated into product-safe language."

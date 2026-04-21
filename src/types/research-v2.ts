@@ -167,6 +167,14 @@ export interface CommercialValidationIndependentOperatorSummaryV1 {
   supporting_queries: string[];
   pricing_or_offer_proof: string[];
   social_funnel_signal: string;
+  segment_weighting?: {
+    quadrant_segment: "B2B" | "B2C" | "B2B2C" | "mixed" | "unknown";
+    operator_signal_relevance: "low" | "medium" | "high";
+    social_funnel_relevance: "low" | "medium" | "high";
+    weighted_score_1_5: number | null;
+    score_adjustment: number | null;
+    rationale: string;
+  } | null;
   takeaway: string;
   why_not_stronger: string;
   synced_at: string;
@@ -208,6 +216,8 @@ export interface CommercialValidationMarketEvidenceV1 {
     source_count: number;
   }>;
   independent_operator_summary?: CommercialValidationIndependentOperatorSummaryV1 | null;
+  operator_segment_weighted_score_1_5?: number | null;
+  operator_segment_score_adjustment?: number | null;
   cross_border_luxembourg_intent_keywords: Array<{
     keyword: string;
     follow_up_tier: string;

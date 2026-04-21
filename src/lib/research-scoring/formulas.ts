@@ -51,15 +51,76 @@ function getBuyerMotionPenalty(product: ProductRecord) {
   return buyerPenalty + budgetPenalty;
 }
 
+function getOperatorSegmentWeightedScore(product: ProductRecord) {
+  const summary = product.independentOperatorSummary;
+  if (!summary) return null;
+
+  if (typeof summary.segment_weighting?.weighted_score_1_5 === "number") {
+    return summary.segment_weighting.weighted_score_1_5;
+  }
+
+  const signal = summary.signal;
+  const examples = Array.isArray(summary.independent_operator_examples)
+    ? summary.independent_operator_examples
+    : [];
+  const operatorTypesSeen = Array.isArray(summary.operator_types_seen)
+    ? summary.operator_types_seen
+    : [];
+  const socialFunnelSignal = String(summary.social_funnel_signal || "").trim();
+
+  const hasIndependent = examples.some((item) => item.classification === "independent_operator");
+  const hasPrivateSchool = examples.some(
+    (item) => item.classification === "private_school_or_academy"
+  );
+  const hasOnlyInstitutional =
+    examples.length > 0 &&
+    examples.every((item) =>
+      ["official_or_institutional", "content_only", "unknown"].includes(item.classification)
+    );
+  const hasSocialCommunity = operatorTypesSeen.includes("social_community_only");
+  const socialPresent =
+    socialFunnelSignal.length > 0 &&
+    !/^No Facebook-group-led funnel signal/i.test(socialFunnelSignal) &&
+    !/^No useful Facebook funnel signal/i.test(socialFunnelSignal);
+
+  let score = signal === "strong" ? 4.5 : signal === "medium" ? 3.5 : signal === "weak" ? 2 : 1;
+
+  if (product.quadrantSegment === "B2C") {
+    if (hasIndependent) score += 0.4;
+    else if (hasPrivateSchool) score += 0.2;
+    if (hasSocialCommunity) score += 0.2;
+    if (socialPresent) score += 0.5;
+    if (hasOnlyInstitutional) score -= 0.4;
+  } else if (product.quadrantSegment === "B2B2C" || product.quadrantSegment === "mixed") {
+    if (hasIndependent) score += 0.35;
+    else if (hasPrivateSchool) score += 0.2;
+    if (hasSocialCommunity) score += 0.15;
+    if (socialPresent) score += 0.25;
+    if (hasOnlyInstitutional) score -= 0.3;
+  } else {
+    if (hasIndependent) score += 0.45;
+    else if (hasPrivateSchool) score += 0.25;
+    if (socialPresent) score += 0.1;
+    if (hasSocialCommunity && !hasIndependent && !hasPrivateSchool) score -= 0.4;
+    if (hasOnlyInstitutional) score -= 0.3;
+  }
+
+  return Math.max(1, Math.min(5, Number(score.toFixed(2))));
+}
+
 export function scoreEvidenceConfidence(product: ProductRecord) {
   const base =
     100 * (0.6 * product.qualitySignals.sourceCoverage + 0.4 * product.qualitySignals.avgFieldConfidence);
+  const operatorWeightedScore = getOperatorSegmentWeightedScore(product);
+  const operatorAdjustment =
+    operatorWeightedScore == null ? 0 : (operatorWeightedScore - 3) * 3.5;
 
   return clampScore(
     base -
       4 * product.qualitySignals.unverifiedClaimsCount -
       4 * product.qualitySignals.highConflictCount -
-      2 * product.qualitySignals.mediumConflictCount
+      2 * product.qualitySignals.mediumConflictCount +
+      operatorAdjustment
   );
 }
 

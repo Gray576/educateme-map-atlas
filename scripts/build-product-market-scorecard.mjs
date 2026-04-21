@@ -82,6 +82,13 @@ for (const row of overviewRows) {
       row.demand_pull_composite ||
       derivePullFromAnchorEvidence(anchorEvidence)
   );
+  const operatorSegmentScore = deriveOperatorSegmentScore(
+    commercialValidation?.market_evidence?.independent_operator_summary,
+    row.quadrant_segment
+  );
+  const operatorScoreAdjustment = operatorSegmentScore == null ? 0 : round2((operatorSegmentScore - 3) * 0.18);
+  const adjustedPull =
+    pull == null ? null : round2(clamp(1, pull + operatorScoreAdjustment, 5));
   const confidenceBand =
     commercialValidation?.collapsed_scores?.overall_confidence_band ||
     commercialValidation?.demand_pull?.confidence_band ||
@@ -92,9 +99,9 @@ for (const row of overviewRows) {
 
   const evidenceMultiplier = evidenceMultiplierFor(scopeFit, confidenceBand, releaseStatus);
   const provisionalScore =
-    velocity == null || pull == null
+    velocity == null || adjustedPull == null
       ? null
-      : round2((velocity * 0.45 + pull * 0.55) * evidenceMultiplier);
+      : round2((velocity * 0.45 + adjustedPull * 0.55) * evidenceMultiplier);
 
   const record = {
     product_code: row.product_code,
@@ -109,9 +116,12 @@ for (const row of overviewRows) {
     semrush_priority: productMapping.semrush_priority,
     validation_velocity_composite: velocity,
     demand_pull_composite: pull,
+    demand_pull_composite_adjusted: adjustedPull,
     confidence_band: confidenceBand,
     evidence_multiplier: evidenceMultiplier,
     provisional_market_score_v1: provisionalScore,
+    operator_segment_weighted_score_1_5: operatorSegmentScore,
+    operator_segment_score_adjustment: operatorScoreAdjustment,
     anchor_focus_count: productMapping.anchor_focus?.length || 0,
     anchor_capture_count: anchorEvidence.capturedCount,
     anchor_capture_coverage: anchorEvidence.coverage,
@@ -448,6 +458,82 @@ function evidenceMultiplierFor(scopeFit, confidenceBand, releaseStatus) {
   );
 }
 
+function deriveOperatorSegmentScore(summary, quadrantSegment) {
+  const normalizedSegment =
+    quadrantSegment === "B2B" ||
+    quadrantSegment === "B2C" ||
+    quadrantSegment === "B2B2C" ||
+    quadrantSegment === "mixed"
+      ? quadrantSegment
+      : "unknown";
+
+  if (
+    summary?.segment_weighting &&
+    typeof summary.segment_weighting.weighted_score_1_5 === "number"
+  ) {
+    return round2(summary.segment_weighting.weighted_score_1_5);
+  }
+
+  const signal =
+    summary?.signal === "none" ||
+    summary?.signal === "weak" ||
+    summary?.signal === "medium" ||
+    summary?.signal === "strong"
+      ? summary.signal
+      : null;
+
+  if (!signal) return null;
+
+  const examples = Array.isArray(summary?.independent_operator_examples)
+    ? summary.independent_operator_examples
+    : [];
+  const operatorTypesSeen = Array.isArray(summary?.operator_types_seen)
+    ? summary.operator_types_seen
+    : [];
+  const socialFunnelSignal = String(summary?.social_funnel_signal || "").trim();
+
+  const hasIndependent = examples.some((item) => item?.classification === "independent_operator");
+  const hasPrivateSchool = examples.some(
+    (item) => item?.classification === "private_school_or_academy"
+  );
+  const hasOnlyInstitutional =
+    examples.length > 0 &&
+    examples.every((item) =>
+      ["official_or_institutional", "content_only", "unknown"].includes(
+        item?.classification || "unknown"
+      )
+    );
+  const hasSocialCommunity = operatorTypesSeen.includes("social_community_only");
+  const socialPresent =
+    socialFunnelSignal.length > 0 &&
+    !/^No Facebook-group-led funnel signal/i.test(socialFunnelSignal) &&
+    !/^No useful Facebook funnel signal/i.test(socialFunnelSignal);
+
+  let score = signal === "strong" ? 4.5 : signal === "medium" ? 3.5 : signal === "weak" ? 2 : 1;
+
+  if (normalizedSegment === "B2C") {
+    if (hasIndependent) score += 0.4;
+    else if (hasPrivateSchool) score += 0.2;
+    if (hasSocialCommunity) score += 0.2;
+    if (socialPresent) score += 0.5;
+    if (hasOnlyInstitutional) score -= 0.4;
+  } else if (normalizedSegment === "B2B2C" || normalizedSegment === "mixed") {
+    if (hasIndependent) score += 0.35;
+    else if (hasPrivateSchool) score += 0.2;
+    if (hasSocialCommunity) score += 0.15;
+    if (socialPresent) score += 0.25;
+    if (hasOnlyInstitutional) score -= 0.3;
+  } else {
+    if (hasIndependent) score += 0.45;
+    else if (hasPrivateSchool) score += 0.25;
+    if (socialPresent) score += 0.1;
+    if (hasSocialCommunity && !hasIndependent && !hasPrivateSchool) score -= 0.4;
+    if (hasOnlyInstitutional) score -= 0.3;
+  }
+
+  return round2(clamp(1, score, 5));
+}
+
 function derivePullFromAnchorEvidence(anchorEvidence) {
   if (!anchorEvidence || anchorEvidence.capturedCount === 0) {
     return null;
@@ -531,9 +617,12 @@ function buildCsv(records) {
     "semrush_priority",
     "validation_velocity_composite",
     "demand_pull_composite",
+    "demand_pull_composite_adjusted",
     "confidence_band",
     "evidence_multiplier",
     "provisional_market_score_v1",
+    "operator_segment_weighted_score_1_5",
+    "operator_segment_score_adjustment",
     "anchor_focus_count",
     "anchor_capture_count",
     "anchor_capture_coverage",
@@ -572,12 +661,13 @@ function buildMemo(records) {
     "",
     "This scorecard is a market-evidence layer, not a final launch ranking.",
     "Rule: `db=LU` counts only for Luxembourg cards. `DE/FR` count only for adjacent-market cards. `US/UK` count only for reference-market cards.",
+    "Operator evidence is segment-aware: B2C gives more weight to community and fragmented small-provider signals, while B2B discounts social-only residue and favors direct operator/training offers.",
     "",
     "## Top Current Cards",
     "",
     ...top.map(
       (row) =>
-        `- ${row.product_code} ${row.product_title} — score ${row.provisional_market_score_v1 ?? "n/a"} | ${row.market_track} | scope ${row.scope_fit} | db ${row.evidence_database || "none"}`
+        `- ${row.product_code} ${row.product_title} — score ${row.provisional_market_score_v1 ?? "n/a"} | ${row.market_track} | scope ${row.scope_fit} | db ${row.evidence_database || "none"} | operator ${row.operator_segment_weighted_score_1_5 ?? "n/a"}`
     ),
     "",
     "## Cards Missing Proper Scope Evidence",
@@ -598,6 +688,10 @@ function numeric(value) {
 
 function round2(value) {
   return Math.round(value * 100) / 100;
+}
+
+function clamp(min, value, max) {
+  return Math.max(min, Math.min(max, value));
 }
 
 function parseMetricNumber(value) {

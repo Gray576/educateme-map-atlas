@@ -44,7 +44,7 @@
         "ext_006"
       ]
     },
-    "notes": "telc.net and goethe.de screenshots from db=DE show strong exam demand and many German certification long-tails. That validates the broader German exam-prep market but not yet the narrower nurse-specific commercial motion in our own market. Latest SEMrush scorecard sync: scope missing (missing). No anchor query volume is captured yet. Lane keyword count 7 with 0 P1 terms. Latest SEMrush scorecard sync: scope missing (missing). No anchor query volume is captured yet. Lane keyword count 7 with 0 P1 terms. Top follow-up terms: cours anglais luxembourg, cours d anglais luxembourg, cours allemand luxembourg. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 13530, max anchor volume 8100, capture count 3. Lane keyword count 7 with 0 P1 terms. Top follow-up terms: cours anglais luxembourg, cours d anglais luxembourg, cours allemand luxembourg. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 13530, max anchor volume 8100, capture count 3. Lane keyword count 7 with 0 P1 terms. Top follow-up terms: b1 prüfung telc, b1 telc prüfung, telc b1 prüfung modelltest pdf, telc b1 prufung munich, wie viel kostet b1 prüfung telc. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 13530, max anchor volume 8100, capture count 3. Lane keyword count 7 with 15 P1 terms. Top follow-up terms: b1 prüfung telc, b1 telc prüfung, telc b1 prüfung modelltest pdf, telc b1 prufung munich, wie viel kostet b1 prüfung telc."
+    "notes": "telc.net and goethe.de screenshots from db=DE show strong exam demand and many German certification long-tails. That validates the broader German exam-prep market but not yet the narrower nurse-specific commercial motion in our own market. Latest SEMrush scorecard sync: scope missing (missing). No anchor query volume is captured yet. Lane keyword count 7 with 0 P1 terms. Latest SEMrush scorecard sync: scope missing (missing). No anchor query volume is captured yet. Lane keyword count 7 with 0 P1 terms. Top follow-up terms: cours anglais luxembourg, cours d anglais luxembourg, cours allemand luxembourg. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 13530, max anchor volume 8100, capture count 3. Lane keyword count 7 with 0 P1 terms. Top follow-up terms: cours anglais luxembourg, cours d anglais luxembourg, cours allemand luxembourg. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 13530, max anchor volume 8100, capture count 3. Lane keyword count 7 with 0 P1 terms. Top follow-up terms: b1 prüfung telc, b1 telc prüfung, telc b1 prüfung modelltest pdf, telc b1 prufung munich, wie viel kostet b1 prüfung telc. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 13530, max anchor volume 8100, capture count 3. Lane keyword count 7 with 15 P1 terms. Top follow-up terms: b1 prüfung telc, b1 telc prüfung, telc b1 prüfung modelltest pdf, telc b1 prufung munich, wie viel kostet b1 prüfung telc. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 13530, max anchor volume 8100, capture count 3. Lane keyword count 7 with 15 P1 terms. Top follow-up terms: b1 prüfung telc, b1 telc prüfung, telc b1 prüfung modelltest pdf, telc b1 prufung munich, wie viel kostet b1 prüfung telc. Segment-aware operator evidence: 3.9/5, adjusted pull 1.91."
   },
   "regulatory_context": {
     "regulatory_friction_inverse_score_1_5": 1,
@@ -113,7 +113,7 @@
     "validation_velocity_composite": 1.5,
     "demand_pull_composite": 1.75,
     "overall_confidence_band": "low",
-    "confidence_reason": "Market evidence scope is local with scope fit fit. 3 anchor captures contribute to this scorecard sync. Primary evidence database: DE."
+    "confidence_reason": "Market evidence scope is local with scope fit fit. 3 anchor captures contribute to this scorecard sync. Primary evidence database: DE. Segment-aware operator weight: 3.9/5."
   },
   "market_evidence_scope_class": "local",
   "market_evidence": {
@@ -129,7 +129,7 @@
     "evidence_database": "DE",
     "lane_group": "german_exam_pflege",
     "semrush_priority": "high",
-    "provisional_market_score_v1": 1.28,
+    "provisional_market_score_v1": 1.35,
     "anchor_focus": [
       "telc b1 prüfung",
       "telc b2 prüfung",
@@ -210,11 +210,6 @@
         "source_count": 1
       }
     ],
-    "cross_border_luxembourg_intent_keywords": [],
-    "reference_analog_domains": [],
-    "next_research_step": "map lane keywords into product-level commercial notes",
-    "synced_from_scorecard_at": "2026-04-21T10:13:00.407Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: DE. Captured 3/3 anchor families with total local query volume 13530 and max anchor volume 8100. Lane rollup contains 7 deduplicated keywords, including 15 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, uni.lu. Top follow-up keywords: b1 prüfung telc (P1, vol 1900), b1 telc prüfung (P1, vol 1900), telc b1 prüfung modelltest pdf (P1, vol 1900), telc b1 prufung munich (P1, vol 1300), wie viel kostet b1 prüfung telc (P2, vol 40). Next step: map lane keywords into product-level commercial notes. Independent-operator signal: medium. Examples: DeutschAkademie (private_school_or_academy), Berlitz (private_school_or_academy), TELC route providers (independent_operator). This is an exam-first market with clear external pressure and a real prep ecosystem beyond official exam bodies. Why not stronger: The strongest proof is route pressure plus prep ecosystem, not a clean inventory of small nurse-specific operators.",
     "independent_operator_summary": {
       "signal": "medium",
       "independent_operator_examples": [
@@ -253,9 +248,24 @@
         "Current validated evidence proves a commercial exam-prep ecosystem, even though product-level price normalization is still missing."
       ],
       "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+      "segment_weighting": {
+        "quadrant_segment": "B2B2C",
+        "operator_signal_relevance": "high",
+        "social_funnel_relevance": "medium",
+        "weighted_score_1_5": 3.9,
+        "score_adjustment": 0.16,
+        "rationale": "B2B2C product. Operator proof relevance: high. Social funnel relevance: medium. Confirmed independent operators increase the weight."
+      },
       "takeaway": "This is an exam-first market with clear external pressure and a real prep ecosystem beyond official exam bodies.",
       "why_not_stronger": "The strongest proof is route pressure plus prep ecosystem, not a clean inventory of small nurse-specific operators.",
-      "synced_at": "2026-04-21T15:12:29.357Z"
-    }
+      "synced_at": "2026-04-21T18:27:19.664Z"
+    },
+    "cross_border_luxembourg_intent_keywords": [],
+    "reference_analog_domains": [],
+    "operator_segment_weighted_score_1_5": 3.9,
+    "operator_segment_score_adjustment": 0.16,
+    "next_research_step": "map lane keywords into product-level commercial notes",
+    "synced_from_scorecard_at": "2026-04-21T18:27:23.653Z",
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: DE. Captured 3/3 anchor families with total local query volume 13530 and max anchor volume 8100. Lane rollup contains 7 deduplicated keywords, including 15 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, uni.lu. Top follow-up keywords: b1 prüfung telc (P1, vol 1900), b1 telc prüfung (P1, vol 1900), telc b1 prüfung modelltest pdf (P1, vol 1900), telc b1 prufung munich (P1, vol 1300), wie viel kostet b1 prüfung telc (P2, vol 40). Operator evidence is weighted for B2B2C: score 3.9/5 with adjustment 0.16. Next step: map lane keywords into product-level commercial notes."
   }
 }

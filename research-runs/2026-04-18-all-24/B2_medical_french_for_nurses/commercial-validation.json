@@ -40,7 +40,7 @@
         "ext_004"
       ]
     },
-    "notes": "Retention structure is filled from the product format. Demand, WTP, CAC, macro, and channel-fit remain unfilled until SEMrush and distribution evidence are collected. Latest SEMrush scorecard sync: scope missing (missing). No anchor query volume is captured yet. Lane keyword count 7 with 2 P1 terms. Latest SEMrush scorecard sync: scope missing (missing). No anchor query volume is captured yet. Lane keyword count 7 with 2 P1 terms. Top follow-up terms: french classes luxembourg, french courses luxembourg, cours de français luxembourg. Cross-border Luxembourg-intent coverage: 2 matching terms in FR/DE seed pack. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 20, max anchor volume 20, capture count 3. Lane keyword count 7 with 2 P1 terms. Top follow-up terms: french classes luxembourg, french courses luxembourg, cours de français luxembourg. Cross-border Luxembourg-intent coverage: 2 matching terms in FR/DE seed pack. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 20, max anchor volume 20, capture count 3. Lane keyword count 7 with 2 P1 terms. Top follow-up terms: pflaster medizin französisch, deutsch französisches medizinisches versorgungszentrum, medizinische untersuchung auf französisch, die medizin französisch, französisch für mediziner."
+    "notes": "Retention structure is filled from the product format. Demand, WTP, CAC, macro, and channel-fit remain unfilled until SEMrush and distribution evidence are collected. Latest SEMrush scorecard sync: scope missing (missing). No anchor query volume is captured yet. Lane keyword count 7 with 2 P1 terms. Latest SEMrush scorecard sync: scope missing (missing). No anchor query volume is captured yet. Lane keyword count 7 with 2 P1 terms. Top follow-up terms: french classes luxembourg, french courses luxembourg, cours de français luxembourg. Cross-border Luxembourg-intent coverage: 2 matching terms in FR/DE seed pack. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 20, max anchor volume 20, capture count 3. Lane keyword count 7 with 2 P1 terms. Top follow-up terms: french classes luxembourg, french courses luxembourg, cours de français luxembourg. Cross-border Luxembourg-intent coverage: 2 matching terms in FR/DE seed pack. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 20, max anchor volume 20, capture count 3. Lane keyword count 7 with 2 P1 terms. Top follow-up terms: pflaster medizin französisch, deutsch französisches medizinisches versorgungszentrum, medizinische untersuchung auf französisch, die medizin französisch, französisch für mediziner. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 20, max anchor volume 20, capture count 3. Lane keyword count 7 with 2 P1 terms. Top follow-up terms: pflaster medizin französisch, deutsch französisches medizinisches versorgungszentrum, medizinische untersuchung auf französisch, die medizin französisch, französisch für mediziner. Segment-aware operator evidence: 2.6/5, adjusted pull 1.53."
   },
   "regulatory_context": {
     "regulatory_friction_inverse_score_1_5": 2,
@@ -105,7 +105,7 @@
     "validation_velocity_composite": 1.5,
     "demand_pull_composite": 1.6,
     "overall_confidence_band": "low",
-    "confidence_reason": "Market evidence scope is local with scope fit fit. 3 anchor captures contribute to this scorecard sync. Primary evidence database: DE."
+    "confidence_reason": "Market evidence scope is local with scope fit fit. 3 anchor captures contribute to this scorecard sync. Primary evidence database: DE. Segment-aware operator weight: 2.6/5."
   },
   "market_evidence_scope_class": "local",
   "market_evidence": {
@@ -121,7 +121,7 @@
     "evidence_database": "DE",
     "lane_group": "medical_french",
     "semrush_priority": "medium",
-    "provisional_market_score_v1": 1,
+    "provisional_market_score_v1": 0.97,
     "anchor_focus": [
       "medizinisches französisch",
       "französisch für pflegekräfte",
@@ -180,11 +180,6 @@
       }
     ],
     "top_questions": [],
-    "cross_border_luxembourg_intent_keywords": [],
-    "reference_analog_domains": [],
-    "next_research_step": "map lane keywords into product-level commercial notes",
-    "synced_from_scorecard_at": "2026-04-21T10:13:00.410Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: DE. Captured 3/3 anchor families with total local query volume 20 and max anchor volume 20. Lane rollup contains 7 deduplicated keywords, including 2 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: pflaster medizin französisch (P2, vol 40), deutsch französisches medizinisches versorgungszentrum (P2, vol 30), medizinische untersuchung auf französisch (P2, vol 30), die medizin französisch (P2, vol 20), französisch für mediziner (P2, vol 20). Next step: map lane keywords into product-level commercial notes. Independent-operator signal: weak. Examples: Prolingua (private_school_or_academy), inlingua Luxembourg (private_school_or_academy). Some substitute supply exists, but the exact niche is not visibly monetized by a fragmented operator set. Why not stronger: Search volume is extremely thin and no dedicated medical-French provider cluster survived validation.",
     "independent_operator_summary": {
       "signal": "weak",
       "independent_operator_examples": [
@@ -212,9 +207,24 @@
         "No clean public price or package proof for a dedicated medical-French operator was captured."
       ],
       "social_funnel_signal": "Facebook search surfaced broad nursing and medical communities, but no niche medical-French groups or visible operator-led funnel. This is weak social proof for the specific offer, not for the exact product language.",
+      "segment_weighting": {
+        "quadrant_segment": "B2B2C",
+        "operator_signal_relevance": "high",
+        "social_funnel_relevance": "medium",
+        "weighted_score_1_5": 2.6,
+        "score_adjustment": -0.07,
+        "rationale": "B2B2C product. Operator proof relevance: high. Social funnel relevance: medium. Broad private providers count, but weaker than niche independent operators. Visible Facebook/community residue is treated as supporting but low-weight evidence."
+      },
       "takeaway": "Some substitute supply exists, but the exact niche is not visibly monetized by a fragmented operator set.",
       "why_not_stronger": "Search volume is extremely thin and no dedicated medical-French provider cluster survived validation.",
-      "synced_at": "2026-04-21T15:12:29.357Z"
-    }
+      "synced_at": "2026-04-21T18:27:19.664Z"
+    },
+    "cross_border_luxembourg_intent_keywords": [],
+    "reference_analog_domains": [],
+    "operator_segment_weighted_score_1_5": 2.6,
+    "operator_segment_score_adjustment": -0.07,
+    "next_research_step": "map lane keywords into product-level commercial notes",
+    "synced_from_scorecard_at": "2026-04-21T18:27:23.679Z",
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: DE. Captured 3/3 anchor families with total local query volume 20 and max anchor volume 20. Lane rollup contains 7 deduplicated keywords, including 2 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: pflaster medizin französisch (P2, vol 40), deutsch französisches medizinisches versorgungszentrum (P2, vol 30), medizinische untersuchung auf französisch (P2, vol 30), die medizin französisch (P2, vol 20), französisch für mediziner (P2, vol 20). Operator evidence is weighted for B2B2C: score 2.6/5 with adjustment -0.07. Next step: map lane keywords into product-level commercial notes."
   }
 }

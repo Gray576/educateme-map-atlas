@@ -121,10 +121,13 @@
         "lane_group": "french_language",
         "market_track": "local",
         "semrush_priority": "high",
-        "provisional_market_score_v1": 1.38,
+        "provisional_market_score_v1": 1.34,
         "validation_velocity_composite": 1.5,
         "demand_pull_composite": 2,
-        "confidence_band": "low"
+        "demand_pull_composite_adjusted": 1.89,
+        "confidence_band": "low",
+        "operator_segment_weighted_score_1_5": 2.4,
+        "operator_segment_score_adjustment": -0.11
       },
       "confidence_band": "low",
       "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
@@ -257,9 +260,17 @@
           "No clean small-operator price proof was captured in the validated evidence set."
         ],
         "social_funnel_signal": "Facebook search for French-in-Luxembourg terms collapsed into general Luxembourg and expat groups rather than niche French-learning communities. This supports local newcomer demand, but not a dedicated small-operator funnel for business French.",
+        "segment_weighting": {
+          "quadrant_segment": "B2B",
+          "operator_signal_relevance": "medium",
+          "social_funnel_relevance": "low",
+          "weighted_score_1_5": 2.4,
+          "score_adjustment": -0.11,
+          "rationale": "B2B product. Operator proof relevance: medium. Social funnel relevance: low. Broad private providers count, but weaker than niche independent operators. Visible Facebook/community residue is treated as supporting but low-weight evidence."
+        },
         "takeaway": "Commercial supply exists, but it is led by broad schools and institutions rather than fragmented small operators.",
         "why_not_stronger": "Current evidence shows category demand, but not a clear long tail of niche business-French operators.",
-        "synced_at": "2026-04-21T15:12:29.357Z"
+        "synced_at": "2026-04-21T18:27:19.664Z"
       },
       "confidence_band": "low",
       "omission_reason": "Derived independent-operator signal for prioritization and further market research. Keep it out of customer-facing copy until translated into product-safe language."

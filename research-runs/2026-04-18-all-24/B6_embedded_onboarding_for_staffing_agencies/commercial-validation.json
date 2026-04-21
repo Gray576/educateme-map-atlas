@@ -41,7 +41,7 @@
         "ext_003"
       ]
     },
-    "notes": "Retention structure is filled from the product format. Demand, WTP, CAC, macro, and channel-fit remain unfilled until SEMrush and distribution evidence are collected. Latest SEMrush scorecard sync: scope missing (not_required). No anchor query volume is captured yet. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 20, max anchor volume 20, capture count 6. Lane keyword count 14 with 0 P1 terms. Top follow-up terms: language training for corporate relocation, language training for employee relocation, language training for relocation, chiropractic office staff training and onboarding solutions, pizza hut staff onboarding training login. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 20, max anchor volume 20, capture count 6. Lane keyword count 14 with 0 P1 terms. Top follow-up terms: language training for corporate relocation, language training for employee relocation, language training for relocation. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 20, max anchor volume 20, capture count 6. Lane keyword count 14 with 0 P1 terms. Top follow-up terms: language training for corporate relocation, language training for employee relocation, language training for relocation. Reference analog domains reviewed: blcc.be, semanticsbelgium.com, inlingua.lu, allingua.lu, bicortexlanguages.com."
+    "notes": "Retention structure is filled from the product format. Demand, WTP, CAC, macro, and channel-fit remain unfilled until SEMrush and distribution evidence are collected. Latest SEMrush scorecard sync: scope missing (not_required). No anchor query volume is captured yet. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 20, max anchor volume 20, capture count 6. Lane keyword count 14 with 0 P1 terms. Top follow-up terms: language training for corporate relocation, language training for employee relocation, language training for relocation, chiropractic office staff training and onboarding solutions, pizza hut staff onboarding training login. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 20, max anchor volume 20, capture count 6. Lane keyword count 14 with 0 P1 terms. Top follow-up terms: language training for corporate relocation, language training for employee relocation, language training for relocation. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 20, max anchor volume 20, capture count 6. Lane keyword count 14 with 0 P1 terms. Top follow-up terms: language training for corporate relocation, language training for employee relocation, language training for relocation. Reference analog domains reviewed: blcc.be, semanticsbelgium.com, inlingua.lu, allingua.lu, bicortexlanguages.com. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 20, max anchor volume 20, capture count 6. Lane keyword count 14 with 0 P1 terms. Top follow-up terms: language training for corporate relocation, language training for employee relocation, language training for relocation. Reference analog domains reviewed: blcc.be, semanticsbelgium.com, inlingua.lu, allingua.lu, bicortexlanguages.com. Segment-aware operator evidence: 2.8/5, adjusted pull 1.56."
   },
   "regulatory_context": {
     "regulatory_friction_inverse_score_1_5": 2,
@@ -103,7 +103,7 @@
     "validation_velocity_composite": 1,
     "demand_pull_composite": 1.6,
     "overall_confidence_band": "low",
-    "confidence_reason": "Market evidence scope is reference with scope fit fit. 6 anchor captures contribute to this scorecard sync. Primary evidence database: UK."
+    "confidence_reason": "Market evidence scope is reference with scope fit fit. 6 anchor captures contribute to this scorecard sync. Primary evidence database: UK. Segment-aware operator weight: 2.8/5."
   },
   "market_evidence_scope_class": "reference",
   "market_evidence": {
@@ -119,7 +119,7 @@
     "evidence_database": "UK",
     "lane_group": "staffing_onboarding",
     "semrush_priority": "medium",
-    "provisional_market_score_v1": 0.85,
+    "provisional_market_score_v1": 0.84,
     "anchor_focus": [
       "language courses for recruitment",
       "language training for assignees",
@@ -161,6 +161,56 @@
       }
     ],
     "top_questions": [],
+    "independent_operator_summary": {
+      "signal": "weak",
+      "independent_operator_examples": [
+        {
+          "name": "BiCortex Languages",
+          "classification": "independent_operator",
+          "evidence": "Small specialist provider with at least some cross-cultural training footprint in reference markets."
+        },
+        {
+          "name": "Semantics Belgium",
+          "classification": "independent_operator",
+          "evidence": "Smaller specialist provider in the broader corporate language and intercultural space."
+        },
+        {
+          "name": "BLCC",
+          "classification": "private_school_or_academy",
+          "evidence": "Commercial provider with overlapping business-language and cross-cultural positioning."
+        },
+        {
+          "name": "Allingua",
+          "classification": "private_school_or_academy",
+          "evidence": "Local language provider, but not strong proof of the onboarding-bundle motion."
+        }
+      ],
+      "operator_types_seen": [
+        "independent_operator",
+        "private_school_or_academy",
+        "social_community_only"
+      ],
+      "supporting_queries": [
+        "cross cultural training relocation",
+        "language training for assignees",
+        "relocation language training"
+      ],
+      "pricing_or_offer_proof": [
+        "Current proof is mostly reference analog offers rather than a strong target-market public pricing layer."
+      ],
+      "social_funnel_signal": "Facebook search surfaced active nurse-relocation and placement communities around Germany (`Nursing in Germany`, `Registered Nurses for Germany`, `Direct Placement in Germany`). This confirms a social funnel around the route, but not yet a clean operator-owned onboarding bundle.",
+      "segment_weighting": {
+        "quadrant_segment": "B2B2C",
+        "operator_signal_relevance": "high",
+        "social_funnel_relevance": "medium",
+        "weighted_score_1_5": 2.8,
+        "score_adjustment": -0.04,
+        "rationale": "B2B2C product. Operator proof relevance: high. Social funnel relevance: medium. Confirmed independent operators increase the weight. Visible Facebook/community residue is treated as supporting but low-weight evidence."
+      },
+      "takeaway": "Reference markets show some specialist providers, so the category exists, but the onboarding-bundle motion is not strongly visible in search.",
+      "why_not_stronger": "Evidence is mostly reference analogs with weak keyword traction, not clear target-market operator demand.",
+      "synced_at": "2026-04-21T18:27:19.664Z"
+    },
     "cross_border_luxembourg_intent_keywords": [],
     "reference_analog_domains": [
       {
@@ -217,50 +267,10 @@
         ]
       }
     ],
+    "operator_segment_weighted_score_1_5": 2.8,
+    "operator_segment_score_adjustment": -0.04,
     "next_research_step": "refine WTP/CAC with keyword overview and price checks",
-    "synced_from_scorecard_at": "2026-04-21T10:13:00.411Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: UK. Captured 6/6 anchor families with total local query volume 20 and max anchor volume 20. Lane rollup contains 14 deduplicated keywords, including 0 P1 terms. Top follow-up keywords: language training for corporate relocation (P2, vol 20), language training for employee relocation (P2, vol 20), language training for relocation (P2, vol 0). Reference analog domains: blcc.be (BE); semanticsbelgium.com (BE); inlingua.lu (LU); allingua.lu (LU); bicortexlanguages.com (UK: cross cultural training). Next step: refine WTP/CAC with keyword overview and price checks. Independent-operator signal: weak. Examples: BiCortex Languages (independent_operator), Semantics Belgium (independent_operator), BLCC (private_school_or_academy). Reference markets show some specialist providers, so the category exists, but the onboarding-bundle motion is not strongly visible in search. Why not stronger: Evidence is mostly reference analogs with weak keyword traction, not clear target-market operator demand.",
-    "independent_operator_summary": {
-      "signal": "weak",
-      "independent_operator_examples": [
-        {
-          "name": "BiCortex Languages",
-          "classification": "independent_operator",
-          "evidence": "Small specialist provider with at least some cross-cultural training footprint in reference markets."
-        },
-        {
-          "name": "Semantics Belgium",
-          "classification": "independent_operator",
-          "evidence": "Smaller specialist provider in the broader corporate language and intercultural space."
-        },
-        {
-          "name": "BLCC",
-          "classification": "private_school_or_academy",
-          "evidence": "Commercial provider with overlapping business-language and cross-cultural positioning."
-        },
-        {
-          "name": "Allingua",
-          "classification": "private_school_or_academy",
-          "evidence": "Local language provider, but not strong proof of the onboarding-bundle motion."
-        }
-      ],
-      "operator_types_seen": [
-        "independent_operator",
-        "private_school_or_academy",
-        "social_community_only"
-      ],
-      "supporting_queries": [
-        "cross cultural training relocation",
-        "language training for assignees",
-        "relocation language training"
-      ],
-      "pricing_or_offer_proof": [
-        "Current proof is mostly reference analog offers rather than a strong target-market public pricing layer."
-      ],
-      "social_funnel_signal": "Facebook search surfaced active nurse-relocation and placement communities around Germany (`Nursing in Germany`, `Registered Nurses for Germany`, `Direct Placement in Germany`). This confirms a social funnel around the route, but not yet a clean operator-owned onboarding bundle.",
-      "takeaway": "Reference markets show some specialist providers, so the category exists, but the onboarding-bundle motion is not strongly visible in search.",
-      "why_not_stronger": "Evidence is mostly reference analogs with weak keyword traction, not clear target-market operator demand.",
-      "synced_at": "2026-04-21T15:12:29.357Z"
-    }
+    "synced_from_scorecard_at": "2026-04-21T18:27:23.685Z",
+    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: UK. Captured 6/6 anchor families with total local query volume 20 and max anchor volume 20. Lane rollup contains 14 deduplicated keywords, including 0 P1 terms. Top follow-up keywords: language training for corporate relocation (P2, vol 20), language training for employee relocation (P2, vol 20), language training for relocation (P2, vol 0). Reference analog domains: blcc.be (BE); semanticsbelgium.com (BE); inlingua.lu (LU); allingua.lu (LU); bicortexlanguages.com (UK: cross cultural training). Operator evidence is weighted for B2B2C: score 2.8/5 with adjustment -0.04. Next step: refine WTP/CAC with keyword overview and price checks."
   }
 }

@@ -44,7 +44,7 @@
         "ext_004"
       ]
     },
-    "notes": "Retention structure is filled from the product format. Demand, WTP, CAC, macro, and channel-fit remain unfilled until SEMrush and distribution evidence are collected. Latest SEMrush scorecard sync: scope missing (not_required). No anchor query volume is captured yet. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 80, max anchor volume 50, capture count 5. Lane keyword count 31 with 13 P1 terms. Top follow-up terms: white label elearning platform, white label elearning courses, elearning platform white label, white label kids elearning, real estate license course. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 80, max anchor volume 50, capture count 5. Lane keyword count 31 with 13 P1 terms. Top follow-up terms: white label elearning platform, white label elearning courses, elearning platform white label, white label kids elearning, real estate pre licensing course. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 80, max anchor volume 50, capture count 5. Lane keyword count 31 with 13 P1 terms. Top follow-up terms: white label elearning platform, white label elearning courses, elearning platform white label, white label kids elearning, white label training content courses. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 80, max anchor volume 50, capture count 5. Lane keyword count 31 with 13 P1 terms. Top follow-up terms: white label elearning platform, white label elearning courses, elearning platform white label, white label kids elearning, white label training content courses. Reference analog domains reviewed: academyocean.com, talentlms.com, oasis-lms.com."
+    "notes": "Retention structure is filled from the product format. Demand, WTP, CAC, macro, and channel-fit remain unfilled until SEMrush and distribution evidence are collected. Latest SEMrush scorecard sync: scope missing (not_required). No anchor query volume is captured yet. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 80, max anchor volume 50, capture count 5. Lane keyword count 31 with 13 P1 terms. Top follow-up terms: white label elearning platform, white label elearning courses, elearning platform white label, white label kids elearning, real estate license course. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 80, max anchor volume 50, capture count 5. Lane keyword count 31 with 13 P1 terms. Top follow-up terms: white label elearning platform, white label elearning courses, elearning platform white label, white label kids elearning, real estate pre licensing course. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 80, max anchor volume 50, capture count 5. Lane keyword count 31 with 13 P1 terms. Top follow-up terms: white label elearning platform, white label elearning courses, elearning platform white label, white label kids elearning, white label training content courses. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 80, max anchor volume 50, capture count 5. Lane keyword count 31 with 13 P1 terms. Top follow-up terms: white label elearning platform, white label elearning courses, elearning platform white label, white label kids elearning, white label training content courses. Reference analog domains reviewed: academyocean.com, talentlms.com, oasis-lms.com. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 80, max anchor volume 50, capture count 5. Lane keyword count 31 with 13 P1 terms. Top follow-up terms: white label elearning platform, white label elearning courses, elearning platform white label, white label kids elearning, white label training content courses. Reference analog domains reviewed: academyocean.com, talentlms.com, oasis-lms.com. Segment-aware operator evidence: 4/5, adjusted pull 2.43."
   },
   "regulatory_context": {
     "regulatory_friction_inverse_score_1_5": 2,
@@ -112,7 +112,7 @@
     "validation_velocity_composite": 1,
     "demand_pull_composite": 2.25,
     "overall_confidence_band": "low",
-    "confidence_reason": "Market evidence scope is reference with scope fit fit. 5 anchor captures contribute to this scorecard sync. Primary evidence database: US."
+    "confidence_reason": "Market evidence scope is reference with scope fit fit. 5 anchor captures contribute to this scorecard sync. Primary evidence database: US. Segment-aware operator weight: 4/5."
   },
   "market_evidence_scope_class": "reference",
   "market_evidence": {
@@ -128,7 +128,7 @@
     "evidence_database": "US",
     "lane_group": "licensing",
     "semrush_priority": "low",
-    "provisional_market_score_v1": 1.32,
+    "provisional_market_score_v1": 1.39,
     "anchor_focus": [
       "white label elearning",
       "course licensing",
@@ -189,6 +189,51 @@
       }
     ],
     "top_questions": [],
+    "independent_operator_summary": {
+      "signal": "medium",
+      "independent_operator_examples": [
+        {
+          "name": "AcademyOcean",
+          "classification": "independent_operator",
+          "evidence": "Focused operator with strong non-branded white-label LMS rankings."
+        },
+        {
+          "name": "Oasis LMS",
+          "classification": "independent_operator",
+          "evidence": "Focused operator ranking on the same non-branded white-label LMS cluster."
+        },
+        {
+          "name": "TalentLMS",
+          "classification": "private_school_or_academy",
+          "evidence": "Larger commercial benchmark proving the lane is real, not whitespace."
+        }
+      ],
+      "operator_types_seen": [
+        "independent_operator",
+        "private_school_or_academy"
+      ],
+      "supporting_queries": [
+        "white label elearning",
+        "white label elearning platform",
+        "white label lms",
+        "course licensing"
+      ],
+      "pricing_or_offer_proof": [
+        "Reference-market evidence includes strong non-branded commercial rankings, though public price normalization is still incomplete."
+      ],
+      "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+      "segment_weighting": {
+        "quadrant_segment": "B2B",
+        "operator_signal_relevance": "medium",
+        "social_funnel_relevance": "low",
+        "weighted_score_1_5": 4,
+        "score_adjustment": 0.18,
+        "rationale": "B2B product. Operator proof relevance: medium. Social funnel relevance: low. Confirmed independent operators increase the weight."
+      },
+      "takeaway": "This is a real operator market with focused commercial players ranking on non-branded terms.",
+      "why_not_stronger": "The strongest proof is in reference markets and keyword traction, not yet in a full public price map.",
+      "synced_at": "2026-04-21T18:27:19.664Z"
+    },
     "cross_border_luxembourg_intent_keywords": [],
     "reference_analog_domains": [
       {
@@ -277,45 +322,10 @@
         ]
       }
     ],
+    "operator_segment_weighted_score_1_5": 4,
+    "operator_segment_score_adjustment": 0.18,
     "next_research_step": "refine WTP/CAC with keyword overview and price checks",
-    "synced_from_scorecard_at": "2026-04-21T10:13:00.402Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: US. Captured 5/5 anchor families with total local query volume 80 and max anchor volume 50. Lane rollup contains 31 deduplicated keywords, including 13 P1 terms. Current watchlist domains: academyocean.com, eleapsoftware.com, elearningindustry.com, folio3.com, oasis-lms.com. Top follow-up keywords: white label elearning platform (P2, vol 70), white label elearning courses (P2, vol 20), elearning platform white label (P2, vol 0), white label kids elearning (P2, vol 0), white label training content courses (P2, vol 20). Reference analog domains: academyocean.com (US: white label lms, white label learning management system, white label lms platform, white label online course platform); talentlms.com (US); oasis-lms.com (US: white label lms, white label lms platform, white label online courses, white label e learning platform). Next step: refine WTP/CAC with keyword overview and price checks. Independent-operator signal: medium. Examples: AcademyOcean (independent_operator), Oasis LMS (independent_operator), TalentLMS (private_school_or_academy). This is a real operator market with focused commercial players ranking on non-branded terms. Why not stronger: The strongest proof is in reference markets and keyword traction, not yet in a full public price map.",
-    "independent_operator_summary": {
-      "signal": "medium",
-      "independent_operator_examples": [
-        {
-          "name": "AcademyOcean",
-          "classification": "independent_operator",
-          "evidence": "Focused operator with strong non-branded white-label LMS rankings."
-        },
-        {
-          "name": "Oasis LMS",
-          "classification": "independent_operator",
-          "evidence": "Focused operator ranking on the same non-branded white-label LMS cluster."
-        },
-        {
-          "name": "TalentLMS",
-          "classification": "private_school_or_academy",
-          "evidence": "Larger commercial benchmark proving the lane is real, not whitespace."
-        }
-      ],
-      "operator_types_seen": [
-        "independent_operator",
-        "private_school_or_academy"
-      ],
-      "supporting_queries": [
-        "white label elearning",
-        "white label elearning platform",
-        "white label lms",
-        "course licensing"
-      ],
-      "pricing_or_offer_proof": [
-        "Reference-market evidence includes strong non-branded commercial rankings, though public price normalization is still incomplete."
-      ],
-      "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
-      "takeaway": "This is a real operator market with focused commercial players ranking on non-branded terms.",
-      "why_not_stronger": "The strongest proof is in reference markets and keyword traction, not yet in a full public price map.",
-      "synced_at": "2026-04-21T15:12:29.357Z"
-    }
+    "synced_from_scorecard_at": "2026-04-21T18:27:23.639Z",
+    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: US. Captured 5/5 anchor families with total local query volume 80 and max anchor volume 50. Lane rollup contains 31 deduplicated keywords, including 13 P1 terms. Current watchlist domains: academyocean.com, eleapsoftware.com, elearningindustry.com, folio3.com, oasis-lms.com. Top follow-up keywords: white label elearning platform (P2, vol 70), white label elearning courses (P2, vol 20), elearning platform white label (P2, vol 0), white label kids elearning (P2, vol 0), white label training content courses (P2, vol 20). Reference analog domains: academyocean.com (US: white label lms, white label learning management system, white label lms platform, white label online course platform); talentlms.com (US); oasis-lms.com (US: white label lms, white label lms platform, white label online courses, white label e learning platform). Operator evidence is weighted for B2B: score 4/5 with adjustment 0.18. Next step: refine WTP/CAC with keyword overview and price checks."
   }
 }

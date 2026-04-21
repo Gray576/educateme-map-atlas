@@ -84,6 +84,23 @@ They help when they show:
 
 They do not replace keyword, pricing, or direct-offer proof.
 
+## Segment-aware weighting
+
+The same operator signal does not mean the same thing for every segment.
+
+- `B2C`
+  - independent tutors, prep coaches, and community-led funnels are high-signal
+  - Facebook/community residue can materially strengthen confidence
+- `B2B2C`
+  - fragmented operators still matter, but route/community proof is weaker than in pure B2C
+- `B2B`
+  - Facebook groups are low-weight evidence
+  - operator proof matters mainly when there is a visible offer from a small consultancy or specialist trainer
+  - academy pages, public seminar pages, and direct training offers matter more than general communities
+
+Do not boost a B2B market simply because a large Facebook group exists.
+Do not discount a B2C lane just because the market is still fragmented and operator-led.
+
 ## Output
 
 Store a compact summary:
@@ -97,3 +114,12 @@ Store a compact summary:
 - `why_not_stronger`
 
 For product cards, persist this as a compact `independent_operator_summary` block inside `commercial-validation.market_evidence`, and mirror the same payload into `dashboard-ingestion.analyst_only_fields.independent_operator_summary`.
+
+That summary should also include a compact `segment_weighting` object:
+
+- `quadrant_segment`
+- `operator_signal_relevance`
+- `social_funnel_relevance`
+- `weighted_score_1_5`
+- `score_adjustment`
+- `rationale`

@@ -92,6 +92,8 @@ async function main() {
 }
 
 function syncCommercialValidation(commercial, record, condensed) {
+  const existingIndependentOperatorSummary =
+    commercial.market_evidence?.independent_operator_summary ?? null;
   commercial.market_evidence_scope_class = record.evidence_scope_class ?? "missing";
   commercial.market_evidence = {
     confidence_band: normalizeConfidence(record.confidence_band),
@@ -119,8 +121,11 @@ function syncCommercialValidation(commercial, record, condensed) {
     local_lane_watch_domains: asArray(record.local_lane_watch_domains),
     top_follow_up_keywords: condensed.topFollowUpKeywords,
     top_questions: condensed.topQuestions,
+    independent_operator_summary: existingIndependentOperatorSummary,
     cross_border_luxembourg_intent_keywords: condensed.crossBorderKeywords,
     reference_analog_domains: condensed.referenceAnalogDomains,
+    operator_segment_weighted_score_1_5: toNumber(record.operator_segment_weighted_score_1_5),
+    operator_segment_score_adjustment: toNumber(record.operator_segment_score_adjustment),
     next_research_step: record.next_research_step ?? "",
     synced_from_scorecard_at: new Date().toISOString(),
     notes: buildCommercialMarketEvidenceNotes(record, condensed),
@@ -208,7 +213,10 @@ function syncDashboardIngestion(dashboard, record, condensed) {
       provisional_market_score_v1: toNumber(record.provisional_market_score_v1),
       validation_velocity_composite: toNumber(record.validation_velocity_composite),
       demand_pull_composite: toNumber(record.demand_pull_composite),
+      demand_pull_composite_adjusted: toNumber(record.demand_pull_composite_adjusted),
       confidence_band: record.confidence_band ?? "low",
+      operator_segment_weighted_score_1_5: toNumber(record.operator_segment_weighted_score_1_5),
+      operator_segment_score_adjustment: toNumber(record.operator_segment_score_adjustment),
     },
     confidence_band: normalizeSuppressedConfidence(record.confidence_band),
     omission_reason: ANALYST_ONLY_REASON,
@@ -289,6 +297,9 @@ function buildCommercialMarketEvidenceNotes(record, condensed) {
           .map((item) => `${item.domain} (${item.db}${item.top_relevant_keywords.length ? `: ${item.top_relevant_keywords.map((row) => row.keyword).join(", ")}` : ""})`)
           .join("; ")}.`
       : null,
+    toNumber(record.operator_segment_weighted_score_1_5) != null
+      ? `Operator evidence is weighted for ${record.quadrant_segment}: score ${record.operator_segment_weighted_score_1_5}/5 with adjustment ${record.operator_segment_score_adjustment}.`
+      : null,
     record.next_research_step ? `Next step: ${record.next_research_step}.` : null,
   ];
 
@@ -302,6 +313,9 @@ function buildConfidenceReason(record) {
       ? `${record.anchor_capture_count} anchor captures contribute to this scorecard sync.`
       : "No anchor captures contribute yet.",
     record.evidence_database ? `Primary evidence database: ${record.evidence_database}.` : null,
+    toNumber(record.operator_segment_weighted_score_1_5) != null
+      ? `Segment-aware operator weight: ${record.operator_segment_weighted_score_1_5}/5.`
+      : null,
   ];
   return parts.filter(Boolean).join(" ");
 }
@@ -335,6 +349,9 @@ function buildDemandNotes(record, condensed) {
       ? `Reference analog domains reviewed: ${condensed.referenceAnalogDomains
           .map((item) => item.domain)
           .join(", ")}.`
+      : null,
+    toNumber(record.operator_segment_weighted_score_1_5) != null
+      ? `Segment-aware operator evidence: ${record.operator_segment_weighted_score_1_5}/5, adjusted pull ${record.demand_pull_composite_adjusted ?? record.demand_pull_composite}.`
       : null,
   ];
   return parts.filter(Boolean).join(" ");

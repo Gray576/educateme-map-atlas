@@ -50,7 +50,7 @@
         "ext_003"
       ]
     },
-    "notes": "The screenshot set supports a real Luxembourg finance/compliance training landscape around House of Training and related overlap domains in db=LU, but AI-for-finance demand is still extrapolated from adjacent category activity rather than directly proved. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 70, max anchor volume 70, capture count 3. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 70, max anchor volume 70, capture count 3. Lane keyword count 4 with 0 P1 terms."
+    "notes": "The screenshot set supports a real Luxembourg finance/compliance training landscape around House of Training and related overlap domains in db=LU, but AI-for-finance demand is still extrapolated from adjacent category activity rather than directly proved. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 70, max anchor volume 70, capture count 3. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 70, max anchor volume 70, capture count 3. Lane keyword count 4 with 0 P1 terms. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 70, max anchor volume 70, capture count 3. Lane keyword count 4 with 0 P1 terms. Segment-aware operator evidence: 2.3/5, adjusted pull 1.62."
   },
   "regulatory_context": {
     "regulatory_friction_inverse_score_1_5": 2,
@@ -130,7 +130,7 @@
     "validation_velocity_composite": 1.5,
     "demand_pull_composite": 1.75,
     "overall_confidence_band": "low",
-    "confidence_reason": "Market evidence scope is local with scope fit fit. 3 anchor captures contribute to this scorecard sync. Primary evidence database: LU."
+    "confidence_reason": "Market evidence scope is local with scope fit fit. 3 anchor captures contribute to this scorecard sync. Primary evidence database: LU. Segment-aware operator weight: 2.3/5."
   },
   "market_evidence_scope_class": "local",
   "market_evidence": {
@@ -146,7 +146,7 @@
     "evidence_database": "LU",
     "lane_group": "ai_finance_compliance",
     "semrush_priority": "high",
-    "provisional_market_score_v1": 1.28,
+    "provisional_market_score_v1": 1.22,
     "anchor_focus": [
       "ai act training luxembourg",
       "ai literacy training finance",
@@ -169,11 +169,6 @@
     ],
     "top_follow_up_keywords": [],
     "top_questions": [],
-    "cross_border_luxembourg_intent_keywords": [],
-    "reference_analog_domains": [],
-    "next_research_step": "refine WTP/CAC with keyword overview and price checks",
-    "synced_from_scorecard_at": "2026-04-21T10:13:00.405Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 3/3 anchor families with total local query volume 70 and max anchor volume 70. Lane rollup contains 4 deduplicated keywords, including 0 P1 terms. Current watchlist domains: houseoftraining.lu, abilways.lu, alco.lu, cmlaw.lu, csl.lu. Next step: refine WTP/CAC with keyword overview and price checks. Independent-operator signal: weak. Examples: House of Training (private_school_or_academy). The need is commercially legible, but current public supply is narrow and academy-led rather than fragmented. Why not stronger: Only one validated public Luxembourg provider clearly overlaps, so operator fragmentation is not yet proven.",
     "independent_operator_summary": {
       "signal": "weak",
       "independent_operator_examples": [
@@ -195,9 +190,24 @@
         "Current validated evidence proves adjacent finance-sector AI training supply, but no clean specialist-operator price layer."
       ],
       "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+      "segment_weighting": {
+        "quadrant_segment": "B2B",
+        "operator_signal_relevance": "medium",
+        "social_funnel_relevance": "low",
+        "weighted_score_1_5": 2.3,
+        "score_adjustment": -0.13,
+        "rationale": "B2B product. Operator proof relevance: medium. Social funnel relevance: low. Broad private providers count, but weaker than niche independent operators."
+      },
       "takeaway": "The need is commercially legible, but current public supply is narrow and academy-led rather than fragmented.",
       "why_not_stronger": "Only one validated public Luxembourg provider clearly overlaps, so operator fragmentation is not yet proven.",
-      "synced_at": "2026-04-21T15:12:29.357Z"
-    }
+      "synced_at": "2026-04-21T18:27:19.664Z"
+    },
+    "cross_border_luxembourg_intent_keywords": [],
+    "reference_analog_domains": [],
+    "operator_segment_weighted_score_1_5": 2.3,
+    "operator_segment_score_adjustment": -0.13,
+    "next_research_step": "refine WTP/CAC with keyword overview and price checks",
+    "synced_from_scorecard_at": "2026-04-21T18:27:23.665Z",
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 3/3 anchor families with total local query volume 70 and max anchor volume 70. Lane rollup contains 4 deduplicated keywords, including 0 P1 terms. Current watchlist domains: houseoftraining.lu, abilways.lu, alco.lu, cmlaw.lu, csl.lu. Operator evidence is weighted for B2B: score 2.3/5 with adjustment -0.13. Next step: refine WTP/CAC with keyword overview and price checks."
   }
 }

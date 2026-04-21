@@ -43,7 +43,7 @@
         "ext_004"
       ]
     },
-    "notes": "The same db=LU route market visible for L1 is relevant here: sproochentest and Luxembourgish route terms have observable local demand and multiple incumbents, while Educateme already ranks on route-support content. The bundle still needs partner-motion proof, but local category pull is no longer blank. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 1180, max anchor volume 720, capture count 7. Lane keyword count 14 with 3 P1 terms. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 1180, max anchor volume 720, capture count 7. Lane keyword count 14 with 3 P1 terms. Top follow-up terms: cours de luxembourgeois, inl sproochentest, cours de luxembourgeois en ligne, sproochentest luxembourg, cours luxembourgeois en ligne. Cross-border Luxembourg-intent coverage: 5 matching terms in FR/DE seed pack."
+    "notes": "The same db=LU route market visible for L1 is relevant here: sproochentest and Luxembourgish route terms have observable local demand and multiple incumbents, while Educateme already ranks on route-support content. The bundle still needs partner-motion proof, but local category pull is no longer blank. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 1180, max anchor volume 720, capture count 7. Lane keyword count 14 with 3 P1 terms. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 1180, max anchor volume 720, capture count 7. Lane keyword count 14 with 3 P1 terms. Top follow-up terms: cours de luxembourgeois, inl sproochentest, cours de luxembourgeois en ligne, sproochentest luxembourg, cours luxembourgeois en ligne. Cross-border Luxembourg-intent coverage: 5 matching terms in FR/DE seed pack. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 1180, max anchor volume 720, capture count 7. Lane keyword count 14 with 3 P1 terms. Top follow-up terms: cours de luxembourgeois, inl sproochentest, cours de luxembourgeois en ligne, sproochentest luxembourg, cours luxembourgeois en ligne. Cross-border Luxembourg-intent coverage: 5 matching terms in FR/DE seed pack. Segment-aware operator evidence: 5/5, adjusted pull 3.86."
   },
   "regulatory_context": {
     "regulatory_friction_inverse_score_1_5": 1,
@@ -119,7 +119,7 @@
     "validation_velocity_composite": 1,
     "demand_pull_composite": 3.5,
     "overall_confidence_band": "medium",
-    "confidence_reason": "Market evidence scope is local with scope fit fit. 7 anchor captures contribute to this scorecard sync. Primary evidence database: LU."
+    "confidence_reason": "Market evidence scope is local with scope fit fit. 7 anchor captures contribute to this scorecard sync. Primary evidence database: LU. Segment-aware operator weight: 5/5."
   },
   "market_evidence_scope_class": "local",
   "market_evidence": {
@@ -135,7 +135,7 @@
     "evidence_database": "LU",
     "lane_group": "luxembourgish_route",
     "semrush_priority": "high",
-    "provisional_market_score_v1": 2.14,
+    "provisional_market_score_v1": 2.32,
     "anchor_focus": [
       "sproochentest luxembourg",
       "cours de luxembourgeois",
@@ -194,6 +194,58 @@
       }
     ],
     "top_questions": [],
+    "independent_operator_summary": {
+      "signal": "strong",
+      "independent_operator_examples": [
+        {
+          "name": "ETIC",
+          "classification": "independent_operator",
+          "evidence": "Focused Luxembourg Sproochentest preparation offer with a visible paid prep route."
+        },
+        {
+          "name": "Lux'Languages",
+          "classification": "independent_operator",
+          "evidence": "Small specialist Luxembourgish prep provider with public paid preparation positioning."
+        },
+        {
+          "name": "LuxLessons",
+          "classification": "independent_operator",
+          "evidence": "Niche Luxembourgish prep provider visible in the same route market with public online preparation messaging."
+        },
+        {
+          "name": "Prolingua",
+          "classification": "private_school_or_academy",
+          "evidence": "Broad private school with overlapping Sproochentest and Luxembourgish offers, proving the market is not empty."
+        }
+      ],
+      "operator_types_seen": [
+        "independent_operator",
+        "private_school_or_academy",
+        "official_or_institutional",
+        "social_community_only"
+      ],
+      "supporting_queries": [
+        "sproochentest luxembourg",
+        "cours de luxembourgeois",
+        "inl sproochentest",
+        "luxembourgish online course"
+      ],
+      "pricing_or_offer_proof": [
+        "Observed public alternatives range from a free online tier to roughly 745-980 EUR paid preparation offers."
+      ],
+      "social_funnel_signal": "Facebook group search surfaces a Luxembourgish-learning community layer (`Luxembourgish learning`, `Luxembourg Training, Education, Language Courses Luxembourg`, `Tandem Luxembourg`, `Luxembourgish coach/language exchange partner`). This supports top-of-funnel demand and peer exchange, but the OCR pass did not show a clear bundle-led paid funnel from those groups.",
+      "segment_weighting": {
+        "quadrant_segment": "B2B2C",
+        "operator_signal_relevance": "high",
+        "social_funnel_relevance": "medium",
+        "weighted_score_1_5": 5,
+        "score_adjustment": 0.36,
+        "rationale": "B2B2C product. Operator proof relevance: high. Social funnel relevance: medium. Confirmed independent operators increase the weight. Visible Facebook/community residue is treated as supporting but low-weight evidence."
+      },
+      "takeaway": "The route is already monetized by several small paid providers, so demand is real and fragmented rather than institution-only.",
+      "why_not_stronger": "Current evidence proves fragmented prep demand, but not bundle-specific willingness to pay or partner-led funnel behavior.",
+      "synced_at": "2026-04-21T18:27:19.664Z"
+    },
     "cross_border_luxembourg_intent_keywords": [
       {
         "keyword": "cours de luxembourgeois",
@@ -247,52 +299,10 @@
       }
     ],
     "reference_analog_domains": [],
+    "operator_segment_weighted_score_1_5": 5,
+    "operator_segment_score_adjustment": 0.36,
     "next_research_step": "map lane keywords into product-level commercial notes",
-    "synced_from_scorecard_at": "2026-04-21T10:13:00.389Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 7/3 anchor families with total local query volume 1180 and max anchor volume 720. Lane rollup contains 14 deduplicated keywords, including 3 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: cours de luxembourgeois (P1, vol 720), inl sproochentest (P1, vol 210), cours de luxembourgeois en ligne (P1, vol 140), sproochentest luxembourg (P1, vol 140), cours luxembourgeois en ligne (P1, vol 110). Cross-border Luxembourg-intent layer: 5 relevant keywords; top terms cours de luxembourgeois, inl sproochentest, cours de luxembourgeois en ligne. Next step: map lane keywords into product-level commercial notes. Independent-operator signal: strong. Examples: ETIC (independent_operator), Lux'Languages (independent_operator), LuxLessons (independent_operator). The route is already monetized by several small paid providers, so demand is real and fragmented rather than institution-only. Why not stronger: Current evidence proves fragmented prep demand, but not bundle-specific willingness to pay or partner-led funnel behavior.",
-    "independent_operator_summary": {
-      "signal": "strong",
-      "independent_operator_examples": [
-        {
-          "name": "ETIC",
-          "classification": "independent_operator",
-          "evidence": "Focused Luxembourg Sproochentest preparation offer with a visible paid prep route."
-        },
-        {
-          "name": "Lux'Languages",
-          "classification": "independent_operator",
-          "evidence": "Small specialist Luxembourgish prep provider with public paid preparation positioning."
-        },
-        {
-          "name": "LuxLessons",
-          "classification": "independent_operator",
-          "evidence": "Niche Luxembourgish prep provider visible in the same route market with public online preparation messaging."
-        },
-        {
-          "name": "Prolingua",
-          "classification": "private_school_or_academy",
-          "evidence": "Broad private school with overlapping Sproochentest and Luxembourgish offers, proving the market is not empty."
-        }
-      ],
-      "operator_types_seen": [
-        "independent_operator",
-        "private_school_or_academy",
-        "official_or_institutional",
-        "social_community_only"
-      ],
-      "supporting_queries": [
-        "sproochentest luxembourg",
-        "cours de luxembourgeois",
-        "inl sproochentest",
-        "luxembourgish online course"
-      ],
-      "pricing_or_offer_proof": [
-        "Observed public alternatives range from a free online tier to roughly 745-980 EUR paid preparation offers."
-      ],
-      "social_funnel_signal": "Facebook group search surfaces a Luxembourgish-learning community layer (`Luxembourgish learning`, `Luxembourg Training, Education, Language Courses Luxembourg`, `Tandem Luxembourg`, `Luxembourgish coach/language exchange partner`). This supports top-of-funnel demand and peer exchange, but the OCR pass did not show a clear bundle-led paid funnel from those groups.",
-      "takeaway": "The route is already monetized by several small paid providers, so demand is real and fragmented rather than institution-only.",
-      "why_not_stronger": "Current evidence proves fragmented prep demand, but not bundle-specific willingness to pay or partner-led funnel behavior.",
-      "synced_at": "2026-04-21T15:12:29.357Z"
-    }
+    "synced_from_scorecard_at": "2026-04-21T18:27:23.515Z",
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 7/3 anchor families with total local query volume 1180 and max anchor volume 720. Lane rollup contains 14 deduplicated keywords, including 3 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: cours de luxembourgeois (P1, vol 720), inl sproochentest (P1, vol 210), cours de luxembourgeois en ligne (P1, vol 140), sproochentest luxembourg (P1, vol 140), cours luxembourgeois en ligne (P1, vol 110). Cross-border Luxembourg-intent layer: 5 relevant keywords; top terms cours de luxembourgeois, inl sproochentest, cours de luxembourgeois en ligne. Operator evidence is weighted for B2B2C: score 5/5 with adjustment 0.36. Next step: map lane keywords into product-level commercial notes."
   }
 }

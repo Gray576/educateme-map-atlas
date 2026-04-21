@@ -158,10 +158,13 @@
         "lane_group": "luxembourgish_route",
         "market_track": "local",
         "semrush_priority": "high",
-        "provisional_market_score_v1": 2.82,
+        "provisional_market_score_v1": 2.99,
         "validation_velocity_composite": 3,
         "demand_pull_composite": 3.25,
-        "confidence_band": "medium"
+        "demand_pull_composite_adjusted": 3.59,
+        "confidence_band": "medium",
+        "operator_segment_weighted_score_1_5": 4.9,
+        "operator_segment_score_adjustment": 0.34
       },
       "confidence_band": "medium",
       "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
@@ -300,9 +303,17 @@
           "Observed public alternatives span free-tier messaging through roughly 745-980 EUR paid offers."
         ],
         "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+        "segment_weighting": {
+          "quadrant_segment": "B2C",
+          "operator_signal_relevance": "high",
+          "social_funnel_relevance": "high",
+          "weighted_score_1_5": 4.9,
+          "score_adjustment": 0.34,
+          "rationale": "B2C product. Operator proof relevance: high. Social funnel relevance: high. Confirmed independent operators increase the weight."
+        },
         "takeaway": "This is a real fragmented prep market with multiple small paid providers, not just an official route.",
         "why_not_stronger": "Operator presence is strong, but product-specific reimbursability and monetization are still separate questions.",
-        "synced_at": "2026-04-21T15:12:29.357Z"
+        "synced_at": "2026-04-21T18:27:19.664Z"
       },
       "confidence_band": "medium",
       "omission_reason": "Derived independent-operator signal for prioritization and further market research. Keep it out of customer-facing copy until translated into product-safe language."

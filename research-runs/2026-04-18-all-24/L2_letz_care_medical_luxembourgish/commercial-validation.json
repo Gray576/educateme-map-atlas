@@ -42,7 +42,7 @@
         "ext_003"
       ]
     },
-    "notes": "Retention structure is filled from the product format. Demand, WTP, CAC, macro, and channel-fit remain unfilled until SEMrush and distribution evidence are collected. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 1720, max anchor volume 880, capture count 7. Lane keyword count 14 with 3 P1 terms. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 1720, max anchor volume 880, capture count 7. Lane keyword count 14 with 3 P1 terms. Top follow-up terms: cours de luxembourgeois, inl sproochentest, cours de luxembourgeois en ligne, sproochentest luxembourg, cours luxembourgeois en ligne. Cross-border Luxembourg-intent coverage: 5 matching terms in FR/DE seed pack."
+    "notes": "Retention structure is filled from the product format. Demand, WTP, CAC, macro, and channel-fit remain unfilled until SEMrush and distribution evidence are collected. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 1720, max anchor volume 880, capture count 7. Lane keyword count 14 with 3 P1 terms. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 1720, max anchor volume 880, capture count 7. Lane keyword count 14 with 3 P1 terms. Top follow-up terms: cours de luxembourgeois, inl sproochentest, cours de luxembourgeois en ligne, sproochentest luxembourg, cours luxembourgeois en ligne. Cross-border Luxembourg-intent coverage: 5 matching terms in FR/DE seed pack. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 1720, max anchor volume 880, capture count 7. Lane keyword count 14 with 3 P1 terms. Top follow-up terms: cours de luxembourgeois, inl sproochentest, cours de luxembourgeois en ligne, sproochentest luxembourg, cours luxembourgeois en ligne. Cross-border Luxembourg-intent coverage: 5 matching terms in FR/DE seed pack. Segment-aware operator evidence: 4.1/5, adjusted pull 3.5."
   },
   "regulatory_context": {
     "regulatory_friction_inverse_score_1_5": 2,
@@ -109,7 +109,7 @@
     "validation_velocity_composite": 2,
     "demand_pull_composite": 3.3,
     "overall_confidence_band": "low",
-    "confidence_reason": "Market evidence scope is local with scope fit fit. 7 anchor captures contribute to this scorecard sync. Primary evidence database: LU."
+    "confidence_reason": "Market evidence scope is local with scope fit fit. 7 anchor captures contribute to this scorecard sync. Primary evidence database: LU. Segment-aware operator weight: 4.1/5."
   },
   "market_evidence_scope_class": "local",
   "market_evidence": {
@@ -125,7 +125,7 @@
     "evidence_database": "LU",
     "lane_group": "medical_luxembourgish",
     "semrush_priority": "medium",
-    "provisional_market_score_v1": 2.12,
+    "provisional_market_score_v1": 2.2,
     "anchor_focus": [
       "cours luxembourgeois",
       "learn luxembourgish online",
@@ -184,6 +184,52 @@
       }
     ],
     "top_questions": [],
+    "independent_operator_summary": {
+      "signal": "medium",
+      "independent_operator_examples": [
+        {
+          "name": "LuxLessons",
+          "classification": "independent_operator",
+          "evidence": "Small Luxembourgish training provider already positioned publicly in the same local language and prep market."
+        },
+        {
+          "name": "Allingua",
+          "classification": "private_school_or_academy",
+          "evidence": "Commercial Luxembourg language provider with professional-language positioning relevant to healthcare workers."
+        },
+        {
+          "name": "Prolingua",
+          "classification": "private_school_or_academy",
+          "evidence": "Established private school covering overlapping workplace-language needs."
+        }
+      ],
+      "operator_types_seen": [
+        "independent_operator",
+        "private_school_or_academy",
+        "social_community_only"
+      ],
+      "supporting_queries": [
+        "learn luxembourgish online",
+        "cours de luxembourgeois",
+        "sproochentest",
+        "sproochentest luxembourg"
+      ],
+      "pricing_or_offer_proof": [
+        "Current proof is mainly presence of paid Luxembourgish providers; no clean healthcare-specific public price signal was captured."
+      ],
+      "social_funnel_signal": "Facebook group search shows the same Luxembourgish-learning community layer (`Luxembourgish learning`, `Tandem Luxembourg`, `Luxembourgish coach/language exchange partner`), but no healthcare-specific community or operator funnel surfaced. The social layer supports underlying demand, not the medical wedge by itself.",
+      "segment_weighting": {
+        "quadrant_segment": "B2B",
+        "operator_signal_relevance": "medium",
+        "social_funnel_relevance": "low",
+        "weighted_score_1_5": 4.1,
+        "score_adjustment": 0.2,
+        "rationale": "B2B product. Operator proof relevance: medium. Social funnel relevance: low. Confirmed independent operators increase the weight. Visible Facebook/community residue is treated as supporting but low-weight evidence."
+      },
+      "takeaway": "There is real paid supply in adjacent Luxembourgish training, so the underlying problem is not hypothetical.",
+      "why_not_stronger": "Current operator proof is adjacent Luxembourgish-route demand, not a clean healthcare-specific operator cluster.",
+      "synced_at": "2026-04-21T18:27:19.664Z"
+    },
     "cross_border_luxembourg_intent_keywords": [
       {
         "keyword": "cours de luxembourgeois",
@@ -237,46 +283,10 @@
       }
     ],
     "reference_analog_domains": [],
+    "operator_segment_weighted_score_1_5": 4.1,
+    "operator_segment_score_adjustment": 0.2,
     "next_research_step": "map lane keywords into product-level commercial notes",
-    "synced_from_scorecard_at": "2026-04-21T10:13:00.390Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 7/3 anchor families with total local query volume 1720 and max anchor volume 880. Lane rollup contains 14 deduplicated keywords, including 3 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: cours de luxembourgeois (P1, vol 720), inl sproochentest (P1, vol 210), cours de luxembourgeois en ligne (P1, vol 140), sproochentest luxembourg (P1, vol 140), cours luxembourgeois en ligne (P1, vol 110). Cross-border Luxembourg-intent layer: 5 relevant keywords; top terms cours de luxembourgeois, inl sproochentest, cours de luxembourgeois en ligne. Next step: map lane keywords into product-level commercial notes. Independent-operator signal: medium. Examples: LuxLessons (independent_operator), Allingua (private_school_or_academy), Prolingua (private_school_or_academy). There is real paid supply in adjacent Luxembourgish training, so the underlying problem is not hypothetical. Why not stronger: Current operator proof is adjacent Luxembourgish-route demand, not a clean healthcare-specific operator cluster.",
-    "independent_operator_summary": {
-      "signal": "medium",
-      "independent_operator_examples": [
-        {
-          "name": "LuxLessons",
-          "classification": "independent_operator",
-          "evidence": "Small Luxembourgish training provider already positioned publicly in the same local language and prep market."
-        },
-        {
-          "name": "Allingua",
-          "classification": "private_school_or_academy",
-          "evidence": "Commercial Luxembourg language provider with professional-language positioning relevant to healthcare workers."
-        },
-        {
-          "name": "Prolingua",
-          "classification": "private_school_or_academy",
-          "evidence": "Established private school covering overlapping workplace-language needs."
-        }
-      ],
-      "operator_types_seen": [
-        "independent_operator",
-        "private_school_or_academy",
-        "social_community_only"
-      ],
-      "supporting_queries": [
-        "learn luxembourgish online",
-        "cours de luxembourgeois",
-        "sproochentest",
-        "sproochentest luxembourg"
-      ],
-      "pricing_or_offer_proof": [
-        "Current proof is mainly presence of paid Luxembourgish providers; no clean healthcare-specific public price signal was captured."
-      ],
-      "social_funnel_signal": "Facebook group search shows the same Luxembourgish-learning community layer (`Luxembourgish learning`, `Tandem Luxembourg`, `Luxembourgish coach/language exchange partner`), but no healthcare-specific community or operator funnel surfaced. The social layer supports underlying demand, not the medical wedge by itself.",
-      "takeaway": "There is real paid supply in adjacent Luxembourgish training, so the underlying problem is not hypothetical.",
-      "why_not_stronger": "Current operator proof is adjacent Luxembourgish-route demand, not a clean healthcare-specific operator cluster.",
-      "synced_at": "2026-04-21T15:12:29.357Z"
-    }
+    "synced_from_scorecard_at": "2026-04-21T18:27:23.519Z",
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 7/3 anchor families with total local query volume 1720 and max anchor volume 880. Lane rollup contains 14 deduplicated keywords, including 3 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: cours de luxembourgeois (P1, vol 720), inl sproochentest (P1, vol 210), cours de luxembourgeois en ligne (P1, vol 140), sproochentest luxembourg (P1, vol 140), cours luxembourgeois en ligne (P1, vol 110). Cross-border Luxembourg-intent layer: 5 relevant keywords; top terms cours de luxembourgeois, inl sproochentest, cours de luxembourgeois en ligne. Operator evidence is weighted for B2B: score 4.1/5 with adjustment 0.2. Next step: map lane keywords into product-level commercial notes."
   }
 }

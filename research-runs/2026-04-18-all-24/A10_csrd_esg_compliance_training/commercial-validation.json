@@ -49,7 +49,7 @@
         "ext_005"
       ]
     },
-    "notes": "House of Training and PwC Luxembourg are visible local training incumbents in db=LU. Overlap tables also surfaced French domains such as performances.fr, efe.fr, m2iformation.fr, and cegos.fr; those are meaningful adjacent references, but not direct proof of Luxembourg CSRD-specific search demand. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 210, max anchor volume 140, capture count 3. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 210, max anchor volume 140, capture count 3. Lane keyword count 4 with 0 P1 terms."
+    "notes": "House of Training and PwC Luxembourg are visible local training incumbents in db=LU. Overlap tables also surfaced French domains such as performances.fr, efe.fr, m2iformation.fr, and cegos.fr; those are meaningful adjacent references, but not direct proof of Luxembourg CSRD-specific search demand. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 210, max anchor volume 140, capture count 3. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 210, max anchor volume 140, capture count 3. Lane keyword count 4 with 0 P1 terms. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 210, max anchor volume 140, capture count 3. Lane keyword count 4 with 0 P1 terms. Segment-aware operator evidence: 2.3/5, adjusted pull 1.62."
   },
   "regulatory_context": {
     "regulatory_friction_inverse_score_1_5": 2,
@@ -127,7 +127,7 @@
     "validation_velocity_composite": 2,
     "demand_pull_composite": 1.75,
     "overall_confidence_band": "low",
-    "confidence_reason": "Market evidence scope is local with scope fit fit. 3 anchor captures contribute to this scorecard sync. Primary evidence database: LU."
+    "confidence_reason": "Market evidence scope is local with scope fit fit. 3 anchor captures contribute to this scorecard sync. Primary evidence database: LU. Segment-aware operator weight: 2.3/5."
   },
   "market_evidence_scope_class": "local",
   "market_evidence": {
@@ -143,7 +143,7 @@
     "evidence_database": "LU",
     "lane_group": "compliance_training",
     "semrush_priority": "high",
-    "provisional_market_score_v1": 1.45,
+    "provisional_market_score_v1": 1.4,
     "anchor_focus": [
       "formation compliance luxembourg",
       "csrd training",
@@ -166,11 +166,6 @@
     ],
     "top_follow_up_keywords": [],
     "top_questions": [],
-    "cross_border_luxembourg_intent_keywords": [],
-    "reference_analog_domains": [],
-    "next_research_step": "refine WTP/CAC with keyword overview and price checks",
-    "synced_from_scorecard_at": "2026-04-21T10:13:00.399Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 3/3 anchor families with total local query volume 210 and max anchor volume 140. Lane rollup contains 4 deduplicated keywords, including 0 P1 terms. Current watchlist domains: houseoftraining.lu, abilways.lu, alco.lu, cmlaw.lu, csl.lu. Next step: refine WTP/CAC with keyword overview and price checks. Independent-operator signal: weak. Examples: House of Training (private_school_or_academy), PwC Luxembourg (private_school_or_academy). There is commercial compliance-training supply around this problem, but it is led by larger incumbents rather than fragmented operators. Why not stronger: Current proof is incumbent-led and does not yet show a long tail of smaller CSRD specialists.",
     "independent_operator_summary": {
       "signal": "weak",
       "independent_operator_examples": [
@@ -197,9 +192,24 @@
         "Competitor public prices range from 300 EUR to 1,750 EUR, but scopes remain mixed."
       ],
       "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+      "segment_weighting": {
+        "quadrant_segment": "B2B",
+        "operator_signal_relevance": "medium",
+        "social_funnel_relevance": "low",
+        "weighted_score_1_5": 2.3,
+        "score_adjustment": -0.13,
+        "rationale": "B2B product. Operator proof relevance: medium. Social funnel relevance: low. Broad private providers count, but weaker than niche independent operators."
+      },
       "takeaway": "There is commercial compliance-training supply around this problem, but it is led by larger incumbents rather than fragmented operators.",
       "why_not_stronger": "Current proof is incumbent-led and does not yet show a long tail of smaller CSRD specialists.",
-      "synced_at": "2026-04-21T15:12:29.357Z"
-    }
+      "synced_at": "2026-04-21T18:27:19.664Z"
+    },
+    "cross_border_luxembourg_intent_keywords": [],
+    "reference_analog_domains": [],
+    "operator_segment_weighted_score_1_5": 2.3,
+    "operator_segment_score_adjustment": -0.13,
+    "next_research_step": "refine WTP/CAC with keyword overview and price checks",
+    "synced_from_scorecard_at": "2026-04-21T18:27:23.628Z",
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 3/3 anchor families with total local query volume 210 and max anchor volume 140. Lane rollup contains 4 deduplicated keywords, including 0 P1 terms. Current watchlist domains: houseoftraining.lu, abilways.lu, alco.lu, cmlaw.lu, csl.lu. Operator evidence is weighted for B2B: score 2.3/5 with adjustment -0.13. Next step: refine WTP/CAC with keyword overview and price checks."
   }
 }

@@ -46,7 +46,7 @@
         "ext_004"
       ]
     },
-    "notes": "Retention structure is filled from the product format. Demand, WTP, CAC, macro, and channel-fit remain unfilled until SEMrush and distribution evidence are collected. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 590, max anchor volume 320, capture count 5. Lane keyword count 24 with 5 P1 terms. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 590, max anchor volume 320, capture count 5. Lane keyword count 24 with 5 P1 terms. Top follow-up terms: french classes luxembourg, french courses luxembourg, language courses luxembourg, cours de français luxembourg, cours de langue luxembourg. Cross-border Luxembourg-intent coverage: 3 matching terms in FR/DE seed pack."
+    "notes": "Retention structure is filled from the product format. Demand, WTP, CAC, macro, and channel-fit remain unfilled until SEMrush and distribution evidence are collected. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 590, max anchor volume 320, capture count 5. Lane keyword count 24 with 5 P1 terms. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 590, max anchor volume 320, capture count 5. Lane keyword count 24 with 5 P1 terms. Top follow-up terms: french classes luxembourg, french courses luxembourg, language courses luxembourg, cours de français luxembourg, cours de langue luxembourg. Cross-border Luxembourg-intent coverage: 3 matching terms in FR/DE seed pack. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 590, max anchor volume 320, capture count 5. Lane keyword count 24 with 5 P1 terms. Top follow-up terms: french classes luxembourg, french courses luxembourg, language courses luxembourg, cours de français luxembourg, cours de langue luxembourg. Cross-border Luxembourg-intent coverage: 3 matching terms in FR/DE seed pack. Segment-aware operator evidence: 2.3/5, adjusted pull 3.37."
   },
   "regulatory_context": {
     "regulatory_friction_inverse_score_1_5": 5,
@@ -109,7 +109,7 @@
     "validation_velocity_composite": 3,
     "demand_pull_composite": 3.5,
     "overall_confidence_band": "low",
-    "confidence_reason": "Market evidence scope is local with scope fit fit. 5 anchor captures contribute to this scorecard sync. Primary evidence database: LU."
+    "confidence_reason": "Market evidence scope is local with scope fit fit. 5 anchor captures contribute to this scorecard sync. Primary evidence database: LU. Segment-aware operator weight: 2.3/5."
   },
   "market_evidence_scope_class": "local",
   "market_evidence": {
@@ -125,7 +125,7 @@
     "evidence_database": "LU",
     "lane_group": "general_language",
     "semrush_priority": "medium",
-    "provisional_market_score_v1": 2.55,
+    "provisional_market_score_v1": 2.5,
     "anchor_focus": [
       "language courses luxembourg",
       "cours de langue luxembourg",
@@ -184,39 +184,6 @@
       }
     ],
     "top_questions": [],
-    "cross_border_luxembourg_intent_keywords": [
-      {
-        "keyword": "french classes luxembourg",
-        "follow_up_tier": "P2",
-        "max_volume_lu": 390,
-        "use_for": [
-          "message mining",
-          "reference-market sanity check"
-        ]
-      },
-      {
-        "keyword": "french courses luxembourg",
-        "follow_up_tier": "P2",
-        "max_volume_lu": 390,
-        "use_for": [
-          "message mining",
-          "reference-market sanity check"
-        ]
-      },
-      {
-        "keyword": "language courses luxembourg",
-        "follow_up_tier": "P2",
-        "max_volume_lu": 320,
-        "use_for": [
-          "message mining",
-          "reference-market sanity check"
-        ]
-      }
-    ],
-    "reference_analog_domains": [],
-    "next_research_step": "map lane keywords into product-level commercial notes",
-    "synced_from_scorecard_at": "2026-04-21T10:13:00.388Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 5/3 anchor families with total local query volume 590 and max anchor volume 320. Lane rollup contains 24 deduplicated keywords, including 5 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: french classes luxembourg (P2, vol 390), french courses luxembourg (P2, vol 390), language courses luxembourg (P2, vol 320), cours de français luxembourg (P2, vol 140), cours de langue luxembourg (P2, vol 140). Cross-border Luxembourg-intent layer: 3 relevant keywords; top terms french classes luxembourg, french courses luxembourg, language courses luxembourg. Next step: map lane keywords into product-level commercial notes. Independent-operator signal: weak. Examples: Allingua (private_school_or_academy), Pipplet (unknown), Pearson Versant (unknown). The need is commercially legible, but the visible market is dominated by testing platforms and broader providers, not by a clear fragmented operator layer. Why not stronger: Current evidence proves substitute tools, not a cluster of small local audit specialists.",
     "independent_operator_summary": {
       "signal": "weak",
       "independent_operator_examples": [
@@ -249,9 +216,52 @@
         "Current evidence proves substitute tools and providers, but not a clean public price layer for specialist language audits."
       ],
       "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+      "segment_weighting": {
+        "quadrant_segment": "B2B",
+        "operator_signal_relevance": "medium",
+        "social_funnel_relevance": "low",
+        "weighted_score_1_5": 2.3,
+        "score_adjustment": -0.13,
+        "rationale": "B2B product. Operator proof relevance: medium. Social funnel relevance: low. Broad private providers count, but weaker than niche independent operators."
+      },
       "takeaway": "The need is commercially legible, but the visible market is dominated by testing platforms and broader providers, not by a clear fragmented operator layer.",
       "why_not_stronger": "Current evidence proves substitute tools, not a cluster of small local audit specialists.",
-      "synced_at": "2026-04-21T15:12:29.357Z"
-    }
+      "synced_at": "2026-04-21T18:27:19.664Z"
+    },
+    "cross_border_luxembourg_intent_keywords": [
+      {
+        "keyword": "french classes luxembourg",
+        "follow_up_tier": "P2",
+        "max_volume_lu": 390,
+        "use_for": [
+          "message mining",
+          "reference-market sanity check"
+        ]
+      },
+      {
+        "keyword": "french courses luxembourg",
+        "follow_up_tier": "P2",
+        "max_volume_lu": 390,
+        "use_for": [
+          "message mining",
+          "reference-market sanity check"
+        ]
+      },
+      {
+        "keyword": "language courses luxembourg",
+        "follow_up_tier": "P2",
+        "max_volume_lu": 320,
+        "use_for": [
+          "message mining",
+          "reference-market sanity check"
+        ]
+      }
+    ],
+    "reference_analog_domains": [],
+    "operator_segment_weighted_score_1_5": 2.3,
+    "operator_segment_score_adjustment": -0.13,
+    "next_research_step": "map lane keywords into product-level commercial notes",
+    "synced_from_scorecard_at": "2026-04-21T18:27:23.511Z",
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 5/3 anchor families with total local query volume 590 and max anchor volume 320. Lane rollup contains 24 deduplicated keywords, including 5 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: french classes luxembourg (P2, vol 390), french courses luxembourg (P2, vol 390), language courses luxembourg (P2, vol 320), cours de français luxembourg (P2, vol 140), cours de langue luxembourg (P2, vol 140). Cross-border Luxembourg-intent layer: 3 relevant keywords; top terms french classes luxembourg, french courses luxembourg, language courses luxembourg. Operator evidence is weighted for B2B: score 2.3/5 with adjustment -0.13. Next step: map lane keywords into product-level commercial notes."
   }
 }

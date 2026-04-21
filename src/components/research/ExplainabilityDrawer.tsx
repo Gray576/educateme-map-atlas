@@ -531,6 +531,18 @@ export function ExplainabilityDrawer({
 
                 <div className="mt-4 grid gap-3 md:grid-cols-2">
                   <DetailCard
+                    label="Segment weighting"
+                    value={
+                      product.independentOperatorSummary.segment_weighting
+                        ? `${product.independentOperatorSummary.segment_weighting.quadrant_segment} · weighted ${product.independentOperatorSummary.segment_weighting.weighted_score_1_5 ?? "n/a"}/5`
+                        : "No segment weighting stored"
+                    }
+                    hint={
+                      product.independentOperatorSummary.segment_weighting?.rationale ||
+                      "How operator and social-funnel evidence is weighted for this segment."
+                    }
+                  />
+                  <DetailCard
                     label="Takeaway"
                     value={product.independentOperatorSummary.takeaway || "No compact takeaway stored"}
                     hint="Что этот слой реально говорит про рынок и почему это важно для приоритизации."

@@ -131,10 +131,13 @@
         "lane_group": "licensing",
         "market_track": "reference",
         "semrush_priority": "low",
-        "provisional_market_score_v1": 1.32,
+        "provisional_market_score_v1": 1.39,
         "validation_velocity_composite": 1,
         "demand_pull_composite": 2.25,
-        "confidence_band": "low"
+        "demand_pull_composite_adjusted": 2.43,
+        "confidence_band": "low",
+        "operator_segment_weighted_score_1_5": 4,
+        "operator_segment_score_adjustment": 0.18
       },
       "confidence_band": "low",
       "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
@@ -351,9 +354,17 @@
           "Reference-market evidence includes strong non-branded commercial rankings, though public price normalization is still incomplete."
         ],
         "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+        "segment_weighting": {
+          "quadrant_segment": "B2B",
+          "operator_signal_relevance": "medium",
+          "social_funnel_relevance": "low",
+          "weighted_score_1_5": 4,
+          "score_adjustment": 0.18,
+          "rationale": "B2B product. Operator proof relevance: medium. Social funnel relevance: low. Confirmed independent operators increase the weight."
+        },
         "takeaway": "This is a real operator market with focused commercial players ranking on non-branded terms.",
         "why_not_stronger": "The strongest proof is in reference markets and keyword traction, not yet in a full public price map.",
-        "synced_at": "2026-04-21T15:12:29.357Z"
+        "synced_at": "2026-04-21T18:27:19.664Z"
       },
       "confidence_band": "medium",
       "omission_reason": "Derived independent-operator signal for prioritization and further market research. Keep it out of customer-facing copy until translated into product-safe language."

@@ -245,6 +245,23 @@ function normalizeOperatorClassification(value: unknown) {
   return normalized as CommercialValidationIndependentOperatorSummaryV1["independent_operator_examples"][number]["classification"];
 }
 
+function normalizeQuadrantSegment(value: unknown) {
+  const normalized =
+    value === "B2B" || value === "B2C" || value === "B2B2C" || value === "mixed"
+      ? value
+      : "unknown";
+  return normalized as NonNullable<
+    CommercialValidationIndependentOperatorSummaryV1["segment_weighting"]
+  >["quadrant_segment"];
+}
+
+function normalizeRelevanceLevel(value: unknown, fallback: "low" | "medium" | "high") {
+  const normalized = value === "low" || value === "medium" || value === "high" ? value : fallback;
+  return normalized as NonNullable<
+    CommercialValidationIndependentOperatorSummaryV1["segment_weighting"]
+  >["operator_signal_relevance"];
+}
+
 function parseIndependentOperatorSummary(
   value: unknown
 ): CommercialValidationIndependentOperatorSummaryV1 | null {
@@ -282,6 +299,39 @@ function parseIndependentOperatorSummary(
     supporting_queries: asArray(record.supporting_queries),
     pricing_or_offer_proof: asArray(record.pricing_or_offer_proof),
     social_funnel_signal: asString(record.social_funnel_signal) ?? "",
+    segment_weighting:
+      record.segment_weighting && typeof record.segment_weighting === "object"
+        ? {
+            quadrant_segment:
+              normalizeQuadrantSegment(
+                (record.segment_weighting as Record<string, unknown>).quadrant_segment
+              ),
+            operator_signal_relevance:
+              normalizeRelevanceLevel(
+                (record.segment_weighting as Record<string, unknown>).operator_signal_relevance,
+                "medium"
+              ),
+            social_funnel_relevance:
+              normalizeRelevanceLevel(
+                (record.segment_weighting as Record<string, unknown>).social_funnel_relevance,
+                "low"
+              ),
+            weighted_score_1_5:
+              typeof (record.segment_weighting as Record<string, unknown>).weighted_score_1_5 ===
+              "number"
+                ? Number(
+                    (record.segment_weighting as Record<string, unknown>).weighted_score_1_5
+                  )
+                : null,
+            score_adjustment:
+              typeof (record.segment_weighting as Record<string, unknown>).score_adjustment ===
+              "number"
+                ? Number((record.segment_weighting as Record<string, unknown>).score_adjustment)
+                : null,
+            rationale:
+              asString((record.segment_weighting as Record<string, unknown>).rationale) ?? "",
+          }
+        : null,
     takeaway: asString(record.takeaway) ?? "",
     why_not_stronger: asString(record.why_not_stronger) ?? "",
     synced_at: asString(record.synced_at) ?? "",

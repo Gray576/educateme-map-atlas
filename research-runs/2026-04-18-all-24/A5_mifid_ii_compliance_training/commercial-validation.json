@@ -56,7 +56,7 @@
         "ext_009"
       ]
     },
-    "notes": "Observed in screenshots from db=LU: houseoftraining.lu ~7K organic traffic and pwc.lu ~699 LU keywords. Overlap tables add lifelong-learning.lu, infpc.lu, ifsb.lu, cc.lu, cnfpc.lu, attf.lu, and acams.org. This supports real Luxembourg category pull, but our owned distribution is still unproven. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 90, max anchor volume 70, capture count 3. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 90, max anchor volume 70, capture count 3. Lane keyword count 7 with 0 P1 terms."
+    "notes": "Observed in screenshots from db=LU: houseoftraining.lu ~7K organic traffic and pwc.lu ~699 LU keywords. Overlap tables add lifelong-learning.lu, infpc.lu, ifsb.lu, cc.lu, cnfpc.lu, attf.lu, and acams.org. This supports real Luxembourg category pull, but our owned distribution is still unproven. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 90, max anchor volume 70, capture count 3. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 90, max anchor volume 70, capture count 3. Lane keyword count 7 with 0 P1 terms. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 90, max anchor volume 70, capture count 3. Lane keyword count 7 with 0 P1 terms. Segment-aware operator evidence: 4/5, adjusted pull 2.18."
   },
   "regulatory_context": {
     "regulatory_friction_inverse_score_1_5": 1,
@@ -143,7 +143,7 @@
     "validation_velocity_composite": 1.5,
     "demand_pull_composite": 2,
     "overall_confidence_band": "medium",
-    "confidence_reason": "Market evidence scope is local with scope fit fit. 3 anchor captures contribute to this scorecard sync. Primary evidence database: LU."
+    "confidence_reason": "Market evidence scope is local with scope fit fit. 3 anchor captures contribute to this scorecard sync. Primary evidence database: LU. Segment-aware operator weight: 4/5."
   },
   "market_evidence_scope_class": "local",
   "market_evidence": {
@@ -159,7 +159,7 @@
     "evidence_database": "LU",
     "lane_group": "compliance_training",
     "semrush_priority": "high",
-    "provisional_market_score_v1": 1.31,
+    "provisional_market_score_v1": 1.39,
     "anchor_focus": [
       "formation compliance luxembourg",
       "compliance officer formation",
@@ -182,11 +182,6 @@
     ],
     "top_follow_up_keywords": [],
     "top_questions": [],
-    "cross_border_luxembourg_intent_keywords": [],
-    "reference_analog_domains": [],
-    "next_research_step": "refine WTP/CAC with keyword overview and price checks",
-    "synced_from_scorecard_at": "2026-04-21T10:13:00.404Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 3/3 anchor families with total local query volume 90 and max anchor volume 70. Lane rollup contains 7 deduplicated keywords, including 0 P1 terms. Current watchlist domains: houseoftraining.lu, abilways.lu, alco.lu, cmlaw.lu, csl.lu. Next step: refine WTP/CAC with keyword overview and price checks. Independent-operator signal: medium. Examples: HACA Partners (independent_operator), First Finance SAS (independent_operator), EFPA Luxembourg (independent_operator). This is not just an incumbent-academy market; there is a specialist commercial competence-training layer around MiFID. Why not stronger: The market exists, but current proof is stronger on provider presence than on clean search-visible small-operator pricing.",
     "independent_operator_summary": {
       "signal": "medium",
       "independent_operator_examples": [
@@ -225,9 +220,24 @@
         "Validated public competitor landscape includes multiple commercial training bodies, though clean price normalization is still missing."
       ],
       "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+      "segment_weighting": {
+        "quadrant_segment": "B2B",
+        "operator_signal_relevance": "medium",
+        "social_funnel_relevance": "low",
+        "weighted_score_1_5": 4,
+        "score_adjustment": 0.18,
+        "rationale": "B2B product. Operator proof relevance: medium. Social funnel relevance: low. Confirmed independent operators increase the weight."
+      },
       "takeaway": "This is not just an incumbent-academy market; there is a specialist commercial competence-training layer around MiFID.",
       "why_not_stronger": "The market exists, but current proof is stronger on provider presence than on clean search-visible small-operator pricing.",
-      "synced_at": "2026-04-21T15:12:29.357Z"
-    }
+      "synced_at": "2026-04-21T18:27:19.664Z"
+    },
+    "cross_border_luxembourg_intent_keywords": [],
+    "reference_analog_domains": [],
+    "operator_segment_weighted_score_1_5": 4,
+    "operator_segment_score_adjustment": 0.18,
+    "next_research_step": "refine WTP/CAC with keyword overview and price checks",
+    "synced_from_scorecard_at": "2026-04-21T18:27:23.635Z",
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 3/3 anchor families with total local query volume 90 and max anchor volume 70. Lane rollup contains 7 deduplicated keywords, including 0 P1 terms. Current watchlist domains: houseoftraining.lu, abilways.lu, alco.lu, cmlaw.lu, csl.lu. Operator evidence is weighted for B2B: score 4/5 with adjustment 0.18. Next step: refine WTP/CAC with keyword overview and price checks."
   }
 }

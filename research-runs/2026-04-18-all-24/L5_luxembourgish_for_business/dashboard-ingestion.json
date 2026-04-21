@@ -110,10 +110,13 @@
         "lane_group": "luxembourgish_route",
         "market_track": "local",
         "semrush_priority": "high",
-        "provisional_market_score_v1": 1.38,
+        "provisional_market_score_v1": 1.44,
         "validation_velocity_composite": 1.5,
         "demand_pull_composite": 2,
-        "confidence_band": "low"
+        "demand_pull_composite_adjusted": 2.13,
+        "confidence_band": "low",
+        "operator_segment_weighted_score_1_5": 3.7,
+        "operator_segment_score_adjustment": 0.13
       },
       "confidence_band": "low",
       "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
@@ -245,9 +248,17 @@
           "Current proof shows private tailored alternatives exist, even though clean public price normalization is still missing."
         ],
         "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+        "segment_weighting": {
+          "quadrant_segment": "B2B2C",
+          "operator_signal_relevance": "high",
+          "social_funnel_relevance": "medium",
+          "weighted_score_1_5": 3.7,
+          "score_adjustment": 0.13,
+          "rationale": "B2B2C product. Operator proof relevance: high. Social funnel relevance: medium. Broad private providers count, but weaker than niche independent operators."
+        },
         "takeaway": "This is a real paid lane with private alternatives, not just an official/public learning route.",
         "why_not_stronger": "Visible supply is still concentrated in broad providers rather than many small niche operators.",
-        "synced_at": "2026-04-21T15:12:29.357Z"
+        "synced_at": "2026-04-21T18:27:19.664Z"
       },
       "confidence_band": "medium",
       "omission_reason": "Derived independent-operator signal for prioritization and further market research. Keep it out of customer-facing copy until translated into product-safe language."

@@ -37,7 +37,7 @@
         "ext_005"
       ]
     },
-    "notes": "The screenshot set from db=US validates the OET exam ecosystem rather than a doctor-specific keyword niche. That is still useful for framing and keyword expansion, but not enough to claim easy acquisition in our local market. Latest SEMrush scorecard sync: scope missing (missing). No anchor query volume is captured yet. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 520, max anchor volume 260, capture count 3. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 520, max anchor volume 260, capture count 3. Lane keyword count 20 with 5 P1 terms. Top follow-up terms: oet results, oet test results, oet results 2019, oet result login, how do i know if ecfmg received my oet results. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 520, max anchor volume 260, capture count 3. Lane keyword count 20 with 5 P1 terms. Top follow-up terms: oet test results, oet result login, how long do oet test results take, oet test practice, oet practice tests."
+    "notes": "The screenshot set from db=US validates the OET exam ecosystem rather than a doctor-specific keyword niche. That is still useful for framing and keyword expansion, but not enough to claim easy acquisition in our local market. Latest SEMrush scorecard sync: scope missing (missing). No anchor query volume is captured yet. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 520, max anchor volume 260, capture count 3. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 520, max anchor volume 260, capture count 3. Lane keyword count 20 with 5 P1 terms. Top follow-up terms: oet results, oet test results, oet results 2019, oet result login, how do i know if ecfmg received my oet results. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 520, max anchor volume 260, capture count 3. Lane keyword count 20 with 5 P1 terms. Top follow-up terms: oet test results, oet result login, how long do oet test results take, oet test practice, oet practice tests. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 520, max anchor volume 260, capture count 3. Lane keyword count 20 with 5 P1 terms. Top follow-up terms: oet test results, oet result login, how long do oet test results take, oet test practice, oet practice tests. Segment-aware operator evidence: 1.6/5, adjusted pull 1.5."
   },
   "regulatory_context": {
     "regulatory_friction_inverse_score_1_5": 2,
@@ -106,7 +106,7 @@
     "validation_velocity_composite": 3,
     "demand_pull_composite": 1.75,
     "overall_confidence_band": "medium",
-    "confidence_reason": "Market evidence scope is reference with scope fit fit. 3 anchor captures contribute to this scorecard sync. Primary evidence database: US."
+    "confidence_reason": "Market evidence scope is reference with scope fit fit. 3 anchor captures contribute to this scorecard sync. Primary evidence database: US. Segment-aware operator weight: 1.6/5."
   },
   "market_evidence_scope_class": "reference",
   "market_evidence": {
@@ -122,7 +122,7 @@
     "evidence_database": "US",
     "lane_group": "oet_exam",
     "semrush_priority": "high",
-    "provisional_market_score_v1": 2.08,
+    "provisional_market_score_v1": 1.96,
     "anchor_focus": [
       "oet medical preparation",
       "oet result",
@@ -189,11 +189,6 @@
         "source_count": 1
       }
     ],
-    "cross_border_luxembourg_intent_keywords": [],
-    "reference_analog_domains": [],
-    "next_research_step": "refine WTP/CAC with keyword overview and price checks",
-    "synced_from_scorecard_at": "2026-04-21T10:13:00.394Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: US. Captured 3/3 anchor families with total local query volume 520 and max anchor volume 260. Lane rollup contains 20 deduplicated keywords, including 5 P1 terms. Current watchlist domains: oet.com, cambridgeenglish.org, e2language.com, google.com, reddit.com. Top follow-up keywords: oet test results (P1, vol 210), oet result login (P2, vol 70), how long do oet test results take (P2, vol 20), oet test practice (P1, vol 260), oet practice tests (P2, vol 30). Next step: refine WTP/CAC with keyword overview and price checks. Independent-operator signal: weak. Examples: Official OET resources (official_or_institutional). The route is real, but the current card does not yet prove a strong fragmented operator layer around the doctor-only prep angle. Why not stronger: Validated evidence is route-led and official-resource-led, not operator-led.",
     "independent_operator_summary": {
       "signal": "weak",
       "independent_operator_examples": [
@@ -215,9 +210,24 @@
         "Current validated evidence proves route pressure and free substitutes more clearly than a fragmented doctor-specific prep-operator market."
       ],
       "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+      "segment_weighting": {
+        "quadrant_segment": "B2C",
+        "operator_signal_relevance": "high",
+        "social_funnel_relevance": "high",
+        "weighted_score_1_5": 1.6,
+        "score_adjustment": -0.25,
+        "rationale": "B2C product. Operator proof relevance: high. Social funnel relevance: high. Institution-led supply caps the weight of operator evidence."
+      },
       "takeaway": "The route is real, but the current card does not yet prove a strong fragmented operator layer around the doctor-only prep angle.",
       "why_not_stronger": "Validated evidence is route-led and official-resource-led, not operator-led.",
-      "synced_at": "2026-04-21T15:12:29.357Z"
-    }
+      "synced_at": "2026-04-21T18:27:19.664Z"
+    },
+    "cross_border_luxembourg_intent_keywords": [],
+    "reference_analog_domains": [],
+    "operator_segment_weighted_score_1_5": 1.6,
+    "operator_segment_score_adjustment": -0.25,
+    "next_research_step": "refine WTP/CAC with keyword overview and price checks",
+    "synced_from_scorecard_at": "2026-04-21T18:27:23.562Z",
+    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: US. Captured 3/3 anchor families with total local query volume 520 and max anchor volume 260. Lane rollup contains 20 deduplicated keywords, including 5 P1 terms. Current watchlist domains: oet.com, cambridgeenglish.org, e2language.com, google.com, reddit.com. Top follow-up keywords: oet test results (P1, vol 210), oet result login (P2, vol 70), how long do oet test results take (P2, vol 20), oet test practice (P1, vol 260), oet practice tests (P2, vol 30). Operator evidence is weighted for B2C: score 1.6/5 with adjustment -0.25. Next step: refine WTP/CAC with keyword overview and price checks."
   }
 }

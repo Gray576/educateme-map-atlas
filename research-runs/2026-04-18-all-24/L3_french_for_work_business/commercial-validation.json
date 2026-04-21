@@ -44,7 +44,7 @@
         "ext_003"
       ]
     },
-    "notes": "db=LU screenshots show French demand not only on private school domains but also through local institutional and continuing-education routes such as Institut Français Luxembourg and lifelong-learning-style discovery. This remains category evidence, not yet direct employer-paid proof. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 930, max anchor volume 390, capture count 7. Lane keyword count 17 with 5 P1 terms. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 930, max anchor volume 390, capture count 7. Lane keyword count 17 with 5 P1 terms. Top follow-up terms: french classes luxembourg, french courses luxembourg, language courses luxembourg, cours de français luxembourg, cours de langue luxembourg. Cross-border Luxembourg-intent coverage: 3 matching terms in FR/DE seed pack."
+    "notes": "db=LU screenshots show French demand not only on private school domains but also through local institutional and continuing-education routes such as Institut Français Luxembourg and lifelong-learning-style discovery. This remains category evidence, not yet direct employer-paid proof. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 930, max anchor volume 390, capture count 7. Lane keyword count 17 with 5 P1 terms. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 930, max anchor volume 390, capture count 7. Lane keyword count 17 with 5 P1 terms. Top follow-up terms: french classes luxembourg, french courses luxembourg, language courses luxembourg, cours de français luxembourg, cours de langue luxembourg. Cross-border Luxembourg-intent coverage: 3 matching terms in FR/DE seed pack. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 930, max anchor volume 390, capture count 7. Lane keyword count 17 with 5 P1 terms. Top follow-up terms: french classes luxembourg, french courses luxembourg, language courses luxembourg, cours de français luxembourg, cours de langue luxembourg. Cross-border Luxembourg-intent coverage: 3 matching terms in FR/DE seed pack. Segment-aware operator evidence: 2.4/5, adjusted pull 1.89."
   },
   "regulatory_context": {
     "regulatory_friction_inverse_score_1_5": 5,
@@ -116,7 +116,7 @@
     "validation_velocity_composite": 1.5,
     "demand_pull_composite": 2,
     "overall_confidence_band": "low",
-    "confidence_reason": "Market evidence scope is local with scope fit fit. 7 anchor captures contribute to this scorecard sync. Primary evidence database: LU."
+    "confidence_reason": "Market evidence scope is local with scope fit fit. 7 anchor captures contribute to this scorecard sync. Primary evidence database: LU. Segment-aware operator weight: 2.4/5."
   },
   "market_evidence_scope_class": "local",
   "market_evidence": {
@@ -132,7 +132,7 @@
     "evidence_database": "LU",
     "lane_group": "french_language",
     "semrush_priority": "high",
-    "provisional_market_score_v1": 1.38,
+    "provisional_market_score_v1": 1.34,
     "anchor_focus": [
       "cours de français luxembourg",
       "french courses luxembourg",
@@ -191,39 +191,6 @@
       }
     ],
     "top_questions": [],
-    "cross_border_luxembourg_intent_keywords": [
-      {
-        "keyword": "french classes luxembourg",
-        "follow_up_tier": "P2",
-        "max_volume_lu": 390,
-        "use_for": [
-          "message mining",
-          "reference-market sanity check"
-        ]
-      },
-      {
-        "keyword": "french courses luxembourg",
-        "follow_up_tier": "P2",
-        "max_volume_lu": 390,
-        "use_for": [
-          "message mining",
-          "reference-market sanity check"
-        ]
-      },
-      {
-        "keyword": "language courses luxembourg",
-        "follow_up_tier": "P2",
-        "max_volume_lu": 320,
-        "use_for": [
-          "message mining",
-          "reference-market sanity check"
-        ]
-      }
-    ],
-    "reference_analog_domains": [],
-    "next_research_step": "map lane keywords into product-level commercial notes",
-    "synced_from_scorecard_at": "2026-04-21T10:13:00.400Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 7/3 anchor families with total local query volume 930 and max anchor volume 390. Lane rollup contains 17 deduplicated keywords, including 5 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: french classes luxembourg (P2, vol 390), french courses luxembourg (P2, vol 390), language courses luxembourg (P2, vol 320), cours de français luxembourg (P2, vol 140), cours de langue luxembourg (P2, vol 140). Cross-border Luxembourg-intent layer: 3 relevant keywords; top terms french classes luxembourg, french courses luxembourg, language courses luxembourg. Next step: map lane keywords into product-level commercial notes. Independent-operator signal: weak. Examples: Prolingua specialist language (private_school_or_academy), inlingua Luxembourg (private_school_or_academy), INLL (official_or_institutional). Commercial supply exists, but it is led by broad schools and institutions rather than fragmented small operators. Why not stronger: Current evidence shows category demand, but not a clear long tail of niche business-French operators.",
     "independent_operator_summary": {
       "signal": "weak",
       "independent_operator_examples": [
@@ -257,9 +224,52 @@
         "No clean small-operator price proof was captured in the validated evidence set."
       ],
       "social_funnel_signal": "Facebook search for French-in-Luxembourg terms collapsed into general Luxembourg and expat groups rather than niche French-learning communities. This supports local newcomer demand, but not a dedicated small-operator funnel for business French.",
+      "segment_weighting": {
+        "quadrant_segment": "B2B",
+        "operator_signal_relevance": "medium",
+        "social_funnel_relevance": "low",
+        "weighted_score_1_5": 2.4,
+        "score_adjustment": -0.11,
+        "rationale": "B2B product. Operator proof relevance: medium. Social funnel relevance: low. Broad private providers count, but weaker than niche independent operators. Visible Facebook/community residue is treated as supporting but low-weight evidence."
+      },
       "takeaway": "Commercial supply exists, but it is led by broad schools and institutions rather than fragmented small operators.",
       "why_not_stronger": "Current evidence shows category demand, but not a clear long tail of niche business-French operators.",
-      "synced_at": "2026-04-21T15:12:29.357Z"
-    }
+      "synced_at": "2026-04-21T18:27:19.664Z"
+    },
+    "cross_border_luxembourg_intent_keywords": [
+      {
+        "keyword": "french classes luxembourg",
+        "follow_up_tier": "P2",
+        "max_volume_lu": 390,
+        "use_for": [
+          "message mining",
+          "reference-market sanity check"
+        ]
+      },
+      {
+        "keyword": "french courses luxembourg",
+        "follow_up_tier": "P2",
+        "max_volume_lu": 390,
+        "use_for": [
+          "message mining",
+          "reference-market sanity check"
+        ]
+      },
+      {
+        "keyword": "language courses luxembourg",
+        "follow_up_tier": "P2",
+        "max_volume_lu": 320,
+        "use_for": [
+          "message mining",
+          "reference-market sanity check"
+        ]
+      }
+    ],
+    "reference_analog_domains": [],
+    "operator_segment_weighted_score_1_5": 2.4,
+    "operator_segment_score_adjustment": -0.11,
+    "next_research_step": "map lane keywords into product-level commercial notes",
+    "synced_from_scorecard_at": "2026-04-21T18:27:23.661Z",
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: LU. Captured 7/3 anchor families with total local query volume 930 and max anchor volume 390. Lane rollup contains 17 deduplicated keywords, including 5 P1 terms. Current watchlist domains: inll.lu, lifelong-learning.lu, public.lu, prolingua.lu, vdl.lu. Top follow-up keywords: french classes luxembourg (P2, vol 390), french courses luxembourg (P2, vol 390), language courses luxembourg (P2, vol 320), cours de français luxembourg (P2, vol 140), cours de langue luxembourg (P2, vol 140). Cross-border Luxembourg-intent layer: 3 relevant keywords; top terms french classes luxembourg, french courses luxembourg, language courses luxembourg. Operator evidence is weighted for B2B: score 2.4/5 with adjustment -0.11. Next step: map lane keywords into product-level commercial notes."
   }
 }

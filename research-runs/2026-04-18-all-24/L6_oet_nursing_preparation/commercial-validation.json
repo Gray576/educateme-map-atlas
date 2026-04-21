@@ -37,7 +37,7 @@
         "ext_004"
       ]
     },
-    "notes": "The visible OET keyword set from db=US is exam-heavy and dominated by the official site. Nursing-specific framing remains plausible, but the screenshot evidence mainly validates the broader reference-market OET ecosystem. Latest SEMrush scorecard sync: scope missing (missing). No anchor query volume is captured yet. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 850, max anchor volume 590, capture count 3. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 850, max anchor volume 590, capture count 3. Lane keyword count 18 with 3 P1 terms. Top follow-up terms: oet preparation for nurses, best book for oet preparation for nurses, free online oet preparation course for nurses, how to prepare oet exam for nurses at home, oet exam preparation for nurses. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 850, max anchor volume 590, capture count 3. Lane keyword count 18 with 3 P1 terms. Top follow-up terms: oet preparation for nurses, best book for oet preparation for nurses, free online oet preparation course for nurses, oet exam preparation for nurses, oet exam sample test."
+    "notes": "The visible OET keyword set from db=US is exam-heavy and dominated by the official site. Nursing-specific framing remains plausible, but the screenshot evidence mainly validates the broader reference-market OET ecosystem. Latest SEMrush scorecard sync: scope missing (missing). No anchor query volume is captured yet. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 850, max anchor volume 590, capture count 3. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 850, max anchor volume 590, capture count 3. Lane keyword count 18 with 3 P1 terms. Top follow-up terms: oet preparation for nurses, best book for oet preparation for nurses, free online oet preparation course for nurses, how to prepare oet exam for nurses at home, oet exam preparation for nurses. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 850, max anchor volume 590, capture count 3. Lane keyword count 18 with 3 P1 terms. Top follow-up terms: oet preparation for nurses, best book for oet preparation for nurses, free online oet preparation course for nurses, oet exam preparation for nurses, oet exam sample test. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 850, max anchor volume 590, capture count 3. Lane keyword count 18 with 3 P1 terms. Top follow-up terms: oet preparation for nurses, best book for oet preparation for nurses, free online oet preparation course for nurses, oet exam preparation for nurses, oet exam sample test. Segment-aware operator evidence: 1.6/5, adjusted pull 1.5."
   },
   "regulatory_context": {
     "regulatory_friction_inverse_score_1_5": 2,
@@ -106,7 +106,7 @@
     "validation_velocity_composite": 3,
     "demand_pull_composite": 1.75,
     "overall_confidence_band": "medium",
-    "confidence_reason": "Market evidence scope is reference with scope fit fit. 3 anchor captures contribute to this scorecard sync. Primary evidence database: US."
+    "confidence_reason": "Market evidence scope is reference with scope fit fit. 3 anchor captures contribute to this scorecard sync. Primary evidence database: US. Segment-aware operator weight: 1.6/5."
   },
   "market_evidence_scope_class": "reference",
   "market_evidence": {
@@ -122,7 +122,7 @@
     "evidence_database": "US",
     "lane_group": "oet_exam",
     "semrush_priority": "high",
-    "provisional_market_score_v1": 2.08,
+    "provisional_market_score_v1": 1.96,
     "anchor_focus": [
       "oet nursing preparation",
       "oet sample test",
@@ -181,11 +181,6 @@
       }
     ],
     "top_questions": [],
-    "cross_border_luxembourg_intent_keywords": [],
-    "reference_analog_domains": [],
-    "next_research_step": "refine WTP/CAC with keyword overview and price checks",
-    "synced_from_scorecard_at": "2026-04-21T10:13:00.393Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: US. Captured 3/3 anchor families with total local query volume 850 and max anchor volume 590. Lane rollup contains 18 deduplicated keywords, including 3 P1 terms. Current watchlist domains: oet.com, youtube.com, apple.com, edubenchmark.com, oetpracticeonline.com. Top follow-up keywords: oet preparation for nurses (P2, vol 20), best book for oet preparation for nurses (P2, vol 10), free online oet preparation course for nurses (P2, vol 10), oet exam preparation for nurses (P2, vol 10), oet exam sample test (P1, vol 260). Next step: refine WTP/CAC with keyword overview and price checks. Independent-operator signal: weak. Examples: Official OET sample tests (official_or_institutional). The nursing OET route is real, but operator fragmentation is not yet captured cleanly in the validated card layer. Why not stronger: A validated prep-provider set has not yet been written into the card.",
     "independent_operator_summary": {
       "signal": "weak",
       "independent_operator_examples": [
@@ -207,9 +202,24 @@
         "The current validated layer proves exam-route pressure more clearly than a fragmented prep-provider map."
       ],
       "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+      "segment_weighting": {
+        "quadrant_segment": "B2C",
+        "operator_signal_relevance": "high",
+        "social_funnel_relevance": "high",
+        "weighted_score_1_5": 1.6,
+        "score_adjustment": -0.25,
+        "rationale": "B2C product. Operator proof relevance: high. Social funnel relevance: high. Institution-led supply caps the weight of operator evidence."
+      },
       "takeaway": "The nursing OET route is real, but operator fragmentation is not yet captured cleanly in the validated card layer.",
       "why_not_stronger": "A validated prep-provider set has not yet been written into the card.",
-      "synced_at": "2026-04-21T15:12:29.357Z"
-    }
+      "synced_at": "2026-04-21T18:27:19.664Z"
+    },
+    "cross_border_luxembourg_intent_keywords": [],
+    "reference_analog_domains": [],
+    "operator_segment_weighted_score_1_5": 1.6,
+    "operator_segment_score_adjustment": -0.25,
+    "next_research_step": "refine WTP/CAC with keyword overview and price checks",
+    "synced_from_scorecard_at": "2026-04-21T18:27:23.543Z",
+    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: US. Captured 3/3 anchor families with total local query volume 850 and max anchor volume 590. Lane rollup contains 18 deduplicated keywords, including 3 P1 terms. Current watchlist domains: oet.com, youtube.com, apple.com, edubenchmark.com, oetpracticeonline.com. Top follow-up keywords: oet preparation for nurses (P2, vol 20), best book for oet preparation for nurses (P2, vol 10), free online oet preparation course for nurses (P2, vol 10), oet exam preparation for nurses (P2, vol 10), oet exam sample test (P1, vol 260). Operator evidence is weighted for B2C: score 1.6/5 with adjustment -0.25. Next step: refine WTP/CAC with keyword overview and price checks."
   }
 }

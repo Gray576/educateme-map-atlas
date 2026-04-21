@@ -126,10 +126,13 @@
         "lane_group": "integration_discovery",
         "market_track": "local",
         "semrush_priority": "high",
-        "provisional_market_score_v1": 1.49,
+        "provisional_market_score_v1": 1.44,
         "validation_velocity_composite": 1.5,
         "demand_pull_composite": 2.25,
-        "confidence_band": "low"
+        "demand_pull_composite_adjusted": 2.14,
+        "confidence_band": "low",
+        "operator_segment_weighted_score_1_5": 2.4,
+        "operator_segment_score_adjustment": -0.11
       },
       "confidence_band": "low",
       "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
@@ -262,9 +265,17 @@
           "Current proof is route and provider existence, not a clean bundle-price market."
         ],
         "social_funnel_signal": "Facebook group search shows large Luxembourg expat communities (`Expats World in Luxembourg`, `Luxembourg Expats (Official)`, meetup/event groups), which confirms a strong social top-of-funnel for relocation and integration problems. The OCR pass did not reveal a clear paid onboarding-bundle operator inside those groups.",
+        "segment_weighting": {
+          "quadrant_segment": "B2B",
+          "operator_signal_relevance": "medium",
+          "social_funnel_relevance": "low",
+          "weighted_score_1_5": 2.4,
+          "score_adjustment": -0.11,
+          "rationale": "B2B product. Operator proof relevance: medium. Social funnel relevance: low. Broad private providers count, but weaker than niche independent operators. Visible Facebook/community residue is treated as supporting but low-weight evidence."
+        },
         "takeaway": "The integration problem is real, but visible supply is still mainly institutional or broad-provider based.",
         "why_not_stronger": "No validated set of small onboarding-bundle operators is yet visible.",
-        "synced_at": "2026-04-21T15:12:29.357Z"
+        "synced_at": "2026-04-21T18:27:19.664Z"
       },
       "confidence_band": "low",
       "omission_reason": "Derived independent-operator signal for prioritization and further market research. Keep it out of customer-facing copy until translated into product-safe language."

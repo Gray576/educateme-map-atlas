@@ -49,7 +49,7 @@
         "ext_005"
       ]
     },
-    "notes": "Retention structure is filled from the product format. Demand, WTP, CAC, macro, and channel-fit remain unfilled until SEMrush and distribution evidence are collected. Latest SEMrush scorecard sync: scope missing (missing). No anchor query volume is captured yet. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 2430, max anchor volume 1900, capture count 3. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 2430, max anchor volume 1900, capture count 3. Top follow-up terms: ki schulungen, ki schulung pflicht, ki schulung kostenlos, was passiert wenn mein unternehmen keine ki-schulung durchführt, welche formate sind am effektivsten für ki-schulungen. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 2430, max anchor volume 1900, capture count 3. Lane keyword count 27 with 8 P1 terms. Top follow-up terms: ki schulungen, ki schulung pflicht, ki schulung kostenlos, was passiert wenn mein unternehmen keine ki-schulung durchführt, welche formate sind am effektivsten für ki-schulungen. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 2430, max anchor volume 1900, capture count 3. Lane keyword count 27 with 8 P1 terms. Top follow-up terms: ki schulung pflicht, ki schulung kostenlos, was passiert wenn mein unternehmen keine ki-schulung durchführt, welche spezifischen schulungen sind für die ki-kompetenz erforderlich, wer ist zur ki-schulung verpflichtet."
+    "notes": "Retention structure is filled from the product format. Demand, WTP, CAC, macro, and channel-fit remain unfilled until SEMrush and distribution evidence are collected. Latest SEMrush scorecard sync: scope missing (missing). No anchor query volume is captured yet. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 2430, max anchor volume 1900, capture count 3. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 2430, max anchor volume 1900, capture count 3. Top follow-up terms: ki schulungen, ki schulung pflicht, ki schulung kostenlos, was passiert wenn mein unternehmen keine ki-schulung durchführt, welche formate sind am effektivsten für ki-schulungen. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 2430, max anchor volume 1900, capture count 3. Lane keyword count 27 with 8 P1 terms. Top follow-up terms: ki schulungen, ki schulung pflicht, ki schulung kostenlos, was passiert wenn mein unternehmen keine ki-schulung durchführt, welche formate sind am effektivsten für ki-schulungen. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 2430, max anchor volume 1900, capture count 3. Lane keyword count 27 with 8 P1 terms. Top follow-up terms: ki schulung pflicht, ki schulung kostenlos, was passiert wenn mein unternehmen keine ki-schulung durchführt, welche spezifischen schulungen sind für die ki-kompetenz erforderlich, wer ist zur ki-schulung verpflichtet. Latest SEMrush scorecard sync: scope local (fit). Anchor query volume sum 2430, max anchor volume 1900, capture count 3. Lane keyword count 27 with 8 P1 terms. Top follow-up terms: ki schulung pflicht, ki schulung kostenlos, was passiert wenn mein unternehmen keine ki-schulung durchführt, welche spezifischen schulungen sind für die ki-kompetenz erforderlich, wer ist zur ki-schulung verpflichtet. Segment-aware operator evidence: 2.4/5, adjusted pull 3.39."
   },
   "regulatory_context": {
     "regulatory_friction_inverse_score_1_5": 2,
@@ -120,7 +120,7 @@
     "validation_velocity_composite": 1.5,
     "demand_pull_composite": 3.5,
     "overall_confidence_band": "low",
-    "confidence_reason": "Market evidence scope is local with scope fit fit. 3 anchor captures contribute to this scorecard sync. Primary evidence database: DE."
+    "confidence_reason": "Market evidence scope is local with scope fit fit. 3 anchor captures contribute to this scorecard sync. Primary evidence database: DE. Segment-aware operator weight: 2.4/5."
   },
   "market_evidence_scope_class": "local",
   "market_evidence": {
@@ -136,7 +136,7 @@
     "evidence_database": "DE",
     "lane_group": "ai_training",
     "semrush_priority": "medium",
-    "provisional_market_score_v1": 2.03,
+    "provisional_market_score_v1": 1.98,
     "anchor_focus": [
       "ki schulung",
       "ai act schulung",
@@ -195,11 +195,6 @@
       }
     ],
     "top_questions": [],
-    "cross_border_luxembourg_intent_keywords": [],
-    "reference_analog_domains": [],
-    "next_research_step": "refine WTP/CAC with keyword overview and price checks",
-    "synced_from_scorecard_at": "2026-04-21T10:13:00.394Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: DE. Captured 3/3 anchor families with total local query volume 2430 and max anchor volume 1900. Lane rollup contains 27 deduplicated keywords, including 8 P1 terms. Current watchlist domains: fraunhofer.de, ihk.de, haufe-akademie.de, ki-campus.org, tuvsud.com. Top follow-up keywords: ki schulung pflicht (P1, vol 390), ki schulung kostenlos (P1, vol 210), was passiert wenn mein unternehmen keine ki-schulung durchführt (P2, vol 0), welche spezifischen schulungen sind für die ki-kompetenz erforderlich (P2, vol 0), wer ist zur ki-schulung verpflichtet (P2, vol 0). Next step: refine WTP/CAC with keyword overview and price checks. Independent-operator signal: weak. Examples: House of Training (private_school_or_academy), Elements of AI (official_or_institutional), Haufe Akademie / Bitkom Akademie (private_school_or_academy). The compliance problem is clearly monetized, but visible supply is still academy-led rather than long-tail operator-led. Why not stronger: The market is real, but current validated competitors are mostly broad academies or free public substitutes.",
     "independent_operator_summary": {
       "signal": "weak",
       "independent_operator_examples": [
@@ -233,9 +228,24 @@
         "Current proof shows a real paid substitute landscape and strong Germany-local keyword demand, but not a clean fragmented small-operator market."
       ],
       "social_funnel_signal": "Facebook search for `ai act compliance` and `ki schulung` returned generic AI groups and mostly irrelevant school-related noise rather than operator-led compliance communities. No useful Facebook funnel signal was confirmed for this lane.",
+      "segment_weighting": {
+        "quadrant_segment": "B2B",
+        "operator_signal_relevance": "medium",
+        "social_funnel_relevance": "low",
+        "weighted_score_1_5": 2.4,
+        "score_adjustment": -0.11,
+        "rationale": "B2B product. Operator proof relevance: medium. Social funnel relevance: low. Broad private providers count, but weaker than niche independent operators. Visible Facebook/community residue is treated as supporting but low-weight evidence."
+      },
       "takeaway": "The compliance problem is clearly monetized, but visible supply is still academy-led rather than long-tail operator-led.",
       "why_not_stronger": "The market is real, but current validated competitors are mostly broad academies or free public substitutes.",
-      "synced_at": "2026-04-21T15:12:29.357Z"
-    }
+      "synced_at": "2026-04-21T18:27:19.664Z"
+    },
+    "cross_border_luxembourg_intent_keywords": [],
+    "reference_analog_domains": [],
+    "operator_segment_weighted_score_1_5": 2.4,
+    "operator_segment_score_adjustment": -0.11,
+    "next_research_step": "refine WTP/CAC with keyword overview and price checks",
+    "synced_from_scorecard_at": "2026-04-21T18:27:23.527Z",
+    "notes": "Current SEMrush evidence matches the expected scope for this product (local). Evidence database: DE. Captured 3/3 anchor families with total local query volume 2430 and max anchor volume 1900. Lane rollup contains 27 deduplicated keywords, including 8 P1 terms. Current watchlist domains: fraunhofer.de, ihk.de, haufe-akademie.de, ki-campus.org, tuvsud.com. Top follow-up keywords: ki schulung pflicht (P1, vol 390), ki schulung kostenlos (P1, vol 210), was passiert wenn mein unternehmen keine ki-schulung durchführt (P2, vol 0), welche spezifischen schulungen sind für die ki-kompetenz erforderlich (P2, vol 0), wer ist zur ki-schulung verpflichtet (P2, vol 0). Operator evidence is weighted for B2B: score 2.4/5 with adjustment -0.11. Next step: refine WTP/CAC with keyword overview and price checks."
   }
 }

@@ -122,10 +122,13 @@
         "lane_group": "compliance_training",
         "market_track": "local",
         "semrush_priority": "high",
-        "provisional_market_score_v1": 1.31,
+        "provisional_market_score_v1": 1.39,
         "validation_velocity_composite": 1.5,
         "demand_pull_composite": 2,
-        "confidence_band": "medium"
+        "demand_pull_composite_adjusted": 2.18,
+        "confidence_band": "medium",
+        "operator_segment_weighted_score_1_5": 4,
+        "operator_segment_score_adjustment": 0.18
       },
       "confidence_band": "medium",
       "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
@@ -223,9 +226,17 @@
           "Validated public competitor landscape includes multiple commercial training bodies, though clean price normalization is still missing."
         ],
         "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+        "segment_weighting": {
+          "quadrant_segment": "B2B",
+          "operator_signal_relevance": "medium",
+          "social_funnel_relevance": "low",
+          "weighted_score_1_5": 4,
+          "score_adjustment": 0.18,
+          "rationale": "B2B product. Operator proof relevance: medium. Social funnel relevance: low. Confirmed independent operators increase the weight."
+        },
         "takeaway": "This is not just an incumbent-academy market; there is a specialist commercial competence-training layer around MiFID.",
         "why_not_stronger": "The market exists, but current proof is stronger on provider presence than on clean search-visible small-operator pricing.",
-        "synced_at": "2026-04-21T15:12:29.357Z"
+        "synced_at": "2026-04-21T18:27:19.664Z"
       },
       "confidence_band": "medium",
       "omission_reason": "Derived independent-operator signal for prioritization and further market research. Keep it out of customer-facing copy until translated into product-safe language."

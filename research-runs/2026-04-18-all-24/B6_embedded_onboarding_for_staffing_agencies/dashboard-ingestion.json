@@ -113,10 +113,13 @@
         "lane_group": "staffing_onboarding",
         "market_track": "reference",
         "semrush_priority": "medium",
-        "provisional_market_score_v1": 0.85,
+        "provisional_market_score_v1": 0.84,
         "validation_velocity_composite": 1,
         "demand_pull_composite": 1.6,
-        "confidence_band": "low"
+        "demand_pull_composite_adjusted": 1.56,
+        "confidence_band": "low",
+        "operator_segment_weighted_score_1_5": 2.8,
+        "operator_segment_score_adjustment": -0.04
       },
       "confidence_band": "low",
       "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
@@ -287,9 +290,17 @@
           "Current proof is mostly reference analog offers rather than a strong target-market public pricing layer."
         ],
         "social_funnel_signal": "Facebook search surfaced active nurse-relocation and placement communities around Germany (`Nursing in Germany`, `Registered Nurses for Germany`, `Direct Placement in Germany`). This confirms a social funnel around the route, but not yet a clean operator-owned onboarding bundle.",
+        "segment_weighting": {
+          "quadrant_segment": "B2B2C",
+          "operator_signal_relevance": "high",
+          "social_funnel_relevance": "medium",
+          "weighted_score_1_5": 2.8,
+          "score_adjustment": -0.04,
+          "rationale": "B2B2C product. Operator proof relevance: high. Social funnel relevance: medium. Confirmed independent operators increase the weight. Visible Facebook/community residue is treated as supporting but low-weight evidence."
+        },
         "takeaway": "Reference markets show some specialist providers, so the category exists, but the onboarding-bundle motion is not strongly visible in search.",
         "why_not_stronger": "Evidence is mostly reference analogs with weak keyword traction, not clear target-market operator demand.",
-        "synced_at": "2026-04-21T15:12:29.357Z"
+        "synced_at": "2026-04-21T18:27:19.664Z"
       },
       "confidence_band": "low",
       "omission_reason": "Derived independent-operator signal for prioritization and further market research. Keep it out of customer-facing copy until translated into product-safe language."

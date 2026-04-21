@@ -239,6 +239,7 @@ What it adds:
 - compact per-product summaries for:
   - top follow-up keywords
   - top market questions
+  - operator segment weighting
   - cross-border Luxembourg-intent keywords
 - analyst-only dashboard summaries for:
   - market evidence
@@ -268,9 +269,12 @@ It computes:
 
 - `validation_velocity_composite`
 - `demand_pull_composite`
+- `demand_pull_composite_adjusted`
 - `evidence_scope_class`
 - `scope_fit`
 - `evidence_multiplier`
+- `operator_segment_weighted_score_1_5`
+- `operator_segment_score_adjustment`
 - `provisional_market_score_v1`
 
 ### Scope-fit rule
@@ -340,6 +344,10 @@ Example:
 2. `Domain Overview` extraction is weaker than `Organic Positions` and `Keyword Overview`.
 3. Some products still have market-track mappings that are only first-pass heuristics.
 4. This scorecard is intentionally conservative; it should under-claim rather than over-claim.
+5. Independent-operator evidence is segment-aware:
+   - `B2C` gives higher weight to fragmented operators and community-led acquisition
+   - `B2B` discounts social-only residue and favors direct specialist offers
+   - the applied effect is bounded, so operator evidence cannot overpower missing keyword demand on its own
 
 ## Commands
 

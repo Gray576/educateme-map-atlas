@@ -37,7 +37,7 @@
         "ext_005"
       ]
     },
-    "notes": "Observed in screenshots from db=US: oet.com ranks heavily on oet, oet sample test, oet result, occupational english test sample, and oet practice test. This proves searchable exam demand exists in the reference market, but most visible pull is branded and controlled by the official domain. Latest SEMrush scorecard sync: scope missing (missing). No anchor query volume is captured yet. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 920, max anchor volume 590, capture count 3. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 920, max anchor volume 590, capture count 3. Lane keyword count 25 with 4 P1 terms. Top follow-up terms: oet preparation material, oet preparation course, oet preparation courses, oet preparation materials, how long does it take to prepare for oet. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 920, max anchor volume 590, capture count 3. Lane keyword count 25 with 4 P1 terms. Top follow-up terms: oet preparation material, oet preparation course, oet preparation courses, oet preparation materials, oet exam sample test."
+    "notes": "Observed in screenshots from db=US: oet.com ranks heavily on oet, oet sample test, oet result, occupational english test sample, and oet practice test. This proves searchable exam demand exists in the reference market, but most visible pull is branded and controlled by the official domain. Latest SEMrush scorecard sync: scope missing (missing). No anchor query volume is captured yet. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 920, max anchor volume 590, capture count 3. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 920, max anchor volume 590, capture count 3. Lane keyword count 25 with 4 P1 terms. Top follow-up terms: oet preparation material, oet preparation course, oet preparation courses, oet preparation materials, how long does it take to prepare for oet. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 920, max anchor volume 590, capture count 3. Lane keyword count 25 with 4 P1 terms. Top follow-up terms: oet preparation material, oet preparation course, oet preparation courses, oet preparation materials, oet exam sample test. Latest SEMrush scorecard sync: scope reference (fit). Anchor query volume sum 920, max anchor volume 590, capture count 3. Lane keyword count 25 with 4 P1 terms. Top follow-up terms: oet preparation material, oet preparation course, oet preparation courses, oet preparation materials, oet exam sample test. Segment-aware operator evidence: 1.6/5, adjusted pull 1.5."
   },
   "regulatory_context": {
     "regulatory_friction_inverse_score_1_5": 2,
@@ -107,7 +107,7 @@
     "validation_velocity_composite": 3,
     "demand_pull_composite": 1.75,
     "overall_confidence_band": "medium",
-    "confidence_reason": "Market evidence scope is reference with scope fit fit. 3 anchor captures contribute to this scorecard sync. Primary evidence database: US."
+    "confidence_reason": "Market evidence scope is reference with scope fit fit. 3 anchor captures contribute to this scorecard sync. Primary evidence database: US. Segment-aware operator weight: 1.6/5."
   },
   "market_evidence_scope_class": "reference",
   "market_evidence": {
@@ -123,7 +123,7 @@
     "evidence_database": "US",
     "lane_group": "oet_exam",
     "semrush_priority": "high",
-    "provisional_market_score_v1": 2.08,
+    "provisional_market_score_v1": 1.96,
     "anchor_focus": [
       "oet preparation",
       "oet sample test",
@@ -182,11 +182,6 @@
       }
     ],
     "top_questions": [],
-    "cross_border_luxembourg_intent_keywords": [],
-    "reference_analog_domains": [],
-    "next_research_step": "refine WTP/CAC with keyword overview and price checks",
-    "synced_from_scorecard_at": "2026-04-21T10:13:00.392Z",
-    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: US. Captured 3/3 anchor families with total local query volume 920 and max anchor volume 590. Lane rollup contains 25 deduplicated keywords, including 4 P1 terms. Current watchlist domains: oet.com, e2language.com, google.com, apple.com, cambridgeenglish.org. Top follow-up keywords: oet preparation material (P2, vol 70), oet preparation course (P2, vol 50), oet preparation courses (P2, vol 50), oet preparation materials (P2, vol 50), oet exam sample test (P1, vol 260). Next step: refine WTP/CAC with keyword overview and price checks. Independent-operator signal: weak. Examples: Official OET sample tests (official_or_institutional). The exam route is real, but this layer is currently better evidenced by official substitutes than by validated operator fragmentation. Why not stronger: A clean, validated set of prep operators has not yet been written into the card.",
     "independent_operator_summary": {
       "signal": "weak",
       "independent_operator_examples": [
@@ -208,9 +203,24 @@
         "Current validated evidence proves route pressure and free official substitutes more clearly than a fragmented prep-operator map."
       ],
       "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+      "segment_weighting": {
+        "quadrant_segment": "B2C",
+        "operator_signal_relevance": "high",
+        "social_funnel_relevance": "high",
+        "weighted_score_1_5": 1.6,
+        "score_adjustment": -0.25,
+        "rationale": "B2C product. Operator proof relevance: high. Social funnel relevance: high. Institution-led supply caps the weight of operator evidence."
+      },
       "takeaway": "The exam route is real, but this layer is currently better evidenced by official substitutes than by validated operator fragmentation.",
       "why_not_stronger": "A clean, validated set of prep operators has not yet been written into the card.",
-      "synced_at": "2026-04-21T15:12:29.357Z"
-    }
+      "synced_at": "2026-04-21T18:27:19.664Z"
+    },
+    "cross_border_luxembourg_intent_keywords": [],
+    "reference_analog_domains": [],
+    "operator_segment_weighted_score_1_5": 1.6,
+    "operator_segment_score_adjustment": -0.25,
+    "next_research_step": "refine WTP/CAC with keyword overview and price checks",
+    "synced_from_scorecard_at": "2026-04-21T18:27:23.532Z",
+    "notes": "Current SEMrush evidence matches the expected scope for this product (reference). Evidence database: US. Captured 3/3 anchor families with total local query volume 920 and max anchor volume 590. Lane rollup contains 25 deduplicated keywords, including 4 P1 terms. Current watchlist domains: oet.com, e2language.com, google.com, apple.com, cambridgeenglish.org. Top follow-up keywords: oet preparation material (P2, vol 70), oet preparation course (P2, vol 50), oet preparation courses (P2, vol 50), oet preparation materials (P2, vol 50), oet exam sample test (P1, vol 260). Operator evidence is weighted for B2C: score 1.6/5 with adjustment -0.25. Next step: refine WTP/CAC with keyword overview and price checks."
   }
 }

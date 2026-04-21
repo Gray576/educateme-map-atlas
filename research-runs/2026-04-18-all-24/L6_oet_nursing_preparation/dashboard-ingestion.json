@@ -124,10 +124,13 @@
         "lane_group": "oet_exam",
         "market_track": "reference",
         "semrush_priority": "high",
-        "provisional_market_score_v1": 2.08,
+        "provisional_market_score_v1": 1.96,
         "validation_velocity_composite": 3,
         "demand_pull_composite": 1.75,
-        "confidence_band": "medium"
+        "demand_pull_composite_adjusted": 1.5,
+        "confidence_band": "medium",
+        "operator_segment_weighted_score_1_5": 1.6,
+        "operator_segment_score_adjustment": -0.25
       },
       "confidence_band": "medium",
       "omission_reason": "Derived SEMrush market-evidence layer for prioritization and further research. Keep it out of customer-facing copy until translated into route-safe product language."
@@ -244,9 +247,17 @@
           "The current validated layer proves exam-route pressure more clearly than a fragmented prep-provider map."
         ],
         "social_funnel_signal": "No Facebook-group-led funnel signal is captured yet in the validated evidence set.",
+        "segment_weighting": {
+          "quadrant_segment": "B2C",
+          "operator_signal_relevance": "high",
+          "social_funnel_relevance": "high",
+          "weighted_score_1_5": 1.6,
+          "score_adjustment": -0.25,
+          "rationale": "B2C product. Operator proof relevance: high. Social funnel relevance: high. Institution-led supply caps the weight of operator evidence."
+        },
         "takeaway": "The nursing OET route is real, but operator fragmentation is not yet captured cleanly in the validated card layer.",
         "why_not_stronger": "A validated prep-provider set has not yet been written into the card.",
-        "synced_at": "2026-04-21T15:12:29.357Z"
+        "synced_at": "2026-04-21T18:27:19.664Z"
       },
       "confidence_band": "low",
       "omission_reason": "Derived independent-operator signal for prioritization and further market research. Keep it out of customer-facing copy until translated into product-safe language."
