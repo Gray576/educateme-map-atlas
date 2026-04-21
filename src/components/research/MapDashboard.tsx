@@ -48,8 +48,12 @@ type QuadrantCluster = {
 
 type ClusterLabelNode = {
   point: QuadrantPoint;
+  anchorCx: number;
+  anchorCy: number;
   cx: number;
   cy: number;
+  width: number;
+  height: number;
 };
 
 function SelectControl({
@@ -325,8 +329,12 @@ function buildClusterLabelNodes(cluster: QuadrantCluster): ClusterLabelNode[] {
   if (cluster.points.length === 1) {
     return cluster.points.map((point) => ({
       point,
+      anchorCx: cluster.cx,
+      anchorCy: cluster.cy,
       cx: cluster.cx,
       cy: cluster.cy,
+      width: point.code.length * 7 + 8,
+      height: 16,
     }));
   }
 
@@ -336,10 +344,62 @@ function buildClusterLabelNodes(cluster: QuadrantCluster): ClusterLabelNode[] {
     const angle = (-Math.PI / 2) + (index * (2 * Math.PI)) / cluster.points.length;
     return {
       point,
+      anchorCx: cluster.cx,
+      anchorCy: cluster.cy,
       cx: cluster.cx + Math.cos(angle) * spreadRadius,
       cy: cluster.cy + Math.sin(angle) * spreadRadius,
+      width: point.code.length * 7 + 8,
+      height: 16,
     };
   });
+}
+
+function clamp(value: number, min: number, max: number) {
+  return Math.max(min, Math.min(max, value));
+}
+
+function resolveLabelCollisions(nodes: ClusterLabelNode[]): ClusterLabelNode[] {
+  const resolved = nodes.map((node) => ({ ...node }));
+  const minX = 48;
+  const maxX = 852;
+  const minY = 40;
+  const maxY = 456;
+
+  for (let iteration = 0; iteration < 80; iteration += 1) {
+    for (let i = 0; i < resolved.length; i += 1) {
+      for (let j = i + 1; j < resolved.length; j += 1) {
+        const left = resolved[i];
+        const right = resolved[j];
+        const deltaX = right.cx - left.cx;
+        const deltaY = right.cy - left.cy;
+        const overlapX = (left.width + right.width) / 2 + 6 - Math.abs(deltaX);
+        const overlapY = (left.height + right.height) / 2 + 6 - Math.abs(deltaY);
+
+        if (overlapX <= 0 || overlapY <= 0) continue;
+
+        if (overlapX < overlapY) {
+          const pushX = overlapX / 2;
+          const directionX = deltaX === 0 ? (i % 2 === 0 ? -1 : 1) : Math.sign(deltaX);
+          left.cx -= directionX * pushX;
+          right.cx += directionX * pushX;
+        } else {
+          const pushY = overlapY / 2;
+          const directionY = deltaY === 0 ? (i % 2 === 0 ? -1 : 1) : Math.sign(deltaY);
+          left.cy -= directionY * pushY;
+          right.cy += directionY * pushY;
+        }
+      }
+    }
+
+    for (const node of resolved) {
+      node.cx += (node.anchorCx - node.cx) * 0.06;
+      node.cy += (node.anchorCy - node.cy) * 0.06;
+      node.cx = clamp(node.cx, minX + node.width / 2, maxX - node.width / 2);
+      node.cy = clamp(node.cy, minY + node.height / 2, maxY - node.height / 2);
+    }
+  }
+
+  return resolved;
 }
 
 function QuadrantPlot({
@@ -357,6 +417,10 @@ function QuadrantPlot({
 }) {
   const reading = buildQuadrantReading(points);
   const clusters = useMemo(() => buildQuadrantClusters(points), [points]);
+  const labelNodes = useMemo(
+    () => resolveLabelCollisions(clusters.flatMap((cluster) => buildClusterLabelNodes(cluster))),
+    [clusters]
+  );
 
   return (
     <section className="rounded-md border border-border bg-card p-4">
@@ -417,53 +481,47 @@ function QuadrantPlot({
             Kill or hold: low pull, slow signal
           </text>
 
-          {clusters.map((cluster) => {
-            const labelNodes = buildClusterLabelNodes(cluster);
+          {labelNodes.map((node) => {
+            const tone = getArchetypeVisual(node.point.archetype.id);
+            const isSelected = node.point.code === selectedCode;
+            const movedFar =
+              Math.abs(node.cx - node.anchorCx) > 6 || Math.abs(node.cy - node.anchorCy) > 6;
 
             return (
-              <g key={cluster.key}>
-                {labelNodes.map((node) => {
-                  const tone = getArchetypeVisual(node.point.archetype.id);
-                  const isSelected = node.point.code === selectedCode;
-
-                  return (
-                    <g key={node.point.code}>
-                      {cluster.points.length > 1 ? (
-                        <line
-                          x1={cluster.cx}
-                          y1={cluster.cy}
-                          x2={node.cx}
-                          y2={node.cy}
-                          stroke="#d2ccc0"
-                          strokeWidth="1"
-                        />
-                      ) : null}
-                      <g
-                        role="button"
-                        tabIndex={0}
-                        onClick={() => onSelect(node.point.code)}
-                        onKeyDown={(event) => {
-                          if (event.key === "Enter" || event.key === " ") {
-                            event.preventDefault();
-                            onSelect(node.point.code);
-                          }
-                        }}
-                        className="cursor-pointer"
-                      >
-                        <text
-                          x={node.cx}
-                          y={node.cy + 4}
-                          textAnchor="middle"
-                          fill={tone.text}
-                          fontSize={isSelected ? "12" : "11"}
-                          fontWeight={isSelected ? "800" : "700"}
-                        >
-                          {node.point.code}
-                        </text>
-                      </g>
-                    </g>
-                  );
-                })}
+              <g key={node.point.code}>
+                {movedFar ? (
+                  <line
+                    x1={node.anchorCx}
+                    y1={node.anchorCy}
+                    x2={node.cx}
+                    y2={node.cy}
+                    stroke="#d2ccc0"
+                    strokeWidth="1"
+                  />
+                ) : null}
+                <g
+                  role="button"
+                  tabIndex={0}
+                  onClick={() => onSelect(node.point.code)}
+                  onKeyDown={(event) => {
+                    if (event.key === "Enter" || event.key === " ") {
+                      event.preventDefault();
+                      onSelect(node.point.code);
+                    }
+                  }}
+                  className="cursor-pointer"
+                >
+                  <text
+                    x={node.cx}
+                    y={node.cy + 4}
+                    textAnchor="middle"
+                    fill={tone.text}
+                    fontSize={isSelected ? "12" : "11"}
+                    fontWeight={isSelected ? "800" : "700"}
+                  >
+                    {node.point.code}
+                  </text>
+                </g>
               </g>
             );
           })}
