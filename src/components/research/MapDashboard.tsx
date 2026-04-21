@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import { ExplainabilityDrawer } from "@/components/research/ExplainabilityDrawer";
 import { ResearchActiveFilters } from "@/components/research/ResearchActiveFilters";
@@ -35,6 +35,22 @@ type QuadrantPoint = {
   pullCoverage: number;
   plotSegment: PlotSegment;
   missingSignals: string[];
+};
+
+type QuadrantCluster = {
+  key: string;
+  x: number;
+  y: number;
+  cx: number;
+  cy: number;
+  radius: number;
+  points: QuadrantPoint[];
+};
+
+type ExpandedClusterNode = {
+  point: QuadrantPoint;
+  cx: number;
+  cy: number;
 };
 
 function SelectControl({
@@ -274,18 +290,97 @@ function buildQuadrantReading(points: QuadrantPoint[]) {
   };
 }
 
+function getClusterKey(point: QuadrantPoint) {
+  return `${point.x.toFixed(2)}:${point.y.toFixed(2)}`;
+}
+
+function buildQuadrantClusters(points: QuadrantPoint[]): QuadrantCluster[] {
+  const grouped = new Map<string, QuadrantPoint[]>();
+
+  points.forEach((point) => {
+    const key = getClusterKey(point);
+    const existing = grouped.get(key);
+    if (existing) {
+      existing.push(point);
+      return;
+    }
+    grouped.set(key, [point]);
+  });
+
+  return [...grouped.entries()].map(([key, groupedPoints]) => {
+    const orderedPoints = sortQuadrantPoints(groupedPoints);
+    const [primaryPoint] = orderedPoints;
+
+    return {
+      key,
+      x: primaryPoint.x,
+      y: primaryPoint.y,
+      cx: 40 + primaryPoint.x * 8.2,
+      cy: 468 - primaryPoint.y * 4.4,
+      radius: Math.max(...orderedPoints.map((point) => point.radius)),
+      points: orderedPoints,
+    };
+  });
+}
+
+function buildExpandedClusterNodes(cluster: QuadrantCluster): ExpandedClusterNode[] {
+  const spreadRadius = Math.max(34, cluster.radius + 18);
+
+  return cluster.points.map((point, index) => {
+    const angle = (-Math.PI / 2) + (index * (2 * Math.PI)) / cluster.points.length;
+    return {
+      point,
+      cx: cluster.cx + Math.cos(angle) * spreadRadius,
+      cy: cluster.cy + Math.sin(angle) * spreadRadius,
+    };
+  });
+}
+
 function QuadrantPlot({
   label,
   description,
   points,
   onSelect,
+  selectedCode,
 }: {
   label: string;
   description: string;
   points: QuadrantPoint[];
   onSelect: (code: string) => void;
+  selectedCode: string | null;
 }) {
   const reading = buildQuadrantReading(points);
+  const clusters = useMemo(() => buildQuadrantClusters(points), [points]);
+  const [expandedClusterKeys, setExpandedClusterKeys] = useState<string[]>([]);
+  const visibleClusterKeySet = useMemo(
+    () => new Set(clusters.map((cluster) => cluster.key)),
+    [clusters]
+  );
+  const selectedClusterKey = useMemo(() => {
+    if (!selectedCode) return null;
+    const selectedCluster = clusters.find((cluster) =>
+      cluster.points.some((point) => point.code === selectedCode)
+    );
+    if (!selectedCluster || selectedCluster.points.length < 2) return null;
+    return selectedCluster.key;
+  }, [clusters, selectedCode]);
+  const expandedClusterSet = useMemo(() => {
+    const next = new Set(
+      expandedClusterKeys.filter((key) => visibleClusterKeySet.has(key))
+    );
+    if (selectedClusterKey) {
+      next.add(selectedClusterKey);
+    }
+    return next;
+  }, [expandedClusterKeys, selectedClusterKey, visibleClusterKeySet]);
+
+  function toggleCluster(clusterKey: string) {
+    setExpandedClusterKeys((current) =>
+      current.includes(clusterKey)
+        ? current.filter((key) => key !== clusterKey)
+        : [...current, clusterKey]
+    );
+  }
 
   return (
     <section className="rounded-md border border-border bg-card p-4">
@@ -308,6 +403,9 @@ function QuadrantPlot({
         </Badge>
         <Badge variant="outline" className="rounded-md px-2.5 py-1 text-xs">
           Size: safe fields
+        </Badge>
+        <Badge variant="outline" className="rounded-md px-2.5 py-1 text-xs">
+          Overlaps: click grouped marker to expand
         </Badge>
       </div>
 
@@ -343,55 +441,177 @@ function QuadrantPlot({
             Kill or hold: low pull, slow signal
           </text>
 
-          {points.map((point) => {
-            const cx = 40 + point.x * 8.2;
-            const cy = 468 - point.y * 4.4;
-            const tone = getArchetypeVisual(point.archetype.id);
-            const strokeWidth = 2 + (1 - point.pullCoverage) * 3;
-            const dash = point.pullCoverage < 0.5 ? "6 4" : undefined;
+          {clusters.map((cluster) => {
+            const isExpanded = expandedClusterSet.has(cluster.key);
+            const primaryPoint = cluster.points[0];
+            const tone = getArchetypeVisual(primaryPoint.archetype.id);
+
+            if (cluster.points.length === 1) {
+              const [point] = cluster.points;
+              const strokeWidth = 2 + (1 - point.pullCoverage) * 3;
+              const dash = point.pullCoverage < 0.5 ? "6 4" : undefined;
+
+              return (
+                <g
+                  key={point.code}
+                  role="button"
+                  tabIndex={0}
+                  onClick={() => onSelect(point.code)}
+                  onKeyDown={(event) => {
+                    if (event.key === "Enter" || event.key === " ") {
+                      event.preventDefault();
+                      onSelect(point.code);
+                    }
+                  }}
+                  className="cursor-pointer"
+                >
+                  <circle
+                    cx={cluster.cx}
+                    cy={cluster.cy}
+                    r={point.radius}
+                    fill={tone.fill}
+                    stroke={point.releaseStatus === "blocked" ? "#b42318" : tone.text}
+                    strokeWidth={strokeWidth}
+                    strokeDasharray={dash}
+                  />
+                  <text
+                    x={cluster.cx}
+                    y={cluster.cy + 3}
+                    textAnchor="middle"
+                    fill={tone.text}
+                    fontSize="14"
+                    fontWeight="700"
+                  >
+                    {point.code}
+                  </text>
+                  <text
+                    x={cluster.cx}
+                    y={cluster.cy + point.radius + 18}
+                    textAnchor="middle"
+                    fill="#65736f"
+                    fontSize="11"
+                  >
+                    {formatAxis(point.x)} · {formatAxis(point.y)}
+                  </text>
+                </g>
+              );
+            }
+
+            const expandedNodes = isExpanded ? buildExpandedClusterNodes(cluster) : [];
 
             return (
-              <g
-                key={point.code}
-                role="button"
-                tabIndex={0}
-                onClick={() => onSelect(point.code)}
-                onKeyDown={(event) => {
-                  if (event.key === "Enter" || event.key === " ") {
-                    event.preventDefault();
-                    onSelect(point.code);
-                  }
-                }}
-                className="cursor-pointer"
-              >
-                <circle
-                  cx={cx}
-                  cy={cy}
-                  r={point.radius}
-                  fill={tone.fill}
-                  stroke={point.releaseStatus === "blocked" ? "#b42318" : tone.text}
-                  strokeWidth={strokeWidth}
-                  strokeDasharray={dash}
-                />
-                <text
-                  x={cx}
-                  y={cy + 3}
-                  textAnchor="middle"
-                  fill={tone.text}
-                  fontSize="14"
-                  fontWeight="700"
+              <g key={cluster.key}>
+                {isExpanded
+                  ? expandedNodes.map((node) => {
+                      const strokeWidth = 2 + (1 - node.point.pullCoverage) * 3;
+                      const dash = node.point.pullCoverage < 0.5 ? "6 4" : undefined;
+                      const nodeTone = getArchetypeVisual(node.point.archetype.id);
+
+                      return (
+                        <g key={node.point.code}>
+                          <line
+                            x1={cluster.cx}
+                            y1={cluster.cy}
+                            x2={node.cx}
+                            y2={node.cy}
+                            stroke="#c7c1b4"
+                            strokeWidth="1.5"
+                          />
+                          <g
+                            role="button"
+                            tabIndex={0}
+                            onClick={() => onSelect(node.point.code)}
+                            onKeyDown={(event) => {
+                              if (event.key === "Enter" || event.key === " ") {
+                                event.preventDefault();
+                                onSelect(node.point.code);
+                              }
+                            }}
+                            className="cursor-pointer"
+                          >
+                            <circle
+                              cx={node.cx}
+                              cy={node.cy}
+                              r={node.point.radius}
+                              fill={nodeTone.fill}
+                              stroke={node.point.releaseStatus === "blocked" ? "#b42318" : nodeTone.text}
+                              strokeWidth={strokeWidth}
+                              strokeDasharray={dash}
+                            />
+                            <text
+                              x={node.cx}
+                              y={node.cy + 3}
+                              textAnchor="middle"
+                              fill={nodeTone.text}
+                              fontSize="14"
+                              fontWeight="700"
+                            >
+                              {node.point.code}
+                            </text>
+                          </g>
+                        </g>
+                      );
+                    })
+                  : null}
+
+                <g
+                  role="button"
+                  tabIndex={0}
+                  onClick={() => toggleCluster(cluster.key)}
+                  onKeyDown={(event) => {
+                    if (event.key === "Enter" || event.key === " ") {
+                      event.preventDefault();
+                      toggleCluster(cluster.key);
+                    }
+                  }}
+                  className="cursor-pointer"
                 >
-                  {point.code}
-                </text>
-                <text
-                  x={cx}
-                  y={cy + point.radius + 18}
-                  textAnchor="middle"
-                  fill="#65736f"
-                  fontSize="11"
-                >
-                  {formatAxis(point.x)} · {formatAxis(point.y)}
-                </text>
+                  <circle
+                    cx={cluster.cx}
+                    cy={cluster.cy}
+                    r={cluster.radius + 4}
+                    fill="#fff7eb"
+                    stroke={tone.text}
+                    strokeWidth={3}
+                  />
+                  <text
+                    x={cluster.cx}
+                    y={cluster.cy + 3}
+                    textAnchor="middle"
+                    fill={tone.text}
+                    fontSize="15"
+                    fontWeight="800"
+                  >
+                    {cluster.points.length}
+                  </text>
+                  <circle
+                    cx={cluster.cx + cluster.radius + 6}
+                    cy={cluster.cy - cluster.radius - 2}
+                    r={11}
+                    fill={tone.text}
+                    stroke="#ffffff"
+                    strokeWidth={2}
+                  />
+                  <text
+                    x={cluster.cx + cluster.radius + 6}
+                    y={cluster.cy - cluster.radius + 2}
+                    textAnchor="middle"
+                    fill="#ffffff"
+                    fontSize="11"
+                    fontWeight="800"
+                  >
+                    {cluster.points.length}
+                  </text>
+                  <text
+                    x={cluster.cx}
+                    y={cluster.cy + cluster.radius + (isExpanded ? 34 : 24)}
+                    textAnchor="middle"
+                    fill="#65736f"
+                    fontSize="11"
+                  >
+                    {formatAxis(cluster.x)} · {formatAxis(cluster.y)}
+                  </text>
+                </g>
               </g>
             );
           })}
@@ -566,6 +786,7 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
             description="Enterprise, partner, and B2B2C motions are grouped here because the validation route starts with buyer conversations, pilots, or partner asks."
             points={b2bPoints}
             onSelect={setSelectedCode}
+            selectedCode={selectedCode}
           />
         ) : null}
 
@@ -575,6 +796,7 @@ export function MapDashboard({ products }: { products: ScoredProductRecord[] }) 
             description="Direct learner motions are plotted separately because the validation mechanics are different from enterprise sales."
             points={b2cPoints}
             onSelect={setSelectedCode}
+            selectedCode={selectedCode}
           />
         ) : null}
 
